@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
-description: 'Laatste release van Adobe Experience Manager-hulplijnen '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: Laatste release van Adobe Experience Manager-hulplijnen
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 2%
 
 ---
@@ -18,7 +19,7 @@ U kunt eenvoudig een upgrade uitvoeren op uw huidige versie van de Adobe Experie
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0.x uitvoeren voordat u een upgrade naar versie 4.1 uitvoert.
 * Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de upgradesectie in de productspecifieke installatiegids.
 
-Zie voor meer informatie [Upgradeinstructies](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## Compatibiliteitsmatrix
 
@@ -289,4 +290,3 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * SVG-afbeeldingen die niet correct worden weergegeven in de auteurmodi van de XML-editor. (9426)
 * Basislijn wordt niet geëerd tijdens het publiceren via salesforce. (8953)
 * De mogelijkheid om een routekaart te wissen uit de voorkeursinstellingen van de gebruiker is niet aanwezig. (8534)
-
