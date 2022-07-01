@@ -1,0 +1,42 @@
+---
+title: Release AEM hulplijnen
+description: Recentste versie van de Gidsen van AEM en vereiste AEM versies
+exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
+source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 0%
+
+---
+
+# [!DNL AEM Guides] Uitstoot
+
+[!DNL Adobe Experience Manager Guides] is een toepassing die op AEM wordt opgesteld. Het is een krachtige oplossing voor componentcontentbeheer op bedrijfsniveau (CCMS) die native DITA-ondersteuning in Adobe Experience Manager mogelijk maakt en AEM in staat stelt om op DITA gebaseerde content creation en delivery af te handelen.
+
+## UUID vs Niet-UUID toegelicht
+
+[!DNL AEM Guides] pakketten zijn beschikbaar in twee modi: UUID-builds en niet-UUID-builds.
+
+Klanten moeten bij de eerste installatie tussen de UUID- en de niet-UUID-modus beslissen (neem contact op met de Manager voor succes van de klant om u te helpen bij het nemen van de beslissing op basis van uw keuze).
+
+Wanneer u een upgrade uitvoert van één versie van [!DNL AEM Guides] naar een nieuwere versie, moeten klanten ervoor zorgen dat ze dezelfde modus (UUID / niet-UUID) kiezen om overeen te komen met hun bestaande modus. Een niet-UUID-build moet niet rechtstreeks worden geüpgraded naar een UUID-build. Voor de overgang van niet-UUID-build naar UUID-build is een migratie van inhoud nodig.
+
+**Builds upgraden**
+
+Wanneer u een upgrade uitvoert van een oudere versie naar een nieuwere versie van [!DNL AEM Guides]bepaalde migratiescripts moet uitvoeren. Raadpleeg Opmerkingen bij de release en versiespecifieke documentatie voor upgradeinstructies.
+
+Niet alle upgradepaden worden rechtstreeks ondersteund. Een directe upgrade naar versie 4.0 is bijvoorbeeld alleen mogelijk vanaf versie 3.8. Als u een versie gebruikt die ouder is dan 3.8, raadpleegt u de versiespecifieke documentatie voor instructies voor het uitvoeren van een upgrade [Help archiveren](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Neem contact op met de succesmanager van uw klant om het upgradepad te valideren.
+
+**[!DNL AEM Guides]Builds**
+
+De volgende lijst bevat de meest recente [!DNL AEM Guides] pakketten die beschikbaar zijn voor installatie op AMS of On-Prem, corresponderende AEM (vereisten), downloadkoppelingen van pakketten en andere nuttige informatie. Het wordt aanbevolen alleen de nieuwste build van [!DNL AEM Guides]. Als u om wat voor reden dan ook toegang nodig hebt tot oudere builds, kunt u verbinding maken met Customer Success Manager van uw account.
+
+>[!NOTE]
+>
+>Neem contact op met uw Customer Success Manager voor toegang tot [!DNL AEM Guides] bouwt voor AEM as a Cloud Service.
+
+| [!DNL AEM Guides] Geen | Release-opmerkingen | AEM | Downloadkoppelingen maken |
+|---|---|---|---|
+| **Hulplijnen 4.0 AEM** | [Opmerkingen bij de release 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html) | **Niet-UUID en UUID 4.0.3**<br> AEM 6.5 SP12, SP11, SP10 of SP9 <br>Java: 11 of 8 <br><br> <br>**Niet-UUID en UUID 4.0.2** <br> AEM 6.5 SP12, SP11, SP10 of SP9 <br>Java: 11 of 8 <br><br> **Niet-UUID en UUID 4.0** <br> AEM 6.5 SP11, SP10 of SP9 | **Niet-UUID**: <br> **AEM 6,5** <br>[4.0.3.](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-0-3%2F4-0-2-non-uuid%2Fcom.adobe.fmdita-6.5-hotfix-4.0.3.1.zip)<br>[4.0.2.](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-0-2%2F4-0-2-non-uuid%2Fcom.adobe.fmdita-6.5-sp-4.0.2.10.zip)  <br> [4,0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/4-0/4-0-non-uuid/com.adobe.fmdita-6.5-4.0.70.zip)  <br><br> **UUID** <br>**AEM 6,5**  <br>[4.0.3.](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-0-3%2F4-0-3-uuid%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.0.3.1.zip) <br>[4.0.2.](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-0-2%2F4-0-2-uuid%2Fcom.adobe.fmdita.uuid-6.5-sp-4.0.2.10.zip)<br> [4,0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/4-0/4-0-uuid/com.adobe.fmdita-6.5-uuid-4.0.70.zip) |
+| **AEM Hulplijnen 3.8.5** <br> 3.8.5 is een versie van SP bovenop 3.8. <br>3.8 de versie moet niet standalone worden geïnstalleerd aangezien 3.8.5 SP een kritieke moeilijke situatie bevat. <br>Klanten moeten eerst 3.8 en vervolgens SP 3.8.5 installeren. | [Opmerkingen bij de release 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html) | **Niet-UUID** <br> AEM 6.5 SP9 of SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3 <br><br> **UUID** <br> AEM 6.5 SP9 of SP8 | **Niet-UUID**: <br> **AEM 6,5** <br> [3.8.5 SP](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8-5/com.adobe.fmdita-6.5-hotfix-3.8.5.2.zip) <br>[3,8](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8/com.adobe.fmdita-6.5-3.8.166.zip)<br> **AEM 6,4** <br> [3.8.5 SP](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8-5/com.adobe.fmdita-6.4-hotfix-3.8.5.1.zip) <br>[3,8](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8/com.adobe.fmdita-6.4-3.8.166.zip) <br> **AEM 6,3** <br> [3.8.5 SP](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8-5/com.adobe.fmdita-6.3-hotfix-3.8.5.1.zip) <br>[3,8](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8/com.adobe.fmdita-6.3-3.8.166.zip) <br><br> **UUID** <br>**AEM 6,5** <br> [3.8.5 SP](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8-5uuid/com.adobe.fmdita.uuid-6.5-hotfix-3.8.5.2.zip) <br> [3,8](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/3-8uuid/com.adobe.fmdita.uuid-6.5-3.8.168.zip) |
