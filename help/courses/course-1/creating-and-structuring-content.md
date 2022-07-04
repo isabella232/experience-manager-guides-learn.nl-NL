@@ -2,7 +2,7 @@
 title: Inhoud maken in [!DNL AEM Guides]
 description: Inhoud maken in [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -24,6 +24,7 @@ Nadat u zich vertrouwd hebt gemaakt met de gebruikersinterface, kunt u beginnen 
 1. Selecteer **+** pictogram en **Map**.
 
    ![+ pictogram](images/lesson-3/+-icon.png)
+
 1. Geef de map een titel.
 1. Selecteer **Maken**.
 U hebt een nieuwe map gemaakt die nu wordt weergegeven in de opslagplaats. Deze map is uw thuismap voor alle cursusinhoud.
@@ -37,6 +38,7 @@ We kunnen nu een map in uw nieuwe map maken die afbeeldingen of andere inhoud be
    ![Ovaalpictogram](images/lesson-3/ellipses-icon.png)
 
    Het menu Opties wordt weergegeven.
+
 1. Selecteren **Map \> maken**.
    ![Submappen maken](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -49,6 +51,7 @@ We kunnen nu een map in uw nieuwe map maken die afbeeldingen of andere inhoud be
    ![Ovaalpictogram](images/lesson-3/ellipses-icon.png)
 
    Het menu Opties wordt weergegeven.
+
 1. Selecteren **Onderwerp \> maken**.
 
    ![Een nieuw onderwerp maken](images/lesson-3/create-topic-with-markings.png)
@@ -93,6 +96,7 @@ U kunt uw werk op elk gewenst moment opslaan met Opslaan of Opslaan als nieuwe v
    >[!NOTE]
    > 
    > Als uw programma met vooraf bepaalde etiketten wordt gevormd, kunt u van deze selecteren om verenigbare etikettering te verzekeren.
+
 1. Selecteren **Opslaan**.
 
    U hebt een nieuwe versie van uw onderwerp gecreeerd, en het versieaantal wordt bijgewerkt.

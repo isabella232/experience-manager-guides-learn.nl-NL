@@ -2,7 +2,7 @@
 title: Spellingcontrole en zoeken/vervangen
 description: Spellingcontrole gebruiken en zoeken/vervangen in AEM hulplijnen
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -37,9 +37,9 @@ Mogelijk wilt u een ander gereedschap voor spellingcontrole gebruiken dan het st
 
 3. U hebt twee mogelijkheden:
 
-   ・ **Spellingcontrole browser** — De standaardinstelling waarbij de spellingcontrole gebruikmaakt van het ingebouwde woordenboek van de browser.
+   - **Spellingcontrole browser** — De standaardinstelling waarbij de spellingcontrole gebruikmaakt van het ingebouwde woordenboek van de browser.
 
-   ・ **Spellingcontrole AEM** — gebruik dit om een lijst van het douanewoord te bouwen gebruikend het douanewoordenboek van AEM.
+   - **Spellingcontrole AEM** — gebruik dit om een lijst van het douanewoord te bouwen gebruikend het douanewoordenboek van AEM.
 
 4. Kies **Spellingcontrole AEM**.
 
@@ -59,19 +59,17 @@ De beheerder kan de instellingen wijzigen zodat het AEM woordenboek aangepaste w
 
    ![CRXDE Lite Config-knooppunt](images/lesson-11/config-node.png)
 
-
 4. Maak een nieuw bestand.
 
    a. Klik met de rechtermuisknop op de configuratiemap.
-b. Kies **Maken > Bestand maken**.
+
+   b. Kies **Maken > Bestand maken**.
 
    ![Nieuw woordenboekbestand maken](images/lesson-11/new-dictionary-file.png)
-
 
    c. Geef het bestand een naam _**user_dictionary.txt**_.
 
    ![Tekst gebruikerswoordenboek](images/lesson-11/user-dictionary.png)
-
 
    d. Klikken [!UICONTROL **OK**].
 
@@ -109,12 +107,11 @@ Auteurs moeten mogelijk hun Web Editor-sessie opnieuw starten om de bijgewerkte 
 
 4. Kies
 
-   ・ **Bestand uitchecken vóór vervangen** — als dit is ingeschakeld door een beheerder, wordt het bestand automatisch uitgecheckt voordat zoektermen worden vervangen.
+   - **Bestand uitchecken vóór vervangen** — als dit is ingeschakeld door een beheerder, wordt het bestand automatisch uitgecheckt voordat zoektermen worden vervangen.
 
-   ・ **Alleen hele woorden** — hiermee wordt de zoekopdracht beperkt tot het exacte ingevoerde woord of de exacte ingevoerde woordgroep.
+   - **Alleen hele woorden** — hiermee wordt de zoekopdracht beperkt tot het exacte ingevoerde woord of de exacte ingevoerde woordgroep.
 
    ![Zoeken in vervangen in gegevensopslagruimte](images/lesson-11/repository-find-replace.png)
-
 
 5. Klik op de knop [!UICONTROL **Filter toepassen**] pictogram om het pad te selecteren in de opslagplaats waar u de zoekopdracht wilt uitvoeren.
 

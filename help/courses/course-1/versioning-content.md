@@ -2,7 +2,7 @@
 title: Versioninhoud in [!DNL AEM Guides]
 description: Versioninhoud in [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -29,8 +29,9 @@ Als u een document versibreert, wordt een opname van de huidige staat gemaakt. H
    Met labels kunt u opgeven welke versie u wilt opnemen bij het publiceren.
 
    >[!NOTE]
-   > 
-   > Als uw programma met vooraf bepaalde etiketten wordt gevormd, kunt u van deze selecteren om verenigbare etikettering te verzekeren.
+   >
+   >Als uw programma met vooraf bepaalde etiketten wordt gevormd, kunt u van deze selecteren om verenigbare etikettering te verzekeren.
+
 1. Selecteren **Opslaan**.
 
    U hebt een nieuwe versie van uw onderwerp gecreeerd, en het versieaantal wordt bijgewerkt. De eerste versie van een document is versie 1.0.

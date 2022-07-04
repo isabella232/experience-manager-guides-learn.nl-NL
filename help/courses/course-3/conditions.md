@@ -2,7 +2,7 @@
 title: Voorwaarden
 description: Werken met voorwaarden in AEM hulplijnen
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -31,11 +31,11 @@ Voorbeeldbestanden die u voor deze les wilt gebruiken, staan in het bestand [con
 
 5. Vul de vereiste velden in.
 
-   ・ De naam moet overeenkomen met een kenmerk dat wordt gebruikt voor het maken van profielen.
+   - De naam moet overeenkomen met een kenmerk dat wordt gebruikt voor het maken van profielen.
 
-   ・ De waarde is de nauwkeurige ingang die in de DITA codebron zal worden gebruikt.
+   - De waarde is de nauwkeurige ingang die in de DITA codebron zal worden gebruikt.
 
-   ・ Het label is het woord dat wordt weergegeven door de gebruiker die kenmerken invoert.
+   - Het label is het woord dat wordt weergegeven door de gebruiker die kenmerken invoert.
 
 6. Klikken [!UICONTROL **Opslaan**].
 
@@ -104,7 +104,6 @@ De kaarten van het onderwerpRegeling zijn een gespecialiseerde vorm van ditamap 
    >[!IMPORTANT]
    >
    >Belangrijk: de geselecteerde kaart van de Wortel moet de kaart zijn die het OnderwerpRegeling bevat.
-
 
    ![Gebruikersvoorkeuren](images/lesson-13/user-preferences-2.png)
 

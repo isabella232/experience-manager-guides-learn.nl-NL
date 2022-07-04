@@ -2,7 +2,7 @@
 title: Workflows voor het maken van eenvoudige inhoud
 description: Inhoud maken in AEM hulplijnen
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Afbeeldingen kunnen rechtstreeks vanaf een lokaal station worden toegevoegd.
 
 3. Gebruiken **Eigenschappen van inhoud** in het rechterdeelvenster om de
 
-   ・ schaal
+   - schalen
 
-   • position
+   - position
 
-   ・ uitlijning, of
+   - uitlijning, of
 
-   ・ andere kenmerken.
+   - andere kenmerken.
 
    ![Eigenschappen van inhoud](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ Gebruikers kunnen een PDF van het huidige onderwerp downloaden om het onderwerp 
 3. Selecteren **Zoeken in**.
 
 4. Kies **Bewaarplaats** of **Kaart** om naar de gewenste onderwerpplaats te springen.
-
 
 ## Versie een onderwerp
 
@@ -183,7 +182,6 @@ Het versienummer wordt bijgewerkt.
    - De versiegeschiedenis met labels wordt links weergegeven.
 
    ![Versiehistorie](images/lesson-15/version-history.png)
-
 
 4. Klik op een versie om opties te openen zoals **Deze versie herstellen** en **Voorvertoning versie**.
 

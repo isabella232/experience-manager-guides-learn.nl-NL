@@ -2,7 +2,7 @@
 title: Wijzigingen bijhouden
 description: Wijzigingen bijhouden in AEM hulplijnen
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -92,9 +92,9 @@ Wanneer u in een multi-auteurmilieu werkt, kan het moeilijk zijn om te volgen we
 
 4. Kies bij Opties de volgende opties:
 
-   ・ **Wijzigingen bijhouden in geselecteerde versie**: Met deze optie worden alle inhoudsupdates weergegeven in de vorm van bijgehouden wijzigingen. Vervolgens kunt u kiezen of u de wijzigingen in het document een voor een of alle wijzigingen tegelijk wilt accepteren of negeren.
+   - **Wijzigingen bijhouden in geselecteerde versie**: Met deze optie worden alle inhoudsupdates weergegeven in de vorm van bijgehouden wijzigingen. Vervolgens kunt u kiezen of u de wijzigingen in het document een voor een of alle wijzigingen tegelijk wilt accepteren of negeren.
 
-   ・ **Geselecteerde versie herstellen**: Met deze optie keert u de huidige versie van het document terug naar de geselecteerde versie. Het geeft u geen controle over de inhoud die wordt geaccepteerd of afgewezen.
+   - **Geselecteerde versie herstellen**: Met deze optie keert u de huidige versie van het document terug naar de geselecteerde versie. Het geeft u geen controle over de inhoud die wordt geaccepteerd of afgewezen.
 
 5. Klikken [!UICONTROL **Gereed**].
 

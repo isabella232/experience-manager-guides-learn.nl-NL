@@ -2,7 +2,7 @@
 title: Werken met afbeeldingen in AEM hulplijnen
 description: Werken met afbeeldingen in Adobe Experience Manager-hulplijnen
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -27,10 +27,10 @@ U kunt het afbeeldingsbestand met het voorbeeld downloaden van [hier.](assets/wo
 
    ![Elementen uploaden](images/lesson-4/upload-assets.png)
 
-
 1. Selecteer de afbeelding die u wilt uploaden van uw lokale systeem en selecteer **Openen**.
 
    De [!UICONTROL Upload Assets] wordt weergegeven.
+
 1. Selecteren **Uploaden**.
 
 ## Een afbeelding invoegen in een onderwerp
@@ -52,7 +52,6 @@ Voor het volgende, zorg ervoor dat uw onderwerp in de documentredacteur open is.
 1. Selecteer **Afbeelding invoegen** pictogram.
 
    ![Pictogram Afbeelding invoegen](images/lesson-4/insert-image.png)
-
 
    Het dialoogvenster Afbeelding invoegen wordt geopend.
 
@@ -88,9 +87,11 @@ Aangezien u een significante verandering in uw onderwerp hebt aangebracht, kunt 
 1. Voer relevante labels in in het veld Versielabels.
 
    Met labels kunt u opgeven welke versie u wilt opnemen bij het publiceren.
+
    >[!NOTE]
    > 
    > Als uw programma met vooraf bepaalde etiketten wordt gevormd, kunt u van deze selecteren om verenigbare etikettering te verzekeren.
+
 1. Selecteren **Opslaan**.
 
    U hebt een nieuwe versie van uw onderwerp gecreeerd, en het versieaantal wordt bijgewerkt.

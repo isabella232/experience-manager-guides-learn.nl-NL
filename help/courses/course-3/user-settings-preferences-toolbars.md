@@ -2,7 +2,7 @@
 title: Gebruikersvoorkeuren, Editor-instellingen en Editor-werkbalken
 description: Gebruikersvoorkeuren en editorinstellingen wijzigen in AEM hulplijnen
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Tags zijn visuele aanwijzingen die de grenzen van een element aangeven. Een elem
 
    De markeringen verschijnen binnen het onderwerp. Met de weergave Codes kunt u:
 
-   ・ Selecteer de inhoud van een element door op de openingstag of de afsluitende tag te klikken.
+   - Selecteer de inhoud van een element door op de openingstag of de afsluitende tag te klikken.
 
-   ・ Tags uitvouwen of samenvouwen door op de +- of --toets in de tag te klikken.
+   - U kunt tags uitvouwen of samenvouwen door op de +- of - -toets in de tag te klikken.
 
-   ・ Gebruik het contextmenu om het geselecteerde element te knippen, te kopiëren of te passeren.
+   - Gebruik het contextmenu om het geselecteerde element te knippen, te kopiëren of te passeren.
 
-   ・ Sleep elementen en zet ze neer door de tag te selecteren en het element op een geldige locatie neer te zetten.
+   - Sleep elementen door de tag te selecteren en het element op een geldige locatie neer te zetten.
 
 2. Klik op de knop [!UICONTROL **Tags in-/uitschakelen**] weer om labels te verbergen.
 
@@ -75,11 +75,11 @@ Met de werkbalk rechtsboven in het scherm kunt u schakelen tussen weergaven.
 
 ![Modi](images/lesson-2/modes.png)
 
-・ Selecteer **Auteur** om de structuur en de inhoud weer te geven terwijl u met een onderwerp werkt.
+- Selecteren **Auteur** om de structuur en de inhoud weer te geven terwijl u met een onderwerp werkt.
 
-・ Selecteer **Bron** om onderliggende XML te tonen die omhoog het onderwerp maakt.
+- Selecteren **Bron** om onderliggende XML te tonen die omhoog het onderwerp maakt.
 
-・ Selecteer **Voorvertoning** om te tonen hoe een onderwerp wanneer bekeken door een gebruiker in hun browser zal tonen.
+- Selecteren **Voorvertoning** om te tonen hoe een onderwerp wanneer bekeken door een gebruiker in hun browser zal tonen.
 
 ## Het thema wijzigen met Gebruikersvoorkeuren
 
