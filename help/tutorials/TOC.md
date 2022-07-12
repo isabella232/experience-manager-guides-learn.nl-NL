@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: be04e01add023cbfeb1319ee946cea053bf6294b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '108'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 3%
          + [Opmerkingen bij de release februari](./release-info/release-notes-2022.2.0.md)
          + [Release-aantekeningen januari](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
+         + [4.1 Opmerkingen bij de release](./release-info/release-notes-4.1.md)
          + [Opmerkingen bij de release 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [Opmerkingen bij de release 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Kwesties voor inhoudsarchitectuur en gebruik {#content-arch}
@@ -37,3 +38,4 @@ ht-degree: 3%
    + [Een PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
    + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
 + Versioning {#versioning}
+   + [Componenten van een PDF-sjabloon](./native-pdf/pdf-template.md)
