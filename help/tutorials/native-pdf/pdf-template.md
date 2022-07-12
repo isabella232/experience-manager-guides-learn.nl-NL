@@ -1,7 +1,9 @@
 ---
 title: Native PDF-publicatiefunctie | De functie Native PDF aanpassen en configureren
 description: Leer hoe u de verschillende onderdelen van de functie Native PDF aanpast en configureert.
-source-git-commit: bd62afd85ddbcf5f305b18b9a9c226a4790d383a
+hide: true
+hidefromtoc: true
+source-git-commit: 0f18d9f7d7967b6f25c5d05b54a22f65e9fc20f7
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
