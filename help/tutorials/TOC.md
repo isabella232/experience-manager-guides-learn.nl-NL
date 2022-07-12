@@ -2,7 +2,7 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: be04e01add023cbfeb1319ee946cea053bf6294b
+source-git-commit: 7246fe38f139bbf10f1926761a366e1dc617d821
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 3%
@@ -38,4 +38,4 @@ ht-degree: 3%
    + [Een PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
    + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
 + Versioning {#versioning}
-   + [Componenten van een PDF-sjabloon](./native-pdf/pdf-template.md)
+   + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
