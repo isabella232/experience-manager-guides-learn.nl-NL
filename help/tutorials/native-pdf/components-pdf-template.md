@@ -1,7 +1,9 @@
 ---
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de verschillende componenten van een PDF sjabloon en hoe u deze kunt aanpassen en configureren.
-source-git-commit: 4665e861ddae7c62fdddf67c7adde543bc1f642d
+hide: true
+hidefromtoc: true
+source-git-commit: 698469293e41558753ff6aada92f050f45be867a
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 0%
