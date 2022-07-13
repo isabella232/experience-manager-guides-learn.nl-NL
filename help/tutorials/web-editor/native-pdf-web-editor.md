@@ -2,14 +2,14 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
 
-# Een PDF-uitvoer publiceren
+# PDF-uitvoer publiceren
 
 Met de oplossing van de Gidsen van de AEM, kunt u PDF van individuele onderwerpen of een volledig kaartdossier produceren. U kunt de inhoud publiceren in een PDF-indeling met een van de volgende drie methoden:
 
