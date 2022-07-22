@@ -2,16 +2,14 @@
 title: Videogebaseerde cursussen voor [!DNL Adobe Experience Manager Guides]
 description: Videozelfstudies bekijken over [!DNL Adobe Experience Manager Guides], AEM XML Add-on, AEM XML Plugin, AEM DoX, en AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
 
 # Videocursussen voor [!DNL Adobe Experience Manager Guides] {#overview}
-
-Adobe Experience Manager-hulplijnen (aangeduid als [!DNL AEM Guides] oplossing later in deze ruimte) is een krachtige, onderneming-rang oplossing van het componentenbeheer (CCMS).
 
 Bekijk deze ruimte voor videocursussen voor [!DNL Adobe Experience Manager Guides].
 
