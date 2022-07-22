@@ -2,10 +2,10 @@
 user-guide-title: Tutorials en videolessen voor AEM hulplijnen
 user-guide-description: Bekijk onze verzameling met zelfstudies en video's voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials en video's van hulplijnen AEM
-source-git-commit: f08fe1a96f0a0bcb9a50e316bd0b6c9ff2670104
+source-git-commit: d8ffc09abc0a79d21d2d1df1832f75a34130a65e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '228'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,8 @@ ht-degree: 2%
    + Oorspronkelijke PDF van WIP {#hidden}
       + [Verborgen PDF-sjabloon](./tutorials/native-pdf/pdf-template.md)
       + [Verborgen onderdelen van een PDF-sjabloon](./tutorials/native-pdf/components-pdf-template.md)
-+ [Video&#39;s](./courses/overview.md)
++ Video&#39;s {#videos}
+   + [Overzicht](./courses/overview.md)
    + Aan de slag met [!DNL AEM Guides] {#getting-started}
       + [Cursusoverzicht](./courses/course-1/overview.md)
       + [De AEM-gebruikersinterface begrijpen](./courses/course-1/understanding-the-aem-user-interface.md)
