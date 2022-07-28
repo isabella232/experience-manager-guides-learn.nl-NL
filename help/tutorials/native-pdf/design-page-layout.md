@@ -1,14 +1,16 @@
 ---
 title: Native PDF-publicatiefunctie | Een pagina-indeling ontwerpen
-description: 'Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschillende gedeelten van uw PDF-uitvoer weer te geven. '
+description: Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschillende gedeelten van uw PDF-uitvoer weer te geven.
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # Een pagina-indeling ontwerpen
 
@@ -85,7 +87,7 @@ Als u bijvoorbeeld een afbeelding wilt invoegen in het koptekstgebied van de eer
 
 1. Klik op Koptekst bewerken (<img src="./assets/header-icon.svg" width="25">) om de cursor in het koptekstgebied te plaatsen.
 
-1. Klik op de inerte afbeelding (<img src="./assets/insert-image-icon.svg" width="25"> ).
+1. Klik op de inerte afbeelding (<img src="./assets/insert-image-icon.svg" width="25">).
 
    Het pop-upvenster Pad selecteren wordt weergegeven.
 
@@ -135,6 +137,8 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK.
@@ -169,9 +173,9 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Hoek ontwikkelaar: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| Hoek ontwikkelaar: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-Als u direct met de CSS en code van de HTML wilt werken, dan kunt u dit ook bereiken door naar de Bronmening van de paginalay-out te gaan en veranderingen in de code aan te brengen. Het volgende codefragment toont de zelfde footer die door de code wordt geplaatst:
+| Als u direct met de CSS en code van de HTML wilt werken, dan kunt u dit ook bereiken door naar de Bronmening van de paginalay-out te gaan en veranderingen in de code aan te brengen. Het volgende codefragment toont de zelfde footer die door de code wordt geplaatst: |
 
 ```md
 …
@@ -217,6 +221,8 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling Eerst
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >De definitieve gepubliceerde PDF zal slechts de ingangen tonen TOC die op de inhoud in uw hoofdstukken worden gebaseerd. Als u geen niveau 5 rubrieken in een hoofdstuk hebt, zal het niet in de definitieve output worden getoond.
@@ -258,6 +264,8 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
    Zoals in het volgende voorbeeld wordt getoond, wordt de eigenschap Kolom uitstrekken voor de koptekst ingesteld op Alles. Dit zorgt ervoor dat, ook al is het document meerdere kolommen, de kop zich over meerdere kolommen beslaat.
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    U kunt het bezit van de Kolom van de Breedte op om het even welk element toepassen DITA.
@@ -385,4 +393,3 @@ Zie de documentatie bij W3C CSS Page Media Standards voor meer informatie over h
 * **Achtergrond**: Bevat eigenschappen waarmee een achtergrondafbeelding of kleurschaduw wordt opgenomen. U kunt de Afbeeldingsgrootte instellen (door Hoogte of Breedte in te stellen), Achtergrond herhalen (zoals herhalen, niet herhalen, rond of meer) en Achtergrondpositie (zoals links boven, rechts midden, onder of meer).
 
 * **Meerdere kolommen**: Bevat eigenschappen om multi-kolomeigenschappen voor de pagina of om het even welk specifiek element, zoals Hoofdstuk TOC te vormen. Zie voor meer informatie over de eigenschappen en hoe u deze kunt gebruiken _Werken met paginalay-out met meerdere kolommen_.
-
