@@ -3,9 +3,9 @@ title: Native PDF-publicatiefunctie | Een pagina-indeling ontwerpen
 description: 'Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschillende gedeelten van uw PDF-uitvoer weer te geven. '
 hide: true
 hidefromtoc: true
-source-git-commit: 77256556d9222ffd096a599e5875c94108ebb8ed
+source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3289'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,10 @@ De instellingen voor Pagina-indelingen onder het dialoogvenster **Sjabloon > Ins
 
 De verschillende paginalay-outs in uw PDF sjabloon kunnen verder worden aangepast door verschillende lay-outs voor de eerste, rechter of linkerpagina te hebben. U kunt deze pagina&#39;s anders ontwerpen met de ontwerper van de paginalay-out.
 
-> **Opmerking**: Als u voor een sectie in uw boek één pagina-indeling wilt gebruiken, hoeft u de lay-outs Eerste, Rechts of Links niet te maken.
+>[!NOTE]
+>
+>Als u voor een sectie in uw boek één pagina-indeling wilt gebruiken, hoeft u de lay-outs Eerste, Rechts of Links niet te maken.
+
 
 Houd rekening met de volgende punten bij het maken van de paginalay-outs:
 
@@ -56,7 +59,7 @@ In het volgende voorbeeld wordt het maken van varianten van een paginalay-out do
 
    Wanneer u een pagina-indeling maakt, wordt deze standaard ook geopend voor bewerking. In de volgende schermafbeelding wordt een lege (standaard)paginalay-out weergegeven:
 
-   <img src="./assets/default-blank-page-layout.png" height="400">
+   <img src="./assets/default-blank-page-layout.png" width="300">
 
    Standaard worden de kop-, voettekst- en inhoudsgebieden in een sjabloon gemaakt. U kunt deze gebieden eenvoudig aanpassen met de gereedschappen, pagina-eigenschappen en inhoudseigenschappen in de gebruikersinterface. Voor geavanceerde configuratie kunt u de Bronweergave gebruiken en uw aangepaste HTML- en CSS-code toevoegen.
 
@@ -76,7 +79,9 @@ Als u bijvoorbeeld een afbeelding wilt invoegen in het koptekstgebied van de eer
 
 1. Open de vereiste pagina-indeling voor bewerking.
 
-   > **Opmerking**: Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >[!NOTE]
+   >
+   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik op Koptekst bewerken (<img src="./assets/header-icon.svg" width="25">) om de cursor in het koptekstgebied te plaatsen.
 
@@ -114,7 +119,9 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
 1. Open de vereiste pagina-indeling voor bewerking.
 
-   Opmerking: Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >[!NOTE]
+   >
+   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik op Voettekst bewerken (![](./assets/footer-icon.svg)) om de cursor in het voettekstgebied te plaatsen.
 
@@ -128,7 +135,9 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   > **Opmerking**: U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK.
+   >[!NOTE]
+   >
+   >U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK.
 
    Het veld Standaardpaginanummer wordt ingevoegd in het voettekstgebied van de paginalay-out.
 
@@ -160,8 +169,8 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-> **Hoek ontwikkelaar:**  ![](./assets/developer-corner-icon.svg)
-
+| Hoek ontwikkelaar: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 Als u direct met de CSS en code van de HTML wilt werken, dan kunt u dit ook bereiken door naar de Bronmening van de paginalay-out te gaan en veranderingen in de code aan te brengen. Het volgende codefragment toont de zelfde footer die door de code wordt geplaatst:
 
 ```md
@@ -183,7 +192,9 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling Eerst
 
 1. Open de vereiste pagina-indeling voor bewerking.
 
-   Opmerking: Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >[!NOTE]
+   >
+   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Plaats de cursor in het inhoudsgebied van de paginalay-out.
 1. Klik op de inhoudsopgave Hoofdstuk (<img src="./assets/chapter-toc-icon.svg">).
@@ -192,7 +203,9 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling Eerst
 
    <img src="./assets/chapter-toc-default.png" width="400">
 
-   > **Opmerking**: De standaardhoofdstukinhoudsopgave bevat de koppen 1 tot en met 4. Hier, is Rubriek 1 de Titel van het Hoofdstuk zelf. Het kan dus zijn dat u de titel van het hoofdstuk niet opnieuw wilt opnemen in de inhoudsopgave of dat u het gewenste niveau van de koppen in de inhoudsopgave wilt verhogen. U kunt de inhoudsopgave aanpassen door de eigenschappen te wijzigen.
+   >[!NOTE]
+   >
+   >De standaardhoofdstukinhoudsopgave bevat de koppen 1 tot en met 4. Hier, is Rubriek 1 de Titel van het Hoofdstuk zelf. Het kan dus zijn dat u de titel van het hoofdstuk niet opnieuw wilt opnemen in de inhoudsopgave of dat u het gewenste niveau van de koppen in de inhoudsopgave wilt verhogen. U kunt de inhoudsopgave aanpassen door de eigenschappen te wijzigen.
 
 1. Open het deelvenster Eigenschappen voor inhoud HTML om de niveaus van de koppen van de inhoudsopgave aan te passen.
 
@@ -204,7 +217,9 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling Eerst
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   > **Opmerking**: De definitieve gepubliceerde PDF zal slechts de ingangen tonen TOC die op de inhoud in uw hoofdstukken worden gebaseerd. Als u geen niveau 5 rubrieken in een hoofdstuk hebt, zal het niet in de definitieve output worden getoond.
+   >[!NOTE]
+   >
+   >De definitieve gepubliceerde PDF zal slechts de ingangen tonen TOC die op de inhoud in uw hoofdstukken worden gebaseerd. Als u geen niveau 5 rubrieken in een hoofdstuk hebt, zal het niet in de definitieve output worden getoond.
 
 ## Werken met paginalay-out met meerdere kolommen
 
@@ -214,7 +229,9 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
 
 1. Open de vereiste pagina-indeling voor bewerking.
 
-   > **Opmerking**: Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >[!NOTE]
+   >
+   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Als de lay-out met meerdere kolommen wordt toegepast op de inhoud, met uitzondering van de kop- en voettekst, moet u het inhoudselement in de breadcrumb selecteren.
 
@@ -228,7 +245,9 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
 
    * **Kolombreedte:** Geef de breedte van een kolom op in een lay-out met meerdere kolommen. De grootte wordt standaard ingesteld in pixels (px). U kunt de grootte ook opgeven in pt, rem, em, % of in eenheden.
 
-      >**Opmerking:** Als u geen grootte opgeeft, wordt de grootte van de kolommen automatisch aangepast aan de opgegeven paginamarges.
+      >[!NOTE]
+      >
+      >Als u geen grootte opgeeft, wordt de grootte van de kolommen automatisch aangepast aan de opgegeven paginamarges.
 
    * **Tussenruimte kolom** : Geef de ruimte tussen afzonderlijke kolommen op.
 
@@ -240,7 +259,7 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   >[**BELANGRIJK**]
+   >[!IMPORTANT]
    U kunt het bezit van de Kolom van de Breedte op om het even welk element toepassen DITA.
 
    * **Kolomvulling** : Geef op hoe kolommen worden gevuld door inhoud. Standaard is dit Balans, waarbij elke kolom wordt gevuld met dezelfde hoeveelheid inhoud.
@@ -248,7 +267,7 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
    * **Kolomregel** : Als u een lijn tussen kolommen wilt hebben, dan gebruik dit bezit om de lijn of heersende stijlen te bepalen. Geef de waarden op voor Stijl, Kleur en Breedte met liniëring om een lijn tussen kolommen toe te voegen.
 
 
-## Pagina-eigenschappen gebruiken voor andere afdrukstand van pagina**
+## Pagina-eigenschappen gebruiken voor andere afdrukstand van de pagina
 
 Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u controle hebt over verschillende pagina-eigenschappen. Met de functie Native PDF worden alle eigenschappen van de hoofdpagina ingekapseld in het deelvenster Pagina-eigenschappen. In het deelvenster Pagina-eigenschappen hebt u toegang tot verschillende eigenschappen onder de volgende secties:
 
@@ -268,7 +287,7 @@ Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u con
 
 Zie een voorbeeld waarin een combinatie van de afdrukstand Staand en Liggend wordt gebruikt en rotatie-eigenschappen worden weergegeven. In dit voorbeeld maken we een PDF met de standaardoriëntatie Staand, maar een tabel wordt liggend weergegeven met inhoud in de 90 graden rechtsom. De uiteindelijke uitvoer ziet er ongeveer als volgt uit:
 
-<img src="./assets/portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
 In de bovenstaande uitvoer wordt de contactlijst weergegeven in de modus Liggend, waarbij de inhoud ook 90 graden wordt gedraaid. De resterende inhoud wordt weergegeven in de modus Normaal staand.
 
@@ -338,7 +357,7 @@ Voer de volgende stappen uit om bovenstaande taken te verwezenlijken:
 
    1. In de **Eigenschappen van inhoud** een nieuw deelvenster toevoegen `outputclass` eigenschap met `landscape-style` als eigenschapswaarde.
 
-      <img src="./assets/new-style-table-outputclass.png" height="400">
+      <img src="./assets/new-style-table-outputclass.png" width="300">
 
    1. Klikken **Alles opslaan** om het bijgewerkte bestand op te slaan.
 
@@ -350,7 +369,8 @@ In de uiteindelijke PDF wordt de tabelinhoud liggend weergegeven, zoals in het b
 
 Met het deelvenster Eigenschappen voor inhoud kunt u de vormgeving van de elementen in de paginalay-out eenvoudig bijwerken. De eigenschappen in het deelvenster Eigenschappen van inhoud zijn onderverdeeld in de volgende secties:
 
->**Opmerking**: Zie de documentatie bij W3C CSS Page Media Standards voor meer informatie over het gebruik van deze eigenschappen.
+>[!NOTE]
+Zie de documentatie bij W3C CSS Page Media Standards voor meer informatie over het gebruik van deze eigenschappen.
 
 * **Attributen**: Bevat eigenschappen ID, Class en Translate. Als u de eigenschap Translate instelt op Nee, wordt de inhoud in dat specifieke element niet vertaald.
 
