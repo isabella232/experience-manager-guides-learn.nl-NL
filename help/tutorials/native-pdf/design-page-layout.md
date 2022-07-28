@@ -4,7 +4,7 @@ description: Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschi
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ In het volgende voorbeeld voegen we een paginanummer en een onderwerptitel in in
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Hoek ontwikkelaar: | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _Hoek ontwikkelaar_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 Als u direct met de CSS en code van de HTML wilt werken, dan kunt u dit ook bereiken door naar de Bronmening van de paginalay-out te gaan en veranderingen in de code aan te brengen. Het volgende codefragment toont de zelfde footer die door de code wordt geplaatst:
 
 ```md
@@ -206,7 +207,7 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling Eerst
    De standaardhoofdstukinhoudsopgave wordt ingevoegd in het inhoudsgebied.
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling Eerst
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    U kunt het bezit van de Kolom van de Breedte op om het even welk element toepassen DITA.
