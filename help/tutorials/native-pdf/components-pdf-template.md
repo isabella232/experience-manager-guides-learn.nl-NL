@@ -3,9 +3,10 @@ title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de verschillende componenten van een PDF sjabloon en hoe u deze kunt aanpassen en configureren.
 hide: true
 hidefromtoc: true
-source-git-commit: 698469293e41558753ff6aada92f050f45be867a
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
+source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,19 @@ Met de instellingen in de component Pagina-indelingen kunt u de structuur van ee
 1. Klikken **Gereed**.
 
    De nieuwe indeling wordt gemaakt en toegevoegd onder Pagina-indelingen.
+
+### Een pagina-indeling dupliceren
+
+1. In de **Sjablonen** van de sjabloon die u wilt dupliceren, dubbelklikt u op **Pagina-indelingen** of klik op **>** pictogram voor **Pagina-indelingen**.
+
+   Hiermee wordt de lijst met paginalay-outs in de sjabloon weergegeven.
+
+1. Houd de muis boven de pagina-indeling die u wilt dupliceren en klik op de knop (*Opties* pictogram) **...** en selecteert u **Dupliceren** in het contextmenu.
+
+1. In de _Lay-out dupliceren_ voert u een naam in voor de pagina-indeling.
+
+1. Klikken **Gereed**.
+Onder Pagina-indelingen wordt een kopie van de geselecteerde pagina-indeling gemaakt en toegevoegd.
 
 ### Een pagina-indeling aanpassen
 
