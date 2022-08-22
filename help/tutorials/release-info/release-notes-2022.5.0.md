@@ -1,22 +1,22 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager-hulplijnen as a Cloud Service, release mei 2022
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+description: Kan Adobe Experience Manager-hulplijnen in mei vrijgeven as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
 workflow-type: tm+mt
 source-wordcount: '1874'
 ht-degree: 4%
 
 ---
 
-# Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+# Kan Adobe Experience Manager-hulplijnen in mei vrijgeven as a Cloud Service
 
-## Upgrade naar de nieuwste versie
+## Upgrade naar de release van mei
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.5.144.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van mei van AEM as a Cloud Service hulplijnen te upgraden.
 
 ## Compatibiliteitsmatrix
 
@@ -41,7 +41,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ## Nieuwe en verbeterde functies
 
-AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in de recentste versie:
+AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in de versie van Mei:
 
 ### Verbeterde webeditor
 
