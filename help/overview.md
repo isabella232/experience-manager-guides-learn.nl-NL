@@ -1,15 +1,15 @@
 ---
-title: Tutorials voor hulplijnen voor Experience Managers
+title: Zelfstudies voor hulplijnen voor Experience Managers
 description: Een verzameling zelfstudies voor hulplijnen voor Experience Managers (voorheen XML Documentation voor Adobe Experience Manager).
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
 
-# Tutorials en videocursussen voor [!DNL Adobe Experience Manager Guides] {#overview}
+# [!DNL Adobe Experience Manager Guides] zelfstudies {#overview}
 
 [!DNL Adobe Experience Manager Guides] (wordt [!DNL AEM Guides] oplossing later in deze gids) is een krachtige, onderneming-rang oplossing van het componentenbeheer (CCMS). Het maakt native DITA-ondersteuning in Adobe Experience Manager mogelijk en biedt AEM de mogelijkheid om op DITA gebaseerde inhoud te maken en te leveren. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
 
@@ -30,6 +30,10 @@ Met [!DNL AEM Guides] kunnen bedrijven naadloze en persoonlijke ervaringen aan e
 * **[[!DNL AEM Guides] Aan de slag-cursus](course-1/overview.md)**
 
    *Leer hoe u inhoud maakt, ordent, ontwerpt en publiceert met [!DNL Adobe Experience Manager Guides].*
+
+* **[Ontwerpen in de ingebouwde webeditor](course-3/overview.md)**
+
+   *Leer hoe u inhoud ontwerpt met de native webeditor in de hulplijnen voor Experience Managers. Meer informatie over gebruikersvoorkeuren, editorinstellingen, configuratie, werkbalken en meer.*
 
 * **[Uitvoergeneratie met [!DNL AEM Guides]](course-2/overview.md)**
 
