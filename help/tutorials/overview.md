@@ -2,9 +2,9 @@
 title: Tutorials voor hulplijnen voor Experience Managers
 description: Bekijk zelfstudievideo's voor Experience Manager Guides (voorheen XML Documentation voor Adobe Experience Manager). Leer over inheemse steun DITA en gestructureerd creatie in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
+source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '315'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,11 @@ Met [!DNL AEM Guides] kunnen bedrijven naadloze en persoonlijke ervaringen aan e
 * **[[!DNL AEM Guides] Aan de slag-cursus](../courses/course-1/overview.md)**
 
    _Leer hoe u inhoud maakt, ordent, ontwerpt en publiceert met [!DNL Adobe Experience Manager Guides]._
+
+
+* **[[!DNL AEM Guides] Authoring in de ingebouwde webeditor](../courses/course-3/overview.md)**
+
+   _Leer hoe u inhoud ontwerpt met de native webeditor in  [!DNL Adobe Experience Manager Guides]. Meer informatie over gebruikersvoorkeuren, editorinstellingen, configuratie, werkbalken en meer._
 
 * **[Uitvoergeneratie met [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
