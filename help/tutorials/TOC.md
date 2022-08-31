@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
+source-git-commit: 3c4ae9f5c00fa4918130df98cd42d7dd06e88543
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -43,3 +43,4 @@ ht-degree: 3%
    + [Verborgen PDF-sjabloon](./native-pdf/pdf-template.md)
    + [Verborgen onderdelen van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
    + [Verborgen ontwerp van een pagina-indeling](./native-pdf/design-page-layout.md)
+   + [Verborgen stijlblad](./native-pdf/Stylesheet.md)
