@@ -3,7 +3,7 @@ title: Native PDF-publicatiefunctie | Werken met algemene inhoudsstijlen
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 hide: true
 hidefromtoc: true
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '3500'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Werken met algemene inhoudsstijlen
+# Werken met algemene inhoudsstijlen {#work-with-common-styles}
 
 Een stijlpagina bevat de definities van stijlen voor de elementen die in uw uitvoer van PDF worden gebruikt. U kunt ervoor kiezen om met de voorbeeldopmaakmodellen te werken of nieuwe opmaakmodellen te maken. In de meeste gevallen kunt u snel aan de slag door een kopie van de OOTB-voorbeeldstijlpagina te maken.
 
@@ -36,7 +36,7 @@ In de volgende secties worden de meest gebruikte stijlinstellingen in de vorm va
 >
 >In de volgende voorbeelden wordt aangenomen dat u werkt met het voorbeeldstijlblad dat bij het product wordt geleverd.
 
-## Werken met kopstijlen
+## Werken met kopstijlen {#heading-styles}
 
 Met de kopstijlen worden alle basisstijlen ingekapseld voor de koppen die in de inhoud worden gebruikt. OOTB u zult 6 stijlen van de basisrubriek en een kopstijl voor het onderwerp/het hoofdstuk en de titelrubriek van het bijlage krijgen. In een gestructureerd document, vertegenwoordigt H1 de titel van het onderwerp of van het hoofdstuk en H2 door H6 worden gebruikt voor subonderwerpen of secties binnen een onderwerp/hoofdstuk. Deze hiërarchie van koppen wordt automatisch toegepast op uw inhoud wanneer de overeenkomstige rubriek wordt gevonden.
 
@@ -44,7 +44,7 @@ Met de kopstijlen worden alle basisstijlen ingekapseld voor de koppen die in de 
 >
 >U kunt uw eigen stijlen van de douanekop tot stand brengen en die kunnen in uw inhoud worden gebruikt gebruikend de outputklasse. Voor meer details, zie Stap 4 in *Oriëntatie en rotatie van de pagina gebruiken* voorbeeld.
 
-### Aangepaste koppen op hoofdstukniveau maken
+### Aangepaste koppen op hoofdstukniveau maken {#create-chapter-level-heading}
 
 In een boek (of een boekenkaart), werkt u met Hoofdstuk. De stijlen van de basiskop zijn zodanig ontworpen dat ze zonder aanpassingen op hoofdstukniveau worden toegepast. Als u echter speciale koppen voor uw inhoud wilt maken, moet u die koppen maken. De standaardinstelling `h1.chapter` de kop wordt toegepast op de titel van uw hoofdstuk. Als u de hoofdstuktitel in een andere stijl wilt weergeven, moet u de `h1.chapter` stijl. Op dezelfde manier kunt u aangepaste stijlen voor subkoppen in uw hoofdstuk maken. Als u bijvoorbeeld een aangepaste stijl voor alle twee wilt maken<sup>en</sup> en 3<sup>rd</sup> niveau koppen in uw hoofdstuk, dan moet u een nieuwe stijl tot stand brengen zoals `h2.chatper` en `h3.chatper`.
 
@@ -66,7 +66,7 @@ Een nieuwe kopstijl genaamd `h2.chapter` wordt gemaakt en toegevoegd onder de li
 
 Nadat u een stijl hebt gemaakt, kunt u de vereiste eigenschappen van de stijl aanpassen met de stijleditor.
 
-### Koppen met automatische nummering maken
+### Koppen met automatische nummering maken {#auto-number-heading}
 
 Één van de het meest algemeen gebruikte outputstijlen is autonumbered rubrieken. Deze rubrieken vertegenwoordigen het hoofdstukaantal, onderwerp en subonderwerpaantallen. De auto-aantalrubrieken zijn verschillend van de lijststijlen waar een lijst van punten binnen een onderwerp auto-aantallen wordt toegewezen.
 
@@ -129,11 +129,11 @@ De eigenschappen voor de h1-stijl worden samen met de voorvertoning weergegeven 
 
    <img src="./assets/auto-number-output.png" width="500">
 
-## Werken met alineastijlen
+## Werken met alineastijlen {#paragraph-style}
 
 U kunt een alineastijl maken om speciale opmaak toe te passen op een hele alinea. Met de pseudo-klasse kunt u echter een stijl alleen op een bepaald deel van de tekst toepassen. In het volgende voorbeeld maken we een alineastijl die de initiaalstijl gebruikt.
 
-### De stijl van de initiaal maken
+### De stijl van de initiaal maken {#drop-cap-style}
 
 In tijdschriften wordt een initiaal (of een vervallen hoofdletter) gebruikt en in literaire documenten waarin het eerste teken van een alinea of sectie een speciale opmaak krijgt. Met de functie Native PDF Publishing kunt u hetzelfde effect bereiken.
 
@@ -164,11 +164,11 @@ Als de `p` -tag wordt toegewezen aan de `<p>` in DITA, hoeft u deze stijl niet e
 
 <img src="./assets/char-style-drop-cap.png" width="500">
 
-## Werken met tekenstijlen
+## Werken met tekenstijlen {#char-style}
 
 Met behulp van de tekenstijlen kunt u stijlen maken voor het opmaken van tekens of woorden binnen de inhoud. U kunt bijvoorbeeld een tekenstijl voor inline code of bestandsnaam maken of een stijl met meerdere opmaakindelingen voor geselecteerde inhoud.
 
-### Een inline-tekenstijl maken
+### Een inline-tekenstijl maken {#inline-char-style}
 
 Het opmaken van inline-tekens of woorden in een alinea komt veel voor. Bij het maken van een inline stijl zijn twee taken betrokken: eerst een nieuwe stijl in het stijlblad maken en vervolgens de stijl in de inhoud toepassen met de opdracht `outputclass` kenmerk.
 
@@ -210,7 +210,7 @@ In het volgende voorbeeld wordt de indeling Vet-cursief weergegeven die op versc
 
 <img src="./assets/char-format-applied.png" width="500">
 
-## Lijststijl aanpassen
+## Lijststijl aanpassen {#custom-list-style}
 
 De lijststijlen bevatten de standaardstijlinstellingen voor de geordende en ongeordende lijsten. U kunt deze lijststijlen gemakkelijk aanpassen om aan uw documentatievereisten te voldoen.
 
@@ -269,7 +269,7 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
       <img src="./assets/list-number-format-final.png" width="500">
 
 
-## Werken met tabelstijl
+## Werken met tabelstijl {#table-styles}
 
 Met de stijlpagina&#39;s kunt u ontwerpen *n* aantal tabelstijlen. Met behulp van de tabelstijlen kunt u ontwerpen hoe de volledige tabel, een bepaalde rij of kolom. Met controle bij cel-vlakke het stileren, kunt u zeer presenteerbare lijststijlen tot stand brengen.
 
@@ -320,7 +320,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
    <img src="./assets/table-final-design.png" width="500">
 
-## Werken met andere stijlen
+## Werken met andere stijlen {#other-styles}
 
 Als u met gestructureerde (DITA) inhoud werkt, dan zult u merken dat bijna alle elementen DITA een stijlafbeelding in het standaardstijlblad hebben. Bijvoorbeeld een `<shortdesc>` de stijl van het element is gedefinieerd onder **Andere stijl** > **.shortdesc** stijldefinitie. U kunt al deze stijlen eenvoudig aanpassen en ze worden automatisch toegepast in de PDF-uitvoer die wordt gegenereerd uit uw gestructureerde inhoud. Dit betekent dat u, in tegenstelling tot andere aangepaste stijlen, geen `outputclass` op de inhoud voor deze stijlen.
 

@@ -4,23 +4,23 @@ description: Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschi
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: f8af7d7180b3d70d17e1410885017212dec721ef
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '4688'
+source-wordcount: '4686'
 ht-degree: 0%
 
 ---
 
 
-# Een pagina-indeling ontwerpen
+# Een pagina-indeling ontwerpen {#design-page-layout}
 
 Bij het maken van een PDF-document hebt u verschillende secties voor het weergeven van verschillende soorten informatie. Een PDF-document begint bijvoorbeeld op een voor- of omslagpagina, waarop het logo, de boektitel of de versiegegevens van uw bedrijf staan. Dan zouden er hoofdstukken, aanhangsels, of verklarende woordenlijstpagina&#39;s zijn. Elke sectie in een PDF-document ziet er anders uit en dat wordt bereikt door het maken en aanpassen van de paginalay-out.
 
 Wanneer u de pagina-indeling ontwerpt, kunt u de verschillende elementen definiëren die samen een pagina vormen. U kunt bijvoorbeeld het paginaformaat, de marges, de kop- en voettekst, de afdrukstand en andere paginaspecificaties op een pagina definiëren. Met de functie Eigen PDF publiceren kunt u uw pagina ontwerpen op basis van de [Paginamedia](https://www.w3.org/TR/css-page-3/). De meeste instellingen die onder de normen voor gepagineerde media vallen, kunnen eenvoudig worden aangepast met de gebruikersinterface van de functie Native PDF Publishing. Voor sommige andere opmaak op geavanceerd niveau kunt u de Bronweergave gebruiken om uw eigen CSS-code te schrijven.
 
-Nadat u de paginalay-outs hebt ontworpen, moet u deze lay-outs koppelen aan de desbetreffende secties in de instellingen voor Pagina-indeling PDF. Zie de _Paginalay-outs maken en aanpassen_ voor meer informatie over het maken en openen van een pagina-indeling voor aanpassing.
+Nadat u de paginalay-outs hebt ontworpen, moet u deze lay-outs koppelen aan de desbetreffende secties in de instellingen voor Pagina-indeling PDF. Zie de [Paginalay-outs maken en aanpassen](components-pdf-template.md#create-customize-page-layout) voor meer informatie over het maken en openen van een pagina-indeling voor aanpassing.
 
-## Typen paginalay-outs
+## Typen paginalay-outs {#types-of-page-layout}
 
 Een PDF-document bevat doorgaans de volgende secties:
 
@@ -33,11 +33,11 @@ Een PDF-document bevat doorgaans de volgende secties:
 * Index
 * Vorige pagina
 
-Deze secties hebben een overeenkomstige pagina-indeling nodig om de informatie in een specifieke indeling weer te geven. Bovendien kunt u ook een lege pagina hebben die als vulteken wordt gebruikt om een nieuw hoofdstuk van een oneven of even pagina te beginnen. In dat geval kunt u de standaardpagina-indeling gebruiken of een pagina-indeling voor een lege pagina maken. Zie _Een nieuwe pagina-indeling maken_ voor meer informatie .
+Deze secties hebben een overeenkomstige pagina-indeling nodig om de informatie in een specifieke indeling weer te geven. Bovendien kunt u ook een lege pagina hebben die als vulteken wordt gebruikt om een nieuw hoofdstuk van een oneven of even pagina te beginnen. In dat geval kunt u de standaardpagina-indeling gebruiken of een pagina-indeling voor een lege pagina maken. Zie [Een nieuwe pagina-indeling maken](components-pdf-template.md#create-page-layout) voor meer informatie .
 
 De instellingen voor Pagina-indelingen onder het dialoogvenster **Sjabloon>Instellingen** kunt u definiëren welke paginalay-out moet worden gebruikt voor verschillende gedeelten van uw PDF. Elke paginalay-out kan nog andere varianten van de eerste, rechter of linkerpagina hebben.
 
-### De eerste, rechter of linkerpaginalay-outvarianten maken
+### De eerste, rechter of linkerpaginalay-outvarianten maken {#page-layout-variants}
 
 De verschillende paginalay-outs in uw PDF sjabloon kunnen verder worden aangepast door verschillende lay-outvarianten voor de eerste, rechter of linkerpagina te hebben. U kunt deze pagina&#39;s anders ontwerpen met de ontwerper van de paginalay-out.
 
@@ -61,7 +61,7 @@ Houd rekening met de volgende punten bij het maken van de paginalay-outs:
 
    >[!NOTE]
    >
-   >Als u geen afzonderlijke lege pagina-indeling maakt, wordt de standaardpagina-indeling gebruikt. Zie voor het maken van een pagina-indeling _Een nieuwe pagina-indeling maken_.
+   >Als u geen afzonderlijke lege pagina-indeling maakt, wordt de standaardpagina-indeling gebruikt. Zie voor het maken van een pagina-indeling [Een nieuwe pagina-indeling maken](components-pdf-template.md#create-page-layout).
 
 In het volgende voorbeeld wordt het maken van varianten van een paginalay-out doorlopen:
 
@@ -85,7 +85,7 @@ In het volgende voorbeeld wordt het maken van varianten van een paginalay-out do
 
 De geselecteerde paginalay-out wordt gecreeerd gebruikend een exemplaar van de lay-out van het basisHoofdstuk. Dit betekent dat als u wijzigingen hebt aangebracht in de standaardpagina-indeling van het hoofdstuk, dezelfde wijzigingen worden overgenomen in de variant-paginalay-out op het moment dat u de pagina-indeling maakt.
 
-## Werken met de pagina-eigenschappen van een pagina-indeling
+## Werken met de pagina-eigenschappen van een pagina-indeling {#page-props-page-layout}
 
 Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u controle hebt over verschillende pagina-eigenschappen. Met de functie Native PDF publiceren worden alle pagina-eigenschappen onder het deelvenster Pagina-eigenschappen ingekapseld. In het deelvenster Pagina-eigenschappen hebt u toegang tot verschillende eigenschappen onder de volgende secties:
 
@@ -93,7 +93,7 @@ Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u con
 >
 >In het deelvenster Pagina-eigenschappen worden de eigenschappen ingekapseld en worden de regels gevolgd die zijn gedefinieerd onder de [Paginamedia](https://www.w3.org/TR/css-page-3/).
 
-* **Paginaformaat** : Geef het paginaformaat op dat u voor de paginalay-out wilt gebruiken. In de vervolgkeuzelijst Paginaformaat kunt u kiezen uit meer dan 15 pagina-formaten. U kunt ook een pagina-indeling maken met een aangepast paginaformaat. Zie **Paginaformaat instellen** voor meer informatie .
+* **Paginaformaat** : Geef het paginaformaat op dat u voor de paginalay-out wilt gebruiken. In de vervolgkeuzelijst Paginaformaat kunt u kiezen uit meer dan 15 pagina-formaten. U kunt ook een pagina-indeling maken met een aangepast paginaformaat. Zie [Paginaformaat instellen](design-page-layout.md#set-the-page-size) voor meer informatie .
 
 * **Afdrukstand** : Geef de afdrukstand op die u voor de pagina-indeling wilt gebruiken. U kunt kiezen uit de stand Staand of Liggend. U kunt verschillende richtingen toepassen op verschillende paginariabelen in een paginalay-out. Als uw inhoud bijvoorbeeld een brede tabel of een grote afbeelding bevat, kunt u een liggende paginalay-out maken en die lay-out toepassen op de bredere tabel of afbeelding.
 
@@ -109,7 +109,7 @@ Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u con
 
 * **Voetnoot** : Geef de eigenschappen op om voetnoten in de uitvoer weer te geven. U kunt de eigenschappen voor marges en opvulling en een randstijl opgeven.
 
-### Paginaformaat instellen
+### Paginaformaat instellen {#set-page-size}
 
 Het allereerste dat u in een paginalay-out moet bepalen is de paginagrootte. In de Pagina-eigenschappen zijn er meer dan 15 pagina-formaten die u kunt kiezen voor een pagina-indeling. U kunt ook een aangepast paginaformaat maken door de volgende stappen uit te voeren:
 
@@ -117,7 +117,7 @@ Het allereerste dat u in een paginalay-out moet bepalen is de paginagrootte. In 
 
    >[!NOTE]
    >
-   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik in het rechterdeelvenster op **Pagina-eigenschappen**.
 1. In de **Paginaformaat** vervolgkeuzelijst, selecteert u **Aangepast**.
@@ -130,7 +130,7 @@ Het allereerste dat u in een paginalay-out moet bepalen is de paginagrootte. In 
    >
    >Enkele van de meest gebruikte eenheden zijn px (pixels), pt (punten), rem, em, % (percentage) en in (inches).
 
-### Oriëntatie en rotatie van de pagina gebruiken
+### Oriëntatie en rotatie van de pagina gebruiken {#page-orientation-rotation}
 
 Kijk naar een voorbeeld waarin een combinatie van de afdrukstand Staand en Liggend wordt gebruikt en rotatie-eigenschappen worden weergegeven. In dit voorbeeld maken we een PDF met de standaardoriëntatie Staand, maar een tabel wordt liggend weergegeven met inhoud in de 90 graden rechtsom. De uiteindelijke uitvoer ziet er ongeveer als volgt uit:
 
@@ -215,7 +215,7 @@ Voer de volgende stappen uit om bovenstaande taken te verwezenlijken:
 
 In de uiteindelijke PDF wordt de tabelinhoud liggend weergegeven, zoals in het begin van het voorbeeld wordt getoond.
 
-### Een achtergrondafbeelding toevoegen
+### Een achtergrondafbeelding toevoegen {#add-bg-image}
 
 Gebaseerd op uw vereisten, zou u een achtergrondbeeld kunnen willen toevoegen dat op elke eerste pagina van de output van het Hoofdstuk (PDF) verschijnt. Met de eigenschappen Achtergrond onder Pagina-eigenschappen kunt u eenvoudig een achtergrondafbeelding toevoegen. U kunt ervoor kiezen deze afbeelding over een pagina te repliceren en de afbeelding op een willekeurige positie boven, onder of in het midden van de pagina te plaatsen.
 
@@ -225,7 +225,7 @@ Als u bijvoorbeeld een achtergrondafbeelding wilt invoegen in het middelste gede
 
    >[!NOTE]
    >
-   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik ergens in het inhoudsgebied.
 
@@ -255,13 +255,13 @@ In de volgende schermafbeelding wordt de achtergrondafbeelding weergegeven met d
 
 <img src="./assets/background-image.png" width="500">
 
-## Werken met koptekst en voettekst voor pagina
+## Werken met koptekst en voettekst voor pagina {#work-header-footer}
 
 Wanneer u informatie opneemt in een kop- of voettekst in een paginalay-out, wordt die informatie herhaald op alle pagina&#39;s die die paginalay-out gebruiken. Doorgaans wordt het koptekstgebied gebruikt voor hoofdstuk- of onderwerptitel en wordt het voettekstgebied gebruikt voor het weergeven van paginanummers.
 
 Wanneer u een nieuwe paginalay-out maakt, worden standaard de kop- en voettekstgebieden gemaakt. U kunt een groot aantal aanpassingen uitvoeren in de kop- en voettekst van een pagina-indeling. U kunt bijvoorbeeld een afbeelding (zoals een logo), variabelen (met dynamische informatie) of statische inhoud invoegen.
 
-### De kop- en voettekstmarges en -lijnen wijzigen
+### De kop- en voettekstmarges en -lijnen wijzigen {#header-footer-margins}
 
 Standaard zijn de kop- en voettekstmarges ingesteld op 1 inch. U kunt deze standaardwaarde wijzigen door de instelling Marge te wijzigen in het deelvenster Pagina-eigenschappen. Voer de volgende stappen uit om de grootte van de kop- en voettekst te wijzigen:
 
@@ -269,7 +269,7 @@ Standaard zijn de kop- en voettekstmarges ingesteld op 1 inch. U kunt deze stand
 
    >[!NOTE]
    >
-   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik in het rechterdeelvenster op **Pagina-eigenschappen**.
 1. Breid uit **Layout** sectie.
@@ -301,7 +301,7 @@ Als u rechtstreeks met de CSS- en HTML-code wilt werken, kunt u de margewaarden 
 >
 >In het bovenstaande voorbeeld worden verschillende eenheden gebruikt om de margewaarden op te geven.
 
-### De kop- en voettekst verwijderen
+### De kop- en voettekst verwijderen {#remove-header-footer}
 
 De kop- en voettekstbedekking in de boven- en ondermarge. Technisch gezien betekent dit dat als u een kop- en voettekst in uw paginalay-out wilt opnemen, u de vereiste ruimte in de boven- en ondermarge moet reserveren.
 
@@ -310,7 +310,7 @@ Als u niet wilt dat een paginalay-out een kop- en voettekst heeft, zijn er twee 
 * Als u de boven- en ondermarge wilt behouden, laat u het kop- en voettekstgebied leeg.
 * Als u de boven- en ondermarge niet wilt behouden (zoals u de voor- en achteromslag van een tijdschrift ontwerpt), kunt u de marges verwijderen door de eigenschappen voor de boven- en ondermarge in te stellen op 0. Er blijft dan geen ruimte over voor de kop- en voettekst.
 
-### Een afbeelding of een logo in de koptekst toevoegen
+### Een afbeelding of een logo in de koptekst toevoegen {#add-image-header}
 
 Op basis van uw vereisten kunt u een afbeelding toevoegen die in het koptekstgebied (of een ander deel) van de pagina-indeling wordt weergegeven. Er zijn twee manieren waarop u een afbeelding in uw paginalay-out kunt toevoegen:
 
@@ -327,7 +327,7 @@ Voer de volgende stappen uit om een afbeelding in te voegen zoals het logo van u
 
 >[!NOTE]
 >
->Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+>Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik op Koptekst bewerken (<img src="./assets/header-icon.svg" width="25">) om de cursor in het koptekstgebied te plaatsen.
 
@@ -341,9 +341,9 @@ In de volgende schermafbeelding ziet u een voorbeeldafbeelding die in het koptek
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Nadat een afbeelding is ingevoegd, kunt u de kenmerken ervan wijzigen om de afbeelding de gewenste vormgeving te geven. De eenvoudigste manier om de manier te wijzigen waarop een afbeelding of een ander element in de paginalay-out eruitziet, is via het deelvenster Eigenschappen van inhoud. Zie _Werken met het deelvenster Eigenschappen van inhoud_ voor de diverse eigenschappen die via UI beschikbaar zijn om aan te passen.
+Nadat een afbeelding is ingevoegd, kunt u de kenmerken ervan wijzigen om de afbeelding de gewenste vormgeving te geven. De eenvoudigste manier om de manier te wijzigen waarop een afbeelding of een ander element in de paginalay-out eruitziet, is via het deelvenster Eigenschappen van inhoud. Zie [Werken met het deelvenster Eigenschappen van inhoud](design-page-layout.md#work-with-content-properties-panel) voor de diverse eigenschappen die via UI beschikbaar zijn om aan te passen.
 
-### Velden en metagegevens toevoegen
+### Velden en metagegevens toevoegen {#add-fields-metadata}
 
 Velden zijn erg handig wanneer u een vooraf gedefinieerde informatie wilt invoegen. U kunt bijvoorbeeld een veld Titel hoofdstuk opnemen in het koptekstgebied van uw hoofdstuk dat wordt vervangen door de titel van het hoofdstuk wanneer het wordt gepubliceerd.
 
@@ -361,7 +361,7 @@ Er zijn de volgende categorieën voor gebieden die u in uw paginalay-out kunt op
 
 Elk van deze veldcategorieën bevat verschillende variaties waarin de veldinformatie kan worden ingevoegd. Een datumveld kan bijvoorbeeld verschillende variaties hebben, zoals `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` enzovoort. Op dezelfde manier kan het paginanummer variaties hebben in de vorm van Romeinse, decimale of zelfs landspecifieke notaties, zoals _Arabisch_, _Devanagari_, _Hebreeuws_ en meer.
 
-Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out. Zie voor meer informatie _Werken met velden en metagegevens_.
+Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out. Zie voor meer informatie [Velden en metagegevens toevoegen](design-page-layout.md#add-fields-and-metadata).
 
 In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoegd in het voettekstgebied van een paginalay-out.
 
@@ -369,7 +369,7 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
    >[!NOTE]
    >
-   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Klik op de knop **Voettekst bewerken** (![](./assets/footer-icon.svg)) om de cursor in het voettekstgebied te plaatsen.
 
@@ -387,7 +387,7 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
    >[!NOTE]
    >
-   >U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK. Zie voor meer informatie _Werken met velden en metagegevens_.
+   >U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK. Zie voor meer informatie [Velden en metagegevens toevoegen](design-page-layout.md#add-fields-and-metadata).
 
    Het veld Standaardpaginanummer wordt ingevoegd in het voettekstgebied van de paginalay-out.
 
@@ -433,7 +433,7 @@ Als u direct met de CSS en code van de HTML wilt werken, dan kunt u dit ook bere
 …
 ```
 
-## Werken met inhoudsgebied
+## Werken met inhoudsgebied {#content-area}
 
 Het inhoudsgebied is het grootste gebied in termen van inhoudsruimte. Het inhoudsgebied wordt gevuld met de inhoud van uw onderwerp. In bepaalde speciale gevallen kunt u vaste inhoud toevoegen aan het inhoudsgebied. Deze inhoud wordt gepubliceerd op de opgegeven locatie in de paginalay-out. De kop in de inhoudsopgave, de woordenlijst en de index kunnen bijvoorbeeld worden toegevoegd als tekstbouwsteeninhoud. Deze wordt in de uiteindelijke uitvoer ongewijzigd gepubliceerd. Een ander voorbeeld is de hoofdstukTOC, die typisch op de eerste pagina van elk hoofdstuk wordt toegevoegd.
 
@@ -441,7 +441,7 @@ Een van de meest gebruikte aanpassingen in het inhoudsgebied is de lay-out met m
 
 In de volgende secties worden verschillende scenario&#39;s behandeld om het inhoudsgebied aan te passen.
 
-### Een hoofdstuk-inhoudsopgave toevoegen
+### Een hoofdstuk-inhoudsopgave toevoegen {#add-chapter-toc}
 
 Een inhoudsopgave van een hoofdstuk dient als een snelle referentie voor de lezers om te weten wat er in het hoofdstuk staat. Doorgaans wordt een hoofdstuk-TOC toegevoegd helemaal aan het begin van een hoofdstuk. Dus als u een hoofdstuk-inhoudsopgave wilt gebruiken, kunt u deze toevoegen in het inhoudsgebied van de hoofdstukpaginalay-out of de eerste paginalay-outvariant van een hoofdstuk.
 
@@ -455,7 +455,7 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling van d
 
    >[!NOTE]
    >
-   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-a-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Plaats de cursor in het inhoudsgebied van de paginalay-out.
 
@@ -489,7 +489,7 @@ De blik en het gevoel van standaardTOC kunnen worden aangepast gebruikend de sti
 >
 >Als u momenteel een stijl-update maakt in een stijlpagina, wordt deze mogelijk niet weergegeven in de voorvertoning van de inhoud. De uitvoer wordt echter gerenderd met de bijgewerkte stijlen.
 
-### Werken met paginalay-out met meerdere kolommen
+### Werken met paginalay-out met meerdere kolommen {#multi-column-layout}
 
 Paginalay-outs met meerdere kolommen worden veel gebruikt voor het publiceren van tijdschriften of indexen in een boek. Met de functie Eigen PDF publiceren kunt u uw document eenvoudig in meerdere kolommen splitsen. Met verschillende paginalay-outs kunt u ervoor kiezen om alleen een specifieke sectie in meerdere kolommen te verdelen en de andere secties in één (of normale) kolomlay-out te laten.
 
@@ -499,7 +499,7 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
 
    >[!NOTE]
    >
-   >Zie _Een pagina-indeling aanpassen_ voor het openen van een pagina-indeling voor aanpassen of bewerken.
+   >Zie [Een pagina-indeling aanpassen](components-pdf-template.md#customize-a-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Als de lay-out met meerdere kolommen wordt toegepast op de inhoud, met uitzondering van de kop- en voettekst, moet u het inhoudselement in de breadcrumb selecteren.
 
@@ -536,7 +536,7 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
    * **Kolomregel** : Als u een lijn tussen kolommen wilt hebben, dan gebruik dit bezit om de lijn of heersende stijlen te bepalen. Geef de waarden op voor Stijl, Kleur en Breedte met liniëring om een lijn tussen kolommen toe te voegen.
 
 
-## Werken met het deelvenster Eigenschappen van inhoud
+## Werken met het deelvenster Eigenschappen van inhoud {#work-with-content-props}
 
 Met het deelvenster Eigenschappen voor inhoud kunt u de vormgeving van de elementen in de paginalay-out eenvoudig bijwerken. De eigenschappen in het deelvenster Eigenschappen van inhoud zijn onderverdeeld in de volgende secties:
 

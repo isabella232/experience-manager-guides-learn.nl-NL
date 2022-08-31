@@ -4,30 +4,34 @@ description: Leer de verschillende componenten van een PDF sjabloon en hoe u dez
 hide: true
 hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
 
-# Componenten van een PDF-sjabloon
+# Componenten van een PDF-sjabloon {#components-pdf-template}
 
 Een PDF-sjabloon bestaat uit vier componenten: Pagina-indelingen, stijlbladen, bronnen en instellingen. U kunt een sjabloon maken door deze afzonderlijke componenten aan te passen en de sjabloon aan een uitvoervoorinstelling te koppelen tijdens het genereren van een PDF-uitvoer. In de volgende secties worden deze componenten en hun aanpassingsproces uitgebreid besproken.
 
 
-## Paginalay-outs maken en aanpassen
+## Paginalay-outs maken en aanpassen {#create-customize-page-layout}
 
 Met de instellingen in de component Pagina-indelingen kunt u de structuur van een pagina ontwerpen door de koptekst, voettekst en het inhoudsgebied op een pagina te definiëren. Met de WYSIWYG-paginaopmaakeditor kunt u een paginalay-out maken voor verschillende secties in een PDF, zoals de voorpagina&#39;s en achteromslag, het hoofdstuk, de inhoudsopgave, de index, de lege pagina, de lijst met afbeeldingen (LOF), de lijst met tabellen (LOT), de woordenlijst of een lay-out maken voor een aangepaste pagina. In de het malplaatjemontages van de PDF, kunt u een paginalay-out met verschillende secties binnen een PDF toewijzen, die dan worden gebruikt om de output van de PDF te produceren.
 
-### Een nieuwe pagina-indeling maken
+### Een nieuwe pagina-indeling maken {#create-page-layout}
 
-> **Opmerking**: Er zijn voorbeeldpaginalay-outs die uit de doos worden verzonden. U kunt deze aanpassen of nieuwe paginalay-outs maken.
+>[!NOTE]
+>
+>Er zijn voorbeeldpaginalay-outs die uit de doos worden verzonden. U kunt deze aanpassen of nieuwe paginalay-outs maken.
 
 1. Ga in de webeditor naar de **Uitvoer** tab.
 1. Vouw de linkerzijbalk uit en klik op **Sjablonen**.
 1. Open de sjabloon waarmee u wilt werken.
-   > **Opmerking**: U kunt een sjabloon openen door te dubbelklikken op de naam of op het pictogram > naast de naam.
+   >[!NOTE]
+   >
+   >U kunt een sjabloon openen door te dubbelklikken op de naam of op het pictogram > naast de naam.
 1. Voer een van de volgende handelingen uit om een nieuwe pagina-indeling te maken:
    * Overslaan **Pagina-indelingen** en klik op de knop (*Opties* pictogram) **...** en kiest u **Nieuwe paginalay-out**.
    * In de **Sjablonen** klikt u op de knop **+** pictogram naast **Sjablonen** en kiest u **Pagina-indeling** in het contextmenu.
@@ -36,12 +40,14 @@ Met de instellingen in de component Pagina-indelingen kunt u de structuur van ee
 
       <img src="assets/add-layout-2.png" alt="Dialoogvenster Lay-out toevoegen" width="250">
 1. Geef een naam op voor de nieuwe pagina-indeling.
-   > **Opmerking:** Gebruik geen speciale tekens wanneer u een paginalay-out een naam geeft. Een spatie in de naam wordt vervangen door een onderstrepingsteken &quot;_&quot;.
+   >[!NOTE]
+   >
+   >Gebruik geen speciale tekens wanneer u een paginalay-out een naam geeft. Een spatie in de naam wordt vervangen door een onderstrepingsteken &quot;_&quot;.
 1. Klikken **Gereed**.
 
    De nieuwe indeling wordt gemaakt en toegevoegd onder Pagina-indelingen.
 
-### Een pagina-indeling dupliceren
+### Een pagina-indeling dupliceren {#duplicate-page-layout}
 
 1. In de **Sjablonen** van de sjabloon die u wilt dupliceren, dubbelklikt u op **Pagina-indelingen** of klik op **>** pictogram voor **Pagina-indelingen**.
 
@@ -54,7 +60,7 @@ Met de instellingen in de component Pagina-indelingen kunt u de structuur van ee
 1. Klikken **Gereed**.
 Onder Pagina-indelingen wordt een kopie van de geselecteerde pagina-indeling gemaakt en toegevoegd.
 
-### Een pagina-indeling aanpassen
+### Een pagina-indeling aanpassen {#customize-page-layout}
 
 1. In de **Sjablonen** van de sjabloon die u wilt bewerken, dubbelklikt u op **Pagina-indelingen** of klik op **>** pictogram voor **Pagina-indelingen**.
 
@@ -66,13 +72,13 @@ Onder Pagina-indelingen wordt een kopie van de geselecteerde pagina-indeling gem
    Hiermee opent u de pagina-indeling-editor voor aanpassing.
 1. Als u de gewenste wijzigingen hebt aangebracht, klikt u op *Alles opslaan* (of `Crl+S`).
 
-   Ga voor meer informatie over het definiëren van afzonderlijke lay-outelementen, zoals kop- en voettekst, paginanummer, titel en meer naar *Werken met pagina-indelingselementen*.
+   Ga voor meer informatie over het definiëren van afzonderlijke lay-outelementen, zoals kop- en voettekst, paginanummer, titel en meer naar [Een pagina-indeling ontwerpen](design-page-layout.md).
 
-## Stylesheets gebruiken om PDF aan te passen
+## Stylesheets gebruiken om PDF aan te passen {#stylesheet-customization}
 
 Met de instellingen in de component Stylesheets kunt u de paginalay-outcomponenten en DITA-inhoud opmaken met de WYSIWYG-editor of rechtstreeks met het CSS-bestand werken. U kunt uw eigen stijlen maken of de standaardstijleigenschappen aanpassen. De redacteur WYSIWYG geeft u de toegang tot de meeste eigenschappen die u uw paginalay-out of inhoud DITA zou moeten opmaken. Voor geavanceerde aanpassingen kunt u rechtstreeks in de bronweergave werken.
 
-### Een nieuw stijlblad maken
+### Een nieuw stijlblad maken {#create-stylesheet}
 
 Terwijl CSS-bestanden worden geleverd voor inhoud en lay-out, kunt u een nieuwe stijlpagina maken om meerdere aanpassingen toe te passen op een specifiek stijltype dat vervolgens kan worden toegepast op een doelcomponent. Standaard worden CSS-voorbeeldbestanden gebundeld in het product. Deze CSS-bestanden zijn bedoeld om u te helpen bij het ordenen van uw opmaakgegevens over inhoud en lay-outs. U kunt deze stijlen samenvoegen in één CSS-bestand of in meerdere bestanden.
 
@@ -92,7 +98,7 @@ Voer de volgende stappen uit om een stijlpagina te maken:
 
    Er wordt een nieuwe stijlpagina gemaakt en toegevoegd onder de sectie Stijlvoorbladen.
 
-### Een nieuwe stijl maken
+### Een nieuwe stijl maken {#create-style}
 
 Standaard bevatten de CSS-bestanden stijlen voor kop, alinea, teken, hyperlink, afbeelding, tabel, div, pagina en andere stijlen. U kunt de standaardopmaak overschrijven of een nieuwe stijl maken.
 
@@ -114,7 +120,7 @@ Voer de volgende stappen uit om een nieuwe stijl te maken:
 
    Er wordt een nieuwe stijl gemaakt en toegevoegd onder de basisstijl.
 
-### Een vooraf gedefinieerde of nieuwe stijl aanpassen
+### Een vooraf gedefinieerde of nieuwe stijl aanpassen {#customize-style}
 
 Nadat u een nieuw CSS-bestand met standaardstijlen hebt gemaakt of stijlen in een bestaand CSS-bestand wilt aanpassen, kunt u hiervoor de stijleneditor gebruiken.
 
@@ -134,7 +140,9 @@ Voer de volgende stappen uit om een stijl aan te passen:
 
 1. Als u een stijl wilt aanpassen, dubbelklikt u op een stijl of klikt u op het pictogram > vóór een stijl om de stijl weer te geven en aan te passen met de Stijleditor.
 
-## Werken met bronnen
+voor meer informatie over het werken met de meest gebruikte stijlen raadpleegt u [Werken met algemene inhoudsstijlen](stylesheet.md)
+
+## Werken met bronnen {#work-with-resources}
 
 Dit is een container voor alle elementen die worden gebruikt om een sjabloon te ontwerpen. U kunt de map beschouwen als een map die elementen bevat zoals achtergrondafbeeldingen, aangepaste lettertypen, logo&#39;s en meer. Telkens wanneer u middelen in uw malplaatje toevoegt, wordt het geupload of controleert in de activaomslag. Vervolgens kunt u deze elementen gebruiken om uw PDF-sjablonen aan te passen of te ontwerpen.
 
@@ -146,13 +154,16 @@ Voer de volgende stappen uit om een elementbestand toe te voegen aan de map Reso
    <img src="assets/resources-import-assets.png" alt="Elementen uploaden" width="300">
 
    Het pad waar het elementbestand wordt geüpload, wordt weergegeven in het dialoogvenster **Map voor middelen selecteren** veld.
-   > **Opmerking:** U kunt het pad voor het uploaden van elementen niet wijzigen. Standaard worden alle elementen opgeslagen onder de `/content/dam/dita-templates/pdf/<PDF-template-name>` map.
+   >[!NOTE]
+   >
+   >U kunt het pad voor het uploaden van elementen niet wijzigen. Standaard worden alle elementen opgeslagen onder de `/content/dam/dita-templates/pdf/<PDF-template-name>` map.
 
 1. Klikken **Bestanden kiezen** om het elementbestand op uw lokale computer te zoeken
+
 1. Klikken **Uploaden**.
 Het geselecteerde bestand wordt geïmporteerd en vermeld in de map Bronnen.
 
-## Geavanceerde PDF-instellingen
+## Geavanceerde PDF-instellingen {#advanced-pdf-settings}
 
 Met de sectie Instellingen kunt u de geavanceerde instellingen voor de paginalay-out van PDF configureren, PDF vanaf een oneven of even pagina, indelingen voor de kruisverwijzingen en het inschakelen van drukkermarkeringen in de uiteindelijke PDF die met de sjabloon wordt gegenereerd.
 
@@ -181,10 +192,12 @@ Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van
    Hier kunt u opmerken dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, aangezien het geneste of onderliggende onderwerpen heeft. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
 
 * **Leader-indeling**: Gebruik de vervolgkeuzelijst om Stippellijnen, Effen lijnen of Lijnvullijnen voor spaties te selecteren om kopniveaus aan de corresponderende paginanummers te koppelen.
-Voor het toepassen van de inhoudsopgavestructuur en de vormkopniveaus raadpleegt u *Inhoudsopgave definiëren*.
+Voor het toepassen van de inhoudsopgavestructuur en de vormkopniveaus raadpleegt u [Een hoofdstuk-inhoudsopgave toevoegen](design-page-layout.md#add-chapter-toc).
 
-   > **Opmerking**: Als u een CSS-ontwikkelaar bent, kunt u de leaderindeling ook rechtstreeks in het CSS-bestand definiëren.
-* **Vervolgmarkering tabel gebruiken**: Selecteer deze optie als u markeertekens wilt definiëren voor lange tabellen die zich over meerdere pagina&#39;s uitstrekken. Voor meer informatie bij het gebruiken van de tellers van de lijstvoortzetting, zie de de plaatsingstellers van de Lijst van het Gebruik.
+   >[!NOTE]
+   >
+   >Als u een CSS-ontwikkelaar bent, kunt u de leaderindeling ook rechtstreeks in het CSS-bestand definiëren.
+* **Vervolgmarkering tabel gebruiken**: Selecteer deze optie als u markeertekens wilt definiëren voor lange tabellen die zich over meerdere pagina&#39;s uitstrekken. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Pagina-indelingen**
 
@@ -195,7 +208,7 @@ Als u geen lay-out voor een bepaalde sectie in uw document hebt gemaakt, kunt u 
 Als u een omslag en een achterpagina wilt, dan moet u een paginalay-out hebben die in de montages wordt gecreeerd en wordt toegepast. Anders bevat uw PDF niet de omslag- en achterpagina&#39;s.
 
 
-Voor meer informatie over paginalay-outs raadpleegt u *Pagina-indeling instellen*.
+Voor meer informatie over paginalay-outs raadpleegt u [Een pagina-indeling ontwerpen](design-page-layout.md).
 
 **Afdrukken**
 
@@ -212,10 +225,12 @@ Configureer de afdrukproductie-instellingen om drukkermarkeringen toe te wijzen,
 * **Grootte van mediavak**: Dit is het algemene paginaformaat, inclusief het uitgebreide gebied dat wordt ingenomen door drukkermarkeringen. Gebruik de vervolgkeuzelijst om het paginaformaat te selecteren voor de PDF-uitvoer of om uw eigen aangepaste grootte te maken.
 
 * **Kleurruimte**: U kunt kiezen uit de kleurruimten RGB of CMYK om het PDF-document af te drukken. Kies RGB om de gegenereerde PDF digitaal en CMYK weer te geven voor fysiek afdrukken. De kleuren die in het document zijn gedefinieerd, worden omgezet in de gekozen kleurruimte.
-   > **Opmerking**: Een ICC-kleurprofiel is vereist voor het maken van PDF/A-kleuren als u CMYK-kleurruimte gebruikt.
+   >[!NOTE]
+   >
+   >Een ICC-kleurprofiel is vereist voor het maken van PDF/A-kleuren als u CMYK-kleurruimte gebruikt.
 
-   Voor meer informatie over het toepassen van deze afdrukinstellingen raadpleegt u *Afdrukvoorkeuren*.
+   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Kruisverwijzingen**
 
-Met het tabblad Kruisverwijzing definieert u hoe de kruisverwijzingen worden gepubliceerd in de PDF. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer. Zie voor meer informatie *Kruisverwijzingen opmaken*.
+Met het tabblad Kruisverwijzing definieert u hoe de kruisverwijzingen worden gepubliceerd in de PDF. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer. <!--For more information, see *Format cross-references*.-->
