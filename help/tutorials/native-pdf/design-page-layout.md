@@ -4,9 +4,9 @@ description: Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschi
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: 7b96fe9e8fad0e017626be04f5c41c1e42e7469d
 workflow-type: tm+mt
-source-wordcount: '4686'
+source-wordcount: '4649'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u con
 >
 >In het deelvenster Pagina-eigenschappen worden de eigenschappen ingekapseld en worden de regels gevolgd die zijn gedefinieerd onder de [Paginamedia](https://www.w3.org/TR/css-page-3/).
 
-* **Paginaformaat** : Geef het paginaformaat op dat u voor de paginalay-out wilt gebruiken. In de vervolgkeuzelijst Paginaformaat kunt u kiezen uit meer dan 15 pagina-formaten. U kunt ook een pagina-indeling maken met een aangepast paginaformaat. Zie [Paginaformaat instellen](design-page-layout.md#set-the-page-size) voor meer informatie .
+* **Paginaformaat** : Geef het paginaformaat op dat u voor de paginalay-out wilt gebruiken. In de vervolgkeuzelijst Paginaformaat kunt u kiezen uit meer dan 15 pagina-formaten. U kunt ook een pagina-indeling maken met een aangepast paginaformaat. Zie [Paginaformaat instellen](#set-page-size) voor meer informatie .
 
 * **Afdrukstand** : Geef de afdrukstand op die u voor de pagina-indeling wilt gebruiken. U kunt kiezen uit de stand Staand of Liggend. U kunt verschillende richtingen toepassen op verschillende paginariabelen in een paginalay-out. Als uw inhoud bijvoorbeeld een brede tabel of een grote afbeelding bevat, kunt u een liggende paginalay-out maken en die lay-out toepassen op de bredere tabel of afbeelding.
 
@@ -341,7 +341,7 @@ In de volgende schermafbeelding ziet u een voorbeeldafbeelding die in het koptek
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Nadat een afbeelding is ingevoegd, kunt u de kenmerken ervan wijzigen om de afbeelding de gewenste vormgeving te geven. De eenvoudigste manier om de manier te wijzigen waarop een afbeelding of een ander element in de paginalay-out eruitziet, is via het deelvenster Eigenschappen van inhoud. Zie [Werken met het deelvenster Eigenschappen van inhoud](design-page-layout.md#work-with-content-properties-panel) voor de diverse eigenschappen die via UI beschikbaar zijn om aan te passen.
+Nadat een afbeelding is ingevoegd, kunt u de kenmerken ervan wijzigen om de afbeelding de gewenste vormgeving te geven. De eenvoudigste manier om de manier te wijzigen waarop een afbeelding of een ander element in de paginalay-out eruitziet, is via het deelvenster Eigenschappen van inhoud. Zie [Werken met het deelvenster Eigenschappen van inhoud](#work-with-content-props) voor de diverse eigenschappen die via UI beschikbaar zijn om aan te passen.
 
 ### Velden en metagegevens toevoegen {#add-fields-metadata}
 
@@ -361,7 +361,7 @@ Er zijn de volgende categorieën voor gebieden die u in uw paginalay-out kunt op
 
 Elk van deze veldcategorieën bevat verschillende variaties waarin de veldinformatie kan worden ingevoegd. Een datumveld kan bijvoorbeeld verschillende variaties hebben, zoals `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` enzovoort. Op dezelfde manier kan het paginanummer variaties hebben in de vorm van Romeinse, decimale of zelfs landspecifieke notaties, zoals _Arabisch_, _Devanagari_, _Hebreeuws_ en meer.
 
-Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out. Zie voor meer informatie [Velden en metagegevens toevoegen](design-page-layout.md#add-fields-and-metadata).
+Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoegd in het voettekstgebied van een paginalay-out.
 
@@ -387,7 +387,7 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
    >[!NOTE]
    >
-   >U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK. Zie voor meer informatie [Velden en metagegevens toevoegen](design-page-layout.md#add-fields-and-metadata).
+   >U kunt ook de opmaak van alle velden bewerken, behalve de standaardindeling. Klik hiertoe op het pictogram Bewerken naast de indeling die u wilt bewerken, breng wijzigingen aan en klik op OK. Zie voor meer informatie [Velden en metagegevens toevoegen](#add-fields-metadata).
 
    Het veld Standaardpaginanummer wordt ingevoegd in het voettekstgebied van de paginalay-out.
 
@@ -449,7 +449,7 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling van d
 
 >[!NOTE]
 >
->Voor deze procedure, wordt verondersteld dat u de Eerste paginariant voor een lay-out van de hoofdstukpagina hebt gecreeerd. Ga voor instructies over het maken van een paginariant naar _De eerste, rechter of linkerpaginalay-outvarianten maken_.
+>Voor deze procedure, wordt verondersteld dat u de Eerste paginariant voor een lay-out van de hoofdstukpagina hebt gecreeerd. Ga voor instructies over het maken van een paginariant naar [De eerste, rechter of linkerpaginalay-outvarianten maken](#page-layout-variants).
 
 1. Open de vereiste pagina-indeling voor bewerking.
 
@@ -483,7 +483,7 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling van d
    >
    >De definitieve gepubliceerde PDF zal slechts de ingangen tonen TOC die op de inhoud in uw hoofdstukken worden gebaseerd. Als u geen niveau 5 rubrieken in een hoofdstuk hebt, zal het niet in de definitieve output worden getoond.
 
-De blik en het gevoel van standaardTOC kunnen worden aangepast gebruikend de stijlbladen. De stijl die begint met `chaptoc-level-#` (zoals `chaptoc-level-1`, `chaptoc-level-2`, enzovoort) worden gebruikt om de stijlen voor de inhoudsopgave van het hoofdstuk aan te passen. Voor meer informatie over de stijlbladelementen die in de inhoudsopgave worden gebruikt en hoe u deze kunt aanpassen, raadpleegt u _Standaardinhoudsopgave van hoofdstuk aanpassen_.
+De blik en het gevoel van standaardTOC kunnen worden aangepast gebruikend de stijlbladen. De stijl die begint met `chaptoc-level-#` (zoals `chaptoc-level-1`, `chaptoc-level-2`, enzovoort) worden gebruikt om de stijlen voor de inhoudsopgave van het hoofdstuk aan te passen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -519,7 +519,7 @@ Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken
 
    * **Tussenruimte kolom** : Geef de ruimte tussen afzonderlijke kolommen op.
 
-   * **Kolombereik** : Als u wilt dat een element in de paginalay-out zich over meerdere kolommen uitstrekt, moet u deze eigenschap gebruiken. Dit wordt bereikt door de stijl van het gewenste element te wijzigen gebruikend Stylesheets, voor meer informatie zie _Sectie waarin stijlaanpassingen worden uitgelegd_.
+   * **Kolombereik** : Als u wilt dat een element in de paginalay-out zich over meerdere kolommen uitstrekt, moet u deze eigenschap gebruiken. Dit wordt bereikt door de stijl van het gewenste element te wijzigen met behulp van de stijlpagina&#39;s. <!--for more information see _Section explaining style customization_-->.
 
    Als u in uw paginalay-out een bepaalde tekst op de eerste pagina van alle lay-outs van de hoofdstukpagina wilt verschijnen, dan kunt u het aan de Eerste paginafout van de de paginalay-out van het Hoofdstuk toevoegen.
 
@@ -549,4 +549,4 @@ Met het deelvenster Eigenschappen voor inhoud kunt u de vormgeving van de elemen
 * **Layout** : Bevat eigenschappen om de lay-out van een element in uw paginalay-out te vormen. U kunt Hoogte, Breedte, Marges en Opvulling (voor boven, onder, links of rechts), Horizontale of Verticale uitlijning, Zwevend (als Links, Rechts of Geen), Wissen (zoals links, rechts, beide of geen), Positie van element (als absoluut, vast, relatief of meer), Weergeven (als blok, inhoud, repareren of meer), Z Index, Transparantie (door te roteren of schalen) en Oorsprong transformeren (met X- en Y-verschuiving).
 
 * **Achtergrond** : Bevat eigenschappen waarmee een achtergrondafbeelding of kleurschaduw wordt opgenomen. U kunt de Afbeeldingsgrootte instellen (door Hoogte of Breedte in te stellen), Achtergrond herhalen (zoals herhalen, niet herhalen, rond of meer) en Achtergrondpositie (zoals links boven, rechts midden, onder of meer).
-* **Meerdere kolommen** : Bevat eigenschappen om multi-kolomeigenschappen voor de pagina of om het even welk specifiek element, zoals Hoofdstuk TOC te vormen. Zie voor meer informatie over de eigenschappen en hoe u deze kunt gebruiken _Werken met paginalay-out met meerdere kolommen_.
+* **Meerdere kolommen** : Bevat eigenschappen om multi-kolomeigenschappen voor de pagina of om het even welk specifiek element, zoals Hoofdstuk TOC te vormen. Zie voor meer informatie over de eigenschappen en hoe u deze kunt gebruiken [Werken met paginalay-out met meerdere kolommen](#multi-column-layout).
