@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
@@ -32,15 +32,15 @@ ht-degree: 3%
    + [Werken met voorwaardelijke uitvoer](./content-architecture/create-and-use-conditions.md)
    + [Algemene toetsen maken](./content-architecture/create-global-keys.md)
 + Configureren {#configuring}
+   + Native PDF-publicatiefunctie configureren {#config-native-pdf-publish}
+      + [PDF-sjabloon](./native-pdf/pdf-template.md)
+      + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
+      + [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
+      + [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
    + [Een aangepaste DITA-OT instellen](./configuring/setup-a-custom-dita-ot.md)
 + Vertaling {#translation}
    + [Alinea&#39;s uitsluiten van vertaling](./translation/exclude-paragraphs-from-translation.md)
 + Webeditor {#web-editor}
-   + [Een PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
+   + [PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
    + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
 + Versioning {#versioning}
-+ Oorspronkelijke PDF van WIP {#hidden}
-   + [Verborgen PDF-sjabloon](./native-pdf/pdf-template.md)
-   + [Verborgen onderdelen van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
-   + [Verborgen ontwerp van een pagina-indeling](./native-pdf/design-page-layout.md)
-   + [Verborgen stijlblad](./native-pdf/stylesheet.md)

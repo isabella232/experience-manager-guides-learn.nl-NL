@@ -1,10 +1,8 @@
 ---
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de verschillende componenten van een PDF sjabloon en hoe u deze kunt aanpassen en configureren.
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -114,7 +112,7 @@ Voer de volgende stappen uit om een nieuwe stijl te maken:
 1. In de **Tag** , kiest u een label waarvoor u een nieuwe stijl wilt maken.
 1. Geef een **Klasse** naam.
 
-   Deze klassenaam moet in de broninhoud worden gekoppeld aan het kenmerk outputclass van de tag.
+   Deze klassenaam moet worden gekoppeld aan het kenmerk outputclass van de tag in uw broninhoud.
 1. Selecteer een **Pseudo-klasse** voor verbeterde opmaak van het element.
 1. Klikken **Gereed**.
 
@@ -165,7 +163,7 @@ Het geselecteerde bestand wordt geïmporteerd en vermeld in de map Bronnen.
 
 ## Geavanceerde PDF-instellingen {#advanced-pdf-settings}
 
-Met de sectie Instellingen kunt u de geavanceerde instellingen voor de paginalay-out van PDF configureren, PDF vanaf een oneven of even pagina, indelingen voor de kruisverwijzingen en het inschakelen van drukkermarkeringen in de uiteindelijke PDF die met de sjabloon wordt gegenereerd.
+Met de sectie Instellingen kunt u de geavanceerde instellingen voor de paginalay-out configureren, de PDF- of even pagina starten, de kruisverwijzingen opmaken en drukkermarkeringen inschakelen in de uiteindelijke PDF die met de sjabloon wordt gegenereerd.
 
 Om te vormen, klik **Instellingen** in de **Sjablonen** voor het weergeven van de volgende opties:
 
