@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
    + [Werken met voorwaardelijke uitvoer](./content-architecture/create-and-use-conditions.md)
    + [Algemene toetsen maken](./content-architecture/create-global-keys.md)
 + Configureren {#configuring}
-   + Native PDF-publicatiefunctie configureren {#config-native-pdf-publish}
+   + Systeemeigen PDF-publicatie {#config-native-pdf-publish}
       + [PDF-sjabloon](./native-pdf/pdf-template.md)
       + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
       + [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
