@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release september 2022
 description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschap
 AEM hulplijnen biedt u nu de functie om dynamische basislijnen te maken op basis van labels. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Deze functie is handig omdat u de basislijn niet hoeft te wijzigen wanneer u de labels bijwerkt.
 U kunt de momentopname van de basislijn als CSV ook uitvoeren.
 
-![Basislijnen maken](assets/preset-metadata.png)
+![Basislijnen maken](assets/dynamic-baseline.png)
 
 ### Tekst zoeken en vervangen op kaartniveau
 
