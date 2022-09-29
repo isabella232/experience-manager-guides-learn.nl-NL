@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
+source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 3%
    + Releaseopmerkingen {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
-         + [Opmerkingen bij de huidige release](./release-info/release-notes-2022.8.0.md)
+         + [Opmerkingen bij de huidige release](./release-info/release-notes-2022.9.0.md)
+         + [Release-aantekeningen augustus](./release-info/release-notes-2022.8.0.md)
          + [Release-aantekeningen mei](./release-info/release-notes-2022.5.0.md)
          + [Release-aantekeningen april](./release-info/release-notes-2022.4.0.md)
          + [Opmerkingen bij de release maart](./release-info/release-notes-2022.3.0.md)

@@ -1,21 +1,21 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release augustus 2022
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: 7cc33e4621c2bfbf08a720f173e8e419c5424a6c
+description: Release van Adobe Experience Manager Guides as a Cloud Service in augustus
+source-git-commit: d49ccb3f654dede0c0447849d89ecbab333a1055
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%
 
 ---
 
-# Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+# Release van Adobe Experience Manager Guides as a Cloud Service in augustus
 
-## Upgrade naar de nieuwste versie
+## Upgrade naar de release van augustus
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.8.167.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van augustus van AEM as a Cloud Service hulplijnen te upgraden.
 
 ## Compatibiliteitsmatrix
 
@@ -40,7 +40,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ## Nieuwe en verbeterde functies
 
-AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in de recentste versie:
+AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in de versie van Augustus:
 
 ### Layoutweergave in de Kaarteditor
 
