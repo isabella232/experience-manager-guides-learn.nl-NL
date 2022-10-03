@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
+source-git-commit: e65bad1487c957894fd206f7e42a998c15497905
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Tutorials voor [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials voor [!DNL AEM Guides] voor AEM](overview.md)
++ [Tutorials voor [!DNL AEM Guides]](overview.md)
 + Geen informatie {#release-info}
    + [[!DNL AEM Guides] lozingen](./release-info/latest-release-info.md)
    + Releaseopmerkingen {#release-notes}
