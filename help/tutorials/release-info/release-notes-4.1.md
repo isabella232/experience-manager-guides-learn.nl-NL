@@ -2,24 +2,83 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
 description: Laatste release van Adobe Experience Manager-hulplijnen
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
+source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
 workflow-type: tm+mt
-source-wordcount: '2973'
-ht-degree: 2%
+source-wordcount: '3275'
+ht-degree: 3%
 
 ---
 
-# Laatste release van Adobe Experience Manager-hulplijnen
+# 4.1.x-release van Adobe Experience Manager-hulplijnen
+
+In deze releaseopmerkingen worden de instructies voor het bijwerken, de nieuwe functies en de verbeteringen in versie 4.1.x van Adobe Experience Manager-hulplijnen besproken (later ook wel *Hulplijnen AEM*).
 
 ## Upgrade naar de nieuwste versie
 
-U kunt eenvoudig een upgrade uitvoeren op uw huidige versie van de Adobe Experience Manager-hulplijnen (later *Hulplijnen AEM*) naar versie 4.1. Voordat u verdergaat met de upgrade naar versie 4.1 van AEM hulplijnen, moet u rekening houden met de volgende punten:
-
-* Als u versie 4.0.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.1. U moet een upgrade naar versie 4.0.x uitvoeren voordat u de upgrade naar versie 4.1 kunt uitvoeren.
+U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.1.2. Voordat u verdergaat met de upgrade naar versie 4.1.2 van AEM hulplijnen, moet u rekening houden met de volgende punten:
+* Als u versie 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.1.2.
+* Als u versie 4.0.x gebruikt, moet u een upgrade naar versie 4.1 of 4.1.x uitvoeren voordat u een upgrade naar versie 4.1.2 uitvoert.
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0.x uitvoeren voordat u een upgrade naar versie 4.1 uitvoert.
 * Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de upgradesectie in de productspecifieke installatiegids.
 
-Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.2. | Opmerkingen bij de release
+
+## Compatibiliteitsmatrix
+
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.2.
+
+### Adobe Experience Manager
+
+**Niet-UUID**
+Versie 6.5 Service Pack 13, 12, 11 of 10
+
+**UUID**
+Versie 6.5 Service Pack 13, 12, 11 of 10
+
+Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
+
+
+### FrameMaker en het Publiceren FrameMaker Server
+
+| Geen | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.2 (niet-UUID) | 2020.2 of hoger* | 2019 | 2020.3 of hoger | 2019.8 (laatste update) |
+| 4.1.2 (UUID) | 2020.2 of hoger* | Niet compatibel | 2020.4 of hoger | Niet compatibel |
+|  |  |  |  |
+
+*Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
+
+### Zuurstofaansluiting
+
+| Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
+| --- | --- | --- |--- |--- |
+| 4.1.2 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+|  |  |  |
+
+
+## Opgeloste problemen
+
+De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
+
+* Bij het selecteren van alle mapprofielen wordt een onzichtbaar mapprofiel (dat onjuist is) weergegeven. (10393)
+* Bij het maken van de basislijn wordt niet de nieuwste versie gekozen, wanneer de tijdzone van de gebruiker afwijkt van de tijdzone van de server. (10336)
+* Met de sneltoets Ctrl+F wordt de zoekmodus van de browser in de middelenconsole niet geopend nadat AEM hulplijnen 4.1 zijn geïnstalleerd. (10339)
+* Fout bij maken basislijn voor onderwerp met verwijzing naar een map. (10383)
+* Op het tabblad Uitvoervoorinstellingen wordt periodiek een leeg scherm weergegeven en in sommige gevallen worden niet-bewerkbare voorinstellingen weergegeven. (10390)
+* Keyspace-beheer leidt tot uitzonderingen en fouten. (10449)
+
+### Bekende problemen met tijdelijke oplossing
+
+* Basislijn die tijdens het omzetten is geëxporteerd, wordt niet geladen op het tabblad basislijn van de editor.
+
+   **Workaround**: Gebruik het basislijnlusje van het dashboard van de kaart DITA.
+
+## 4,1 | Opmerkingen bij de release
+
+In deze releaseopmerkingen worden de instructies voor het bijwerken, de nieuwe functies en de verbeteringen in versie 4.1.x van Adobe Experience Manager-hulplijnen besproken (later ook wel *Hulplijnen AEM*).
 
 ## Compatibiliteitsmatrix
 
@@ -53,13 +112,13 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1 (Niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
 ## Nieuwe en verbeterde functies
 
-AEM hulplijnen bieden veel verbeteringen en nieuwe functies in de nieuwste versie:
+AEM de Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in versie 4.1:
 
 ### Verbeterde webeditor
 
