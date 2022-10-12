@@ -2,10 +2,10 @@
 user-guide-title: Tutorials voor AEM hulplijnen
 user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
 breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: 7f0427213d71742b69bb392cea2064f05365f1a7
+source-git-commit: ecc8b162bb521cda4954c2b87f89cffe69deccfd
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
