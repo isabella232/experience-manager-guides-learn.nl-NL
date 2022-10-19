@@ -1,21 +1,21 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release september 2022
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
+description: Release Adobe Experience Manager Guides as a Cloud Service september
+source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1285'
 ht-degree: 3%
 
 ---
 
-# Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+# Release Adobe Experience Manager Guides as a Cloud Service september
 
-## Upgrade naar de nieuwste versie
+## Upgrade naar de release van september
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
-1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
+1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.9.178.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om de release van AEM as a Cloud Service hulplijnen in september te upgraden.
 
 ## Stappen om de bestaande inhoud te indexeren
 
@@ -50,7 +50,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ## Nieuwe en verbeterde functies
 
-AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in de recentste versie:
+AEM de as a Cloud Service Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in de versie van September:
 
 
 ### Een dynamische basislijn maken op basis van labels

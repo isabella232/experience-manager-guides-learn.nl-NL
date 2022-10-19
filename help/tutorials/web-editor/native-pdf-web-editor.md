@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2299'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Het deelvenster Voorinstelling wordt geopend.
    * Klik op het pictogram + **Voorinstellingen** om een nieuwe uitvoervoorinstelling toe te voegen van **Type: PDF**
 3. Instellingen configureren van een bestaande PDF-voorinstelling:
    * Klik op de knop  **Opties** ![opties](assets/options.svg) pictogram naast de gewenste uitvoervoorinstelling en selecteer **Bewerken**.
-U kunt de volgende instellingen gebruiken in het dialoogvenster **Algemeen**, **Layout**, **Beveiliging**, en **Geavanceerd** tabs voor het configureren van een PDF-uitvoervoorinstelling:
+U kunt de volgende instellingen gebruiken in het dialoogvenster **Algemeen**, **Metagegevens**, **Layout**, **Beveiliging**, en **Geavanceerd** tabs voor het configureren van een PDF-uitvoervoorinstelling:
 
 **Algemeen**
 
@@ -74,6 +74,23 @@ Gebruik deze optie om basisuitvoerinstellingen op te geven, zoals een uitvoerpad
 | **PDF-bestand** | Geef een bestandsnaam op om de PDF op te slaan. Standaard wordt in de bestandsnaam PDF de naam van de DITA-kaart en de naam van de voorinstelling toegevoegd. ditamap is bijvoorbeeld ‘TestMap’ en de naam van de voorinstelling is ‘preset1’, en de standaardnaam van de pdf is ‘TestMap_preset1.pdf’. |
 | **Voorwaarden toepassen met** | Voor geconditionaliseerde inhoud kiest u uit de onderstaande opties om op basis van deze voorwaarden een PDF-uitvoer te genereren: <br>* **Geen toegepast** Selecteer deze optie als u geen voorwaarde wilt toepassen op de kaart en broninhoud. <br> * **Ditaval-bestand** Selecteer een DITAVAL-bestand om geconditioneerde inhoud te genereren. Klik op Voorinstelling voorwaarde om dit te selecteren en zoek het bestand. <br> * **Voorinstelling voorwaarde** Selecteer een voorinstelling voor een voorwaarde in het keuzemenu om een voorwaarde toe te passen tijdens het publiceren van de uitvoer. Deze optie is zichtbaar als u een voorwaarde voor het DITA kaartdossier hebt toegevoegd. De voorwaardelijke instellingen zijn beschikbaar op het tabblad Voorinstellingen voorwaarde van de DITA-kaartconsole. Zie voor meer informatie over voorinstellingen voor voorwaarden [Voorinstellingen voor voorwaarden gebruiken](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Basislijn gebruiken** | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren. Zie [Werken met basislijn](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) voor meer informatie . |
+
+**Metagegevens**
+
+Metagegevens zijn de beschrijving of definitie van de inhoud. Metagegevens helpen bij inhoudsbeheer en helpen bij het zoeken naar bestanden op internet.
+
+Gebruik het tabblad Metagegevens om de titel, de auteur, het onderwerp en de trefwoorden voor de uitvoer van de PDF in te stellen. Deze metagegevens worden toegewezen aan de metagegevens op het tabblad Beschrijving in de documenteigenschappen van de uitvoer-PDF.
+
+**Opmerking**: Deze metagegevens overschrijven de metagegevens die op boekniveau zijn gedefinieerd.
+
+![tabblad Metagegevens](assets/pdf-metadata.png)
+
+| Instelling | Beschrijving |
+|---|---|
+| **Titel** | Geef een korte en duidelijke titel op om het document te definiëren. |
+| **Auteur** | Geef de namen op van de auteur(s) die het document heeft gemaakt. |
+| **Subject** | Definieer het onderwerp of de verzameling waarmee het document is gerelateerd. |
+| **Trefwoorden** | Gebruik relevante trefwoorden om de optimalisatie voor zoekprogramma&#39;s te verbeteren en gebruikers te helpen om de gerelateerde inhoud te zoeken. |
 
 **Indeling**
 
