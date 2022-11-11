@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
 description: Laatste release van Adobe Experience Manager-hulplijnen
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
+source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3400'
 ht-degree: 3%
 
 ---
@@ -119,6 +119,18 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 ## Nieuwe en verbeterde functies
 
 AEM de Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in versie 4.1:
+
+### Native PDF-publicatie
+
+Ondersteuning voor het maken van een native PDF is ook toegevoegd aan de 4.1-versie van AEM hulplijnen. Er is een nieuwe uitgeverij-engine geïntroduceerd met de volgende functies:
+* Een CSS-sjabloon maken
+* Andere paginasjablonen maken
+* PDF-sjablonen ontwerpen die CSS en paginasjablonen bevatten
+* Kaart en onderwerpinhoud publiceren in PDF-indeling
+
+### Ondersteuning voor het pad van de kennisbasissite in op artikelen gebaseerde publicaties
+
+AEM de Gidsen verstrekt de op artikel-gebaseerde het publiceren eigenschap om een output van één of meerdere onderwerpen stapsgewijs te produceren of uw inhoud aan een platform van de kennisbank te publiceren. Met versie 4.1, hebt u een extra optie om de de plaatsweg te kiezen van de Kennisbank waaraan het onderwerp/de kaart moet worden gepubliceerd. Nadat u het pad hebt geselecteerd, wordt de uitvoer gegenereerd op het opgegeven pad.
 
 ### Verbeterde webeditor
 
