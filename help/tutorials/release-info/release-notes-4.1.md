@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
 description: Laatste release van Adobe Experience Manager-hulplijnen
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
+source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
 workflow-type: tm+mt
-source-wordcount: '3400'
+source-wordcount: '3532'
 ht-degree: 3%
 
 ---
@@ -15,13 +15,56 @@ In deze releaseopmerkingen worden de instructies voor het bijwerken, de nieuwe f
 
 ## Upgrade naar de nieuwste versie
 
-U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.1.2. Voordat u verdergaat met de upgrade naar versie 4.1.2 van AEM hulplijnen, moet u rekening houden met de volgende punten:
-* Als u versie 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.1.2.
-* Als u versie 4.0.x gebruikt, moet u een upgrade naar versie 4.1 of 4.1.x uitvoeren voordat u een upgrade naar versie 4.1.2 uitvoert.
+U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.1.3. Voordat u verdergaat met de upgrade naar versie 4.1.3 van AEM hulplijnen, moet u rekening houden met de volgende punten:
+* Als u versie 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.1.3.
+* Als u versie 4.0.x gebruikt, moet u een upgrade naar versie 4.1 of 4.1.x uitvoeren voordat u een upgrade naar versie 4.1.3 uitvoert.
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0.x uitvoeren voordat u een upgrade naar versie 4.1 uitvoert.
 * Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de upgradesectie in de productspecifieke installatiegids.
 
 Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.3. | Opmerkingen bij de release
+
+## Compatibiliteitsmatrix
+
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.3.
+
+### Adobe Experience Manager
+
+**Niet-UUID**
+Versie 6.5 Service Pack 13, 12, 11 of 10
+
+**UUID**
+Versie 6.5 Service Pack 13, 12, 11 of 10
+
+Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
+
+
+### FrameMaker en het Publiceren FrameMaker Server
+
+| Geen | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.3 (niet-UUID) | 2020.2 of hoger* | 2019 | 2020.3 of hoger | 2019.8 (laatste update) |
+| 4.1.3 (UUID) | 2020.2 of hoger* | Niet compatibel | 2020.4 of hoger | Niet compatibel |
+|  |  |  |  |
+
+*Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
+
+### Zuurstofaansluiting
+
+| Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
+| --- | --- | --- |--- |--- |
+| 4.1.3 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+|  |  |  |
+
+
+## Opgeloste problemen
+
+De gecorrigeerde bug wordt hieronder weergegeven:
+
+* De webeditor laadt af en toe een lege pagina. (10678)
+
 
 ## 4.1.2. | Opmerkingen bij de release
 
@@ -55,7 +98,7 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1.2 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.2 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
