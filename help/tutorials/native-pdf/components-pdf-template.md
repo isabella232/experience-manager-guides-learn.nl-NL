@@ -1,10 +1,10 @@
 ---
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
-description: Leer de verschillende componenten van een PDF sjabloon en hoe u deze kunt aanpassen en configureren.
+description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2516'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,7 @@ Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van
    In het bovenstaande voorbeeld zijn Geavanceerde instellingen voor PDF, Bijlage en Juridisch het eerste niveau van onderwerpkoppen of hoofdstuktitels. Aan al deze koppen wordt een paginanummer toegewezen.
 
    Nu, als u deze optie selecteert en de output produceert, dan zult u volgende TOC krijgen:
+
    <img src="assets/page-number-missing-in-toc.png" alt="Elementen uploaden" width="250">
 
    Hier kunt u opmerken dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, aangezien het geneste of onderliggende onderwerpen heeft. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
@@ -201,10 +202,35 @@ Voor het toepassen van de inhoudsopgavestructuur en de vormkopniveaus raadpleegt
 
 Met de instellingen voor Pagina-indelingen hebt u volledige controle over het opgeven van de paginalay-out die moet worden gebruikt voor een bepaalde sectie van het document. Als u bijvoorbeeld een indeling voor de inhoudsopgave wilt selecteren, klikt u op het vervolgkeuzemenu onder het veld Inhoudsopgave en selecteert u de indeling die u hebt ontworpen om de inhoudsopgave te genereren.
 
-Als u geen lay-out voor een bepaalde sectie in uw document hebt gemaakt, kunt u eenvoudig een lay-out kiezen die als standaardlay-out voor dergelijke secties of onderwerpen dient. De standaardpaginalay-out wordt dan toegepast voor alle dergelijke secties die geen specifieke paginalay-out hebben.
+De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
-Als u een omslag en een achterpagina wilt, dan moet u een paginalay-out hebben die in de montages wordt gecreeerd en wordt toegepast. Anders bevat uw PDF niet de omslag- en achterpagina&#39;s.
+<img src="assets/template-page-layout.png" alt="Paginalay-outs" width="550">
 
+
+**Standaardpagina-indeling**: Selecteer een paginalay-out die als standaardlay-out voor alle pagina&#39;s in uw PDF dienst doet. Dit is de lay-out van de basispagina die op die secties of onderwerpen wordt toegepast waar u geen specifieke paginalay-out hebt gecreeerd.
+
+**Paginalay-out voor verschillende secties**: U kunt ervoor kiezen om een pagina-indeling toe te wijzen met de volgende secties van uw PDF-uitvoer:
+* Inhoudsopgave
+* Lijst met figuren
+* Lijst met tabellen
+* Hoofdstuk en onderwerp
+* Index
+* Verklarende woordenlijst
+
+Als u geen bepaalde sectie in uw output van PDF wilt tonen, dan kunt u dat onbruikbaar maken door de knevelschakelaar aan weg te zetten.
+
+**Hoofdstuk en onderwerpen** layout is altijd ingeschakeld en **Verklarende woordenlijst** layout is standaard altijd uitgeschakeld. U kunt ze niet in- en uitschakelen.
+
+U kunt ook de volgorde definiëren waarin deze verschillende secties worden gegenereerd in uw PDF. Als u de standaardvolgorde van deze pagina&#39;s wilt wijzigen, houdt u de muisaanwijzer links van een paginalay-out ingedrukt en klikt u op het pictogram met stippelbalken om de pagina-indeling naar de gewenste locatie te slepen.
+Uw PDF zal de toegelaten paginalay-outs in de orde bevatten u hen hier hebt georganiseerd.
+
+**Pagina-indeling voor lege pagina&#39;s**: U kunt ook de pagina-indeling voor de lege pagina&#39;s opgeven. De geselecteerde indeling wordt toegepast op alle lege pagina&#39;s. Als u bijvoorbeeld een lege paginalay-out hebt ontworpen voor alle lege pagina&#39;s, selecteert u **Leeg** in de vervolgkeuzelijst en alle lege pagina&#39;s in het document hebben de indeling Lege pagina.
+
+**Voorblad en pagina op achtergrond**: Als u een indeling van de omslagpagina hebt ontworpen, wijst u deze toe aan de **Voorblad** optie. En als u een lay-out voor de achterpagina hebt, wijst u deze toe aan de **Vorige pagina** optie. Als er geen lay-outs voor de omslag- of achtergrondpagina zijn gemaakt, wordt de standaardpagina-indeling toegepast.
+
+>[!NOTE]
+>
+>De instellingen voor de bladwijzer hebben voorrang op de instellingen voor de paginalay-out.
 
 Voor meer informatie over paginalay-outs raadpleegt u [Een pagina-indeling ontwerpen](design-page-layout.md).
 

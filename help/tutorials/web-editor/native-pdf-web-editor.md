@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
+source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2663'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,14 @@ Een voorinstelling voor PDF-uitvoer maken of configureren:
 
 1. Klik op het tabblad Uitvoer op **Voorinstellingen** in de linkerzijbalk.
 Het deelvenster Voorinstelling wordt geopend.
-   ![deelvenster met voorinstellingen](assets/preset-panel.png)
-2. In de uitvoer **Voorinstellingen** voert u een van de volgende handelingen uit:
+
+<img src="assets/preset-panel.png" alt="deelvenster met voorinstellingen" width="600">
+
+1. In de uitvoer **Voorinstellingen** voert u een van de volgende handelingen uit:
    * Dubbelklik op een vooraf gedefinieerde PDF-uitvoervoorinstelling om deze weer te geven.
    * Klik op het pictogram + **Voorinstellingen** om een nieuwe uitvoervoorinstelling toe te voegen van **Type: PDF**
-3. Instellingen configureren van een bestaande PDF-voorinstelling:
+
+1. Instellingen configureren van een bestaande PDF-voorinstelling:
    * Klik op de knop  **Opties** ![opties](assets/options.svg) pictogram naast de gewenste uitvoervoorinstelling en selecteer **Bewerken**.
 U kunt de volgende instellingen gebruiken in het dialoogvenster **Algemeen**, **Metagegevens**, **Layout**, **Beveiliging**, en **Geavanceerd** tabs voor het configureren van een PDF-uitvoervoorinstelling:
 
@@ -70,10 +73,12 @@ Gebruik deze optie om basisuitvoerinstellingen op te geven, zoals een uitvoerpad
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **Uitvoerpad** | Het pad binnen de AEM opslagplaats waar de PDF-uitvoer wordt opgeslagen. Zorg ervoor dat het uitvoerpad zich niet in de projectmap bevindt. Als deze optie leeg wordt gelaten, wordt de uitvoer gegenereerd op de standaarduitvoerlocatie voor de DITA-kaart. |
-| **PDF-bestand** | Geef een bestandsnaam op om de PDF op te slaan. Standaard wordt in de bestandsnaam PDF de naam van de DITA-kaart en de naam van de voorinstelling toegevoegd. ditamap is bijvoorbeeld ‘TestMap’ en de naam van de voorinstelling is ‘preset1’, en de standaardnaam van de pdf is ‘TestMap_preset1.pdf’. |
-| **Voorwaarden toepassen met** | Voor geconditionaliseerde inhoud kiest u uit de onderstaande opties om op basis van deze voorwaarden een PDF-uitvoer te genereren: <br>* **Geen toegepast** Selecteer deze optie als u geen voorwaarde wilt toepassen op de kaart en broninhoud. <br> * **Ditaval-bestand** Selecteer een DITAVAL-bestand om geconditioneerde inhoud te genereren. Klik op Voorinstelling voorwaarde om dit te selecteren en zoek het bestand. <br> * **Voorinstelling voorwaarde** Selecteer een voorinstelling voor een voorwaarde in het keuzemenu om een voorwaarde toe te passen tijdens het publiceren van de uitvoer. Deze optie is zichtbaar als u een voorwaarde voor het DITA kaartdossier hebt toegevoegd. De voorwaardelijke instellingen zijn beschikbaar op het tabblad Voorinstellingen voorwaarde van de DITA-kaartconsole. Zie voor meer informatie over voorinstellingen voor voorwaarden [Voorinstellingen voor voorwaarden gebruiken](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
+| **Uitvoerpad** | Het pad binnen de AEM opslagplaats waar de PDF-uitvoer wordt opgeslagen. Zorg ervoor dat het uitvoerpad zich niet in de projectmap bevindt. Als deze optie leeg wordt gelaten, wordt de uitvoer gegenereerd op de standaarduitvoerlocatie voor de DITA-kaart.<br>U kunt ook de volgende variabelen buiten het vak gebruiken om het uitvoerpad te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om deze optie te definiëren. <br> `${map_filename}`: Gebruikt de naam van de DITA kaartdossiers om de bestemmingspad tot stand te brengen. <br> `${map_title}`: Gebruikt de DITA kaarttitel om de bestemmingsweg tot stand te brengen. <br>`${preset_name}`: Gebruikt de naam van de uitvoervoorinstelling om het doelpad te maken. <br> `${language_code}`: Gebruikt de taalcode waar het kaartdossier wordt gevestigd om de bestemmingspad tot stand te brengen. <br> `${map_parentpath}`: Gebruikt het volledige pad van het kaartbestand om het doelpad te maken.  <br>`${path_after_langfolder}`: Gebruikt het pad van het kaartbestand na de taalmap om het doelpad te maken. |
+| **PDF-bestand** | Geef een bestandsnaam op om de PDF op te slaan. Standaard wordt in de bestandsnaam PDF de naam van de DITA-kaart en de naam van de voorinstelling toegevoegd. ditamap is bijvoorbeeld ‘TestMap’ en de naam van de voorinstelling is ‘preset1’, en de standaardnaam van de pdf is ‘TestMap_preset1.pdf’. <br>U kunt ook de volgende variabelen gebruiken om het PDF-bestand te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om deze optie te definiëren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Voorwaarden toepassen met** | Voor geconditionaliseerde inhoud kiest u uit de onderstaande opties om op basis van deze voorwaarden een PDF-uitvoer te genereren: <br>* **Geen toegepast** Selecteer deze optie als u geen voorwaarde wilt toepassen op de kaart en broninhoud. <br>* **Ditaval-bestand** Selecteer een DITAVAL-bestand om geconditioneerde inhoud te genereren. Klik op Voorinstelling voorwaarde om dit te selecteren en zoek het bestand. <br> * **Voorinstelling voorwaarde** Selecteer een voorinstelling voor een voorwaarde in het keuzemenu om een voorwaarde toe te passen tijdens het publiceren van de uitvoer. Deze optie is zichtbaar als u een voorwaarde voor het DITA kaartdossier hebt toegevoegd. De voorwaardelijke instellingen zijn beschikbaar op het tabblad Voorinstellingen voorwaarde van de DITA-kaartconsole. Zie voor meer informatie over voorinstellingen voor voorwaarden [Voorinstellingen voor voorwaarden gebruiken](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Basislijn gebruiken** | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren. Zie [Werken met basislijn](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) voor meer informatie . |
+| **PDF maken met wijzigingsbalk tussen gepubliceerde versies** | Gebruik de volgende opties om een PDF te maken die de verschillen in inhoud tussen twee versies weergeeft met wijzigingsbalken:   <br>* **Basislijn van de vorige versie** Kies de basislijnversie die u met de huidige versie of een andere basislijn wilt vergelijken. Er wordt een wijzigingsbalk weergegeven in de PDF om de gewijzigde inhoud aan te geven. Een wijzigingsbalk is een verticale lijn die nieuwe of herziene inhoud visueel identificeert. De wijzigingsbalk verschijnt links van de inhoud die is ingevoegd, gewijzigd of verwijderd. <br> **Opmerking**: Als u **Basislijn gebruiken** en kies een basislijn om te publiceren, zal de vergelijking tussen de twee geselecteerde basislijnversies worden gedaan. Als u bijvoorbeeld basislijnversie 1.3 kiest onder **Basislijn gebruiken** en versie 1.1 onder **Basislijn van de vorige versie**, zal de vergelijking tussen basislijnversie 1.1 en basislijnversie 1.3 worden gedaan. <br>* **Toegevoegde tekst tonen** Selecteer deze optie om de ingevoegde tekst in groene kleur en onderstreept weer te geven. Deze optie is standaard geselecteerd. <br> * **Verwijderde tekst tonen** Selecteer deze optie om de verwijderde tekst rood weer te geven en doorhalen. Deze optie is standaard geselecteerd. <br>**Opmerking** U kunt de opmaak van de wijzigingsbalk, ingevoegde inhoud of verwijderde inhoud ook aanpassen met de stijlpagina.<br> |
+| **Workflow na generatie** | Selecteer deze optie om een vervolgkeuzelijst weer te geven met alle workflows die in AEM zijn geconfigureerd. U kunt de workflow selecteren die u wilt uitvoeren nadat de workflow voor het genereren van PDF is voltooid. |
 
 **Metagegevens**
 
@@ -83,7 +88,8 @@ Gebruik het tabblad Metagegevens om de titel, de auteur, het onderwerp en de tre
 
 **Opmerking**: Deze metagegevens overschrijven de metagegevens die op boekniveau zijn gedefinieerd.
 
-![tabblad Metagegevens](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="tabblad Metagegevens" width="600">
+
 
 | Instelling | Beschrijving |
 |---|---|
@@ -147,6 +153,6 @@ In het deelvenster Voorinstellingen uitvoer kunt u een voortgangsbalk weergeven 
 6. Als de uitvoergeneratie is voltooid, klikt u op  **Uitvoer weergeven** ![uitvoer weergeven](assets/view-output.svg) op de bovenste balk om de uitvoer weer te geven.\
    A **Succes** wordt in de rechterbenedenhoek van het scherm weergegeven.
 Als de uitvoer niet is gelukt, wordt het onderstaande foutbericht weergegeven.
-   ![foutenlogboek](assets/error-log.png)
+<img src="assets/error-log.png" alt="foutenlogboek" width="250">
 
 Als u het foutenlogboek wilt weergeven, klikt u op **Afwijzen**, plaatst u de cursor boven het geselecteerde tabblad met voorinstellingen en klikt u op ![opties](assets/options.svg) **Opties** > **Logboek weergeven**.

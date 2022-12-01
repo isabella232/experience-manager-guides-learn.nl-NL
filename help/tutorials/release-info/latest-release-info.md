@@ -2,9 +2,9 @@
 title: Release AEM hulplijnen
 description: Recentste versie van de Gidsen van AEM en vereiste AEM versies
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: 4066b22849271f29b5339dbd2f1bfa0946cdbd8b
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,39 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Manager Guides] is een toepassing die op AEM wordt opgesteld. Het is een krachtige oplossing voor componentcontentbeheer op bedrijfsniveau (CCMS) die native DITA-ondersteuning in Adobe Experience Manager mogelijk maakt en AEM in staat stelt om op DITA gebaseerde content creation en delivery af te handelen.
 
-## UUID vs Niet-UUID toegelicht
+AEM pakketten met hulplijnen zijn beschikbaar in twee varianten: UUID-builds en niet-UUID-builds.
 
-[!DNL AEM Guides] pakketten zijn beschikbaar in twee modi: UUID-builds en niet-UUID-builds.
+## UUID- en niet-UUID-builds
 
-Klanten moeten bij de eerste installatie tussen de UUID- en de niet-UUID-modus beslissen (neem contact op met de Manager voor succes van de klant om u te helpen bij het nemen van de beslissing op basis van uw keuze).
+De belangrijkste verschillen tussen de UUID- en niet-UUID-builds zijn als volgt:
 
-Wanneer u een upgrade uitvoert van één versie van [!DNL AEM Guides] naar een nieuwere versie, moeten klanten ervoor zorgen dat ze dezelfde modus (UUID / niet-UUID) kiezen om overeen te komen met hun bestaande modus. Een niet-UUID-build moet niet rechtstreeks worden geüpgraded naar een UUID-build. Voor de overgang van niet-UUID-build naar UUID-build is een migratie van inhoud nodig.
+|  | UUID-build | Niet-UUID-build |
+|---|---|---|
+| **Identificatie van activa** | Alle activa worden geïdentificeerd met behulp van het pad van het middel in de repository. | Alle elementen worden geïdentificeerd met hun UUID (unieke id die door het systeem is gegenereerd toen het element voor het eerst werd geüpload). |
+| **Referentie maken** | Alle inhoudsverwijzingen worden gemaakt op basis van hun paden. | Alle inhoudsverwijzingen worden gemaakt op basis van hun UUID. |
+
+### Voordelen van UUID-build
+
+* UUID-installatie werkt beter:
+   * Verwijzingen zijn padonafhankelijk: Het referentiemanagementsysteem is zich bewust van de koppelingen, aangezien de verwijzingen worden gemaakt op basis van UUID&#39;s en niet op basis van de paden.
+   * Verplaatsen/bijwerken is efficiënt: De UUID&#39;s blijven hetzelfde, zelfs als de elementen naar een ander pad in de opslagplaats worden verplaatst. Er is dus geen verwerking vereist om de verwijzingen tussen de elementen bij verplaatsen/bijwerken te repareren.
+* De UUID-build is toekomstgericht, aangezien we dit framework ook gebruiken voor de installatie van AEM hulplijnen in de cloud.
+
+
+### Kiezen tussen de twee builds
+
+* Als u een nieuwe klant bent, raden wij u aan UUID-build te gebruiken.
+* Als u een bestaande klant bent, kunt u ervoor kiezen om naar UUID-build over te gaan, aangezien de migratie van niet-UUID naar UUID-build nu mogelijk is. Zie voor meer informatie de *Migratie van niet-UUID naar UUID-inhoud* in de **Installeer en configureer Adobe Experience Manager-hulplijnen.**
+
+>[!NOTE]
+>
+>* Klanten moeten bij de eerste installatie tussen de UUID- en de niet-UUID-modus beslissen (als u hulp nodig hebt, moet u contact opnemen met Customer Success Manager om u te helpen bij het nemen van de beslissing op basis van uw gebruikersaccount).
+>* Wanneer klanten een upgrade uitvoeren van een versie van AEM hulplijnen naar een nieuwere versie, moeten ze dezelfde modus (UUID / niet-UUID) kiezen om overeen te komen met hun bestaande modus. Een niet-UUID-build moet niet rechtstreeks worden geüpgraded naar een UUID-build. Voor de overgang van niet-UUID-build naar UUID-build is een migratie van inhoud nodig.
+
 
 **Builds upgraden**
 
-Wanneer u een upgrade uitvoert van een oudere versie naar een nieuwere versie van [!DNL AEM Guides]bepaalde migratiescripts moet uitvoeren. Raadpleeg Opmerkingen bij de release en versiespecifieke documentatie voor upgradeinstructies.
+Wanneer u een upgrade uitvoert van een oudere versie naar een nieuwere versie van [!DNL AEM Guides], moet u mogelijk migratiescripts uitvoeren. Raadpleeg Opmerkingen bij de release en versiespecifieke documentatie voor upgradeinstructies.
 
 Niet alle upgradepaden worden rechtstreeks ondersteund. Een directe upgrade naar versie 4.0 is bijvoorbeeld alleen mogelijk vanaf versie 3.8. Als u een versie gebruikt die ouder is dan 3.8, raadpleegt u de versiespecifieke documentatie voor instructies voor het uitvoeren van een upgrade [Help archiveren](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 Neem contact op met de succesmanager van uw klant om het upgradepad te valideren.
