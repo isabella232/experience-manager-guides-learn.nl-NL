@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | as a Cloud Service Adobe Experience Manager-hulplijnen, release november 2022
 description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 1%
 
 ---
@@ -101,9 +101,7 @@ In het vertaaldashboard, kunt u de kolom van het Etiket van de Versie ook zien. 
 <img src="assets/send-translation.png" alt="verzenden voor vertaling" width="600">
 
 
-## Native PDF-publicatieverbeteringen
-
-### PDF met wijzigingsbalk die het verschil tussen documentversies aangeeft
+### Native PDF | PDF met wijzigingsbalk geeft het verschil tussen documentversies aan
 
 Nu kunt u een PDF maken die de verschillen in inhoud tussen twee versies weergeeft met de wijzigingsbalk. U kunt de huidige versie vergelijken met een basislijn van de vorige versie of de twee geselecteerde basislijnversies vergelijken.
 
@@ -113,7 +111,7 @@ Er wordt een wijzigingsbalk weergegeven in de PDF om de gewijzigde, ingevoegde o
 * Ingevoegde inhoud in groene kleur en onderstreept weergeven
 * De verwijderde inhoud rood weergeven en doorhalen
 
-### Ondersteuning voor variabelen voor Uitvoerpad en bestandsnaam PDF
+### Native PDF | Variabele-ondersteuning voor uitvoerpad en naam van PDF-bestand
 
 U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-bestand te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om de volgende opties te definiëren:
 * `${map_filename}`
@@ -124,7 +122,7 @@ U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-best
 * `${path_after_langfolder}` (Alleen voor uitvoerpad)
 
 
-### Inhoudsopgave genereren voor DITA-kaarten en de paginalay-outs opnieuw ordenen
+### Native PDF | Inhoudsopgave genereren voor DITA-kaarten en paginalay-outs opnieuw ordenen
 
 Nu kunt u TOC in kaarten ook produceren DITA gebruikend een geavanceerde PDF het plaatsen van het malplaatje. U kunt de weergave van de verschillende paginalay-outs in- of uitschakelen en ook de positie ervan wijzigen.
 
