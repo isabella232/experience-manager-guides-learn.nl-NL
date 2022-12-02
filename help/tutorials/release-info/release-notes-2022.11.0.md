@@ -1,10 +1,11 @@
 ---
 title: Opmerkingen bij de release | as a Cloud Service Adobe Experience Manager-hulplijnen, release november 2022
 description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: 549417d6a45508d0afe98574499f1694ae32e708
+exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
+source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 1%
 
 ---
 
@@ -131,7 +132,6 @@ Nu kunt u TOC in kaarten ook produceren DITA gebruikend een geavanceerde PDF het
 
 De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
 
-* Native PDF | Een voetnoot in de tabelkoptekst leidt tot een vetgedrukte en gecentreerde voetnoottekst in de voettekst in de PDF-uitvoer. (10610)
 * Native PDF | `conkeyref` wordt niet opgelost in de gegenereerde PDF-uitvoer. (10564)
 * Native PDF | Problemen treden op bij het benaderen van metagegevens van een kaart in de uitvoer van de PDF. (10556)
 * Native PDF | Inline stijl wordt gebruikt voor het genereren van tags in plaats van klassenaam.  (10498)
@@ -141,7 +141,6 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Notitie in een paratag die een conref is, wordt niet weergegeven in de voorvertoning. (10559)
 * Als u de backspace aan het einde van een lijstitem aanpast, wordt de hele lijst verwijderd. (10540)
 * Als u een native PDF gebruikt, exporteert u het geneste `<indexterm>` niet genest zijn in de index. (10521)
-* Bij onjuist publiceren van basislijn `cq:tags` worden gekozen (gekozen uit de huidige werkkopie in plaats van uit een versie-kopie). (10494)
 * **Automatisch inspringen** in de werkbalk ontbreekt in de bronweergave. (10448)
 * Het eerste teken van een lijstitem gaat verloren terwijl de lijst wordt geschreven in de editor. (10447)
 * Er worden meerdere pop-ups weergegeven als een DITA-elementversie wordt gewijzigd en opgeslagen in het basislijnbewerkingsvenster. (10399)
@@ -150,7 +149,6 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Nabewerking wordt geblokkeerd voor de volledige taalmap waarvan de middelen aanwezig zijn in een actief vertaalproject. (10332)
 * Het tabblad Sjabloon in de XML-editor is niet zichtbaar voor beheerders van mapprofielen. (10266)
 * De kwesties van de navigatie komen in de Redacteur van het Web na 4.0 verbetering voor. (10159)
-* Het eerste teken wordt afgebroken in de Koreaanse taal tijdens het ontwerpen in de webeditor. (10049)
 * SVG-bestanden worden niet weergegeven in de modus Voorbeeld. (10010)
 * Als het tabblad Uitvoer van de Editor meer voorinstellingen bevat, kan de sectie Voorinstellingen niet worden geschoven en worden niet alle voorinstellingen weergegeven. (9787)
 * **Bewerken** en **Annoteren** De opties voor een afbeelding werken niet correct in de kolomweergave. (8758)
