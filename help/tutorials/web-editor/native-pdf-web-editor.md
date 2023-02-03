@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
+source-git-commit: 618030a32b6cc8d703e71d4eb91a340cb89a413b
 workflow-type: tm+mt
-source-wordcount: '2663'
+source-wordcount: '2666'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | Instelling | Beschrijving |
 | --- | --- |
 | **Toegankelijke (gelabelde) PDF maken** | Selecteer deze optie als u een PDF met tags wilt genereren. Met een gecodeerde PDF kunnen schermlezers gemakkelijker inhoud, hyperlinks, bladwijzers enzovoort lezen en door de inhoud navigeren. Als een tabel bijvoorbeeld is gecodeerd, weet de schermlezer dat deze de tabel leest en niet alleen regels en tekst. |
-| **PDF in de inhoudsopgave samenvoegen** | Selecteer deze optie als u bestaande PDF wilt samenvoegen in de uitvoer door ze toe te voegen aan de inhoudsopgave. De PDF worden ingevoegd op de locatie die in de inhoudsopgave wordt weergegeven en de pagina&#39;s worden dienovereenkomstig verhoogd. |
+| **PDF in de inhoudsopgave samenvoegen** | Selecteer deze optie om bestaande PDF in uw output samen te voegen door hen aan uw kaart DITA als middeldossier toe te voegen. De PDF worden ingevoegd op de locatie die op de kaart wordt weergegeven en de pagina&#39;s worden dienovereenkomstig verhoogd. |
 | **Gebruikte lettertypen insluiten** | Selecteer deze optie als u lettertypen gebruikt die mogelijk niet op de computer van de eindgebruiker zijn geïnstalleerd. Als deze optie is ingeschakeld, worden de gebruikte lettertypen ingesloten in de PDF, zodat de gebruiker de PDF kan zien zoals deze is bedoeld, zelfs als de lettertypen niet op zijn computer zijn geïnstalleerd. <br> **Opmerking**: Een lettertype kan alleen worden ingesloten als het een instelling van de leverancier van het lettertype bevat die insluiten van het lettertype toestaat. Zorg ervoor dat u de vereiste instelling of licentie hebt voordat u een lettertype insluit. |
 | **Automatische woordafbreking gebruiken** | Als automatische woordafbreking is ingeschakeld, worden woorden aan het einde van regels op grammaticaal correcte plaatsen afgebroken met een afbreekstreepje. |
 | **JavaScript inschakelen** | Schakel deze optie in als u een JavaScript-code hebt waarmee u de inhoud dynamisch wilt transformeren voordat u een PDF genereert. |
