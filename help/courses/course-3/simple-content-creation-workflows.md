@@ -2,7 +2,7 @@
 title: Workflows voor het maken van eenvoudige inhoud
 description: Inhoud maken in AEM hulplijnen
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De AEM-editor voor hulplijnen heeft meerdere sneltoetsen die de workflow voor het maken van inhoud vereenvoudigen. Met deze sneltoetsen kunnen gebruikers snel afbeeldingen toevoegen en wijzigen, met meerdere onderwerpen tegelijk werken, fouten corrigeren, onderwerpen downloaden en met versies en labels werken.
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## Een afbeelding toevoegen
 
@@ -35,7 +35,7 @@ Afbeeldingen kunnen rechtstreeks vanaf een lokaal station worden toegevoegd.
 
 2. Verplaats een afbeelding naar een andere locatie in het onderwerp door deze te slepen.
 
-3. Gebruiken **Eigenschappen van inhoud** in het rechterdeelvenster om de
+3. Gebruiken **Eigenschappen van inhoud** aan de rechterkant van het deelvenster om de
 
    - schalen
 

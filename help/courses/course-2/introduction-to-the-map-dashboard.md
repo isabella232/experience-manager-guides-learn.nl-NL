@@ -2,7 +2,7 @@
 title: Inleiding tot het kaartdashboard
 description: Inleiding tot het kaartdashboard
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Hieronder vindt u een overzicht van de belangrijkste functies van het kaartdashboard.
 
->[!VIDEO](https://video.tv.adobe.com/v/339040)
+>[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
 ## Een kaart openen in het kaartdashboard
 
@@ -49,7 +49,7 @@ Het lusje van Onderwerpen toont een lijst van al uw onderwerpen binnen de kaart.
 
 ![images/topics.png](images/topics.png)
 
-Door het selectievakje van een onderwerp te selecteren, kunt u extra handelingen uitvoeren. U kunt de tags bewerken, opnieuw genereren en weergeven, toepassen of verbergen.
+Het selecteren van checkbox van een onderwerp staat u toe om extra acties uit te voeren. U kunt de tags bewerken, opnieuw genereren en weergeven, toepassen of verbergen.
 
 ### Voorinstellingen voorwaarde
 

@@ -2,7 +2,7 @@
 title: Omtrekweergave
 description: Omtrekweergave gebruiken in AEM hulplijnen
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De mening van het Overzicht verleent een brede waaier van steun wanneer het werken met een gestructureerd document. U vouwt de weergave uit en samen, navigeert de structuur, werkt met kenmerken (bijvoorbeeld om een nieuwe id te maken) en reorganiseert de elementen opnieuw, maakt de omloop ongedaan en herstructureert de elementen door op een knop te klikken.
 
->[!VIDEO](https://video.tv.adobe.com/v/342767)
+>[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
 ## De omtrekweergave uitvouwen en samenvouwen
 

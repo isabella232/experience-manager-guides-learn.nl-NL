@@ -2,7 +2,7 @@
 title: Inhoud opnieuw gebruiken
 description: Herhaald gebruik van functies in AEM hulplijnen
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 Een van de belangrijkste functies van DITA is de mogelijkheid om inhoud opnieuw te gebruiken. Het staat hergebruik van inhoud van kleine uitdrukkingen tot volledige onderwerpen of kaarten toe.  Om inhoud echter doeltreffend te kunnen hergebruiken, moet deze goed worden beheerd. Zorg ervoor dat u een effectieve inhoudsstrategie hebt wanneer u werkt met herbruikbare informatie.
 
->[!VIDEO](https://video.tv.adobe.com/v/342757)
+>[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## Een herbruikbaar onderwerp maken
 

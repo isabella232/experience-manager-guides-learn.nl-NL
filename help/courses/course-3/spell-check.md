@@ -2,7 +2,7 @@
 title: Spellingcontrole en zoeken/vervangen
 description: Spellingcontrole gebruiken en zoeken/vervangen in AEM hulplijnen
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De Editor voor AEM hulplijnen beschikt over krachtige mogelijkheden voor spellingcontrole en Zoeken en vervangen.
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 Een spelfout corrigeren
 
@@ -27,7 +27,7 @@ Als de juiste spelling niet wordt voorgesteld, kunt u het woord altijd handmatig
 
 ## Schakelen naar AEM spellingcontrole
 
-Mogelijk wilt u een ander gereedschap voor spellingcontrole gebruiken dan het standaardwoordenboek van de browser.
+U kunt een andere spellingcontrole dan het standaardwoordenboek van de browser gebruiken.
 
 1. Navigeren naar **Editor-instellingen**.
 
@@ -39,7 +39,7 @@ Mogelijk wilt u een ander gereedschap voor spellingcontrole gebruiken dan het st
 
    - **Spellingcontrole browser** — De standaardinstelling waarbij de spellingcontrole gebruikmaakt van het ingebouwde woordenboek van de browser.
 
-   - **Spellingcontrole AEM** — gebruik dit om een lijst van het douanewoord te bouwen gebruikend het douanewoordenboek van AEM.
+   - **Spellingcontrole AEM** — gebruik dit om een lijst van het douanewoord te bouwen gebruikend AEM douanewoordenboek.
 
 4. Kies **Spellingcontrole AEM**.
 

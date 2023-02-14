@@ -2,7 +2,7 @@
 title: Problemen met publicatiefouten oplossen
 description: Problemen met publicatiefouten oplossen in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Problemen met publicatiefouten oplossen
 
-Het publiceren van een kaart is doorgaans eenvoudig. Open de kaart, selecteer een Vooraf ingestelde Output, en produceer output! Nochtans, als een kaart, of zijn onderwerpen fouten in hen hebben kan de outputgeneratie ontbreken. Als dit gebeurt, is het belangrijk om te weten hoe u problemen kunt oplossen.
+Het publiceren van een kaart is doorgaans eenvoudig. Open de kaart, selecteer een Vooraf ingestelde Output, en produceer output! Nochtans, als een kaart, of zijn onderwerpen fouten in hen hebben kan de outputgeneratie ontbreken. Wanneer dit gebeurt, is het belangrijk om te weten hoe te problemen op te lossen.
 
->[!VIDEO](https://video.tv.adobe.com/v/338990)
+>[!VIDEO](https://video.tv.adobe.com/v/338990?quality=12&learn=on)
 
 ## Voorbereiden op de oefening
 

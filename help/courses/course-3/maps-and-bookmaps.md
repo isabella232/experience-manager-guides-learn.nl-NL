@@ -2,7 +2,7 @@
 title: Kaarten en bladwijzers
 description: Kaarten en bladwijzers maken en bewerken in AEM hulplijnen
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 Met de Kaarteditor van Adobe Experience Manager-hulplijnen kunt u kaartbestanden maken en bewerken. Met behulp van de Kaarteditor kunt u twee typen bestanden bewerken: DITA-kaart en bladmap. Voor ons zijn deze grotendeels onderling verwisselbare concepten.
 De Kaarteditor bestaat uit twee modi: de Basis Kaarteditor en de Geavanceerde Kaarteditor.
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## Een kaart maken
 
