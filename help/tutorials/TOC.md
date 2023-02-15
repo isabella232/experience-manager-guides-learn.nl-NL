@@ -1,11 +1,11 @@
 ---
-user-guide-title: Tutorials voor AEM hulplijnen
-user-guide-description: Lees onze verzameling zelfstudies voor Adobe Experience Manager-hulplijnen.
-breadcrumb-title: Tutorials AEM hulplijnen
-source-git-commit: 4183162142f5f6291fdb6e832e10b46a3c0da73a
+user-guide-title: Tutorials voor AEM-handleidingen
+user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
+breadcrumb-title: Tutorials voor AEM-handleidingen
+source-git-commit: d3ed2b8f5beac05e41c22c6dee6ccdb38a26a083
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 3%
+source-wordcount: '144'
+ht-degree: 14%
 
 ---
 
@@ -47,3 +47,7 @@ ht-degree: 3%
    + [PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
    + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
 + Versioning {#versioning}
++ Kennisbank {#knowledge-base}
+   + [Inhoud beheren met behulp van basislijnen](./knowledge-base/expert-sessions/baselines-dec22.md)
+   + [Webinhoud van auteur](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+   + [Inhoud vertalen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
