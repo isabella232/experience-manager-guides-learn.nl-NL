@@ -1,9 +1,10 @@
 ---
 title: Inhoud vertalen
 description: Leer hoe u uw inhoud in meerdere talen vertaalt.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ In deze sessie leert u meer over het vertaalproces, het integratiemechanisme en 
 
 ## Sessieopname
 
->De opgenomen gegevens bekijken [video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on) sessie.
+>[video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Hooglichten
 
@@ -50,11 +51,11 @@ In deze sessie leert u over het volgende:
 > - Cloud Services 2207 of hoger
 
 
-## Meer deskundigensessies
+## Volgende sessie met experts
 
 - **Onderwerp** - [Inhoud beheren met behulp van basislijnen](baselines-dec22.md)
 - **Gepland op** - 8 december 2022
 
 ## Contact opnemen
 
-Stuur ons een e-mail op techcomm@adobe.com voor alle vragen.
+Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>

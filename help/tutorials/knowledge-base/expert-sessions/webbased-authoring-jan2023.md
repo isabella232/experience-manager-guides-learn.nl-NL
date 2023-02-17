@@ -1,13 +1,13 @@
 ---
 title: Webinhoud van auteur
 description: Leer hoe u gestructureerde inhoud ontwerpt met de webeditor.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # Webinhoud van auteur
 
@@ -19,7 +19,7 @@ In deze sessie leert u met de webeditor inhoud maken, publiceren en beheren.
 
 ## Sessieopname
 
->De opgenomen gegevens bekijken [video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) sessie.
+>[video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## Hooglichten
 
@@ -51,11 +51,11 @@ In deze sessie leert u over het volgende:
 > - Cloud Services 2211 en hoger
 
 
-## Meer deskundigensessies
+## Volgende sessie met experts
 
 - **Onderwerp** - Eigen PDF-publicatie *(op basis van enquêteresultaten)*
 - **Gepland op** - 23 februari 2023
 
 ## Contact opnemen
 
-Stuur ons een e-mail op techcomm@adobe.com voor alle vragen.
+Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
