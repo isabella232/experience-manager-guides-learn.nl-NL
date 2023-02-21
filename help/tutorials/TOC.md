@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 14%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 14%
 + Versioning {#versioning}
 + Kennisbank {#knowledge-base}
    + Expertsessie {#expert-session}
+      + [Overzicht van de sessie met experts](./knowledge-base/expert-sessions/expert-session.md)
+      + [Inhoud vertalen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       + [Inhoud beheren met behulp van basislijnen](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Webinhoud van auteur](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-      + [Inhoud vertalen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
