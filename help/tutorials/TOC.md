@@ -2,10 +2,10 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
+source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 14%
+source-wordcount: '175'
+ht-degree: 12%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 14%
          + [Opmerkingen bij de release februari](./release-info/release-notes-2022.2.0.md)
          + [Release-aantekeningen januari](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
+         + [4.2 Opmerkingen bij de release](./release-info/release-notes-4.2.md)
          + [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4.1.md)
          + [Opmerkingen bij de release 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [Opmerkingen bij de release 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -40,6 +41,9 @@ ht-degree: 14%
       + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
       + [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
       + [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
+      + [Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud](./native-pdf/custom-style-toc.md)
+      + [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](./native-pdf/add-custom-bookmark.md)
+      + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
    + [Een aangepaste DITA-OT instellen](./configuring/setup-a-custom-dita-ot.md)
 + Vertaling {#translation}
    + [Alinea&#39;s uitsluiten van vertaling](./translation/exclude-paragraphs-from-translation.md)

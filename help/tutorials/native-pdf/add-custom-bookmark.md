@@ -1,9 +1,9 @@
 ---
-title: Native PDF-publicatiefunctie | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
+title: Native PDF-publicatiefunctie | Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
-source-git-commit: fbb81704ea8d9d2793b066fa159b405460fa1dcf
+source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ Over het algemeen wordt de inhoudsopgave in een DITA-kaart gerepliceerd als blad
 `bookmark-level: 3`
 
 Hier, de `bookmark-level` is een kenmerk en een getal `3` is de waarde die het niveau in de bladwijzerhiërarchie aangeeft waar de bladwijzer wordt toegevoegd. In het volgende voorbeeld, heeft het eerste niveauonderwerp &quot;Contacten&quot;een lijst, &quot;Lijst van het Contact&quot;waarop wij een `outputclass` kenmerk met de waarde van `custom-bookmark`.
+
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
@@ -33,3 +34,8 @@ De volgende definitie van de `custom-bookmark` wordt toegevoegd aan het CSS-best
 In de uitvoer van de PDF, *Lijst met contactpersonen* tabel wordt toegevoegd op het tweede niveau in de bladwijzerlijst PDF, zoals hieronder wordt getoond:
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+
+>[!NOTE]
+>
+>U moet het juiste niveau kiezen waar de aangepaste bladwijzer wordt toegevoegd. Als u een getal opgeeft dat kleiner is dan de bladwijzer van het bovenliggende onderwerp, neemt de aangepaste bladwijzer de positie van de bovenliggende bladwijzer en worden alle andere bladwijzers als onderliggende bladwijzers weergegeven. Dit kan tot onverwachte bladwijzerstructuur leiden.
+
