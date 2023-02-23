@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.2 release
 description: Laatste release van Adobe Experience Manager-hulplijnen
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 1%
 
 ---
@@ -251,12 +252,12 @@ Er wordt een wijzigingsbalk weergegeven in de PDF om de gewijzigde, ingevoegde o
 ### Native PDF | Variabele-ondersteuning voor uitvoerpad en naam van PDF-bestand
 
 U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-bestand te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om de volgende opties te definiëren:
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} (Alleen voor uitvoerpad)
-* ${path_after_langfolder} (Alleen voor uitvoerpad)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` (Alleen voor uitvoerpad)
+* `${path_after_langfolder}` (Alleen voor uitvoerpad)
 
 ### Native PDF | Inhoudsopgave genereren voor DITA-kaarten en paginalay-outs opnieuw ordenen
 
