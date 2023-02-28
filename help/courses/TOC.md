@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Experience Manager-hulplijnen - video's
-user-guide-description: Een verzameling video's voor Adobe Experience Manager-hulplijnen.
-breadcrumb-title: Video's met hulplijnen AEM
+user-guide-title: Video's van handleidingen voor Adobe Experience Manager
+user-guide-description: Een verzameling video's voor Adobe Experience Manager-handleidingen.
+breadcrumb-title: Video's van handleidingen voor AEM
 source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 1%
+ht-degree: 15%
 
 ---
 
