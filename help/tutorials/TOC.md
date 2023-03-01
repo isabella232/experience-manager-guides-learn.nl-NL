@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
+source-git-commit: 2144508d9e7b4cb3de3e4f55ab160bfa26cd5f52
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '196'
 ht-degree: 11%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 11%
       + [Webinhoud van auteur](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [Native PDF-publicaties](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
    + Publiceren{#publishing}
-      + [Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen](./knowledge-base/publishing/configure-microservices.md)
+      + [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
    + Artikelen {#kb-articles}
       + Authoring {#authoring}
          + Webeditor {#webeditor}
