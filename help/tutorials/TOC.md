@@ -2,10 +2,10 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
+source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 12%
+source-wordcount: '204'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 12%
    + Releaseopmerkingen {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
-         + [Opmerkingen bij de huidige release](./release-info/release-notes-2022.11.0.md)
+         + [Opmerkingen bij de huidige release](./release-info/release-notes-2023.2.0.md)
+         + [Release-aantekeningen november](./release-info/release-notes-2022.11.0.md)
          + [Release-aantekeningen oktober](./release-info/release-notes-2022.10.0.md)
          + [Release-aantekeningen september](./release-info/release-notes-2022.9.0.md)
          + [Release-aantekeningen augustus](./release-info/release-notes-2022.8.0.md)
@@ -58,6 +59,8 @@ ht-degree: 12%
       + [Inhoud beheren met behulp van basislijnen](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Webinhoud van auteur](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [Native PDF-publicaties](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+   + Publiceren{#publishing}
+      + [Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen](./knowledge-base/publishing/configure-microservices.md)
    + Artikelen {#kb-articles}
       + Authoring {#authoring}
          + Webeditor {#webeditor}

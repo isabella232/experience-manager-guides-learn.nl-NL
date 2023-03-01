@@ -1,28 +1,28 @@
 ---
 title: Opmerkingen bij de release | as a Cloud Service Adobe Experience Manager-hulplijnen, release november 2022
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+description: Release van Adobe Experience Manager Guides as a Cloud Service in november
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
+source-git-commit: 715d5622c4cc59dfb24ac9a3442e61efdb10a797
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 1%
 
 ---
 
-# Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+# Release van Adobe Experience Manager Guides as a Cloud Service in november
 
-## Upgrade naar de nieuwste versie
+## Upgrade naar de release van november
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van uw Cloud Services naar 2022.11.198.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de veranderingen vast en stel de pijpleiding van Cloud Services in werking om aan de Versie van november van as a Cloud Service Gidsen van AEM te bevorderen.
 
 ## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM hulplijnen in september as a Cloud Service)
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
-* Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>/bin/guides/map-find/indexin`.
+* Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optioneel: U kunt specifieke paden van de kaarten doorgeven om ze te indexeren. Standaard worden alle kaarten geïndexeerd || Voorbeeld: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -48,13 +48,13 @@ Deze sectie maakt een lijst van de verenigbaarheidsmatrijs voor de softwaretoepa
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022 11,0 | 2.7.13. | 2.7.13. | 2.3 | 2,3 |
+| 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
 ## Nieuwe en verbeterde functies
 
-AEM de as a Cloud Service Gidsen verstrekt verhogingen en nieuwe eigenschappen in de recentste versie:
+AEM as a Cloud Service Gidsen verstrekt verhogingen en nieuwe eigenschappen in de versie van November:
 
 
 ### Bestanden verwijderen uit het deelvenster Opslagplaats
