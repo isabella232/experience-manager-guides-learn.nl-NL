@@ -1,7 +1,7 @@
 ---
 title: Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen
 description: Leer hoe u nieuwe op microservice gebaseerde publicaties voor AEM hulplijnen kunt configureren.
-source-git-commit: afbc1712cf45dd0b570e20683946af6a86edae7e
+source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Aangezien de nieuwe service voor publicatie in de cloud wordt beveiligd door ver
 
 Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Console:
 
-1. Open Developer Console: `https://developer.adobe.com/console`.
+1. Ontwikkelaarsconsole openen: `https://developer.adobe.com/console`.
 
 1. Overschakelen op **Projecten** van boven.
 
