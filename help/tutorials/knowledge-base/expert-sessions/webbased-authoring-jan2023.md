@@ -2,9 +2,9 @@
 title: Webinhoud van auteur
 description: Leer hoe u gestructureerde inhoud ontwerpt met de webeditor.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,6 @@ In deze sessie leert u over het volgende:
 > - On-prem 4.1.3 of hoger
 > - Cloud Services 2211 en hoger
 
-
-## Volgende sessie met experts
-
-- **Onderwerp** - [Native PDF-publicaties](native-pdf-publishing-essentials-feb23.md)
-- **Gepland op** - 23 februari 2023
 
 ## Contact opnemen
 

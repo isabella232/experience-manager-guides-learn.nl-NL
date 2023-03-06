@@ -2,9 +2,9 @@
 title: Inhoud vertalen
 description: Leer hoe u uw inhoud in meerdere talen vertaalt.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,6 @@ In deze sessie leert u over het volgende:
 > - On-prem 4.1 of hoger
 > - Cloud Services 2207 of hoger
 
-
-## Volgende sessie met experts
-
-- **Onderwerp** - [Inhoud beheren met behulp van basislijnen](baselines-dec22.md)
-- **Gepland op** - 8 december 2022
 
 ## Contact opnemen
 
