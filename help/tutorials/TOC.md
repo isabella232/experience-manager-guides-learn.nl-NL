@@ -2,7 +2,7 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 77447339e68e90ee1a38081ef82be7b7cd7826ac
+source-git-commit: 53a4917328626f589f2a9e8243d169fa10a6efff
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 11%
@@ -67,6 +67,6 @@ ht-degree: 11%
             + Schematron {#schematron}
                + [Schematron-validatie](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Publiceren {#publishing}
-         + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/FMPSandGuides.md)
+         + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + Workflows {#workflows}
          + [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
