@@ -1,7 +1,7 @@
 ---
 title: FMPS- en AEM-hulplijnen
 description: Publiceren met FMPS met behulp van AEM hulplijnen
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Van &quot;produceer PDF gebruikend&quot;menu, kies het Publiceren FrameMaker Ser
 De gebruiker kan &quot;settings File(.sts)&quot; en &quot;ditaval. Filteren wordt uitgevoerd met ditaval op basis van de voorwaarden die u opgeeft.
 
 - **bestand instellen**: FrameMaker /FMPS publiceert het plaatsen die al die montages bevat die u FMPS tijdens het publiceren wilt respecteren Bijvoorbeeld: Uitvoer genereren met de aangepaste sjabloon, Tekens en aflooptekens genereren (PDF), PDF genereren met inhoudsopgave, index, enz.
-- **FMPS aanwezig:** De vooraf gedefinieerde combinatie van een bestand met instellingen en een ditaval-bestand. In plaats van afzonderlijke bestanden voor bewerkingen en instellingen te geven, kan de gebruiker vooraf een FMPS-voorinstelling maken die opnieuw kan worden gebruikt voor publicatiedoeleinden.
+- **FMPS-voorinstelling:** De vooraf gedefinieerde combinatie van een bestand met instellingen en een ditaval-bestand. In plaats van afzonderlijke bestanden voor bewerkingen en instellingen te geven, kan de gebruiker vooraf een FMPS-voorinstelling maken die opnieuw kan worden gebruikt voor publicatiedoeleinden.
 
 **Opmerking:** Als u geen van de instellingen of FMPS-voorinstellingen selecteert, publiceert FMPS met de standaardsysteeminstelling.
 
