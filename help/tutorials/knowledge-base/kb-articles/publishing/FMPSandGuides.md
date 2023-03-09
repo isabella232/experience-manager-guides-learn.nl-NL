@@ -1,26 +1,23 @@
 ---
 title: FMPS- en AEM-hulplijnen
 description: Publiceren met FMPS met behulp van AEM hulplijnen
-source-git-commit: abf6b9502615e5029ce51f860e05cadc8d94edc2
+source-git-commit: e3cef715f635746f7b426cb5de09299715cc354b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 
-
 # De het Publiceren van FrameMaker Server (FMPS) en Gidsen van de AEM
 
-**AEM de integratie van Gidsen met het Publiceren FrameMaker Server kon uw oplossing als u geautomatiseerde het publiceren van uitstekende kwaliteit kijkt.\
-Met het onderstaande artikel kunt u FMPS instellen en uitvoeren met AEM hulplijnen.**
+**AEM de integratie van Gidsen met het Publiceren FrameMaker Server zou uw oplossing kunnen zijn als u geautomatiseerde het publiceren van uitstekende kwaliteit zoekt.\
+Met het onderstaande artikel kunt u FMPS met AEM hulplijnen instellen en uitvoeren.**
 
-## Verenigbaarheid van FMPS met AEM hulplijnen:
+## Compatibiliteit van FMPS met AEM hulplijnen:
 
-- Compatibiliteit met de 4.1-richtsnoeren AEM: [Koppeling](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
-
-- Compatibiliteit met de 4.0-hulplijnen AEM: [Koppeling](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-
+- Compatibiliteit met 4.1 AEM hulplijnen: [Koppeling](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Compatibiliteit met 4.0 AEM-hulplijnen: [Koppeling](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
 - Toekomstige release: [Koppeling](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installatie:
@@ -35,8 +32,7 @@ Voor FMPS-installatie kunt u verwijzen naar gegeven [Videokoppeling](https://www
 
 ## Vereiste configuraties:
 
-Uw inhoud DITA kan output gebruikend het Publiceren FrameMaker Server (FMPS) zijn. U kunt uitvoer maken in een van de vele indelingen die door FMPS worden ondersteund.
-In de Console van het Web, wijzig de volgende eigenschappen van de bundel com.adobe.fmdita.config.ConfigManager aan opstelling AEM Gidsen om FMPS te gebruiken.
+Uw inhoud DITA kan output gebruikend het Publiceren FrameMaker Server (FMPS) zijn. U kunt uitvoer maken in een van de vele indelingen die door FMPS worden ondersteund. In de Console van het Web, wijzig de volgende eigenschappen van de bundel com.adobe.fmdita.config.ConfigManager aan opstelling AEM Gidsen om FMPS te gebruiken.
 
 Ga naar de URL Access http://\ als u de webconsole wilt openen&lt;server name=&quot;&quot;>:\&lt;port>/system/console/configMgr.
 
@@ -48,47 +44,47 @@ Met FMPS kunt u automatisch publiceren **PDF, responsieve HTML5**, en **Epub** v
 
 Van &quot;produceer PDF gebruikend&quot;menu, kies het Publiceren FrameMaker Server.
 
-De gebruiker kan &quot;Settings File(.sts)&quot; en &quot;ditaval. Filteren vindt plaats met gebruik van Ditaval op basis van de omstandigheden die u opgeeft.
+De gebruiker kan &quot;settings File(.sts)&quot; en &quot;ditaval. Filteren wordt uitgevoerd met ditaval op basis van de voorwaarden die u opgeeft.
 
-- **Bestand instellen**: FrameMaker /FMPS publiceert het plaatsen die al die montages bevat die u FMPS tijdens het publiceren wilt respecteren Bijvoorbeeld: ,Uitvoer genereren met aangepaste sjabloon,Tekens en aflooptekens genereren (PDF), PDF genereren met inhoudsopgave, index, enzovoort.
-- **FMPS aanwezig:** Vooraf gedefinieerde combinatie van Ditaval- en Settings-bestand. In plaats van een afzonderlijk Ditaval- en instellingenbestand te geven, kan de gebruiker vooraf een FMPS-voorinstelling maken die opnieuw kan worden gebruikt voor publicatie.
+- **bestand instellen**: FrameMaker /FMPS publiceert het plaatsen die al die montages bevat die u FMPS tijdens het publiceren wilt respecteren Bijvoorbeeld: Uitvoer genereren met de aangepaste sjabloon, Tekens en aflooptekens genereren (PDF), PDF genereren met inhoudsopgave, index, enz.
+- **FMPS aanwezig:** De vooraf gedefinieerde combinatie van een bestand met instellingen en een ditaval-bestand. In plaats van afzonderlijke bestanden voor bewerkingen en instellingen te geven, kan de gebruiker vooraf een FMPS-voorinstelling maken die opnieuw kan worden gebruikt voor publicatiedoeleinden.
 
-**Opmerking:**  Als u geen instellingen of FMPS-voorinstelling selecteert, publiceert FMPS met de standaardsysteeminstelling.
+**Opmerking:** Als u geen van de instellingen of FMPS-voorinstellingen selecteert, publiceert FMPS met de standaardsysteeminstelling.
 
-Als u een FMPS-voorinstelling hebt geselecteerd en ook Settings/Ditaval-bestand hebt opgegeven van AEM, levert dit een conflict op en krijgt FMPS-voorinstelling voorrang op het aangepaste Settings/Ditaval-bestand.
+Als u een FMPS-voorinstelling hebt geselecteerd en ook instellingen/ditaval-bestand van AEM hebt opgegeven, is er een conflict tussen deze voorinstelling en krijgt de FMPS-voorinstelling voorrang op aangepaste instellingen/ditaval-bestand.
 
 ### Publiceren van basislijnen met FMPS:
 
 U kunt uw reeds gemaakte basislijnen publiceren met versie FMPS2020.0.2 of hoger.
 
-**Voorbeeld van een FMPS-instellingenbestand (.sts-bestand) om aan de slag te gaan:** [Koppeling](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (decomprimeer dit bestand)
+**Voorbeeld van FMPS-instellingenbestand (.sts-bestand) om aan de slag te gaan:** [Koppeling](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (decomprimeer dit bestand)
 
 ## Veelgestelde vragen en problemen oplossen:
 
-- ### FMPS-publicatie mislukt met &quot;Timeout Exception&quot;
+- FMPS-publicatie mislukt met &quot;Timeout Exception&quot;.
 
-De waarde van &quot;FMPS timeout&quot; (Seconden) controleren en verhogen in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager&quot;
+Controleer en verhoog de waarde van &quot;FMPS timeout&quot; (Seconden) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager&quot;
 
-- ### Kan FMPS-voorinstelling niet ophalen in vervolgkeuzelijst
+- Kan de FMPS-voorinstelling niet ophalen in het vervolgkeuzemenu.
 
-Zorg ervoor dat u een vooraf gedefinieerde FMPS-voorinstelling hebt die op de server is gemaakt en dat de verbindingsinstellingen correct zijn.
+Zorg ervoor dat er een vooraf gedefinieerde FMPS-voorinstelling op de server is gemaakt en dat de verbindingsinstellingen correct zijn.
 
-- ### Ik krijg Blanco PDF bij het publiceren.
+- Ik krijg blanco PDF bij het publiceren.
 
-Als u UUID dan gebruikt zorg ervoor u &quot;Gebruik UUID gebaseerd het van verwijzingen voorzien&quot;in FrameMaker EditPreferences en vice versa voor niet UUID AEM gidsen hebt gecontroleerd
+Als u UUID dan gebruikt zorg ervoor u &quot;Op UUUID gebaseerd van het Gebruik van verwijzingen&quot;in FrameMaker hebt gecontroleerd geeft Voorkeur uit en vice versa voor niet-UUID AEM gidsen.
 
-- ### Mijn instellingen/Ditaval worden niet toegepast in de uiteindelijke gepubliceerde uitvoer
+- Mijn instellingen/ditaval worden niet toegepast in de uiteindelijke gepubliceerde uitvoer.
 
-Zorg ervoor u niet zowel het Plaatsen/Ditaval dossier als Vooraf ingestelde FMPS parallelle.Verifieer output manueel gebruikend FrameMaker selecteert
+Zorg ervoor dat u niet gelijktijdig zowel een instellings-/bewerkbestand als een FMPS-voorinstelling selecteert. Verifieer manueel output gebruikend FrameMaker.
 
-- ### Basislijn wordt niet gepubliceerd vanuit FMPS
+- De basislijn wordt niet gepubliceerd vanuit FMPS.
 
 Publiceren in de basislijn is compatibel met de versie FMPS2020.0.2 of hoger.\
-Zorg ervoor dat uw basislijn correct is gemaakt. Om te controleren gaat u naar Kaart voor Dashboard Topic Download Map en selecteert u &quot;Basislijn gebruiken &quot;.
+Zorg ervoor dat uw basislijn correct is gemaakt, om te controleren of u naar Onderwerpmap van het dashboard-onderwerp gaat en &quot;Basislijn gebruiken&quot; selecteert.
 
-- ### Het publiceren van Taak van FMPS vergt meer tijd dan andere Motoren.
+- Publiceer Taken van FMPS neemt meer tijd in beslag dan andere Motoren.
 
-Er is een ideale vaste header van ongeveer. 3-4 min slechts terwijl het publiceren van FMPS dan andere Motoren, als u het meer dan dat denkt is dan controle met uw beheerder FMPS of de Steun van de Adobe van het Contact.
+Er zal een ideale vaste kopbal van ongeveer zijn. 3-4 min slechts terwijl het publiceren van FMPS dan andere Motoren, als u het meer dan dat denkt is dan controle met uw beheerder FMPS of de Steun van de Adobe van het Contact.
 
 ## Overige bronnen:
 
@@ -98,4 +94,4 @@ Er is een ideale vaste header van ongeveer. 3-4 min slechts terwijl het publicer
 
 [FrameMaker en de gemeenschap FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-[AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[Gemeenschap voor AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
