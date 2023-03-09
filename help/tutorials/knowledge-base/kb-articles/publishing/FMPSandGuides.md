@@ -1,10 +1,13 @@
 ---
-source-git-commit: da88662ec770b12a25ba4afd876e6eeac793cfc5
+title: FMPS- en AEM-hulplijnen
+description: Publiceren met FMPS met behulp van AEM hulplijnen
+source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
+
 
 
 # De het Publiceren van FrameMaker Server (FMPS) en Gidsen van de AEM
