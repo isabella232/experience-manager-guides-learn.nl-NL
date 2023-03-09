@@ -1,7 +1,7 @@
 ---
 title: FMPS- en AEM-hulplijnen
 description: Publiceren met FMPS met behulp van AEM hulplijnen
-source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
+source-git-commit: abf6b9502615e5029ce51f860e05cadc8d94edc2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -92,10 +92,10 @@ Er is een ideale vaste header van ongeveer. 3-4 min slechts terwijl het publicer
 
 ## Overige bronnen:
 
-### [Leren en ondersteunen met FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[Leren en ondersteunen met FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-### [AEM Leren en ondersteunen](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[AEM Leren en ondersteunen](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-### [FrameMaker en de gemeenschap FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker en de gemeenschap FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-### [AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
