@@ -1,9 +1,9 @@
 ---
 title: Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen
 description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulplijnen kunt gebruiken om uw inhoud te maken en te beheren.
-source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
+source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
 workflow-type: tm+mt
-source-wordcount: '5812'
+source-wordcount: '5792'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ Met de insteekmodule Zuurstof voor Adobe Experience Manager-hulplijnen \(later O
 
 De insteekmodule Oxygen voor AEM hulplijnen wordt beschikbaar gesteld via de portal voor softwaredistributie van Adobe. Zoek naar &quot;zuurstof&quot; op het tabblad Experience Manager en download het installatieprogramma van de insteekmodule van uw [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**Opmerking:** Controleer of de versiecompatibiliteit van de Zuurstofconnector compatibel is met de releaseopmerkingen voor de specifieke Adobe Experience Manager-hulplijnen.
+>[!NOTE]
+>
+>Controleer of de versiecompatibiliteit van de Zuurstofconnector compatibel is met de releaseopmerkingen voor de specifieke Adobe Experience Manager-hulplijnen.
 
 Wanneer u het installatieprogramma hebt, installeert u het op de lokale computer waar de Oxygen XML Author is geïnstalleerd. Voordat u met het installatieproces begint, moet u controleren of uw systeem voldoet aan de technische vereisten voor de installatie van de insteekmodule voor AEM.
 
@@ -36,9 +38,9 @@ Wanneer u het installatieprogramma hebt, installeert u het op de lokale computer
 
 ### De insteekmodule installeren in Windows
 
-**Belangrijk:**
-
-Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie de **Pakketten verwijderen** in de [Werken met pakketten](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) artikel voor instructies voor het verwijderen.
+>[!IMPORTANT]
+>
+>Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie de **Pakketten verwijderen** in de [Werken met pakketten](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) artikel voor instructies voor het verwijderen.
 
 Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnstalleerd:
 
@@ -63,16 +65,16 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    ![](images/oxygen-aem-connector.png)
 
-   **Opmerking:**
-
-   Als u het deelvenster Hulplijnen AEM niet ziet, raadpleegt u de oplossingen in de sectie Problemen oplossen—[Ontbrekende AEM deelvenster Hulplijnen](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >Als u het deelvenster Hulplijnen AEM niet ziet, raadpleegt u de oplossingen in de sectie Problemen oplossen—[Ontbrekende AEM deelvenster Hulplijnen](#id192BH200ZAX).
 
 
 ### De insteekmodule installeren op Mac
 
-**Belangrijk:**
-
-Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie de **Pakketten verwijderen** in de [Werken met pakketten](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) instructies voor het verwijderen van artikelen.
+>[!IMPORTANT]
+>
+>Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie de **Pakketten verwijderen** in de [Werken met pakketten](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) instructies voor het verwijderen van artikelen.
 
 Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnstalleerd:
 
@@ -82,9 +84,9 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    Het .dmg-bestand bevat een map aem-connector-x.x en een bestand aem-connector-x.x-setup.
 
-   **Opmerking:**
-
-   x.x in de bestandsnamen is het versienummer van de plug-in.
+   >[!NOTE]
+   >
+   >x.x in de bestandsnamen is het versienummer van de plug-in.
 
 1. Kopieer de map aem-connector-x.x in de map plugins van Oxygen XML Author.
 1. Dubbelklik op het bestand aem-connector-x.x-setup om het installatieprogramma te starten.
@@ -95,9 +97,9 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    ![](images/oxygen-aem-connector-mac.png)
 
-   **Opmerking:**
-
-   Als u het deelvenster Hulplijnen AEM niet ziet, raadpleegt u de oplossingen in de sectie Problemen oplossen—[Ontbrekende AEM deelvenster Hulplijnen](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >Als u het deelvenster Hulplijnen AEM niet ziet, raadpleegt u de oplossingen in de sectie Problemen oplossen—[Ontbrekende AEM deelvenster Hulplijnen](#id192BH200ZAX).
 
 
 ### Het pakket installeren om de functie voor het bewerken van documenten vanuit AEM webinterface in te schakelen {#id182CE0Q0TY4}
@@ -132,9 +134,9 @@ Als AEM beheerder voert u de volgende stappen uit om het pakket te installeren:
 
    **Bewerken in zuurstof** is beschikbaar in de werkbalk. Voor meer informatie over het gebruik van deze optie raadpleegt u [Open DITA-onderwerp in Oxygen XML Author vanuit AEM webinterface](#id182CE0I905Z).
 
-   **Opmerking:**
-
-   De **Bewerken in zuurstof** Deze optie is zichtbaar wanneer u een DITA-onderwerp selecteert. Als u meerdere onderwerpen selecteert, is de optie niet zichtbaar.
+   >[!NOTE]
+   >
+   >De **Bewerken in zuurstof** Deze optie is zichtbaar wanneer u een DITA-onderwerp selecteert. Als u meerdere onderwerpen selecteert, is de optie niet zichtbaar.
 
 
 ## De insteekmodule Zuurstof voor AEM hulplijnen configureren {#id1826KF00AHS}
@@ -151,7 +153,9 @@ JxBrowser wordt gebruikt voor SSO-verificatie door de Oxygen-connector plug-in. 
 
 Werk de opgegeven bestanden bij om de instellingen voor webverificatie in de insteekmodule Zuurstof voor AEM hulplijnen te configureren:
 
-**Opmerking:** Maak een back-up van het bestand voordat u het bijwerkt.
+>[!NOTE]
+>
+>Maak een back-up van het bestand voordat u het bijwerkt.
 
 **Voor Mac en Zuurstof 24.1**
 
@@ -181,9 +185,9 @@ Voeg de volgende regels toe aan de zuurstofAuthor.bat
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**Opmerking:**
-
-Als beheerder moet u zuurstof uitvoeren van zuurstofAuthor.sh voor Mac en zuurstofAuthor.bat voor Windows.
+>[!NOTE]
+>
+>Als beheerder moet u zuurstof uitvoeren van zuurstofAuthor.sh voor Mac en zuurstofAuthor.bat voor Windows.
 
 ### Algemene instellingen
 
@@ -191,7 +195,7 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
 
 1. Klik in het deelvenster Hulplijnen AEM op het pictogram Instellingen en selecteer vervolgens **Instellingen**.
 
-   ![](images/Settings.png)
+   ![](images/settings.png)
 
 1. Geef de volgende details op:
    - **Server-URL**: URL van de AEM server, bijvoorbeeld:
@@ -202,9 +206,9 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
 
       Geef in de bovenstaande URL de hostnaam en poort op van de server waar AEM server wordt geïmplementeerd.
 
-      **Belangrijk:**
-
-      Als uw AEM server wordt opgesteld op haven 80 of 443, dan te hoeven u niet het in URL te specificeren.
+      >[!IMPORTANT]
+      >
+      >Als uw AEM server wordt opgesteld op haven 80 of 443, dan te hoeven u niet het in URL te specificeren.
 
    - **Verificatie:** Kiezen uit **Standaard \(gebruikersnaam/wachtwoord\)** of **Webverificatie**. Als u **Basis** verificatie die u moet invoeren **Gebruikersnaam** en **Wachtwoord** in het dialoogvenster Voorkeuren.
 
@@ -232,7 +236,7 @@ Voer de volgende stappen uit om het profileren attributen te vormen:
 
 1. In de **Classpath** selecteert u com.adobe.o2.connector in het dialoogvenster **Loader van bovenliggende klasse gebruiken vanuit insteekmodule met id** vervolgkeuzelijst.
 
-   ![](images/DITA%20Extension.png)
+   ![](images/dita-extension.png)
 
 1. In de **Extensies** wijzigt u de volgende wijzigingen:
 1. 
@@ -286,7 +290,9 @@ In het volgende scherm ziet u het deelvenster Hulplijnen AEM.
 - **Verbinden**: Selecteer deze optie als u verbinding wilt maken met de AEM server. De optie is uitgeschakeld wanneer de XML-auteur van Zuurstof is verbonden met de AEM.
 - **Vernieuwen**: Selecteer deze optie om de nieuwste status van de bestanden en map op te halen uit de AEM opslagplaats.
 
-   **Opmerking:** Sla uw bestanden op voordat u ze vernieuwt. Wanneer u **Vernieuwen** krijgt u een waarschuwing om uw bestanden op te slaan voordat u ze vernieuwt. Als u uw bestanden niet hebt opgeslagen, klikt u op **Annuleren** en sla ze op.
+   >[!NOTE]
+   >
+   >Sla uw bestanden op voordat u ze vernieuwt. Wanneer u **Vernieuwen** krijgt u een waarschuwing om uw bestanden op te slaan voordat u ze vernieuwt. Als u uw bestanden niet hebt opgeslagen, klikt u op **Annuleren** en sla ze op.
 
 - **Instellingen**: U kunt deze optie gebruiken om het algemene dialoogvenster Voorkeuren van de insteekmodule te openen.
 - **Afmelden**: Selecteer deze optie om de AEM serververbinding te sluiten. Deze optie is beschikbaar slechts als u de wijze van de Authentificatie van het Web gebruikt.
@@ -331,9 +337,9 @@ Nadat u verbinding hebt gemaakt met de AEM opslagplaats, kunt u bestanden openen
 
 Als u de optie **Bestand automatisch uitchecken wanneer geopend** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het openen van een bestand automatisch uitgecheckt en kan het worden bewerkt. Als u een bestand wilt openen, dubbelklikt u op een bestandsnaam of klikt u met de rechtermuisknop op de bestandsnaam en kiest u **Openen** in het contextmenu. Als deze optie niet is geselecteerd, wordt het bestand geopend in de modus Alleen-lezen.
 
-**Opmerking:**
-
-U kunt ook dubbelklikken op een bestand om het te openen.
+>[!NOTE]
+>
+>U kunt ook dubbelklikken op een bestand om het te openen.
 
 ### Bestand openen in AEM editor voor hulplijnen {#id195GH0V30KX}
 
@@ -370,9 +376,9 @@ Wanneer een bestand is uitgecheckt, verandert het pictogram van het bestand om d
 
 In de bovenstaande schermafbeelding wordt een bestand dat door een andere gebruiker is uitgecheckt, weergegeven met een zwart gekleurd vergrendelingspictogram \(A\). Het bestand dat door de huidige gebruiker is uitgecheckt, wordt weergegeven met een groene kleurvergrendeling \(B\).
 
-**Opmerking:**
-
-Als het uitgecheckte bestand wordt verwijderd of naar een andere map in AEM wordt verplaatst, wordt een foutbericht weergegeven wanneer u het bestand incheckt. Zorg ervoor dat het uitgecheckte bestand niet wordt verplaatst of verwijderd via de AEM webinterface.
+>[!NOTE]
+>
+>Als het uitgecheckte bestand wordt verwijderd of naar een andere map in AEM wordt verplaatst, wordt een foutbericht weergegeven wanneer u het bestand incheckt. Zorg ervoor dat het uitgecheckte bestand niet wordt verplaatst of verwijderd via de AEM webinterface.
 
 ### Een bestand inchecken {#id182CF0J0FHS}
 
@@ -397,15 +403,15 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
 
 1. \(Optioneel\) Voeg in het dialoogvenster Inchecken een opmerking toe in **Opmerkingen bij versie** tekstvak.
 
-   **Opmerking:**
-
-   Deze opmerking wordt weergegeven in de AEM versiegeschiedenis van het bestand.
+   >[!NOTE]
+   >
+   >Deze opmerking wordt weergegeven in de AEM versiegeschiedenis van het bestand.
 
 1. Klikken **OK**.
 
-**Opmerking:**
-
-Als het uitgecheckte bestand wordt verwijderd of naar een andere map in AEM wordt verplaatst, wordt een foutbericht weergegeven wanneer u het bestand incheckt. Zorg ervoor dat het uitgecheckte bestand niet wordt verplaatst of verwijderd via de AEM webinterface.
+>[!NOTE]
+>
+>Als het uitgecheckte bestand wordt verwijderd of naar een andere map in AEM wordt verplaatst, wordt een foutbericht weergegeven wanneer u het bestand incheckt. Zorg ervoor dat het uitgecheckte bestand niet wordt verplaatst of verwijderd via de AEM webinterface.
 
 ### Bestanden uitgecheckt in AEM weergave Hulplijnen
 
@@ -512,7 +518,7 @@ Voer de volgende stappen uit om onderwerpen te zoeken:
 
    Het resultaat wordt op het tabblad Zoekresultaten weergegeven als een lijst met het bestandspad. Als er geen overeenkomend resultaat voor uw zoekopdracht is gevonden, worden geen resultaten gevonden in &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> bericht wordt weergegeven.
 
-   ![](images/Search.png)
+   ![](images/search.png)
 
 1. \(Optioneel\) Dubbelklik op een bestand in het zoekresultaat om het te openen in Oxygen XML Author.
 1. Voer een van de volgende handelingen uit om terug te gaan naar de AEM Repository-weergave:
@@ -523,9 +529,9 @@ Voer de volgende stappen uit om onderwerpen te zoeken:
 
 U kunt uw onderwerp DITA in de Auteur van XML van Zuurstof van de AEM Webinterface openen en uitgeven. U moet een pakket in AEM installeren om deze optie in te schakelen. Zie voor meer informatie over de installatie van pakketten [Het pakket installeren om de functie voor het bewerken van documenten vanuit AEM webinterface in te schakelen](#id182CE0Q0TY4).
 
-**Opmerking:**
-
-De **Bewerken in zuurstof** Deze optie is toegankelijk vanaf verschillende plaatsen in AEM: wanneer een onderwerp wordt geselecteerd, wanneer een onderwerp, of van Onderwerpen en het lusje van Rapporten van DITA kaartconsole wordt voorvertoond. Als u meerdere onderwerpen selecteert, is de optie niet zichtbaar in de werkbalk.
+>[!NOTE]
+>
+>De **Bewerken in zuurstof** Deze optie is toegankelijk vanaf verschillende plaatsen in AEM: wanneer een onderwerp wordt geselecteerd, wanneer een onderwerp, of van Onderwerpen en het lusje van Rapporten van DITA kaartconsole wordt voorvertoond. Als u meerdere onderwerpen selecteert, is de optie niet zichtbaar in de werkbalk.
 
 **Een DITA-onderwerp openen**
 
@@ -533,9 +539,9 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
 
 1. Selecteer een onderwerp in uw elementen en klik op **Bewerken in zuurstof** in de werkbalk.
 
-   **Opmerking:**
-
-   Als het onderwerp niet is uitgecheckt, wordt het eerst uitgecheckt en vervolgens in de bewerkingsmodus geopend in Zuurstof.
+   >[!NOTE]
+   >
+   >Als het onderwerp niet is uitgecheckt, wordt het eerst uitgecheckt en vervolgens in de bewerkingsmodus geopend in Zuurstof.
 
 1. Oxygeen XML-auteur selecteren *&lt;version>* in de **Toepassing starten** berichtvenster. U kunt **Mijn keuze voor AEM koppelingen onthouden** om uw voorkeur op te slaan.
 
@@ -546,9 +552,9 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
 1. Selecteer en check een onderwerp in uw activa uit.
 1. Klikken **Bewerken in zuurstof** in de werkbalk.
 
-   **Opmerking:**
-
-   Als het onderwerp niet is uitgecheckt, wordt het eerst uitgecheckt en vervolgens in de bewerkingsmodus geopend in Zuurstof.
+   >[!NOTE]
+   >
+   >Als het onderwerp niet is uitgecheckt, wordt het eerst uitgecheckt en vervolgens in de bewerkingsmodus geopend in Zuurstof.
 
 1. Oxygeen XML-auteur selecteren *&lt;version>* in de **Toepassing starten** berichtvenster. U kunt **Mijn keuze voor AEM koppelingen onthouden** om uw voorkeur op te slaan.
 1. Bewerk het onderwerp in de Oxygen XML-auteur.
@@ -556,18 +562,18 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
 
    Voor meer informatie over het inchecken van een onderwerp met de Zuurstofinsteekmodule voor AEM hulplijnen raadpleegt u [Een bestand inchecken](#id182CF0J0FHS).
 
-   **Opmerking:**
-
-   Controleer of u het onderwerp incheckt met de Oxygen-insteekmodule voor AEM hulplijnen. Als u incheckt vanuit de AEM webinterface, worden de wijzigingen die u aanbrengt in de Oxygen XML-auteur niet opgeslagen in de ingecheckte versie van het onderwerp.
+   >[!NOTE]
+   >
+   >Controleer of u het onderwerp incheckt met de Oxygen-insteekmodule voor AEM hulplijnen. Als u incheckt vanuit de AEM webinterface, worden de wijzigingen die u aanbrengt in de Oxygen XML-auteur niet opgeslagen in de ingecheckte versie van het onderwerp.
 
 
 ## Werken met kenmerkprofielen {#id1827JA002YK}
 
 Met AEM hulplijnen kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met behulp van de relevante DITA-kenmerken. U kunt voorwaardelijke kenmerken definiëren op algemeen niveau of mapniveau. De globaal gedefinieerde voorwaarden zijn zichtbaar in alle projecten en mapniveauvoorwaarden zijn alleen zichtbaar in projecten die binnen de opgegeven map zijn gemaakt. Inhoudsauteurs kunnen deze voorwaardelijke kenmerken gebruiken om de inhoud in hun DITA-onderwerpen of -kaarten te conditionaliseren die ze maken of gebruiken. Ga voor meer informatie over het maken van voorwaardelijke kenmerken in AEM met de AEM hulplijnen naar *Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren.
 
-**Opmerking:**
-
-Zorg ervoor dat u de voorwaardelijke kenmerken in AEM hebt toegevoegd en dat u deze hebt ingesteld [Voorkeur voor kenmerkaanpassing profileren](#id1827K0D0OHT) voordat u voorwaardelijke kenmerken aan uw inhoud toevoegt.
+>[!NOTE]
+>
+>Zorg ervoor dat u de voorwaardelijke kenmerken in AEM hebt toegevoegd en dat u deze hebt ingesteld [Voorkeur voor kenmerkaanpassing profileren](#id1827K0D0OHT) voordat u voorwaardelijke kenmerken aan uw inhoud toevoegt.
 
 Voer de volgende stappen uit om voorwaardelijke kenmerken toe te voegen aan uw inhoud in Oxygen XML Author:
 
@@ -651,9 +657,9 @@ Oplossing: Voer de volgende stappen uit om de functie voor het genereren van log
     
     1.  Open het bestand oxyAuthor19.1.vmoptions in een teksteditor.
     
-    **Opmerking:**
-    
-    Het versienummer van het bestand kan afwijken, afhankelijk van het versienummer van de toepassing die op het systeem is geïnstalleerd.
+    >[!OPMERKING]
+    >
+    >Het versienummer van het bestand kan afwijken, afhankelijk van het versienummer van de toepassing die op het systeem is geïnstalleerd.
     
     1.  Voeg de volgende regel toe aan het bestand:
     
