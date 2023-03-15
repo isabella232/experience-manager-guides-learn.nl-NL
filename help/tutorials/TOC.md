@@ -2,10 +2,10 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 53a4917328626f589f2a9e8243d169fa10a6efff
+source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 11%
+source-wordcount: '214'
+ht-degree: 10%
 
 ---
 
@@ -41,10 +41,13 @@ ht-degree: 11%
       + [PDF-sjabloon](./native-pdf/pdf-template.md)
       + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
       + [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
-      + [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
-      + [Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud](./native-pdf/custom-style-toc.md)
-      + [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](./native-pdf/add-custom-bookmark.md)
-      + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
+      + Algemene inhoudsstijlen {#content-styles}
+         + [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
+         + [Werken met aangepaste wijzigingsbalken](./native-pdf/change-bar-style.md)
+         + [Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud](./native-pdf/custom-style-toc.md)
+         + [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](./native-pdf/add-custom-bookmark.md)
+         + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
+         + [Aangepaste stijlen gebruiken in voetnoten](./native-pdf/footnote-number-style.md)
    + [Een aangepaste DITA-OT instellen](./configuring/setup-a-custom-dita-ot.md)
 + Vertaling {#translation}
    + [Alinea&#39;s uitsluiten van vertaling](./translation/exclude-paragraphs-from-translation.md)
