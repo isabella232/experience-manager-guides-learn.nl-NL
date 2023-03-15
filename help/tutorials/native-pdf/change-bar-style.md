@@ -1,7 +1,7 @@
 ---
 title: Native PDF-publicatiefunctie | Werken met aangepaste wijzigingsbalken
 description: Leer hoe u stijlen toepast op wijzigingsbalken.
-source-git-commit: 79de97e667bffae8d120deee68a0a82011047cf5
+source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 Een wijzigingsbalk is een verticale lijn die nieuwe of herziene inhoud visueel identificeert. AEM Gidsen staat u toe om een veranderingsbar op de linkerzijde van de veranderde inhoud binnen onderwerpen en ook de veranderde onderwerpen in TOC van de output van de PDF te tonen.
 
-Ga voor meer informatie over het weergeven van de wijzigingsbalk naar *PDF maken met wijzigingsbalk tussen gepubliceerde versies* instellen in
-[PDF-uitvoer publiceren](../web-editor/native-pdf-web-editor.md).
+Ga voor meer informatie over het weergeven van de wijzigingsbalk naar *PDF maken met wijzigingsbalk tussen gepubliceerde versies* instellen in [PDF-uitvoer publiceren](../web-editor/native-pdf-web-editor.md).
 
 ## Gewijzigde inhoud binnen onderwerpen
 
