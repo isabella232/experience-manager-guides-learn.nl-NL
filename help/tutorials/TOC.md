@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 10%
 
 ---
@@ -18,16 +18,19 @@ ht-degree: 10%
    + Releaseopmerkingen {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
-         + [Opmerkingen bij de huidige release](./release-info/release-notes-2023.2.0.md)
-         + [Release-aantekeningen november](./release-info/release-notes-2022.11.0.md)
-         + [Release-aantekeningen oktober](./release-info/release-notes-2022.10.0.md)
-         + [Release-aantekeningen september](./release-info/release-notes-2022.9.0.md)
-         + [Release-aantekeningen augustus](./release-info/release-notes-2022.8.0.md)
-         + [Release-aantekeningen mei](./release-info/release-notes-2022.5.0.md)
-         + [Release-aantekeningen april](./release-info/release-notes-2022.4.0.md)
-         + [Opmerkingen bij de release maart](./release-info/release-notes-2022.3.0.md)
-         + [Opmerkingen bij de release februari](./release-info/release-notes-2022.2.0.md)
-         + [Release-aantekeningen januari](./release-info/release-notes-2022.1.0.md)
+         + Versies van 2023{#2023-releases}
+            + [Opmerkingen bij de huidige release](./release-info/release-notes-2023.3.0.md)
+            + [Opmerkingen bij de release februari](./release-info/release-notes-2023.2.0.md)
+         + Versies van 2022 {#2022-releases}
+            + [Release-aantekeningen november](./release-info/release-notes-2022.11.0.md)
+            + [Release-aantekeningen oktober](./release-info/release-notes-2022.10.0.md)
+            + [Release-aantekeningen september](./release-info/release-notes-2022.9.0.md)
+            + [Release-aantekeningen augustus](./release-info/release-notes-2022.8.0.md)
+            + [Release-aantekeningen mei](./release-info/release-notes-2022.5.0.md)
+            + [Release-aantekeningen april](./release-info/release-notes-2022.4.0.md)
+            + [Opmerkingen bij de release maart](./release-info/release-notes-2022.3.0.md)
+            + [Opmerkingen bij de release februari](./release-info/release-notes-2022.2.0.md)
+            + [Release-aantekeningen januari](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
          + [4.2 Opmerkingen bij de release](./release-info/release-notes-4.2.md)
          + [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4.1.md)

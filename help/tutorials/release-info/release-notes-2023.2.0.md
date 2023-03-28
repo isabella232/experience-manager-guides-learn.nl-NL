@@ -1,21 +1,22 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release februari 2023
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: d56855bf9078482ec1676b0eeb7a13df05475d5c
+description: Release van Adobe Experience Manager Guides as a Cloud Service in februari
+exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 1%
 
 ---
 
-# Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+# Release van Adobe Experience Manager Guides as a Cloud Service in februari
 
-## Upgrade naar de nieuwste versie
+## Upgrade naar de release van februari
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2023.2.235.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om de release van AEM hulplijnen in februari te upgraden.
 
 ## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM hulplijnen in september as a Cloud Service)
 
@@ -53,7 +54,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ## Nieuwe en verbeterde functies
 
-AEM de as a Cloud Service Gidsen verstrekt verhogingen en nieuwe eigenschappen in de recentste versie:
+AEM as a Cloud Service hulplijnen bieden verbeteringen en nieuwe functies in de release van februari:
 
 ### Rapporten genereren vanuit de webeditor
 
