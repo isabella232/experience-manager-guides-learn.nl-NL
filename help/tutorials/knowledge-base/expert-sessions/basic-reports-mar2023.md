@@ -1,7 +1,7 @@
 ---
 title: Rapporten in AEM hulplijnen
 description: Leer welke rapporten in AEM beschikbaar zijn om gebruikers te helpen de kwaliteit van de inhoud te verbeteren.
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -38,10 +38,10 @@ In deze sessie delen we de offline rapporten die beschikbaar zijn voor gebruiker
 
 ## Toetsen
 
-In deze sessie leert u over het volgende:
+In deze sessie hebt u kennis genomen van het volgende:
 - Belang van rapporten in het CCMS
-- Welke rapporten beschikbaar zijn uit de doos
-- Hoe kunt u rapportagemogelijkheden uitbreiden
+- Welke rapporten zijn beschikbaar uit de doos?
+- Hoe kunt u rapporteringsmogelijkheden uitbreiden?
 - Voorbeelden van rapportage over inhoud
 
 
