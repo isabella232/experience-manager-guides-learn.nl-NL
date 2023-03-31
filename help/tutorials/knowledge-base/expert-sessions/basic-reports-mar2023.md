@@ -1,26 +1,26 @@
 ---
 title: Rapporten in AEM hulplijnen
 description: Leer welke rapporten in AEM beschikbaar zijn om gebruikers te helpen de kwaliteit van de inhoud te verbeteren.
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-# Webinhoud van auteur
+# Rapporten in AEM hulplijnen
 
 In een organisatorische opstelling, wilt u de algemene volledigheid van uw inhoud verifiëren alvorens u de documenten voor consumptie door eind duwt - gebruikers. Een dergelijke behoefte wordt zelfs nog belangrijker in omgevingen met meerdere gebruikers en op grote schaal waar inhoud in verschillende contexten opnieuw kan worden gebruikt. Daarom is het noodzakelijk uw inhoud of document te valideren. In de context van gestructureerde inhoud, zijn er sommige specifieke types van rapporten die algemeen nodig zijn.
 
 
 ## Overzicht van sessie
 
-In deze sessie delen we de offline rapporten die beschikbaar zijn voor gebruikers. De volgende soorten verslagen zullen in grote lijnen worden behandeld:
-- AEM rapportagefunctie voor activa
+In deze sessie hebben we offline rapporten voor gebruikers weergegeven. We hebben het volgende in grote lijnen besproken:
 - Document- (kaart) en onderwerprapporten
 - Metagegevensrapporten en opties voor beheer van bulkmetagegevens
-- Statistieken voor hergebruik van inhoud weergeven
-- Volledige importbewerking voor inhoud
+- Rapporten voor hergebruik van inhoud
+- Juistheid voor importeren van inhoud
+- AEM Assets-rapportagemogelijkheden benutten
 
 
 ## Sessieopname
@@ -40,14 +40,13 @@ In deze sessie delen we de offline rapporten die beschikbaar zijn voor gebruiker
 
 In deze sessie hebt u kennis genomen van het volgende:
 - Belang van rapporten in het CCMS
-- Welke rapporten zijn beschikbaar uit de doos?
-- Hoe kunt u rapporteringsmogelijkheden uitbreiden?
-- Voorbeelden van rapportage over inhoud
+- beschikbaar in de tekstrapporten
+- voorbeelden van rapportage over inhoud
 
 
 ## Gerelateerde bronnen
 
-- In deze vergadering hebben we verschillende verslagen laten zien. Raadpleeg de stappen in het bijgevoegde document voor vergelijkbare rapporten. [PDF downloaden](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [PDF downloaden](./assets/aem-guides-expert-session-reports-documentation.pdf) om rapporten te creëren gelijkend op gebruiksgevallen die in de zitting worden getoond.
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ In deze sessie hebt u kennis genomen van het volgende:
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
-> - On-prem 4.2 of hoger
-> - Cloud Services 2302 of hoger
+> - Op prem: 4.2 of hoger
+> - Cloud Services: 2302 of hoger
 
 
 
