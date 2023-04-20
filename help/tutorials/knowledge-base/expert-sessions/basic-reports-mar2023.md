@@ -1,7 +1,8 @@
 ---
 title: Rapporten in AEM hulplijnen
 description: Leer welke rapporten in AEM beschikbaar zijn om gebruikers te helpen de kwaliteit van de inhoud te verbeteren.
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -64,7 +65,7 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Volgende sessie met experts
 
-- **Onderwerp** - TBD *(in afwachting van enquêteresultaten)*
+- **Onderwerp** - Inhoud en sjablooninstellingen
 - **Gepland op** - 27 april 2023
 
 
