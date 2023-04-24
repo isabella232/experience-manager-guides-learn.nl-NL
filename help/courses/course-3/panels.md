@@ -2,7 +2,7 @@
 title: Deelvensters
 description: Deelvensters in AEM hulplijnen gebruiken
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Blijvende deelvensters, zoals het linkerdeelvenster, kunnen in grootte worden aa
 
 1. Plaats de cursor op de vensterrand.
 
-2. Wanneer de dubbele pijl verschijnt, klikt u en sleept u naar binnen of naar buiten.
+1. Wanneer de dubbele pijl verschijnt, klikt u en sleept u naar binnen of naar buiten.
 
 ## De linkerzijbalk van het deelvenster uitvouwen of samenvouwen
 
@@ -31,7 +31,7 @@ In de uitgevouwen weergave worden de namen en pictogrammen weergegeven die als k
 
    ![Zijbalk uitvouwen](images/lesson-5/expand-sidebar.png)
 
-2. Klik op de knop [!UICONTROL **Zijbalk**] weer om het deelvenster samen te vouwen.
+1. Klik op de knop [!UICONTROL **Zijbalk**] weer om het deelvenster samen te vouwen.
 
    ![Zijbalk samenvouwen](images/lesson-5/collapse-sidebar.png)
 
@@ -41,15 +41,15 @@ In het linkerdeelvenster kunt u met Favorieten een lijst met specifieke document
 
 1. Selecteren **Favorieten** in het linkerdeelvenster.
 
-2. Klik op de knop [!UICONTROL **Plus**] pictogram.
+1. Klik op de knop [!UICONTROL **Plus**] pictogram.
 
    ![Favorieten Plus](images/lesson-5/favorites-plus.png)
 
-3. Voer in het dialoogvenster Nieuwe verzameling een **Titel** en **Beschrijving**.
+1. Voer in het dialoogvenster Nieuwe verzameling een **Titel** en **Beschrijving**.
 
    Houd er rekening mee dat als u Openbaar selecteert, andere gebruikers deze favoriet kunnen zien.
 
-4. Klikken [!UICONTROL **Maken**].
+1. Klikken [!UICONTROL **Maken**].
 
 U hebt nu een verzameling Favorieten gemaakt.
 
@@ -59,19 +59,19 @@ Nadat u een verzameling hebt gemaakt, kunt u beginnen met het toevoegen van Favo
 
 1. Selecteren **Weergave opslagplaats** in het linkerdeelvenster.
 
-2. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een onderwerp voor toegang tot contextafhankelijke opties.
+1. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een onderwerp voor toegang tot contextafhankelijke opties.
 
-3. Selecteren **Toevoegen aan** > **Favorieten**.
+1. Selecteren **Toevoegen aan** > **Favorieten**.
 
-4. Kies in het dialoogvenster Toevoegen aan Favorieten de optie **Nieuwe verzameling** of **Bestaande verzameling**.
+1. Kies in het dialoogvenster Toevoegen aan Favorieten de optie **Nieuwe verzameling** of **Bestaande verzameling**.
 
    Hier, zullen wij verkiezen om aan een Bestaande Inzameling toe te voegen.
 
    ![Dialoogvenster Favorieten](images/lesson-5/add-to-favorites-dialog.png)
 
-5. Selecteer indien nodig een verzameling in het vervolgkeuzemenu.
+1. Selecteer indien nodig een verzameling in het vervolgkeuzemenu.
 
-6. Klikken [!UICONTROL **Toevoegen**].
+1. Klikken [!UICONTROL **Toevoegen**].
 
 Het onderwerp wordt toegevoegd aan de inzameling van Favorieten u koos. U kunt deze weergeven in het menu Favorieten.
 
@@ -81,23 +81,23 @@ Een andere manier om een onderwerp aan uw Favorieten toe te voegen is van een op
 
 1. Ga naar de **Weergave opslagplaats**.
 
-2. Dubbelklik op een onderwerp om het te openen.
+1. Dubbelklik op een onderwerp om het te openen.
 
-3. Klik met de rechtermuisknop op de **Tabblad Titel** in de Editor voor toegang tot contextafhankelijke opties.
+1. Klik met de rechtermuisknop op de **Tabblad Titel** in de Editor voor toegang tot contextafhankelijke opties.
 
-4. Kies **Toevoegen aan** > **Favorieten**.
+1. Kies **Toevoegen aan** > **Favorieten**.
 
    ![Toevoegen aan Favorieten](images/lesson-5/addto-favorites.png)
 
-5. Kies in het dialoogvenster Toevoegen aan Favorieten de optie **Nieuwe verzameling** of **Bestaande verzameling**.
+1. Kies in het dialoogvenster Toevoegen aan Favorieten de optie **Nieuwe verzameling** of **Bestaande verzameling**.
 
    Hier, zullen wij verkiezen om aan een Nieuwe Inzameling toe te voegen.
 
-6. Voer in het dialoogvenster Nieuwe verzameling een **Titel** en **Beschrijving**.
+1. Voer in het dialoogvenster Nieuwe verzameling een **Titel** en **Beschrijving**.
 
    Houd er rekening mee dat u **Openbaar** betekent dat andere gebruikers deze favoriet kunnen zien.
 
-7. Klikken [!UICONTROL **Maken**].
+1. Klikken [!UICONTROL **Maken**].
 
 De nieuwe favoriet is gemaakt en gegroepeerd. U kunt deze weergeven in het menu Favorieten.
 
@@ -107,11 +107,11 @@ Het is gemakkelijk om te bekijken welke onderwerpen u reeds aan uw Inzamelingen 
 
 1. Selecteren [!UICONTROL **Favorieten**] in het linkerdeelvenster.
 
-2. Klik onder Favorieten op de knop [!UICONTROL **Pijl**] pictogram naast een verzameling om de inhoud ervan weer te geven.
+1. Klik onder Favorieten op de knop [!UICONTROL **Pijl**] pictogram naast een verzameling om de inhoud ervan weer te geven.
 
    ![Favorieten weergeven](images/lesson-5/view-favorites.png)
 
-3. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een onderwerp om contextuele opties, met inbegrip van de optie te tonen om het van de lijst van Favorieten te schrappen.
+1. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een onderwerp om contextuele opties, met inbegrip van de optie te tonen om het van de lijst van Favorieten te schrappen.
 
 ## Een zoekopdracht filteren in de weergave Opslagplaats
 
@@ -119,15 +119,15 @@ Met het verbeterde filter in de opslagplaats kunt u zoeken naar tekst met een gr
 
 1. Navigeren naar **Weergave opslagplaats**.
 
-2. Klik op de knop [!UICONTROL **Filter Zoeken**] pictogram.
+1. Klik op de knop [!UICONTROL **Filter Zoeken**] pictogram.
 
    ![Pictogram voor filter Bewaarplaats](images/lesson-5/repository-filter-icon.png)
 
-3. Typ tekst in het geselecteerde pad of kies indien nodig een nieuw pad.
+1. Typ tekst in het geselecteerde pad of kies indien nodig een nieuw pad.
 
    De lijst met bestanden wordt bijgewerkt terwijl u tekst in het filter typt.
 
-4. Klik op het pijlpictogram naast een zoekcategorie om de zoekopdracht indien nodig verder te beperken.
+1. Klik op het pijlpictogram naast een zoekcategorie om de zoekopdracht indien nodig verder te beperken.
 
    ![Filtercriteria](images/lesson-5/filter-criteria.png)
 
@@ -169,21 +169,21 @@ Fragmenten zijn kleine inhoudsfragmenten die opnieuw kunnen worden gebruikt als 
 
 1. Open een onderwerp in de Redacteur.
 
-2. Selecteer een element binnen het onderwerp.
+1. Selecteer een element binnen het onderwerp.
 
-3. Klik op de secundaire muisknop in het element.
+1. Klik op de secundaire muisknop in het element.
 
-4. Kies in het resulterende menu de optie Maken [!UICONTROL **Fragment**].
+1. Kies in het resulterende menu de optie Maken [!UICONTROL **Fragment**].
 
    ![Fragment maken](images/lesson-5/create-snippet.png)
 
-5. Voeg in het dialoogvenster Nieuw fragment een **Titel** en **Beschrijving**.
+1. Voeg in het dialoogvenster Nieuw fragment een **Titel** en **Beschrijving**.
 
-6. Bewerk het fragment naar wens.
+1. Bewerk het fragment naar wens.
 
    Een contextafhankelijke controle geeft een visuele melding als u een fout in de inhoud invoert.
 
-7. Klikken [!UICONTROL **Maken**].
+1. Klikken [!UICONTROL **Maken**].
 
 Het fragment wordt toegevoegd aan de lijst met beschikbare fragmenten. Het is klaar om in een geldige plaats in het onderwerp worden gesleept en worden gelaten vallen.
 
@@ -205,11 +205,11 @@ De Eigenschappen van de inhoud op het juiste paneel omvat specifieke informatie 
 
 1. Een onderwerp openen in **XML-editor**.
 
-2. Selecteer een **element**.
+1. Selecteer een **element**.
 
    Met Eigenschappen van inhoud worden het huidige type en de huidige kenmerken van het element weergegeven.
 
-3. Typ een nieuwe **Waarde** voor het element.
+1. Typ een nieuwe **Waarde** voor het element.
 
    ![Nieuwe waarde](images/lesson-5/new-value.png)
 
@@ -221,31 +221,31 @@ De Eigenschappen van het dossier toont extra informatie over het volledige open 
 
 1. Open een onderwerp in de Redacteur.
 
-2. Klik op de knop [!UICONTROL  **Bestandseigenschappen**] in het rechterdeelvenster.
+1. Klik op de knop [!UICONTROL  **Bestandseigenschappen**] in het rechterdeelvenster.
 
    ![Pictogram Bestandseigenschappen](images/lesson-5/file-properties-icon.png)
 
-3. Stel de **Documentstatus** tot **Bewerken**. De lijst Verwijzingen is momenteel leeg.
+1. Stel de **Documentstatus** tot **Bewerken**. De lijst Verwijzingen is momenteel leeg.
 
    ![Geen verwijzingen](images/lesson-5/no-references.png)
 
-4. Sluit het onderwerp.
+1. Sluit het onderwerp.
 
-5. Selecteren [!UICONTROL **Weergave opslagplaats**] in het linkerdeelvenster.
+1. Selecteren [!UICONTROL **Weergave opslagplaats**] in het linkerdeelvenster.
 
-6. Open een kaart.
+1. Open een kaart.
 
    De weergave verandert in Kaartweergave.
 
-7. Klik op de knop [!UICONTROL **Bewerken**] pictogram.
+1. Klik op de knop [!UICONTROL **Bewerken**] pictogram.
 
    ![Pictogram Kaart bewerken](images/lesson-5/edit-map-icon.png)
 
-8. Als de kaart is geopend voor bewerken, schakelt u terug naar **Weergave opslagplaats**.
+1. Als de kaart is geopend voor bewerken, schakelt u terug naar **Weergave opslagplaats**.
 
-9. Sleep het onderwerp waarmee u werkt naar de kaart.
+1. Sleep het onderwerp waarmee u werkt naar de kaart.
 
-10. Klik op de knop [!UICONTROL **Opslaan**] op de bovenste werkbalk.
+1. Klik op de knop [!UICONTROL **Opslaan**] op de bovenste werkbalk.
 
 Het onderwerp wordt toegevoegd aan de kaart. Nu wanneer u het onderwerp opent en de Eigenschappen van het Dossier controleert, kunt u de Verwijzingen zien worden bijgewerkt om erop te wijzen dat het onderwerp in de gespecificeerde kaart wordt gebruikt.
 
@@ -257,13 +257,13 @@ Het rechterdeelvenster bevat een sneltoets waarmee u een revisiewerkstroom kunt 
 
    ![Pictogram Revisie](images/lesson-5/review-icon.png)
 
-2. Klikken [!UICONTROL **Revisie maken**].
+1. Klikken [!UICONTROL **Revisie maken**].
 
    ![Revisie maken](images/lesson-5/create-review.png)
 
-3. Vul de velden naar wens in in het dialoogvenster Revisietaak maken.
+1. Vul de velden naar wens in in het dialoogvenster Revisietaak maken.
 
-4. Klik op [!UICONTROL **Next**].
+1. Klik op [!UICONTROL **Next**].
 
 De Revisietaak wordt gemaakt.
 

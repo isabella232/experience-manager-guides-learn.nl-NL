@@ -1,9 +1,11 @@
 ---
 title: Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen
 description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulplijnen kunt gebruiken om uw inhoud te maken en te beheren.
-source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
+hide: true
+hidefromtoc: true
+source-git-commit: 96347fed96979eb735dc55c32fcda90cc70ddcb4
 workflow-type: tm+mt
-source-wordcount: '5792'
+source-wordcount: '5762'
 ht-degree: 0%
 
 ---
@@ -111,11 +113,9 @@ Als AEM beheerder voert u de volgende stappen uit om het pakket te installeren:
 1. Haal het ZIP-bestand van het pakket op van uw IT-team.
 1. Aanmelden bij uw AEM *\(als beheerder\)* en navigeer naar de CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is
 
-   ```
-   http://<server name>:<port>/crx/packmgr/index.jsp
-   ```
+   `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [Werken met pakketten](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html) in AEM documentatie.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentatie.
 
    ![](images/package-manager.png)
 
@@ -161,13 +161,25 @@ Werk de opgegeven bestanden bij om de instellingen voor webverificatie in de ins
 
 Voeg de volgende regels toe in env.sh
 
-```
---illegal-access=permit\--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\--add-exports=java.desktop/sun.awt=ALL-UNNAMED\--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
+```java
+--illegal-access=permit\
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\
+--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\
+--add-exports=java.desktop/sun.awt=ALL-UNNAMED\
+--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 Voeg de volgende regels toe aan de functie oxydator.sh
 
-```
+```java
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
@@ -175,13 +187,13 @@ Voeg de volgende regels toe aan de functie oxydator.sh
 
 De volgende regels toevoegen in env.bat
 
-```
+```java
 --illegal-access=permit --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 Voeg de volgende regels toe aan de zuurstofAuthor.bat
 
-```
+```java
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
@@ -200,7 +212,7 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
 1. Geef de volgende details op:
    - **Server-URL**: URL van de AEM server, bijvoorbeeld:
 
-      ```
+      ```http
       http[s]://<host>:<port>
       ```
 
@@ -349,11 +361,11 @@ Als u de editors wilt gebruiken beschikbaar in AEM Hulplijnen, kunt u dit doen d
 
 1. Selecteren **Openen in** in het contextmenu en kies een van de volgende opties:
 
-- **Web Topic Editor**: Als het bestand dat u opent een .xml- of .dita-bestand is, kunt u het openen voor bewerking in de webeditor. Kies de optie **Web Topic Editor** om het geselecteerde bestand te openen en te bewerken in de webeditor.
+   - **Web Topic Editor**: Als het bestand dat u opent een .xml- of .dita-bestand is, kunt u het openen voor bewerking in de webeditor. Kies de optie **Web Topic Editor** om het geselecteerde bestand te openen en te bewerken in de webeditor.
 
-- **Kaartdashboard**: U kunt verkiezen om een.ditamap- dossier in het kaartdashboard uit te geven waar u diverse verrichtingen op het kaartdossier kunt uitvoeren. Deze bewerkingen zijn afhankelijk van de rol/groep waartoe u behoort.
+   - **Kaartdashboard**: U kunt verkiezen om een.ditamap- dossier in het kaartdashboard uit te geven waar u diverse verrichtingen op het kaartdossier kunt uitvoeren. Deze bewerkingen zijn afhankelijk van de rol/groep waartoe u behoort.
 
-- **Web DITA Map Editor**: Als u het .ditamap- dossier voor het uitgeven in de Redacteur van de Kaart wilt openen, dan kies deze optie. Gebruikend de optie van de Redacteur van de Kaart DITA, kunt u onderwerpen toevoegen of verwijderen, relatietabellen toevoegen, en andere verrichtingen op uw kaart uitvoeren.
+   - **Web DITA Map Editor**: Als u het .ditamap- dossier voor het uitgeven in de Redacteur van de Kaart wilt openen, dan kies deze optie. Gebruikend de optie van de Redacteur van de Kaart DITA, kunt u onderwerpen toevoegen of verwijderen, relatietabellen toevoegen, en andere verrichtingen op uw kaart uitvoeren.
 
 
 ### Bestanden uitchecken {#id195HC020TS4}
@@ -361,7 +373,7 @@ Als u de editors wilt gebruiken beschikbaar in AEM Hulplijnen, kunt u dit doen d
 Wanneer u een bestand uitcheckt, wordt het lokaal op uw systeem opgeslagen en vergrendeld voor bewerking in de AEM opslagplaats. Voer de volgende stappen uit om een bestand uit te checken:
 
 1. Klik met de rechtermuisknop op een bestand in het deelvenster Hulplijnen AEM.
-1. Kies een van de volgende opties:
+1. Selecteer een van de volgende opties:
    - **Uitchecken:** Hiermee wordt een bestand uit AEM opslagplaats uitgecheckt en beschikbaar gesteld voor bewerking.
    - **Uitchecken met afhankelijke personen**: Hiermee wordt een bestand met de directe referenties uitgecheckt. Met deze optie kunt u de bovenliggende en onderliggende pagina&#39;s wijzigen. Met de insteekmodule Zuurstof voor AEM hulplijnen kunt u één niveau afhankelijke personen uitchecken. Bijvoorbeeld, de Verwijzingen van de Kaart A Onderwerp A en Onderwerp A verwijzingen Onderwerp B. Het uitchecken van Kaart A zal Onderwerp A ongeacht zijn niveau in de hiërarchie van TOC uitchecken. Nochtans, zal het geen Onderwerp B controleren omdat het niet direct van Kaart A verbonden is.
    - **Uitchecken met alleen-lezen afhankelijke personen**: Hiermee wordt een bestand uitgecheckt en worden de afhankelijkheden van het bestand als alleen-lezen kopieën naar uw lokale computer gedownload. U kunt geen wijzigingen aanbrengen in de afhankelijke bestanden.
@@ -391,15 +403,15 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
    - **Inchecken**: Controleert het geselecteerde bestand van uw lokale systeem naar AEM opslagplaats.
    - **Inchecken met afhankelijke personen:** Als u een bestand samen met de afhankelijke bestanden hebt uitgecheckt, kunt u met deze optie alle afhankelijke bestanden in één bewerking inchecken. Als u deze optie selecteert, wordt het dialoogvenster Inchecken weergegeven met alle afhankelijke bestanden. Klik op OK om alle bestanden tegelijk in te checken.
 
-      Als u afhankelijke bestanden niet hebt uitgecheckt en deze optie kiest, worden alleen de afhankelijke bestanden die u \(afzonderlijk\) hebt uitgecheckt, ingecheckt. Er wordt een lijst weergegeven met bestanden die niet kunnen worden ingecheckt:
+   Als u afhankelijke bestanden niet hebt uitgecheckt en deze optie kiest, worden alleen de afhankelijke bestanden die u \(afzonderlijk\) hebt uitgecheckt, ingecheckt. Er wordt een lijst weergegeven met bestanden die niet kunnen worden ingecheckt:
 
-      ![](images/check-in-error.png)
+   ![](images/check-in-error.png)
 
-      Het wordt sterk aanbevolen om een uitgecheckt bestand niet te verplaatsen. Als een uitgecheckt bestand echter naar een andere locatie wordt verplaatst, moet u het uitchecken van dat bestand annuleren. Als u updates wilt uitvoeren op dat bestand, checkt u het bestand opnieuw uit, brengt u wijzigingen aan en checkt u het opnieuw in. Als u een bestand probeert in te checken dat van de oorspronkelijke locatie is verplaatst, wordt er een fout weergegeven.
+   Het wordt sterk aanbevolen om een uitgecheckt bestand niet te verplaatsen. Als een uitgecheckt bestand echter naar een andere locatie wordt verplaatst, moet u het uitchecken van dat bestand annuleren. Als u updates wilt uitvoeren op dat bestand, checkt u het bestand opnieuw uit, brengt u wijzigingen aan en checkt u het opnieuw in. Als u een bestand probeert in te checken dat van de oorspronkelijke locatie is verplaatst, wordt er een fout weergegeven.
 
-      Als een afhankelijk bestand is uitgecheckt in AEM, wordt het afhankelijke bestand niet weergegeven in het dialoogvenster Inchecken met afhankelijke personen. Als u een lijst wilt met afhankelijke bestanden die zijn uitgecheckt in AEM, moet u een map vernieuwen.
+   Als een afhankelijk bestand is uitgecheckt in AEM, wordt het afhankelijke bestand niet weergegeven in het dialoogvenster Inchecken met afhankelijke personen. Als u een lijst wilt met afhankelijke bestanden die zijn uitgecheckt in AEM, moet u een map vernieuwen.
 
-      En als u een afhankelijk bestand hebt ingecheckt via AEM, wordt de bestandslijst pas vernieuwd in de Zuurstofauteur als u een map uitvoert voor het vernieuwen en het vernieuwen van uitgecheckte bestanden. Als u een inchecken met afhankelijke bestanden uitvoert en sommige bestanden zijn AEM ingecheckt, wordt een foutmelding weergegeven met de bestanden die niet konden worden ingecheckt.
+   En als u een afhankelijk bestand hebt ingecheckt via AEM, wordt de bestandslijst pas vernieuwd in de Zuurstofauteur als u een map uitvoert voor het vernieuwen en het vernieuwen van uitgecheckte bestanden. Als u een inchecken met afhankelijke bestanden uitvoert en sommige bestanden zijn AEM ingecheckt, wordt een foutmelding weergegeven met de bestanden die niet konden worden ingecheckt.
 
 1. \(Optioneel\) Voeg in het dialoogvenster Inchecken een opmerking toe in **Opmerkingen bij versie** tekstvak.
 
@@ -447,7 +459,7 @@ Wanneer u in meerdere mappen werkt, is het niet eenvoudig om te bepalen hoeveel 
 Voer de volgende stappen uit om bestanden of mappen te uploaden:
 
 1. Klik met de rechtermuisknop op een map in het deelvenster Hulplijnen AEM.
-1. Kies een van de volgende opties:
+1. Selecteer een van de volgende opties:
    - **Bestand\(en\) uploaden**: Selecteer deze optie om een of meerdere bestanden te uploaden naar de geselecteerde map in de AEM opslagplaats. Selecteer in het dialoogvenster Bestanden selecteren om bestanden te uploaden de bestanden en klik op **Openen**.
    - **Uploaden met afhankelijke personen**: Selecteer deze optie om een DITA-bestand met de afhankelijke componenten te uploaden. Selecteer in het dialoogvenster Selecteer het bestand dat u wilt uploaden de bestanden en klik op **Openen**.
    - **Map uploaden**: Selecteer deze optie als u een map in de AEM-opslagplaats wilt uploaden. Selecteer de map in het dialoogvenster Kiezen en klik op **Kies**.
@@ -600,45 +612,47 @@ Dit onderwerp behandelt enkele van de gemeenschappelijkste kwesties die u terwij
 
 ### Ontbrekende AEM deelvenster Hulplijnen {#id192BH200ZAX}
 
-Kwestie: Als u het deelvenster Hulplijnen AEM niet ziet in de Oxygen XML-auteur, probeert u de volgende oplossingen:
+**Probleem** - Als u het deelvenster Hulplijnen AEM niet ziet in de Oxygen XML-auteur, probeert u de volgende oplossingen:
 
-Oplossing 1: : 1.  Schakel de plug-in in Oxygen XML Author.
+Oplossing 1:
 
-    Klik op **Opties** \> **Voorkeuren** \> **Insteekmodules** en selecteer **Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen.**
+1. Schakel de plug-in in Oxygen XML Author.
+
+   Klikken **Opties** \> **Voorkeuren** \> **Plug-ins** en selecteert u **Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen.**
 
 1. Start Oxygen XML Author opnieuw.
 
 
-Oplossing 2: : Als het deelvenster Hulplijnen AEM nog steeds niet wordt weergegeven, schakelt u het venster Hulplijnen AEM in.
+Oplossing 2:
 
-    Klik in de XML-auteur van oxygen op **Window** \> **Show View** \> **AEM Guides**.
+1. Als het deelvenster Hulplijnen AEM nog steeds niet wordt weergegeven, schakelt u het venster Hulplijnen AEM in.
 
-Oplossing 3: : Verwijder de Oxygen-insteekmodule voor Adobe Experience Manager-hulplijnen en installeer deze opnieuw.
+   Klik in Oxygen XML-auteur op **Venster** \> **Weergave tonen** \> **Hulplijnen AEM**.
 
-    - Verwijder in Windows de insteekmodule uit de lijst **Software**. Vervolgens installeert u de plug-in opnieuw.
-    
-    - Ga in Mac naar de map aem-connector-x.x in de map plugins van Oxygen XML Author en verplaats deze naar **Prullenbak**. Maak vervolgens de map **Prullenmand** leeg.
+Oplossing 3:
+
+1. Verwijder de Oxygen-insteekmodule voor Adobe Experience Manager-hulplijnen en installeer deze opnieuw.
+
+   - In Windows verwijdert u de insteekmodule uit **Software** lijst. Vervolgens installeert u de plug-in opnieuw.
+
+   - Open in Mac de map aem-connector-x.x in de map plugins van Oxygen XML Author en verplaats deze naar **Prullenbak**. Maak vervolgens de **Prullenbak** map.
 
 
 ### Poort configureren voor DITA-OT-transformatie
 
-Kwestie: Wanneer u een DITA-OT-transformatie uitvoert op bestanden die door de insteekmodule worden verwerkt, mislukt de transformatie met de volgende fout:
+**Probleem** - Wanneer u een DITA-OT-transformatie uitvoert op bestanden die door de insteekmodule worden verwerkt, mislukt de transformatie met de volgende fout:
 
-    ![](images/proxy-server-path-error.png)
+![](images/proxy-server-path-error-new.png)
 
-Oplossing: Dit probleem is opgelost door een proxyserver tussen DITA-OT en de insteekmodule toe te voegen. Deze proxyserver verwerkt en deelt alle bestanden die door DITA-OT zijn aangevraagd voor transformaties. De standaardpoort waarop deze server is geconfigureerd is: `5972`. Als u deze poort voor een andere server gebruikt, kunt u een andere poort voor de proxyserver opgeven.
+**Oplossing** - Dit probleem is opgelost door een proxyserver toe te voegen tussen DITA-OT en de insteekmodule. Deze proxyserver verwerkt en deelt alle bestanden die door DITA-OT zijn aangevraagd voor transformaties. De standaardpoort waarop deze server is geconfigureerd is: `5972`. Als u deze poort voor een andere server gebruikt, kunt u een andere poort voor de proxyserver opgeven.
 
-    Voer de volgende stappen uit om de standaardpoort van de proxyserver te wijzigen:
-    
-    1.  Blader naar de homemap van \(gebruiker&#39;s\).
-    
-    2.  Maak een bestand met de naam name\_connector\_proxy.
-    
-    3.  Open het bestand in een teksteditor en voeg een beschikbaar poortnummer toe aan de eerste regel van het bestand.
-    
-    4.  Sla het bestand op en sluit het.
-    
-    5.  Start Oxygen XML Author opnieuw en voer de DITA-OT transformation uit.
+Voer de volgende stappen uit om de standaardpoort van de proxyserver te wijzigen:
+
+1. Blader naar de homemap van \(gebruiker&#39;s\).
+1. Maak een bestand met de naam name\_connector\_proxy.
+1. Open het bestand in een teksteditor en voeg een beschikbaar poortnummer toe aan de eerste regel van het bestand.
+1. Sla het bestand op en sluit het.
+1. Start Oxygen XML Author opnieuw en voer de DITA-OT transformation uit.
 
 
 ### AEM deelvenster Hulplijnen bladert niet naar de geopende bestandslocatie
@@ -653,38 +667,36 @@ Probleem: Standaard genereert de insteekmodule Zuurstof voor AEM hulplijnen geen
 
 Oplossing: Voer de volgende stappen uit om de functie voor het genereren van logbestanden in de insteekmodule in te schakelen:
 
-    1.  Blader naar de installatielocatie van de Oxygen XML-auteur.
-    
-    1.  Open het bestand oxyAuthor19.1.vmoptions in een teksteditor.
-    
-    >[!OPMERKING]
-    >
-    >Het versienummer van het bestand kan afwijken, afhankelijk van het versienummer van de toepassing die op het systeem is geïnstalleerd.
-    
-    1.  Voeg de volgende regel toe aan het bestand:
-    
-    &quot;
-    -Djava.util.logging.config.file=./log.properties
-    &quot;
-    
-    1.  Sla het bestand op en sluit het.
-    
-    1.  Maak op dezelfde locatie een bestand met de naam log.properties met de volgende inhoud:
-    
-    &quot;
-    handlers=java.util.logging.FileHandler
-    java.util.logging.FileHandler.level = DEBUG
-    java.util.logging.FileHandler.limit = 1048576
-    java.util.logging.FileHandler.count = 5
-    java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-    java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
-    &quot;
-    
-    1.  Sla het bestand op en sluit het.
-    
-    1.  Start Oxygen XML Author.
-    
-    
-    De plug-in maakt nu logbestanden in de homemap van de gebruiker met de bestandsnaam aem-pluginX.log \(*waarbij X het rotatienummer aangeeft*\).
+1. Blader naar de installatielocatie van de Oxygen XML-auteur.
 
+1. Open het bestand oxyAuthor19.1.vmoptions in een teksteditor.
+
+   >[!NOTE]
+   >
+   >Het versienummer van het bestand kan afwijken, afhankelijk van het versienummer van de toepassing die op het systeem is geïnstalleerd.
+
+1. Voeg de volgende regel toe aan het bestand:
+
+   ```java
+   -Djava.util.logging.config.file=./log.properties
+   ```
+
+1. Sla het bestand op en sluit het.
+
+1. Maak op dezelfde locatie een bestand met de naam log.properties met de volgende inhoud:
+
+   ```java
+   handlers=java.util.logging.FileHandler
+   java.util.logging.FileHandler.level = DEBUG
+   java.util.logging.FileHandler.limit = 1048576
+   java.util.logging.FileHandler.count = 5
+   java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
+   java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+   java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+   ```
+
+1. Sla het bestand op en sluit het.
+1. Start Oxygen XML Author.
+
+
+Met de insteekmodule wordt nu een logbestand gemaakt in de homemap van de gebruiker met de bestandsnaam aem-pluginX.log \(*waarbij X het rotatienummer aangeeft*\).

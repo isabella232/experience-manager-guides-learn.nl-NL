@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | as a Cloud Service Adobe Experience Manager-hulplijnen, release november 2022
 description: Release van Adobe Experience Manager Guides as a Cloud Service in november
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 715d5622c4cc59dfb24ac9a3442e61efdb10a797
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 1%
@@ -15,8 +15,8 @@ ht-degree: 1%
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van uw Cloud Services naar 2022.11.198.
-3. Leg de veranderingen vast en stel de pijpleiding van Cloud Services in werking om aan de Versie van november van as a Cloud Service Gidsen van AEM te bevorderen.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van uw Cloud Services naar 2022.11.198.
+1. Leg de veranderingen vast en stel de pijpleiding van Cloud Services in werking om aan de Versie van november van as a Cloud Service Gidsen van AEM te bevorderen.
 
 ## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM hulplijnen in september as a Cloud Service)
 

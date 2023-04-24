@@ -2,7 +2,7 @@
 title: Gebruikersvoorkeuren, Editor-instellingen en Editor-werkbalken
 description: Gebruikersvoorkeuren en editorinstellingen wijzigen in AEM hulplijnen
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Tags zijn visuele aanwijzingen die de grenzen van een element aangeven. Een elem
 
    - Sleep elementen door de tag te selecteren en het element op een geldige locatie neer te zetten.
 
-2. Klik op de knop [!UICONTROL **Tags in-/uitschakelen**] weer om labels te verbergen.
+1. Klik op de knop [!UICONTROL **Tags in-/uitschakelen**] weer om labels te verbergen.
 
 Tags verdwijnen, zodat u zich op de tekst kunt concentreren.
 
@@ -47,7 +47,7 @@ Door een bestand te vergrendelen (of uit te checken) heeft de gebruiker exclusie
 
    Het bestand is uitgecheckt en er verschijnt een vergrendelingspictogram naast de bestandsnaam in de opslagplaats.
 
-2. Klik op de knop [!UICONTROL **Ontgrendelen**] pictogram.
+1. Klik op de knop [!UICONTROL **Ontgrendelen**] pictogram.
 
    ![Inchecken](images/lesson-2/check-in-icon.png)
 
@@ -59,13 +59,13 @@ De Repository wordt bijgewerkt om aan te tonen dat het bestand is ingecheckt.
 
    ![Speciaal](images/lesson-2/special-icon.png)
 
-2. Typ in het dialoogvenster Speciaal teken invoegen de naam van het teken in de zoekbalk.
+1. Typ in het dialoogvenster Speciaal teken invoegen de naam van het teken in de zoekbalk.
 
    U kunt ook het vervolgkeuzemenu Categorie selecteren gebruiken om alle tekens in een bepaalde categorie weer te geven.
 
-3. Selecteer het gewenste teken.
+1. Selecteer het gewenste teken.
 
-4. Klikken [!UICONTROL **Invoegen**].
+1. Klikken [!UICONTROL **Invoegen**].
 
 Het speciale teken wordt in de tekst ingevoegd.
 
@@ -89,13 +89,13 @@ U kunt kiezen uit de thema&#39;s Licht of Donker voor de editor. Met het thema L
 
    ![Gebruikersvoorkeuren](images/reuse/user-prefs-icon.png)
 
-2. Klik in het dialoogvenster Gebruikersvoorkeuren op de knop [!UICONTROL **Thema**] vervolgkeuzelijst.
+1. Klik in het dialoogvenster Gebruikersvoorkeuren op de knop [!UICONTROL **Thema**] vervolgkeuzelijst.
 
-3. Kies een van de beschikbare opties.
+1. Kies een van de beschikbare opties.
 
    ![Thema&#39;s](images/lesson-2/themes.png)
 
-4. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 De Editor wordt bijgewerkt om uw voorkeursthema weer te geven.
 
@@ -107,13 +107,13 @@ U kunt het Basispad bijwerken zodat in de weergave Opslagplaats de inhoud van ee
 
    ![Gebruikersvoorkeuren](images/reuse/user-prefs-icon.png)
 
-2. Klik in het dialoogvenster Gebruikersvoorkeuren op de knop [!UICONTROL **Map**] naast het basispad.
+1. Klik in het dialoogvenster Gebruikersvoorkeuren op de knop [!UICONTROL **Map**] naast het basispad.
 
    ![Pad naar basismap](images/lesson-2/base-path-folder-icon.png)
 
-3. Klik in het dialoogvenster Pad selecteren op het selectievakje naast een specifieke map.
+1. Klik in het dialoogvenster Pad selecteren op het selectievakje naast een specifieke map.
 
-4. Klikken [!UICONTROL **Selecteren**].
+1. Klikken [!UICONTROL **Selecteren**].
 
 De volgende keer dat u de Editor start, worden in de opslagplaats de bestanden weergegeven die zijn opgegeven in het basispad.
 
@@ -125,13 +125,13 @@ Het algemene profiel is een systeemstandaard. Beheerders kunnen extra mapprofiel
 
    ![Gebruikersvoorkeuren](images/reuse/user-prefs-icon.png)
 
-2. Klik in het dialoogvenster Gebruikersvoorkeuren op de knop [!UICONTROL **Mapprofielen**] vervolgkeuzelijst.
+1. Klik in het dialoogvenster Gebruikersvoorkeuren op de knop [!UICONTROL **Mapprofielen**] vervolgkeuzelijst.
 
    ![Profiellijst](images/lesson-2/folder-profiles-dropdown.png)
 
-3. Kies een profiel in de beschikbare opties.
+1. Kies een profiel in de beschikbare opties.
 
-4. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 Het nieuwe mapprofiel is nu toegewezen. De werkbalkopties, weergavemodi en Voorwaarden en Fragmenten zijn gewijzigd in het linkerdeelvenster. Het kan ook de visuele weergave van inhoud in de Editor wijzigen.
 
@@ -143,11 +143,11 @@ Editor-instellingen zijn beschikbaar voor gebruikers met beheerdersbevoegdheden.
 
    ![Editor-instellingen](images/lesson-2/editor-settings-icon.png)
 
-2. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Algemeen**] tab.
+1. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Algemeen**] tab.
 
-3. Selecteer het woordenboek waarmee u wilt werken.
+1. Selecteer het woordenboek waarmee u wilt werken.
 
-4. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 Het woordenboek wordt bijgewerkt. Door over te schakelen op AEM spellingcontrole kunt u een aangepaste woordenlijst gebruiken.
 
@@ -159,13 +159,13 @@ Een van de functies die u kunt aanpassen met de Editor-instellingen is Deelvenst
 
    ![Editor-instellingen](images/lesson-2/editor-settings-icon.png)
 
-2. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Deelvensters**] tab.
+1. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Deelvensters**] tab.
 
-3. Schakel de beschikbare deelvensters naar wens in of uit.
+1. Schakel de beschikbare deelvensters naar wens in of uit.
 
    ![Deelvenster schakelen](images/lesson-2/toggle-panels.png)
 
-4. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 Het linkerdeelvenster is nu zo geconfigureerd dat alleen de deelvensters worden weergegeven die in- en uitgeschakeld zijn.
 
@@ -177,15 +177,15 @@ In de Elements List kunt u een specifiek element een naam geven en er een mensvr
 
    ![Editor-instellingen](images/lesson-2/editor-settings-icon.png)
 
-2. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Elements List**] tab.
+1. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Elements List**] tab.
 
-3. Typ een **Elementnaam** en **Label** op de respectieve velden.
+1. Typ een **Elementnaam** en **Label** op de respectieve velden.
 
-4. Klik op de knop [!UICONTROL **Plus**] om meer elementen aan de lijst toe te voegen.
+1. Klik op de knop [!UICONTROL **Plus**] om meer elementen aan de lijst toe te voegen.
 
    ![Elements List](images/lesson-2/elements-list.png)
 
-5. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 U kunt de wijziging in de Elements-lijst direct zien in de bestaande tags in de Editor. U kunt ze ook zien in de opties die worden geboden wanneer u een nieuw element toevoegt.
 
@@ -197,11 +197,11 @@ De lijst met kenmerken werkt ongeveer op dezelfde manier als de lijst met elemen
 
    ![Editor-instellingen](images/lesson-2/editor-settings-icon.png)
 
-2. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Lijst met kenmerken**] tab.
+1. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Lijst met kenmerken**] tab.
 
-3. Typ een **Kenmerknaam** en **Label** op de respectieve velden.
+1. Typ een **Kenmerknaam** en **Label** op de respectieve velden.
 
-4. Klik op de knop [!UICONTROL **Plus**] om meer kenmerken aan de lijst toe te voegen.
+1. Klik op de knop [!UICONTROL **Plus**] om meer kenmerken aan de lijst toe te voegen.
 
 ## Voorwaarden configureren in Editor-instellingen
 
@@ -211,13 +211,13 @@ Op het tabblad Voorwaarde kunt u verschillende eigenschappen configureren.
 
    ![Editor-instellingen](images/lesson-2/editor-settings-icon.png)
 
-2. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Voorwaarde**] tab.
+1. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Voorwaarde**] tab.
 
-3. Schakel de selectievakjes in voor de voorwaarden die u wilt toepassen.
+1. Schakel de selectievakjes in voor de voorwaarden die u wilt toepassen.
 
    ![Tab voorwaarde](images/lesson-2/condition.png)
 
-4. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 ## Een publicatieprofiel maken in de Editor-instellingen
 
@@ -227,12 +227,12 @@ Publicatieprofielen kunnen worden gebruikt om de kennisbasis te publiceren. Sale
 
    ![Editor-instellingen](images/lesson-2/editor-settings-icon.png)
 
-2. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Profielen**] tab.
+1. Klik in het dialoogvenster Editor-instellingen op de knop [!UICONTROL **Profielen**] tab.
 
-3. Klik op de knop [!UICONTROL **Plus**] pictogram naast Profielen.
+1. Klik op de knop [!UICONTROL **Plus**] pictogram naast Profielen.
 
-4. Vul de velden naar wens in.
+1. Vul de velden naar wens in.
 
-5. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 Er is een publicatieprofiel gemaakt.

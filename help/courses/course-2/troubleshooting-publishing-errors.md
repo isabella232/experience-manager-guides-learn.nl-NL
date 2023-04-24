@@ -2,7 +2,7 @@
 title: Problemen met publicatiefouten oplossen
 description: Problemen met publicatiefouten oplossen in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Het logbestand dat wordt gegenereerd, kan worden geopend voor revisie.
 
    ![error-log](images/error-log.png)
 
-2. Blader door het foutenlogboek.
+1. Blader door het foutenlogboek.
 
 ## Fouttypen weergeven en verbergen
 
@@ -63,7 +63,7 @@ In het foutenlogboek wordt elk fouttype in een unieke kleur weergegeven.
 
 1. **Selecteren** of **deselecteren** een fouttype om markering weer te geven of te verbergen.
 
-2. Navigeren door fouten met de **next** of **vorige** knoppen (pijlen).
+1. Navigeren door fouten met de **next** of **vorige** knoppen (pijlen).
 
 ## Fouten oplossen
 

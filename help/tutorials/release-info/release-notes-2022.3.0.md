@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release [!DNL AEM Guides], release maart 2022
 description: Release van maart [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%
@@ -15,8 +15,8 @@ ht-degree: 1%
 
 Upgrade uw huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service (later aangeduid als *[!DNL AEM Guides]as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.3.123.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van maart van [!DNL AEM Guides] as a Cloud Service.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.3.123.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van maart van [!DNL AEM Guides] as a Cloud Service.
 
 ## Compatibiliteitsmatrix
 
@@ -34,7 +34,7 @@ In deze sectie wordt de compatibiliteitsmatrix weergegeven voor de softwaretoepa
 
 | [!DNL AEM Guides] Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac |
 | --- | --- | --- |
-| 2022,3,0 | 2.4.0. | 2.4.0. |
+| 2022.3.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.

@@ -2,7 +2,7 @@
 title: Omtrekweergave
 description: Omtrekweergave gebruiken in AEM hulplijnen
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -31,7 +31,7 @@ In de omtrekweergave schakelt u van uitgevouwen naar samengevouwen.
 
 1. Klik op een element om naar die locatie te gaan.
 
-2. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een element voor toegang tot snelopties.
+1. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een element voor toegang tot snelopties.
 
    ![Contextmenu](images/lesson-6/shortcut-options.png)
 
@@ -41,7 +41,7 @@ Een nieuwe identiteitskaart kan automatisch worden geproduceerd gebaseerd op sys
 
 1. Klik op de knop [!UICONTROL **Weglatingsteken**] naast een element.
 
-2. Kies **Id&#39;s genereren**.
+1. Kies **Id&#39;s genereren**.
 
    ![Contextmenu Ovaal](images/lesson-6/ellipsis-popup.png)
 
@@ -53,7 +53,7 @@ Elementen kunnen opnieuw worden geordend in de omtrekweergave.
 
 1. Klik en sleep een element aan een andere plaats in de Mening van het Overzicht.
 
-2. Zet het element neer bovenop een ander element om het te vervangen. Deze actie wordt aangegeven met een vierkant kader rond het element dat moet worden vervangen.
+1. Zet het element neer bovenop een ander element om het te vervangen. Deze actie wordt aangegeven met een vierkant kader rond het element dat moet worden vervangen.
 
    of
 
@@ -63,13 +63,13 @@ Elementen kunnen opnieuw worden geordend in de omtrekweergave.
 
 1. Selecteer het element.
 
-2. Klik op de knop [!UICONTROL **Weglatingsteken**].
+1. Klik op de knop [!UICONTROL **Weglatingsteken**].
 
-3. Selecteren **Naam element wijzigen**.
+1. Selecteren **Naam element wijzigen**.
 
    ![Contextmenu Naam element wijzigen](images/lesson-6/rename-before.png)
 
-4. Dubbelklik op een nieuwe elementnaam.
+1. Dubbelklik op een nieuwe elementnaam.
 
 De naam van het element is nu gewijzigd.
 
@@ -77,9 +77,9 @@ De naam van het element is nu gewijzigd.
 
 1. Selecteer het element dat u wilt opheffen.
 
-2. Klik op de knop [!UICONTROL **Weglatingsteken**].
+1. Klik op de knop [!UICONTROL **Weglatingsteken**].
 
-3. Selecteren [!UICONTROL **Element opheffen**].
+1. Selecteren [!UICONTROL **Element opheffen**].
 
 De inhoud blijft behouden, maar de structuur is verwijderd.
 
@@ -89,7 +89,7 @@ De inhoud blijft behouden, maar de structuur is verwijderd.
 
    ![Filters](images/lesson-6/filter-icon.png)
 
-2. Kies **Alles** om alle elementen weer te geven of **Verbroken koppelingen** om verbroken verwijzingen te zoeken en te herstellen.
+1. Kies **Alles** om alle elementen weer te geven of **Verbroken koppelingen** om verbroken verwijzingen te zoeken en te herstellen.
 
 ## Zoeken met omtrekweergave
 
@@ -99,4 +99,4 @@ Een zoekopdracht kan worden beperkt en resultaten retourneren op basis van een e
 
    ![Zoekbalk](images/lesson-6/search-bar.png)
 
-2. Kies het resultaat dat het meest geschikt is voor uw behoeften.
+1. Kies het resultaat dat het meest geschikt is voor uw behoeften.

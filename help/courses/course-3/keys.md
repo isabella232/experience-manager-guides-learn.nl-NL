@@ -2,7 +2,7 @@
 title: Toetsen
 description: De sleutels staan u toe om veranderlijke informatie te omvatten aan wanneer het werken met DITA in AEM Gidsen
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Voorbeeldbestanden die u voor deze les wilt gebruiken, staan in het bestand [key
 
    h. Selecteren [!UICONTROL **Extraheren**] aan de rechterbovenhoek van het scherm.
 
-2. Wanneer het uitpakken is voltooid, klikt u op [!UICONTROL **Ga naar de doelmap**].
+1. Wanneer het uitpakken is voltooid, klikt u op [!UICONTROL **Ga naar de doelmap**].
 
    ![Bevestiging](images/lesson-9/go-to-target.png)
 
@@ -69,9 +69,9 @@ Om sleutels correct te gebruiken, moet de Voorkeur van de Gebruiker een specifie
 
    g. **Opslaan** de Voorkeuren van de Gebruiker.
 
-2. Ga naar de **Kaartweergave**.
+1. Ga naar de **Kaartweergave**.
 
-3. Open de opgegeven kaart.
+1. Open de opgegeven kaart.
 
 De sleutels worden opgelost.
 
@@ -79,11 +79,11 @@ De sleutels worden opgelost.
 
 1. Open een kaart met een opgegeven hoofdmap.
 
-2. Selecteer een toets.
+1. Selecteer een toets.
 
    ![Key Dropdown](images/lesson-9/hybrid-key.png)
 
-3. Voeg een nieuw sleutelwoord in.
+1. Voeg een nieuw sleutelwoord in.
 
    a. Klik op een geldige locatie op de kaart.
 
@@ -95,7 +95,7 @@ De sleutels worden opgelost.
 
    d. Klikken [!UICONTROL **Invoegen**].
 
-4. Voeg topicmeta binnen keydef toe.
+1. Voeg topicmeta binnen keydef toe.
 
    a. Klik op de knop [!UICONTROL **Element invoegen**] op de bovenste werkbalk.
 
@@ -103,7 +103,7 @@ De sleutels worden opgelost.
 
    b. Zoek en selecteer &#39;topicmeta&#39; in het dialoogvenster Element invoegen.
 
-5. Voeg sleutelwoorden binnen topicmeta toe.
+1. Voeg sleutelwoorden binnen topicmeta toe.
 
    a. Klik op de knop [!UICONTROL **Element invoegen**] op de bovenste werkbalk.
 
@@ -111,7 +111,7 @@ De sleutels worden opgelost.
 
    b. Zoek in het dialoogvenster Element invoegen naar &quot;trefwoorden&quot; en selecteer deze.
 
-6. Voeg een sleutelwoord binnen topicmeta toe.
+1. Voeg een sleutelwoord binnen topicmeta toe.
 
    a. Klik op de knop [!UICONTROL **Element invoegen**] op de bovenste werkbalk.
 
@@ -119,7 +119,7 @@ De sleutels worden opgelost.
 
    b. In de **Element invoegen** , zoekt en selecteert u &quot;trefwoord&quot;
 
-7. Typ de waarde voor het trefwoord in het trefwoord.
+1. Typ de waarde voor het trefwoord in het trefwoord.
 
 Op de kaart zou uw keydef er nu ongeveer als volgt moeten uitzien:
 
@@ -131,16 +131,16 @@ Fragmenten zijn kleine inhoudsfragmenten die over verschillende onderwerpen in u
 
 1. Selecteer een keydef-element op de kaart.
 
-2. Klik in het contextmenu op [!UICONTROL **Fragment maken**].
+1. Klik in het contextmenu op [!UICONTROL **Fragment maken**].
 
-3. Voeg een titel en beschrijving toe in het dialoogvenster Nieuw fragment.
+1. Voeg een titel en beschrijving toe in het dialoogvenster Nieuw fragment.
 U kunt ook bestaande toetsen of trefwoorddefinities uit de inhoud verwijderen.
 
-4. Klikken [!UICONTROL **Maken**].
+1. Klikken [!UICONTROL **Maken**].
 
-5. Selecteer in het linkerdeelvenster de optie **Fragmenten**.
+1. Selecteer in het linkerdeelvenster de optie **Fragmenten**.
 
-6. Sleep het fragment dat u zojuist hebt gemaakt van het deelvenster Fragmenten naar de kaart.
+1. Sleep het fragment dat u zojuist hebt gemaakt van het deelvenster Fragmenten naar de kaart.
 
-7. Werk het toetsontwerp zo nodig bij met de eigenschappen van de inhoud.
+1. Werk het toetsontwerp zo nodig bij met de eigenschappen van de inhoud.
 Wanneer bewaard en verfrist, zal deze reeks Sleutels voor om het even welke gebruiker beschikbaar zijn die een kaart heeft bepaald die de zelfde Kaart van de Wortel bevat.

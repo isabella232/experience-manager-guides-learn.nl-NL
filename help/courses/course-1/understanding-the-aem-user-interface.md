@@ -2,7 +2,7 @@
 title: De AEM gebruikersinterface [!DNL AEM Guides]
 description: De AEM gebruikersinterface [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Leer over het beheren van activa, dossiers, en omslagen in de Redacteur van XML 
 ## De XML-editor openen
 
 1. Voer in het aanmeldingsscherm uw gebruikersnaam en wachtwoord in en selecteer **[!UICONTROL Sign In]**.
-2. Selecteren **[!UICONTROL XML Editor]** op de AEM navigatiepagina.
+1. Selecteren **[!UICONTROL XML Editor]** op de AEM navigatiepagina.
 
 ## Weergaven van XML-editor
 
@@ -81,7 +81,7 @@ U kunt vanuit elke weergave van de interface Elementen terugkeren naar de XML-ed
 
 1. Selecteer het onderwerp u van de lijst wilt uitgeven.
 Het onderwerp toont in Elementen UI.
-2. Selecteren **Bewerken** in de bovenste werkbalk.
+1. Selecteren **Bewerken** in de bovenste werkbalk.
 U gaat terug naar de XML-editor.
 
 ### Kaartweergave herstellen

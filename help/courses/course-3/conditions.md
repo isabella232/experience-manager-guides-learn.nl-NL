@@ -2,7 +2,7 @@
 title: Voorwaarden
 description: Werken met voorwaarden in AEM hulplijnen
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -21,15 +21,15 @@ Voorbeeldbestanden die u voor deze les wilt gebruiken, staan in het bestand [con
 
 1. Selecteer **Mapprofielen** tegel.
 
-2. Klikken [!UICONTROL **Voorwaardelijke kenmerken**].
+1. Klikken [!UICONTROL **Voorwaardelijke kenmerken**].
 
-3. Klikken [!UICONTROL **Bewerken**] in de linkerbovenhoek van het profiel.
+1. Klikken [!UICONTROL **Bewerken**] in de linkerbovenhoek van het profiel.
 
-4. Klikken [!UICONTROL **Toevoegen**].
+1. Klikken [!UICONTROL **Toevoegen**].
 
    ![Voorwaarden in mapprofielen](images/lesson-13/add-name.png)
 
-5. Vul de vereiste velden in.
+1. Vul de vereiste velden in.
 
    - De naam moet overeenkomen met een kenmerk dat wordt gebruikt voor het maken van profielen.
 
@@ -37,7 +37,7 @@ Voorbeeldbestanden die u voor deze les wilt gebruiken, staan in het bestand [con
 
    - Het label is het woord dat wordt weergegeven door de gebruiker die kenmerken invoert.
 
-6. Klikken [!UICONTROL **Opslaan**].
+1. Klikken [!UICONTROL **Opslaan**].
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Als er geen aangepast mapprofiel aan een concept is toegewezen, kunt u desgewens
 
 1. Van de **Weergave opslagplaats**, klikt u op het element waarmee u wilt werken om het te selecteren.
 
-2. In de **Eigenschappen van inhoud** klikt u op het deelvenster [!UICONTROL **Kenmerk**] vervolgkeuzelijst.
+1. In de **Eigenschappen van inhoud** klikt u op het deelvenster [!UICONTROL **Kenmerk**] vervolgkeuzelijst.
 
-3. Kies het kenmerk dat u wilt toewijzen.
+1. Kies het kenmerk dat u wilt toewijzen.
 
-4. Voeg een **Waarde**.
+1. Voeg een **Waarde**.
 
 Het kenmerk en de waardepapier worden nu toegewezen aan het geselecteerde element.
 
@@ -73,9 +73,9 @@ In het deelvenster Voorwaarden kunt u kenmerken en waarden op een gecontroleerde
 
    c. Klikken [!UICONTROL **Opslaan**].
 
-2. Vouw in het deelvenster Voorwaarden de vervolgkeuzelijsten voor Publiek en Platform uit. De beschikbare voorwaarden zijn specifiek voor het mapprofiel.
+1. Vouw in het deelvenster Voorwaarden de vervolgkeuzelijsten voor Publiek en Platform uit. De beschikbare voorwaarden zijn specifiek voor het mapprofiel.
 
-3. Sleep een voorwaarde naar het gewenste element om deze toe te wijzen.
+1. Sleep een voorwaarde naar het gewenste element om deze toe te wijzen.
 
 ## Een onderwerpregeling toewijzen
 
@@ -83,11 +83,11 @@ De kaarten van het onderwerpRegeling zijn een gespecialiseerde vorm van ditamap 
 
 1. Ga naar de **Weergave opslagplaats**.
 
-2. Selecteer een kaart die verwijst naar het onderwerpschema ditamap. In dit voorbeeld wordt de kaart met de naam _Ontwerp en lay-out_.
+1. Selecteer een kaart die verwijst naar het onderwerpschema ditamap. In dit voorbeeld wordt de kaart met de naam _Ontwerp en lay-out_.
 
    ![Gebruikersvoorkeuren](images/lesson-13/subject-scheme-map.png)
 
-3. Gebruikersvoorkeuren configureren.
+1. Gebruikersvoorkeuren configureren.
 
    a. Klik op de knop [!UICONTROL **Gebruikersvoorkeuren**] pictogram.
 
@@ -119,6 +119,6 @@ Het onderwerpprogramma is nu toegewezen.
 
 1. Navigeren naar **Editor-instellingen**.
 
-2. Selecteer **Voorwaarden** tab.
+1. Selecteer **Voorwaarden** tab.
 
-3. Het selectievakje inschakelen **Het onderwerpschema tonen in het deelvenster Voorwaarden**
+1. Het selectievakje inschakelen **Het onderwerpschema tonen in het deelvenster Voorwaarden**

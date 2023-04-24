@@ -2,7 +2,7 @@
 title: Een kaart maken in [!DNL AEM Guides]
 description: Leer hoe u een kaart maakt in [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Uw inhoud wordt geopend in [!UICONTROL Preview].
 U kunt de hiërarchie van onderwerpen binnen de kaart uitgeven.
 
 1. Klik op het pictogram van een onderwerp om het te selecteren.
-2. Gebruik de pijlen om respectievelijk elementen te degraderen en te bevorderen.
+1. Gebruik de pijlen om respectievelijk elementen te degraderen en te bevorderen.
 
    ![Pictogram voor opslagplaats](images/lesson-8/left-right.png)
 

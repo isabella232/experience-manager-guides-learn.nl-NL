@@ -2,7 +2,7 @@
 title: Koppelen naar websites in [!DNL AEM Guides]
 description: Koppelen naar websites in [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -18,18 +18,18 @@ Webkoppelingen leiden lezers naar websites voor meer informatie, maken interacti
 ## Een koppeling invoegen
 
 1. Selecteer uw concept in de opslagplaats en open het in de editor.
-2. Voeg een tekenreeks aan uw concept toe en markeer deze of markeer de bestaande tekst.
+1. Voeg een tekenreeks aan uw concept toe en markeer deze of markeer de bestaande tekst.
 
    In deze gemarkeerde tekst wordt de koppeling ingevoegd.
-3. Selecteer **Kruisverwijzing invoegen** op de werkbalk.
+1. Selecteer **Kruisverwijzing invoegen** op de werkbalk.
 
    ![Pictogram Kruisverwijzing invoegen](images/lesson-5/insert-crossref-icon.png)
 
    Het dialoogvenster Referentie wordt weergegeven.
 
 
-4. Selecteren **Webkoppeling** in het linkermenu.
-5. Plak de gewenste URL en klik vervolgens op **Selecteren**.
+1. Selecteren **Webkoppeling** in het linkermenu.
+1. Plak de gewenste URL en klik vervolgens op **Selecteren**.
 
    De koppeling is functioneel en opent een webpagina in een nieuw browsertabblad wanneer erop wordt geklikt.
 

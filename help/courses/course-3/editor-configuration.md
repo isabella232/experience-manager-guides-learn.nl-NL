@@ -2,7 +2,7 @@
 title: Configuratie van de Editor voor hulplijnen AEM
 description: De editor voor AEM hulplijnen configureren
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ U kunt de standaardconfiguratie UI altijd downloaden naar uw lokale systeem, ver
 
    ![Gereedschapspictogram](images/reuse/tools-icon.png)
 
-2. Selecteren **Hulplijnen** in het linkerdeelvenster.
+1. Selecteren **Hulplijnen** in het linkerdeelvenster.
 
-3. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
+1. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
 
    ![Mapprofielen](images/reuse/folder-profiles-tile.png)
 
-4. Selecteer een mapprofiel.
+1. Selecteer een mapprofiel.
 
-5. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
+1. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-6. Klikken [!UICONTROL **Downloaden**] Standaard.
+1. Klikken [!UICONTROL **Downloaden**] Standaard.
 
    ![Standaardwaarde downloaden](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ Nadat u de UI-configuratie hebt aangepast, kunt u deze uploaden. Let op: een voo
 
 1. Klik in het mapprofiel op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-2. Klik onder UI-configuratie van XML Editor op [!UICONTROL **Uploaden**].
+1. Klik onder UI-configuratie van XML Editor op [!UICONTROL **Uploaden**].
 
    ![Uploaden](images/lesson-4/upload.png)
 
-3. Dubbelklik op het bestand voor de gewijzigde UI-configuratie of, zoals u hier ziet, op het beschikbare voorbeeldbestand.
+1. Dubbelklik op het bestand voor de gewijzigde UI-configuratie of, zoals u hier ziet, op het beschikbare voorbeeldbestand.
 
    ![Voorbeeld van configuratiebestand](images/lesson-4/sample-config-file.png)
 
-4. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
+1. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
 
 U hebt met succes de gewijzigde configuratie UI geupload.
 
@@ -67,17 +67,17 @@ Net als bij de UI-configuratie kunt u de CSS-sjabloonlay-out downloaden. U kunt 
 
    ![Gereedschapspictogram](images/reuse/tools-icon.png)
 
-2. Selecteren **Hulplijnen** in het linkerdeelvenster.
+1. Selecteren **Hulplijnen** in het linkerdeelvenster.
 
-3. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
+1. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
 
    ![Mapprofielen](images/reuse/folder-profiles-tile.png)
 
-4. Selecteer een mapprofiel.
+1. Selecteer een mapprofiel.
 
-5. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
+1. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-6. Klik onder CSS-sjabloonlay-out op [!UICONTROL **Downloaden**].
+1. Klik onder CSS-sjabloonlay-out op [!UICONTROL **Downloaden**].
 
    ![CSS downloaden](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ Nadat u de CSS-sjabloonlay-out hebt aangepast, kunt u deze uploaden. Een voorbee
 
 1. Klik in het mapprofiel op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-2. Klik onder CSS-sjabloonlay-out op [!UICONTROL **Uploaden**].
+1. Klik onder CSS-sjabloonlay-out op [!UICONTROL **Uploaden**].
 
    ![CSS uploaden](images/lesson-4/upload-css.png)
 
-3. Dubbelklik op het bestand voor uw eigen aangepaste CSS-indeling of het voorbeeldbestand dat u hier ziet.
+1. Dubbelklik op het bestand voor uw eigen aangepaste CSS-indeling of het voorbeeldbestand dat u hier ziet.
 
    ![Voorbeeld-CSS-bestand](images/lesson-4/sample-css-file.png)
 
-4. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
+1. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
 De aangepaste CSS-sjabloonindeling is geüpload.
 
 ## XML Editor-fragmenten bewerken
@@ -108,25 +108,25 @@ Fragmenten zijn herbruikbare stukken inhoud die specifiek kunnen zijn voor een p
 
    ![Gereedschapspictogram](images/reuse/tools-icon.png)
 
-2. Selecteren **Hulplijnen** in het linkerdeelvenster.
+1. Selecteren **Hulplijnen** in het linkerdeelvenster.
 
-3. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
+1. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
 
    ![Mapprofielen](images/reuse/folder-profiles-tile.png)
 
-4. Selecteer een mapprofiel.
+1. Selecteer een mapprofiel.
 
-5. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
+1. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-6. Klik onder Fragmenten van de XML-editor op **Uploaden**.
+1. Klik onder Fragmenten van de XML-editor op **Uploaden**.
 
    ![Fragmenten uploaden](images/lesson-4/upload-snippets.png)
 
-7. Kies uw eigen fragmenten of gebruik de meegeleverde voorbeelden.
+1. Kies uw eigen fragmenten of gebruik de meegeleverde voorbeelden.
 
    ![Voorbeeldfragment](images/lesson-4/sample-snippet.png)
 
-8. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
+1. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
 
 U hebt nieuwe fragmenten toegevoegd aan de Editor.
 
@@ -138,17 +138,17 @@ Auteurs kunnen standaard zelf labels maken en deze koppelen aan onderwerpbestand
 
    ![Gereedschapspictogram](images/reuse/tools-icon.png)
 
-2. Selecteren **Hulplijnen** in het linkerdeelvenster.
+1. Selecteren **Hulplijnen** in het linkerdeelvenster.
 
-3. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
+1. Klik op de knop [!UICONTROL **Mapprofielen**] tegel.
 
    ![Mapprofielen](images/reuse/folder-profiles-tile.png)
 
-4. Selecteer een mapprofiel.
+1. Selecteer een mapprofiel.
 
-5. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
+1. Klik op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-6. Klik onder Versielabels voor XML-inhoud op [!UICONTROL **Downloaden**].
+1. Klik onder Versielabels voor XML-inhoud op [!UICONTROL **Downloaden**].
 
    ![Labels downloaden](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ Nadat u de labels hebt gedownload en gewijzigd, kunt u het onderwerp Versielabel
 
 1. Klik in het mapprofiel op de knop [!UICONTROL **XML Editor-configuratie**] tab.
 
-2. Klik onder Versielabels voor XML-inhoud op [!UICONTROL **Uploaden**].
+1. Klik onder Versielabels voor XML-inhoud op [!UICONTROL **Uploaden**].
 
    ![Labels uploaden](images/lesson-4/upload-labels.png)
 
-3. Dubbelklik op het bestand voor uw eigen aangepaste labels of het voorbeeldbestand dat u hier ziet.
+1. Dubbelklik op het bestand voor uw eigen aangepaste labels of het voorbeeldbestand dat u hier ziet.
 
    ![Voorbeeldlabelbestand](images/lesson-4/sample-labels-file.png)
 
-4. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
+1. Klikken [!UICONTROL **Opslaan**] in de linkerbovenhoek van het scherm.
 
 U hebt aangepaste labels voor XML-inhoudsversies geüpload.

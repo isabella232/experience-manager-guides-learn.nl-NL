@@ -2,7 +2,7 @@
 title: Standaarduitvoer publiceren in AEM hulplijnen
 description: Standaarduitvoer publiceren in [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Er zijn een aantal uitvoervoorinstellingen beschikbaar waaruit u kunt kiezen. De
 
    Het kaartdashboard wordt op een ander tabblad geopend.
 
-2. Selecteer AEM Site en PDF op het tabblad Voorinstellingen uitvoer.
+1. Selecteer AEM Site en PDF op het tabblad Voorinstellingen uitvoer.
 
    ![Voorinstellingen uitvoer](images/lesson-9/pdf-aem.png)
 
-3. Selecteren **Genereren.**
+1. Selecteren **Genereren.**
 
-4. Navigeer naar de pagina Uitvoer om de status van de gegenereerde uitvoer weer te geven.
+1. Navigeer naar de pagina Uitvoer om de status van de gegenereerde uitvoer weer te geven.
 
    Een groene cirkel geeft aan dat het genereren is voltooid.
 

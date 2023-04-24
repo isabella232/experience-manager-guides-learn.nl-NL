@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release augustus 2022
 description: Release van Adobe Experience Manager Guides as a Cloud Service in augustus
-source-git-commit: d49ccb3f654dede0c0447849d89ecbab333a1055
+exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%
@@ -14,8 +15,8 @@ ht-degree: 1%
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.8.167.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van augustus van AEM as a Cloud Service hulplijnen te upgraden.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.8.167.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van augustus van AEM as a Cloud Service hulplijnen te upgraden.
 
 ## Compatibiliteitsmatrix
 
@@ -34,7 +35,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac |
 | --- | --- | --- |
-| 2022,8,0 | 2.7.5. | 2.7.5. |
+| 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
 
 
@@ -105,7 +106,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Onbekwaam om een nieuw onderwerp of kaartmalplaatje in subfolder van een kaart of onderwerpmalplaatje tot stand te brengen. (9888)
 * Er is geen optie aanwezig om door de onderwerpen of kaarten te bladeren die aanwezig zijn in de submappen van een kaart of onderwerpsjabloon. (9889)
 * Wanneer een Schematron-bestand samen met het DITA-bestand wordt bijgewerkt en opgeslagen, wordt het rechterdeelvenster niet weergegeven (als het DITA-bestand de validaties in het Schematron-bestand verbreekt). (9986)
-* Er kan een nieuwe voorinstelling voor gedupliceerde uitvoer worden gemaakt als de naam van deze voorinstelling gelijk is aan die van een bestaande voorinstelling. (997)
+* Er kan een nieuwe voorinstelling voor gedupliceerde uitvoer worden gemaakt als de naam van deze voorinstelling gelijk is aan die van een bestaande voorinstelling. (9997)
 * SVG-afbeeldingen worden beschadigd en publiceren niet correct wanneer de HTML-uitvoer wordt gegenereerd. (9949)
 
 

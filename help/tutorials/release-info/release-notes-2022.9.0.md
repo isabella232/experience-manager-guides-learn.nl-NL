@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release september 2022
 description: Release Adobe Experience Manager Guides as a Cloud Service september
-source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
+exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 3%
@@ -14,8 +15,8 @@ ht-degree: 3%
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.9.178.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om de release van AEM as a Cloud Service hulplijnen in september te upgraden.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.9.178.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om de release van AEM as a Cloud Service hulplijnen in september te upgraden.
 
 ## Stappen om de bestaande inhoud te indexeren
 
@@ -44,7 +45,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022,9,0 | 2.7.13. | 2.7.13. | 2.3 | 2,3 |
+| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -122,7 +123,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Native PDF | Belangrijke referenties voor Keydefs met afbeeldingen of externe koppelingen zijn niet opgelost. (10063)
 * In de weergave Auteur voor een kaart wordt geen plaatsaanduidingstekst weergegeven voor tabellen en figuurlijsten. (10330)
 * Wanneer we een nieuwe basislijn maken, wordt het reeds geselecteerde basislijnfilter niet toegepast. (9954)
-* Videobestand ontbreekt vanaf de basislijn als de naam van de bovenliggende map een spatieteken heeft. (10031)
+* Videobestand ontbreekt vanaf de basislijn als de naam van de bovenliggende map een spatieteken heeft. 10031)
 * Bij het maken van de basislijn wordt de laatste versie niet gekozen als de tijdzone van de gebruiker afwijkt van de tijdzone van de server. (10190)
 * Met de sneltoets Control + F wordt de zoekmodus van de browser in de middelenconsole niet geopend nadat u AEM hulplijnen 4.1 op AEM 6.5.12 hebt geïnstalleerd. (10189)
 

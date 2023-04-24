@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | Adobe Experience Manager-hulplijnen as a Cloud Service, release mei 2022
 description: Kan Adobe Experience Manager-hulplijnen in mei vrijgeven as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1874'
 ht-degree: 4%
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.5.144.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van mei van AEM as a Cloud Service hulplijnen te upgraden.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.5.144.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van mei van AEM as a Cloud Service hulplijnen te upgraden.
 
 ## Compatibiliteitsmatrix
 
@@ -35,7 +35,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac |
 | --- | --- | --- |
-| 2022,5,0 | 2.6.9. | 2.6.9. |
+| 2022.5.0 | 2.6.9 | 2.6.9 |
 |  |  |  |
 
 
@@ -164,7 +164,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Er treden problemen op bij het opnieuw laden van het mapprofiel. (9103)
 * Als u de pagina-indeling-editor verwijdert, wordt deze niet gesloten vanuit het middelste deelvenster van de weergave Auteur. (9087)
 * De fout van de bevestiging komt in de Redacteur van het Web bij het verwijderen van een beeld voor en dan bewaart de nieuwe versie van het document. (8985)
-* Kan niet alle `glossrefs` in het deelvenster Verklarende woordenlijst (specifiek voor inhoud). (886)
+* Kan niet alle `glossrefs` in het deelvenster Verklarende woordenlijst (specifiek voor inhoud). (8886)
 * `xref` zonder tekst wordt niet weergegeven in op artikelen gebaseerde publicatie-uitvoer. (8764)
 * Verwijzingen naar bewegende afbeeldingen of multimediabestanden met een spatie in de bestandsnamen. (8624)
 * Verwijzingseinde bij kiezen `Select All` en verplaatst u de multimediabestanden of DITA-inhoud naar een andere map. (8622)

@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release april 2022
 description: Release van Adobe Experience Manager Guides as a Cloud Service in april
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 2%
@@ -15,8 +15,8 @@ ht-degree: 2%
 
 Upgrade uw huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service (later aangeduid als *[!DNL AEM Guides]as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.4.133.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van april van [!DNL AEM Guides] as a Cloud Service.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2022.4.133.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van april van [!DNL AEM Guides] as a Cloud Service.
 
 ## Compatibiliteitsmatrix
 
@@ -34,7 +34,7 @@ In deze sectie wordt de compatibiliteitsmatrix weergegeven voor de softwaretoepa
 
 | Versie van de cloud AEM hulplijnen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac |
 | --- | --- | --- |
-| 2022,4,0 | 2.5.6. | 2.5.6. |
+| 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
@@ -52,8 +52,8 @@ Een DITA inhoudsbelangrijkste verwijzing neemt een deel van inhoud van één ond
 Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die in de volgende orde van prioriteit wordt geplaatst:
 
 1. Gebruikersvoorkeuren
-2. Deelvenster Kaartweergave
-3. Mapprofiel
+1. Deelvenster Kaartweergave
+1. Mapprofiel
 
 Zie voor meer informatie *Belangrijke verwijzingen oplossen* in de handleiding.
 

@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
 description: Laatste release van Adobe Experience Manager-hulplijnen
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '3532'
 ht-degree: 3%
@@ -54,8 +54,8 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.3 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+| 4.1.3 (niet-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -97,8 +97,8 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+| 4.1.2 (niet-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -154,8 +154,8 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1 (Niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+| 4.1 (Niet-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -186,8 +186,8 @@ Een DITA inhoudsbelangrijkste verwijzing neemt een deel van inhoud van één ond
 Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die in de volgende orde van prioriteit wordt geplaatst:
 
 1. Gebruikersvoorkeuren
-2. Deelvenster Kaartweergave
-3. Mapprofiel
+1. Deelvenster Kaartweergave
+1. Mapprofiel
 
 Zie voor meer informatie *Belangrijke verwijzingen oplossen* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
 

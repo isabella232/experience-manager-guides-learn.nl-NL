@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager-hulplijnen as a Cloud Service, release maart 2023
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
+description: Release Adobe Experience Manager Guides as a Cloud Service in maart
+source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 1%
@@ -10,12 +10,12 @@ ht-degree: 1%
 
 # Release Adobe Experience Manager Guides as a Cloud Service in maart
 
-## Upgrade naar de nieuwste versie
+## Upgrade naar de release van maart
 
 Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2023.3.242.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om de release van AEM hulplijnen in maart te upgraden.
 
 ## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM hulplijnen in september as a Cloud Service)
 
@@ -52,7 +52,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ## Nieuwe en verbeterde functies
 
-AEM de as a Cloud Service Gidsen verstrekt verhogingen en nieuwe eigenschappen in de recentste versie:
+AEM as a Cloud Service hulplijnen bieden verbeteringen en nieuwe functies in de release van maart 2023:
 
 ### Video- of audiobestanden openen en afspelen in de webeditor
 

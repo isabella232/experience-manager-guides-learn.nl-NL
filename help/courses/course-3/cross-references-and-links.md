@@ -2,7 +2,7 @@
 title: Kruisverwijzingen en koppelingen
 description: Kruisverwijzingen en koppelingen maken in AEM hulplijnen
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Het is mogelijk om een externe kruisverwijzing te maken door een onderwerp vanui
 
 1. Open een bestand waarin u een externe kruisverwijzing wilt invoegen.
 
-2. Wijs een id toe aan het element waarnaar moet worden verwezen.
+1. Wijs een id toe aan het element waarnaar moet worden verwezen.
 
    a. Klik in het element.
 
@@ -34,15 +34,15 @@ Het is mogelijk om een externe kruisverwijzing te maken door een onderwerp vanui
 
    d. Het element en de bijbehorende waarde weergeven in **Omtrekweergave** indien gewenst.
 
-3. **Opslaan** het onderwerp om Repository te verzekeren heeft bijgewerkte identiteitskaart
+1. **Opslaan** het onderwerp om Repository te verzekeren heeft bijgewerkte identiteitskaart
 
-4. Klik op de knop [!UICONTROL **Referentie**] op de bovenste werkbalk.
+1. Klik op de knop [!UICONTROL **Referentie**] op de bovenste werkbalk.
 
    ![Werkbalk](images/lesson-7/references-icon.png)
 
-5. Van de **Content Reference** selecteert u de id en de elementkoppeling die u als kruisverwijzing wilt invoegen.
+1. Van de **Content Reference** selecteert u de id en de elementkoppeling die u als kruisverwijzing wilt invoegen.
 
-6. Klikken [!UICONTROL **Selecteren**].
+1. Klikken [!UICONTROL **Selecteren**].
 
 De kruisverwijzing is toegevoegd aan het onderwerp.
 
@@ -57,9 +57,9 @@ Sommige wijzigingen kunnen leiden tot verbroken kruisverwijzingen. Deze omvatten
 
 1. Ga naar de **Omtrekweergave** in het linkerdeelvenster.
 
-2. Klik op de knop [!UICONTROL **Filter**] pictogram.
+1. Klik op de knop [!UICONTROL **Filter**] pictogram.
 
-3. Selecteren **Verbroken koppelingen**.
+1. Selecteren **Verbroken koppelingen**.
 
    ![Filter Vervolgkeuzelijst](images/lesson-7/broken-links.png)
 
