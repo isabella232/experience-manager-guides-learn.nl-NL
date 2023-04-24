@@ -1,9 +1,10 @@
 ---
 title: Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen
 description: Leer hoe u nieuwe op microservice gebaseerde publicaties voor AEM hulplijnen kunt configureren.
-source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
+exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
+source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 Met de nieuwe publicatiemicroservice kunnen gebruikers tegelijkertijd grote publicatiewerklasten uitvoeren op AEM as a Cloud Service hulplijnen en het toonaangevende Adobe I/O Runtime-serverplatform benutten.
 
 Voor elke publicatieaanvraag AEM as a Cloud Service hulplijnen wordt een aparte container uitgevoerd die horizontaal wordt geschaald volgens de wensen van de gebruiker. Dit biedt gebruikers de mogelijkheid om meerdere publicatieverzoeken uit te voeren en betere prestaties te krijgen dan hun grote AEM.
+
+>[!NOTE]
+>
+> Momenteel ondersteunt het op microservices gebaseerde publiceren in AEMHulplijnen alleen PDF-uitvoer met behulp van het publiceren van de native PDF of via DITA-OT. Wij zullen op microservice-gebaseerde het publiceren steun voor meer outputtypes in de toekomstige versies toevoegen.
 
 Aangezien de nieuwe service voor publicatie in de cloud wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten de onderstaande stappen volgen om hun omgevingen te integreren met veilige, op token gebaseerde verificatieworkflows en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
@@ -102,6 +107,8 @@ Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublica
 **Bestand**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Inhoud**:
+* `dxml.use.publish.microservice`: Schakel over om op microservice gebaseerde PDF-publicaties in te schakelen met behulp van DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: Schakel over om op microservice gebaseerde Native PDF-publicatie in te schakelen
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -109,5 +116,6 @@ Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublica
           jcr:primaryType="sling:OsgiConfig"
           dxml.publish.microservice.url="https://adobeioruntime.net/api/v1/web/543112-guidespublisher/default/publishercaller.json"
           dxml.use.publish.microservice="{Boolean}true"
+          dxml.use.publish.microservice.native.pdf="{Boolean}true"
 />
 ```
