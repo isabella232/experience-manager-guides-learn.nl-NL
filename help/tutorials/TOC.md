@@ -2,10 +2,10 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: d6edeaf6b0d309d1e8301b1695edbc5b2f953d7a
+source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '733'
+ht-degree: 3%
 
 ---
 
@@ -182,15 +182,19 @@ ht-degree: 0%
       + [Inhoud beheren met behulp van basislijnen](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Webinhoud van auteur](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [Native PDF-publicaties](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-   + Publiceren{#publishing}
-      + [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
+      + [Rapporten in AEM hulplijnen](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      + [Inhoud en Sjabloon instellen](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
    + Artikelen {#kb-articles}
       + Authoring {#authoring}
          + Webeditor {#webeditor}
+            + Aanpassen {#customizing}
+               + [Aangepaste knop toevoegen aan werkbalk](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [Aangepaste stijlen toevoegen aan de sprite](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
                + [Schematron-validatie](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Publiceren {#publishing}
          + [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
       + Workflows {#workflows}
          + [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
