@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 954c58e92e3d90b3b45bda573d581f5201d439ae
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 3%
 
 ---
@@ -196,5 +196,6 @@ ht-degree: 3%
          + [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
+         + [Microservicearchitectuur en -prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       + Workflows {#workflows}
          + [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
