@@ -1,9 +1,9 @@
 ---
 title: Cloud Publishing Microservice-architectuur en -prestaties
 description: Begrijp hoe de nieuwe microservice schaalbare publicatie op AEMaaCS mogelijk maakt.
-source-git-commit: c67cc61938b407c3b11c5f793c6becdc9e015670
+source-git-commit: a8466a16cea7df7757d15005baaf73a39c7952ea
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Cloud Publishing Microservice-architectuur en prestatieanalyse
 
-Dit artikel deelt de inzichten in de architectuur en sommige prestatiesaantallen van de nieuwe wolkenuitgeverij microservice.
+In dit artikel wordt uitgelegd wat de architectuur en prestatienummers zijn van de nieuwe cloudpublicatiesmicroservice.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Deze beperking van bronnen was de belangrijkste motivatie om een speciale servic
 
 ## Inleiding tot de nieuwe architectuur
 
-De service gebruikt Adobe edge-cloudoplossingen zoals App Builder, IO Event, IMS om een serverloos aanbod te maken. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industrienormen zoals Kubernetes, docker.
+De service gebruikt Adobe edge-cloudoplossingen zoals App Builder, IO Event, IMS om een serverloos aanbod te maken. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industriestandaarden zoals Kubernetes en docker.
 
 Elk verzoek aan de nieuwe het publiceren microservice wordt uitgevoerd in een geïsoleerde docker container die slechts één het publiceren verzoek tegelijkertijd in werking stelt. Er worden automatisch meerdere nieuwe containers gemaakt voor het geval nieuwe publicatieverzoeken worden ontvangen. Deze enige container per verzoekconfiguratie staat microservice toe om de beste prestaties aan de klanten te leveren zonder enige veiligheidsrisico&#39;s te introduceren. Deze containers worden verwijderd zodra de publicatie is voltooid, waardoor alle gebruikte bronnen vrijkomen.
 
-Al deze communicatie wordt beveiligd door de Adobe IMS met behulp van JWT-verificatie en -autorisatie en wordt uitgevoerd via HTTPS.
+Al deze communicatie wordt beveiligd door Adobe IMS met behulp van JWT-verificatie en -autorisatie en wordt uitgevoerd via HTTPS.
 
 <img src="assets/architecture.png" alt="tabblad Projecten" width="600">
 
@@ -42,9 +42,9 @@ Al deze communicatie wordt beveiligd door de Adobe IMS met behulp van JWT-verifi
 
 ## Prestatieanalyse
 
-In deze sectie worden de prestatienummers van de microservice weergegeven. Opmerking: de oude cloudarchitectuur had problemen met het publiceren van grote kaarten of het uitvoeren van meerdere gelijktijdige publicaties. Daarom worden in deze sectie de prestatienummers van de microservice vergeleken met de prestaties van AEM Gidsen op voorgrond.
+In deze sectie worden de prestatienummers van de microservice weergegeven. Het vergelijkt de prestaties van de microservice met AEM Gidsen op prem aanbieden aangezien de oude wolkenarchitectuur problemen had bij het gelijktijdig publiceren of bij het publiceren van zeer grote kaarten.
 
-Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java kunnen moeten aanpassen of anders kunt u uit-van-geheugenfouten ontmoeten. In de cloud wordt de microservice al geprofileerd en zijn de optimale Java-heap en andere configuraties in de verpakking weergegeven.
+Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java kunnen moeten aanpassen of anders kunt u uit-van-geheugenfouten ontmoeten. In de cloud wordt de microservice al geprofileerd en zijn de Java-heap en andere configuraties optimaal.
 
 ### Eén publicatie uitvoeren op cloud versus on-prem
 
@@ -64,18 +64,18 @@ Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java 
 
 * Wolk
 
-   De nieuwe UitgeversMicroservice schijnt in dit scenario. Zoals u kunt zien in de onderstaande afbeelding, kan de cloud de publicatietaken publiceren zonder dat de publicatietijd aanzienlijk toeneemt.
+   De nieuwe het publiceren microdienst schijnt in dit scenario. Zoals u kunt zien in de onderstaande afbeelding, kan de cloud deze publiceren zonder dat de publicatietijd aanzienlijk toeneemt, gezien de toename van het aantal gelijktijdige publicatietaken.
 
    <img src="assets/cloud_bulk_publish.png" alt="tabblad Projecten" width="600">
 
 * On-prem
 
-   Bij gelijktijdig publiceren op de voorgrond treedt een ernstige verslechtering van de prestaties op. Deze prestatievermindering is ernstiger als uitgevers nog meer kaarten tegelijk publiceren.
+   Als u tegelijkertijd publiceert op een on-prem-server, neemt de prestaties sterk af. Deze prestatievermindering is ernstiger als uitgevers nog meer kaarten tegelijk publiceren.
 
    <img src="assets/onprem_bulk_publish.png" alt="tabblad Projecten" width="600">
 
 ## Aanvullende voordelen
 
-Er moet een pad van elk publicatieverzoek op de AEM worden uitgevoerd om de juiste publicatie-inhoud op te halen die naar de microservice moet worden verzonden. De nieuwe cloudarchitectuur gebruikt AEM taken in plaats van AEM workflows, zoals in de oude architectuur het geval was. Dankzij deze wijziging kunnen AEM beheerders van hulplijnen de instellingen van de wachtrij voor publicatie in de cloud afzonderlijk configureren zonder dat dit gevolgen heeft voor andere AEM taken of workflowconfiguraties.
+Een deel van elke publicatieaanvraag moet op de AEM worden uitgevoerd om de juiste publicatie-inhoud op te halen die naar de microservice moet worden verzonden. De nieuwe cloudarchitectuur gebruikt AEM taken in plaats van AEM workflows, zoals in de oude architectuur het geval was. Dankzij deze wijziging kunnen AEM beheerders van hulplijnen de instellingen van de wachtrij voor publicatie in de cloud afzonderlijk configureren zonder dat dit gevolgen heeft voor andere AEM taken of workflowconfiguraties.
 
 Hier vindt u meer informatie over het configureren van de nieuwe publicatiemicroservice: [Microservice configureren](configure-microservices.md)

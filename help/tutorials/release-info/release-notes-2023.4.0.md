@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release april 2023
 description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 1%
@@ -104,4 +105,3 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 Adobe heeft het volgende bekende probleem voor AEM Guides as a Cloud Service april 2023 geïdentificeerd.
 
 * Native PDF | De oude metagegevens worden pas gevuld wanneer de voorinstelling voor uitvoer expliciet wordt geopend.
-
