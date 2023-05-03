@@ -1,7 +1,7 @@
 ---
 title: Cloud Publishing Microservice-architectuur en -prestaties
 description: Begrijp hoe de nieuwe microservice schaalbare publicatie op AEMaaCS mogelijk maakt.
-source-git-commit: a8466a16cea7df7757d15005baaf73a39c7952ea
+source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Deze beperking van bronnen was de belangrijkste motivatie om een speciale servic
 
 De service gebruikt Adobe edge-cloudoplossingen zoals App Builder, IO Event, IMS om een serverloos aanbod te maken. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industriestandaarden zoals Kubernetes en docker.
 
-Elk verzoek aan de nieuwe het publiceren microservice wordt uitgevoerd in een geïsoleerde docker container die slechts één het publiceren verzoek tegelijkertijd in werking stelt. Er worden automatisch meerdere nieuwe containers gemaakt voor het geval nieuwe publicatieverzoeken worden ontvangen. Deze enige container per verzoekconfiguratie staat microservice toe om de beste prestaties aan de klanten te leveren zonder enige veiligheidsrisico&#39;s te introduceren. Deze containers worden verwijderd zodra de publicatie is voltooid, waardoor alle gebruikte bronnen vrijkomen.
+Elk verzoek aan de nieuwe het publiceren microservice wordt uitgevoerd in een geïsoleerde docker container die slechts één het publiceren verzoek tegelijkertijd in werking stelt. Er worden automatisch meerdere nieuwe containers gemaakt voor het geval nieuwe publicatieverzoeken worden ontvangen. Deze enige container per verzoekconfiguratie staat microservice toe om de beste prestaties aan de klanten te leveren zonder enige veiligheidsrisico&#39;s te introduceren. Deze containers worden verwijderd zodra de publicatie is voltooid, waardoor ongebruikte bronnen vrijkomen.
 
 Al deze communicatie wordt beveiligd door Adobe IMS met behulp van JWT-verificatie en -autorisatie en wordt uitgevoerd via HTTPS.
 
