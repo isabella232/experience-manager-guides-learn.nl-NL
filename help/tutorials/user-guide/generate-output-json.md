@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: Leer hoe u JSON gebruikt
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ De volgende opties zijn beschikbaar voor de JSON-voorinstelling:
 >
 > U kunt het JSON-bestand ook bewerken in de webeditor.
 
-| JSON-uitvoeropties | Beschrijving |
+| JSON-opties | Beschrijving |
 | --- | --- |
 | Uitvoerpad | Het pad in uw AEM opslagplaats waar de JSON-uitvoer wordt opgeslagen. |
 | Indexbestand | U kunt een naam geven voor het indexbestand dat u maakt voor de JSON-uitvoer. Standaard wordt de bestandsnaam van de DITA-kaart gekozen en wordt een achtervoegsel toegevoegd (zoals `map_filename_index.json`).<br><br>U kunt ook variabelen gebruiken bij het instellen van het indexbestand. Voor meer informatie over het gebruik van variabelen raadpleegt u [Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ De volgende opties zijn beschikbaar voor de JSON-voorinstelling:
 | Workflow na generatie | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid.<br><br>**Opmerking**: Voor meer informatie over het creëren van een douane post-output generatiewerkschema, zie _Workflow voor het genereren na uitvoer aanpassen_ in de as a Cloud Service handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen. |
 
 **Bovenliggend onderwerp:**[ Uitvoervoorinstellingen](generate-output-understand-presets.md)
-

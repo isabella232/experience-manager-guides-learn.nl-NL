@@ -1,13 +1,13 @@
 ---
 title: Conversiestatus-rapport
 description: Meer informatie over het conversiestatus-rapport
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Conversiestatus-rapport {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
    Het rapport Conversiestatus wordt weergegeven voor alle conversietaken die op het systeem worden uitgevoerd.
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. De rapportpagina bestaat uit twee delen:
 
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
       De volgende schermafbeelding geeft de rapportgegevens weer voor conversietaken met de status Mislukt, Actief en In wachtrij.
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Rapportgegevens:**
 
@@ -55,4 +55,3 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
 
 **Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)
-

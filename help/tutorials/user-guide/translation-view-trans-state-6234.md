@@ -1,13 +1,13 @@
 ---
 title: Vertaalstatus weergeven
 description: Leer hoe u de status van vertaling kunt bekijken
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Vertaalstatus weergeven {#id169SEK00KOW}
 
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om de vertaalstatus van een kaart te bekijken DITA:
    >
    > U kunt de inhoud verder filteren op basis van de omzettingsstatus \(als Ontbrekende kopie, Bezig of Wordt gesynchroniseerd\), Brontype \(als Alle, DITA, DITA-kaart of Bron\), wijzigingsdatum. U kunt ook trefwoorden invoeren om te zoeken naar specifieke onderwerpen.
 
-   ![](images/status-translation-uuid.png)
+   ![](images/status-translation-uuid.png){width="800" align="left"}
 
 
 Het tabblad Vertaling bevat de volgende secties:
@@ -32,4 +32,3 @@ Het tabblad Vertaling bevat de volgende secties:
 - **Details**: Toont de onderwerptitel, het type van onderwerp, taalcode van het onderwerp, brontaal, versie van het brononderwerp, etiket dat aan het onderwerp wordt toegevoegd, en vertaalstatus.
 
 **Bovenliggend onderwerp:**[ Inhoud vertalen](translation.md)
-

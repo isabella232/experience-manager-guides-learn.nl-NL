@@ -1,13 +1,13 @@
 ---
 title: Geef de metagegevens door aan de uitvoer met DITA-OT
 description: Leer hoe u de metagegevens aan de uitvoer kunt doorgeven met DITA-OT
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # Geef de metagegevens door aan de uitvoer met DITA-OT {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 1. Selecteer en bewerk een uitvoervoorinstelling waaraan u de metagegevensvelden wilt doorgeven. Selecteer bijvoorbeeld de uitvoervoorinstelling PDF.
 1. Selecteren **DITA-OT** onder Genereren &lt;output> Optie gebruiken in de geselecteerde uitvoervoorinstelling.
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. Selecteer in het keuzemenu Eigenschappen de metagegevens die u wilt doorgeven aan DITA-OT-publicaties.
 
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 
 1. Van de **Eigenschappen** selecteert u de gewenste aangepaste en standaardeigenschappen. Selecteer bijvoorbeeld `author`, `dc:title`, en `dc:description`. Dit is de standaard `metadata/properties` dat wordt gemaakt wanneer we een bestand maken. De geselecteerde eigenschappen worden onder de dropbox weergegeven.
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. Klikken **Gereed** bovenaan links om de wijzigingen op te slaan.
 1. Genereer de uitvoer.
@@ -43,4 +43,3 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 De geselecteerde eigenschappen van metagegevens worden doorgegeven aan de uitvoer die wordt gegenereerd met DITA-OT.
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

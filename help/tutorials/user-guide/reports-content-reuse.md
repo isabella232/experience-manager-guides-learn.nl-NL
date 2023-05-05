@@ -1,13 +1,13 @@
 ---
 title: Rapport voor hergebruik van inhoud
 description: Rapport voor hergebruik van inhoud leren gebruiken
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Rapport voor hergebruik van inhoud {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
 1. Klikken **Rapport genereren** om het Rapport voor hergebruik van inhoud op te halen.
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    De rapportpagina bestaat uit twee delen:
 
@@ -61,4 +61,3 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Klik hiertoe op de koppeling Exporteren naar CSV in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
 **Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)
-

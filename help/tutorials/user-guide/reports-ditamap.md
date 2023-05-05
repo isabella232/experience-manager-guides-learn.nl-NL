@@ -1,13 +1,13 @@
 ---
 title: DITA-kaartrapport van het kaartdashboard
 description: Leer hoe te om het kaartrapport DITA van het kaartdashboard te bepalen
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # DITA-kaartrapport van het kaartdashboard {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
 1. Klikken **Rapporten**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    De pagina Rapporten bestaat uit twee delen:
 
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
       Wanneer u op een onderwerp klikt, wordt een gedetailleerd rapport van het geselecteerde onderwerp getoond.
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       Items gemarkeerd onder **A**, **B**, **C** en **D** worden hieronder beschreven:
 
@@ -79,20 +79,19 @@ Voer de volgende stappen uit om CSV van een DITA kaartrapport te produceren:
 
 1. Klikken **Rapport genereren** op top-left om het DITA kaartrapport te produceren.
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. U ontvangt een melding als het rapport klaar is om te worden gedownload. Klikken **Downloaden** om CSV van het geproduceerde rapport te downloaden.
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    U kunt CSV van het geproduceerde rapport van AEM bericht Inbox ook downloaden.
 
    Klik het geproduceerde rapport in Inbox om het rapport te downloaden.
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Zodra het rapport in Inbox wordt gedownload kunt u het rapport ook selecteren en het Open pictogram op de bovenkant gebruiken om het geselecteerde rapport te openen.
 
 **Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)
-

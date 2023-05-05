@@ -1,13 +1,13 @@
 ---
 title: Voorwaardelijke kenmerkprofilering
 description: Meer informatie over voorwaardelijke kenmerkprofilering
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Voorwaardelijke kenmerkprofilering {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken te definiëren:
 
    De volgende schermafbeelding toont de definitie voor de `platform` kenmerk met waarde van `unix` en een etiket van `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. Als u meer waarden voor hetzelfde kenmerk wilt toevoegen, klikt u op de knop **+** en voert u een extra waarde en label in.
 
@@ -54,7 +54,6 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken te definiëren:
 
 De `platform` wordt opgeslagen in het systeem. Wanneer een auteur besluit de `platform` attributen in een DITA onderwerp in een omslag, zullen zij de waarden in het lusje van Eigenschappen in de Redacteur van het Web zien.
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

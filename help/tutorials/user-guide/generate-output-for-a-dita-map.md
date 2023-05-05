@@ -1,13 +1,13 @@
 ---
 title: Produceer output voor een kaart DITA van de kaartconsole
 description: Leer hoe te om output voor een kaart DITA van de kaartconsole te produceren
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # Produceer output voor een kaart DITA van de kaartconsole {#id1825FG00UHT}
 
@@ -19,7 +19,7 @@ Voer de volgende stappen uit om output voor een kaart te produceren DITA:
 
 1. Selecteer een of meerdere uitvoervoorinstellingen die u wilt gebruiken voor het genereren van de uitvoer.
 
-   ![](images/generate-multiple-outputs-uuid.png)
+   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Voer de volgende stappen uit om output voor een specifiek onderwerp of een groep
    >
    > Als u nieuwe onderwerpen aan de kaart DITA hebt toegevoegd, zult u niet die nieuwe onderwerpen van hier kunnen produceren. U moet de onlangs toegevoegde onderwerpen eerst publiceren door de DITA kaart te gebruiken publiceert functie.
 
-   ![](images/regenerate-topics.png)
+   ![](images/regenerate-topics.png){width="800" align="left"}
 
 1. Klikken **Regenereren**.
 
@@ -95,7 +95,7 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
 
 1. Klikken **Uitvoer**.
 
-   ![](images/output-queued.png)
+   ![](images/output-queued.png){width="800" align="left"}
 
    De pagina Uitvoer bestaat uit twee delen:
 
@@ -132,17 +132,17 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van de DITA kaar
 
 1. Klik op de knop *Deze taak annuleren* pictogram.
 
-   ![](images/cancel-publish-task-map-console.png)
+   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
 1. Klikken **Ja** op de bevestigingsberichtvraag van de Annulering.
 
-   ![](images/confirm-cancel-output-map-condole.png)
+   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    Als de taak nog niet is gestart, wordt de opdracht Annuleren uitgevoerd op de taak. Voor een taak die wordt geannuleerd, wordt de Status geplaatst aan het Annuleren.
 
    Als de taak is geannuleerd, wordt deze naar de **Gegenereerde uitvoer** lijst met een **Geannuleerd** status. Wanneer u de muisaanwijzer op de geannuleerde taak plaatst, ziet u de naam van de gebruiker die de taak heeft geannuleerd. In de volgende screenshot *HTML5* taak is geannuleerd.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## Een uitvoertaak verwijderen uit de DITA-kaartconsole
@@ -159,7 +159,7 @@ Voer de volgende stappen uit om een uitvoertaak uit de Gegenereerde lijst van de
 
 1. Klik op het verwijderpictogram.
 
-   ![](images/delete-output-task.png)
+   ![](images/delete-output-task.png){width="800" align="left"}
 
 1. Klikken **Ja** op de bevestigingsberichtvraag van de Schrapping.
 
@@ -167,4 +167,3 @@ Voer de volgende stappen uit om een uitvoertaak uit de Gegenereerde lijst van de
 
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

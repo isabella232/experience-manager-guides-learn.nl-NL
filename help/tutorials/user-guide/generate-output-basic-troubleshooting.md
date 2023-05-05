@@ -1,13 +1,13 @@
 ---
 title: Basisprobleemoplossing
 description: Leer hoe u basisproblemen kunt oplossen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # Basisprobleemoplossing {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bek
 
    De **Algemeen** kolom van de **Gegenereerde uitvoer** toont de pictogrammen om visuele aanwijzing over het succes of het mislukken van de outputproductie te geven.
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    In de bovenstaande schermafbeelding geven het eerste en derde pictogram een mislukte uitvoergeneratie aan. Het tweede pictogram toont een succesvolle outputgeneratie maar met berichten. De laatste is een geslaagde outputgeneratie zonder enig bericht.
 
@@ -29,7 +29,7 @@ Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bek
 
    Het logbestand wordt op een nieuw tabblad geopend.
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. Pas de volgende filters toe om de tekst in het logbestand te markeren:
    - Dodelijk: Hiermee worden de fatale fouten in het logbestand met roze kleur gemarkeerd.
@@ -61,15 +61,15 @@ Voer de volgende stappen uit om het logboekdossier van de outputgeneratie in een
 
    - *Aan het DITA-kaartbestand gerelateerde fout*: Als er een fout wordt gevonden in het DITA-kaartbestand of een ander bestand in de DITA-kaart, bevat het logbestand de tekenreeks BUILD FAILED. U kunt de informatie in het logbestand controleren om het onjuiste bestand te zoeken en het probleem op te lossen.
 
-      In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD FAILED` samen met de reden voor de fout.
+   In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD FAILED` samen met de reden voor de fout.
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *Aan hulplijnen gerelateerde fout AEM*: Het andere type fout dat u in het logbestand kunt identificeren, is gerelateerd aan het proces van AEM hulplijnen zelf. In dit geval wordt het DITA-toewijzingsbestand geparseerd, maar mislukt het genereren van de uitvoer door een interne fout in AEM hulplijnen. Voor dergelijke fouten moet u hulp vragen bij het team voor technische ondersteuning.
+   - *Aan hulplijnen gerelateerde fout AEM*: Het andere type fout dat u in het logbestand kunt identificeren, is gerelateerd aan het proces van AEM hulplijnen zelf. In dit geval wordt het DITA-toewijzingsbestand geparseerd, maar mislukt het genereren van de uitvoer door een interne fout in AEM hulplijnen. Voor dergelijke fouten moet u hulp vragen bij het team voor technische ondersteuning.
 
-         In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD SUCCESSFUL` bericht, gevolgd door een andere technische fout.
+   In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD SUCCESSFUL` bericht, gevolgd door een andere technische fout.
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## JSP-compilatiefout oplossen
@@ -90,4 +90,3 @@ Voer de volgende stappen uit om dit probleem op te lossen:
 
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

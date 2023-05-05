@@ -1,13 +1,13 @@
 ---
 title: Publicatietaken beheren met het dashboard Publiceren
 description: Leer hoe u publicatietaken beheert met het dashboard Publiceren
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
 
 ---
-
 
 # Publicatietaken beheren met het dashboard Publiceren {#id205CC08305Z}
 
@@ -15,7 +15,7 @@ Wanneer u een grote reeks het publiceren taken hebt die op uw systeem lopen, wor
 
 Het publicatiedashboard geeft een volledig overzicht van alle publicatietaken die momenteel in het systeem worden uitgevoerd.
 
-![](images/publish-dashboard.png)
+![](images/publish-dashboard.png){width="800" align="left"}
 
 Het publicatiedashboard bevat de volgende gegevens:
 
@@ -37,7 +37,7 @@ Het linkerdeelvenster van het publicatiedashboard biedt de volgende filteropties
 
 - **Uitvoervoorinstelling** - Selecteer een of meer uitvoervoorinstellingen waarvoor u de momenteel actieve publicatietaken wilt weergeven. In de volgende schermafbeelding worden de publicatietaken gefilterd om alleen die taken weer te geven die gebruikmaken van de voorinstelling AEM Site-uitvoer:
 
-![](images/publish-dashboard-preset-filter.png)
+   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Geactiveerd door** - Selecteer een gebruikersnaam in de lijst om de publicatietaken weer te geven die door de geselecteerde gebruiker zijn gestart.
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om toegang te krijgen tot het dashboard Publiceren:
 
    Als u op de verbinding van de Naam van het Dossier klikt, wordt de DITA kaartconsole van de geselecteerde kaart getoond.
 
-   ![](images/publish-dashboard-click-filename-link.png)
+   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
@@ -76,14 +76,13 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish 
 
 1. Klik in de lijst met actieve publicatietaken op het pictogram Verwijderen van een taak die u wilt annuleren.
 
-   ![](images/publish-dashboard-cancel-task.png)
+   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
 1. Klikken **Ja** op de bevestigingsberichtvraag van de Annulering.
 
    De opdracht Annuleren wordt geaccepteerd en annuleren wordt geprobeerd zolang de taak actief blijft. Zodra de taak met succes wordt geëindigd, wordt het verwijderd uit de momenteel actieve takenlijst. De status van de taak wordt ook bijgewerkt in de DITA kaartconsole zoals Geannuleerd. In de volgende screenshot *HTML5* taak wordt geannuleerd vanaf het publicatiedashboard en de status ervan wordt ook gewijzigd in de DITA-kaartconsole.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

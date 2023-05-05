@@ -1,13 +1,13 @@
 ---
 title: Site AEM
 description: Meer informatie over het AEM van de site
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # Site AEM {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ Om het publiceren van complexe kaarten en onderwerpen te vereenvoudigen die met 
 
 De het publiceren context staat u toe om te specificeren welk onderwerp moet worden gebruikt waarvan kaart voor het publiceren van een specifieke output. Laten we dit begrijpen met behulp van een voorbeeld — laten we zeggen dat je vier mappen hebt: monster a, monster b, monster c en monster d. Elke map bevat een DITA-kaart — DITA-kaart A, DITA-kaart B, DITA-kaart C en DITA-kaart D. Cross-map het verbinden zal gebeuren wanneer een onderwerp in DITA kaartA verbindingen met een onderwerp in kaart DITA B, C, of D brengt. In het volgende schermafbeelding bevat een onderwerp met voorbeeldconcepten koppelingen \(of verwijzingen\) naar bestanden die deel uitmaken van andere DITA-kaarten.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 Wanneer u nu de publicatie-instellingen voor AEM site configureert voor het kaartbestand dat dit onderwerp bevat, kunt u selecteren welke publicatiecontext voor de gekoppelde inhoud wordt gebruikt tijdens het publiceren. Een publicatiecontext is een combinatie van een DITA-kaart en de bijbehorende uitvoervoorinstelling. De uitvoervoorinstelling bevat op zijn beurt een specifieke versie van de inhoud en voorwaardelijke voorinstellingen. Deze volledige combinatie van de DITA-kaart, de uitvoervoorinstelling, de versie \(bestanden\) en de voorwaarden definiëren de publicatiecontext voor een gekoppelde kaart.
 
@@ -143,8 +143,7 @@ Als u `conref` in uw inhoud, dan wordt het gepubliceerd als normale of ingebedde
 
 U kunt zoeken naar een tekenreeks in de uitvoer AEM Site. Standaard kunt u alleen in de titels naar de tekenreeks zoeken. Als u naar de tekenreeks in de inhoud of de hoofdtekst van de AEM site-uitvoer wilt zoeken, neemt u contact op met de systeembeheerder om de eigenschap flattening.enabled in te schakelen.
 
-
-<img src="images/aem-output-search.png" alt="Zoeken AEM Site-uitvoer" width="800">
+![Zoeken AEM Site-uitvoer](images/aem-output-search.png){width="650" align="left"}
 
 Zie voor meer informatie *Samenvoegen van AEM siteknooppuntstructuur configureren* in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen.
 

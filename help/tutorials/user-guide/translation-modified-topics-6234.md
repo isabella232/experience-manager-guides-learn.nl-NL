@@ -1,13 +1,13 @@
 ---
 title: Gewijzigde onderwerpen vertalen
 description: Leer hoe te om gewijzigde onderwerpen te vertalen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # Gewijzigde onderwerpen vertalen {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
    Als u op de pijl klikt, ziet u meer details. u kunt de specifieke taalkopie zien die verouderd is.
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. Klik het controlevakje om de onderwerpen te selecteren die u voor re-vertaling wilt verzenden.
 
@@ -51,7 +51,7 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
 1. Navigeer aan het vertaalproject in de console van het Project. Er wordt een nieuwe vertaalopdrachtkaart gemaakt in de map. Klik op de ellips om de elementen van de map weer te geven.
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. Als u de vertaling wilt starten, klikt u op de pijl op de vertaalwerkkaart en selecteert u **Start** in de lijst. Een bericht geeft aan dat de taak is gestart.
 
@@ -76,4 +76,3 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
 
 **Bovenliggend onderwerp:**[ Inhoud vertalen](translation.md)
-

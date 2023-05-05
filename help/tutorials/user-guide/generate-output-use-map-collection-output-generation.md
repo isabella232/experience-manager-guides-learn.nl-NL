@@ -1,13 +1,13 @@
 ---
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # Kaartverzameling gebruiken voor het genereren van uitvoer {#id1723F20G0HS}
 
@@ -25,7 +25,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
    Als de koppeling Verzamelingen toewijzen niet beschikbaar is, selecteert u de optie **Navigatie** en klik op **Verzamelingen toewijzen**.
 
-   ![](images/access-map-collection-left-rail.png)
+   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1. Ga een Titel voor uw kaartinzameling in.
 1. Klikken **Maken**.
@@ -47,8 +47,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
    De DITA kaartdossiers worden toegevoegd aan uw Inzameling van de Kaart.
 
-
-![](images/maps_presets_62_63.png)
+   ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
@@ -93,7 +92,6 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
 
 Gelijkaardig aan de manier om een taak van de outputgeneratie van te annuleren [DITA-kaartconsole](generate-output-for-a-dita-map.md#id2061H100T5Z) of de [Dashboard publiceren](generate-output-publish-dashboard.md#), kunt u een taak van de outputgeneratie van een Inzameling van de Kaart annuleren. Open het lusje van Output van een Inzameling van de Kaart, ga naar de publicatietaak die u wilt annuleren, en klik **Deze taak annuleren** pictogram om de publicatietaak te annuleren.
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

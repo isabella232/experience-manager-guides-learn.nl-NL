@@ -1,13 +1,13 @@
 ---
 title: Aanbevolen procedures voor het vertalen van inhoud
 description: Meer informatie over tips en trucs voor het vertalen van inhoud
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen procedures voor het vertalen van inhoud {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ Houd rekening met het volgende punt voor het vertalen van inhoud:
 
 In de volgende afbeelding ziet u een voorbeeld van een mapstructuur in AEM wanneer u inhoud en drie taalkopieën hebt gebruikt.
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## Vertaalservice configureren
 
@@ -129,4 +129,3 @@ Nadat de vertaling is voltooid, verandert de status van de vertaaltaak in *Klaar
 > Als u de vertaling voor een of meer onderwerpen in een vertaaltaak afwijst, kunt u **In uitvoering** de vertaalstatus van alle afgewezen onderwerpen wordt weer hersteld . De status van de bedoelde onderwerpen wordt gecontroleerd en teruggezet volgens de meest recente vertaalstatus. Ook, worden de vertaaldossiers die in het bestemmingsproject worden gecreeerd niet geschrapt zelfs als de vertaling voor hen wordt verworpen.
 
 **Bovenliggend onderwerp:**[ Inhoud vertalen](translation.md)
-

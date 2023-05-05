@@ -1,13 +1,13 @@
 ---
 title: Uitvoergeneratie
 description: Leer hoe u de productie kunt uitvoeren
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoergeneratie {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ De informatie in de volgende secties is voor uitgevers die de werkschema&#39;s v
 >[!IMPORTANT]
 >
 > De eigenschappen die in dit onderwerp worden beschreven zijn beschikbaar aan gebruikers met Uitgevers of beheerdervoorrechten slechts.
-
-- **[Uitvoervoorinstellingen](generate-output-understand-presets.md)**
-
-- **[Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](generate-output-use-variables.md)**
-
-- **[Een uitvoervoorinstelling maken, bewerken, dupliceren of verwijderen](generate-output-create-edit-preset.md)**
-
-- **[Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md)**
-
-- **[Voorwaardelijke kenmerkprofilering](generate-output-conditional-attribute-profiling.md)**
-
-- **[Voorinstellingen voor voorwaarden gebruiken](generate-output-use-condition-presets.md)**
-
-- **[Werken met basislijn](generate-output-use-baseline-for-publishing.md)**
-
-- **[Produceer output voor een kaart DITA van de kaartconsole](generate-output-for-a-dita-map.md)**
-
-- **[Kaartverzameling gebruiken voor het genereren van uitvoer](generate-output-use-map-collection-output-generation.md)**
-
-- **[Publicatietaken beheren met het dashboard Publiceren](generate-output-publish-dashboard.md)**
-
-- **[Basisprobleemoplossing](generate-output-basic-troubleshooting.md)**
-
-- **[Bulkactivering van gepubliceerde inhoud](conf-bulk-activation.md)**
-
 

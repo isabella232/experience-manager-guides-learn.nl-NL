@@ -1,13 +1,13 @@
 ---
 title: Rapport voor versiehistorie van teruggedraaide bestanden
 description: Ervaar hoe u het versierapport voor omgekeerde bestanden kunt weergeven
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # Rapport voor versiehistorie van teruggedraaide bestanden {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ U kunt dit rapport openen op de volgende plaatsen:
 
 - **UI Middelen**: door een bestand te selecteren en het dialoogvenster **Versiehistorie** van de linkerspoorstaaf. De **Versiehistorie** bevat de **Versielogbestanden herstellen** onder aan het deelvenster. Wanneer u op deze koppeling klikt, wordt de geschiedenis van de omgezette versies van het geselecteerde bestand weergegeven.
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Voorvertoning onderwerp**: wanneer u een voorvertoning van een onderwerp weergeeft, kunt u ook de **Versiehistorie** van de linkerspoorstaaf. Er verschijnt een deelvenster dat lijkt op de interface Middelen vanwaar u op de knop **Versielogbestanden herstellen** koppeling gebruiken om de omgekeerde versiegeschiedenis van het actieve document te openen.
 
@@ -38,7 +38,7 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
 1. Klikken **Logbestanden tonen** om het rapport voor het geselecteerde bestand of de geselecteerde map te genereren.
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    Het verslag bevat de volgende gegevens:
 
@@ -56,4 +56,3 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
 
 **Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)
-

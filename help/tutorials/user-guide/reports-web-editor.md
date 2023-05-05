@@ -1,13 +1,13 @@
 ---
 title: DITA kaartrapport van de Redacteur van het Web
 description: Leer hoe te om het kaartrapport DITA van de Redacteur van het Web te schrijven
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # DITA kaartrapport van de Redacteur van het Web {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ U kunt een rapport van de onderwerpen tot stand brengen door de volgende stappen
 1. Klik op de knop **Beheren** tab.
 1. Dubbelklikken **Lijst met onderwerpen** links. De lijst van onderwerpen aanwezig in de kaart DITA wordt getoond.
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. Van de **Filters** Het paneel u kunt uw onderwerpen filtreren die op **Referentietype** \(direct of indirect\), **Documentstatus** \(de huidige status van uw onderwerpen. Als uw onderwerpen bijvoorbeeld de status Bewerken, In revisie of Reviewed hebben, worden deze weergegeven\) of de status **Auteur** van het onderwerp.
+
 1. U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken om de volgende kolommen in de lijst weer te geven:
 
    - **Onderwerp** De titel van het onderwerp wordt gespecificeerd in de kaart DITA. U kunt op het onderwerp klikken om het te bewerken.
@@ -57,7 +58,7 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
 1. Klik op de knop **Beheren** tab.
 1. Dubbelklikken **Metagegevens** links. De lijst met metagegevens van alle referenties in de DITA-kaart wordt weergegeven. Dit geldt ook voor de mediaverwijzingen.
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. Van de **Filters** kunt u uw onderwerpen filteren op basis van de **Documentstatus** \(de huidige status van uw onderwerpen. Als uw onderwerpen bijvoorbeeld de status Bewerken, In revisie of Reviewed hebben, worden deze weergegeven\). **Verwijzingen** \(direct of indirect\), **Bestandstype** \(Kaart, Onderwerp, en Beeld \) van de verwijzing.
 1. U kunt er ook voor kiezen om alleen de **Bestanden zonder tags** of kies ook specifieke tags in het menu **Tags** om de bijbehorende bestanden weer te geven.
@@ -92,7 +93,7 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
 
 1. Selecteren **Beheren** vanaf de bovenkant.
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. Als u nieuwe tags wilt toevoegen, selecteert u nieuwe tags in de vervolgkeuzelijst om deze toe te passen op alle geselecteerde onderwerpen. U kunt elke tag ook verwijderen door op het kruispictogram bij de tag te klikken.
 
@@ -114,11 +115,11 @@ De **Multimedia** biedt gedetailleerde informatie over de multimedia die in uw k
 
    - Wanneer u bestelt op **Multimedia** De naam****van de multimedia wordt weergegeven in de eerste kolom en de namen van alle verwijzingen waarin ze zijn gebruikt, worden weergegeven in een andere kolom op dezelfde rij. De volgende schermafbeelding toont bijvoorbeeld de multimedia WarmCoolForC.gif in de eerste kolom en drie verwijzingen waarin deze wordt gebruikt, worden weergegeven in de derde kolom op dezelfde rij.
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Als u bestelt op **Gebruikt in** in de kolom, ziet u de omgezette weergave waarin de namen van de referenties worden weergegeven waarin multimedia is gebruikt in de eerste kolom, terwijl de multimedianamen in een andere kolom op afzonderlijke rijen staan. In de volgende screenshot ziet u bijvoorbeeld de namen van drie verwijzingen \(De temperatuur van de licentie aanpassen, het display van de temperatuur van de licentie wijzigen en het gebied van de bemanning wijzigen\) in de eerste kolom en de multimedia WarmCoolForC.gif wordt weergegeven in de derde kolom op drie aparte rijen.
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. U kunt uw multimedia filteren op basis van de **Multimediatype**, en **Referentietype**. De lijst met multimediabestanden wordt weergegeven op basis van uw selectie in de vervolgkeuzelijst. U kunt er bijvoorbeeld voor kiezen om alleen de audioreferenties in uw DITA-kaart weer te geven en een bestand toont alleen de audioreferenties die in de kaart worden gebruikt.
 
@@ -138,10 +139,11 @@ De **Multimedia** biedt gedetailleerde informatie over de multimedia die in uw k
    >[!NOTE]
    >
    > Klikken **Vernieuwen** om een nieuwe lijst met multimedia te krijgen en elke wijziging in het kaartbestand te zien of als er multimedia in de DITA-kaart is bijgewerkt.
+
 1. U kunt ook op een audio- of videobestand in de webeditor klikken en dit afspelen. U kunt het volume of de weergave van de video wijzigen. In het snelmenu hebt u ook de mogelijkheid om de afspeelsnelheid te downloaden, te wijzigen of de afbeelding in beeld te bekijken.
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. Klikken **CSV downloaden** om de huidige momentopname van de multimedia in de kaart te downloaden DITA. CSV bevat de geselecteerde kolommen en de multimedia die in **Multimedia** weergeven. U kunt dit CSV-bestand van multimedia vervolgens openen in elke CSV-editor.
 
 **Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)
-

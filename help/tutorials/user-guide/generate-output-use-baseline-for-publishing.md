@@ -1,13 +1,13 @@
 ---
 title: Werken met basislijn
 description: Leer hoe u met de basislijn werkt
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # Werken met basislijn {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ Voer de volgende stappen uit om een basislijn te maken:
 1. In **Versie instellen op** selecteert u een van de volgende opties:
 
    - **Label**: Selecteer deze optie als u de onderwerpen wilt selecteren op basis van het label dat op de onderwerpen is toegepast. Voer een label in om de lijst te filteren op basis van de ingevoerde tekenreeks. In de uitgefilterde lijst kunt u een label kiezen om onderwerpen en andere elementen met het opgegeven label te selecteren.
-
-      Wanneer u **Label** Bovendien krijgt u een extra optie om de nieuwste versie van onderwerpen te gebruiken waarop het opgegeven label niet is toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het basislijnontwerpproces. Voor meer informatie over het toevoegen van labels raadpleegt u [Labels gebruiken](web-editor-use-label.md#).
+   Wanneer u **Label** Bovendien krijgt u een extra optie om de nieuwste versie van onderwerpen te gebruiken waarop het opgegeven label niet is toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het basislijnontwerpproces. Voor meer informatie over het toevoegen van labels raadpleegt u [Labels gebruiken](web-editor-use-label.md#).
 
    - **Versie ingeschakeld** &lt;*tijdstempel*\>: Kies de versie van de onderwerpen op de opgegeven datum en tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
 
@@ -55,7 +54,7 @@ Voer de volgende stappen uit om een basislijn te maken:
 
 1. Als u een verschillende versie voor één of meerdere onderwerpen wilt gebruiken, dan kunt u dit doen door die onderwerpen manueel te selecteren. Klikken **Onderwerp zoeken** selecteert u het onderwerp waarvoor u een andere versie wilt gebruiken. Van Uitgezocht een drop-down lijst van de Versie voor het geselecteerde onderwerp, selecteer een versie van het onderwerp dat u in de basislijn wilt gebruiken en klik **OK**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    De informatie over het onderwerp en het is geselecteerde versie wordt opgeslagen in het achterste deel. U kunt deze stap herhalen om de geselecteerde versie voor veelvoudige onderwerpen te veranderen.
 
@@ -133,7 +132,7 @@ Voer de volgende stappen uit om een etiket aan veelvoudige onderwerpen en refere
 
 1. Klikken **Labels toevoegen**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1. In de **Label toevoegen** een uniek label opgeven dat aan deze basislijn moet worden gekoppeld.
 
@@ -144,7 +143,7 @@ Voer de volgende stappen uit om een etiket aan veelvoudige onderwerpen en refere
    - Klikken **Toevoegen**.
 Het gespecificeerde etiket wordt toegevoegd aan de kaart DITA en de referenced onderwerpen en inhoud.
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Vertaalde basislijn exporteren {#id196SE600GHS}
@@ -163,7 +162,7 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 
 1. In de **Vertaling** tabblad, vouwt u de **Basislijn** optie beschikbaar in de linkerspoorstaaf.
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. Selecteer **Basislijn gebruiken** en kiest u de basislijn die u wilt exporteren.
 
@@ -177,4 +176,3 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-
