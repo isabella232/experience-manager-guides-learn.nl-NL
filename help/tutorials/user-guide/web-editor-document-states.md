@@ -1,13 +1,13 @@
 ---
 title: Documentstatus
 description: Leren hoe u de documentstatus kunt bepalen
-source-git-commit: 13106cd1c7f6d38fecb67dd93eef66263eb29bae
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # Documentstatus {#id1821HC00URO}
 
@@ -69,11 +69,11 @@ Voer de volgende stappen uit om de functie voor documentgoedkeuring te gebruiken
 
 1. Als het document de status heeft die als goedgekeurd moet worden gemarkeerd, wordt het volgende dialoogvenster weergegeven:
 
-   ![](images/mark-approved-correct-state.png){width="550" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
    Als uw document niet als goedgekeurd kan worden gemerkt, dan wordt het volgende bericht getoond:
 
-   ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1. Als het document gereed is om te worden gemarkeerd als goedgekeurd, selecteert u een label in de vervolgkeuzelijst en klikt u op **Goedkeuren**.
 
@@ -102,4 +102,3 @@ Als een document is gemarkeerd als goedgekeurd, kan het niet meer worden bewerkt
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

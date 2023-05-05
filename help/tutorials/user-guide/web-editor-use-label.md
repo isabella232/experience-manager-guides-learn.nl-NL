@@ -1,13 +1,13 @@
 ---
 title: Labels gebruiken
 description: Leer hoe u labels kunt gebruiken
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Labels gebruiken {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ Voer de volgende stappen uit om een etiket aan uw onderwerp toe te voegen:
 
    De etiketten worden getoond in de Geschiedenis van de Versie van het geselecteerde onderwerp. In de volgende schermafbeelding worden de labels weergegeven *x.x Release* en *Handboek* toegevoegd aan de benadrukte versie van het onderwerp.
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ Voer de volgende stappen uit om een label te verwijderen:
 
    In de Geschiedenis van de Versie, zult u alle versies van een onderwerp en de etiketten zien in bijlage aan hen. In de volgende afbeelding ziet u een voorbeeld van verschillende versies van een onderwerp waaraan labels zijn toegevoegd.
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. Klik op de knop Verwijderen \(**X**\) om het label te verwijderen.
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

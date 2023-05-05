@@ -1,13 +1,13 @@
 ---
 title: Documenten vertalen vanuit de webeditor
 description: Leer hoe te om documenten van de Redacteur van het Web te vertalen
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 0%
 
 ---
-
 
 # Documenten vertalen vanuit de webeditor {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    >
    > Taal toont alleen de talen waarvoor een taalmap parallel aan de brontaal wordt gemaakt. Een taalmap die op een ander niveau is gemaakt, zoals één niveau lager in de brontaalmap, wordt ook niet weergegeven. Zorg ervoor dat u alle doeltaalmappen maakt op hetzelfde niveau als de brontaalmap.
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. U kunt ook de volgende opties gebruiken:
 
@@ -72,11 +72,11 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    - **Doellabel**: Label voor de geselecteerde versie van het doelbestand
 1. Klikken **Verzenden voor vertaling** in de rechterbovenhoek.
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. Selecteer in het vervolgkeuzemenu de optie **Nieuw vertaalproject maken**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    Naast een nieuw vertaalproject kunt u ook uit de volgende opties kiezen:
 
@@ -107,7 +107,7 @@ Als u het label van de bronversie wilt toevoegen aan de doelkopie, moet uw syste
 
 Als u bijvoorbeeld bronbestanden met het versielabel hebt `Release 1.0` vervolgens kunt u het bronlabel \(`Release 1.0`\) naar het vertaalde bestand.
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Als u bijvoorbeeld bronbestanden met het versielabel hebt `Release 1.0` vervolge
 
 AEM Gidsen verstrekt de eigenschap om de verschillen tussen de geselecteerde versie en de laatste vertaalde bronversie van de onderwerpen te controleren. U kunt ervoor kiezen om de **Niet gesynchroniseerd** op basis van de aangebrachte wijzigingen.
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 Selecteer **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) voor een onderwerp om de verschillen tussen de laatste vertaalde versie en de huidige versie van het geselecteerde dossier te zien.
 
@@ -127,7 +127,7 @@ Selecteer **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) 
 
 De **Verschil in versie** wordt weergegeven. Het toont de **Laatst vertaalde versie** en de **Geselecteerde versie** nummer links. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## Niet-synchrone elementen negeren
 
@@ -138,7 +138,7 @@ Voer de volgende stappen uit om de status Buiten-synchroniseren te negeren:
 1. Selecteer de elementen waarvan u de status wilt wijzigen die niet meer gesynchroniseerd zijn.
 1. Selecteer **Sync markeren** knop \(![](images/translation-mark-in-sync-icon.svg)\) bovenaan. De **Sync markeren** wordt weergegeven.
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. Klikken **Synchronisatie forceren**. De status wordt gesynchroniseerd ingesteld voor de geselecteerde elementen die niet gesynchroniseerd zijn.
 
@@ -156,7 +156,6 @@ Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. Deze v
 
 Klik op de naam van de verwijzing in het dialoogvenster om deze te openen in de voorvertoningsmodus. U kunt ook op het vertaalproject klikken om de vertaling te starten.
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

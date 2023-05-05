@@ -1,13 +1,13 @@
 ---
 title: Kaarten maken op basis van aangepaste sjablonen
 description: Leer hoe u kaarten maakt op basis van aangepaste sjablonen
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # Kaarten maken op basis van aangepaste sjablonen {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om een onderwerpmalplaatje tot stand te brengen:
 
 1. In de **UI Middelen** Navigeer naar de map dita-templates.
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. Klikken **onderwerpen** map om deze te openen.Klik **\> DITA-sjabloon maken**.
 1. Selecteer op de pagina Vervagen de optie **Onderwerp** en klik vervolgens op **Volgende.**
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een kaartsjabloon te maken:
 1. Klikken **maps** om deze te openen.
 1. Klikken **\> DITA-sjabloon maken.**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. Selecteer op de pagina Vervagen de optie **Kaart** en klik op **Volgende**.
 1. Geef op de pagina Eigenschappen de kaartsjabloon op **Titel**.
@@ -104,7 +104,11 @@ Als u geen krullende haakjes rond de titel gebruikt zal de resulterende kaart DI
 Voorbeeld
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## De kaartsjabloon gebruiken om nieuwe kaarten te maken
@@ -144,4 +148,3 @@ De kaart genereert alle elementen waarnaar in de sjabloonmap wordt verwezen. Som
 - Als een andere kaart of een onderwerp op het zelfde niveau in de omslag wordt gecreeerd, dan worden de namen van de pas gecreëerde activa toegevoegd met 0.1.2, etc. U kunt ervoor kiezen de kaart te openen om het kaartbestand te bewerken of op te slaan in de opslagplaats.
 
 **Bovenliggend onderwerp:**[ Werken met de Kaarteditor](map-editor.md)
-

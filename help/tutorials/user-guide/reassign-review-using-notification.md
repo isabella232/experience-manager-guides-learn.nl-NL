@@ -1,13 +1,13 @@
 ---
 title: Revisietaak opnieuw toewijzen met behulp van melding
 description: Leer hoe u een revisietaak opnieuw kunt toewijzen met behulp van een melding
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Revisietaak opnieuw toewijzen met behulp van melding {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om een overzichtstaak vanuit het Inbox-bericht opni
    >
    > De controleur moet de toestemmingen hebben om opnieuw toe te wijzen en zou een deel van de gebruiker-beheerder groep moeten zijn.
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. Selecteren **Opnieuw toewijzen**.
 
@@ -37,4 +37,3 @@ Zodra de overzichtstaak wordt opnieuw toegewezen, toont de kolom van de Toewijzi
 De toegewezen controleur ontvangt een bericht in Inbox voor de opnieuw toegewezen overzichtstaak.
 
 **Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Werken met de basiskaarteditor
 description: Leer hoe u met de Basic Map Editor kunt werken
-source-git-commit: af5c64312a608affe95fd552b3dd1b2e05ea2b8e
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
 
 ---
-
 
 # Werken met de basiskaarteditor {#id1942CM005Y4}
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
 
    Het kaartbestand wordt geopend voor bewerking in de Kaarteditor. Gebruikend de Redacteur van de Kaart, bouwt u een kaart door de momenteel beschikbare onderwerpen te gebruiken die in de spoorstaaf van Verwijzingen worden getoond.
 
-   ![](images/dita-map-01.png)
+   ![](images/dita-map-01.png){width="800" align="left"}
 
 1. Met de **Verwijzingen** per spoor, navigeer naar de map die de onderwerpen of submaps bevat die u wilt toevoegen.
 
@@ -66,13 +66,13 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
 
 Met de hoofdwerkbalk in de Basic Map Editor kunt u de volgende taken uitvoeren:
 
-![](images/ditamap-toolbar-actions.png)
+![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
 **A: Zoeken**
 
 U kunt naar de vereiste onderwerpen van DAM zoeken en omvatten. Wanneer u op dit pictogram klikt, wordt het dialoogvenster Zoeken weergegeven:
 
-![](images/search-dita-map.png)
+![](images/search-dita-map.png){width="800" align="left"}
 
 Voer de trefwoorden in waarnaar u wilt zoeken. Deze trefwoorden komen overeen met de bestandsnaam, inhoud en zelfs kenmerkwaarden van het onderwerp. Als de zoekresultaten beschikbaar zijn, selecteert u het gewenste onderwerp en klikt u op de knop Controleren om de geselecteerde bestanden toe te voegen aan het einde van de kaartstructuur. U kunt de zoekresultaten filteren door de parameters Wijzigen van datum op te geven.
 
@@ -100,19 +100,19 @@ In de **Standaardmodus** Als u op een onderwerpkoppeling klikt, wordt de voorver
 **Opmerking:** In de standaardmodus kunt u de sneltoetsen gebruiken om \(`Ctrl+z`\) of opnieuw uitvoeren \(`Ctrl+y`\) de laatste handeling.
 
 
-![](images/dita-map-invalid-source.png)
+![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Eigenschappen van kaart**
 
 Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Als u een kenmerk wilt toevoegen, klikt u op de knop **Toevoegen** in de linkerbenedenhoek van het dialoogvenster om het dialoogvenster **Kenmerk** vervolgkeuzelijst. Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
 
-![](images/map-properties.png)
+![](images/map-properties.png){width="300" align="left"}
 
 ## Functies beschikbaar op onderwerpniveau in de Basic Map Editor
 
 Wanneer u de muiswijzer over een onderwerp of een sub-kaartdossier in de Basis Redacteur van de Kaart beweegt, kunt u de volgende taken uitvoeren:
 
-![](images/ditamap-actions.png)
+![](images/ditamap-actions.png){width="650" align="left"}
 
 **A: Naar links of rechts verplaatsen**
 
@@ -123,7 +123,7 @@ Klik op de pictogrammen voor pijl-links of pijl-rechts om het onderwerp naar lin
 Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in OASIS DITA Language Specification.
 
 
-![](images/map-properties-metadata.png)
+![](images/map-properties-metadata.png){width="350" align="left"}
 
 **C: Nieuwe verwijzing toevoegen**
 
@@ -155,7 +155,7 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
 
 1. Selecteren **Releerbaar** op de werkbalk.
 
-   ![](images/reltable.png)
+   ![](images/reltable.png){width="650" align="left"}
 
 1. De belemmering-en-dalingsonderwerpen van de onderwerpenlijst aan de Reltable redacteur.
 
@@ -163,13 +163,13 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
    >
    > U kunt onderwerpen vanuit elke map toevoegen in de References-rail.
 
-   ![](images/create-reltable.png)
+   ![](images/create-reltable.png){width="550" align="left"}
 
 1. Als u een koptekst wilt toevoegen aan uw relatietabel, klikt u op **Relheader toevoegen**.
 
 1. Als u een kolom wilt toevoegen aan uw relatietabel, klikt u op **Een kolom toevoegen**.
 
-   ![](images/complete-reltable.png)
+   ![](images/complete-reltable.png){width="550" align="left"}
 
 1. Klikken **Opslaan**.
 
@@ -189,4 +189,3 @@ Als u een onderwerp van uw lijst wilt schrappen, klik het dwarspictogram naast h
 Als u de relatietabel wilt verwijderen, klikt u ergens buiten de relatietabel en klikt u op Verwijderen.
 
 **Bovenliggend onderwerp:**[ Werken met de Kaarteditor](map-editor.md)
-

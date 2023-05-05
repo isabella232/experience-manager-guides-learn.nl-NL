@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen voor revisie van adres
 description: Leer hoe u revisieopmerkingen kunt adresseren
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen voor revisie van adres {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ Een auteur kan commentaren in een document van de Redacteur van het Web richten.
 >
 > Zorg tijdens het richten van overzichtscommentaren \ (voor een actief overzichtsdocument \), ervoor dat u-open niet het onderwerp in overzicht in veelvoudige lusjes met volledig toegelaten etikettenmening, niet tussen de Auteur en Bronmeningswijzen schakelt.
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisie en Bijgehouden wijzigingen. In het deelvenster Revisie worden alle opmerkingen weergegeven die revisoren in uw document hebben gemaakt. In het deelvenster Bijgehouden wijzigingen wordt de status van alle ingevoegde en verwijderde opmerkingen in uw document weergegeven.
 
@@ -41,11 +41,11 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 
    Als u de voorgestelde wijziging één voor één wilt opnemen, klikt u gewoon met de rechtermuisknop op de opmerking in de inhoud en selecteert u Wijziging accepteren of Wijziging negeren. Afhankelijk van uw selectie wordt de opmerking geaccepteerd of afgewezen. In het geval van een geaccepteerde opmerking wordt de inhoud toegevoegd aan de inhoud. en in geval van afwijzing, wordt het uit de inhoud verwijderd. De status van de opmerking wordt ook gewijzigd in het deelvenster Revisie.
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    U kunt de revisiefunctie in het rechterdeelvenster ook gebruiken om opmerkingen te accepteren of te weigeren. Wanneer u op een opmerking klikt, wordt de opmerking in het document gemarkeerd.
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 
 
 **Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
-

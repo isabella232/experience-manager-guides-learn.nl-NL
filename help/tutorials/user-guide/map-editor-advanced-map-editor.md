@@ -1,13 +1,13 @@
 ---
 title: Werken met de Geavanceerde Kaarteditor
 description: Leer hoe u met de Geavanceerde Kaarteditor werkt
-source-git-commit: cb0f21b0e22c58da478a4b1a6d6aa99ad42f0f3d
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '3675'
 ht-degree: 0%
 
 ---
-
 
 # Werken met de Geavanceerde Kaarteditor {#id1942D0S0IHS}
 
@@ -33,21 +33,21 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
 1. Selecteer het kaartbestand en klik op **Onderwerpen bewerken**.
 
-   ![](images/edit-map-main-menu.png)
+   ![](images/edit-map-main-menu.png){width="800" align="left"}
 
    U kunt ook de opdracht **Onderwerpen bewerken** optie in het menu Handeling in het kaartbestand:
 
-   ![](images/edit-map-action-menu.png)
+   ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    Het kaartdossier wordt geopend voor het uitgeven in in de Redacteur van het Web.
 
 1. Klik op de knop **Bewerken** pictogram.
 
-   ![](images/edit-map-icon.png)
+   ![](images/edit-map-icon.png){width="550" align="left"}
 
    De kaart wordt geopend in de Geavanceerde interface van de Redacteur van de Kaart. Als u een nieuw kaartdossier hebt geopend, dan slechts wordt de titel van de kaart getoond in de redacteur.
 
-   ![](images/new-map-file-in-editor.png)
+   ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
    - **A** - \(*Hoofdwerkbalk*\): Dit is gelijkaardig aan de belangrijkste toolbar van de Redacteur van het Web. Zie [Hoofdwerkbalk](web-editor-features.md#id2051EA0G05Z) in de Redacteur van het Web voor meer details.
 
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    Het onderwerp wordt toegevoegd in de kaart.
 
-   ![](images/map-editor-add-topic.png)
+   ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Als u volgende onderwerpen of een submap wilt toevoegen, sleept u het onderwerp of de submap naar de gewenste locatie in de kaart en zet u deze neer.
 
@@ -77,15 +77,15 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    - Het bestand wordt toegevoegd op een locatie waar de horizontale balk wordt weergegeven in het kaartbewerkingsgebied. In de volgende screenshot *Overzicht* onderwerp wordt toegevoegd tussen *Algemene beschrijving* en *Starten en aanlanden* onderwerpen.
 
-      ![](images/horizontal-line-in-adv-map-editor.png)
+      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - Als u een onderwerp wilt vervangen, plaatst u het onderwerp boven, links of rechts van het onderwerp dat u wilt vervangen. Een verticale bar links of rechts van een onderwerp wijst erop dat het met het onderwerp zal worden vervangen dat op het wordt gelaten vallen.
 
-      ![](images/vertical-bar-left-right.png)
+      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
       Nochtans, alvorens een onderwerp te vervangen, krijgt u een bevestigingsherinnering. Het onderwerp wordt pas vervangen nadat u de bevestiging hebt gegeven.
 
-      ![](images/replace-topic-confirm.png)
+      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - Als u een sub-kaart aan uw kaart DITA toevoegt, wordt submap getoond als verbinding in de kaart DITA. Om alle onderwerpen van sub-kaart te bekijken, Crtl+Klik de sub-kaartverbinding. De inhoud van de submap wordt weergegeven op een nieuw tabblad. Op dezelfde manier om een onderwerp van de kaart te openen DITA, Crtl+Klik de onderwerpverbinding en het opent omhoog in het nieuwe lusje.
 
@@ -93,7 +93,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    - Om de positie van een onderwerp te veranderen, selecteer het onderwerp \ (door op het onderwerppictogram te klikken \), dan belemmering-en-daling het bij de gewenste plaats in het kaartdossier. Zorg ervoor dat de horizontale bar bij de plaats zichtbaar is waar u het onderwerp wilt plaatsen. In het volgende schermafbeelding, het onderwerp *Starten en aanlanden* wordt verplaatst na de *Overzicht* onderwerp.
 
-      ![](images/move-topic-adv-map-editor.png)
+      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Als u de eigenschappen van het kaartbestand wilt controleren, klikt u met de rechtermuisknop ergens in het kaartbewerkingsgebied en kiest u **Eigenschappen** in het contextmenu. Op basis van uw AEM kunt u eigenschappen zien zoals metagegevens, het plannen van \(de\)activering, verwijzingen, documentstatus en meer.
 
@@ -119,7 +119,7 @@ U kunt de volgende taken uitvoeren in de layoutweergave:
 **Onderwerpverwijzing invoegen** - ![](images/insert-topic-reference.png)
 
 Toont de dialoog van het onderwerponderzoek. Navigeer naar het onderwerp-/kaartbestand dat u wilt invoegen en klik op Selecteren om het toe te voegen aan de kaart.
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **Onderwerpgroep invoegen** - ![](images/insert-topic-group.png)
@@ -130,7 +130,7 @@ Voeg de `topicgroup` element. Voor meer informatie over het groeperen van onderw
 
 Hiermee wordt het dialoogvenster Keydef invoegen weergegeven. In dit dialoogvenster kunt u een sleuteldefinitie definiëren die u wilt gebruiken in de kaart.
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **Voor/Invoegen na** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -199,7 +199,7 @@ Toont filename van de titels van de onderwerpen.
 
 Naast het organiseren van onderwerpen in het kaartdossier, kunt u de volgende acties ook uitvoeren gebruikend het menu van Opties beschikbaar voor een element in de mening van de Lay-out:
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **Toevoegen**: U kunt kiezen om een nieuw onderwerp of een lege verwijzing van de Redacteur van de Kaart toe te voegen:
    - **Lege referentie**: Met deze optie kunt u een lege verwijzing toevoegen aan uw DITA-kaart. U kunt de opgenomen lege verwijzing later tweemaal klikken en de details van het Onderwerp toevoegen. Zie voor meer informatie de [Een onderwerp maken](web-editor-features.md#id228ICI0105U) in de webeditor.
@@ -231,7 +231,7 @@ Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwe
 
 - **Overige kenmerken** Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. U kunt ook attributen toewijzen die door uw beheerder onder **Weergavekenmerken** in de editorinstellingen. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave. Dit helpt u om een snelle blik bij alle onderwerpen in een kaart te hebben waarvoor een bepaald attribuut wordt bepaald. Bijvoorbeeld alle onderwerpen waarvoor het platformkenmerk is gedefinieerd als &#39;Android&#39;.
 
-   ![](images/layout-inline-attributes.png)
+   ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
    Zie voor meer informatie de *Weergavekenmerken* binnen de *Editor-instellingen* functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
@@ -310,7 +310,7 @@ Ga als volgt te werk om onderwerpen te bewerken via een DITA-kaart:
    >
    > U kunt ook het DITA-kaartbestand selecteren in de interface Middelen en op **Onderwerpen bewerken** in de belangrijkste toolbar om de Redacteur van het Web te lanceren.
 
-   ![](images/web-editor-map-view_cs.png)
+   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1. \(*Optioneel*\) U kunt ook een onderwerp op de kaart selecteren en het bestand uitchecken voordat u het gaat bewerken. Als u het bestand wilt uitchecken, selecteert u een of meer bestanden in het linkerdeelvenster en klikt u op **Afhandeling**. U kunt de vergrendeling ook op elk bestand loslaten door het uitgecheckte bestand te selecteren en op de knop **Afhandeling annuleren en ontgrendelen** in de Kaartweergave.
 
@@ -320,13 +320,13 @@ Ga als volgt te werk om onderwerpen te bewerken via een DITA-kaart:
 
    In de volgende schermafbeelding worden de pictogrammen voor Uitchecken en vergrendelen \(A\), Uitchecken annuleren en ontgrendelen \(B\), Opslaan als nieuwe versie en Ontgrendelen \(C\), Bewerken \(D\), Voorvertoning \(E\), verschillende pictogrammen met verschillende DITA-bestandstypen \(F\) en bestanden die zijn uitgecheckt \(G\) gemarkeerd.
 
-   ![](images/file-checkout-map-editor.png)
+   ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1. Klik op om het even welke onderwerpverbinding om het in de Redacteur van het Web voor het uitgeven te openen.
 
    U kunt veelvoudige onderwerpen in de redacteur openen en elk onderwerp wordt geopend in een nieuw lusje in de redacteur. Zelfs als uw kaart DITA submaps bevat, worden de onderwerpen van sub-maps ook geopend in een nieuw lusje voor het uitgeven. Als u de onderwerpen onder een sub-kaart wilt bekijken, kunt u klikken en sub-kaart uitbreiden.
 
-   ![](images/web-editor-multiple-topics.png)
+   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
    Als u op een kaartbestand klikt, wordt de kaart geopend in een nieuw tabblad van de webbrowser.
 
@@ -334,14 +334,14 @@ Ga als volgt te werk om onderwerpen te bewerken via een DITA-kaart:
 
    - U kunt deze afzonderlijk opslaan. Als u op **Sluiten zonder opslaan** in uw onderwerpen wordt een dialoogvenster weergegeven waarin u wordt gevraagd de niet-opgeslagen onderwerpen op te slaan:
 
-      ![](images/save-multiple-topics.PNG)
+      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
       U kunt alle geselecteerde onderwerpen opslaan of de onderwerpen deselecteren die u niet wilt opslaan.
 
    - U kunt het onderwerp inchecken met de **Opslaan als nieuwe versie en ontgrendelen** knop. Wanneer u sparen een revisie van het onderwerp, wordt een nieuwe revisie gecreeerd en het slot is ook versie.
    - Als uw beheerder de optie heeft ingeschakeld om bestanden bij het sluiten in te checken, wordt u gevraagd om bestanden op te slaan wanneer de uitgecheckte bestanden worden gesloten. Als deze optie is ingeschakeld en u de editor sluit met gewijzigde bestanden, wordt een lijst weergegeven met uitgecheckte bestanden die moeten worden opgeslagen. De uitgecheckte bestanden worden weergegeven met een vergrendelingspictogram:
 
-      ![](images/save-on-close.PNG)
+      ![](images/save-on-close.PNG){width="550" align="left"}
 
       - Klikken op **Sluiten zonder opslaan** sluit de bestanden zonder wijzigingen op te slaan.
 
@@ -364,7 +364,7 @@ U kunt de voorvertoning van een kaart openen via:
 
 - **Geavanceerde kaarteditor**: Klik in de Geavanceerde Kaarteditor op het pictogram Voorvertoning om de voorvertoning van de huidige kaart weer te geven.
 
-   ![](images/map-preview-icon.png)
+   ![](images/map-preview-icon.png){width="350" align="left"}
 
    In de voorvertoningsmodus kunt u de volgende aanvullende taken uitvoeren:
 
@@ -380,4 +380,3 @@ U kunt de voorvertoning van een kaart openen via:
 
 
 **Bovenliggend onderwerp:**[ Werken met de Kaarteditor](map-editor.md)
-

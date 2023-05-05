@@ -1,13 +1,13 @@
 ---
 title: Deelvenster Snel genereren gebruiken
 description: Leer hoe u het deelvenster Snel genereren gebruikt
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # Het deelvenster Snel genereren gebruiken om uitvoer te genereren en weer te geven {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ AEM hulplijnen biedt een **Snel genereren** in de webeditor is geïntegreerd. In
 >
 > De **Snel genereren** wordt weergegeven voor de DITA-kaart die is geopend in het deelvenster Kaartweergave.
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 Voer de volgende stappen uit om de uitvoer te genereren op basis van de **Snel genereren** paneel:
 
@@ -28,4 +28,3 @@ Voer de volgende stappen uit om de uitvoer te genereren op basis van de **Snel g
 1. Klikken **Uitvoer weergeven** \( ![](images/view-output-icon.svg)\) van een specifieke voorinstelling om de uitvoer weer te geven die voor de voorinstelling is gegenereerd.
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Basislijnen maken en beheren vanuit de webeditor
 description: Leer hoe te om basislijnen van de Redacteur van het Web tot stand te brengen en te beheren
-source-git-commit: 873111892d5b479f80a40c0b18cda9b538f5a1de
+exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
 
 ---
-
 
 # Basislijnen maken en beheren vanuit de webeditor {#id223MB0ZF043}
 
@@ -24,7 +24,7 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 1. Open het DITA-kaartbestand in de Kaartweergave in het deelvenster Opslagplaats.
 1. Klik op de knop **Beheren** tab. De **Basislijn** geeft de basislijnen van de DITA-kaart weer.
 
-   ![](images/baseline-manage.png)
+   ![](images/baseline-manage.png){width="800" align="left"}
 
 1. Op de **Basislijn** klikt u op + pictogram rechtsboven. U kunt een basislijn met een specifieke versie van de onderwerpen en van verwijzingen voorzien inhoud tot stand brengen beschikbaar op een specifieke datum en een tijd, of met een etiket dat voor een versie van onderwerpen wordt bepaald.
 1. Voer een naam in voor de basislijn in **Naam basislijn**.
@@ -52,7 +52,7 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 
    Basislijnen op basis van labels worden dynamisch bijgewerkt. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Bijvoorbeeld, als u versie 1.2 van een onderwerp met Versie 1.0 van het Etiket voor de basislijn en recentere bijgewerkte versie 1.5 met Versie 1.0 van het Etiket hebt gebruikt, zal de basislijn dynamisch worden bijgewerkt, en versie 1.5 zal worden gebruikt.
 
-   ![](images/dynamic-baseline.png)
+   ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Labels selecteren**: Als voor de onderwerpen labels zijn opgegeven, worden de labels vermeld in het dialoogvenster **Labels selecteren** vervolgkeuzelijst. U kunt de label\(s\) in de lijst kiezen. De eerst geselecteerde labels krijgen een hogere prioriteit dan de latere labels.
 1. **Indirecte verwijzingen**: Voor indirecte verwijzingen binnen de kaart DITA, krijgt u de volgende opties:
@@ -74,7 +74,7 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
 - U kunt de inhoud van een bestaande basislijn weergeven of bewerken door te dubbelklikken op de basislijn in de lijst in het deelvenster Basislijn. In het basislijnbewerkingsvenster in het midden worden het DITA-kaartbestand, de inhoud of onderwerpen van de kaart en de inhoud waarnaar wordt verwezen, weergegeven.
 
 
-![](images/baseline-options.png)
+![](images/baseline-options.png){width="550" align="left"}
 
 U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opties:
 
@@ -92,7 +92,7 @@ U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opt
 
 Het pictogram Filters in het dialoogvenster **Basislijnfilters** kunt u filters toepassen op de basislijn die is geopend in het basislijnbewerkingsvenster:
 
-![](images/baseline-filter.png)
+![](images/baseline-filter.png){width="350" align="left"}
 
 - Filter de bestanden op bestandsnamen of op de bestandslocatie.
 - Filter de bestanden op basis van de waarden voor verschillende kolommen, zoals Bestandstype, Referentietype, enzovoort.
@@ -107,4 +107,3 @@ Het pictogram Filters in het dialoogvenster **Basislijnfilters** kunt u filters 
 Nadat u de basislijn hebt bewerkt, kunt u op de knop **Opslaan** aan de bovenkant om de wijzigingen in de basislijn op te slaan. U kunt op de knop **Herstellen** als u de wijziging niet wilt opslaan en de basislijn opnieuw wilt instellen. Wanneer u op de knop **Herstellen** er verschijnt een waarschuwing dat niet-opgeslagen wijzigingen verloren gaan.
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

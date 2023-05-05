@@ -1,13 +1,13 @@
 ---
 title: Labels in bulk voor DITA-inhoud
 description: Leer hoe u labels voor DITA-inhoud kunt uitknippen
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Labels in bulk voor DITA-inhoud {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ Gebruik de functie voor bulkcodes om meerdere tags tegelijk toe te passen. Voer 
 
 1. Selecteer de onderwerpen of submap waarop u tags wilt toepassen.
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ Voer de volgende stappen uit om alle markeringen uit één of meerdere onderwerp
 Als u een lange lijst van markeringen hebt die op uw onderwerpen worden toegepast, dan zou u het een beetje omslachtig kunnen vinden om te navigeren. U kunt eenvoudig tags verbergen in de weergave van de DITA-kaartconsole door op het pictogram Codes verbergen te klikken. Als de labels niet zichtbaar zijn, worden ook alle tags weergegeven wanneer u op Tags tonen klikt.
 
 **Bovenliggend onderwerp:**[ Metagegevens beheren](manage-metadata.md)
-

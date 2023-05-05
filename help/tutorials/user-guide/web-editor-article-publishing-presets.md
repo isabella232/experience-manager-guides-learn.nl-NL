@@ -1,13 +1,13 @@
 ---
 title: Uitvoervoorinstellingen maken vanuit de webeditor
 description: Leer hoe u uitvoervoorinstellingen maakt in de webeditor
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoervoorinstellingen maken vanuit de webeditor {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
 1. In de **Uitvoer** selecteert u het plus-pictogram (+) om een uitvoervoorinstelling voor uw DITA-kaart te maken.
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. Typ de naam van de voorinstelling in het dialoogvenster Voorinstelling toevoegen en klik vervolgens op **Toevoegen**.
 
@@ -43,20 +43,19 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
    1. Van de **Artikelen** selecteert u de onderwerpen waarvoor u de uitvoer wilt genereren.
 1. Selecteer **Voorinstelling genereren** bovenaan om de uitvoer te genereren.
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. De status van het productieproces van de uitvoer wordt weergegeven. De **Onderwerpen** de kolom maakt een lijst van de onderwerpen waarvoor de output terwijl wordt geproduceerd **Status** de kolom toont de het publiceren status van elk onderwerp.
 
    Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > U kunt ook een bestaande uitvoervoorinstelling bewerken, hernoemen, dupliceren of verwijderen in het menu Opties.
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **Bovenliggend onderwerp:**[ Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md)
-

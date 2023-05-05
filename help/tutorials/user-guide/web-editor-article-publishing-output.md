@@ -1,13 +1,13 @@
 ---
 title: Uitvoer genereren vanuit het deelvenster Opslagplaats
 description: Leer hoe u uitvoer kunt genereren via het deelvenster Opslagplaats
-source-git-commit: a78a775406c07c1ec12665cdb00f65ca91f03f95
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoer genereren via het deelvenster Opslagplaats of Kaartweergave {#id218CL6010AE}
 
@@ -28,16 +28,16 @@ Voer de volgende stappen uit om output voor één of meerdere onderwerpen in uw 
 1. In de **Auteur** selecteert u het onderwerp in uw DITA-kaart dat u wilt publiceren.
 
 1. Selecteren **Snel genereren** in het menu Opties van het geselecteerde onderwerp.
-   ![](images/select-topic-options-menu_cs.png)
+   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. Als u een onderwerp wilt publiceren dat in één DITA-kaart wordt gebruikt, selecteert u de uitvoervoorinstellingen van de kaart die u wilt publiceren en klikt u op **Genereren**.
-   ![](images/select-preset_cs.png)
+   ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. De status van het productieproces van de uitvoer wordt weergegeven. Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
 
 1. Als u een algemeen onderwerp hebt dat over veelvoudige onderwerpen wordt gebruikt, selecteer de diverse kaarten DITA en ook de outputvoorinstellingen die u wilt gebruiken om te publiceren en te klikken **Genereren.**
 
-   ![](images/select-preset-multiple-maps_cs.png)
+   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. De status van het productieproces van de uitvoer wordt weergegeven.
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om output voor één of meerdere onderwerpen in uw 
    - **Kaart**: Maakt een lijst van de kaarten DITA die het geselecteerde onderwerp bevatten.
    - **Status**: Toont het publiceren status van elk onderwerp.
 Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
-      ![](images/output-multiple-maps_cs.png)
+      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Produceer output voor een kaart DITA van de Redacteur van het Web
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om output voor de volledige kaart te produceren DIT
 
 1. Selecteren **Snel genereren** in het menu Opties van uw DITA-kaart.
 
-   ![](images/select-map-options-menu_cs.png)
+   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
 1. Selecteer de uitvoervoorinstellingen van uw DITA-kaart die u wilt gebruiken voor publicatie en klik op **Genereren.**
 
@@ -78,10 +78,9 @@ Voer de volgende stappen uit om output voor meer dan één onderwerp in uw kaart
    >
    > U zult slechts die outputvoorinstellingen van de huidige kaart zien DITA die alle geselecteerde onderwerpen bevatten.
 
-   ![](images/generate-output-multiple-topics_cs.png)
+   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
 1. U zult de status van het proces van de outputgeneratie zien.Om de output te bekijken, beweegt de muiswijzer over het onderwerp en klikt de Output van de Mening.
 
 
 **Bovenliggend onderwerp:**[ Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md)
-

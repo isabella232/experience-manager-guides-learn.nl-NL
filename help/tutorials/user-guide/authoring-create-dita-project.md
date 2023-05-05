@@ -1,13 +1,13 @@
 ---
 title: Een DITA-project maken
 description: Leer hoe u een DITA-project maakt
-source-git-commit: 101766d51d43eb728f0316155acffd19548f83be
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Een DITA-project maken {#id1645HA00NM6}
 
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
 1. Klikken **Maken** \> **Project** om de wizard Project maken te starten.
 
-   ![](images/project-console-63.png)
+   ![](images/project-console-63.png){width="650" align="left"}
 
 1. Selecteer op de pagina Project maken de optie **DITA-project** sjabloon en klik op **Volgende**.
 
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
    Informatie in de **Basis** tab:
 
-   ![](images/create-project.png)
+   ![](images/create-project.png){width="650" align="left"}
 
    - Voer de **Titel**, **Beschrijving**, en **Vervaldatum**.
 
@@ -75,4 +75,3 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
 
 **Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
-

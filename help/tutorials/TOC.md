@@ -2,7 +2,7 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
+source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 3%
@@ -86,7 +86,7 @@ ht-degree: 3%
                + [Werken met de basiskaarteditor](./user-guide/map-editor-basic-map-editor.md)
                + [Andere functies in de kaarteditors](./user-guide/map-editor-other-features.md)
             + DITAVAL Editor {#ditaval-editor}
-               + [Werken met de DITAVAL-editor](./user-guide/id17C5E0U0OQE.md)
+               + [Werken met de DITAVAL-editor](./user-guide/ditaval-editor.md)
          + Bureaubladgereedschappen voor het ontwerpen van inhoud {#author-using-desktop-tools}
             + [Inhoud ontwerpen met bureaubladgereedschappen](./user-guide/author-desktop-tools.md)
             + [Het werk met FrameMaker](./user-guide/author-desktop-framemaker.md)

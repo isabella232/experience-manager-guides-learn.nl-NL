@@ -1,13 +1,13 @@
 ---
 title: Een kaart maken
 description: Leer hoe u een kaart maakt
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Een kaart maken {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ Voer de volgende stappen uit om een kaartbestand te maken:
    >
    > De manier waarop de onderwerpen in een kaartdossier worden bedoeld hangt van het kaartmalplaatje af. Als u bijvoorbeeld de sjabloon Kaart selecteert, verwijst het onderwerp naar \(`topicref`\) worden gebruikt om naar onderwerpen te verwijzen. In het geval van een Bookmap, worden de onderwerpverwijzingen gecreeerd gebruikend `chapter` element in DITA.
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. Geef op de pagina Eigenschappen de kaart op **Titel**.
 
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om een kaartbestand te maken:
 
    Elk nieuw kaartbestand dat u maakt via de interface Middelen **Maken** \> **DITA-kaart** of de Redacteur van het Web wordt toegewezen een unieke kaartidentiteitskaart Bovendien wordt de nieuwe kaart opgeslagen als de meest recente werkkopie in DAM. Totdat u een revisie van een pas gemaakte kaart opslaat, ziet u geen versienummer in de Versiegeschiedenis. Als u de kaart opent om te bewerken, wordt de versie-informatie weergegeven in de rechterbovenhoek van het tabblad van het kaartbestand:
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    De versieinformatie voor een pas gemaakte kaart wordt getoond zoals *none*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het opslaan van een nieuwe versie raadpleegt u [Opslaan als nieuwe versie](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ Voer de volgende stappen uit om een kaartbestand te maken:
 
 
 **Bovenliggend onderwerp:**[ Werken met de Kaarteditor](map-editor.md)
-

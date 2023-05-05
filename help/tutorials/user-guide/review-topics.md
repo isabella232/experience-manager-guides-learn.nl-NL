@@ -1,13 +1,13 @@
 ---
 title: Onderwerpen bekijken
 description: Leer hoe u onderwerpen kunt beoordelen
-source-git-commit: 849985574a4d21334ac73be3e664ff5ea9a898c4
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
 
 ---
-
 
 # Onderwerpen bekijken {#id2056B0W0FBI}
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
    Het volgende scherm verschijnt wanneer een kaart DITA wordt gebruikt om het overzichtswerkschema in werking te stellen:
 
-   ![](images/multiple-topics-review.png)
+   ![](images/multiple-topics-review.png){width="800" align="left"}
 
    De volgende opties zijn beschikbaar op dit scherm:
 
@@ -57,13 +57,13 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
    Alle onderwerpen in de kaart worden getoond als één enkel samengesteld document. De onderwerpen die de controleur mag beoordelen, worden normaal weergegeven. De onderwerpen die de revisie niet mag reviseren, worden niet weergegeven.
 
-   ![](images/review-read-only.png)
+   ![](images/review-read-only.png){width="800" align="left"}
 
    In het bovenstaande schermafbeelding wordt het algemene beschrijvingsonderwerp gedeeld voor revisie van de huidige revisor, die normaal wordt weergegeven. Nochtans, wordt het volgende onderwerp, Geschiedenis van vlieginhoud niet gedeeld voor overzicht en het wordt getoond op read-only wijze. Het onderwerp dat momenteel in focus is, wordt ook benadrukt in de inhoudsopgave.
 
    Het volgende scherm verschijnt wanneer een onderwerp of veelvoudige onderwerpen voor overzicht worden geselecteerd en worden gedeeld:
 
-   ![](images/review-composite-view.png)
+   ![](images/review-composite-view.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -85,15 +85,15 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
 Wanneer u één onderwerp bekijkt, krijgt u een extra optie om terug naar de documentmening te schakelen. In het volgende schermafbeelding wordt een bepaald onderwerp van een kaartbestand geopend voor revisie. De gemarkeerde optie — **Documentweergave tonen** Hiermee kan de gebruiker terugschakelen naar de documentweergave van het kaartbestand.
 
-![](images/switch-document-view.png)
+![](images/switch-document-view.png){width="800" align="left"}
 
 **Werken met verschillende typen gereedschappen voor opmerkingen** - U kunt inline opmerkingen toevoegen door tekst te markeren, door tekst te doorhalen, tekst in te voegen of een opmerking toe te voegen. De verschillende typen gereedschappen voor opmerkingen op de werkbalk Opmerkingen worden hieronder beschreven:
 
-![](images/comments-toolbar.png)
+![](images/comments-toolbar.png){width="350" align="left"}
 
 - **Markeren** \(![](images/review-highlight-icon.svg)\): Als u een gemarkeerde opmerking wilt toevoegen, selecteert u de tekst en klikt u op het pictogram Markeren. U kunt ook op het pictogram Hooglicht klikken en de gewenste tekst selecteren:
 
-   ![](images/highlight-comment.png)
+   ![](images/highlight-comment.png){width="650" align="left"}
 
    Er verschijnt een pop-up in het venster Opmerkingen waarin u uw opmerking voor de gemarkeerde inhoud kunt toevoegen.
 
@@ -112,7 +112,7 @@ U kunt tekst ook snel markeren of doorhalen met de contextafhankelijke werkbalk.
 
 1. Selecteer de tekst die u wilt markeren of doorhalen. De contextafhankelijke werkbalk wordt weergegeven.
 
-   ![](images/review-quick-launch-toolbar.png)
+   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
 1. Klik op de knop **Markeren** of **Doorhalen** pictogram.
 1. U kunt opmerkingen toevoegen in het venster Opmerking voor de markeringsactie of doorhalingsactie.
@@ -128,7 +128,7 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 - U kunt uw eigen opmerking bewerken door op de tekst met opmerkingen in het venster Opmerkingen te klikken en vervolgens **Bewerken** in het menu Opties.
 - U kunt uw eigen opmerkingen verwijderen door op de opmerking te klikken in het venster Opmerkingen en vervolgens de **Verwijderen** in het menu Opties.
 
-   ![](images/review-comment-options-menu.png)
+   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
    >[!NOTE]
    >
@@ -142,17 +142,17 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 
 - De volgende schermafbeelding toont de inhoud in *Controleren* modus:
 
-![](images/review-author-mode.png)
+![](images/review-author-mode.png){width="550" align="left"}
 
 De volgende schermafbeelding toont de inhoud in *Voorvertoning* modus:
 
-![](images/review-preview-mode.png)
+![](images/review-preview-mode.png){width="550" align="left"}
 
 **Bijlagen toevoegen aan opmerkingen** - Als u uw opmerking wilt aanvullen met aanvullende informatie die beschikbaar is in een ander bestand, kunt u dit doen door de opmerking bij de opmerking te voegen. Als revisor kunt u eenvoudig een of meerdere bestanden van uw lokale systeem aan uw opmerking toevoegen. U kunt een bestand toevoegen aan alle ondersteunde formulieren met opmerkingen: Markeren, Doorhalen, Tekst invoegen of Opmerking.
 
 Als u een van de opmerkingen invoegt, wordt het pop-upvenster met opmerkingen weergegeven. Nadat u in het pop-upvenster aanvullende opmerkingen of informatie hebt opgegeven, kunt u deze verzenden door op Enter te drukken. Nadat de opmerking is toegevoegd, kunt u een bijlage aan die opmerking toevoegen.
 
-![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png){width="800" align="left"}
 
 In de bovenstaande schermafbeelding bevat het document de pop-up van de gemarkeerde opmerking en wordt de opmerking ook toegevoegd in het venster Opmerkingen. Het pictogram Bestandsbijlage ![](images/file-attach-review.svg)is samen met de opmerking beschikbaar op beide locaties.
 
@@ -177,21 +177,21 @@ Voer de volgende stappen uit om bijlage aan uw commentaar toe te voegen:
 
 - Standaard worden slechts twee bestanden weergegeven die zijn gekoppeld aan een opmerking. Als er meer bestanden zijn, **Bijlage weergeven** rechts ziet u het aantal bijlagen \(meer dan twee\) dat aan de opmerking is gekoppeld. U kunt op het nummer klikken om alle bijlagen weer te geven. Als u bijvoorbeeld vier bijlagen met een opmerking hebt, ziet u +2 op de knop.
 
-![](images/review-view-attachment.png)
+![](images/review-view-attachment.png){width="550" align="left"}
 
 - Als u de muisaanwijzer op een bijlage plaatst, kunt u de bijlage downloaden of verwijderen. Het verwijderen van de bijlage is alleen beschikbaar als de huidige revisor die opmerking heeft toegevoegd, zoals in de volgende schermafbeelding wordt getoond:
 
-![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png){width="550" align="left"}
 
 De andere revisoren of auteurs krijgen alleen de optie voor downloadbijlagen.
 
-![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png){width="550" align="left"}
 
 - U kunt alle bijlagen die aan een opmerking zijn gekoppeld, downloaden van het menu **Bijlagen weergeven** . Selecteer de bijlagen en klik op de knop **Downloaden** op het niveau van de opmerking.
 
 - U kunt ook de bijlagen die aan een opmerking zijn gekoppeld, verwijderen uit het dialoogvenster **Bijlagen weergeven** . Selecteer de bijlagen en klik op de knop **Verwijderen** pictogram.
 
-![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
 **Voorwaarden, deelvenster** - Als uw onderwerp voorwaardelijke inhoud heeft, dan zult u zien **Voorwaarden** \(![](images/conditions-icon.svg)\) rechts. Klikken op **Voorwaarden** opent het paneel Voorwaarden dat u toestaat om de inhoud volgens de beschikbare voorwaarden in het onderwerp te benadrukken.
@@ -200,7 +200,7 @@ De andere revisoren of auteurs krijgen alleen de optie voor downloadbijlagen.
 
 : U kunt **Alle voorwaarden markeren** en ziet alle inhoud in het onderwerp als normale tekst zonder hooglichten.
 
-![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png){width="350" align="left"}
 
 U kunt een bepaalde voorwaarde verbergen of weergeven.
 
@@ -208,7 +208,7 @@ U kunt een bepaalde voorwaarde verbergen of weergeven.
 - Als u een voorwaardelijk geconditioneerde inhoud weergeeft, wordt deze gemarkeerd in de beoordelingsmodus. In de volgende schermafbeelding gebruikt bijvoorbeeld alleen de inhoud twee voorwaarden - `win` en `mac` wordt gemarkeerd.
 
 
-![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png){width="650" align="left"}
 
 In de voorvertoningsmodus is dit de niet-geconditioneerde inhoud en de geconditioneerde inhoud die gebruikmaakt van de twee weergegeven voorwaarden - `win` en `mac` wordt weergegeven. De resterende geconditioneerde inhoud waarvoor de voorwaarden verborgen zijn, wordt niet weergegeven.
 
@@ -220,7 +220,7 @@ In de voorvertoningsmodus is dit de niet-geconditioneerde inhoud en de geconditi
 
 - Klikken op pictogram Verouderde opmerking \()![](images/outdated-comment-icon.svg)\) geeft de verschillen tussen de meest recente versie en de versie met opmerkingen van het document weer. De versienummers \(van de versies die worden vergeleken\) worden boven aan de documenten weergegeven.
 
-   ![](images/comments-page-review-mode.png)
+   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -244,4 +244,3 @@ Selecteer een of meer van de volgende filteropties in het menu **Filtertype** en
 Als u het filter wilt verwijderen en alle opmerkingen wilt weergeven, deselecteert u alle filters in het dialoogvenster **Filtertype** en klik op **Toepassen**.
 
 **Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
-

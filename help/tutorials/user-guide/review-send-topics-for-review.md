@@ -1,13 +1,13 @@
 ---
 title: Onderwerpen ter controle verzenden
 description: Leer hoe u onderwerpen ter controle kunt verzenden
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 0%
 
 ---
-
 
 # Onderwerpen ter controle verzenden {#id199RD0S035Z}
 
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
 1. Klik op het pictogram Selecteren in de snelle actie en selecteer de onderwerpen die u wilt verzenden voor revisie.
 
-   ![](images/select-asset-62.png)
+   ![](images/select-asset-62.png){width="300" align="left"}
 
 1. Klik op de werkbalk op **Revisietaak maken**. De pagina voor het maken van revisietaken wordt weergegeven.
 
@@ -51,7 +51,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
    >
    > U kunt een overzichtstaak voor slechts die onderwerpen tot stand brengen die een revisie hebben. Als het geselecteerde onderwerp geen revisie heeft, zult u een herinnering worden getoond.
 
-   ![](images/create-review-task-023.png)
+   ![](images/create-review-task-023.png){width="650" align="left"}
 
 1. Voer een **Titel** voor de taak en selecteer een DITA **Project** in de vervolgkeuzelijst.
 
@@ -91,7 +91,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    De pagina Inhoud wordt weergegeven.
 
-   ![](images/content_page_review.png)
+   ![](images/content_page_review.png){width="800" align="left"}
 
 1. Selecteer op de pagina Inhoud een versie van het onderwerp dat u wilt delen voor revisie.
 
@@ -112,7 +112,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    De pagina Revisors wordt weergegeven op de plaatsen waar u revisoren kunt toevoegen of verwijderen. Standaard worden de controleurs die in het veld Toewijzen aan zijn toegevoegd, automatisch toegevoegd aan elk onderwerp dat voor de revisie is geselecteerd.
 
-   ![](images/add-reviewers-topics.png)
+   ![](images/add-reviewers-topics.png){width="650" align="left"}
 
 1. Op de pagina Revisors kunt u revisoren toevoegen of verwijderen. De volgende bewerkingen zijn beschikbaar op de pagina Revisors:
 
@@ -208,7 +208,7 @@ Voer de volgende stappen uit om een of meerdere onderwerpen samen met het kaartb
 
    De pagina Inhoud wordt weergegeven met alle onderwerpen waarnaar in het kaartbestand wordt verwezen. Als uw kaart DITA genestelde kaarten bevat, dan zijn de onderwerpen van de genestelde kaarten ook hier vermeld.
 
-   ![](images/content-page-map-review.png)
+   ![](images/content-page-map-review.png){width="800" align="left"}
 
 1. Selecteer op de pagina Inhoud een versie van het onderwerp dat u wilt delen voor revisie.
 
@@ -265,4 +265,3 @@ Voer de volgende stappen uit om een of meerdere onderwerpen samen met het kaartb
 Er wordt een e-mail verzonden naar alle revisoren, met de kennisgeving dat aan hen onderwerpen zijn toegewezen voor revisie. Het e-mailbericht bevat een directe koppeling waarop de gebruikers kunnen klikken en het onderwerp kunnen openen in een browservenster. De onderwerpen samen met de kaart DITA worden geopend op de overzichtswijze.
 
 **Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
-
