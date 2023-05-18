@@ -1,9 +1,9 @@
 ---
 title: Inhoud en Sjabloon instellen
 description: Leer hoe u alles in het werk moet stellen om inhoud en sjablonen in AEM hulplijnen in te stellen.
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Volgende sessie met experts
 
-- **Onderwerp** - TBD
-- **Gepland op** - 25 mei 2023
+- **Onderwerp** - Native PDF Publishing - Leren op voorbeeld (deel 1)
+- **Gepland op** - 1 juni 2023
 
 
 ## Contact opnemen
