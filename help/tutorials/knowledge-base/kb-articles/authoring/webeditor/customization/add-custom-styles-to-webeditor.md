@@ -1,7 +1,8 @@
 ---
 title: Aangepaste stijlen toevoegen aan webeditor van hulplijnen
 description: Leer hoe u aangepaste stijlen toevoegt om de vormgeving van de gulden-webeditor te wijzigen.
-source-git-commit: 9e7d5bb4c8f6c6ebe21bfcebdd7d2e13971b8df2
+exl-id: 3a9dd701-9d9d-4d7f-bc0c-855904404fd1
+source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%

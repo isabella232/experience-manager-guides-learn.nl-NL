@@ -1,13 +1,13 @@
 ---
 title: Belangrijke functies AEM hulplijnen
 description: Leer hoe u de functies AEM hulplijnen kunt beheren
-source-git-commit: 9fd780707f0757036e5c4ccfacbb2231cd8edadc
+exl-id: f456741a-b504-4686-8230-64fac0ad8939
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
 
 ---
-
 
 # Belangrijke functies AEM hulplijnen {#id167G9I060SI}
 
@@ -74,4 +74,3 @@ Hier volgt een lijst met andere nuttige bronnen van AEM hulplijnen, die beschikb
 * [Help* Archiveringspagina](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (toegang tot oudere releasedocumentatie)
 
 **Bovenliggend onderwerp:**[ Informatie over as a Cloud Service Adobe Experience Manager-hulplijnen](intro.md)
-

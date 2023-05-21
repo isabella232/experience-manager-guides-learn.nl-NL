@@ -1,13 +1,13 @@
 ---
 title: Werken met de webeditor
 description: Leer hoe te met de Redacteur van het Web te werken
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
-
 
 # Werken met de webeditor {#id181OD0QE05Z}
 
@@ -45,4 +45,3 @@ Ook, is de Redacteur van het Web DITA-bewust en het steunt DITA 1.3, 1.2 normen,
 
 
 **Bovenliggend onderwerp:**[ Inhoud van auteur schrijven met AEM hulplijnen](authoring-content-xml-doc.md)
-

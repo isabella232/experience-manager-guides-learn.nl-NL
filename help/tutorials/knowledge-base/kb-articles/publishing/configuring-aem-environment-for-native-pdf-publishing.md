@@ -1,13 +1,13 @@
 ---
 title: AEM omgeving configureren voor publicatie op eigen PDF
 description: AEM omgeving configureren voor publicatie op eigen PDF
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
+source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 1%
 
 ---
-
 
 # AEM omgeving configureren voor publicatie op eigen PDF
 
@@ -59,11 +59,11 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 
    JAVA 11:
 
-   %JAVA_HOME%\bin\server\
+   % JAVA_HOME% \ bin\server\
 
    JAVA 8:
 
-   %JAVA_HOME%\jre\bin\server\
+   % JAVA_HOME% \ jre\bin\server\
 
 10. Klik nogmaals op OK in het dialoogvenster Omgevingsvariabelen.
 11. Klik nogmaals op OK in het dialoogvenster Systeemeigenschappen.
@@ -81,13 +81,13 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 
    JAVA 11:
 
-   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   1. exporteren van JAVA \ _HOME =/usr/lib/jvm/Java-11.0.15.1
    2. PATH=$PATH exporteren: $JAVA\_HOME/bin
    3. LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
 
    JAVA 8:
 
-   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   1. exporteren van JAVA \ _HOME =/usr/lib/jvm/Java-11.0.15.1
    2. PATH=$PATH exporteren: $JAVA\_HOME/bin
 
 
@@ -96,15 +96,15 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 7. Open terminal in crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ locatie.
 8. Knooppunt_modules-map verwijderen met onderstaande opdracht
 
-   **rm -rf node_modules**
+   **RM-RF node_modules**
 
 9. Knop_modules.zip decomprimeren met onderstaande opdracht
 
-   **unzip node_modules.zip**
+   **uitpakken node_modules. zip**
 
 10. Als de opdracht unzip niet is geïnstalleerd/herkend, kan deze worden geïnstalleerd met de volgende opdracht
 
-   **yum install unzip**
+   **yum-installatie uitpakken**
 
 11. Installeer het fontconfig-pakket.
 Opdracht: yum install fontconfig
@@ -129,7 +129,7 @@ Het handmatig importeren van de gedownloade knooppuntmodules voor Linux-besturin
 
    JAVA 11:
 
-   export JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
+   exporteren van JAVA \ _HOME =/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
 
 5. Bashrc opnieuw laden
 
@@ -141,17 +141,17 @@ Het handmatig importeren van de gedownloade knooppuntmodules voor Linux-besturin
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs-b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) zoeken. -type d -exec chmod 0755 {} \;
-ii) find . -type f -exec chmod 0755 {} \;
-iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix. install —unsafe-perm —scripts-prepend-node-path
+   i) zoeken. -type d-exec chmod 0755 {} \;
+II) vind. -type f-exec chmod 0755 {} \;
+III)./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix. install —unsafe-perm —scripts-prepend-node-path
 
 8. Controleren of Java is geïnstalleerd met de onderstaande opdracht
 
    i) Uitvoeren **./node-darwin/bin/node** bevel van /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
 
-   ![mac](../assets/publishing/mac.png)
+   ![Mac](../assets/publishing/mac.png)
 
-   ii) a = require(&#39;java&#39;)
+   II) a = vereist (&#39; Java &#39;)
 
 9. Installeer het fontconfig-pakket.
 Opdracht: apt install fontconfig
@@ -162,7 +162,7 @@ Opdracht: apt install fontconfig
 
 Hieronder ziet u de algemene fouten die kunnen optreden tijdens het genereren van PDF wanneer omgevingsvariabelen niet correct zijn ingesteld.
 
-### Null pointer Exception in Windows/Mac OS
+### Null-aanwijzer uitzondering in Windows/Mac OS
 
 ![null pointer uitzondering](../assets/publishing/null-pointer-exception.png)
 

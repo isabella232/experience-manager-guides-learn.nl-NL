@@ -1,13 +1,13 @@
 ---
 title: Native PDF-publicatiefunctie | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
+source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
 
@@ -72,5 +72,3 @@ Tot slot kunt u stijlen op de volledige inhoud binnen het onderwerp ook toepasse
 Met de bovenstaande opmaakkenmerken wordt links van het dialoogvenster een wijzigingsbalk toegevoegd *Geschiedenis van de vlucht* onderwerp, zoals hieronder getoond:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
-
-

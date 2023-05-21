@@ -1,13 +1,13 @@
 ---
 title: Bestanden downloaden
 description: Leer hoe u bestanden kunt downloaden
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
 
 ---
-
 
 # Bestanden downloaden {#id216MC0H0BE8}
 
@@ -56,4 +56,3 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 Nadat de kaart is gedownload, kunt u de kaart selecteren en het pictogram Openen bovenaan gebruiken om het geselecteerde rapport te openen.
 
 **Bovenliggend onderwerp:**[ Inhoud beheren](authoring.md)
-

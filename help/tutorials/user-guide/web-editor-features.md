@@ -884,7 +884,7 @@ Wanneer u *een nieuwe map maken*, krijgt u de **Nieuwe map maken** dialoogvenste
 
 ![](images/new-folder-dialog_cs.png){width="300" align="left"}
 
-Voer een **Titel** voor de map, die automatisch wordt omgezet in de mapnaam. Het pad is het pad waarin u het kaartbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad. Wanneer u op **Maken**, wordt de map gemaakt en toegevoegd in de map vanwaar de optie Map maken is uitgevoerd.
+Voer een **Titel** voor de map, die automatisch wordt geconverteerd naar de mapnaam. Het pad is het pad waarin u het kaartbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad. Wanneer u op **Maken**, wordt de map gemaakt en toegevoegd in de map vanwaar de optie Map maken is uitgevoerd.
 
 **Kaartweergave** -  ![](images/map-view-icon.svg)
 

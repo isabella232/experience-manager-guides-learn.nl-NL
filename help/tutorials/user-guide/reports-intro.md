@@ -1,13 +1,13 @@
 ---
 title: Rapporten
 description: Meer informatie over rapporten
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
 
 ---
-
 
 # Rapporten {#id1645H9007MZ}
 
@@ -27,5 +27,3 @@ U kunt DITA-kaartrapporten op twee manieren maken:
 - **[Conversiestatus-rapport](reports-convertion-status.md)**
 
 - **[Rapport voor versiehistorie van teruggedraaide bestanden](reports-reverted-file-version-history.md)**
-
-

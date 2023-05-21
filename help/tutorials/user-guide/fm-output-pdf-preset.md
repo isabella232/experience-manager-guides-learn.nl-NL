@@ -1,13 +1,13 @@
 ---
 title: PDF
 description: Leer hoe u PDF kunt gebruiken
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: ece004ed-5233-460b-889d-94e693ceed93
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
 
 ---
-
 
 # PDF {#id205BB0T20RH}
 
@@ -39,4 +39,3 @@ De volgende opties zijn beschikbaar voor de Uitvoer van PDF:
 | Workflow na generatie uitvoeren | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 
 **Bovenliggend onderwerp:**[ Produceer output van documenten FrameMaker](fm-output-generatation.md)
-

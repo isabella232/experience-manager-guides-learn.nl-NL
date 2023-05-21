@@ -1,13 +1,13 @@
 ---
 title: De webeditor starten
 description: Leer hoe te om de Redacteur van het Web te lanceren
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
 
 ---
-
 
 # De webeditor starten {#id2056B0140HS}
 
@@ -102,4 +102,3 @@ Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

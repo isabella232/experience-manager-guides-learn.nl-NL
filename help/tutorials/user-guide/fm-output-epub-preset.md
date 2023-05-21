@@ -1,13 +1,13 @@
 ---
 title: ePub
 description: Leer hoe u EPUB maakt
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
 
 ---
-
 
 # ePub {#id205BB0V0PQZ}
 
@@ -26,4 +26,3 @@ De volgende opties zijn beschikbaar voor de uitvoer van EPUBS:
 | Workflow na generatie uitvoeren | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 
 **Bovenliggend onderwerp:**[ Produceer output van documenten FrameMaker](fm-output-generatation.md)
-

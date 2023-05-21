@@ -1,13 +1,13 @@
 ---
 title: Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren
 description: Leer hoe u voorinstellingen voor de uitvoer van Global- en Mapprofielen beheert
-source-git-commit: 3b33b27e4acb8d0b185427725e23b8beac0c2a46
+exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren {#id22BLJ0D0V1U}
 
@@ -52,4 +52,3 @@ U kunt ook de volgende bewerkingen uitvoeren op de voorinstelling via het menu O
 > Wanneer een uitvoervoorinstelling in algemene profielen en mapprofielen wordt verwijderd, wordt deze weergegeven in alle verwante mappen en wordt de voorinstelling niet weergegeven onder de **Uitvoer** tab.
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

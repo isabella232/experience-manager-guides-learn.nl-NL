@@ -1,13 +1,13 @@
 ---
 title: Voorinstellingen voor voorwaarden gebruiken
 description: Leer hoe u voorinstellingen voor voorwaarden kunt gebruiken
-source-git-commit: 6eb8d29e71301581e8dbb5b6a4252194c5a89f96
+exl-id: cd8f8196-ba03-4a4b-9ce8-2651de4e5cc2
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
 
 ---
-
 
 # Voorinstellingen voor voorwaarden gebruiken {#id1825FL004PN}
 
@@ -72,4 +72,3 @@ U kunt een of meer voorinstellingen voor voorwaarden verwijderen uit het dialoog
 1. Klikken **Verwijderen** om de actie te bevestigen.
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Andere functies in de webeditor
 description: Leer hoe te Andere eigenschappen in de Redacteur van het Web
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
 
 ---
-
 
 # Andere functies in de webeditor {#id2056B0B0YPF}
 
@@ -212,4 +212,3 @@ Ga als volgt te werk om automatisch een id voor een of meerdere elementen te gen
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

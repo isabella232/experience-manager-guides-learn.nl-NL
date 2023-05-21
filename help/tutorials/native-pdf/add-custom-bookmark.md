@@ -1,13 +1,13 @@
 ---
 title: Native PDF-publicatiefunctie | Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
-source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
+exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
+source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 
@@ -38,4 +38,3 @@ In de uitvoer van de PDF, *Lijst met contactpersonen* tabel wordt toegevoegd op 
 >[!NOTE]
 >
 >U moet het juiste niveau kiezen waar de aangepaste bladwijzer wordt toegevoegd. Als u een getal opgeeft dat kleiner is dan de bladwijzer van het bovenliggende onderwerp, neemt de aangepaste bladwijzer de positie van de bovenliggende bladwijzer en worden alle andere bladwijzers als onderliggende bladwijzers weergegeven. Dit kan tot onverwachte bladwijzerstructuur leiden.
-

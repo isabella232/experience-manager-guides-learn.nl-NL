@@ -1,13 +1,13 @@
 ---
 title: Een voorvertoning van een onderwerp weergeven
 description: Leer hoe u een onderwerp kunt voorvertonen
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: fb8eb87b-2a98-4540-9329-08a759145497
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '1815'
 ht-degree: 0%
 
 ---
-
 
 # Een voorvertoning van een onderwerp weergeven {#id1696II000QR}
 
@@ -214,4 +214,3 @@ Als de kolom Uitgecheckt niet zichtbaar is, selecteert u **Instellingen weergeve
    Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Zie voor meer informatie over dit rapport [Rapport voor versiehistorie van teruggedraaide bestanden](reports-reverted-file-version-history.md#).
 
 **Bovenliggend onderwerp:**[ Onderwerpen maken en voorvertonen](create-preview-topics.md)
-

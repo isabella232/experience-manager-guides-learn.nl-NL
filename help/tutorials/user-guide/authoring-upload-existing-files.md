@@ -1,13 +1,13 @@
 ---
 title: Bestanden uploaden
 description: Leer hoe u bestanden kunt uploaden
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
 
 ---
-
 
 # Bestanden uploaden {#id176FF000JUI}
 
@@ -46,4 +46,3 @@ Voor meer informatie over hoe de verschillende scenario&#39;s voor het uploaden 
 Als u een gereedschap gebruikt, zoals AEM bureaubladtoepassing of het bulksgewijs invoegen van middelen, wordt de handeling die op een gedupliceerd bestand wordt uitgevoerd, bepaald door een instelling op de AEM server. Neem contact op met de systeembeheerder voor informatie over deze configuratie.
 
 **Bovenliggend onderwerp:**[ Inhoud beheren](authoring.md)
-

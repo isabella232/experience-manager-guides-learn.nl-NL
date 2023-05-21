@@ -1,13 +1,13 @@
 ---
 title: Voorinstelling ePub
 description: Leer hoe u Voorinstelling EPUB gebruikt
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 19425ed2-fd7e-49c2-8f84-fc559a1db81b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
 
 ---
-
 
 # ePub {#id205BED020YT}
 
@@ -35,4 +35,3 @@ Als u uitvoervoorinstellingen voor EPUB wilt openen, klikt u op een DITA-toewijz
 | Eigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen die u in de vervolgkeuzelijst selecteert, worden onder het veld Eigenschappen weergegeven en uit de vervolgkeuzelijst verwijderd. Zodra reeks, worden deze eigenschappen ook gekopieerd in de onderwerpen binnen de kaart.<br><br>**Opmerking**: U kunt de metagegevens ook doorgeven aan de uitvoer met DITA-OT-publicatie. Zie voor meer informatie [Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Bovenliggend onderwerp:**[ Uitvoervoorinstellingen](generate-output-understand-presets.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Workflow na generatie
 description: Een overzicht van de workflow na de generatie met een voorbeeld
-source-git-commit: 447cd512d1b6cdce3bd1ddded1575dab87daa04a
+exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
+source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
 
 ---
-
 
 # Publiceren van hulplijnen AEM - workflow na generatie
 
@@ -49,7 +49,7 @@ Ervan uitgaande dat het geselecteerde model al is gemaakt.
 Nu kunt u de publicatie uitvoeren met deze voorinstelling en de uitvoer van de processtap valideren
 
 
-## Voorbeeld
+## Monster
 
 Ter referentie kunt u het onderstaande pakket gebruiken en installeren via pakketbeheer om de workflow na de generatie te testen (*zoals vermeld in bovenstaande screenshots*)
 

@@ -1,13 +1,13 @@
 ---
 title: Andere functies in de kaarteditors
 description: Meer informatie over andere functies in kaarteditors
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: ed6f42f6-b95e-4c4d-a648-6f29641a3488
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Andere functies in de kaarteditors {#id1942D0T0HUI}
 
@@ -40,4 +40,3 @@ Deze hoofdmap is van toepassing op alle elementen \(mappen en submappen\) die bi
 **Weergave Onderwerpen bewerken** - Klik op het pictogram Hoofdresolutie tijdens het bewerken van een DITA-onderwerp en selecteer het DITA-bestand dat u wilt gebruiken voor het oplossen van de belangrijkste referenties.
 
 **Bovenliggend onderwerp:**[ Werken met de Kaarteditor](map-editor.md)
-

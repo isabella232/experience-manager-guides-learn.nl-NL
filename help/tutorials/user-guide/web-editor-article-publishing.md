@@ -1,13 +1,13 @@
 ---
 title: Publiceren op basis van artikelen vanuit de webeditor
 description: Leer hoe te op artikel-gebaseerde het publiceren van de Redacteur van het Web
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b827c606-0d4b-4e7b-8a82-75b375dffe1a
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Publiceren op basis van artikelen vanuit de webeditor {#id218CL05J0M1}
 
@@ -31,4 +31,3 @@ U kunt ook de uitvoervoorinstellingen gebruiken die voor uw DITA-kaart zijn gema
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

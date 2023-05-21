@@ -347,8 +347,8 @@ Velden zijn erg handig wanneer u een vooraf gedefinieerde informatie wilt invoeg
 
 Er zijn de volgende categorieën voor gebieden die u in uw paginalay-out kunt opnemen:
 
-* Date
-* Time
+* Datum
+* Tijd
 * Onderwerptitel
 * Projecttitel
 * Paginanummer

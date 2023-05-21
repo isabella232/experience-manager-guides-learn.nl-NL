@@ -343,7 +343,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Native PDF | Geneste topicref in aanhangsels worden allemaal omgezet in h1 in de tijdelijke HTML.( 10454)
 * Native PDF | Kan de onderwerpen over de voorgrond niet verbergen in de inhoudsopgave. (10355)
 * Native PDF | Kenmerk tabelframe niet doorgegeven aan de tijdelijke HTML (als klasse). (10353)
-* Native PDF | Tijdelijke HTML-bestanden voegen de klassen colsep en rowsep toe aan <td> and <th> zelfs als hun waarde 0 in bronDITA is. (10352)
+* Native PDF | Tijdelijke HTML-bestanden voegen de klassen colsep en rowsep toe aan <td> en <th> zelfs als hun waarde 0 in bronDITA is. (10352)
 * Native PDF | Als u de paginanummers opnieuw instelt in de hoofdstuklayout, wordt de nummering vanaf het einde van het vorige hoofdstuk gestart. (10154)
 * Native PDF | De belangrijkste verwijzingen voor keydefs met beeld of externe verbindingen worden niet opgelost. (10063)
 * Native PDF | Bijlage wordt weergegeven als een hoofdstuk in gegenereerde PDF. (9829)

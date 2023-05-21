@@ -1,7 +1,8 @@
 ---
 title: Overzicht van de sessie met experts
 description: Openingspagina voor de sectie van de deskundigensessie.
-source-git-commit: 474f9c3079a2b48bd1664469e1d063f14b49e6df
+exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
+source-git-commit: a23ede21ab8060f629be0466d127d9c1f01f9b5d
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%

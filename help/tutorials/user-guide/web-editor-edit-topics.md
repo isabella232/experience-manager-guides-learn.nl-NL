@@ -1,13 +1,13 @@
 ---
 title: Onderwerpen bewerken in de webeditor
 description: Leer hoe te om onderwerpen in de Redacteur van het Web uit te geven
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
 
 ---
-
 
 # Onderwerpen bewerken in de webeditor {#id2056B040VUI}
 
@@ -53,4 +53,3 @@ AEM Hulplijnen biedt de werkkopie-indicator die aangeeft of de huidige \(werkkop
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

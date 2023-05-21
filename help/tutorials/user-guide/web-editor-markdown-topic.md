@@ -1,13 +1,13 @@
 ---
 title: Documenten met opmaak auteur
 description: Meer informatie over het maken van opmaakdocumenten
-source-git-commit: fa6e9f8b32d191f5b6f7136724d2145d81317767
+exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # De documenten van de Prijsverhoging van de auteur van het Web van de Redacteur {#id223MIE0B079}
 
@@ -60,4 +60,3 @@ Voer de volgende stappen aan auteur uit een onderwerp van de Prijsverhoging van 
 > Als u geen opgeslagen wijzigingen hebt, wordt een pop-up weergegeven en wordt u gevraagd uw onderwerp op te slaan voordat u het sluit.
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

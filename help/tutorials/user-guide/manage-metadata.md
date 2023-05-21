@@ -1,13 +1,13 @@
 ---
 title: Metagegevens beheren
 description: Meer informatie over het beheren van metagegevens
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
-
 
 # Metagegevens beheren {#id221EJ0500LI}
 
@@ -20,5 +20,3 @@ Adobe Experience Manager Assets biedt ondersteuning voor het toevoegen, bewerken
 - **[Slimme tags toepassen](web-editor-smart-tagging.md)**
 
 - **[Labels in bulk voor DITA-inhoud](map-editor-bulk-tagging.md)**
-
-

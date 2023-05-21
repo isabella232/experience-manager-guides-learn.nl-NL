@@ -1,13 +1,13 @@
 ---
 title: Onderwerpen maken en voorvertonen
 description: Leer hoe u onderwerpen kunt maken en voorvertonen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: a33daf94-fa7b-40e7-bebe-8ae64399da48
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # Onderwerpen maken en voorvertonen {#id21BQE0RJ042}
 
@@ -19,4 +19,3 @@ AEM de Gidsen komen met een krachtige eigenschap om onderwerpen DITA van de Acti
 
 
 **Bovenliggend onderwerp:**[ Inhoud auteur](authoring-content.md)
-

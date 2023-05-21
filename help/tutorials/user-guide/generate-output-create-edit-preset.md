@@ -1,13 +1,13 @@
 ---
 title: Een uitvoervoorinstelling maken, bewerken, dupliceren of verwijderen
 description: Leer hoe u een uitvoervoorinstelling maakt, bewerkt, dupliceert of verwijdert
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
 
 ---
-
 
 # Een uitvoervoorinstelling maken, bewerken, dupliceren of verwijderen {#id205BEH0K09Z}
 
@@ -76,4 +76,3 @@ Voer de volgende stappen uit om een bestaande uitvoervoorinstelling te verwijder
 
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

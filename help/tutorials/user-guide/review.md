@@ -1,13 +1,13 @@
 ---
 title: Onderwerpen of kaarten controleren
 description: Leer hoe u onderwerpen of kaarten kunt controleren
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Onderwerpen of kaarten controleren {#id1645H6010Q5}
 
@@ -62,5 +62,3 @@ Functies die beschikbaar zijn voor de *revisoren*:
 - **[Opmerkingen voor revisie van adres](review-address-review-comments.md)**
 
 - **[Revisietaken beheren met het dashboard Revisie](review-manage-tasks-review-dashboard.md)**
-
-

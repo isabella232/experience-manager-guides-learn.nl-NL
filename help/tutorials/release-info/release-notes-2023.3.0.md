@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager-hulplijnen as a Cloud Service, release maart 2023
 description: Release Adobe Experience Manager Guides as a Cloud Service in maart
-source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
+exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 1%
@@ -81,4 +82,3 @@ Adobe heeft het volgende bekende probleem voor AEM Guides as a Cloud Service maa
 * Gebruikers kunnen geen versie van een gedupliceerd element opslaan of maken.
 
 **Workaround**: Voordat u wijzigingen aanbrengt in het dubbele element, moet u dit opnieuw verwerken via de interface Elementen.
-

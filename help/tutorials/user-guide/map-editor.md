@@ -1,13 +1,13 @@
 ---
 title: Werken met de Kaarteditor
 description: Leer hoe u met de Kaarteditor kunt werken
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
 
 ---
-
 
 # Werken met de Kaarteditor {#id181OF0M30Y4}
 
@@ -33,4 +33,3 @@ Dit onderwerp begeleidt u door het proces om een kaart te creëren DITA en dan d
 
 
 **Bovenliggend onderwerp:**[ Inhoud van auteur schrijven met AEM hulplijnen](authoring-content-xml-doc.md)
-

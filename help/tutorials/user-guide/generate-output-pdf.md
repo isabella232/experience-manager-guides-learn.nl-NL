@@ -1,13 +1,13 @@
 ---
 title: PDF genereren
 description: Leer hoe u PDF-uitvoer genereert
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 799b7875-0de2-40c6-9e7f-7edc79b98a4b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
 
 ---
-
 
 # PDF {#id205BE600HAH}
 
@@ -66,4 +66,3 @@ De volgende opties zijn beschikbaar voor de Uitvoer van PDF:
 | Eigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen die u in de vervolgkeuzelijst selecteert, worden onder de **Eigenschappen** en worden verwijderd uit de vervolgkeuzelijst. Zodra reeks, worden deze eigenschappen ook gekopieerd in de onderwerpen binnen de kaart.<br><br>Opmerking: U kunt de metagegevens ook doorgeven aan de uitvoer met DITA-OT-publicatie. Zie voor meer informatie [Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Bovenliggend onderwerp:**[ Uitvoervoorinstellingen](generate-output-understand-presets.md)
-

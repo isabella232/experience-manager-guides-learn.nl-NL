@@ -1,13 +1,13 @@
 ---
 title: Leer hoe u inhoud kunt vertalen
 description: Leer hoe u inhoud kunt vertalen
-source-git-commit: 6eb8d29e71301581e8dbb5b6a4252194c5a89f96
+exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud vertalen {#id1645H700L67}
 
@@ -27,5 +27,3 @@ AEM Hulplijnen worden geleverd met krachtige functies waarmee u uw inhoud in mee
 - **[Vertaalstatus weergeven](translation-view-trans-state-6234.md)**
 
 - **[Gewijzigde onderwerpen vertalen](translation-modified-topics-6234.md)**
-
-

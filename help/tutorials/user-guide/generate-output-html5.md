@@ -1,13 +1,13 @@
 ---
 title: HTML5 gebruiken
 description: Leer hoe u HTML5 gebruikt
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
 
 ---
-
 
 # HTML5 {#id205BE700XO1}
 
@@ -68,4 +68,3 @@ De volgende opties zijn beschikbaar voor de uitvoer van HTML5:
 | Eigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen die u in de vervolgkeuzelijst selecteert, worden onder het veld Eigenschappen weergegeven en uit de vervolgkeuzelijst verwijderd. Zodra reeks, worden deze eigenschappen ook gekopieerd in de onderwerpen binnen de kaart.<br><br>**Opmerking**: U kunt de metagegevens ook doorgeven aan de uitvoer met DITA-OT-publicatie. Zie voor meer informatie [Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Bovenliggend onderwerp:**[ Uitvoervoorinstellingen](generate-output-understand-presets.md)
-

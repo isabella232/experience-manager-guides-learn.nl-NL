@@ -1,13 +1,13 @@
 ---
 title: Onderwerpen maken
 description: Leer hoe u onderwerpen kunt maken
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
 
 ---
-
 
 # Onderwerpen maken {#id2056AL00O5Z}
 
@@ -57,4 +57,3 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 > Zodra u uw onderwerp DITA hebt gecreeerd, houd sparen de veranderingen in uw het werk exemplaar en creeer een nieuwe versie zodra u de updates aan uw onderwerp hebt voltooid.
 
 **Bovenliggend onderwerp:**[ Onderwerpen maken en voorvertonen](create-preview-topics.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Inhoud beheren
 description: Leer hoe u inhoud beheert
-source-git-commit: bad2f5cea2c00ca6c9758da27f0dba89a8579eb7
+exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud beheren {#id164JBG0M0T1}
 
@@ -98,8 +98,3 @@ Met AEM hulplijnen kunt u ontwerpsjablonen \(onderwerp of kaart\), uitvoersjablo
 Ook, kunt u de omslag-specifieke configuraties aan een afdeling of productbeheerders delegeren om het beleid te decentraliseren.
 
 Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Profielen op algemeen niveau of mapniveau configureren* in Installeer en configureer as a Cloud Service Adobe Experience Manager-hulplijnen.
-
-
-
-
-

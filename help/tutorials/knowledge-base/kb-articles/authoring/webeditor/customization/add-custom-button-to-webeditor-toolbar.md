@@ -1,7 +1,8 @@
 ---
 title: Nieuwe aangepaste actieknop toevoegen op de werkbalk Webeditor
 description: Leer hoe u een nieuwe aangepaste knop toevoegt op de werkbalk voor spetters en javascript aanroept om deze aan te passen.
-source-git-commit: 26a6acde54953eab1d751f165d0f7769c7e790fe
+exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
+source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%

@@ -1,13 +1,13 @@
 ---
 title: Weergaven van de webeditor
 description: Leer hoe te de meningen van de Redacteur van het Web
-source-git-commit: fa6e9f8b32d191f5b6f7136724d2145d81317767
+exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
 
 ---
-
 
 # Weergaven van de webeditor {#id204GK0D0V5Z}
 
@@ -150,4 +150,3 @@ Voer de volgende stappen uit om een onderwerp als PDF te exporteren:
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

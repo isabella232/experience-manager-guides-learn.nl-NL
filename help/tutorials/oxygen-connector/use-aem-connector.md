@@ -3,13 +3,13 @@ title: Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen
 description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulplijnen kunt gebruiken om uw inhoud te maken en te beheren.
 hide: true
 hidefromtoc: true
-source-git-commit: 96347fed96979eb735dc55c32fcda90cc70ddcb4
+exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '5762'
 ht-degree: 0%
 
 ---
-
 
 # Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen {#id1645H6010Q5}
 

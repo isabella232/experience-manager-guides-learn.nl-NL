@@ -1,13 +1,13 @@
 ---
 title: Bestanden en mappen beheren
 description: Leer hoe u bestanden en mappen kunt beheren
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 0%
 
 ---
-
 
 # Bestanden en mappen beheren {#id2116G0L08XA}
 
@@ -79,7 +79,7 @@ In deze sectie wordt uitgelegd hoe AEM hulplijnen de basisbestandsbewerkingen, z
 
 Als het bestand wordt overschreven, is er geen wijziging in de bestandsnaam of de bijbehorende UUID.
 
-Als u **Versie maken voor de bestaande werkkopie** wordt een nieuwe versie van de werkkopie van het document gemaakt; het nieuwe bestand wordt geüpload, er wordt ook een nieuwe versie van het bestand gemaakt en het wordt gemaakt als werkkopie van het document.
+Als u **Versie maken voor de bestaande werkkopie** wordt een nieuwe versie van de werkkopie van het document gemaakt; het nieuwe bestand wordt geüpload, er wordt ook een nieuwe versie van het bestand gemaakt en het wordt gemaakt als de werkkopie van het document.
 
 **Nieuwe versie maken voor geüpload bestand** moet worden ingeschakeld door uw beheerder. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Zie voor meer informatie *Nieuwe versie maken voor geüpload bestand* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
@@ -249,4 +249,3 @@ Als het mediabestand wijzigingen heeft ondergaan, kunt u de bestanden in het dia
 
 
 **Bovenliggend onderwerp:**[ Inhoud beheren](authoring.md)
-

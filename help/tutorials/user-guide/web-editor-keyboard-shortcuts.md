@@ -1,13 +1,13 @@
 ---
 title: Sneltoetsen in de webeditor
 description: Leer hoe u sneltoetsen kunt gebruiken in de webeditor
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: e8be4c83-a236-43c1-b778-c3da92537174
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
 
 ---
-
 
 # Sneltoetsen in de webeditor {#id2056B0A0WHT}
 
@@ -37,4 +37,3 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | Laatste handeling opnieuw | ***Ctrl***+**Y** |
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-

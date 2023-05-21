@@ -1,13 +1,13 @@
 ---
 title: Inhoud auteur
 description: Ervaar hoe u inhoud kunt ontwerpen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: bba2a7a1-ffbc-4d28-9b70-a0274f03e29b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud auteur {#id221EAJ0A047}
 
@@ -22,5 +22,3 @@ U kunt ook bureaubladgereedschappen gebruiken om inhoud te maken. Met deze geree
 - **[Inhoud van auteur schrijven met AEM hulplijnen](authoring-content-xml-doc.md)**
 
 - **[Inhoud ontwerpen met bureaubladgereedschappen](author-desktop-tools.md)**
-
-

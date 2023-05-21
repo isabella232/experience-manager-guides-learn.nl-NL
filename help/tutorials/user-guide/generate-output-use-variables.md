@@ -1,13 +1,13 @@
 ---
 title: Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam
 description: Leer hoe te variabelen gebruiken voor het plaatsen van de Pad van de Bestemming, de Naam van de Plaats, of de opties van de Naam van het Dossier
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
 
 ---
-
 
 # Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam
 
@@ -27,4 +27,3 @@ In de volgende tabel worden de variabelen weergegeven die uit het vak worden ond
 
 Daarnaast kunt u de metagegevens die voor de DITA-kaart of het bladwijzerbestand zijn gedefinieerd, ook als variabelen gebruiken. De metagegevens vindt u onder de `/jcr:content/metadata` knooppunt van de DITA-kaart of het bladwijzerbestand. Een van de metagegevenseigenschappen die bijvoorbeeld zijn gedefinieerd in het dialoogvenster `/jcr:content/metadata` node is `dc:title`. U kunt `${dc:title}` en de titelwaarde wordt gebruikt in de definitieve output.
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-

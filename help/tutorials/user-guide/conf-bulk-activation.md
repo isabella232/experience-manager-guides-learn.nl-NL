@@ -1,13 +1,13 @@
 ---
 title: Bulkactivering van gepubliceerde inhoud
 description: Meer informatie over het bulksgewijs activeren van gepubliceerde inhoud
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
 
 # Bulkactivering van gepubliceerde inhoud {#id214GG080LE8}
 
@@ -38,4 +38,3 @@ Met de functie AEM bulkactivering van hulplijnen kunt u uw inhoud snel en eenvou
 
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
-
