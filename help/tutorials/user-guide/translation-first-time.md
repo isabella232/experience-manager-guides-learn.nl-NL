@@ -2,9 +2,9 @@
 title: Aanbevolen procedures voor het vertalen van inhoud
 description: Meer informatie over tips en trucs voor het vertalen van inhoud
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,16 @@ Voer de volgende stappen uit om een vertaalproject te maken:
 1. Klikken **Start** om een nieuw vertaalproject op te zetten.
 
    Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaal een gebied kopieert dat beschikbaar is in het vertaalproject, kunt u dan doorgaan en de vertaaltaak starten.
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+Het tabblad Vertaling bevat de volgende secties:
+
+- **Samenvatting**: Toont het aantal van verwijzingen voorzien onderwerpen en brontaal samen met zijn code.
+- **Details**: Toont de onderwerptitel, het type van onderwerp, taalcode van het onderwerp, brontaal, versie van het brononderwerp, etiket dat aan het onderwerp wordt toegevoegd, en vertaalstatus.
+
+
 
 
 ## De vertaaltaak starten {#id225IK030OE8}

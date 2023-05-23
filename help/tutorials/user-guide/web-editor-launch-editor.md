@@ -2,9 +2,9 @@
 title: De webeditor starten
 description: Leer hoe te om de Redacteur van het Web te lanceren
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,34 @@ De volgende secties behandelen de details van hoe u tot de Redacteur van het Web
 
 Wanneer u zich aanmeldt bij AEM, wordt de navigatiepagina weergegeven:
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Klik op de knop **XML-editor** de verbinding neemt u rechtstreeks aan de Redacteur van het Web.
+Klik op de knop **Hulplijnen** de verbinding neemt u rechtstreeks aan de Redacteur van het Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanceerd, wordt een leeg scherm van de Redacteur van het Web getoond. U kunt een bestand openen om te bewerken vanuit AEM opslagplaats of de verzameling Favorieten.
+
+- Klik op de knop **Hulplijnen** icon (![](images/aem-guides-icon.png) ), om terug te gaan naar de AEM navigatiepagina.
+
+- De **Sluiten** de knoop neemt u aan een bestemming die op uw opstelling wordt gebaseerd:
+
+
+
+   <details>
+
+   <summary> Cloud Services </summary>
+
+   Als u Cloud Services gebruikt, klikt u op de knop **Sluiten** om terug te gaan naar de AEM navigatiepagina.
+   </details>
+
+   <details>
+
+   <summary> Software op locatie</summary>
+
+   Als u AEM de Software van de Gidsen op-gebouw (4.2.1 en later) gebruikt, klik **Sluiten** aan de rechterkant om terug te gaan naar het huidige bestandspad in de interface Middelen.
+
+   </details>
 
 ## AEM Assets-gebruikersinterface {#id2056BG0307U}
 
@@ -55,7 +76,7 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
    >
    > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet zien.
 
-1. Sluit de wijze van de activaselectie en klik op het onderwerp u wilt uitgeven.
+1. Sluit de wijze van de activaselectie en klik het onderwerp dat u wilt uitgeven.
 
    De voorvertoning van het onderwerp wordt weergegeven.
 
@@ -80,7 +101,7 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
 
 Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
 
-1. In Elementen UI, navigeer aan en klik op het DITA kaartdossier dat het onderwerp bevat u wilt uitgeven.
+1. In Elementen UI, navigeer aan en klik het DITA kaartdossier dat het onderwerp bevat u wilt uitgeven.
 
    De DITA kaartconsole wordt getoond.
 

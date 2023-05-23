@@ -2,16 +2,18 @@
 title: Onderwerpen maken
 description: Leer hoe u onderwerpen kunt maken
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Onderwerpen maken {#id2056AL00O5Z}
 
-AEM de Gidsen staat u toe om DITA onderwerpen van type - onderwerp, taak, concept, verwijzing, verklarende woordenlijst, DITAVAL, en meer tot stand te brengen. Naast het creëren van onderwerpen die op de uit-van-de-doos malplaatjes worden gebaseerd, kunt u uw douanesjablonen ook bepalen. Zie voor meer informatie over het gebruik van uw aangepaste DITA-sjablonen *Sjablonen en codes configureren voor het ontwerpen* in Installeer en configureer as a Cloud Service Adobe Experience Manager-hulplijnen.
+AEM de Gidsen staat u toe om DITA onderwerpen van type - onderwerp, taak, concept, verwijzing, verklarende woordenlijst, DITAVAL, en meer tot stand te brengen. Naast het creëren van onderwerpen die op de uit-van-de-doos malplaatjes worden gebaseerd, kunt u uw douanesjablonen ook bepalen. Deze sjablonen moeten aan het mapprofiel worden toegevoegd om weer te geven in de sjabloonselectie, de blauwdruk en de webeditor.
+
+De configuratie van het algemene profiel en het mapprofiel is alleen beschikbaar voor gebruikers met beheerdersrechten op mapniveau. Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Ontwerpsjablonen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren voor uw installatie.
 
 Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
@@ -23,7 +25,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   Door gebrek, verstrekt AEM Gidsen de het meest algemeen gebruikte DITA onderwerpmalplaatjes. U kunt meer onderwerpmalplaatjes volgens uw organisatorische vereisten vormen, zie *Sjablonen en codes configureren voor het ontwerpen* in Installeer en configureer as a Cloud Service Adobe Experience Manager-hulplijnen.
+   Door gebrek, verstrekt AEM Gidsen de het meest algemeen gebruikte DITA onderwerpmalplaatjes. U kunt meer onderwerpmalplaatjes volgens uw organisatorische vereisten vormen, zie *Ontwerpsjablonen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren voor uw installatie.
 
    >[!NOTE]
    >
