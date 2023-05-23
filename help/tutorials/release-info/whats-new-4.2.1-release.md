@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.2.1
 description: Leer de nieuwe en verbeterde functies in 4.2.1-releases van Adobe Experience Manager-hulplijnen
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Nu kunt u gemakkelijk van de Redacteur van het Web aan de pagina van de Navigati
 
 * Klik op de knop **Hulplijnen** icon (![](assets/aem-guides-icon.png) ), om terug te gaan naar de AEM navigatiepagina.
 
+
+Zie voor meer informatie [Navigatiepagina AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## Geavanceerde ondersteuning voor metagegevens in PDF-publicaties
 
@@ -45,7 +47,7 @@ De omtrekweergave biedt de volgende verbeteringen:
 
 * Met de zoekfunctie kunt u naar een element zoeken op basis van de naam, id, tekst of kenmerkwaarde.
 
-Voor meer details, zie de de eigenschapbeschrijving van de mening van het Overzicht in [Linkerdeelvenster](../user-guide/web-editor-features.md) sectie.
+Voor meer details, zie de de eigenschapbeschrijving van de mening van het Overzicht in [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Genereer het Multimedia-rapport uit de webeditor
 
@@ -80,4 +82,4 @@ AEM Hulplijnen bieden nu de functie om de audio- of videobestanden te openen en 
 
 <img src="assets/video-web-editor.png" alt="video afspelen" width="600">
 
-Zie de beschrijving van de functie Weergave opslagplaats in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md) sectie.
+Zie de beschrijving van de functie Weergave opslagplaats in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
