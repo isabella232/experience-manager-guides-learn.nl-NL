@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.2.1
 description: Leer de nieuwe en verbeterde functies in 4.2.1-releases van Adobe Experience Manager-hulplijnen
-source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
+source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Nu kunt u gemakkelijk van de Redacteur van het Web aan de pagina van de Navigati
 * Klik op de knop **Hulplijnen** icon (![](assets/aem-guides-icon.png) ), om terug te gaan naar de AEM navigatiepagina.
 
 
-Zie voor meer informatie [Navigatiepagina AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
+Zie voor meer informatie [Navigatiepagina AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Geavanceerde ondersteuning voor metagegevens in PDF-publicaties
 
