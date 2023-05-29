@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
-source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 0%
@@ -68,16 +68,22 @@ Voer de volgende stappen uit voordat u versie 4.0 installeert:
 
 Deze API is ontworpen om de huidige systeemstatus te beoordelen en te rapporteren of de upgrade mogelijk is of niet. Als u dit script wilt uitvoeren, activeert u het onderstaande eindpunt:
 
-|Eindpunt|/bin/dxml/upgrade/3xto4x/rapport| |Type aanvraag|**GET** U kunt een webbrowser gebruiken waarin u als beheerder bent aangemeld bij de AEM.| |Verwachte Reactie|- Als alle vereiste knopen kunnen worden bewogen, zult u een overgegaan controle krijgen. <br>- Als er een knooppunt aanwezig is op de doellocatie, wordt er een relevante fout gegenereerd. Maak de opslagplaats \(verwijder knoop /var/dxml\) schoon en installeer het verbeteringspakket opnieuw en breng dan dit eindpunt opnieuw teweeg. <br>**Opmerking:** Dit is geen algemene fout omdat de doellocatie niet eerder wordt gebruikt door 3.x AEM hulplijnen. <br> - Als dit script niet slaagt, ga dan niet verder en rapporteer dit niet aan uw team voor klantsucces.|
+| Eindpunt | /bin/dxml/upgrade/3xto4x/report |
+| --- | --- |
+| Type aanvraag | **GET** U kunt een webbrowser gebruiken waarin u als beheerder bent aangemeld bij de AEM. |
+| Verwacht antwoord | - Als alle vereiste knooppunten kunnen worden verplaatst, wordt een controle geslaagd weergegeven. <br>- Als er een knooppunt aanwezig is op de doellocatie, wordt er een relevante fout gegenereerd. Maak de opslagplaats \(verwijder knoop /var/dxml\) schoon en installeer het verbeteringspakket opnieuw en breng dan dit eindpunt opnieuw teweeg. <br>**Opmerking:** Dit is geen algemene fout omdat de doellocatie niet eerder wordt gebruikt door 3.x AEM hulplijnen. <br> - Als dit script niet slaagt, ga dan niet verder en rapporteer aan uw team van de klantensucces. |
 
 **API voor migratie van systeemgegevens**
 
-Deze API is ontworpen om systeemgegevens te migreren zoals vermeld in het [Migratietoewijzing](#id2244LE040XA) sectie.
+Deze API is ontworpen om systeemgegevens te migreren zoals vermeld in het **Migratietoewijzing** sectie.
 
 1. Voer dit script niet uit als de API voor compatibiliteit van upgrades controleren \(ga niet door\) mislukt.
 1. Zodra de API voor upgradeconformiteit controleren succesvol is, kunt u het upgradescript uitvoeren.
 
-|Eindpunt|/bin/dxml/upgrade/3xto4x| |Type aanvraag|**POST** Dit manuscript is een verzoek van de POST vandaar zou via agenten zoals Postman moeten worden uitgevoerd.| |Verwachte reactie|- Als de migratie succesvol is, kunt u XML Documentation-oplossing versie 4.0 installeren.<br>- Als er fouten optreden, herstelt u het laatste controlepunt en deelt u de foutlogboeken samen met de API-uitvoer met uw team voor klantsucces.|
+| Eindpunt | /bin/dxml/upgrade/3xto4x |
+| --- | --- |
+| Type aanvraag | **POST** Dit manuscript is een verzoek van de POST vandaar zou via agenten zoals Postman moeten worden uitgevoerd. |
+| Verwacht antwoord | - Als de migratie is voltooid, kunt u XML Documentation-oplossing versie 4.0 installeren.<br>- Als er fouten zijn, herstelt u het laatste controlepunt en deelt u de foutlogboeken samen met de API-uitvoer met het succesteam van de klant. |
 
 **Migratietoewijzing**: De bovenstaande API migreert alle gegevens onder de bronlocatie naar de doellocatie.
 
