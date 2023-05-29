@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 3%
       + [Inhoud vertalen](./install-guide/translation.md)
       + [Zoeken naar gebruikersinterface van AEM Assets configureren](./install-guide/conf-dita-search.md)
       + [Aanhangsel](./install-guide/appendix.md)
-+ Kwesties voor inhoudsarchitectuur en gebruik {#content-arch}
-   + [Werken met voorwaardelijke uitvoer](./content-architecture/create-and-use-conditions.md)
-   + [Algemene toetsen maken](./content-architecture/create-global-keys.md)
 + Configureren {#configuring}
    + Systeemeigen PDF-publicatie {#config-native-pdf-publish}
       + [PDF-sjabloon](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 3%
          + [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](./native-pdf/add-custom-bookmark.md)
          + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
          + [Aangepaste stijlen gebruiken in voetnoten](./native-pdf/footnote-number-style.md)
-   + [Een aangepaste DITA-OT instellen](./configuring/setup-a-custom-dita-ot.md)
-+ Vertaling {#translation}
-   + [Alinea&#39;s uitsluiten van vertaling](./translation/exclude-paragraphs-from-translation.md)
 + Versioning {#versioning}
 + Kennisbank {#knowledge-base}
    + Expertsessie {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 3%
          + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Microservicearchitectuur en -prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
+         + [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Workflows {#workflows}
          + [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + Vertaling {#translation}
+         + [Alinea&#39;s uitsluiten van vertaling](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + Gevallen gebruiken {#use-cases}
+         + [Werken met voorwaardelijke inhoud](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [Werken met toetsen](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
