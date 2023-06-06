@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides in juni 2023
-source-git-commit: 5e1d1cef82c409a6404934d5c28a94c5b9230233
+source-git-commit: 03d90157f7169373a287f24ab666bfea634e0ca4
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 2%
@@ -103,7 +103,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.05.0 | Niet compatibel | 2022 of hoger |
+| 2023.06.0 | Niet compatibel | 2022 of hoger |
 |  |  |  |
 
 
@@ -111,7 +111,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.05.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
