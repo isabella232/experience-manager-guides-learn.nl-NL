@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de Adobe Experience Manager Guides 4.2.1 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade kunt uitvoeren naar 4.2.1-versies van Adobe Experience Manager-hulplijnen
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 4%
@@ -10,7 +11,7 @@ ht-degree: 4%
 
 # 4.2.1 Release van Adobe Experience Manager Guides (mei 2023)
 
-In deze releaseopmerking worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen besproken die zijn opgelost met de release van Adobe Experience Manager-hulplijnen (later genoemd als *Hulplijnen AEM*).
+In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.2.1 van de Adobe Experience Manager-hulplijnen (later genoemd als *Hulplijnen AEM*).
 
 Voor meer informatie over de nieuwe functies en verbeteringen raadpleegt u [Nieuwe functies in 4.2.1-release van Adobe Experience Manager-hulplijnen](whats-new-4.2.1-release.md).
 
@@ -110,5 +111,3 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Controleren
 
 * Voltooide revisie wordt niet geopend in de modus Alleen-lezen. (11387)
-
-

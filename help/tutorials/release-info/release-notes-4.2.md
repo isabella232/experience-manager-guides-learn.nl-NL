@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.2 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.2-versies van Adobe Experience Manager-hulplijnen
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # 4.2 Vrijgave van Adobe Experience Manager-hulplijnen (februari 2023)
 
-In deze releaseopmerking worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen besproken die zijn opgelost met de release van Adobe Experience Manager Guides van versie 4.2 (later genoemd als *Hulplijnen AEM*).
+In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.2 van de Adobe Experience Manager-hulplijnen (later *Hulplijnen AEM*).
 
 Voor meer informatie over de nieuwe functies en verbeteringen raadpleegt u [Nieuwe functies in 4.2-release van Adobe Experience Manager-hulplijnen](whats-new-4.2-release.md).
 

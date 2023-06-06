@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Een pagina-indeling ontwerpen
 description: Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschillende gedeelten van uw PDF-uitvoer weer te geven.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ Er zijn de volgende categorieën voor gebieden die u in uw paginalay-out kunt op
 
 Elk van deze veldcategorieën bevat verschillende variaties waarin de veldinformatie kan worden ingevoegd. Een datumveld kan bijvoorbeeld verschillende variaties hebben, zoals `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` enzovoort. Op dezelfde manier kan het paginanummer variaties hebben in de vorm van Romeinse, decimale of zelfs landspecifieke notaties, zoals _Arabisch_, _Devanagari_, _Hebreeuws_ en meer.
 
-Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out.
+
+U kunt ook de eigenschappen van metagegevens selecteren uit uw elementen en deze toevoegen aan de pagina-indeling. De metagegevens van de elementen worden vervolgens gepubliceerd voor uw PDF-uitvoer. Deze metagegevenseigenschappen van de elementen worden ingesteld op basis van de **Eigenschappen** pagina van de DITA-kaart of het bladwijzerbestand.
+
+>[!NOTE]
+>
+> De metagegevensvelden worden weergegeven op basis van uw selectie van element of kaart in het deelvenster **Van** vervolgkeuzelijst.
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoegd in het voettekstgebied van een paginalay-out.
 

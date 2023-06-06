@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | JavaScript gebruiken om met inhoud of stijl te werken
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,35 @@ Vervolgens moet dit script worden aangeroepen vanuit een sjabloonbestand dat wor
 De uitvoer die met deze code wordt gegenereerd en de sjabloon geeft de figuurtitel onder de afbeelding weer:
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## Een watermerk toevoegen aan de PDF-uitvoer voor conceptdocumenten {#watermark-draft-document}
+
+U kunt JavaScript ook gebruiken om voorwaardelijke watermerken toe te voegen. Deze watermerken worden aan het document toegevoegd wanneer aan de gedefinieerde voorwaarde is voldaan.\
+U kunt bijvoorbeeld een JavaScript-bestand met de volgende code maken om een watermerk te maken voor de PDF-uitvoer van het document dat nog niet is goedgekeurd. Dit watermerk wordt niet weergegeven als u de PDF voor het document genereert in de documentstatus &quot;Goedgekeurd&quot;.
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+De uitvoer van de PDF die met deze code wordt gegenereerd, geeft een watermerk weer *Concept* op de omslag van uw document:
+
+<img src="./assets/draft-watermark.png" width="500">

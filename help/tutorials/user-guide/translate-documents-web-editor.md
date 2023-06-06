@@ -2,9 +2,9 @@
 title: Documenten vertalen vanuit de webeditor
 description: Leer hoe te om documenten van de Redacteur van het Web te vertalen
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 4d37242019ac2db734f7054324b074c0e8bc60bd
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1859'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,14 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    Naast een nieuw vertaalproject kunt u ook uit de volgende opties kiezen:
 
    - U kunt ervoor kiezen **Een structuur maken** alleen voor het vertaalproject.
+   - U kunt ervoor kiezen **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF (XML Localization Interchange File Format). XLIFF is een open op XML-gebaseerde indeling die wordt gebruikt om de gegevensoverdracht tussen verschillende gereedschappen die in het vertaalproces van de inhoud worden gebruikt, te standaardiseren.
+In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XLIFF-indeling, die aan vertalers kan worden geleverd. Met de XLIFF-indeling kunt u segmenten die u al tijdens de vertaalfase hebt vertaald, opnieuw gebruiken.\
+      Nadat de inhoud XLIFF wordt vertaald, kan het in AEMGidsen worden ingevoerd die tot een vertaalde versie van het originele DITA- project leiden.
+
+      >[!NOTE]
+      >
+      > XLIFF-export werkt alleen met de configuratie voor menselijke vertaling.
+
    - U kunt **Een nieuw meertalig vertaalproject maken** Dit omvat vertaaltaken voor alle talen die u hebt geselecteerd voor vertaling. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
    - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer Toevoegen aan **Bestaand vertaalproject** in de projectlijst en kies een project in de lijst Bestaand vertaalproject. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
@@ -98,6 +106,28 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    >
    > Als u de vertaling voor een of meer onderwerpen in een vertaaltaak afwijst, kunt u **In uitvoering** de vertaalstatus van alle afgewezen onderwerpen wordt weer hersteld . De status van de bedoelde onderwerpen wordt gecontroleerd en teruggezet volgens de meest recente vertaalstatus. Ook, worden de vertaaldossiers die in het bestemmingsproject worden gecreeerd niet geschrapt zelfs als de vertaling voor hen wordt verworpen.
 
+## De vertaalregels toevoegen
+
+Met AEM hulplijnen kunnen uw beheerders de vertaalregels configureren. De indeling SRX (Segmentation Rules eXchange) is een standaard voor het uitwisselen van segmentatieregels tussen verschillende gebruikers en verschillende vertaalomgevingen. U kunt een map maken en uw aangepaste SRX-bestanden eraan toevoegen.
+
+SRX-bestanden moeten een naam hebben `<language-code>.srx`. Bijvoorbeeld, en-US, of ar-AE.
+
+>[Opmerking]
+>De titel is niet hoofdlettergevoelig, dus je kunt &#39;en-US&#39;, &#39;en-us&#39; of &#39;EN-us&#39; hebben. Bovendien kunnen AEM hulplijnen &#39;-&#39; (afbreekstreepje) of &#39;_&#39; (onderstrepingsteken) oplossen. Dus je kunt &#39;en-US&#39; of &#39;en_US&#39; hebben.
+
+U kunt deze bestanden ook in elke map plaatsen die zich in de hoofdmap met AEM elementen bevindt. `./content/dam`.
+
+
+
+Zodra u de omslag hebt gecreeerd die de SRX dossiers bevat, kunt u de omslagweg in de Vertaling SRX plaatsconfiguratie binnen uw omslagprofiel toevoegen.
+
+Het wordt aanbevolen dat u voor betere prestaties alleen SRX-bestanden in de map bewaart die in het mapprofiel is geconfigureerd.
+
+
+AEM de Gidsen kiezen de regels SRX volgens de brontaal van het vertaalproject. Het zoekt een douaneSRX dossier voor een taal, en als u geen douaneSRX dossier bepaalt, dan plukt het de regels zoals per uit de doos vertaalregels.
+
+
+Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Ontwerpsjablonen configureren* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
 ## Geef het versielabel door aan de doelversie
 

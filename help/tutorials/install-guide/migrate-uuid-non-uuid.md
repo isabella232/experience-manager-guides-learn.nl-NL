@@ -1,13 +1,13 @@
 ---
 title: Migratie van niet-UUID naar UUID-inhoud
-description: Meer informatie over migratie van niet-UUID naar UUID-inhoud
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: Leer hoe u niet-UUID naar UUID-inhoud migreert
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
-
 
 # Migratie van niet-UUID naar UUID-inhoud {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ Voer de volgende stappen uit om uw niet-UUID-inhoud te migreren:
     - &quot;doBaselines&quot;: true/false \(Als basislijnen moeten worden bijgewerkt of niet. De standaardwaarde is true.\)
     - &quot;processLevel&quot;: -1\(mislukt zonder terugzetten\), 0\(mislukt met terugzetten\), 1\(mislukt met fouten\), 2\(bijgewerkt\) \(Wanneer script opnieuw wordt uitgevoerd na mislukking, worden alleen bestanden met &quot;fmUpgradeStatus&quot; &lt;= processLevel opnieuw verwerkt, anders wordt de toepassing genegeerd. De standaardwaarde is 1.\)
     - &quot;ignoreImageVersions&quot;: true/false \(negeert het verwerken van afbeeldingsversies.) De standaardwaarde is false.\)
+    
     >[!OPMERKING]
     >
     > We kunnen de migratie van inhoud uitvoeren op mapniveau of op de volledige inhoud/dam of in dezelfde map \(migratie opnieuw uitvoeren\).
@@ -69,4 +70,3 @@ Voer de volgende stappen uit om uw niet-UUID-inhoud te migreren:
 >[!NOTE]
 >
 > Als sommige bestanden niet worden verwerkt of vóór de migratie beschadigd zijn, blijven ze zelfs na de migratie beschadigd.
-

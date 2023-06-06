@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Leer hoe u de functies van de webeditor kent
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Apparaatthema gebruiken**: Schakel dit selectievakje in als u wilt dat AEM hulplijnen automatisch schakelen tussen lichte en donkere thema&#39;s op basis van het thema van uw apparaat.
 - **Thema**: U kunt kiezen uit de thema&#39;s Licht, Lichter, Donker of Donkerst voor de editor. Bij het lichtste thema gebruiken de werkbalken en deelvensters een lichtere grijze achtergrond. In het geval van Licht-thema gebruiken de werkbalken en deelvensters lichtgrijze achtergrondkleur. In het geval van het donkerste thema gebruiken de werkbalken en deelvensters een donkerdere achtergrond voor zwarte kleuren. In het geval van Donker thema gebruiken de werkbalken en deelvensters een achtergrond met zwarte kleuren. In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte kleur.
 
 - **Mapprofielen**: Het profiel van de Omslag controleert diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output vooraf instelt en de configuraties van de Redacteur van het Web. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
@@ -671,9 +672,20 @@ Als u een bestand aan uw favoriete verzameling wilt toevoegen, gebruikt u een va
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+** Het menu Opties voor de verzameling van Favroties**\
+U kunt ook veel handelingen uitvoeren met het menu Opties dat beschikbaar is voor een verzameling Favorieten:
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Naam wijzigen**: Wijzig de naam van de geselecteerde verzameling.
+- **Verwijderen**: Verwijder het geselecteerde bestand.
+- **Vernieuwen**: Haal een nieuwe lijst met bestanden en mappen op uit de opslagplaats.
+- **Weergeven in interface Elementen**: De inhoud van het bestand of de map weergeven in de interface Middelen.
+
+
 >[!NOTE]
 >
-> Als u een item uit de lijst Favorieten wilt verwijderen, klikt u op het pictogram Opties naast het bestand of de map in de lijst Favorieten en kiest u **Verwijderen uit Favorieten**.
+> U kunt de lijst ook vernieuwen met het pictogram Vernieuwen bovenaan.
+
 
 **Weergave opslagplaats** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ U ziet verschillende opties in het menu Opties, afhankelijk van het feit of u ee
 - Dupliceren
 - Uitchecken/inchecken
 - Voorvertoning
+- Verplaatsen naar
+- Naam wijzigen
 - Verwijderen
 - Kopiëren
 - Alles samenvouwen
@@ -784,6 +798,41 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 - **Voorvertoning**: Een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het te openen.
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **Naam wijzigen**: Gebruik deze optie om de naam van het geselecteerde bestand te wijzigen. Voer de naam van het nieuwe bestand in het dialoogvenster **Naam element wijzigen** .
+   - U kunt de naam van een bestand van elk type wijzigen.
+   - U kunt de extensie van een bestand niet wijzigen.
+   - Twee bestanden kunnen niet dezelfde naam hebben. U kunt de naam van een bestand dus niet wijzigen in een bestaande naam. Er wordt een fout weergegeven.
+
+- **Verplaatsen naar**: Gebruik deze optie om het geselecteerde bestand naar een andere map te verplaatsen.
+   - U kunt de naam van de doelmap typen of **Pad selecteren** om de doelmap te selecteren.
+   - U kunt een bestand van elk type verplaatsen naar een willekeurig doel in de map Inhoud.
+   - Twee bestanden kunnen niet dezelfde naam hebben. U kunt een bestand dus niet verplaatsen naar een map waarin al een bestand met dezelfde naam bestaat.
+
+   Als u een bestand probeert te verplaatsen naar een map waarin een bestand met dezelfde naam maar een andere titel bestaat, wordt het dialoogvenster Naam wijzigen en bestand verplaatsen weergegeven en moet u de naam van het bestand wijzigen voordat u het bestand verplaatst. Het verplaatste bestand in de doelmap heeft de nieuwe bestandsnaam.
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > U kunt een bestand ook naar een andere doelmap slepen.
+
+   **Uitsluitingsscenario&#39;s**
+
+   In de volgende gevallen kunt u de naam van een bestand niet wijzigen of een bestand verplaatsen AEM hulplijnen:
+
+   - U kunt een bestand niet verplaatsen of de naam ervan wijzigen als het deel uitmaakt van een revisie- of vertaalworkflow.
+
+   - Als een andere gebruiker het bestand uitcheckt, kunt u de naam van het bestand niet wijzigen of het bestand verplaatsen, wordt de optie Naam wijzigen of Verplaatsen naar voor het bestand niet weergegeven.
+   >[!NOTE]
+   > Als uw beheerder u de toestemmingen op een omslag heeft gegeven, dan slechts **Naam wijzigen** of **Verplaatsen naar** worden weergegeven.
+
+   <details>
+    <summary> Cloud Services </summary>
+
+   Als u de naam van een bestand wijzigt of een bestand verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken, omdat elk bestand een unieke UUID heeft.
+   </details>
+
+
 
 - **Verwijderen**: Gebruik deze optie om het geselecteerde bestand te verwijderen. Er wordt een bevestigingsbericht weergegeven voordat u het bestand verwijdert.
 
@@ -1202,32 +1251,86 @@ In het volgende voorbeeld ziet u hoe u het onderwerpschema in AEM hulplijnen kun
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **De hiërarchische definities van onderwerpdefinities en opsommingen verwerken**
 
-**Vervolgkeuzelijst Kenmerken**
+   Naast het verwerken van de opsommingen en de onderwerpdefinities in dezelfde kaart, biedt AEM hulplijnen ook de functie om opsommingen en onderwerpdefinities in twee aparte kaarten te definiëren. U kunt de onderwerpdefinitie in een kaart en de opsommingsdefinities in een andere kaart bepalen en dan de kaartverwijzing toevoegen. Met de volgende XML-code worden bijvoorbeeld onderwerpdefinities en opsommingsdefinities in twee aparte mappen gemaakt.
 
-U kunt de waarde van het onderwerpschema ook wijzigen met het vervolgkeuzemenu Kenmerk in het deelvenster Eigenschappen van inhoud in de weergave Auteur. Als u de waarde wilt wijzigen, selecteert u een waarde in het vervolgkeuzemenu Kenmerk.
+   De onderwerpdefinities worden gedefinieerd in `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-U kunt ook waarden voor een kenmerk toepassen door meerdere waarden in het vervolgkeuzemenu te selecteren.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**Bronweergave**
+   De opsommingsdefinitie is aanwezig in subject_scheme_map_2.ditamap
 
-U kunt de waarden van drop-down van de attributen in de Bronmening ook veranderen. De Bronweergave voorkomt ook dat u een onjuiste waarde toevoegt.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   Hier worden onderwerpdefinities gedefinieerd in `subject_scheme_map_1.ditamap`  terwijl de opsomming def aanwezig is in `subject_scheme_map_2.ditamap`. De verwijzing naar `subject_scheme_map_1.ditamap` wordt ook toegevoegd in `subject_scheme_map_2.ditamap`.
 
-**Het onderwerpschema weergeven en toepassen vanuit het deelvenster Voorwaarden**
+   >[!NOTE]
+   >
+   > Als de `subject_scheme_map_1.ditamap` en `subject_scheme_map_2.ditamap` er wordt met elkaar gerefereerd en daarom worden de betrokken regelingen opgelost .
 
-U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
+   De verwijzingen naar onderwerpopsommingen worden in de volgende volgorde van prioriteit opgelost:
 
-Als u het onderwerpschema wilt weergeven in het deelvenster Voorwaarden, moet uw systeembeheerder de optie selecteren **Onderwerpregeling tonen in het deelvenster Voorwaarden** onder het tabblad Voorwaarde in Editor-instellingen. Zie voor meer informatie [Het tabblad Voorwaarde](#id21BMNE0602V).
+   1. Zelfde kaart
+   1. Toegewezen kaart
 
-In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
+   De verwijzingen worden niet opgelost als de opsomming niet in de zelfde kaart en de referenced kaart wordt gevonden.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-U kunt voorwaarden aan uw inhoud toevoegen door de gewenste voorwaarde naar de inhoud te slepen. De voorwaardelijke inhoud wordt gemarkeerd met de kleur die voor de voorwaarde is gedefinieerd.
+   **Vervolgkeuzelijst Kenmerken**
+
+   U kunt de waarde van het onderwerpschema ook wijzigen met het vervolgkeuzemenu Kenmerk in het deelvenster Eigenschappen van inhoud in de weergave Auteur. Als u de waarde wilt wijzigen, selecteert u een waarde in het vervolgkeuzemenu Kenmerk.
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   U kunt ook waarden voor een kenmerk toepassen door meerdere waarden in het vervolgkeuzemenu te selecteren.
+
+   **Bronweergave**
+
+   U kunt de waarden van drop-down van de attributen in de Bronmening ook veranderen. De Bronweergave voorkomt ook dat u een onjuiste waarde toevoegt.
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **Het onderwerpschema weergeven en toepassen vanuit het deelvenster Voorwaarden**
+
+   U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
+
+   Als u het onderwerpschema wilt weergeven in het deelvenster Voorwaarden, moet uw systeembeheerder de optie selecteren **Onderwerpregeling tonen in het deelvenster Voorwaarden** onder het tabblad Voorwaarde in Editor-instellingen. Zie voor meer informatie [Het tabblad Voorwaarde](#id21BMNE0602V).
+
+   In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   U kunt voorwaarden aan uw inhoud toevoegen door de gewenste voorwaarde naar de inhoud te slepen. De voorwaardelijke inhoud wordt gemarkeerd met de kleur die voor de voorwaarde is gedefinieerd.
 
 **Fragmenten** -  ![](images/insert-snippet-icon.svg)
 

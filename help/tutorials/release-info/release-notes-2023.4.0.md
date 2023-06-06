@@ -1,23 +1,27 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release april 2023
-description: Laatste release van Adobe Experience Manager-hulplijnen as a Cloud Service
+description: Release van Adobe Experience Manager Guides, april 2023 as a Cloud Service
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 2%
 
 ---
 
-# Release van Adobe Experience Manager Guides as a Cloud Service in april
+# Release van Adobe Experience Manager Guides, april 2023 as a Cloud Service
 
-## Upgrade naar de nieuwste versie
+In deze releaseopmerking worden de instructies voor het bijwerken, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie april 2023 van de Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
-Upgrade uw huidige as a Cloud Service Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*) door de volgende stappen uit te voeren:
+Voor meer informatie over de nieuwe functies en verbeteringen raadpleegt u [Nieuwe functies in april 2023: AEM hulplijnen as a Cloud Service](whats-new-2023.4.0.md).
+
+## Upgrade naar de release van april 2023
+
+Voer de volgende stappen uit om de huidige installatie van de AEM hulplijnen te upgraden:
 
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
 2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2023.4.249.
-3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de nieuwste versie van AEM as a Cloud Service hulplijnen te upgraden.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van april 2023 van AEM as a Cloud Service hulplijnen te upgraden.
 
 ## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM hulplijnen in september as a Cloud Service)
 
@@ -51,39 +55,6 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## Nieuwe en verbeterde functies
-
-AEM de as a Cloud Service Gidsen verstrekt verhogingen en nieuwe eigenschappen in de recentste versie:
-
-### Geavanceerde ondersteuning voor metagegevens in PDF-publicaties
-
-AEM Hulplijnen bieden nu geavanceerde ondersteuning voor de metagegevens die zijn toegewezen aan de metagegevens in de uitvoer van de PDF. De opties voor metagegevens bevatten informatie over het document en de inhoud ervan, zoals de naam van de auteur, de documenttitel, trefwoorden, copyrightinformatie en andere gegevensvelden.
-
-<img src="assets/pdf-metadata.png" alt=" native PDF-metagegevens">
-
-U kunt een XMP importeren en AEM hulplijnen kunnen de gegevens uit het bestand kiezen. U kunt ook de namen en waarden van metagegevens opgeven met het vervolgkeuzemenu. U kunt ook aangepaste metagegevens toevoegen door deze rechtstreeks in het naamveld te typen.
-
-
-### Verbeterd deelvenster Omtrekweergave
-
-AEM hulplijnen biedt een verbeterd deelvenster Omtrekweergave waarin u de hiërarchische weergave kunt zien van de elementen die in het document worden gebruikt.
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" native PDF-metagegevens">
-
-De omtrekweergave biedt de volgende verbeteringen:
-
-* Het vervolgkeuzemenu Weergaveopties wordt boven in het deelvenster Omtrekweergave weergegeven. Als een element een id, kenmerk en tekst heeft, kunt u deze selecteren in het vervolgkeuzemenu en ze samen met het element weergeven. De attributen die in het paneel van de Mening van het Overzicht kunnen worden getoond worden bepaald door de montages van de Attributen van de Vertoning die door uw beheerder binnen zijn gevormd **Editor-instellingen**.
-
-* Met de zoekfunctie kunt u naar een element zoeken op basis van de naam, id, tekst of kenmerkwaarde.
-
-
-### Op microservices gebaseerde publicaties voor AEM hulplijnen as a Cloud Service
-
-AEM de as a Cloud Service Gidsen verstrekt de eigenschap om grote het publiceren werkbelastingen met microdienst-gebaseerde het publiceren in werking te stellen en hefboomwerking het industrie-toonaangevende de serverplatform van Adobe I/O Runtime.
-
-Nu in de versie van April kunt u veelvoudige het publiceren verzoeken tezelfdertijd in werking stellen en bulkoutput van PDF zeer efficiënt produceren gebruikend de op microdienst-gebaseerde Inheemse PDF het publiceren.
-Zie voor meer informatie [Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## Opgeloste problemen
