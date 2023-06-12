@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
+source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 4%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 4%
          + [Uitvoer activeren](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + De generatie van de output van Documenten FrameMaker {#generate-fm-output}
+   + Uitvoergeneratie van FrameMaker documenten {#generate-fm-output}
       + [Produceer output van documenten FrameMaker](./user-guide/fm-output-generatation.md)
       + Ondersteunde voorinstellingen {#fm-docs-generating-presets}
          + [Voorinstellingen voor het genereren van FrameMaker-documenten](./user-guide/fm-output-understand-presets.md)
@@ -272,6 +272,7 @@ ht-degree: 4%
          + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Microservicearchitectuur en -prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
+         + [Referentiedocumenten publiceren over AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Workflows {#workflows}
          + [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
