@@ -1,13 +1,13 @@
 ---
 title: Aangepaste DITA-toewijzingssjabloon configureren
-description: Leer hoe te om het malplaatje van de douanetoewijzing te vormen DITA
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: Leer hoe te om het malplaatje van de kaart van douaneDITA te vormen
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste DITA-toewijzingssjabloon configureren {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op 
 
 >[!TIP]
 >
-> Zie [appendix.md\#](appendix.md#)de *Aangepaste sjablonen* in de gids met aanbevolen werkwijzen voor tips en trucs voor het gebruik van aangepaste kaartsjablonen.
+> Zie de *Aangepaste sjablonen* in de gids met aanbevolen werkwijzen voor tips en trucs voor het gebruik van aangepaste kaartsjablonen.
 
-**Bovenliggend onderwerp:**[ Onderwerp- en kaartsjablonen configureren](conf-template-tags.md)
-
+**Bovenliggend onderwerp:** [Onderwerp- en kaartsjablonen configureren](conf-template-tags.md)
