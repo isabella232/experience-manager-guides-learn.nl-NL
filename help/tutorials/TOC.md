@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
+source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 4%
          + [Uitvoer activeren](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + Uitvoergeneratie van FrameMaker documenten {#generate-fm-output}
+   + De generatie van de output van Documenten FrameMaker {#generate-fm-output}
       + [Produceer output van documenten FrameMaker](./user-guide/fm-output-generatation.md)
       + Ondersteunde voorinstellingen {#fm-docs-generating-presets}
          + [Voorinstellingen voor het genereren van FrameMaker-documenten](./user-guide/fm-output-understand-presets.md)
@@ -261,6 +261,8 @@ ht-degree: 4%
       + [Native PDF-publicatie leren, deel 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
    + Artikelen {#kb-articles}
       + Authoring {#authoring}
+         + Rapporten {#reports}
+            + [Metagegevens voor uw DITA-inhoud beheren](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Webeditor {#webeditor}
             + Aanpassen {#customizing}
                + [Aangepaste knop toevoegen aan werkbalk](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
