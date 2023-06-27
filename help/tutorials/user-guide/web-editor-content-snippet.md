@@ -1,7 +1,7 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Leer hoe u een inhoudsfragment uit uw gegevensbron kunt invoegen
-source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
+source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,6 +31,7 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >[!NOTE]
    >  
    > Als uw beheerder aangepaste sjablonen heeft geconfigureerd, worden deze sjablonen ook weergegeven in de vervolgkeuzelijst (op basis van de sjabloonpadconfiguraties die de beheerder heeft uitgevoerd).
+
 1. Klikken **Ophalen** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien.
 1. U kunt de gegevens weergeven in de voorvertoning of in de DITA-bronweergave.
 
