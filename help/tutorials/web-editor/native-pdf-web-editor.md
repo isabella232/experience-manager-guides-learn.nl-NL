@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Gebruik deze methode om een uitvoer van PDF voor een kaart van het kaartdashboar
 
 Voor meer informatie bij het produceren van een PDF die de methode DITA-OT gebruikt, zie [PDF genereren met DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker Publishing Server (FMPS)**
+* **FrameMaker het Publiceren Server (FMPS)**
 
 Met deze methode kunt u een PDF-uitvoer genereren op basis van niet alleen de DITA-inhoud, maar ook FrameMaker-documenten (.book en .fm) die beschikbaar zijn in uw AEM opslagplaats. De PDF kan worden gemaakt door een uitvoervoorinstelling te configureren en te publiceren met behulp van FrameMaker Publishing Server (FMPS). U kunt het uiterlijk van uw uitvoer voor PDF en andere indelingen ontwerpen en configureren en deze opslaan in een instellingsbestand (.sts). Dit instellingsbestand wordt vervolgens door FMPS gebruikt om uitvoer te genereren voor een DITA-kaart of .book-bestand. Als u een uitvoervoorinstelling wilt maken of bewerken, raadpleegt u de  *Uitvoervoorinstellingen* in de [as a Cloud Service gebruikershandleiding voor AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
@@ -179,6 +179,6 @@ Als u het foutenlogboek wilt weergeven, klikt u op **Afwijzen**, plaatst u de cu
 Als u **Tijdelijke bestanden downloaden** in de Geavanceerde instellingen kunt u ook de tussentijdse HTML-bestanden downloaden die zijn gemaakt tijdens het genereren van de eigen PDF-uitvoer. Nadat u de uitvoer hebt gegenereerd, kunt u de tijdelijke bestanden downloaden met de opdracht **Tijdelijke bestanden downloaden** ![tijdelijke bestanden downloaden](assets/native-pdf-download-temporary-files-icon.svg)op de bovenste balk. Met deze functie kunt u uw tijdelijke stijlen en lay-outs voor HTML weergeven en kunt u uw CSS-stijlen naar wens corrigeren of wijzigen.
 
 
->OPMERKING
+>[!NOTE]
 >
 > De **Tijdelijke bestanden downloaden**  ![tijdelijke bestanden downloaden](assets/native-pdf-download-temporary-files-icon.svg) wordt alleen weergegeven als u de laatste PDF-uitvoer hebt gegenereerd met de voorinstelling waarin u de optie hebt geselecteerd in het dialoogvenster **Geavanceerd** tab.

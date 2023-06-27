@@ -1,7 +1,7 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Leer hoe u een inhoudsfragment uit uw gegevensbron kunt invoegen
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Bijvoorbeeld:
 
    1. De bronweergave toont de gegevens in de DITA-bronweergave.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en klik dan **TOEVOEGEN**.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
+1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en klik dan **TOEVOEGEN**.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
 
    >[!NOTE]
    >
