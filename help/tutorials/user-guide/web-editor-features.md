@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Leer hoe u de functies van de webeditor kent
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
+source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
 workflow-type: tm+mt
-source-wordcount: '14919'
+source-wordcount: '15310'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 
 - **Algemeen**: De Algemene montages staan u toe om het woordenboek te vormen om met de Redacteur van het Web te gebruiken. Dit tabblad bevat drie secties: **Spellingcontrole**, **Voorwaarde**, en **Authoring**.
 
-   ![](images/editor-setting-general.png){width="650" align="left"}
+  ![](images/editor-setting-general.png){width="650" align="left"}
 
    - **Spellingcontrole**: Er zijn twee opties — **Spellingcontrole AEM** en **Spellingcontrole browser**. Standaard gebruikt de editor de functie Spellingcontrole in browser, waarbij de spellingcontrole wordt uitgevoerd met behulp van het ingebouwde woordenboek van de browser. U kunt overschakelen op AEM spellingcontrole om AEM woordenboek te gebruiken, dat ook kan worden aangepast om uw lijst met aangepaste woorden toe te voegen. Ga voor meer informatie over het aanpassen van AEM woordenboek naar *Standaardwoordenboek AEM aanpassen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
@@ -108,13 +108,13 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 
       - **Toon de Sleutel met de Titel in het paneel van het Onderwerp**: Selecteer deze optie om de sleutels samen met titels in het onderwerpschema weer te geven. Als u deze optie niet selecteert, worden alleen de titels weergegeven. Hier worden bijvoorbeeld de toetsen &#39;os&#39;, &#39;publiek&#39; en &#39;ander&#39; ook samen met titels weergegeven.
 
-         ![](images/subject-scheme-title.png){width="550" align="left"}
+        ![](images/subject-scheme-title.png){width="550" align="left"}
 
       - **Onderwerpregeling tonen in het deelvenster Voorwaarden**: Selecteer deze optie om een onderwerpschema weer te geven in het deelvenster Voorwaarden. Als u deze optie uitschakelt, worden de gedefinieerde voorwaarden weergegeven in het deelvenster Voorwaarden.
+
    - **Authoring**
 
       - **Alles vervangen inschakelen**: Selecteer deze optie om het pictogram Alles vervangen weer te geven in het deelvenster Zoeken en vervangen.
-
 
 **Deelvensters**: Deze instelling bepaalt de deelvensters die worden weergegeven in het linkerdeelvenster van de editor. U kunt de schakelaar van een knevel voorzien om het gewenste paneel te tonen of te verbergen.
 
@@ -126,7 +126,7 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 
 - **Elements List**: Als beheerder, kunt u de lijst van elementen controleren die een auteur kan opnemen gebruikend [Element invoegen](#id204SG30105Z) en definieert ook de weergavenaam voor het element. Met de instelling Elements List kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
 
-   ![](images/editor-setting-element-list.png){width="650" align="left"}
+  ![](images/editor-setting-element-list.png){width="650" align="left"}
 
 In de bovenstaande schermafbeelding `b` element heeft een etiket van Vet gekregen; `codeblock` krijgt samen met enkele andere elementen een label van Codeblok. Als u **Alleen boven elementen gebruiken** en worden alleen de geldige elementen \(op het huidige invoegpunt\) uit deze lijst weergegeven in het pop-upmenu Element invoegen.
 
@@ -152,7 +152,7 @@ De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de la
 
    - **Bronversielabels doorgeven aan de doelversie**: Selecteer deze optie om het label van de versie van het bronbestand aan het vertaalde bestand door te geven. Deze optie is standaard uitgeschakeld.
 
-   ![](images/editor-setting-translation.png){width="550" align="left"}
+  ![](images/editor-setting-translation.png){width="550" align="left"}
 
 
 **Gebruikersvoorkeuren** - ![](images/user_preference_editor_icon.svg)
@@ -166,11 +166,11 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 - **Mapprofielen**: Het profiel van de Omslag controleert diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output vooraf instelt en de configuraties van de Redacteur van het Web. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
 
-   De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
+  De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
 
-   >[!NOTE]
-   >
-   > De naam van het huidige mapprofiel wordt weergegeven als een label voor het pictogram Gebruikersvoorkeuren op de hoofdwerkbalk.
+  >[!NOTE]
+  >
+  > De naam van het huidige mapprofiel wordt weergegeven als een label voor het pictogram Gebruikersvoorkeuren op de hoofdwerkbalk.
 
 - **Basispad**: Door gebrek, wanneer u tot de AEM bewaarplaats van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en in de Weergave Opslagplaats ziet u de inhoud van die locatie vooraf. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
 
@@ -665,11 +665,11 @@ Als u een bestand aan uw favoriete verzameling wilt toevoegen, gebruikt u een va
 
 - Navigeer naar het gewenste bestand of de gewenste map in de weergave Opslag en klik op de knop *Opties* pictogram om het contextmenu te openen en **Toevoegen aan Favorieten**. In het dialoogvenster Toevoegen aan Favorieten kunt u het bestand of de map toevoegen aan een bestaande favoriet of een nieuw bestand maken.
 
-   ![](images/favorite-add-file-folder.png){width="300" align="left"}
+  ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
 - Klik met de rechtermuisknop op het tabblad van een bestand in de editor om het contextmenu te openen. Kies **Toevoegen aan Favorieten \>** om het bestand toe te voegen aan uw lijst met favorieten.
 
-   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
 ** Het menu Opties voor de verzameling van Favroties**\
@@ -739,27 +739,27 @@ U kunt de volgende handelingen uitvoeren met het menu Opties dat beschikbaar is 
 
 - **Elementen uploaden**: Upload een bestand van uw lokale systeem naar de geselecteerde map in AEM opslagplaats. U kunt bestanden ook van uw lokale systeem naar het huidige werkonderwerp slepen. Dit is zeer nuttig als u beelden van uw lokaal systeem in uw onderwerp wilt opnemen.
 
-   ![](images/upload-assets.png){width="550" align="left"}
+  ![](images/upload-assets.png){width="550" align="left"}
 
-   U kunt een map selecteren waarin u het bestand wilt uploaden en er wordt ook een voorvertoning van de afbeelding weergegeven. Als u de naam van het bestand wilt wijzigen, kunt u dit doen in het tekstvak Bestandsnaam. Klik op Uploaden om het uploaden van het bestand te voltooien. Als u een afbeeldingsbestand over een onderwerp hebt gesleept en neergezet, wordt het afbeeldingsbestand aan het artikel toegevoegd en wordt het ook geüpload.
+  U kunt een map selecteren waarin u het bestand wilt uploaden en er wordt ook een voorvertoning van de afbeelding weergegeven. Als u de naam van het bestand wilt wijzigen, kunt u dit doen in het tekstvak Bestandsnaam. Klik op Uploaden om het uploaden van het bestand te voltooien. Als u een afbeeldingsbestand over een onderwerp hebt gesleept en neergezet, wordt het afbeeldingsbestand aan het artikel toegevoegd en wordt het ook geüpload.
 
-   Als de beheerder de optie UUID&#39;s heeft ingeschakeld in *XMLEditorConfig*, dan ziet u de UUID van de geüploade afbeelding in het dialoogvenster **Bron** eigenschap.
+  Als de beheerder de optie UUID&#39;s heeft ingeschakeld in *XMLEditorConfig*, dan ziet u de UUID van de geüploade afbeelding in het dialoogvenster **Bron** eigenschap.
 
-   ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
 
 - **Bestanden zoeken in map**: Hiermee verplaatst u de focus naar de zoekopdracht in de repository waarin u de zoekterm kunt invoeren. De zoekopdracht wordt uitgevoerd onder de geselecteerde map in de opslagplaats. U kunt ook een filter toepassen om DITA-bestanden, afbeeldingsbestanden of beide te retourneren.
 
-   ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
+  ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
 
-   U kunt ook zoeken met de UUID van een bestand. In dat geval wordt in de zoekresultaten de titel van het DITA/XML-bestand weergegeven. Als het bestand een afbeeldingsbestand is, wordt de UUID van het bestand weergegeven. In het volgende zoekvoorbeeld wordt de UUID van een afbeeldingsbestand doorzocht en worden in de zoekresultaten de UUID van het oorspronkelijke afbeeldingsbestand en de onderwerptitel van het bestand weergegeven waarnaar wordt verwezen.
+  U kunt ook zoeken met de UUID van een bestand. In dat geval wordt in de zoekresultaten de titel van het DITA/XML-bestand weergegeven. Als het bestand een afbeeldingsbestand is, wordt de UUID van het bestand weergegeven. In het volgende zoekvoorbeeld wordt de UUID van een afbeeldingsbestand doorzocht en worden in de zoekresultaten de UUID van het oorspronkelijke afbeeldingsbestand en de onderwerptitel van het bestand weergegeven waarnaar wordt verwezen.
 
-   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
 - **Alles samenvouwen**: Vouw alle geopende mappen in de opslagplaats samen en geef alleen de mappen op hoofdniveau weer.
 
-   >[!NOTE]
-   >
-   > Gebruik de **\>** pictogram naast een map om deze uit te vouwen.
+  >[!NOTE]
+  >
+  > Gebruik de **\>** pictogram naast een map om deze uit te vouwen.
 
 - **Toevoegen aan Favorieten**: Hiermee voegt u de geselecteerde map toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
 
@@ -791,13 +791,13 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 - **Dupliceren**: Met deze optie kunt u een kopie of kopie van het geselecteerde bestand maken. U kunt de naam van het gedupliceerde bestand ook wijzigen in de vraag Elementen dupliceren. Standaard wordt het bestand gemaakt met het achtervoegsel \(zoals bestandsnaam\_1.extension\). De titel van het bestand blijft gelijk aan die van het bronbestand en het nieuwe bestand begint met versie 1.0. Alle verwijzingen, markeringen, en meta-gegevens worden gekopieerd terwijl de basislijnen niet in het dubbele dossier worden gekopieerd.
 - **Uitchecken**: Vergrendel het geselecteerde bestand om het te bewerken. Voor een vergrendeld bestand verandert deze optie in **Inchecken**.
 
-   >[!NOTE]
-   >
-   > Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
+  >[!NOTE]
+  >
+  > Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
 
 - **Voorvertoning**: Een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het te openen.
 
-   ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){width="800" align="left"}
 
 - **Naam wijzigen**: Gebruik deze optie om de naam van het geselecteerde bestand te wijzigen. Voer de naam van het nieuwe bestand in het dialoogvenster **Naam element wijzigen** .
    - U kunt de naam van een bestand van elk type wijzigen.
@@ -809,28 +809,29 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
    - U kunt een bestand van elk type verplaatsen naar een willekeurig doel in de map Inhoud.
    - Twee bestanden kunnen niet dezelfde naam hebben. U kunt een bestand dus niet verplaatsen naar een map waarin al een bestand met dezelfde naam bestaat.
 
-   Als u een bestand probeert te verplaatsen naar een map waarin een bestand met dezelfde naam maar een andere titel bestaat, wordt het dialoogvenster Naam wijzigen en bestand verplaatsen weergegeven en moet u de naam van het bestand wijzigen voordat u het bestand verplaatst. Het verplaatste bestand in de doelmap heeft de nieuwe bestandsnaam.
+  Als u een bestand probeert te verplaatsen naar een map waarin een bestand met dezelfde naam maar een andere titel bestaat, wordt het dialoogvenster Naam wijzigen en bestand verplaatsen weergegeven en moet u de naam van het bestand wijzigen voordat u het bestand verplaatst. Het verplaatste bestand in de doelmap heeft de nieuwe bestandsnaam.
 
-   ![](images/rename-move-asset.png){width="550" align="left"}
+  ![](images/rename-move-asset.png){width="550" align="left"}
 
-   >[!NOTE]
-   > U kunt een bestand ook naar een andere doelmap slepen.
+  >[!NOTE]
+  > U kunt een bestand ook naar een andere doelmap slepen.
 
-   **Uitsluitingsscenario&#39;s**
+  **Uitsluitingsscenario&#39;s**
 
-   In de volgende gevallen kunt u de naam van een bestand niet wijzigen of een bestand verplaatsen AEM hulplijnen:
+  In de volgende gevallen kunt u de naam van een bestand niet wijzigen of een bestand verplaatsen AEM hulplijnen:
 
    - U kunt een bestand niet verplaatsen of de naam ervan wijzigen als het deel uitmaakt van een revisie- of vertaalworkflow.
 
    - Als een andere gebruiker het bestand uitcheckt, kunt u de naam van het bestand niet wijzigen of het bestand verplaatsen, wordt de optie Naam wijzigen of Verplaatsen naar voor het bestand niet weergegeven.
-   >[!NOTE]
-   > Als uw beheerder u de toestemmingen op een omslag heeft gegeven, dan slechts **Naam wijzigen** of **Verplaatsen naar** worden weergegeven.
 
-   <details>
+  >[!NOTE]
+  > Als uw beheerder u de toestemmingen op een omslag heeft gegeven, dan slechts **Naam wijzigen** of **Verplaatsen naar** worden weergegeven.
+
+  <details>
     <summary> Cloud Services </summary>
 
-   Als u de naam van een bestand wijzigt of een bestand verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken, omdat elk bestand een unieke UUID heeft.
-   </details>
+  Als u de naam van een bestand wijzigt of een bestand verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken, omdat elk bestand een unieke UUID heeft.
+  </details>
 
 
 
@@ -840,23 +841,24 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
    - Als er vanuit een ander bestand niet naar het bestand wordt verwezen, wordt het bestand verwijderd en wordt een succesbericht weergegeven.
    - Als het bestand is uitgecheckt, kunt u het niet verwijderen en wordt een foutbericht weergegeven.
 
-      >[!NOTE]
-      >
-      > Als uw beheerder het verwijderen van uitgecheckte bestanden heeft verhinderd, wordt alleen het foutbericht weergegeven. Zie voor meer informatie *Verwijderen van uitgecheckte bestanden voorkomen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+     >[!NOTE]
+     >
+     > Als uw beheerder het verwijderen van uitgecheckte bestanden heeft verhinderd, wordt alleen het foutbericht weergegeven. Zie voor meer informatie *Verwijderen van uitgecheckte bestanden voorkomen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
    - Als het bestand wordt toegevoegd aan een favoriete verzameling, wordt de **Verwijderen forceren** wordt weergegeven en u kunt dit met kracht verwijderen.
    - Als er vanuit een ander bestand naar het bestand wordt verwezen, dan **Verwijderen forceren** wordt weergegeven en u kunt het bestand met kracht verwijderen:
 
-      ![](images/options-menu-force-delete.png){width="550" align="left"}
+     ![](images/options-menu-force-delete.png){width="550" align="left"}
 
-      >[!NOTE]
-      >
-      > Als uw beheerder toestemming heeft gegeven om het bestand te verwijderen, dan **Verwijderen forceren** is ingeschakeld. Anders, **Verwijderen forceren** is uitgeschakeld en er wordt een bericht weergegeven dat u geen toestemming hebt om bestanden waarnaar wordt verwezen, te verwijderen. Zie voor meer informatie *Verwijderen van bestanden waarnaar wordt verwezen voorkomen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+     >[!NOTE]
+     >
+     > Als uw beheerder toestemming heeft gegeven om het bestand te verwijderen, dan **Verwijderen forceren** is ingeschakeld. Anders, **Verwijderen forceren** is uitgeschakeld en er wordt een bericht weergegeven dat u geen toestemming hebt om bestanden waarnaar wordt verwezen, te verwijderen. Zie voor meer informatie *Verwijderen van bestanden waarnaar wordt verwezen voorkomen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
    - Als u een onderwerp waarnaar wordt verwezen verwijdert en u het bestand met verwijzingen hebt geopend voor bewerken, wordt de verbroken koppeling voor het bestand waarnaar wordt verwezen, weergegeven.
-   >[!NOTE]
-   >
-   > U kunt het geselecteerde bestand ook verwijderen met de toets Delete van het toetsenbord.
+
+  >[!NOTE]
+  >
+  > U kunt het geselecteerde bestand ook verwijderen met de toets Delete van het toetsenbord.
 
 - **Kopiëren**: U kunt uit de volgende opties kiezen:
 
@@ -893,16 +895,16 @@ In de **Nieuw onderwerp maken** geeft u de volgende gegevens op:
 
 - Een malplaatje waarop het onderwerp zal worden gebaseerd. Bijvoorbeeld, voor een uit-van-de-doos opstelling, kunt u van Lege, Concept, DITAVAL, Verwijzing, Taak, Onderwerp, en de malplaatjes van het Oplossen van problemen kiezen.
 
-   Als er in uw map een mapprofiel is geconfigureerd, worden alleen de onderwerpsjablonen weergegeven die in het mapprofiel zijn geconfigureerd.
+  Als er in uw map een mapprofiel is geconfigureerd, worden alleen de onderwerpsjablonen weergegeven die in het mapprofiel zijn geconfigureerd.
 
 - Pad waar u het onderwerpbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad.
 - Een titel voor het onderwerp.
 
 - *\(Optioneel\)* De bestandsnaam voor het onderwerp. De bestandsnaam wordt automatisch voorgesteld op basis van de titel van het onderwerp.
 
-   Als uw beheerder automatische bestandsnamen heeft ingeschakeld op basis van de UUID-instelling, ziet u het veld Naam niet zoals in de volgende schermafbeelding wordt getoond:
+  Als uw beheerder automatische bestandsnamen heeft ingeschakeld op basis van de UUID-instelling, ziet u het veld Naam niet zoals in de volgende schermafbeelding wordt getoond:
 
-   ![](images/new-topic-without-filename.PNG){width="300" align="left"}
+  ![](images/new-topic-without-filename.PNG){width="300" align="left"}
 
 
 Wanneer u op **Maken**, wordt het onderwerp gecreeerd bij de gespecificeerde weg. Ook, wordt het onderwerp geopend in de Redacteur van het Web voor het uitgeven.
@@ -922,7 +924,7 @@ In de **Nieuwe kaart maken** geeft u de volgende gegevens op:
 
 - *\(Optioneel\)* De bestandsnaam voor de kaart. De bestandsnaam wordt automatisch voorgesteld op basis van de maptitel.
 
-   Als de beheerder automatische bestandsnamen heeft ingeschakeld op basis van de UUID-instelling, wordt het veld Naam niet weergegeven.
+  Als de beheerder automatische bestandsnamen heeft ingeschakeld op basis van de UUID-instelling, wordt het veld Naam niet weergegeven.
 
 
 Wanneer u op **Maken**, wordt de kaart gemaakt en toegevoegd in de map die is opgegeven in het veld Pad. De kaart wordt ook geopend in de Kaartweergave. U kunt het kaartdossier in de Redacteur van de Kaart openen en onderwerp aan het toevoegen. Voor meer informatie over het toevoegen van onderwerpen aan een kaartdossier, zie [Een kaart maken](map-editor-create-map.md#).
@@ -987,9 +989,9 @@ U kunt de volgende handelingen uitvoeren met het menu Opties:
 
 - **Uitchecken**: Bekijk het geselecteerde bestand. Voor een uitgecheckt bestand wordt deze optie gewijzigd in **Inchecken**.
 
-   >[!NOTE]
-   >
-   > Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
+  >[!NOTE]
+  >
+  > Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
 
 - **Voorvertoning**: Een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het te openen.
 - **Kopiëren**: U kunt uit de volgende opties kiezen:
@@ -1034,15 +1036,15 @@ De omtrekweergave biedt de volgende functies:
 
 - Wanneer u op een element in de weergave Omtrek klikt, wordt de inhoud van het element geselecteerd in de weergave Auteur of Bron. De weergave Omtrek blijft synchroon met de weergave Auteur en Bron. Als u wijzigingen aanbrengt in een weergave, kunt u deze weergeven in de weergave Overzicht. Als u bijvoorbeeld een alinea toevoegt of een element bijwerkt in de weergave Auteur, wordt deze weergegeven in de weergave Overzicht.
 
-   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+  ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
 - Elementen slepen en neerzetten. U kunt een element eenvoudig vervangen door er een ander element op neer te zetten. Als u een element over een ander element sleept en u een vierkant vakje rond het element ziet, wijst het erop dat het element zal worden vervangen. Het vervangt het element waarop het element wordt gelaten vallen.
 
-   ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
 
-   Als u een element sleept en neerzet, geeft een onderbroken rechthoek aan dat het element op de huidige locatie kan worden geplaatst. Als het slepen en neerzetten ongeldig is, wordt een foutbericht weergegeven om aan te geven dat de bewerking niet is toegestaan.
+  Als u een element sleept en neerzet, geeft een onderbroken rechthoek aan dat het element op de huidige locatie kan worden geplaatst. Als het slepen en neerzetten ongeldig is, wordt een foutbericht weergegeven om aan te geven dat de bewerking niet is toegestaan.
 
-   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
 - De **Opties** in het menu *Omtrekweergave* Hiermee kunt u algemene bewerkingen uitvoeren, zoals Knippen, Kopiëren, Verwijderen, Id genereren, Element invoegen voor of na het huidige element, Een element hernoemen of vervangen, Een element opheffen en een fragment maken van het geselecteerde element.
 
@@ -1086,7 +1088,7 @@ Als u een DITA-bestand wilt toevoegen aan het deelvenster Herbruikbare inhoud, g
 
 - Klik op het pictogram + naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het bestand dat u wilt toevoegen en klik op **Toevoegen** om het proces te voltooien.
 
-   ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
+  ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
 
 - Klik in de weergave Opslag op het pictogram Opties van het gewenste bestand en kies **Toevoegen aan herbruikbare inhoud** in het contextmenu.
 
@@ -1109,11 +1111,11 @@ Gebruik een van de volgende methoden om inhoud in te voegen uit het deelvenster 
 
 - Houd de muisaanwijzer boven een element dat u wilt invoegen, klik op het pictogram Opties en kies **Herbruikbare inhoud invoegen**.
 
-   ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+  ![](images/insert-reusable-content_cs.png){width="400" align="left"}
 
-   >[!NOTE]
-   >
-   > Opmerking: De **Voorvertoning** Deze optie is ook beschikbaar in het contextmenu, waarin u een snel voorbeeld van het element kunt zien voordat u het invoegt.
+  >[!NOTE]
+  >
+  > Opmerking: De **Voorvertoning** Deze optie is ook beschikbaar in het contextmenu, waarin u een snel voorbeeld van het element kunt zien voordat u het invoegt.
 
 - Sleep het herbruikbare inhoudsitem van het deelvenster naar de gewenste locatie in het document.
 
@@ -1151,7 +1153,7 @@ U kunt de volgende instellingen configureren voor het gereedschap Hotspot:
    - **Nieuwe versie maken na conversie**: Een nieuwe versie van het onderwerp wordt gecreeerd nadat de omzetting van termijnen is voltooid.
 - **Volgende** wordt weergegeven als u **Handmatig voor elk onderwerp** optie. Klikken **Volgende** om de termijnen voor elk onderwerp op basis van de geselecteerde montages om te zetten. Het veroorzaakt voor omzetting van termijnen in elk onderwerp en beweegt zich aan het volgende dossier. U kunt ervoor kiezen een term om te zetten of deze over te slaan en naar de volgende termijn te gaan.
 
-   ![](images/manual-convert-skip.png){width="300" align="left"}
+  ![](images/manual-convert-skip.png){width="300" align="left"}
 
 - **Omzetten** wordt weergegeven als u **Automatisch voor alle onderwerpen** optie. Selecteren **Omzetten** om alle termen in het document te converteren naar gekoppelde woordenboekafkortingen.
 
@@ -1303,6 +1305,7 @@ In het volgende voorbeeld ziet u hoe u het onderwerpschema in AEM hulplijnen kun
    1. Zelfde kaart
    1. Toegewezen kaart
 
+
    De verwijzingen worden niet opgelost als de opsomming niet in de zelfde kaart en de referenced kaart wordt gevonden.
 
 
@@ -1346,17 +1349,17 @@ Gebruik een van de volgende methoden om een fragment toe te voegen:
 
 - Klik op het pictogram + naast Fragmenten om het dialoogvenster Nieuw fragment te openen.
 
-   ![](images/snippet-new-dialog.png){width="550" align="left"}
+  ![](images/snippet-new-dialog.png){width="550" align="left"}
 
-   Geef in het dialoogvenster Nieuw fragment een titel op die wordt weergegeven in het paneel Fragmenten, een beschrijving en XML-code van de fragmentinhoud die u wilt maken. Klikken **Maken** om het fragment op te slaan en te maken.
+  Geef in het dialoogvenster Nieuw fragment een titel op die wordt weergegeven in het paneel Fragmenten, een beschrijving en XML-code van de fragmentinhoud die u wilt maken. Klikken **Maken** om het fragment op te slaan en te maken.
 
 - Klik in het inhoudsbewerkingsgebied met de rechtermuisknop op de broodkruimel van het element dat u als een fragment wilt gebruiken en kies **Fragment maken** in het contextmenu. Het dialoogvenster Nieuw fragment wordt weergegeven met de XML-code van het geselecteerde element dat is gevuld in het dialoogvenster **Inhoud** veld. Voer de **Titel** en **Beschrijving** voor het fragment en klik op **Maken** om het fragment op te slaan.
 
 - Klik in het inhoudsbewerkingsgebied met de rechtermuisknop ergens op de inhoud die u als fragment wilt gebruiken en kies **Fragment maken** in het contextmenu. Het dialoogvenster Nieuw fragment wordt weergegeven met de XML-code van het geselecteerde element dat is gevuld in het dialoogvenster **Inhoud** veld. Voer de **Titel** en **Beschrijving** voor het fragment en klik op **Maken** om het fragment op te slaan.
 
-   In de volgende schermafbeelding worden de breadcrumb en het inhoudsgebied gemarkeerd waaruit u het contextmenu kunt aanroepen.
+  In de volgende schermafbeelding worden de breadcrumb en het inhoudsgebied gemarkeerd waaruit u het contextmenu kunt aanroepen.
 
-   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
 
 Gebruik een van de volgende methoden om een fragment in te voegen:
@@ -1390,6 +1393,41 @@ Nadat u de sjabloon hebt gemaakt, moet u deze toevoegen aan uw algemene profiel 
 
 Met het menu Opties van een bestaande sjabloon kunt u ervoor kiezen **Bewerken** of **Dupliceren** het. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
 
+**Controleren** -  ![](images/active-review-tasklist-icon.svg)
+
+AEM Gidsen verstrekt de eigenschap om alle overzichtstaken in uw projecten te tonen. U kunt alle revisieprojecten en de actieve revisietaken in de revisieprojecten weergeven, waarvan u deel uitmaakt in het dialoogvenster **Controleren** deelvenster.  Vervolgens kunt u de revisietaken openen om de opmerkingen van de verschillende revisoren weer te geven.
+De revisietaken worden weergegeven in het deelvenster. Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur van het Web.
+
+
+Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actieve revisietaken die aanwezig zijn in uw projecten:
+
+1. Revisie selecteren ![](images/active-review-tasklist-icon.svg)   in het linkerdeelvenster. De **Controleren** wordt geopend.  Alle overzichtsprojecten en de actieve overzichtstaken binnen de overzichtsprojecten, die u deel van uitmaken worden getoond.
+
+   ![](images/web-editor-review-panel.png){width="300" align="left"}
+1. Selecteer een revisieproject en selecteer vervolgens een revisietaak in de lijst om deze te openen.
+1. U kunt uw projecten ook op de volgende manieren filteren:
+
+   - Voer de zoekterm of tekst in die u wilt zoeken in de titel van het project. Druk vervolgens op Enter om de zoekopdracht uit te voeren. U kunt bijvoorbeeld alle projecten doorzoeken met de term &#39;ruimte&#39; in de titel.
+
+   - Selecteren ![](images/filter-search-icon.svg)  om de **Filter** . U kunt alle of alleen specifieke projecten selecteren. De geselecteerde projecten worden vermeld in **Controleren** deelvenster.
+     ![](images/active-review-select-project.png){width="300" align="left"}
+
+     De **Taken die door mij zijn gestart** is standaard ingeschakeld. Hiermee kunt u alleen de taken weergeven die u hebt gestart.
+
+1. Door gebrek, in uw overzichtsproject zult u een vlakke lijst van onderwerpen bekijken die commentaren verbonden aan hen hebben. Pas de vereiste filters van de linkerspoorstaaf toe om de onderwerpen te filtreren die op de overzichtscommentaren worden gebaseerd die in hen aanwezig zijn:
+
+   - **Alle onderwerpen weergeven**: Hiermee geeft u alle onderwerpen weer die in de projecten voorkomen.
+   - **Onderwerpen met opmerkingen weergeven**: Alleen de onderwerpen met revisieopmerkingen weergeven.
+1. U kunt ook de zoekterm of tekst invoeren die u wilt zoeken in de titel of het bestandspad van het onderwerp. De onderwerpen die de termijn in de titel of de dossierweg bevatten zijn vermeld.
+1. Dubbelklik op een onderwerp om het te openen in de weergave Ontwerpen. U kunt de opmerkingen weergeven in het dialoogvenster **Opmerkingen** deelvenster.
+   ![](images/active-review-task-comments.png){width="800" align="left"}
+
+
+   >[!NOTE]
+   > 
+   > De **Controleren** en de **Opmerkingen** zijn altijd synchroon. In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
+   > Voor meer informatie over hoe u de opmerkingen kunt verwerken, bekijkt u [Opmerkingen voor revisie van adres](review-address-review-comments.md#).
+
 **Zoeken en vervangen** -  ![](images/FindAndReplace_icon.svg)
 
 Onder in het linkerdeelvenster vindt u het pictogram Zoeken en vervangen. Met het deelvenster Zoeken en vervangen kunt u zoeken naar tekst in bestanden in een kaart of een map in uw opslagplaats en deze vervangen. U kunt in alle onderwerpen van een kaart evenals onderwerpen vinden en vervangen aanwezig in submaps binnen de kaart.
@@ -1402,9 +1440,9 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 1. Klik op de knop **Zoeken in** selecteert u een van de volgende opties om de zoekopdracht uit te voeren.
    - **Huidige kaart**: Zoeken in de momenteel geopende kaart
 
-      >[!NOTE]
-      >
-      > Deze optie wordt weergegeven als u al een kaart hebt geopend voor bewerken.
+     >[!NOTE]
+     >
+     > Deze optie wordt weergegeven als u al een kaart hebt geopend voor bewerken.
 
    - **Pad**: Naar het geselecteerde pad zoeken
    - **Kaart selecteren**: Zoeken in de geselecteerde kaart
@@ -1415,7 +1453,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
    - **Alleen hele woorden**: Selecteer deze optie als u naar de volledige zoekreeks wilt zoeken. Als u bijvoorbeeld een zoekopdracht opgeeft in de zoekreeks, retourneert het zoekresultaat alle bestanden met woorden als over en overzicht. Selecteer deze optie als u de zoekopdracht wilt beperken en de exacte ingevoerde term wilt retourneren.
    - **Nieuwe versie maken na vervangen**: Selecteer deze optie als u een nieuwe versie wilt maken van het onderwerp waarin u de tekst wilt vervangen. U kunt ook versieopmerkingen opgeven die bij elk bijgewerkt bestand worden toegevoegd.
 
-      Als u deze optie niet selecteert, dan worden de veranderingen bewaard in de huidige versie van het onderwerp en geen nieuwe versie wordt gecreeerd.
+     Als u deze optie niet selecteert, dan worden de veranderingen bewaard in de huidige versie van het onderwerp en geen nieuwe versie wordt gecreeerd.
 
    - **Inclusief indirecte verwijzing**: Selecteer deze optie als u de tekenreeks ook in de DITA-kaart wilt doorzoeken in de indirecte verwijzingen. Deze optie is standaard uitgeschakeld, zodat de zoekopdracht alleen op de directe referenties wordt uitgevoerd.
 
@@ -1428,9 +1466,9 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
    - **Huidige kaart**: Zoeken in de momenteel geopende kaart
 
-      >[!NOTE]
-      >
-      > Deze optie wordt weergegeven als u al een kaart hebt geopend voor bewerken.
+     >[!NOTE]
+     >
+     > Deze optie wordt weergegeven als u al een kaart hebt geopend voor bewerken.
 
    - **Pad**: Naar het geselecteerde pad zoeken
    - **Kaart selecteren**: Zoeken in de geselecteerde kaart
@@ -1443,7 +1481,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
    - **Nieuwe versie maken na vervangen**: Selecteer deze optie als u een nieuwe versie wilt maken van het onderwerp waarin u de tekst wilt vervangen. U kunt ook versieopmerkingen opgeven die bij elk bijgewerkt bestand worden toegevoegd.
 
-      Als u deze optie niet selecteert, dan worden de veranderingen bewaard in de huidige versie van het onderwerp en geen nieuwe versie wordt gecreeerd.
+     Als u deze optie niet selecteert, dan worden de veranderingen bewaard in de huidige versie van het onderwerp en geen nieuwe versie wordt gecreeerd.
 
    - **Inclusief indirecte verwijzing**: Selecteer deze optie als u de tekenreeks ook in de DITA-kaart wilt doorzoeken in de indirecte verwijzingen. Deze optie is standaard uitgeschakeld, zodat de zoekopdracht alleen op de directe referenties wordt uitgevoerd.
 

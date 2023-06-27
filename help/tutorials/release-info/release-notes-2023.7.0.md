@@ -1,29 +1,30 @@
 ---
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juni 2023
-description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides in juni 2023
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides van juli 2023
+source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: '903'
+ht-degree: 1%
 
 ---
 
 # Release van Adobe Experience Manager Guides in juni 2023 as a Cloud Service
 
-In deze releaseopmerking worden de instructies voor het bijwerken, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie juni 2023 van de Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
+In deze releaseopmerking worden de instructies voor het bijwerken, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie juli 2023 van de Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
-Voor meer informatie over de nieuwe functies en verbeteringen raadpleegt u [Nieuwe functies in juni 2023: AEM hulplijnen as a Cloud Service](whats-new-2023.6.0.md).
+Voor meer informatie over de nieuwe functies en verbeteringen raadpleegt u [Nieuwe functies in juli 2023 - release van AEM hulplijnen as a Cloud Service](whats-new-2023.7.0.md).
 
-## Upgrade naar juni 2023
+## Upgrade naar release juli 2023
 
 Voer de volgende stappen uit om de huidige installatie van de AEM hulplijnen te upgraden:
 
 1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2023.6.297.
-3. Leg de wijzigingen vast en voer de pijpleiding Cloud Services uit om te upgraden naar de release van juni 2023 van AEM as a Cloud Service hulplijnen.
+2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2023.7.0.314.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van juli 2023 van AEM as a Cloud Service hulplijnen te upgraden.
 
 ## Stappen om de trigger van een script via een servlet in te schakelen
+
+(Alleen als u een versie hebt die ouder is dan juni 2023, release van AEM hulplijnen as a Cloud Service)
 
 Nadat u de installatie hebt voltooid, kunt u ervoor kiezen om de trigger te HIT om de vertaaltaak te starten:
 
@@ -82,7 +83,7 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 
 ## Stappen om de bestaande inhoud te indexeren om de nieuwe zoek- en vervangings- en onderwerpenlijst onder het tabblad Rapporten te gebruiken:
 
-(Alleen als u een versie hebt die ouder is dan september 2022 en als u AEM hulplijnen hebt as a Cloud Service)
+(Alleen als u een versie hebt die ouder is dan juni 2023, release van AEM hulplijnen as a Cloud Service)
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vondst en vervangt tekst op kaartniveau en onderwerpenlijst onder het rapportlusje te gebruiken:
 
@@ -97,13 +98,13 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM in de release van juni 2023 as a Cloud Service hulplijnen.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM in de release van juli 2023 as a Cloud Service hulplijnen.
 
 ### FrameMaker en het Publiceren FrameMaker Server
 
 | Hulplijnen AEM als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.06.0 | Niet compatibel | 2022 of hoger |
+| 2023.07.0 | Niet compatibel | 2022 of hoger |
 | | | |
 
 
@@ -111,7 +112,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -121,45 +122,16 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Authoring
 
-- Navtitle wordt verwijderd uit content33 bij het schakelen van de layoutweergave naar de auteur- of bronweergave. (12174)
-- Soms treedt een toepassingsfout op bij het klikken op een DITA-kaart. (11842)
-- Webeditor | Vaste spatie wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
-- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. (11528)
-- Keyref wordt niet opgelost in de kaartweergave. (11490)
-- Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. (10868)
-- `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. (9481)
-- Lokale koppelingen naar andere elementen worden niet opgelost in de webeditor. (8790)
-- De functie Matches() werkt niet in de functie schema. (11224)
-
-
-### Beheer
-
-- Het lusje van rapporten in de Redacteur UI van het Web toont niet de onderwerpenlijst van oude kaarten DITA die vóór 4.2 verbetering worden gecreeerd. (11708)
-
-- De functionaliteit van de knop Bestanden uploaden in het interface-einde voor middelen in versie 4.2. (11633)
+- De inline-/weergavekenmerken worden niet weergegeven in de layoutweergave van de webeditor. (12498)
+- Bestanden uploaden in de insteekmodule Oxygen voor AEM hulplijnen werkt niet in cloudservices als u dat hebt! in de bestandsnaam. (12207)
+- Het publiceren van DITA-kaarten gaat erg langzaam met bewerkbare sjablonen. (12075)
+- De globale configuratie van het Profiel UI past niet met het Profiel van de Omslag aan. (11970)
+- Inhoudsverwijzingen worden verbroken wanneer DITA-bestanden worden gekopieerd en geplakt. (11959)
+- Kan inhoudsfragment niet bewerken in de kolomweergave met AEM hulplijnen geïnstalleerd. (7342)
+- Inhoud gaat verloren wanneer een onverpakt xref zich onder subelementtags bevindt. (12532)
 
 ### Publiceren
 
-- Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (12113)
-- Native PDF | Het publiceren van inhoud die een outputklasse met steunen () heeft leidt tot een het publiceren bevriezing. (11936)
-- JSON-uitvoer | Metagegevens met kenmerk eigenschap als `"value in spaces and double quotes"` leidt tot een publicatiefout. (11933)
-- Webeditor | Uitvoerpad en sjabloon kunnen niet worden geselecteerd in de AEM Voorinstelling. (11530)
-- Native PDF | Aangepaste kenmerken worden niet doorgegeven aan tijdelijke HTML- of PDF-engine. (DXML-12005)
-- Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
-- JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. (11564)
-- JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. (11524)
-- Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
-- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. (10751)
-- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. (10876)
-- Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. (10549)
-- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12407)
+- De goedkeuringswerkstroom werkt niet wanneer de documentstatus wordt gewijzigd in &quot;eindstatus&quot; in de bestandseigenschappen van het rechterdeelvenster. (11026)
 
 
-
-### Vertaling
-
-- Na de cloudrelease van februari (2302) wordt alle vertaalinhoud weergegeven als Niet-gesynchroniseerd of Ontbrekend exemplaar. (11834)
-
-### Controleren
-
-- Nieuwe revisie-interface | De voorwaarden benadrukken, en tonen verberg werk anders dan hoe zij in de Redacteur van het Web werken. (11628)

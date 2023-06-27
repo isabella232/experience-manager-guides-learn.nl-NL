@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Gebruik deze methode om een uitvoer van PDF voor een kaart van het kaartdashboar
 
 Voor meer informatie bij het produceren van een PDF die de methode DITA-OT gebruikt, zie [PDF genereren met DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker het Publiceren Server (FMPS)**
+* **FrameMaker Publishing Server (FMPS)**
 
-Gebruik deze methode om een output van PDF van niet alleen de inhoud DITA, maar ook documenten FrameMaker (.book en .fm) beschikbaar in uw AEM bewaarplaats te produceren. De PDF kan worden gecreeerd door een output te vormen vooraf ingesteld en gepubliceerd gebruikend het Publiceren FrameMaker Server (FMPS). U kunt het uiterlijk van uw uitvoer voor PDF en andere indelingen ontwerpen en configureren en deze opslaan in een instellingsbestand (.sts). Dit instellingsbestand wordt vervolgens door FMPS gebruikt om uitvoer te genereren voor een DITA-kaart of .book-bestand. Als u een uitvoervoorinstelling wilt maken of bewerken, raadpleegt u de  *Uitvoervoorinstellingen* in de [as a Cloud Service gebruikershandleiding voor AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+Met deze methode kunt u een PDF-uitvoer genereren op basis van niet alleen de DITA-inhoud, maar ook FrameMaker-documenten (.book en .fm) die beschikbaar zijn in uw AEM opslagplaats. De PDF kan worden gemaakt door een uitvoervoorinstelling te configureren en te publiceren met behulp van FrameMaker Publishing Server (FMPS). U kunt het uiterlijk van uw uitvoer voor PDF en andere indelingen ontwerpen en configureren en deze opslaan in een instellingsbestand (.sts). Dit instellingsbestand wordt vervolgens door FMPS gebruikt om uitvoer te genereren voor een DITA-kaart of .book-bestand. Als u een uitvoervoorinstelling wilt maken of bewerken, raadpleegt u de  *Uitvoervoorinstellingen* in de [as a Cloud Service gebruikershandleiding voor AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Voor meer informatie over het configureren van FMPS raadpleegt u [Produceer output van documenten FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Voor meer informatie over het configureren van FMPS raadpleegt u [Uitvoer genereren op basis van FrameMaker documenten](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **Native PDF-publicatie**
 
@@ -56,7 +56,6 @@ Een voorinstelling voor PDF-uitvoer maken of configureren:
 
 1. Klik op het tabblad Uitvoer op **Voorinstellingen** in de linkerzijbalk.
 Het deelvenster Voorinstelling wordt geopend. <br>
-
 <img src="assets/preset-panel.png" alt="deelvenster met voorinstellingen" width="600">
 
 1. In de uitvoer **Voorinstellingen** voert u een van de volgende handelingen uit:
@@ -95,17 +94,17 @@ Deze metagegevens worden toegewezen aan de metagegevens op het tabblad Beschrijv
 Uit de uitvoervoorinstellingen **PDF selecteren** > **Metagegevens** om opties voor metagegevens toe te voegen en aan te passen.
 * **XMP bestand opgeven**
 
-   Metagegevensvelden kunnen rechtstreeks worden gevuld door importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) bestand. U kunt hier een voorbeeld XMP bestand downloaden.
+  Metagegevensvelden kunnen rechtstreeks worden gevuld door importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) bestand. U kunt hier een voorbeeld XMP bestand downloaden.
 
 [Downloaden](assets/SampleXMP.xmp)
 
-   U kunt ook een XMP bestand genereren met Adobe Acrobat.
+  U kunt ook een XMP bestand genereren met Adobe Acrobat.
    1. Klikken **Bestand** > **Eigenschappen** in Acrobat.
    1. Onder **Beschrijving**, klikt u op **Aanvullende metagegevens**.
    1. Selecteer in het linkerdeelvenster de optie **Geavanceerd**.
    1. Klikken op **Opslaan**.
 
-   XMP bestand wordt opgeslagen op het apparaat.
+  XMP bestand wordt opgeslagen op het apparaat.
 
 * **Geef metagegevensnamen en -waarden op**
 
@@ -152,6 +151,7 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | **Watermerk tonen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. Anders worden de vergelijkingen genegeerd. |
 | **MathML-vergelijkingen inschakelen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. De vergelijkingen worden anders standaard genegeerd. |
 | **PDF-conformiteit** | Dit is de standaard waarmee u de PDF wilt opslaan om ervoor te zorgen dat deze compatibel is. Selecteer een optie in het vervolgkeuzemenu om een keuze te maken in de lijst met beschikbare PDF-standaarden. Zie voor meer informatie over de ondersteunde standaarden [PDF-standaarden](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Tijdelijke bestanden downloaden** | Selecteer deze optie als u de tussentijdse HTML-bestanden wilt downloaden die tijdens het genereren van de native PDF-uitvoer zijn gemaakt. U kunt de tijdelijke bestanden later downloaden nadat u de uitvoer hebt gegenereerd. |
 
 ## Een PDF-uitvoer genereren {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ Als de uitvoer niet is gelukt, wordt het onderstaande foutbericht weergegeven.
 <img src="assets/error-log.png" alt="foutenlogboek" width="250">
 
 Als u het foutenlogboek wilt weergeven, klikt u op **Afwijzen**, plaatst u de cursor boven het geselecteerde tabblad met voorinstellingen en klikt u op ![opties](assets/options.svg) **Opties** > **Logboek weergeven**.
+
+### Tijdelijke bestanden downloaden nadat de uitvoer van de native PDF is gegenereerd
+
+Als u **Tijdelijke bestanden downloaden** in de Geavanceerde instellingen kunt u ook de tussentijdse HTML-bestanden downloaden die zijn gemaakt tijdens het genereren van de eigen PDF-uitvoer. Nadat u de uitvoer hebt gegenereerd, kunt u de tijdelijke bestanden downloaden met de opdracht **Tijdelijke bestanden downloaden** ![tijdelijke bestanden downloaden](assets/native-pdf-download-temporary-files-icon.svg)op de bovenste balk. Met deze functie kunt u uw tijdelijke stijlen en lay-outs voor HTML weergeven en kunt u uw CSS-stijlen naar wens corrigeren of wijzigen.
+
+
+>OPMERKING
+>
+> De **Tijdelijke bestanden downloaden**  ![tijdelijke bestanden downloaden](assets/native-pdf-download-temporary-files-icon.svg) wordt alleen weergegeven als u de laatste PDF-uitvoer hebt gegenereerd met de voorinstelling waarin u de optie hebt geselecteerd in het dialoogvenster **Geavanceerd** tab.

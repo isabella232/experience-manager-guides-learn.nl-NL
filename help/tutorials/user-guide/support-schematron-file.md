@@ -1,13 +1,13 @@
 ---
 title: Ondersteuning voor Schematron-bestanden
 description: Leer hoe u uw onderwerpen kunt valideren met Designer
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Ondersteuning voor Schematron-bestanden
 
@@ -55,7 +55,7 @@ Wanneer u een onderwerp in de Redacteur van het Web opent, verschijnt een paneel
 
 De steun van het Schematron in de Redacteur van het Web helpt u in het bevestigen van de dossiers tegen een reeks regels en het handhaven van consistentie en correctheid over de onderwerpen.
 
-## Gebruik Assert- en Report-instructies om te controleren op regels{#schematron-assert-report}
+## Instructies gebruiken om te controleren op regels{#schematron-assert-report}
 
 AEM Hulplijnen ondersteunen ook de verklaringen van Schematron en rapporteren deze. Deze verklaringen helpen u uw onderwerpen DITA bevestigen.
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

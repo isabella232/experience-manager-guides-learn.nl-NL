@@ -1,16 +1,17 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Leer de nieuwe en verbeterde functies van de as a Cloud Service Adobe Experience Manager-hulplijnen in juni 2023
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Nieuwe functies in juni 2023 as a Cloud Service Adobe Experience Manager-hulplijnen
 
-Dit artikel behandelt de nieuwe en verbeterde functies in versie juni 2023 van Adobe Experience Manager Guides (later genoemd *Hulplijnen AEM as a Cloud Service*).
+Dit artikel heeft betrekking op de nieuwe en verbeterde functies in versie juni 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
 Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u de [Opmerkingen bij de release](release-notes-2023.6.0.md) artikel.
 
@@ -41,7 +42,13 @@ Zie voor meer informatie [Een watermerk toevoegen aan de PDF-uitvoer voor concep
 
 ### Ondersteuning voor taalvariabelen in DITA-elementen
 
-AEM hulplijnen bieden ondersteuning voor de taalvariabelen. Deze variabelen zijn zeer nuttig om gelokaliseerde koorden voor elementen zoals nota, uiteinde, waarschuwing, voorzichtigheid te produceren. Bijvoorbeeld, kunt u de volgende manieren hebben om uw NOTA in de output van PDF voor te stellen: Duits: Notiz Spaans: Nota
+AEM hulplijnen bieden ondersteuning voor de taalvariabelen. Deze variabelen zijn zeer nuttig om gelokaliseerde koorden voor elementen zoals nota, uiteinde, waarschuwing, voorzichtigheid te produceren.
+Bijvoorbeeld, kunt u de volgende manieren hebben om uw NOTA in de output van PDF voor te stellen:
+
+Duits: Notiz
+
+Spaans: Nota
+
 
 ### Ondersteuning voor taalvariabelen in de voettekst van de pagina
 
@@ -51,10 +58,13 @@ U kunt de nummers ook in verschillende talen weergeven.
 ### Gelokaliseerde voorvoegsels voor uw inhoudsopgave
 
 U beschikt ook over de functie om gelokaliseerde termen weer te geven die moeten worden gebruikt om de voorvoegsels in uw koppen weer te geven.
-U kunt bijvoorbeeld op de volgende manieren het voorvoegsel &#39;Hoofdstuk&#39; in de uitvoer van PDF weergeven: Duits: Spaans Kapitel: Capítulo
+U kunt bijvoorbeeld de volgende manieren hebben om het voorvoegsel &#39;Hoofdstuk&#39; voor te stellen in de uitvoer van PDF:
+
+Duits: Kapitel
+
+Spaans: Capítulo
 
 ### Mogelijkheid om AEM metagegevens te gebruiken in PDF-lay-outs
-
 
 Metagegevens zijn de beschrijving of definitie van de inhoud. Deze metagegevens worden opgeslagen in de DITA-bronkaartinhoud.
 
@@ -72,11 +82,11 @@ Zie voor meer informatie [Velden en metagegevens toevoegen](../native-pdf/design
 
 ## Schematron-verbeteringen
 
-### Instructies in Rapport gebruiken om te controleren op regels in Schematron
+### Gebruik rapportinstructies om te controleren op regels in Schematron
 
 AEM Guides steunt nu ook de verklaringen in het verslag met de Schematron. Een rapportverklaring produceert een bericht wanneer een testverklaring aan waar evalueert. Als u bijvoorbeeld wilt dat de korte beschrijving uit maximaal 150 tekens bestaat, kunt u een rapportinstructie definiëren om de onderwerpen te controleren waarvoor de korte beschrijving uit meer dan 150 tekens bestaat.
 
-Zie voor meer informatie [Gebruik Assert- en Report-instructies om te controleren op regels](../user-guide/support-schematron-file.md#schematron-assert-report).
+Zie voor meer informatie [Instructies gebruiken om te controleren op regels](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Regex-expressies gebruiken
 

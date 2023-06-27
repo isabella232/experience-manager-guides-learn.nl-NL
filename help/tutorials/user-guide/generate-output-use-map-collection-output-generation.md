@@ -2,9 +2,9 @@
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -66,15 +66,26 @@ De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
 Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, voer de volgende stappen uit:
 
-1. Open de verzameling Kaarten.
+1. Open de verzameling Kaarten. U kunt de verschillende uitvoervoorinstellingen bekijken, zoals de voorinstellingen AEM Site, PDF (inclusief native PDF), HTML5, EPUB en Aangepast. U kunt ook de voorinstellingen voor het algemene profiel en het mapprofiel weergeven die door de beheerder zijn gemaakt.
+
+   De ![](images/global-preset-icon.svg) geeft een voorinstelling voor het mapprofielniveau aan.
 1. \(Optioneel\) Voer naar wens een van de volgende handelingen uit:
    - Pas filters van de linkerspoorstaaf toe om de gewijzigde kaarten, de outputvooraf ingestelde, of de taal te filtreren.
    - Klik indien nodig op **Bewerken** en wijzig de gewenste uitvoer door de schuifknop in of uit te schakelen.
+
+
+
+     >[!NOTE]
+     >  
+     > Nieuwe voorinstellingen worden standaard uitgeschakeld.
+
+   - U kunt **Alle voorinstellingen voor mapprofielen in-/uitschakelen** voor een kaart DITA om alle omslagprofielen voor het in één keer te selecteren.
+
+
 1. Voer een van de volgende handelingen uit:
 
    - Als u uitvoer van geselecteerde kaarten wilt genereren, selecteert u de kaartbestanden en klikt u op **Geselecteerde genereren**.
    - Om output van alle kaarten DITA met hun gevormde voorinstellingen te produceren, klik **Alles genereren**.
-
    >[!IMPORTANT]
    >
    > Als een proces voor het genereren van uitvoer voor een voorinstelling of een DITA-kaart zich in de wachtrij of in uitvoering bevindt, kunt u geen andere taak voor het genereren van uitvoer voor dezelfde voorinstelling of dezelfde kaart starten.
@@ -85,7 +96,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
 - Om een kaartinzameling te schrappen, selecteer een inzameling in de pagina van de Inzameling van de Kaart, en klik **Verwijderen**.
 - Om een kaart DITA van een kaartinzameling te schrappen, open de Inzameling van de Kaart op Edit wijze, selecteer het DITA kaartdossier, en klik **Verwijderen uit verzameling**.
 
-   Hierdoor worden ook eventuele voorinstellingen of landinstellingen die aan de DITA-kaart zijn gekoppeld, verwijderd uit de Map Collection.
+  Hierdoor worden ook eventuele voorinstellingen of landinstellingen die aan de DITA-kaart zijn gekoppeld, verwijderd uit de Map Collection.
 
 
 ## Annuleer een taak van de outputgeneratie van een Inzameling van de Kaart

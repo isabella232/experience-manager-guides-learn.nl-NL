@@ -4,9 +4,9 @@ description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulpl
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 0%
 
 ---
@@ -212,19 +212,19 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
 1. Geef de volgende details op:
    - **Server-URL**: URL van de AEM server, bijvoorbeeld:
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      Geef in de bovenstaande URL de hostnaam en poort op van de server waar AEM server wordt geïmplementeerd.
+     Geef in de bovenstaande URL de hostnaam en poort op van de server waar AEM server wordt geïmplementeerd.
 
-      >[!IMPORTANT]
-      >
-      >Als uw AEM server wordt opgesteld op haven 80 of 443, dan te hoeven u niet het in URL te specificeren.
+     >[!IMPORTANT]
+     >
+     >Als uw AEM server wordt opgesteld op haven 80 of 443, dan te hoeven u niet het in URL te specificeren.
 
    - **Verificatie:** Kiezen uit **Standaard \(gebruikersnaam/wachtwoord\)** of **Webverificatie**. Als u **Basis** verificatie die u moet invoeren **Gebruikersnaam** en **Wachtwoord** in het dialoogvenster Voorkeuren.
 
-      Als u de Authentificatie van het Web selecteert, dan wordt u getoond het AEM Login scherm. Voer uw aanmeldingsgegevens in en klik op de knop **Aanmelden** knop. Wanneer de aanmelding is voltooid, wordt het aanmeldingsscherm AEM en geeft het deelvenster AEM de bestandslijst van de AEM server weer.
+     Als u de Authentificatie van het Web selecteert, dan wordt u getoond het AEM Login scherm. Voer uw aanmeldingsgegevens in en klik op de knop **Aanmelden** knop. Wanneer de aanmelding is voltooid, wordt het aanmeldingsscherm AEM en geeft het deelvenster AEM de bestandslijst van de AEM server weer.
 
    - **Time-out verbinding**: Geef in seconden op hoe lang de client moet wachten op een reactie van de AEM server. Als er binnen de opgegeven tijd geen reactie van de server wordt ontvangen, wordt het verzoek beëindigd. De standaardwaarde is 20 seconden.
 
@@ -256,7 +256,7 @@ Voer de volgende stappen uit om het profileren attributen te vormen:
 - Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteer CustomValueEditor - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
 Het volgende schermschot toont gevormd **Extensie** tab voor DITA-onderwerpen:
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
@@ -275,11 +275,11 @@ Voer de volgende stappen uit om de DITA kaartuitbreiding te vormen:
 - Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteer CustomValueEditor - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
 - *\(Optioneel\)* Als u verwijzingen niet wilt oplossen terwijl het openen van een kaartdossier, dan moet u de volgende extra configuratie uitvoeren:
 
-   Klikken **Kies** naast de **Resolver van verwijzingen** krachtens **Afzonderlijke extensies** en selecteer CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
+  Klikken **Kies** naast de **Resolver van verwijzingen** krachtens **Afzonderlijke extensies** en selecteer CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
 
-   Het volgende schermschot toont gevormd **Extensie** tab:
+  Het volgende schermschot toont gevormd **Extensie** tab:
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
@@ -302,9 +302,9 @@ In het volgende scherm ziet u het deelvenster Hulplijnen AEM.
 - **Verbinden**: Selecteer deze optie als u verbinding wilt maken met de AEM server. De optie is uitgeschakeld wanneer de XML-auteur van Zuurstof is verbonden met de AEM.
 - **Vernieuwen**: Selecteer deze optie om de nieuwste status van de bestanden en map op te halen uit de AEM opslagplaats.
 
-   >[!NOTE]
-   >
-   >Sla uw bestanden op voordat u ze vernieuwt. Wanneer u **Vernieuwen** krijgt u een waarschuwing om uw bestanden op te slaan voordat u ze vernieuwt. Als u uw bestanden niet hebt opgeslagen, klikt u op **Annuleren** en sla ze op.
+  >[!NOTE]
+  >
+  >Sla uw bestanden op voordat u ze vernieuwt. Wanneer u **Vernieuwen** krijgt u een waarschuwing om uw bestanden op te slaan voordat u ze vernieuwt. Als u uw bestanden niet hebt opgeslagen, klikt u op **Annuleren** en sla ze op.
 
 - **Instellingen**: U kunt deze optie gebruiken om het algemene dialoogvenster Voorkeuren van de insteekmodule te openen.
 - **Afmelden**: Selecteer deze optie om de AEM serververbinding te sluiten. Deze optie is beschikbaar slechts als u de wijze van de Authentificatie van het Web gebruikt.
@@ -418,6 +418,16 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
    >[!NOTE]
    >
    >Deze opmerking wordt weergegeven in de AEM versiegeschiedenis van het bestand.
+1. Label(s) toevoegen in het dialoogvenster **Label** tekstvak. Voer een label in en druk op Enter. Bijvoorbeeld: *2307 Release*.
+Als uw beheerder een lijst met labels vooraf heeft gedefinieerd en deze in het dialoogvenster `label.json` en worden deze labels weergegeven als een vervolgkeuzelijst. U kunt een of meer labels kiezen in het vervolgkeuzemenu.
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+U kunt veelvoudige etiketten (die door komma&#39;s worden gescheiden) aan de zelfde versie van een onderwerp toevoegen.  Bijvoorbeeld: *Adobe*, *AEM*,*Hulplijnen*
+Nochtans, kunt u niet het zelfde etiket aan de verschillende versies van een onderwerp toevoegen. Als u een label toevoegt dat u al aan een eerdere versie hebt toegevoegd, wordt het toegevoegd aan de meest recente versie en verwijderd uit de vorige versie.
+
+   >[!NOTE]
+   > 
+   > Deze labels worden weergegeven in de AEM versiegeschiedenis van het bestand.
+
 
 1. Klikken **OK**.
 
