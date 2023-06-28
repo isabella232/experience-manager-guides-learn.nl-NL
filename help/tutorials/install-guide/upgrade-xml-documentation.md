@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Manager-hulplijnen upgraden {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 
    - &#39;excludeList&#39; moet `"event-user-data:changedByWorkflowProcess"`.
    - Launcher for &quot;*Knooppunt gewijzigd*&quot; for **Workflow voor DAM Update-middelen -** voor voorwaarde &quot;`jcr:content/jcr:mimeType!=video`&quot;,
-   - 
-      - De waarde &#39;Globbing&#39; moet zijn:
+   - De waarde &#39;Globbing&#39; moet zijn:
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39; moet `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
    - Launcher for &quot;*Knooppunt gewijzigd*&quot; for **Workflow voor DAM Update-middelen -** voor voorwaarde &quot;`jcr:content/jcr:mimeType!=video`&quot;, moet de waarde &#39;Globbing&#39; zijn:
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` moeten `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. Nadat de upgrade is voltooid, zorgt u ervoor dat alle aanpassingen/overlays worden gevalideerd en bijgewerkt zodat ze overeenkomen met de nieuwe toepassingscode. Hieronder volgen enkele voorbeelden:
    - Alle componenten die worden overschreven door/libs/fmditor/libsc, moeten worden vergeleken met de nieuwe productcode en updates moeten worden uitgevoerd in overlay bestanden onder/apps.
@@ -408,7 +406,7 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
 - Zorg ervoor dat de `damAssetLucene` indexering is voltooid. Het kan een paar uur duren, afhankelijk van de hoeveelheid gegevens die aanwezig is op de server. U kunt bevestigen dat het opnieuw indexeren is voltooid door te controleren of het veld voor opnieuw indexeren in
-   `http://<server:port>/oak:index/damAssetLucene`.  Ook als u aanpassingen hebt toegevoegd in `damAssetLucene`, moet u deze mogelijk opnieuw toepassen.
+  `http://<server:port>/oak:index/damAssetLucene`.  Ook als u aanpassingen hebt toegevoegd in `damAssetLucene`, moet u deze mogelijk opnieuw toepassen.
 
 - Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe te
 - Als de taak is voltooid, reageert het bovenstaande verzoek van de GET met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-
