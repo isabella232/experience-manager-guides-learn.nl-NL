@@ -1,13 +1,13 @@
 ---
 title: Cloud Publishing Microservice-architectuur en -prestaties
 description: Begrijp hoe de nieuwe microservice schaalbare publicatie op AEMaaCS mogelijk maakt.
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Cloud Publishing Microservice-architectuur en prestatieanalyse
 
@@ -15,7 +15,7 @@ In dit artikel wordt uitgelegd wat de architectuur en prestatienummers zijn van 
 
 >[!NOTE]
 >
-> Momenteel ondersteunt het op microservices gebaseerde publiceren in AEMHulplijnen alleen PDF-uitvoer met behulp van het publiceren van de native PDF of via DITA-OT. AEM de Gidsen zullen op microservice-gebaseerde het publiceren steun voor meer outputtypes in de toekomstige versies toevoegen.
+> Publiceren op basis van microservices in AEM hulplijnen ondersteunt de typen PDF (zowel op basis van Native als DITA-OT), HTML5 en Aangepast uitvoervoorinstellingen.
 
 ## Problemen met bestaande publicatieworkflows in de cloud
 
@@ -50,29 +50,29 @@ Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java 
 
 * Wolk
 
-   Als u één publicatie uitvoert op de cloud met de nieuwe service, kan het enige publiceren op de voorgrond wat meer tijd in beslag nemen. Deze lichte verhoogde tijd is toe te schrijven aan de gedistribueerde aard van de nieuwe wolkenarchitectuur.
+  Als u één publicatie uitvoert op de cloud met de nieuwe service, kan het enige publiceren op de voorgrond wat meer tijd in beslag nemen. Deze lichte verhoogde tijd is toe te schrijven aan de gedistribueerde aard van de nieuwe wolkenarchitectuur.
 
-   <img src="assets/cloud_single_publish.png" alt="tabblad Projecten" width="600">
+  <img src="assets/cloud_single_publish.png" alt="tabblad Projecten" width="600">
 
 * On-prem
 
-   De resultaten van één publicatie zijn beter op de oude cloudarchitectuur of op de voorgrond, omdat de volledige publicatie plaatsvindt op dezelfde pod/computer waarop AEM wordt uitgevoerd.
+  De resultaten van één publicatie zijn beter op de oude cloudarchitectuur of op de voorgrond, omdat de volledige publicatie plaatsvindt op dezelfde pod/computer waarop AEM wordt uitgevoerd.
 
-   <img src="assets/onprem_single_publish.png" alt="tabblad Projecten" width="600">
+  <img src="assets/onprem_single_publish.png" alt="tabblad Projecten" width="600">
 
 ### Meerdere publicaties uitvoeren op cloud versus on-prem
 
 * Wolk
 
-   De nieuwe het publiceren microdienst schijnt in dit scenario. Zoals u kunt zien in de onderstaande afbeelding, kan de cloud deze publiceren zonder dat de publicatietijd aanzienlijk toeneemt, gezien de toename van het aantal gelijktijdige publicatietaken.
+  De nieuwe het publiceren microdienst schijnt in dit scenario. Zoals u kunt zien in de onderstaande afbeelding, kan de cloud deze publiceren zonder dat de publicatietijd aanzienlijk toeneemt, gezien de toename van het aantal gelijktijdige publicatietaken.
 
-   <img src="assets/cloud_bulk_publish.png" alt="tabblad Projecten" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="tabblad Projecten" width="600">
 
 * On-prem
 
-   Als u tegelijkertijd publiceert op een on-prem-server, neemt de prestaties sterk af. Deze prestatievermindering is ernstiger als uitgevers nog meer kaarten tegelijk publiceren.
+  Als u tegelijkertijd publiceert op een on-prem-server, neemt de prestaties sterk af. Deze prestatievermindering is ernstiger als uitgevers nog meer kaarten tegelijk publiceren.
 
-   <img src="assets/onprem_bulk_publish.png" alt="tabblad Projecten" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="tabblad Projecten" width="600">
 
 ## Aanvullende voordelen
 

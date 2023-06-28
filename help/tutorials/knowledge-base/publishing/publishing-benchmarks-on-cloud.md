@@ -1,21 +1,22 @@
 ---
 title: Gidsen die Benchmarks op AEMaaCS publiceren
 description: Begrijp systeembeperkingen bij het publiceren op AEM Cloud.
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '233'
 ht-degree: 4%
 
 ---
-
 
 # AEM Publishing Benchmarks op AEMaaCS
 
 AEM de cloud-service Hulplijnen kent momenteel een aantal beperkingen voor het publiceren van kaartgrootten die het team van hulplijnen actief moet oplossen.
 
-Het team van gidsen heeft reeds scalable geïntroduceerd [Microservice publiceren](publish-microservice-architecture-and-performance.md) om grote kaarten en veelvoudige gezamenlijke het publiceren te steunen. Voor nu, steunt deze microservice een ondergroep outputtypes en de steun voor andere types is in actieve ontwikkeling.
+Het team van gidsen heeft een scalable het publiceren microservice geïntroduceerd om grote kaarten en veelvoudige gezamenlijke het publiceren te steunen. Meer informatie over de nieuwe publiceer microservice vindt u in [publicatie microservicearchitectuur](publish-microservice-architecture-and-performance.md)
 
-Zie voor het configureren van de nieuwe publicatieservice voor elke AEM cloudomgeving [Nieuwe op microservice gebaseerde publicatie configureren](configure-microservices.md)
+Zie voor het configureren van de nieuwe publicatieservice voor elke AEM cloudomgeving [configureren van nieuwe op microservice gebaseerde publicaties](configure-microservices.md)
+
 
 ## Uitvoeromgeving
 

@@ -2,9 +2,9 @@
 title: Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen
 description: Leer hoe u nieuwe op microservice gebaseerde publicaties voor AEM hulplijnen kunt configureren.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
+source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Voor elke publicatieaanvraag AEM as a Cloud Service hulplijnen wordt een aparte 
 
 >[!NOTE]
 >
-> Momenteel ondersteunt het op microservices gebaseerde publiceren in AEMHulplijnen alleen PDF-uitvoer met behulp van het publiceren van de native PDF of via DITA-OT. Wij zullen op microservice-gebaseerde het publiceren steun voor meer outputtypes in de toekomstige versies toevoegen.
+> Op microservice gebaseerde publicaties in AEM hulplijnen ondersteunen PDF (zowel op basis van Native als DITA-OT), HTML5 en AANGEPASTE typen uitvoervoorinstellingen.
 
 Aangezien de nieuwe service voor publicatie in de cloud wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten de onderstaande stappen volgen om hun omgevingen te integreren met veilige, op token gebaseerde verificatieworkflows en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
@@ -90,6 +90,16 @@ Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende sta
 
 Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublicatie moeten kunnen gebruiken.
 
+## Veelgestelde vragen
+
+1. Kan één sleutel worden gebruikt op veelvoudige wolkenmilieu&#39;s?
+   * Ja, u kunt één privé sleutel produceren en het voor alle milieu&#39;s gebruiken, maar u moet milieuvariabelen voor alle milieu&#39;s vormen en de zelfde sleutel gebruiken.
+1. Als de configuraties OSGi om microservice te gebruiken worden toegelaten, zal het het publiceren proces op lokale AEM server met de zelfde codebase werken?
+   * Nee, als de markering `dxml.use.publish.microservice` is ingesteld op `true` dan zoekt het altijd microservice configuraties. Set `dxml.use.publish.microservice` tot `false` zodat de uitgever op uw lokale computer kan werken.
+1. Hoeveel geheugen wordt toegewezen aan het proces DITA wanneer het gebruiken van op microservice-gebaseerde het publiceren? Wordt dit aangestuurd via parameters van het DITA-profiel?
+   * Bij publicatie op basis van microservices wordt geheugentoewijzing niet aangestuurd door parameters van het type DITA-profiel. Het totale beschikbare geheugen op de de dienstcontainer is 8 GB, waarvan 6 GB aan het DITA-OT proces wordt toegewezen.
+
+
 ## Aanhangsel {#appendix}
 
 **Bestand**:
@@ -107,7 +117,7 @@ Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublica
 **Bestand**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Inhoud**:
-* `dxml.use.publish.microservice`: Schakel over om op microservice gebaseerde PDF-publicaties in te schakelen met behulp van DITA-OT
+* `dxml.use.publish.microservice`: Schakel over om op microservice gebaseerde publicatie met DITA-OT in te schakelen
 * `dxml.use.publish.microservice.native.pdf`: Schakel over om op microservice gebaseerde Native PDF-publicatie in te schakelen
 
 ```
