@@ -1,7 +1,7 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Leer hoe u een inhoudsfragment uit uw gegevensbron kunt invoegen
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ AEM Hulplijnen bieden de functie om verbinding te maken met uw gegevensbron. U k
 Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruikend de inhoudsfragmentgenerator en neem het in uw onderwerp op:
 
 1. Selecteren **Gegevensbronnen** ![](images/data-source-icon.svg)   in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen. Voor meer informatie, bekijkt u [Een gegevensbronaansluiting configureren](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > U zult de gegevensbronnen zien waarvoor uw beheerder de schakelaar heeft gevormd.
@@ -31,7 +32,9 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >[!NOTE]
    >  
    > Als uw beheerder aangepaste sjablonen heeft geconfigureerd, worden deze sjablonen ook weergegeven in de vervolgkeuzelijst (op basis van de sjabloonpadconfiguraties die de beheerder heeft uitgevoerd).
+
 1. Klikken **Ophalen** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien.
+
 1. U kunt de gegevens weergeven in de voorvertoning of in de DITA-bronweergave.
 
    1. In het voorbeeld ziet u hoe de gegevens worden weergegeven wanneer ze in de inhoud worden ingevoegd. In de voorvertoning wordt een klein deel van de gegevens weergegeven in de indeling van de geselecteerde sjabloon.

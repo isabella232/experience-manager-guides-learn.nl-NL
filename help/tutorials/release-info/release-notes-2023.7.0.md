@@ -1,14 +1,14 @@
 ---
-title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juni 2023
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juli 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides van juli 2023
-source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 1%
 
 ---
 
-# Release van Adobe Experience Manager Guides in juni 2023 as a Cloud Service
+# Release van Adobe Experience Manager Guides, juli 2023 as a Cloud Service
 
 In deze releaseopmerking worden de instructies voor het bijwerken, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie juli 2023 van de Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
