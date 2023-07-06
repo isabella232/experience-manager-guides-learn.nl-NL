@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Gebruik deze methode om een uitvoer van PDF voor een kaart van het kaartdashboar
 
 Voor meer informatie bij het produceren van een PDF die de methode DITA-OT gebruikt, zie [PDF genereren met DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker het Publiceren Server (FMPS)**
+* **FrameMaker Publishing Server (FMPS)**
 
 Met deze methode kunt u een PDF-uitvoer genereren op basis van niet alleen de DITA-inhoud, maar ook FrameMaker-documenten (.book en .fm) die beschikbaar zijn in uw AEM opslagplaats. De PDF kan worden gemaakt door een uitvoervoorinstelling te configureren en te publiceren met behulp van FrameMaker Publishing Server (FMPS). U kunt het uiterlijk van uw uitvoer voor PDF en andere indelingen ontwerpen en configureren en deze opslaan in een instellingsbestand (.sts). Dit instellingsbestand wordt vervolgens door FMPS gebruikt om uitvoer te genereren voor een DITA-kaart of .book-bestand. Als u een uitvoervoorinstelling wilt maken of bewerken, raadpleegt u de  *Uitvoervoorinstellingen* in de [as a Cloud Service gebruikershandleiding voor AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
@@ -182,3 +182,10 @@ Als u **Tijdelijke bestanden downloaden** in de Geavanceerde instellingen kunt u
 >[!NOTE]
 >
 > De **Tijdelijke bestanden downloaden**  ![tijdelijke bestanden downloaden](assets/native-pdf-download-temporary-files-icon.svg) wordt alleen weergegeven als u de laatste PDF-uitvoer hebt gegenereerd met de voorinstelling waarin u de optie hebt geselecteerd in het dialoogvenster **Geavanceerd** tab.
+
+
+
+### Taalvariabelen gebruiken
+
+AEM Hulplijnen bieden ook ondersteuning voor taalvariabelen. Selecteren **Taalvariabelen** <img src="./assets/language-variables.svg" width="25">  in het linkerpaneel om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen. Zie voor meer informatie [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md).
+

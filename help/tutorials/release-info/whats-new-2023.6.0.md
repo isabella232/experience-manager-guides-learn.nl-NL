@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Leer de nieuwe en verbeterde functies van de as a Cloud Service Adobe Experience Manager-hulplijnen in juni 2023
 exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Dit artikel heeft betrekking op de nieuwe en verbeterde functies in versie juni 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u de [Opmerkingen bij de release](release-notes-2023.6.0.md) artikel.
+Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023.6.0.md).
 
 ## Verbroken rapport van Verbindingen in de Redacteur van het Web
 
-AEM Gidsen staat u toe om de algemene volledigheid van uw technische documenten te controleren en rapporten van de Redacteur van het Web te produceren. In juni 2023 biedt de release AEM hulplijnen u nu de functie om verbroken koppelingen weer te geven en te herstellen. Dit is een zeer nuttig rapport dat u helpt uw gebroken verbindingen beheren. U kunt de verbroken verbindingen gemakkelijk bekijken aanwezig in uw kaart DITA en hen ook bevestigen.
+AEM Gidsen staat u toe om de algemene volledigheid van uw technische documenten te controleren en rapporten van de Redacteur van het Web te produceren. In juni 2023 biedt de release AEM hulplijnen u nu de functie om verbroken koppelingen weer te geven en te herstellen. Dit is een handig rapport waarmee u verbroken koppelingen kunt beheren. U kunt de verbroken verbindingen gemakkelijk bekijken aanwezig in uw kaart DITA en hen ook bevestigen.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Als u een koppeling hebt hersteld, wordt deze niet weergegeven onder de lijst met verbroken koppelingen.
@@ -26,7 +26,7 @@ Zie voor meer informatie [verbroken koppelingen weergeven en herstellen](../user
 
 ## Bestanden hernoemen en verplaatsen in de weergave Opslagplaats
 
-U kunt nu ook de naam van een bestand wijzigen of een bestand uit het deelvenster Opslagruimte verplaatsen. Deze functie is erg handig en helpt uw bestanden eenvoudig te beheren vanuit het deelvenster Opslag. U kunt een bestand selecteren en de naam ervan wijzigen of de naam ervan wijzigen met de **Opties** voor het geselecteerde bestand. AEM hulplijnen geven een bericht van slagen weer wanneer u een bestand verplaatst of de naam ervan wijzigt.
+U kunt nu ook de naam van een bestand wijzigen of een bestand uit het deelvenster Opslagruimte verplaatsen. Deze functie is handig en helpt uw bestanden eenvoudig te beheren vanuit het deelvenster Opslag. U kunt een bestand selecteren en de naam ervan wijzigen of de naam ervan wijzigen met de **Opties** voor het geselecteerde bestand. AEM hulplijnen geven een bericht van slagen weer wanneer u een bestand verplaatst of de naam ervan wijzigt.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -40,29 +40,26 @@ Nu kunt u een watermerk toevoegen aan de PDF-uitvoer van het document dat nog ni
 
 Zie voor meer informatie [Een watermerk toevoegen aan de PDF-uitvoer voor conceptdocumenten](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Ondersteuning voor taalvariabelen in DITA-elementen
+### Ondersteuning voor taalvariabelen
 
-AEM hulplijnen bieden ondersteuning voor de taalvariabelen. Deze variabelen zijn zeer nuttig om gelokaliseerde koorden voor elementen zoals nota, uiteinde, waarschuwing, voorzichtigheid te produceren.
-Bijvoorbeeld, kunt u de volgende manieren hebben om uw NOTA in de output van PDF voor te stellen:
+AEM hulplijnen bieden ondersteuning voor taalvariabelen. U kunt taalvariabelen gebruiken om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen.
+U kunt de taalvariabelen of de gelokaliseerde versie van de etiketten aan de aangewezen secties in uw output van PDF en in de outputmalplaatjes toevoegen.
 
-Duits: Notiz
+#### Taalvariabelen in de PDF-uitvoer
 
-Spaans: Nota
+U kunt de taalvariabelen gebruiken om gelokaliseerde etiketten voor elementen zoals Nota, Voorzichtigheid, en Waarschuwing te bepalen. U kunt de waarde voor deze variabelen bijwerken in een of meer talen en vervolgens wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van PDF.
+U kunt bijvoorbeeld het label Notitie op de volgende manieren in uw PDF-uitvoer presenteren:
 
+* Engels: Opmerking
+* Frans: Opmerking
+* Duits: Hinweis
 
-### Ondersteuning voor taalvariabelen in de voettekst van de pagina
+#### Taalvariabelen in de uitvoersjablonen
 
-U kunt een taalvariabele toevoegen aan een doorlopende kop- of voettekst op de master pagina van een document. De variabele wordt weergegeven op alle tekstpagina&#39;s van het document waarop deze master pagina is toegepast. Bijvoorbeeld 1 van 1 pagina.
-U kunt de nummers ook in verschillende talen weergeven.
+Als u de PDF-uitvoer in verschillende talen wilt maken, moet u verschillende PDF-sjablonen maken die gelokaliseerde tekst voor elke taal bevatten. Nu met de eigenschap van taalvariabelen, moet u het malplaatje slechts eenmaal tot stand brengen. Vervolgens kunt u voor elke statische tekst die u wilt lokaliseren, overeenkomstige taalvariabelen maken en deze gebruiken in uw sjabloon.
+U kunt taalvariabelen maken voor langere tekst, zoals een hele zin of zelfs een alinea. U kunt ook stijlen toepassen en markeringen voor HTML gebruiken om deze taalvariabelen op te maken.
 
-### Gelokaliseerde voorvoegsels voor uw inhoudsopgave
-
-U beschikt ook over de functie om gelokaliseerde termen weer te geven die moeten worden gebruikt om de voorvoegsels in uw koppen weer te geven.
-U kunt bijvoorbeeld de volgende manieren hebben om het voorvoegsel &#39;Hoofdstuk&#39; voor te stellen in de uitvoer van PDF:
-
-Duits: Kapitel
-
-Spaans: Capítulo
+Voor meer informatie, bekijkt u [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md).
 
 ### Mogelijkheid om AEM metagegevens te gebruiken in PDF-lay-outs
 

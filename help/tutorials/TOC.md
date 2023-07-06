@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 4%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 4%
          + [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
    + Uitvoer genereren van FrameMaker documenten {#generate-fm-output}
-      + [Produceer output van documenten FrameMaker](./user-guide/fm-output-generatation.md)
+      + [Uitvoer van FrameMaker-documenten genereren](./user-guide/fm-output-generatation.md)
       + Ondersteunde voorinstellingen {#fm-docs-generating-presets}
          + [Voorinstellingen voor het genereren van FrameMaker-documenten](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
@@ -238,6 +238,7 @@ ht-degree: 4%
             + [PDF-sjabloon](./native-pdf/pdf-template.md)
             + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
             + [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
+            + [Ondersteuning voor taalvariabelen](./native-pdf/native-pdf-language-variables.md)
             + Algemene inhoudsstijlen {#content-styles}
                + [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
                + [Werken met aangepaste wijzigingsbalken](./native-pdf/change-bar-style.md)

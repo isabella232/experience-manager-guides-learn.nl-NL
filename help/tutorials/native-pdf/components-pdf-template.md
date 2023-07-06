@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2938'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Een PDF-sjabloon bestaat uit vier componenten: Pagina-indelingen, stijlbladen, b
 
 ## Paginalay-outs maken en aanpassen {#create-customize-page-layout}
 
-Met de instellingen in de component Pagina-indelingen kunt u de structuur van een pagina ontwerpen door de koptekst, voettekst en het inhoudsgebied op een pagina te definiëren. Met de WYSIWYG-paginaopmaakeditor kunt u een paginalay-out maken voor verschillende secties in een PDF, zoals de voorpagina&#39;s en achteromslag, het hoofdstuk, de inhoudsopgave, de index, de lege pagina, de lijst met afbeeldingen (LOF), de lijst met tabellen (LOT), de woordenlijst of een lay-out maken voor een aangepaste pagina. In de het malplaatjemontages van de PDF, kunt u een paginalay-out met verschillende secties binnen een PDF toewijzen, die dan worden gebruikt om de output van de PDF te produceren.
+Met de instellingen in de component Pagina-indelingen kunt u de structuur van een pagina ontwerpen door de koptekst, voettekst en het inhoudsgebied op een pagina te definiëren. Met behulp van de WYSIWYG-paginaopmaakeditor kunt u een paginalay-out maken voor verschillende secties in een PDF, zoals de voorpagina&#39;s en de achteromslag, het hoofdstuk, de inhoudsopgave, de index, de lege pagina, de voorpagina&#39;s, de achterste basispagina&#39;s, de lijst met figuren (LOF), de lijst met tabellen (LOT), de woordenlijst of een indeling voor een aangepaste pagina maken. In de het malplaatjemontages van de PDF, kunt u een paginalay-out met verschillende secties binnen een PDF toewijzen, die dan worden gebruikt om de output van de PDF te produceren.
 
 ### Een nieuwe pagina-indeling maken {#create-page-layout}
 
@@ -34,9 +34,9 @@ Met de instellingen in de component Pagina-indelingen kunt u de structuur van ee
    * Overslaan **Pagina-indelingen** en klik op de knop (*Opties* pictogram) **...** en kiest u **Nieuwe paginalay-out**.
    * In de **Sjablonen** klikt u op de knop **+** pictogram naast **Sjablonen** en kiest u **Pagina-indeling** in het contextmenu.
 
-      Hiermee wordt het dialoogvenster Lay-out toevoegen geopend.
+     Hiermee wordt het dialoogvenster Lay-out toevoegen geopend.
 
-      <img src="assets/add-layout-2.png" alt="Dialoogvenster Lay-out toevoegen" width="250">
+     <img src="assets/add-layout-2.png" alt="Dialoogvenster Lay-out toevoegen" width="250">
 1. Geef een naam op voor de nieuwe pagina-indeling.
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Met de instellingen in de component Pagina-indelingen kunt u de structuur van ee
 
 ### Een pagina-indeling dupliceren {#duplicate-page-layout}
 
-1. In de **Sjablonen** van de sjabloon die u wilt dupliceren, dubbelklikt u op **Pagina-indelingen** of klik op **>** pictogram voor **Pagina-indelingen**.
+1. In de **Sjablonen** van de sjabloon die u wilt dupliceren, dubbelklikt u  **Pagina-indelingen** of klik op **>** pictogram voor **Pagina-indelingen**.
 
    Hiermee wordt de lijst met paginalay-outs in de sjabloon weergegeven.
 
@@ -64,7 +64,7 @@ Onder Pagina-indelingen wordt een kopie van de geselecteerde pagina-indeling gem
 
    Hiermee wordt de lijst met paginalay-outs in de sjabloon weergegeven.
 1. Voer een van de volgende handelingen uit om een pagina-indeling aan te passen:
-   * Dubbelklik op een willekeurige pagina-indeling.
+   * Dubbelklik op een pagina-indeling.
    * Houd de muisaanwijzer boven een willekeurige paginalay-out en klik op de knop (*Opties* pictogram) **...** en selecteert u **Bewerken** in het contextmenu.
 
    Hiermee opent u de pagina-indeling-editor voor aanpassing.
@@ -123,7 +123,7 @@ Voer de volgende stappen uit om een nieuwe stijl te maken:
 Nadat u een nieuw CSS-bestand met standaardstijlen hebt gemaakt of stijlen in een bestaand CSS-bestand wilt aanpassen, kunt u hiervoor de stijleneditor gebruiken.
 
 Voer de volgende stappen uit om een stijl aan te passen:
-1. Dubbelklikken op **stijlbladen** of klik op **>** pictogram voor **stijlbladen**.
+1. Dubbelklikken **stijlbladen** of klik op **>** pictogram voor **stijlbladen**.
 
    Hiermee worden de standaard (Inhoud en Lay-out) en aangepaste CSS-bestanden weergegeven.
 1. Open een stijlpagina om te bewerken.
@@ -138,7 +138,7 @@ Voer de volgende stappen uit om een stijl aan te passen:
 
 1. Als u een stijl wilt aanpassen, dubbelklikt u op een stijl of klikt u op het pictogram > vóór een stijl om de stijl weer te geven en aan te passen met de Stijleditor.
 
-voor meer informatie over het werken met de meest gebruikte stijlen raadpleegt u [Werken met algemene inhoudsstijlen](stylesheet.md)
+Ga voor meer informatie over het werken met de meest gebruikte stijlen naar [Werken met algemene inhoudsstijlen](stylesheet.md).
 
 ## Werken met bronnen {#work-with-resources}
 
@@ -171,7 +171,7 @@ Om te vormen, klik **Instellingen** in de **Sjablonen** voor het weergeven van d
 
 Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van een oneven of even pagina, de inhoudsopgavestructuur en definieer de opmaak van de leaderregel voor de inhoudsopgave-items. U kunt de volgende instelling definiëren:
 
-* **Hoofdstuk altijd beginnen vanaf**: Hiermee kunt u definiëren hoe elk hoofdstuk in de uiteindelijke PDF wordt gepubliceerd. U kunt kiezen uit een **Nieuwe pagina**, **Oneven pagina**, of **Even pagina** opties. Als u ervoor kiest om een nieuw hoofdstuk te beginnen vanaf een oneven pagina, wordt een lege pagina ingevoegd na een hoofdstuk dat op een oneven pagina eindigt. Als uw hoofdstuk bijvoorbeeld eindigt op pagina 15, wordt een lege pagina 16 ingevoegd tijdens het publicatieproces<sup>th</sup> pagina zodat het nieuwe hoofdstuk kan beginnen vanaf de 17<sup>th</sup> pagina.
+* **Een nieuw hoofdstuk starten vanuit**: Hiermee kunt u definiëren hoe elk hoofdstuk in de uiteindelijke PDF wordt gepubliceerd. U kunt kiezen uit een **Nieuwe pagina**, **Oneven pagina**, **Even pagina**, of **Huidige pagina**  opties. Als u ervoor kiest om een nieuw hoofdstuk te beginnen vanaf een oneven pagina, wordt een lege pagina ingevoegd na een hoofdstuk dat op een oneven pagina eindigt. Als uw hoofdstuk bijvoorbeeld eindigt op pagina 15, wordt een lege pagina 16 ingevoegd tijdens het publicatieproces<sup>th</sup> pagina zodat het nieuwe hoofdstuk kan beginnen vanaf de 17<sup>th</sup> pagina.  Als u **Huidige pagina** , worden alle hoofdstukken zonder pagina-einden in de vervolg gepubliceerd. Als een hoofdstuk bijvoorbeeld halverwege pagina 15 eindigt, wordt het volgende hoofdstuk ook vanaf de 15e pagina zelf gestart.
 
 * **Begin elk onderwerp van een nieuwe pagina**: Als u elk onderwerp in uw hoofdstuk van een nieuwe pagina wilt beginnen, dan uitgezocht **Begin elk onderwerp van een nieuwe pagina** optie. Schakel deze optie uit als u uw onderwerpen wilt voortzetten zonder tussenruimten op de pagina.
 
@@ -180,27 +180,30 @@ Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van
    * **Koppen tot niveau gebruiken**: Hiermee kunt u het aantal kopniveaus aanpassen dat in de inhoudsopgavestructuur van de PDF moet worden weergegeven.
    * **Geen paginanummer tonen voor eerste niveau in inhoudsopgave**: Selecteer deze optie om de corresponderende paginanummers te verbergen voor alle hoofdstukken die geneste of onderliggende onderwerpen bevatten. Bekijk het volgende voorbeeld waarin een uitvoer wordt gemaakt zonder deze optie te selecteren.
 
-   <img src="assets/page-number-in-toc.png" alt="Elementen uploaden" width="250">
+  <img src="assets/page-number-in-toc.png" alt="Elementen uploaden" width="250">
 
-   In het bovenstaande voorbeeld zijn Geavanceerde instellingen voor PDF, Bijlage en Juridisch het eerste niveau van onderwerpkoppen of hoofdstuktitels. Aan al deze koppen wordt een paginanummer toegewezen.
+  In het bovenstaande voorbeeld zijn Geavanceerde instellingen voor PDF, Bijlage en Juridisch het eerste niveau van onderwerpkoppen of hoofdstuktitels. Aan al deze koppen wordt een paginanummer toegewezen.
 
-   Nu, als u deze optie selecteert en de output produceert, dan zult u volgende TOC krijgen:
+  Nu, als u deze optie selecteert en de output produceert, dan zult u volgende TOC krijgen:
 
-   <img src="assets/page-number-missing-in-toc.png" alt="Elementen uploaden" width="250">
+  <img src="assets/page-number-missing-in-toc.png" alt="Elementen uploaden" width="250">
 
-   Hier kunt u opmerken dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, aangezien het geneste of onderliggende onderwerpen heeft. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
+  Hier kunt u opmerken dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, aangezien het geneste of onderliggende onderwerpen heeft. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
 
 * **Leader-indeling**: Gebruik de vervolgkeuzelijst om Stippellijnen, Effen lijnen of Lijnvullijnen voor spaties te selecteren om kopniveaus aan de corresponderende paginanummers te koppelen.
 Voor het toepassen van de inhoudsopgavestructuur en de vormkopniveaus raadpleegt u [Een hoofdstuk-inhoudsopgave toevoegen](design-page-layout.md#add-chapter-toc).
 
-   >[!NOTE]
-   >
-   >Als u een CSS-ontwikkelaar bent, kunt u de leaderindeling ook rechtstreeks in het CSS-bestand definiëren.
+  >[!NOTE]
+  >
+  >Als u een CSS-ontwikkelaar bent, kunt u de leaderindeling ook rechtstreeks in het CSS-bestand definiëren.
+
 * **Vervolgmarkering tabel gebruiken**: Selecteer deze optie als u markeertekens wilt definiëren voor lange tabellen die zich over meerdere pagina&#39;s uitstrekken. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Pagina-indelingen**
 
 Met de instellingen voor Pagina-indelingen hebt u volledige controle over het opgeven van de paginalay-out die moet worden gebruikt voor een bepaalde sectie van het document. Als u bijvoorbeeld een indeling voor de inhoudsopgave wilt selecteren, klikt u op het vervolgkeuzemenu onder het veld Inhoudsopgave en selecteert u de indeling die u hebt ontworpen om de inhoudsopgave te genereren.
+
+Het is belangrijk om op te merken dat de montages van de boekenkaart een belangrijkheid over de montages van de paginalay-out nemen.
 
 De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
@@ -209,30 +212,57 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
 **Standaardpagina-indeling**: Selecteer een paginalay-out die als standaardlay-out voor alle pagina&#39;s in uw PDF dienst doet. Dit is de lay-out van de basispagina die op die secties of onderwerpen wordt toegepast waar u geen specifieke paginalay-out hebt gecreeerd.
 
-**Paginalay-out voor verschillende secties**: U kunt ervoor kiezen om een pagina-indeling toe te wijzen met de volgende secties van uw PDF-uitvoer:
+**Paginalay-out voor verschillende secties**: U kunt een paginalay-out met de volgende secties van uw output van PDF in kaart brengen. Als u een paginalay-out voor de verwante sectie hebt ontworpen, dan selecteer het van de drop-down lijst. Als er geen paginalay-outs zijn gemaakt voor een bepaalde sectie, wordt de standaardpagina-indeling toegepast.
+
+* **Hoofdstuk en onderwerp**: U kunt de paginalay-out voor de hoofdstukken en de Onderwerpen specificeren. De geselecteerde lay-out wordt toegepast op alle hoofdstukken en onderwerpen.
+
+* **Inhoudsopgave**: Als u de indeling van de inhoudsopgavepagina hebt ontworpen, selecteert u **Inhoudsopgave** in de vervolgkeuzelijst en alle inhoudsopgavepagina&#39;s in het document hebben de indeling van de inhoudsopgavepagina.
+
+* **Lijst met figuren en tabellen**: U kunt ook de paginalay-out voor figuren en tabellen opgeven. De geselecteerde lay-out wordt toegepast op alle figuren en tabellen.
+
+* **Index en verklarende woordenlijst**: Als u een pagina-indeling voor de index hebt ontworpen, wijst u deze toe aan de optie Index. Als u een lay-out van de de paginalay-out van de Verklarende woordenlijst hebt, dan kaart het aan de optie van de Verklarende woordenlijst.
+
+* **Voorste basispagina&#39;s en basispagina&#39;s op achtergrond**: Deze paginalay-outs definiëren de opmaak voor de voor- of achterpagina&#39;s in uw boek. Als u de lay-out van de voormaterie hebt ontworpen, kaart het aan **Voorste basispagina&#39;s** optie. Wanneer u de lay-out van de voormaterie van dropdown selecteert, wordt de voorproeflay-out toegepast op alle onderwerpen in de voorkwestie.
+
+  Als u de lay-out van de achtermaterie hebt ontworpen, kaart het aan **Achterste basispagina&#39;s** optie. Wanneer u de lay-out van de achtermaterie van dropdown selecteert, wordt de achtermaterialenlay-out toegepast op alle onderwerpen in de achterzaak.
+
+  **Voorste basispagina&#39;s** wordt ook gebruikt als fallback-indeling voor de **Inhoudsopgave**, **Lijst met figuren** en Lijst met tabellen.  Evenzo **Achterste basispagina&#39;s** wordt ook gebruikt als fallback-indeling voor de **Index** en **Verklarende woordenlijst** schermindelingen. Als u de lay-out voor deze pagina&#39;s niet hebt geselecteerd, wordt de geselecteerde lay-out Pagina&#39;s vóór of achter toegepast.  Als u de lay-out Pagina&#39;s vóór of achter niet hebt geselecteerd, wordt de standaardpaginalay-out op hen toegepast.
+
+* **Pagina-indeling voor lege pagina&#39;s**: U kunt ook de pagina-indeling voor de lege pagina&#39;s opgeven. De geselecteerde indeling wordt toegepast op alle lege pagina&#39;s. Als u bijvoorbeeld een lege paginalay-out hebt ontworpen voor alle lege pagina&#39;s, selecteert u **Leeg** in de vervolgkeuzelijst en alle lege pagina&#39;s in het document hebben de indeling Lege pagina.
+
+* **Voorblad en pagina op achtergrond**: Als u een indeling van de omslagpagina hebt ontworpen, wijst u deze toe aan de **Voorblad** optie. En als u een lay-out voor de achterpagina hebt, wijst u deze toe aan de **Vorige pagina** optie. Als er geen lay-outs voor de omslag- of achtergrondpagina zijn gemaakt, wordt de standaardpagina-indeling toegepast.
+
+
+
+Voor meer informatie over paginalay-outs raadpleegt u [Een pagina-indeling ontwerpen](design-page-layout.md).
+
+**Paginavolgorde**
+
+U kunt de volgende secties in uw PDF in- of uitschakelen en ook de volgorde rangschikken waarin ze in de uiteindelijke PDF-uitvoer moeten worden weergegeven:
+
+<img src="assets/page-order-advance-settings.png" alt="Paginalay-outs" width="550">
+
 * Inhoudsopgave
+* Hoofdstuk en onderwerp
 * Lijst met figuren
 * Lijst met tabellen
-* Hoofdstuk en onderwerp
 * Index
 * Verklarende woordenlijst
 
-Als u geen bepaalde sectie in uw output van PDF wilt tonen, dan kunt u dat onbruikbaar maken door de knevelschakelaar aan weg te zetten.
+Als u geen bepaalde sectie in uw output van PDF wilt tonen, kunt u dat onbruikbaar maken door de knevelschakelaar uit te zetten.
 
-**Hoofdstuk en onderwerpen** layout is altijd ingeschakeld en **Verklarende woordenlijst** layout is standaard altijd uitgeschakeld. U kunt ze niet in- en uitschakelen.
-
-U kunt ook de volgorde definiëren waarin deze verschillende secties worden gegenereerd in uw PDF. Als u de standaardvolgorde van deze pagina&#39;s wilt wijzigen, houdt u de muisaanwijzer links van een paginalay-out ingedrukt en klikt u op het pictogram met stippelbalken om de pagina-indeling naar de gewenste locatie te slepen.
-Uw PDF zal de toegelaten paginalay-outs in de orde bevatten u hen hier hebt georganiseerd.
-
-**Pagina-indeling voor lege pagina&#39;s**: U kunt ook de pagina-indeling voor de lege pagina&#39;s opgeven. De geselecteerde indeling wordt toegepast op alle lege pagina&#39;s. Als u bijvoorbeeld een lege paginalay-out hebt ontworpen voor alle lege pagina&#39;s, selecteert u **Leeg** in de vervolgkeuzelijst en alle lege pagina&#39;s in het document hebben de indeling Lege pagina.
-
-**Voorblad en pagina op achtergrond**: Als u een indeling van de omslagpagina hebt ontworpen, wijst u deze toe aan de **Voorblad** optie. En als u een lay-out voor de achterpagina hebt, wijst u deze toe aan de **Vorige pagina** optie. Als er geen lay-outs voor de omslag- of achtergrondpagina zijn gemaakt, wordt de standaardpagina-indeling toegepast.
+U kunt ook de volgorde definiëren waarin deze verschillende secties worden gegenereerd in uw PDF. Als u de standaardvolgorde van deze pagina&#39;s wilt wijzigen, selecteert u de stippelbalken om de pagina-indeling naar de gewenste locatie te slepen.
 
 >[!NOTE]
 >
->De instellingen voor de bladwijzer hebben voorrang op de instellingen voor de paginalay-out.
+> Deze orde en opname montages zijn slechts op een kaart DITA van toepassing. Deze instellingen zijn niet van toepassing op een bladwijzer. De pagina&#39;s in een bladwijzer worden weergegeven in de volgorde van de secties in de bladwijzer.
 
-Voor meer informatie over paginalay-outs raadpleegt u [Een pagina-indeling ontwerpen](design-page-layout.md).
+
+Uw PDF zal de toegelaten paginalay-outs in de orde bevatten u hen hier hebt georganiseerd.
+**Hoofdstuk en onderwerpen** layout is altijd ingeschakeld en **Verklarende woordenlijst** layout is standaard altijd uitgeschakeld. U kunt ze niet in- en uitschakelen.
+
+
+
 
 **Afdrukken**
 
@@ -244,16 +274,16 @@ Configureer de afdrukproductie-instellingen om drukkermarkeringen toe te wijzen,
    * **Registratietekens**: Selecteer deze optie om een markering buiten het snijgebied te plaatsen voor het uitlijnen van de verschillende scheidingen in een kleurendocument.
    * **Kleurenbalken**: Selecteer deze optie om een kleurenstrip buiten het bijsnijdgebied toe te voegen om de kleurconsistentie te behouden en de inktdichtheid bij het afdrukken aan te passen.
 
-   De afmetingen van de geselecteerde drukkermarkeringen instellen met de **Lijnbreedte**, **Lijnkleur**, en **Breedte van afloopvak** opties.
+  De afmetingen van de geselecteerde drukkermarkeringen instellen met de **Lijnbreedte**, **Lijnkleur**, en **Breedte van afloopvak** opties.
 
 * **Grootte van mediavak**: Dit is het algemene paginaformaat, inclusief het uitgebreide gebied dat wordt ingenomen door drukkermarkeringen. Gebruik de vervolgkeuzelijst om het paginaformaat te selecteren voor de PDF-uitvoer of om uw eigen aangepaste grootte te maken.
 
 * **Kleurruimte**: U kunt kiezen uit de kleurruimten RGB of CMYK om het PDF-document af te drukken. Kies RGB om de gegenereerde PDF digitaal en CMYK weer te geven voor fysiek afdrukken. De kleuren die in het document zijn gedefinieerd, worden omgezet in de gekozen kleurruimte.
-   >[!NOTE]
-   >
-   >Een ICC-kleurprofiel is vereist voor het maken van PDF/A-kleuren als u CMYK-kleurruimte gebruikt.
+  >[!NOTE]
+  >
+  >Een ICC-kleurprofiel is vereist voor het maken van PDF/A-kleuren als u CMYK-kleurruimte gebruikt.
 
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
+  <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Kruisverwijzingen**
 

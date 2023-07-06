@@ -2,9 +2,9 @@
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 0%
 
 ---
@@ -236,9 +236,51 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe te
 
 - Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Optioneel: U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden -
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - Als de taak is voltooid, reageert het bovenstaande verzoek van de GET met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
+
+Als de upgradetaak mislukt en in het foutenlogboek de volgende fout wordt weergegeven:
+
+&quot;De *query* meer dan *100000 knooppunten*. Om te voorkomen dat andere taken worden beïnvloed, is de verwerking gestopt.&quot;
+
+Dit kan gebeuren omdat de index niet correct is ingesteld voor de query die wordt gebruikt in de upgrade. U kunt de volgende tijdelijke oplossing uitproberen:
+
+1. Voeg de booleaanse eigenschap toe aan de oak-index damAssetLucene `indexNodeName` als `true` in het knooppunt.
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. Voeg een nieuw knooppunt toe met het naamfragment onder het knooppunt.
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+en stel de volgende eigenschappen in het knooppunt in:
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   De structuur van `damAssetLucene` moet er ongeveer als volgt uitzien:
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   (samen met andere bestaande knooppunten en eigenschappen)
+
+1. De index van de `damAssetLucene` index (door de herindexmarkering in te stellen als `true` en wachten tot het is `false` nogmaals (dit geeft aan dat de omkoppeling is voltooid). Het kan een paar uur duren, afhankelijk van de grootte van de index.
+1. Voer de vorige stappen uit om het indexeringsscript opnieuw uit te voeren.
+
 
 ## Upgrade naar versie 4.2.1 {#upgrade-version-4-2-1}
 
