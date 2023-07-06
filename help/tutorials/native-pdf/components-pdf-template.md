@@ -2,7 +2,7 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
+source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 0%
@@ -27,23 +27,32 @@ Met de instellingen in de component Pagina-indelingen kunt u de structuur van ee
 1. Ga in de webeditor naar de **Uitvoer** tab.
 1. Vouw de linkerzijbalk uit en klik op **Sjablonen**.
 1. Open de sjabloon waarmee u wilt werken.
+
    >[!NOTE]
    >
    >U kunt een sjabloon openen door te dubbelklikken op de naam of op het pictogram > naast de naam.
+
 1. Voer een van de volgende handelingen uit om een nieuwe pagina-indeling te maken:
+
    * Overslaan **Pagina-indelingen** en klik op de knop (*Opties* pictogram) **...** en kiest u **Nieuwe paginalay-out**.
+
+
    * In de **Sjablonen** klikt u op de knop **+** pictogram naast **Sjablonen** en kiest u **Pagina-indeling** in het contextmenu.
 
-     Hiermee wordt het dialoogvenster Lay-out toevoegen geopend.
+
+     Hierdoor wordt het **Lay-out toevoegen** .
 
      <img src="assets/add-layout-2.png" alt="Dialoogvenster Lay-out toevoegen" width="250">
+
 1. Geef een naam op voor de nieuwe pagina-indeling.
    >[!NOTE]
    >
    >Gebruik geen speciale tekens wanneer u een paginalay-out een naam geeft. Een spatie in de naam wordt vervangen door een onderstrepingsteken &quot;_&quot;.
+
 1. Klikken **Gereed**.
 
    De nieuwe indeling wordt gemaakt en toegevoegd onder Pagina-indelingen.
+
 
 ### Een pagina-indeling dupliceren {#duplicate-page-layout}
 
