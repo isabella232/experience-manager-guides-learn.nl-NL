@@ -1,7 +1,7 @@
 ---
 title: Native PDF | Steun voor taalvariabelen
 description: Taalvariabelen gebruiken in de PDF-uitvoer en -uitvoersjablonen
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ Om een taalvariabele zoals uw in te voegen `copyright-label` Voer in het kopteks
 
 1. Open de vereiste pagina-indeling voor bewerking.
 
->[!NOTE]
->
-> Weergave [Een pagina-indeling aanpassen](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.:
+   >[!NOTE]
+   >
+   > Weergave [Een pagina-indeling aanpassen](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een pagina-indeling voor aanpassen of bewerken.
 
 1. Selecteer de koptekst om deze actief te maken en een variabele in te voegen.
 1. Selecteren **Variabele invoegen**  <img src="./assets/insert-language-variable.svg" width="25"> in de werkbalk.
 1. In de **Variabele invoegen** selecteert u de naam van de taalvariabele die u wilt invoegen en klikt u op **Invoegen** om het in het koptekstgebied op te nemen.
 
->[!NOTE]
->
-> U kunt ook de zoektekenreeks in het tekstvak invoeren. De namen van variabelen die de opgegeven tekenreeks bevatten, worden gefilterd en in de lijst weergegeven.
-> De geselecteerde taalvariabele wordt ingevoegd in het koptekstgebied.
+   >[!NOTE]
+   >
+   > U kunt ook de zoektekenreeks in het tekstvak invoeren. De namen van variabelen die de opgegeven tekenreeks bevatten, worden gefilterd en in de lijst weergegeven.
+   > De geselecteerde taalvariabele wordt ingevoegd in het koptekstgebied.
 
 In de volgende schermafbeelding wordt de waarde voor de `copyright-label` toegevoegd in het koptekstgebied.
 
