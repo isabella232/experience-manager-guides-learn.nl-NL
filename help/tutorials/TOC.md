@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1392'
 ht-degree: 4%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 4%
          + [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
    + Uitvoer genereren van FrameMaker documenten {#generate-fm-output}
-      + [Uitvoer van FrameMaker-documenten genereren](./user-guide/fm-output-generatation.md)
+      + [Produceer output van documenten FrameMaker](./user-guide/fm-output-generatation.md)
       + Ondersteunde voorinstellingen {#fm-docs-generating-presets}
          + [Voorinstellingen voor het genereren van FrameMaker-documenten](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
@@ -350,5 +350,4 @@ ht-degree: 4%
       + Gevallen gebruiken {#use-cases}
          + [Werken met voorwaardelijke inhoud](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Werken met toetsen](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ Verborgen artikelen {#hidden}
    + [Zuurstofaansluiting gebruiken](./oxygen-connector/use-aem-connector.md)
