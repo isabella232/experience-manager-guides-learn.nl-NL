@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release van juli 2023
 description: Leer de nieuwe en verbeterde functies van de as a Cloud Service Adobe Experience Manager-hulplijnen in juli 2023
-source-git-commit: 06bff798d2e745fae1c666353045cb4c6b040207
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies in versie juli 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u de [Opmerkingen bij de release](release-notes-2023.7.0.md) artikel.
+Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023.7.0.md).
 
 ## Verbind met een gegevensbron en neem gegevens in uw onderwerpen op
 
@@ -68,6 +68,6 @@ Voor meer informatie, bekijkt u [Op microservice gebaseerde publicaties configur
 
 ## Versiegegevens van de versie van AEM hulplijnen weergeven in het venster Info
 
-Samen met de AEM **Info** U kunt ook de versiedetails van de AEM hulplijnen bekijken. U kunt de huidige versiedetails bekijken in **Info** de **Help** op de AEM navigatiepagina.
+Samen met de AEM **Info** U kunt ook de versiedetails van de AEM hulplijnen bekijken. U kunt de huidige versiedetails bekijken in **Info** van de **Help** op de AEM navigatiepagina.
 
 ![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)

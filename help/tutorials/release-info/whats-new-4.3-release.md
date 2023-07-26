@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.3.0
 description: Leer de nieuwe en verbeterde functies in de 4.3.0-versies van Adobe Experience Manager Guides
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.3.0 van de Gidsen van Adobe Experience Manager (later genoemd *Hulplijnen AEM*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost,  [Opmerkingen bij de release](./release-notes-4.3.md).
+Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](./release-notes-4.3.md).
 
 
 ## Verbind met een gegevensbron en neem gegevens in uw onderwerpen op

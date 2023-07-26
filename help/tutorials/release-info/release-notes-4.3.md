@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de release van Adobe Experience Manager Guides 4.3.0
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.0-versies van Adobe Experience Manager-hulplijnen
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,6 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - De zoekresultaten worden uitgeschakeld in het deelvenster Zoeken en vervangen nadat een doorzocht bestand is geopend. (12142)
 - De cijfertoets &#39;8&#39; op het zijtoetsenbord werkt niet in de editor voor AEM hulplijnen. (12106)
 - De inline-/weergavekenmerken worden niet weergegeven in de layoutweergave van de webeditor. (12498)
-- Bestanden uploaden in de insteekmodule Oxygen voor AEM hulplijnen werkt niet in cloudservices als u dat hebt! in de bestandsnaam. (12207)
 - De configuratie van de globale profiel-UI komt niet overeen met het mapprofiel. (11970)
 - Inhoudsverwijzingen worden verbroken wanneer DITA-bestanden worden gekopieerd en geplakt. (11959)
 - Kan inhoudsfragment niet bewerken in de kolomweergave met AEM hulplijnen geïnstalleerd. (7342)
@@ -93,7 +92,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. (9481)
 - Lokale koppelingen naar andere elementen worden niet opgelost in de webeditor. (8790)
 - De functie Matches() werkt niet in de functie schema. (11224)
-- In de Insteekmodule van Zuurstof voor AEM Gidsen, neemt de optie om een kaart DITA in de Redacteur van de Kaart van DITA van het Web te openen aan oude UI. (12633)
+
 
 
 ### Beheer
