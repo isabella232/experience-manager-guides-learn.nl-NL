@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides in juni 2023
 exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 In deze releaseopmerking worden de instructies voor het bijwerken, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie juni 2023 van de Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
-Voor meer informatie over de nieuwe functies en verbeteringen raadpleegt u [Nieuwe functies in juni 2023: AEM hulplijnen as a Cloud Service](whats-new-2023.6.0.md).
+Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functies in juni 2023: AEM hulplijnen as a Cloud Service](whats-new-2023.6.0.md).
 
 ## Upgrade naar juni 2023
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 
 1. (Optioneel) Als het systeem meer dan 100.000 dita-bestanden bevat, werkt u de `queryLimitReads` krachtens `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` naar een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en vervolgens opnieuw te implementeren.
 
-   - Gebruik de instructies die worden gegeven in *Configuratieoverschrijvingen* in Installeer en vorm as a Cloud Service de Gidsen van Adobe Experience Manager, om het configuratiedossier tot stand te brengen.
+   - Gebruik de instructies die worden gegeven in *Configuratieoverschrijvingen* in Installeer en configureer as a Cloud Service Adobe Experience Manager-hulplijnen om het configuratiebestand te maken.
    - In het configuratiedossier, verstrek de volgende (bezit) details om de queryLimitReads optie te vormen:
 
      | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -86,7 +86,7 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vondst en vervangt tekst op kaartniveau en onderwerpenlijst onder het rapportlusje te gebruiken:
 
-1. Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
@@ -99,7 +99,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM in de release van juni 2023 as a Cloud Service hulplijnen.
 
-### FrameMaker en het Publiceren FrameMaker Server
+### FrameMaker en FrameMaker Publishing Server
 
 | Hulplijnen AEM als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
@@ -147,12 +147,12 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Native PDF | Aangepaste kenmerken worden niet doorgegeven aan tijdelijke HTML- of PDF-engine. (DXML-12005)
 - Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
 - JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. (11564)
-- JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. (11524)
+- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. (11524)
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
 - Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. (10751)
 - Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. (10876)
 - Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. (10549)
-- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12407)
+- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12296)
 
 
 

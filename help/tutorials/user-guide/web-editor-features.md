@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Leer hoe u de functies van de webeditor kent
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 270b94f0c1e29237c4bdad891c41446de897fddb
 workflow-type: tm+mt
-source-wordcount: '15310'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Hiermee slaat u de wijzigingen op die u in alle geopende onderwerpen hebt aangeb
 
 >[!NOTE]
 >
-> Met Opslaan wordt geen nieuwe versie van uw onderwerpen gemaakt. Als u een nieuwe versie wilt maken, kiest u Opslaan als nieuwe versie.
+> Met Opslaan wordt geen nieuwe versie van uw onderwerpen gemaakt. Kies Opslaan als nieuwe versie als u een nieuwe versie wilt maken.
 
 **Opslaan als nieuwe versie** - ![](images/save-revision-icon.png)
 
@@ -75,11 +75,11 @@ Verwijdert het momenteel geselecteerde element of het element waar de cursor is 
 
 **Zoeken en vervangen** - ![](images/FindAndReplace_icon.svg)
 
-De functie Zoeken en vervangen is beschikbaar in de weergavemodi Auteur en Bron. De de tekstbar van de Vondst en van de Vervanging verschijnt bij de bodem van het onderwerp het uitgeven gebied. U kunt de sneltoetsen gebruiken **CTRL**+**F** om de balk Zoeken en vervangen aan te roepen.
+De functie Zoeken en vervangen is beschikbaar in de modus Auteur en de modus Bronweergave. De de tekstbar van de Vondst en van de Vervanging verschijnt bij de bodem van het onderwerp het uitgeven gebied. U kunt de sneltoetsen gebruiken **CTRL**+**F** om de balk Zoeken en vervangen aan te roepen.
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Het instellingenpictogram gebruiken \(![](images/settings-find-replace-icon.svg)\), kunt u schakelen **Hoofdlettergebruik negeren** en **Alleen hele woorden** zoekopties. Als u de niet-hoofdlettergevoelige zoekopdracht wilt uitvoeren, schakelt u \(of selecteert\) de optie **Hoofdlettergebruik negeren** optie. Als u anders de hoofdlettergevoelige zoekopdracht wilt uitvoeren, schakelt u \(of deselecteert\) de optie **Hoofdlettergebruik negeren** optie. U kunt ook een heel woord zoeken.
+Het instellingenpictogram gebruiken \(![](images/settings-find-replace-icon.svg)\), kunt u schakelen tussen **Hoofdlettergebruik negeren** en **Alleen hele woorden** zoekopties. Als u de niet-hoofdlettergevoelige zoekopdracht wilt uitvoeren, schakelt u \(of selecteert\) de optie **Hoofdlettergebruik negeren** -optie. Als u anders de hoofdlettergevoelige zoekopdracht wilt uitvoeren, schakelt u \(of deselecteert\) de optie **Hoofdlettergebruik negeren** -optie. U kunt ook een heel woord zoeken.
 
 De zoekopdracht is onmiddellijk, wat betekent dat u de zoekuitdrukking of het woord in het dialoogvenster **Zoeken** wordt de term onmiddellijk doorzocht en geselecteerd in het onderwerp. Op dezelfde manier voor het vervangen van een tekst in uw onderwerp, ga de onderzoekstermijn en zijn vervanging op de respectieve gebieden in en klik **Vervangen** of **Alles vervangen** knop.
 
@@ -87,13 +87,13 @@ In de Bronmening, is de Vondst en vervangt uiterst nuttig voor het zoeken naar e
 
 **Editor-instellingen** - ![](images/editor_settings_icon.svg)
 
-De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratieve bevoegdheden. Met de voorkeuren kan een beheerder de volgende instellingen configureren:
+De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratieve bevoegdheden. Met behulp van de voorkeuren kan een beheerder de volgende instellingen configureren:
 
 >[!NOTE]
 >
 > Als u standaardinstellingen bijwerkt, moet u documenten opnieuw openen om de wijzigingen van kracht te laten worden.
 
-- **Algemeen**: De Algemene montages staan u toe om het woordenboek te vormen om met de Redacteur van het Web te gebruiken. Dit tabblad bevat drie secties: **Spellingcontrole**, **Voorwaarde**, en **Authoring**.
+- **Algemeen**: Met de algemene instellingen kunt u het woordenboek configureren dat u wilt gebruiken met de webeditor. Dit tabblad bevat drie secties: **Spellingcontrole**, **Voorwaarde**, en **Authoring**.
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
@@ -104,7 +104,7 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 
       - **Voorwaardelijke tekst markeren in de weergave Auteur**: Selecteer deze optie om de voorwaardelijke tekst te markeren in de ontwerpweergave. De voorwaardelijke inhoud wordt gemarkeerd met de kleur die voor de voorwaarde is gedefinieerd.
 
-      - **Valideren met Condition-kenmerken**: Selecteer deze optie om de validatie van de gedefinieerde waarden voor de kenmerken toe te staan. Hierdoor kunt u geen onjuiste waarde toevoegen.
+      - **Valideren met Condition-kenmerken**: Selecteer deze optie als u de gedefinieerde waarden voor de kenmerken wilt valideren. Hierdoor kunt u geen onjuiste waarde toevoegen.
 
       - **Toon de Sleutel met de Titel in het paneel van het Onderwerp**: Selecteer deze optie om de sleutels samen met titels in het onderwerpschema weer te geven. Als u deze optie niet selecteert, worden alleen de titels weergegeven. Hier worden bijvoorbeeld de toetsen &#39;os&#39;, &#39;publiek&#39; en &#39;ander&#39; ook samen met titels weergegeven.
 
@@ -114,9 +114,14 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 
    - **Authoring**
 
-      - **Alles vervangen inschakelen**: Selecteer deze optie om het pictogram Alles vervangen weer te geven in het deelvenster Zoeken en vervangen.
+      - **Alles vervangen inschakelen**: Selecteer deze optie om het pictogram Alles vervangen in het deelvenster Zoeken en vervangen weer te geven.
 
-**Deelvensters**: Deze instelling bepaalt de deelvensters die worden weergegeven in het linkerdeelvenster van de editor. U kunt de schakelaar van een knevel voorzien om het gewenste paneel te tonen of te verbergen.
+
+   - **Kaarten**
+Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Zie voor meer informatie [Aanhalingsstijlen wijzigen](./web-editor-apply-citations.md#change-citation-style).
+
+
+**Deelvensters**: Deze instelling bepaalt de deelvensters die worden weergegeven in het linkerdeelvenster van de editor. U kunt schakelen tussen het tonen of verbergen van het gewenste deelvenster.
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
@@ -124,7 +129,7 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 >
 > Als er een aangepast deelvenster is geconfigureerd, wordt dit ook weergegeven in de lijst met deelvensters. U kunt schakelen tussen het weergeven of verbergen van het aangepaste deelvenster. Voor meer details over de configuratie, zie *Een aangepast deelvenster configureren in het linkerdeelvenster* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
-- **Elements List**: Als beheerder, kunt u de lijst van elementen controleren die een auteur kan opnemen gebruikend [Element invoegen](#id204SG30105Z) en definieert ook de weergavenaam voor het element. Met de instelling Elements List kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
+- **Elements List**: Als beheerder kunt u de lijst met elementen beheren die een auteur kan invoegen met de opdracht [Element invoegen](#id204SG30105Z) en definieert ook de weergavenaam voor het element. Met de instelling Elements List kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
 
   ![](images/editor-setting-element-list.png){width="650" align="left"}
 
@@ -134,7 +139,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
 ![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
-- **Lijst met kenmerken**: Net als in de lijst met elementen kunt u de lijst met kenmerken en hun weergavenamen instellen die in de lijst met kenmerken van een element moeten worden weergegeven. In het volgende schermschot, slechts zijn 3 attributen gevormd om in de de attributenlijst van een element te worden getoond:
+- **Lijst met kenmerken**: Net als in de lijst met elementen kunt u de lijst met kenmerken en hun weergavenamen instellen die in de lijst met kenmerken van een element moet worden weergegeven. In het volgende schermschot, slechts zijn 3 attributen gevormd om in de de attributenlijst van een element te worden getoond:
 
 ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
@@ -148,7 +153,7 @@ De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de la
 
 ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Vertaling**: Dit lusje bevat de optie om de bronetiketten aan de doelversie te verspreiden.
+- **Vertaling**: Dit tabblad bevat de optie om de bronlabels aan de doelversie door te geven.
 
    - **Bronversielabels doorgeven aan de doelversie**: Selecteer deze optie om het label van de versie van het bronbestand aan het vertaalde bestand door te geven. Deze optie is standaard uitgeschakeld.
 
@@ -164,7 +169,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 - **Apparaatthema gebruiken**: Schakel dit selectievakje in als u wilt dat AEM hulplijnen automatisch schakelen tussen lichte en donkere thema&#39;s op basis van het thema van uw apparaat.
 - **Thema**: U kunt kiezen uit de thema&#39;s Licht, Lichter, Donker of Donkerst voor de editor. Bij het lichtste thema gebruiken de werkbalken en deelvensters een lichtere grijze achtergrond. In het geval van Licht-thema gebruiken de werkbalken en deelvensters lichtgrijze achtergrondkleur. In het geval van het donkerste thema gebruiken de werkbalken en deelvensters een donkerdere achtergrond voor zwarte kleuren. In het geval van Donker thema gebruiken de werkbalken en deelvensters een achtergrond met zwarte kleuren. In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte kleur.
 
-- **Mapprofielen**: Het profiel van de Omslag controleert diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output vooraf instelt en de configuraties van de Redacteur van het Web. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
+- **Mapprofielen**: Het profiel Map bestuurt diverse configuraties met betrekking tot voorwaardelijke kenmerken, ontwerpsjablonen, uitvoervoorinstellingen en de configuraties van de webeditor. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
 
   De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
 
@@ -174,7 +179,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 - **Basispad**: Door gebrek, wanneer u tot de AEM bewaarplaats van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en in de Weergave Opslagplaats ziet u de inhoud van die locatie vooraf. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
 
-- **Hoofdmap selecteren**: Selecteer een DITA-kaartbestand om sleutelverwijzingen of woordenboekitems op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
+- **Hoofdmap selecteren**: Selecteer een DITA-toewijzingsbestand om sleutelverwijzingen of woordenboekitems op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
 
 
 >[!NOTE]
@@ -231,7 +236,7 @@ Nadat een tabel is ingevoegd, kunt u de tabel wijzigen met het contextmenu.
 
 ![](images/table-context-menu_cs.png){width="550" align="left"}
 
-Met het contextmenu van de tabel kunt u:
+Met behulp van het contextmenu van de tabel kunt u:
 
 - Cellen, rijen of kolommen invoegen
 
@@ -246,7 +251,7 @@ Met het contextmenu van de tabel kunt u:
 - Id&#39;s genereren
 
 
-U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het deelvenster Eigenschappen voor inhoud \(aan de rechterkant\), de eigenschap **Type** wijzigingen in **Meerdere items**. Selecteer in de sectie Andere kenmerken de optie `@valign` uit de lijst met kenmerken. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
+U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het deelvenster Eigenschappen voor inhoud \(aan de rechterkant\), de eigenschap **Type** wijzigingen in **Meerdere items**. Selecteer in de sectie Andere kenmerken de optie `@valign` kenmerk in de vervolgkeuzelijst met kenmerken. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -283,7 +288,7 @@ U kunt ook andere eigenschappen voor een afbeeldingsbestand toevoegen door de ve
 
 **Contextmenu voor afbeeldings- of mediabestanden**
 
-U kunt ook bepaalde algemene bewerkingen voor afbeeldingen en mediabestanden uitvoeren met het contextmenu. Klik met de rechtermuisknop op een willekeurige plaats in de afbeelding om het contextmenu aan te roepen.
+U kunt ook bepaalde veelvoorkomende bewerkingen voor afbeeldingen en mediabestanden uitvoeren met het contextmenu. Klik met de rechtermuisknop op een willekeurige plaats in de afbeelding om het contextmenu aan te roepen.
 
 Het contextmenu bevat opties voor het knippen, kopiëren of plakken van de afbeelding of media. U kunt een element invoegen voor of na het geselecteerde element. U kunt een element ook een andere naam geven of de naam ervan opheffen. U kunt de geselecteerde afbeelding of media zoeken in de opslagplaats of de voorvertoning van het bestand bekijken in de interface Middelen.
 
@@ -316,19 +321,19 @@ Klik op de knop **Bestand selecteren** pictogram \(voor Content Reference en Fil
 
 ![](images/insert-references.png){width="650" align="left"}
 
-Er wordt een koppeling van de geselecteerde verwijzing toegevoegd aan het document. Het contextmenu op de koppeling biedt de volgende opties:
+Er wordt een koppeling van de geselecteerde verwijzing toegevoegd aan het document. In het contextmenu op de koppeling hebt u de volgende opties:
 
-- **Element invoegen**: Toont een lijst van geldige elementen die u bij de bepaalde context kunt opnemen.
-- **UUID kopiëren**: Hiermee wordt de UUID van de ingevoegde verwijzing gekopieerd.
-- **Pad kopiëren**: Kopieert het volledige pad van de ingevoegde verwijzing.
-- **Fragment maken**: Hiermee maakt u een herbruikbaar fragment van de ingevoegde referentie.
-- **Id&#39;s genereren**: Hiermee genereert u een unieke id voor de ingevoegde referentie.
+- **Element invoegen**: Geeft een lijst met geldige elementen weer die u in de opgegeven context kunt invoegen.
+- **UUID kopiëren**: Kopieert de UUID van de ingevoegde verwijzing.
+- **Pad kopiëren**: kopieert het volledige pad van de ingevoegde verwijzing.
+- **Fragment maken**: Hiermee maakt u een herbruikbaar fragment van de ingevoegde verwijzing.
+- **Id&#39;s genereren**: Hiermee genereert u unieke id voor de ingevoegde verwijzing.
 
 U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bij de koppelingen Inhoud en Sleutelverwijzing de UUID in van het bestand waarnaar u een koppeling wilt maken. Het bestand wordt dan automatisch doorzocht en weergegeven in de sectie Voorbeeld. Wanneer u de UUID van het bestand opgeeft, hoeft u niet expliciet de bestandsextensie voor .xml-bestanden te vermelden. De extensie .xml wordt automatisch toegevoegd aan de UUID.
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Als de beheerder de optie UUID&#39;s heeft ingeschakeld in *XMLEditorConfig*, dan ziet u de UUID van de inhoud waarnaar wordt verwezen in het dialoogvenster **Koppeling** eigenschap.
+Als de beheerder de optie UUID&#39;s heeft ingeschakeld in *XMLEditorConfig*, dan ziet u de UUID van de inhoud waarnaar wordt verwezen in de **Koppeling** eigenschap.
 
 ![](images/ref-link-uuid_cs.png){width="800" align="left"}
 
@@ -366,13 +371,13 @@ Inhoud in andere documenten in uw project opnieuw gebruiken. U kunt inhoud invoe
 
 Selecteer in het dialoogvenster Inhoud opnieuw gebruiken het DITA-bestand voor bestandsverwijzingen of het DITA-kaartbestand dat de toetsverwijzingen bevat. Als deze optie is geselecteerd, worden het onderwerp of de belangrijkste verwijzingen weergegeven in het dialoogvenster. U kunt identiteitskaart/de sleutel van het onderwerp selecteren dat u en Gedaan wilt opnemen klikken om de inhoud binnen uw onderwerp op te nemen.
 
-Voor het invoegen van Content Reference kunt u ook de UUID van het bestand invoeren. De herbruikbare inhoud van dat bestand wordt vermeld in de sectie Voorbeeld.
+Als u Content Reference wilt invoegen, kunt u ook de UUID van het bestand invoeren. De herbruikbare inhoud van dat bestand wordt vermeld in de sectie Voorbeeld.
 
 Gebaseerd op het plaatsen voor het opnemen van verbindingen, kon u of UUID van de opgenomen inhoud of de relatieve weg in het paneel van Eigenschappen of de Broncodemening zien. De koppeling wordt altijd gemaakt met de UUID van de inhoud waarnaar wordt verwezen. Zie Op UUID gebaseerde koppelingen configureren in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
 
 >[!NOTE]
 >
-> Gebruik *Alt*+*Links* Pijl of Alt+*Rechts* Pijltoetsen om de cursor naar de gewenste locatie te verplaatsen.
+> Als u inhoud voor of na de bedoelde inhoud wilt toevoegen, gebruikt u *Alt*+*Links* Pijl of Alt+*Rechts* Pijltoetsen om de cursor naar de gewenste locatie te verplaatsen.
 
 U kunt de doorverwezen inhoud binnen het onderwerp ook insluiten door met de rechtermuisknop op de doorverwezen inhoud te klikken en **Verwijzing door inhoud vervangen** in het contextmenu.
 
@@ -386,7 +391,7 @@ Hiermee voegt u speciale tekens in het onderwerp in. Klik op het pictogram Speci
 
 ![](images/insert-special-char.png){width="550" align="left"}
 
-In het dialoogvenster Speciaal teken invoegen kunt u zoeken naar een speciaal teken aan de hand van de naam ervan. Alle speciale tekens worden in verschillende categorieën opgeslagen. Gebruik de Uitgezochte drop-down lijst van de Categorie en selecteer een categorie. De speciale tekens die beschikbaar zijn in de geselecteerde categorie worden weergegeven. U kunt met de pijltoetsen door de lijst met speciale tekens navigeren of op het gewenste teken klikken dat u wilt invoegen. De naam en de hexadecimale code van het geselecteerde speciale teken worden onder de lijst weergegeven. Klik op Invoegen om het geselecteerde teken in het document in te voegen.
+In het dialoogvenster Speciaal teken invoegen kunt u zoeken naar een speciaal teken met de naam ervan. Alle speciale tekens worden in verschillende categorieën opgeslagen. Gebruik de Uitgezochte drop-down lijst van de Categorie en selecteer een categorie. De speciale tekens die beschikbaar zijn in de geselecteerde categorie worden weergegeven. U kunt met de pijltoetsen door de lijst met speciale tekens navigeren of op het gewenste teken klikken dat u wilt invoegen. De naam en de hexadecimale code van het geselecteerde speciale teken worden onder de lijst weergegeven. Klik op Invoegen om het geselecteerde teken in het document in te voegen.
 
 **Trefwoord invoegen** - ![](images/Keyword_icon.svg)
 
@@ -430,13 +435,22 @@ De voorkeursvormrechthoek kiezen ![](images/imagemap-rectangle-toolbar.png), cir
 
 Als gebieden elkaar overlappen, kunt u de vorm naar voren halen of terugsturen door op het desbetreffende pictogram op de werkbalk te klikken. U kunt een gebied ook verwijderen door het te selecteren en het pictogram van de Schrapping te klikken. Als u dubbelklikt op een gebied, wordt het dialoogvenster Referentie geopend waarin u de doelkoppeling kunt wijzigen. Als u de vereiste gebieden in de afbeelding hebt gemarkeerd, slaat u de wijzigingen op door op Gereed te klikken.
 
-**Vergrendelen/Ontgrendelen** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Uitchecken/Inchecken** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Hiermee vergrendelt of ontgrendelt u het huidige bestand. Als u \(of controleren\) vergrendelt in een bestand, heeft de gebruiker exclusieve schrijftoegang tot het bestand. Wanneer het bestand is ontgrendeld \(of ingeschakeld\), worden de wijzigingen opgeslagen in de huidige versie van het bestand.
+Hiermee wordt het huidige bestand uitgecheckt of gecontroleerd. Als u een bestand uitcheckt, heeft de gebruiker exclusief schrijftoegang tot het bestand. Als het bestand is ingecheckt, worden de wijzigingen opgeslagen in de huidige versie van het bestand.
 
-Als u in de Kaartweergave werkt en de bovenliggende kaart uitvouwt, kunt u met één klik alle bestanden op de kaart vergrendelen. Vouw gewoon het bovenliggende kaartbestand uit en selecteer het bovenliggende bestand. Dit betekent dat u alle bestanden in de kaart selecteert. Vervolgens kunt u op het vergrendelingspictogram klikken om alle bestanden op de kaart te vergrendelen.
+Als u in de Kaartweergave werkt en de bovenliggende kaart uitvouwt, kunt u met één klik alle bestanden op de kaart uitchecken. Vouw gewoon het bovenliggende kaartbestand uit en selecteer het bovenliggende bestand. Dit betekent dat u alle bestanden in de kaart selecteert. Vervolgens kunt u **Uitchecken**  ![](images/LockClosed_icon.svg) om alle bestanden op de kaart te vergrendelen.
 
-**Tags in-/uitschakelen** - ![](images/Label_icon.svg)
+>[!NOTE]
+>
+> Wanneer u een bestand incheckt dat niet-opgeslagen wijzigingen bevat, wordt u gevraagd de wijzigingen op te slaan. Als u uw wijzigingen niet opslaat, wordt alleen het bestand gecontroleerd.
+
+De knopinfo voor In- en uitchecken wordt bepaald door de eigenschap title in het dialoogvenster `ui_config.json` bestand.
+
+Voor meer informatie, bekijkt u [De titel configureren voor de pictogrammen Inchecken en Uitchecken](../install-guide/conf-checkin-checkout-title.md) in de on-premise Gids van de Installatie en van de configuratie.
+
+
+**Tagweergave in-/uitschakelen** - ![](images/Label_icon.svg)
 
 Tags zijn visuele aanwijzingen die de grenzen van een element aangeven. Een elementgrens geeft het begin en einde van een element aan. Vervolgens kunt u deze grenzen gebruiken als visuele aanwijzing om de invoegpositie te plaatsen of de tekst binnen een grens te selecteren. Als u een ander element voor of na een element in het document wilt invoegen, kunt u de invoegpositie voor of na de openings- of sluitingsgrens van het element plaatsen.
 
@@ -446,7 +460,7 @@ In de volgende schermafbeelding ziet u een document met de weergave Codes ingesc
 
 De volgende bewerkingen kunnen worden uitgevoerd in een document met de codeweergave op:
 
-- **Een element selecteren**: Klik op de openings- of afsluitende tag van een element om de inhoud ervan te selecteren.
+- **Een element selecteren**: Klik op de openingstag of de afsluitende tag van een element om de inhoud ervan te selecteren.
 
 - **Tags uitvouwen of samenvouwen**: Klik op + of - teken in een tag om deze uit of samen te vouwen.
 
@@ -481,7 +495,7 @@ Als u met één klik alle wijzigingen wilt accepteren of negeren, selecteert u *
 
 >[!NOTE]
 >
-> In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Zie voor meer informatie de [Voorvertoning](web-editor-views.md#preview-mode-id19AAGL00163) in.
+> In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Zie voor meer informatie de [Voorvertoning](web-editor-views.md#preview-mode-id19AAGL00163) -modus.
 
 **Samenvoegen** - ![](images/merge-icon.svg)
 
@@ -491,7 +505,7 @@ Wanneer u in een multi-auteurmilieu werkt, wordt het moeilijk om te volgen welke
 
 Voer de volgende stappen uit om wijzigingen in een onderwerp samen te voegen:
 
-1. Open een onderwerp in de Redacteur van het Web.
+1. Een onderwerp openen in de webeditor.
 
 1. Klikken **Samenvoegen**.
 
@@ -507,7 +521,7 @@ Voer de volgende stappen uit om wijzigingen in een onderwerp samen te voegen:
 
    - **Wijzigingen bijhouden in geselecteerde versie**: Met deze optie worden alle updates van de inhoud weergegeven in de vorm van wijzigingen in tracks. Vervolgens kunt u kiezen of u de wijzigingen in het document een voor een wilt accepteren of wilt negeren, of in één keer.
 
-   - **Geselecteerde versie herstellen**: Met deze optie keert u de huidige versie van het document terug naar de geselecteerde versie. Met deze optie kunt u niet bepalen welke inhoud wordt geaccepteerd of geweigerd.
+   - **Geselecteerde versie herstellen**: Met deze optie wordt de huidige versie van het document hersteld naar de geselecteerde versie. Met deze optie kunt u niet bepalen welke inhoud wordt geaccepteerd of geweigerd.
 
 1. Klikken **Gereed**.
 
@@ -520,7 +534,7 @@ Voer de volgende stappen uit om wijzigingen in een onderwerp samen te voegen:
 
 Voer de volgende stappen uit om wijzigingen in een kaartbestand samen te voegen:
 
-1. Open een kaart in de Redacteur van het Web.
+1. Een kaart openen in de webeditor.
 
 1. Klikken **Samenvoegen**.
 
@@ -536,7 +550,7 @@ Voer de volgende stappen uit om wijzigingen in een kaartbestand samen te voegen:
 
    - **Wijzigingen bijhouden in geselecteerde versie**: Met deze optie worden alle updates van de inhoud weergegeven in de vorm van wijzigingen in tracks. Vervolgens kunt u kiezen of u de wijzigingen in het document een voor een wilt accepteren of wilt negeren, of in één keer.
 
-   - **Geselecteerde versie herstellen**: Met deze optie keert u de huidige versie van het document terug naar de geselecteerde versie. Met deze optie kunt u niet bepalen welke inhoud wordt geaccepteerd of geweigerd.
+   - **Geselecteerde versie herstellen**: Met deze optie wordt de huidige versie van het document hersteld naar de geselecteerde versie. Met deze optie kunt u niet bepalen welke inhoud wordt geaccepteerd of geweigerd.
 
 1. Klikken **Gereed**.
 
@@ -547,13 +561,13 @@ Voer de volgende stappen uit om wijzigingen in een kaartbestand samen te voegen:
 
 **Versiehistorie** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Gidsen verstrekt diverse manieren om de versies te bekijken die voor uw onderwerpdossiers en ook manieren worden gecreeerd om aan een specifieke versie terug te keren. Nochtans, zijn de meeste van deze eigenschappen beschikbaar buiten de Redacteur van het Web.
+AEM Gidsen verstrekt diverse manieren om de versies te bekijken die voor uw onderwerpdossiers en ook manieren worden gecreeerd om aan een specifieke versie terug te keren. De meeste van deze functies zijn echter beschikbaar buiten de webeditor.
 
 De eigenschap van de Geschiedenis van de Versie in de Redacteur van het Web staat u toe om niet alleen de beschikbare versies en de etiketten op uw actief onderwerp te controleren, maar geeft u ook de flexibiliteit om aan om het even welke versie van de redacteur zelf terug te keren.
 
 Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar een specifieke versie van het onderwerp:
 
-1. Open een onderwerp in de Redacteur van het Web.
+1. Een onderwerp openen in de webeditor.
 
 1. Klikken **Versiehistorie**.
 
@@ -590,9 +604,9 @@ Wanneer u terugkeert naar een eerdere versie, wordt een visuele aanwijzing getoo
 
 **Versielabelbeheer** -  ![](images/version-label-icon.svg)
 
-De etiketten helpen u het stadium identificeren waarin een bepaald onderwerp in DDLC \(de Cyclus van het Leven van de Ontwikkeling van het Document \) is. Wanneer u bijvoorbeeld aan een onderwerp werkt, kunt u het label &quot;Goedgekeurd&quot; instellen. Zodra een onderwerp wordt gepubliceerd en ter beschikking gesteld aan klanten, kunt u &quot;Vrijgegeven&quot;etiket aan dat onderwerp toewijzen.
+Met labels kunt u het werkgebied identificeren waarin een bepaald onderwerp zich in de DDLC \(Levenscyclus voor documentontwikkeling\) bevindt. Wanneer u bijvoorbeeld aan een onderwerp werkt, kunt u het label &quot;Goedgekeurd&quot; instellen. Zodra een onderwerp wordt gepubliceerd en ter beschikking gesteld aan klanten, kunt u &quot;Vrijgegeven&quot;etiket aan dat onderwerp toewijzen.
 
-Met AEM hulplijnen kunt u labels opgeven in een tekstindeling met vrije vorm of een set vooraf gedefinieerde labels gebruiken. Met het aangepaste label kan elke auteur in het systeem naar keuze een label opgeven. Dit geeft flexibiliteit; het systeem bevat echter inconsistente etiketten . Om dit probleem te verhelpen, kunnen beheerders een set vooraf gedefinieerde labels configureren. Voor meer informatie over het vormen van vooraf bepaalde etiketten, zie *Vorm en pas de Redacteur van het Web van XML aan* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
+Met AEM hulplijnen kunt u labels opgeven in een tekstindeling met vrije vorm of een set vooraf gedefinieerde labels gebruiken. Met het aangepaste label kan elke auteur in het systeem naar keuze een label opgeven. Dit geeft flexibiliteit, maar het introduceert inconsistente labels in het systeem. Om dit probleem te verhelpen, kunnen beheerders een set vooraf gedefinieerde labels configureren. Zie voor meer informatie over het configureren van vooraf gedefinieerde labels *De XML-webeditor configureren en aanpassen* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
@@ -600,7 +614,7 @@ Er zijn verschillende methoden om labels toe te passen op uw onderwerpen - [Vers
 
 Om etiketten aan uw onderwerp van de Redacteur van het Web toe te voegen, voer de volgende stappen uit:
 
-1. Open een onderwerp in de Redacteur van het Web.
+1. Een onderwerp openen in de webeditor.
 
 1. Klikken **Versielabel**.
 
@@ -691,7 +705,7 @@ U kunt ook veel handelingen uitvoeren met het menu Opties dat beschikbaar is voo
 
 Wanneer u op het pictogram Weergave opslagplaats klikt, wordt een lijst met bestanden en mappen beschikbaar in DAM.
 
-Er worden 75 bestanden tegelijk geladen. Elke keer dat u klikt **Meer laden**... 75 bestanden worden geladen en de knop wordt niet meer weergegeven wanneer alle bestanden zijn weergegeven. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan het laden van alle bestanden in een map.
+Er worden 75 bestanden tegelijk geladen. Elke keer dat u klikt **Meer laden**... 75 bestanden worden geladen en de knop wordt niet meer weergegeven wanneer alle bestanden zijn weergegeven. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
 U kunt gemakkelijk naar het vereiste dossier binnen DAM navigeren en het openen in de Redacteur van het Web. Als u de vereiste toegang hebt om het bestand te bewerken, kunt u dat doen.
 
@@ -718,7 +732,7 @@ U hebt ook de volgende opties om de bestanden te filteren en uw zoekopdracht in 
 
 **Opmerking:** Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Zie voor meer informatie *Tekstfilters configureren* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
-De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. In het bovenstaande voorbeeld worden de bestanden met de tekst &#39;algemeen doel&#39; weergegeven. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze slepen en neerzetten op een kaart die is geopend voor bewerken.
+De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. In het bovenstaande screenshot worden bijvoorbeeld de bestanden met de tekst &#39;algemeen doel&#39; weergegeven. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze slepen en neerzetten op een kaart die is geopend voor bewerken.
 
 **Menu Opties**
 
@@ -728,12 +742,12 @@ Het menu Opties is beschikbaar in de weergave Opslagplaats. U ziet verschillende
 
 **Opties voor een map**
 
-U kunt de volgende handelingen uitvoeren met het menu Opties dat beschikbaar is voor een *map* in de weergave Opslagplaats:
+U kunt de volgende handelingen uitvoeren met het menu Opties van een *map* in de weergave Opslagplaats:
 
 ![](images/options-menu-folder_cs.PNG){width="550" align="left"}
 
 
-- **Maken**: Creeer een nieuw onderwerp DITA, kaart DITA, of een omslag. Zie voor meer informatie de  **Onderwerpen maken in de weergave Opslagplaats** in de [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
+- **Maken**: Maak een nieuw DITA-onderwerp, een DITA-kaart of een map. Zie voor meer informatie de  **Onderwerpen maken in de weergave Opslagplaats** in de [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
@@ -761,7 +775,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties dat beschikbaar is 
   >
   > Gebruik de **\>** pictogram naast een map om deze uit te vouwen.
 
-- **Toevoegen aan Favorieten**: Hiermee voegt u de geselecteerde map toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
+- **Toevoegen aan Favorieten**: Voegt de geselecteerde map toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
 
 - **Vernieuwen**: Haal een nieuwe lijst met bestanden en mappen op uit de opslagplaats.
 - **Weergeven in interface Elementen**: De inhoud van de map weergeven in de interface Middelen.
@@ -786,20 +800,21 @@ U ziet verschillende opties in het menu Opties, afhankelijk van het feit of u ee
 
 De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
-- **Bewerken**: Open het bestand om het te bewerken. In het geval van een .ditamap/.bookmap-bestand, wordt het geopend in het dialoogvenster [Geavanceerde kaarteditor](map-editor-advanced-map-editor.md#) voor bewerken.
+- **Bewerken**: Open het bestand voor bewerking. In het geval van een .ditamap/.bookmap-bestand, wordt het geopend in het dialoogvenster [Geavanceerde kaarteditor](map-editor-advanced-map-editor.md#) voor bewerken.
 
-- **Dupliceren**: Met deze optie kunt u een kopie of kopie van het geselecteerde bestand maken. U kunt de naam van het gedupliceerde bestand ook wijzigen in de vraag Elementen dupliceren. Standaard wordt het bestand gemaakt met het achtervoegsel \(zoals bestandsnaam\_1.extension\). De titel van het bestand blijft gelijk aan die van het bronbestand en het nieuwe bestand begint met versie 1.0. Alle verwijzingen, markeringen, en meta-gegevens worden gekopieerd terwijl de basislijnen niet in het dubbele dossier worden gekopieerd.
+- **Dupliceren**: Gebruik deze optie om een kopie of kopie van het geselecteerde bestand te maken. U kunt de naam van het gedupliceerde bestand ook wijzigen in de vraag Elementen dupliceren. Standaard wordt het bestand gemaakt met het achtervoegsel \(zoals bestandsnaam\_1.extension\). De titel van het bestand blijft dezelfde als het bronbestand en het nieuwe bestand begint met versie 1.0. Alle verwijzingen, markeringen, en meta-gegevens worden gekopieerd terwijl de basislijnen niet in het dubbele dossier worden gekopieerd.
 - **Uitchecken**: Vergrendel het geselecteerde bestand om het te bewerken. Voor een vergrendeld bestand verandert deze optie in **Inchecken**.
 
   >[!NOTE]
   >
-  > Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
+  > - Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
+  > - Wanneer u een bestand incheckt dat niet-opgeslagen wijzigingen bevat, wordt u gevraagd de wijzigingen op te slaan. Als u uw wijzigingen niet opslaat, wordt alleen het bestand gecontroleerd.
 
-- **Voorvertoning**: Een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het te openen.
+- **Voorvertoning**: U kunt een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het bestand te openen.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
-- **Naam wijzigen**: Gebruik deze optie om de naam van het geselecteerde bestand te wijzigen. Voer de naam van het nieuwe bestand in het dialoogvenster **Naam element wijzigen** .
+- **Naam wijzigen**: Gebruik deze optie om de naam van het geselecteerde bestand te wijzigen. Voer de naam van het nieuwe bestand in het dialoogvenster **Naam element wijzigen** in.
    - U kunt de naam van een bestand van elk type wijzigen.
    - U kunt de extensie van een bestand niet wijzigen.
    - Twee bestanden kunnen niet dezelfde naam hebben. U kunt de naam van een bestand dus niet wijzigen in een bestaande naam. Er wordt een fout weergegeven.
@@ -845,7 +860,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
      >
      > Als uw beheerder het verwijderen van uitgecheckte bestanden heeft verhinderd, wordt alleen het foutbericht weergegeven. Zie voor meer informatie *Verwijderen van uitgecheckte bestanden voorkomen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
-   - Als het bestand wordt toegevoegd aan een favoriete verzameling, wordt de **Verwijderen forceren** wordt weergegeven en u kunt dit met kracht verwijderen.
+   - Als het bestand wordt toegevoegd aan een favoriete verzameling, wordt de opdracht **Verwijderen forceren** wordt weergegeven en u kunt dit met kracht verwijderen.
    - Als er vanuit een ander bestand naar het bestand wordt verwezen, dan **Verwijderen forceren** wordt weergegeven en u kunt het bestand met kracht verwijderen:
 
      ![](images/options-menu-force-delete.png){width="550" align="left"}
@@ -866,9 +881,9 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
    - **Pad kopiëren**: Kopieer het volledige pad van het geselecteerde bestand naar het klembord.
 
-- **Alles samenvouwen**: Alle bestanden in de opslagplaats samenvouwen. Alleen de mappen op het hoogste niveau in de opslagplaats worden weergegeven.
+- **Alles samenvouwen**: Vouw alle bestanden in de opslagplaats samen. Alleen de mappen op het hoogste niveau in de opslagplaats worden weergegeven.
 - **Toevoegen aan**: U kunt uit de volgende opties kiezen:
-   - **Favorieten**: Hiermee voegt u het geselecteerde bestand toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
+   - **Favorieten**: Voegt het geselecteerde bestand toe aan favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
 
    - **Herbruikbare inhoud**: Hiermee voegt u het geselecteerde bestand toe aan de lijst Herbruikbare inhoud in het linkerdeelvenster.
 
@@ -876,7 +891,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
 - **Kaartdashboard openen**: Als het geselecteerde bestand een DITA-kaart is, wordt met deze optie het kaartdashboard geopend.
 
-- **Weergeven in interface Elementen**: Gebruik dit om een voorvertoning van een .dita/.xml- dossier in Elementen UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
+- **Weergeven in interface Elementen**: Gebruik deze optie om een voorbeeld van een .dita/.xml-bestand in de interface Elementen weer te geven. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
 
 - **Snel genereren**: Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -887,7 +902,7 @@ U kunt een nieuw onderwerp, een nieuwe kaart, of een nieuwe omslag van + pictogr
 
 ***Een onderwerp maken***
 
-Wanneer u *een nieuw onderwerp maken* in het menu krijgt u het volgende dialoogvenster:
+Wanneer u ervoor kiest *een nieuw onderwerp maken* in het menu krijgt u het volgende dialoogvenster:
 
 ![](images/create-topic-dialog.png){width="300" align="left"}
 
@@ -911,7 +926,7 @@ Wanneer u op **Maken**, wordt het onderwerp gecreeerd bij de gespecificeerde weg
 
 ***Een DITA-kaart maken***
 
-Wanneer u *een nieuwe DITA-kaart maken* krijgt u het volgende dialoogvenster:
+Wanneer u ervoor kiest *een nieuwe DITA-kaart maken* krijgt u het volgende dialoogvenster:
 
 ![](images/create-map-dialog.png){width="300" align="left"}
 
@@ -931,11 +946,11 @@ Wanneer u op **Maken**, wordt de kaart gemaakt en toegevoegd in de map die is op
 
 ***Een map maken***
 
-Wanneer u *een nieuwe map maken*, krijgt u de **Nieuwe map maken** dialoogvenster:
+Wanneer u ervoor kiest *een nieuwe map maken*, krijgt u de **Nieuwe map maken** dialoogvenster:
 
 ![](images/new-folder-dialog_cs.png){width="300" align="left"}
 
-Voer een **Titel** voor de map, die automatisch wordt geconverteerd naar de mapnaam. Het pad is het pad waarin u het kaartbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad. Wanneer u op **Maken**, wordt de map gemaakt en toegevoegd in de map vanwaar de optie Map maken is uitgevoerd.
+Voer een **Titel** voor de map, die automatisch wordt omgezet in de mapnaam. Het pad is het pad waarin u het kaartbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad. Wanneer u op **Maken**, wordt de map gemaakt en toegevoegd in de map vanwaar de optie Map maken is uitgevoerd.
 
 **Kaartweergave** -  ![](images/map-view-icon.svg)
 
@@ -945,11 +960,11 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 
 ![](images/options-menu-map-view_cs.png){width="550" align="left"}
 
-- **Bewerken**: Open het kaartdossier voor het uitgeven in de Geavanceerde Redacteur van de Kaart.
+- **Bewerken**: Open het kaartbestand voor bewerking in de Geavanceerde kaarteditor.
 
 - **Alles selecteren**: Selecteer alle bestanden op de kaart.
 
-- **Selectie wissen**: Deselecteer de geselecteerde bestanden op de kaart.
+- **Selectie wissen**: Hef de selectie van de geselecteerde bestanden op de kaart op.
 
 - **Afhandeling en vergrendelen**: Uitchecken en vergrendelen van de geselecteerde bestanden op de kaart.
 
@@ -963,18 +978,18 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
    - **UUID kopiëren**: Kopieer de UUID van het kaartbestand naar het klembord.
    - **Pad kopiëren**: Kopieer het volledige pad van het kaartbestand naar het klembord.
 
-- **Zoeken in opslagplaats**: Geeft de locatie van het kaartbestand in de opslagplaats \(of DAM\) weer.
+- **Zoeken in opslagplaats**: geeft de locatie van het kaartbestand in de opslagplaats \(of DAM\) weer.
 
 - **Toevoegen aan**: U kunt uit de volgende opties kiezen:
-   - **Favorieten**: Hiermee voegt u het kaartbestand toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
+   - **Favorieten**: voegt het kaartbestand toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
 
-   - **Herbruikbare inhoud**: Hiermee voegt u het kaartbestand toe aan de lijst Herbruikbare inhoud in het linkerdeelvenster.
+   - **Herbruikbare inhoud**: Voegt het kaartbestand toe aan de lijst Herbruikbare inhoud in het linkerdeelvenster.
 
-- **Eigenschappen**: Gebruik deze optie om de eigenschappenpagina van het kaartbestand te openen. U kunt deze eigenschappenpagina ook openen vanuit de interface Middelen door een bestand te selecteren en op het pictogram Eigenschappen op de werkbalk te klikken.
+- **Eigenschappen**: Gebruik deze optie om de pagina met eigenschappen van het kaartbestand te openen. U kunt deze eigenschappenpagina ook openen vanuit de interface Middelen door een bestand te selecteren en op het pictogram Eigenschappen op de werkbalk te klikken.
 
 - **Kaartdashboard openen**: Open het kaartdashboard.
 
-- **Weergeven in interface Elementen**: Hiermee kunt u een voorvertoning van het kaartbestand weergeven in de interface Middelen. In deze weergave worden alle onderwerpbestanden in de kaart weergegeven in één weergave voor elke pagina.
+- **Weergeven in interface Elementen**: Gebruik deze optie om een voorvertoning van het kaartbestand weer te geven in de interface Middelen. In deze weergave worden alle onderwerpbestanden in de kaart weergegeven in één weergave voor elke pagina.
 
 - **Snel genereren**: Genereer de uitvoer voor het geselecteerde kaartbestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
 - **Sluiten**: Sluit het kaartbestand.
@@ -985,38 +1000,42 @@ De volgende het schermopname toont het menu van Opties voor een dossier in de Me
 
 U kunt de volgende handelingen uitvoeren met het menu Opties:
 
-- **Bewerken**: Open het bestand om het te bewerken. In het geval van een .ditamap/.bookmap-bestand, wordt het geopend in het dialoogvenster [Geavanceerde kaarteditor](map-editor-advanced-map-editor.md#) voor bewerken.
+- **Bewerken**: Open het bestand voor bewerking. In het geval van een .ditamap/.bookmap-bestand, wordt het geopend in het dialoogvenster [Geavanceerde kaarteditor](map-editor-advanced-map-editor.md#) voor bewerken.
 
-- **Uitchecken**: Bekijk het geselecteerde bestand. Voor een uitgecheckt bestand wordt deze optie gewijzigd in **Inchecken**.
+- **Uitchecken**: Check het geselecteerde bestand uit. Voor een uitgecheckt bestand wordt deze optie gewijzigd in **Inchecken**.
+
+
 
   >[!NOTE]
   >
-  > Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
+  > - Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
+  > - Wanneer u een bestand incheckt, wordt u gevraagd de wijzigingen op te slaan. Als u uw wijzigingen niet opslaat, wordt alleen het bestand gecontroleerd.
 
-- **Voorvertoning**: Een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het te openen.
+- **Voorvertoning**: U kunt een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het bestand te openen.
 - **Kopiëren**: U kunt uit de volgende opties kiezen:
    - **UUID kopiëren**: Kopieer de UUID van het geselecteerde bestand naar het klembord.
    - **Pad kopiëren**: Kopieer het volledige pad van het geselecteerde bestand naar het klembord.
 
+
 - **Zoeken in opslagplaats**: Geeft de locatie van het geselecteerde bestand in de opslagplaats \(of DAM\) weer.
-- **Alles uitvouwen**: Vouw alle onderwerpen in de kaartbestanden uit.
+- **Alles uitbreiden**: Vouw alle onderwerpen in de kaartbestanden uit.
 
 - **Alles samenvouwen**: Vouw alle onderwerpen samen die deel uitmaken van het huidige kaartbestand.
 
 - **Toevoegen aan**: U kunt uit de volgende opties kiezen:
-   - **Favorieten**: Hiermee voegt u het geselecteerde bestand toe aan de favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
+   - **Favorieten**: Voegt het geselecteerde bestand toe aan favorieten. U kunt desgewenst toevoegen aan een bestaande of nieuwe favoriete verzameling.
 
    - **Herbruikbare inhoud**: Hiermee voegt u het geselecteerde bestand toe aan de lijst Herbruikbare inhoud in het linkerdeelvenster.
 
 - **Eigenschappen**: Gebruik deze optie om de eigenschappenpagina van het geselecteerde bestand te openen. U kunt deze eigenschappenpagina ook openen vanuit de interface Middelen door een bestand te selecteren en op het pictogram Eigenschappen op de werkbalk te klikken.
 
-- **Weergeven in interface Elementen**: Gebruik dit om een voorvertoning van een .dita/.xml- dossier in Elementen UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
+- **Weergeven in interface Elementen**: Gebruik deze optie om een voorbeeld van een .dita/.xml-bestand in de interface Elementen weer te geven. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
 
 - **Snel genereren**: Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
 
 >[!NOTE]
 >
-> U kunt de eigenschappen van geselecteerde onderwerpen in een kaart DITA van DITA ook openen en uitgeven **Meer opties** onder aan de Kaartweergave.
+> U kunt de eigenschappen van geselecteerde onderwerpen in een kaart ook openen en uitgeven DITA van het **Meer opties** onder aan de Kaartweergave.
 
 **Omtrekweergave** -  ![](images/outline-icon.svg)
 
@@ -1056,9 +1075,9 @@ De omtrekweergave biedt de volgende functies:
 
 Met het vervolgkeuzemenu Weergaveopties kunt u het volgende weergeven als het element deze opties heeft:
 
-- **Id tonen**: Hiermee wordt de id van het element weergegeven.
-- **Kenmerk tonen**: Toont het kenmerk samen met de waarde ervan.
-- **Tekst tonen**: De tekst wordt weergegeven. Als de tekst langer is dan 20 tekens, wordt een ovaal weergegeven.
+- **Id tonen**: geeft de id van het element weer.
+- **Kenmerk tonen**: geeft het kenmerk samen met de waarde weer.
+- **Tekst tonen**: Geeft de tekst weer. Als de tekst langer is dan 20 tekens, wordt een ovaal weergegeven.
 
 Als een blokelement zijn eigen tekst heeft, wordt het getoond samen met dat blokelement. Als het geen eigen tekst heeft, wordt de tekst van het eerste onderliggende element samen met dat blokelement weergegeven.
 
@@ -1105,7 +1124,7 @@ Wanneer u een bestand toevoegt aan de lijst Herbruikbare inhoud, wordt de bestan
 >
 > U kunt meerdere bestanden toevoegen aan de lijst met herbruikbare inhoud. Vervolgens kunt u de gewenste inhoud vanuit het deelvenster Opnieuw te gebruiken inhoud in het document invoegen.
 
-**Vernieuwen**: Hiermee wordt opnieuw gecontroleerd op alle herbruikbare inhoud en wordt een nieuwe lijst met herbruikbare inhoud weergegeven.
+**Vernieuwen**: controleert opnieuw op alle herbruikbare inhoud en geeft een nieuwe lijst van herbruikbare inhoud weer.
 
 Gebruik een van de volgende methoden om inhoud in te voegen uit het deelvenster Herbruikbare inhoud:
 
@@ -1132,7 +1151,7 @@ Voer de volgende stappen uit om teksttermen te zoeken en deze te vervangen door 
 
 1. Open het DITA-onderwerp of de DITA-kaart waarin u de tekst of termen wilt zoeken en omzetten.
 1. Selecteer het verklarende woordenlijstpaneel om de verklarende woordenlijsttermijnen in de wortelkaart te bekijken. U kunt deze termen slepen en neerzetten om ze aan het geopende onderwerp toe te voegen.
-1. Selecteer **Hotspot** gereedschap \( ![](images/hotspot-icon.svg)\) in het deelvenster Verklarende woordenlijst om specifieke teksttermen te zoeken en om te zetten in gekoppelde verklarende woordenlijstafkortingen. En omgekeerd kunt u deze ook gebruiken om te zoeken in afkortingen van woordenlijsten en deze om te zetten in teksttermen.
+1. Selecteer de **Hotspot** gereedschap \( ![](images/hotspot-icon.svg)\) in het deelvenster Verklarende woordenlijst om specifieke teksttermen te zoeken en om te zetten in gekoppelde verklarende woordenlijstafkortingen. En omgekeerd kunt u deze ook gebruiken om te zoeken in afkortingen van woordenlijsten en deze om te zetten in teksttermen.
 
 ![](images/glossary-hotspot-tool.png){width="300" align="left"}
 
@@ -1146,16 +1165,16 @@ U kunt de volgende instellingen configureren voor het gereedschap Hotspot:
 - **Onderwerpen filteren op status**: U kunt de zoekopdracht beperken tot onderwerpen die de status van het geselecteerde document hebben. De onderwerpen kunnen in Ontwerp zijn, uitgeven, In-Overzicht, Goedgekeurd, herzien, Klaar status, of in om het even welke staat zoals gevormd door de organisatie.
 - **Handeling**: U kunt kiezen of u de woordenlijsttoetsen wilt doorzoeken **Handmatig voor elk onderwerp** of **Automatisch voor alle onderwerpen**. Als u **Handmatig voor elk onderwerp**, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **Automatisch voor alle onderwerpen**, zet het alle termijnen in alle onderwerpen automatisch om.
 - **Omzetten**: U kunt een gezochte **Tekst naar verklarende woordenlijstterm** of **Verklarende term voor tekst.**
-- **Opties**: U kunt uit de volgende opties selecteren:
-   - **Hoofdlettergevoelig**: Zoekt naar een termijn om de gelijke te vinden die het zelfde omhulsel heeft. &#39;USB&#39; komt bijvoorbeeld niet overeen met &#39;usb&#39;.
-   - **Alleen de eerste instantie omzetten**: Als er meerdere instanties van de doorzochte term in een onderwerp aanwezig zijn, wordt alleen de eerste instantie omgezet.
-   - **Bestand uitchecken voor conversie**: Het gezochte bestand wordt uitgecheckt voordat de voorwaarden worden geconverteerd.
+- **Opties**: U kunt een van de volgende opties selecteren:
+   - **Hoofdlettergevoelig**: Zoekt naar een term om de overeenkomst te vinden die de zelfde omhulsel heeft. &#39;USB&#39; komt bijvoorbeeld niet overeen met &#39;usb&#39;.
+   - **Alleen de eerste instantie omzetten**: Als een onderwerp meerdere instanties van de gezochte term bevat, wordt alleen de eerste instantie omgezet.
+   - **Bestand uitchecken voor conversie**: Het gezochte bestand wordt uitgecheckt voordat de termen worden omgezet.
    - **Nieuwe versie maken na conversie**: Een nieuwe versie van het onderwerp wordt gecreeerd nadat de omzetting van termijnen is voltooid.
-- **Volgende** wordt weergegeven als u **Handmatig voor elk onderwerp** optie. Klikken **Volgende** om de termijnen voor elk onderwerp op basis van de geselecteerde montages om te zetten. Het veroorzaakt voor omzetting van termijnen in elk onderwerp en beweegt zich aan het volgende dossier. U kunt ervoor kiezen een term om te zetten of deze over te slaan en naar de volgende termijn te gaan.
+- **Volgende** wordt weergegeven als u **Handmatig voor elk onderwerp** -optie. Klikken **Volgende** om de termijnen voor elk onderwerp op basis van de geselecteerde montages om te zetten. Het veroorzaakt voor omzetting van termijnen in elk onderwerp en beweegt zich aan het volgende dossier. U kunt ervoor kiezen een term om te zetten of deze over te slaan en naar de volgende termijn te gaan.
 
   ![](images/manual-convert-skip.png){width="300" align="left"}
 
-- **Omzetten** wordt weergegeven als u **Automatisch voor alle onderwerpen** optie. Selecteren **Omzetten** om alle termen in het document te converteren naar gekoppelde woordenboekafkortingen.
+- **Omzetten** wordt weergegeven als u **Automatisch voor alle onderwerpen** -optie. Selecteren **Omzetten** om alle termen in het document te converteren naar gekoppelde woordenboekafkortingen.
 
 Een lijst van de **Onderwerpen bijgewerkt** met de omgezette termen en **Onderwerpen met fout** wordt weergegeven. Houd de muisaanwijzer boven \( ![](images/info-icon.svg)\) pictogram dichtbij Onderwerpen met Fout om de details van de fout te zien.
 
@@ -1187,13 +1206,13 @@ Als u een voorwaarde wilt toevoegen of definiëren, klikt u op het pictogram + n
 
 Selecteer in de lijst Kenmerk het voorwaardelijke kenmerk dat u wilt definiëren, voer een waarde voor de voorwaarde in en geef vervolgens het label op dat in het deelvenster Voorwaarden wordt weergegeven. U kunt ook een kleur voor de voorwaarde definiëren. Deze kleur wordt ingesteld als de achtergrondkleur van de inhoud waarop de voorwaarde wordt toegepast
 
-Als u een voorwaarde wilt bewerken, kiest u **Bewerken** in het menu Opties. Het dialoogvenster Voorwaarde bewerken wordt geopend:
+Kies **Bewerken** in het menu Opties. Het dialoogvenster Voorwaarde bewerken wordt geopend:
 
 ![](images/conditional-panel-edit-cond.png){width="400" align="left"}
 
 Specificeer de details op de zelfde manier zoals gevormd terwijl het bepalen van een nieuwe voorwaarde.
 
-**Onderwerp** -  ![](images/subject_scheme_panel-icon.svg)
+**Onderwerpregeling** -  ![](images/subject_scheme_panel-icon.svg)
 
 Onderwerpschemakaarten zijn een gespecialiseerde vorm van DITA-kaarten die worden gebruikt om taxonomische onderwerpen en gecontroleerde waarden te definiëren. Afhankelijk van uw vereisten kunt u een overzicht van de onderwerpenregeling maken en ernaar verwijzen in het hoofdmapbestand. Met AEM hulplijnen kunt u de geneste hiërarchie van de onderwerpdefinities in uw onderwerpschema definiëren.
 
@@ -1203,7 +1222,7 @@ AEM de Gidsen steunen ook genestelde vlakke onderwerpschemakaarten, en u kunt ve
 
 In het volgende voorbeeld ziet u hoe u het onderwerpschema in AEM hulplijnen kunt gebruiken.
 
-1. Maak een onderwerpschemabestand in een door u gekozen gereedschap. De volgende XML-code maakt een onderwerpschema dat waarden bindt voor de `platform` kenmerk.
+1. Maak een onderwerpschemabestand in een gereedschap van uw keuze. De volgende XML-code maakt een onderwerpschema dat waarden bindt voor de `platform` kenmerk.
 
    ```XML
    <?xml version="1.0" encoding="UTF-8"?>
@@ -1327,7 +1346,7 @@ In het volgende voorbeeld ziet u hoe u het onderwerpschema in AEM hulplijnen kun
 
    U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
 
-   Als u het onderwerpschema wilt weergeven in het deelvenster Voorwaarden, moet uw systeembeheerder de optie selecteren **Onderwerpregeling tonen in het deelvenster Voorwaarden** onder het tabblad Voorwaarde in Editor-instellingen. Zie voor meer informatie [Het tabblad Voorwaarde](#id21BMNE0602V).
+   Als u het onderwerpschema wilt weergeven in het deelvenster Voorwaarden, moet uw systeembeheerder de optie selecteren **Onderwerpregeling tonen in het deelvenster Voorwaarden** onder het tabblad Voorwaarde in Editor-instellingen. Zie voor meer informatie [Tabblad Voorwaarde](#id21BMNE0602V).
 
    In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
 
@@ -1353,9 +1372,9 @@ Gebruik een van de volgende methoden om een fragment toe te voegen:
 
   Geef in het dialoogvenster Nieuw fragment een titel op die wordt weergegeven in het paneel Fragmenten, een beschrijving en XML-code van de fragmentinhoud die u wilt maken. Klikken **Maken** om het fragment op te slaan en te maken.
 
-- Klik in het inhoudsbewerkingsgebied met de rechtermuisknop op de broodkruimel van het element dat u als een fragment wilt gebruiken en kies **Fragment maken** in het contextmenu. Het dialoogvenster Nieuw fragment wordt weergegeven met de XML-code van het geselecteerde element dat is gevuld in het dialoogvenster **Inhoud** veld. Voer de **Titel** en **Beschrijving** voor het fragment en klik op **Maken** om het fragment op te slaan.
+- Klik in het inhoudsbewerkingsgebied met de rechtermuisknop op de broodkruimel van het element dat u als een fragment wilt gebruiken en kies **Fragment maken** in het contextmenu. Het dialoogvenster Nieuw fragment wordt weergegeven met de XML-code van het geselecteerde element dat is gevuld in het dialoogvenster **Inhoud** veld. Voer de **Titel** en **Beschrijving** voor het fragment en klik **Maken** het fragment opslaan.
 
-- Klik in het inhoudsbewerkingsgebied met de rechtermuisknop ergens op de inhoud die u als fragment wilt gebruiken en kies **Fragment maken** in het contextmenu. Het dialoogvenster Nieuw fragment wordt weergegeven met de XML-code van het geselecteerde element dat is gevuld in het dialoogvenster **Inhoud** veld. Voer de **Titel** en **Beschrijving** voor het fragment en klik op **Maken** om het fragment op te slaan.
+- Klik in het inhoudsbewerkingsgebied met de rechtermuisknop ergens op de inhoud die u als fragment wilt gebruiken en kies **Fragment maken** in het contextmenu. Het dialoogvenster Nieuw fragment wordt weergegeven met de XML-code van het geselecteerde element dat is gevuld in het dialoogvenster **Inhoud** veld. Voer de **Titel** en **Beschrijving** voor het fragment en klik **Maken** het fragment opslaan.
 
   In de volgende schermafbeelding worden de breadcrumb en het inhoudsgebied gemarkeerd waaruit u het contextmenu kunt aanroepen.
 
@@ -1409,14 +1428,14 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 
    - Voer de zoekterm of tekst in die u wilt zoeken in de titel van het project. Druk vervolgens op Enter om de zoekopdracht uit te voeren. U kunt bijvoorbeeld alle projecten doorzoeken met de term &#39;ruimte&#39; in de titel.
 
-   - Selecteren ![](images/filter-search-icon.svg)  om de **Filter** . U kunt alle of alleen specifieke projecten selecteren. De geselecteerde projecten worden vermeld in **Controleren** deelvenster.
+   - Selecteren ![](images/filter-search-icon.svg)  om de **Filter** in. U kunt alle of alleen specifieke projecten selecteren. De geselecteerde projecten worden vermeld in **Controleren** deelvenster.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      De **Taken die door mij zijn gestart** is standaard ingeschakeld. Hiermee kunt u alleen de taken weergeven die u hebt gestart.
 
-1. Door gebrek, in uw overzichtsproject zult u een vlakke lijst van onderwerpen bekijken die commentaren verbonden aan hen hebben. Pas de vereiste filters van de linkerspoorstaaf toe om de onderwerpen te filtreren die op de overzichtscommentaren worden gebaseerd die in hen aanwezig zijn:
+1. Door gebrek, in uw overzichtsproject zult u een vlakke lijst van onderwerpen bekijken die commentaren verbonden aan hen hebben. Pas de vereiste filters van de linkerspoorstaaf toe om de onderwerpen te filtreren die op de overzichtscommentaren worden gebaseerd in hen:
 
-   - **Alle onderwerpen weergeven**: Hiermee geeft u alle onderwerpen weer die in de projecten voorkomen.
+   - **Alle onderwerpen weergeven**: Hier worden alle onderwerpen weergegeven die in de projecten voorkomen.
    - **Onderwerpen met opmerkingen weergeven**: Alleen de onderwerpen met revisieopmerkingen weergeven.
 1. U kunt ook de zoekterm of tekst invoeren die u wilt zoeken in de titel of het bestandspad van het onderwerp. De onderwerpen die de termijn in de titel of de dossierweg bevatten zijn vermeld.
 1. Dubbelklik op een onderwerp om het te openen in de weergave Ontwerpen. U kunt de opmerkingen weergeven in het dialoogvenster **Opmerkingen** deelvenster.
@@ -1438,14 +1457,14 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
 1. De globale **Zoeken en vervangen** deelvenster.
 1. Klik op de knop **Zoeken in** selecteert u een van de volgende opties om de zoekopdracht uit te voeren.
-   - **Huidige kaart**: Zoeken in de momenteel geopende kaart
+   - **Huidige kaart**: Naar de huidige geopende kaart zoeken
 
      >[!NOTE]
      >
      > Deze optie wordt weergegeven als u al een kaart hebt geopend voor bewerken.
 
    - **Pad**: Naar het geselecteerde pad zoeken
-   - **Kaart selecteren**: Zoeken in de geselecteerde kaart
+   - **Kaart selecteren**: Naar de geselecteerde kaart zoeken
 
 1. U kunt op de knop **Opties** en kies een van de volgende opties:
 
@@ -1464,14 +1483,14 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 1. De globale **Zoeken en vervangen** deelvenster.
 1. Klik op de knop **Zoeken in** selecteert u een van de volgende opties om de zoekopdracht uit te voeren.
 
-   - **Huidige kaart**: Zoeken in de momenteel geopende kaart
+   - **Huidige kaart**: Naar de huidige geopende kaart zoeken
 
      >[!NOTE]
      >
      > Deze optie wordt weergegeven als u al een kaart hebt geopend voor bewerken.
 
    - **Pad**: Naar het geselecteerde pad zoeken
-   - **Kaart selecteren**: Zoeken in de geselecteerde kaart
+   - **Kaart selecteren**: Naar de geselecteerde kaart zoeken
 
 1. U kunt op de knop **Opties** en kies een van de volgende opties:
 
@@ -1498,7 +1517,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
    >[!NOTE]
    >
-   > Houd de muisaanwijzer boven een bestand in de lijst met zoekresultaten om alles in het bestandspictogram rechts van de lijst te zien Vervangen. U kunt ook het pictogram Bestand negeren gebruiken om het bestand uit het zoekresultaat te verwijderen. De bestanden die u negeert, worden uit de lijst verwijderd en de zoekterm wordt in de lijst niet vervangen.
+   > Houd de muisaanwijzer boven een bestand in de lijst met zoekresultaten om alles in het bestandspictogram rechts ervan te zien Vervangen. U kunt ook het pictogram Bestand negeren gebruiken om het bestand uit het zoekresultaat te verwijderen. De bestanden die u negeert, worden uit de lijst verwijderd en de zoekterm wordt in de lijst niet vervangen.
 
 1. Klikken **Alles vervangen** \( ![](images/replace-all-in-file-icon.svg)\) rechts boven aan de lijst om alle gevonden termen in alle bestanden te vervangen door de term &#39;vervangen&#39; met één klik.
 
@@ -1507,7 +1526,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
    > Om het **Alles vervangen** pictogram, moet uw systeembeheerder de optie selecteren **Alles vervangen inschakelen** onder de **Algemeen** tab in **Editor-instellingen**.
 
 
-Slechts één vervang alle verrichting kan tegelijkertijd in het volledige systeem worden uitgevoerd, en tot de tijdverrichting wordt uitgevoerd zult u &quot;vervangt allen lopend&quot;status zien. U kunt ook de vervangingsbewerking afbreken of het lograpport bekijken. Als u de bewerking afbreekt, ontvangt u een melding in uw Postvak IN. Er wordt een melding weergegeven als u alle exemplaren in het geselecteerde bestand hebt vervangen.
+Slechts één vervang alle verrichting kan tegelijkertijd in het volledige systeem worden uitgevoerd, en tot de tijdverrichting wordt uitgevoerd zult u &quot;vervangt allen lopend&quot;status zien. U kunt ook de vervangingsbewerking afbreken of het lograpport bekijken. Als u de bewerking afbreekt, ontvangt u een melding over de bewerking in het Postvak IN. Er wordt een melding weergegeven als u alle exemplaren in het geselecteerde bestand hebt vervangen.
 
 ![](images/replace-all-in-progress.png){width="400" align="left"}
 
@@ -1539,7 +1558,7 @@ U kunt de functie Eigenschappen van inhoud openen door op het pictogram Eigensch
 >
 > Zelfs als uw onderwerp inhoud waarnaar wordt verwezen bevat, kunt u er kenmerken aan toevoegen via het deelvenster Eigenschappen.
 
-Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het genereren van uitvoer met behulp van voorwaardelijke voorinstellingen raadpleegt u [Voorinstellingen voor voorwaarden gebruiken](generate-output-use-condition-presets.md#).
+Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Zie voor meer informatie over het genereren van uitvoer met behulp van voorwaardelijke voorinstellingen [Voorinstellingen voor voorwaarden gebruiken](generate-output-use-condition-presets.md#).
 
 ![](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
@@ -1553,12 +1572,12 @@ In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 
 ![](images/file-properties-general.png){width="300" align="left"}
 
-- **Naam**: Toont filename van het geselecteerde onderwerp. De bestandsnaam is gekoppeld aan de eigenschappenpagina van het geselecteerde bestand.
+- **Naam**: Hiermee geeft u de bestandsnaam van het geselecteerde onderwerp weer. De bestandsnaam is gekoppeld aan de eigenschappenpagina van het geselecteerde bestand.
 - **ID**: Toont identiteitskaart van het geselecteerde onderwerp.
 - **Metagegevenstags**: Dit zijn de meta-gegevenstags van het onderwerp. Deze worden ingesteld vanuit het tagveld op de eigenschappenpagina.
 - **Taal**: Toont de taal van het onderwerp. Deze wordt ingesteld vanuit het taalveld op de eigenschappenpagina.
 - **Gemaakt op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
-- **Uitgecheckt door**: Toont de gebruiker die het onderwerp uitcontroleerde.
+- **Uitgecheckt door**: Toont de gebruiker die het onderwerp heeft uitgecheckt.
 - **Documentstatus**: U kunt de documentstatus van het momenteel geopende onderwerp selecteren en bijwerken. Zie voor meer informatie [Documentstatus ](web-editor-document-states.md#)*.*
 
 **Opmerking:** U kunt de kenmerkwaarden van de verschillende velden in de bestandseigenschappen naar het klembord kopiëren.
@@ -1576,7 +1595,7 @@ Houd de muisaanwijzer boven de verwijzing van het bestand en open het bestandspa
 
 **Opmerking:** Alle Gebruikte binnen en Uitgaande verwijzingen zijn hyperlinked aan de documenten. U kunt de gekoppelde documenten gemakkelijk openen en bewerken.
 
-Naast het openen van bestanden kunt u ook een groot aantal handelingen uitvoeren met de opdracht **Opties** in de sectie Referenties. Enkele acties die u kunt uitvoeren zijn Bewerken, Voorvertoning, UUID kopiëren, Pad kopiëren, Toevoegen aan Favorieten, Eigenschappen en Kaartdashboard openen.
+Naast het openen van bestanden kunt u ook een groot aantal handelingen uitvoeren met de opdracht **Opties** in de sectie Referenties. Enkele acties die u kunt uitvoeren zijn Bewerken, Voorvertoning, UUID kopiëren, Pad kopiëren, Toevoegen aan Favorieten, Eigenschappen en Kaart openen.
 
 **Controleren** -  ![](images/review-icon.svg)
 

@@ -2,9 +2,9 @@
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
+source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
 workflow-type: tm+mt
-source-wordcount: '2896'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 0%
 >
 > Volg de upgrade-instructies voor de versie met licentie van uw product.
 
-U kunt de huidige versie van AEM hulplijnen upgraden naar versie 4.2.1
-- Als u versie 4.1, 4.1.x of 4.2 gebruikt, kunt u rechtstreeks upgraden naar versie 4.2.1.
-- Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.2.1 uitvoert.
+U kunt uw huidige versie van AEM gidsen aan versie 4.3.0 bevorderen
+- Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.0.
+- Als u versie 4.1, 4.1.x of 4.2 gebruikt, moet u een upgrade naar versie 4.2.1 uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
+- Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
 - Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgrade AEM hulplijnen in de productspecifieke installatiehandleiding.
+
 
 >[!NOTE]
 >
@@ -30,6 +32,7 @@ Raadpleeg de volgende procedures voor meer informatie:
 - [Upgrade van 3.8.5 naar versie 4.0](#id2256DK003E1)
 - [Upgrade naar versie 4.2](#id22A3F500SXA)
 - [Upgrade naar versie 4.2.1](#upgrade-version-4-2-1)
+- [Upgrade naar versie 4.3.0](#upgrade-version-4-3)
 
 
 >[!IMPORTANT]
@@ -44,7 +47,7 @@ Voordat u het proces uitvoert, moet u bepaalde taken uitvoeren. De volgende subs
 
 >[!NOTE]
 >
-> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Raadpleeg voor een upgrade van versie 3.4 of hoger naar versie 3.8.5 de *Upgrade uitvoeren AEM hulplijnen* in de productspecifieke installatiehandleiding beschikbaar in het gedeelte [Help-archiveringspagina](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Raadpleeg voor het upgradeproces van versie 3.4 of hoger naar versie 3.8.5 de *Upgrade uitvoeren AEM hulplijnen* in de productspecifieke installatiehandleiding beschikbaar in het gedeelte [Help-archiveringspagina](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 ****Vereisten****
 
@@ -71,7 +74,7 @@ Deze API is ontworpen om de huidige systeemstatus te beoordelen en te rapportere
 | Eindpunt | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Type aanvraag | **GET** U kunt een webbrowser gebruiken waarin u als beheerder bent aangemeld bij de AEM. |
-| Verwacht antwoord | - Als alle vereiste knooppunten kunnen worden verplaatst, wordt een controle geslaagd weergegeven. <br>- Als er een knooppunt aanwezig is op de doellocatie, wordt er een relevante fout gegenereerd. Maak de opslagplaats \(verwijder knoop /var/dxml\) schoon en installeer het verbeteringspakket opnieuw en breng dan dit eindpunt opnieuw teweeg. <br>**Opmerking:** Dit is geen algemene fout omdat de doellocatie niet eerder wordt gebruikt door 3.x AEM hulplijnen. <br> - Als dit script niet slaagt, ga dan niet verder en rapporteer aan uw team van de klantensucces. |
+| Verwachte reactie | - Als alle vereiste knooppunten kunnen worden verplaatst, wordt een controle geslaagd weergegeven. <br>- Als er een knooppunt aanwezig is op de doellocatie, wordt er een relevante fout gegenereerd. Maak de opslagplaats \(verwijder knoop /var/dxml\) schoon en installeer het verbeteringspakket opnieuw en breng dan dit eindpunt opnieuw teweeg. <br>**Opmerking:** Dit is geen algemene fout omdat de doellocatie niet eerder wordt gebruikt door 3.x AEM hulplijnen. <br> - Als dit script niet slaagt, ga dan niet verder en rapporteer aan uw team van de klantensucces. |
 
 **API voor migratie van systeemgegevens**
 
@@ -83,7 +86,7 @@ Deze API is ontworpen om systeemgegevens te migreren zoals vermeld in het **Migr
 | Eindpunt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Type aanvraag | **POST** Dit manuscript is een verzoek van de POST vandaar zou via agenten zoals Postman moeten worden uitgevoerd. |
-| Verwacht antwoord | - Als de migratie is voltooid, kunt u XML Documentation-oplossing versie 4.0 installeren.<br>- Als er fouten zijn, herstelt u het laatste controlepunt en deelt u de foutlogboeken samen met de API-uitvoer met het succesteam van de klant. |
+| Verwachte reactie | - Als de migratie is voltooid, kunt u XML Documentation-oplossing versie 4.0 installeren.<br>- Als er fouten zijn, herstelt u het laatste controlepunt en deelt u de foutlogboeken samen met de API-uitvoer met het succesteam van de klant. |
 
 **Migratietoewijzing**: De bovenstaande API migreert alle gegevens onder de bronlocatie naar de doellocatie.
 
@@ -100,7 +103,7 @@ Deze API is ontworpen om systeemgegevens te migreren zoals vermeld in het **Migr
 
    - Als u UUID-versie van software gebruikt, zoekt u naar &quot;4.0 UUID Release for XML Documentation Solution for AEM 6.5&quot;.
    - Als u niet-UUID versie van software gebruikt, zoek naar &quot;4.0 Non-UUID Release for XML Documentation oplossing voor AEM 6.5.&quot;
-Upload het pakket naar de bestaande AEM serverinstantie\(s\) met behulp van CRX Package Manager en installeer het.
+Upload het pakket naar de bestaande AEM serverinstantie\(s\) met behulp van CRX Package Manager en installeer het pakket.
 
    >[!NOTE]
    >
@@ -154,7 +157,7 @@ Voordat u het upgradeproces voor de AEM van hulplijnen 4.2 start, moet u control
 
 >[!IMPORTANT]
 >
-> Hi-tech-sjabloon wordt niet weergegeven op een geüpgrade server. Als u de hi-tech sjabloon op uw server wilt plaatsen, kunt u deze kopiëren: Bron: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Hi-tech-sjabloon wordt niet weergegeven op een geüpgrade server. Als u de hi-tech sjabloon op uw server wilt opnemen, kunt u deze kopiëren: Bron: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
 Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuraties samenvoegen die van toepassing zijn vanaf de nieuw geïnstalleerde versie tot aan de installatie.
 
@@ -176,9 +179,9 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 1. Als de **Initiator DXML Post Process** -component ontbreekt, voert u de volgende stappen uit om deze in te voegen:
 
 1. Klikken **Component invoegen** \(Verantwoordelijk voor AEM hulplijnen na verwerking als laatste stap in het proces\).
-1. Configureer de **Processtap** met onderstaande details:
+1. Vorm **Processtap** met onderstaande details:
 
-   **Algemeen tabblad**
+   **Tabblad Algemeen**
 
    **Titel:** Initiator DXML Post Process
 
@@ -192,7 +195,7 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 
    - Selecteren **Gereed**
 
-1. Klikken **Synchroniseren** rechtsboven nadat de wijzigingen zijn aangebracht. Je ontvangt een melding over succes.
+1. Klikken **Sync** rechtsboven nadat de wijzigingen zijn aangebracht. Je ontvangt een melding over succes.
 
    >[!NOTE]
    >
@@ -204,7 +207,7 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   \(indien nodig\) zoeken en wijzigingen aanbrengen in de volgende twee draagraketten \(die actief moeten zijn\) die overeenkomen met **Workflow voor DAM-update-middelen**:
+   Zoek en breng indien nodig wijzigingen aan in de volgende twee draagraketten \(die actief moeten zijn\) die overeenkomen met **Workflow voor DAM-update-middelen**:
 
 1. Launcher for &quot;*Knooppunt gemaakt*&quot; for **Workflow voor DAM-update-middelen**- voor conditie `"jcr:content/jcr:mimeType!=video"`, moet de waarde &#39;Globbing&#39; zijn:
 
@@ -214,7 +217,7 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 
    - &#39;excludeList&#39; moet `"event-user-data:changedByWorkflowProcess"`.
    - Launcher for &quot;*Knooppunt gewijzigd*&quot; for **Workflow voor DAM Update-middelen -** voor voorwaarde &quot;`jcr:content/jcr:mimeType!=video`&quot;,
-   - De waarde &#39;Globbing&#39; moet zijn:
+   - De waarde &#39;Globbing&#39; moet als volgt zijn:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -228,13 +231,13 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
    - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
    - gewijzigd `com.adobe.fmdita.config.ConfigManager`
    - Controleren of er in de aangepaste code oude paden werden gebruikt \(zoals vermeld in het dialoogvenster [Migratietoewijzing](#id2244LE040XA) sectie\) - zou aan de nieuwe wegen moeten worden bijgewerkt zodat de aanpassingen ook zoals verwacht werken.
-1. Lees over om het even welke nieuwe configuraties die in de huidige versie \(controle worden gebracht [Opmerkingen bij de release](../release-info/release-notes-4.2.md)\) en controleer of de functionaliteit wordt beïnvloed en neem vervolgens de juiste actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
+1. Lees over om het even welke nieuwe configuraties die in de huidige versie \(controle worden gebracht [Opmerkingen bij de release](../release-info/release-notes-4.3.md)\) en controleer of de functionaliteit wordt beïnvloed en neem vervolgens de juiste actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
 
 ## Stappen om de bestaande inhoud te indexeren voor het gebruik van de nieuwe zoek- en vervangactie:
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
-- Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Optioneel: U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\|, bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
 - De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden -
 
@@ -290,7 +293,7 @@ Als u versie 4.1 of 4.1.x of 4.2 gebruikt, kunt u rechtstreeks een upgrade uitvo
 
 >[!NOTE]
 >
->De nabewerking en indexering kunnen enkele uren duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
+>De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
 ****Vereisten****
 
@@ -307,7 +310,7 @@ Voordat u het upgradeproces voor de AEM Hulplijnen 4.2.1 start, moet u controler
 ## Versie 4.2.1 installeren
 
 1. Download het 4.2.1-versiepakket van [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Installeer het pakket versie 4.2.1.
+1. Installeer versie 4.2.1.
 1. U kunt ervoor kiezen om de trigger te HIT om de upgradetaak voor de vertaalkaart te starten. Zie voor meer informatie [Triggerscript activeren via een Servlet](#enable-trigger-serverlet).
 
 
@@ -346,7 +349,7 @@ Reactie:
 
 In het bovenstaande antwoord JSON `lockNodePath` bevat het pad naar het knooppunt dat in de opslagplaats is gemaakt en dat naar de ingediende taak verwijst. Het wordt automatisch verwijderd als de taak is voltooid. Tot dan kunt u naar dit knooppunt verwijzen voor de huidige status van de taak.
 
-Voorbeeldlogboek: Hieronder volgt een voorbeeld van logboeken die in het logbestand worden weergegeven nadat u het script hebt geactiveerd.
+Voorbeeldlogboek: Hieronder ziet u een voorbeeld van logboeken die in het logbestand worden weergegeven nadat u het script hebt geactiveerd.
 
 ```
 04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
@@ -367,7 +370,7 @@ Zoeken naar `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Co
 
 >[!IMPORTANT]
 >
-> Hi-tech-sjabloon wordt niet weergegeven op een geüpgrade server. Als u de hi-tech sjabloon op uw server wilt plaatsen, kunt u deze kopiëren: Bron: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Hi-tech-sjabloon wordt niet weergegeven op een geüpgrade server. Als u de hi-tech sjabloon op uw server wilt opnemen, kunt u deze kopiëren: Bron: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
 Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuraties samenvoegen die van toepassing zijn vanaf de nieuw geïnstalleerde versie tot aan de installatie.
 
@@ -389,9 +392,9 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 1. Als de **Initiator DXML Post Process** -component ontbreekt, voert u de volgende stappen uit om deze in te voegen:
 
 1. Klikken **Component invoegen** \(Verantwoordelijk voor AEM hulplijnen na verwerking als laatste stap in het proces\).
-1. Configureer de **Processtap** met onderstaande details:
+1. Vorm **Processtap** met onderstaande details:
 
-   **Algemeen tabblad**
+   **Tabblad Algemeen**
 
    **Titel:** Initiator DXML Post Process
 
@@ -405,7 +408,7 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 
    - Selecteren **Gereed**
 
-1. Klikken **Synchroniseren** rechtsboven nadat de wijzigingen zijn aangebracht. Je ontvangt een melding over succes.
+1. Klikken **Sync** rechtsboven nadat de wijzigingen zijn aangebracht. Je ontvangt een melding over succes.
 
    >[!NOTE]
    >
@@ -417,7 +420,7 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   \(indien nodig\) zoeken en wijzigingen aanbrengen in de volgende twee draagraketten \(die actief moeten zijn\) die overeenkomen met **Workflow voor DAM-update-middelen**:
+   Zoek en breng indien nodig wijzigingen aan in de volgende twee draagraketten \(die actief moeten zijn\) die overeenkomen met **Workflow voor DAM-update-middelen**:
 
 1. Launcher for &quot;*Knooppunt gemaakt*&quot; for **Workflow voor DAM-update-middelen**- voor conditie `"jcr:content/jcr:mimeType!=video"`, moet de waarde &#39;Globbing&#39; zijn:
 
@@ -448,9 +451,9 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuratie
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
 - Zorg ervoor dat de `damAssetLucene` indexering is voltooid. Het kan een paar uur duren, afhankelijk van de hoeveelheid gegevens die aanwezig is op de server. U kunt bevestigen dat het opnieuw indexeren is voltooid door te controleren of het veld voor opnieuw indexeren in
-  `http://<server:port>/oak:index/damAssetLucene`.  Ook als u aanpassingen hebt toegevoegd in `damAssetLucene`, moet u deze mogelijk opnieuw toepassen.
+  `http://<server:port>/oak:index/damAssetLucene`.  Ook als u aanpassingen hebt toegevoegd in `damAssetLucene`kan het zijn dat u deze opnieuw moet toepassen.
 
-- Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
@@ -459,4 +462,55 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe te
 
 - Als de taak is voltooid, reageert het bovenstaande verzoek van de GET met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
+
+## Upgrade naar versie 4.3.0 {#upgrade-version-4-3}
+
+De upgrade naar versie 4.3.0 is afhankelijk van de huidige versie van AEM hulplijnen. Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.0.
+
+>[!NOTE]
+>
+>De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
+
+****Vereisten****
+
+Voordat u het upgradeproces voor de AEM Hulplijnen 4.3.0 start, moet u controleren of:
+
+1. Bijgewerkt naar AEM Guides versie 4.2 of 4.2.x en de respectieve installatiestappen voltooid.
+1. Alle vertaaltaken zijn afgesloten.
+
+
+
+## Versie 4.3.0 installeren
+
+1. Download het 4.3.0-versiepakket van [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installeer versie 4.3.0.
+1. Wis de browsercache nadat u het pakket hebt geïnstalleerd.
+1. Upgrade de `ui_config.json` bestand van de **XML Editor-configuratie** in het Mapprofiel.
+
+
+## Nadat u versie 4.3.0 hebt geïnstalleerd
+
+Nadat u AEM hulplijnen hebt geïnstalleerd, kunt u de verschillende configuraties samenvoegen die van toepassing zijn vanaf de nieuw geïnstalleerde versie tot aan de installatie.
+
+## Stappen om de bestaande inhoud te posten om het verbroken koppelingsrapport te gebruiken
+
+
+Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het gebruik van het nieuwe verbroken koppelingsrapport:
+
+1. (Optioneel) Als het systeem meer dan 100.000 dita-bestanden bevat, werkt u de `queryLimitReads` krachtens `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` naar een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en vervolgens opnieuw te implementeren.
+
+   | PID | Eigenschappensleutel | Waarde van eigenschap |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Waarde: 200000 <br> Standaardwaarde: 100000 |
+
+1. Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>//bin/guides/reports/upgrade`.
+
+1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+1. Wanneer de taak is voltooid, reageert de vorige GET-aanvraag met succes. Als de taak om een of andere reden mislukt, kan de fout worden gezien in de serverlogboeken.
+
+1. Terugkeren naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u dit in stap 1 hebt gewijzigd.
+
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+

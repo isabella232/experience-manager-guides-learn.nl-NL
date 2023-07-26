@@ -2,9 +2,9 @@
 title: Een bulkactiveringskaartverzameling bewerken
 description: Leer hoe u een bulkactiveringskaartverzameling kunt bewerken
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,20 @@ U kunt een verzameling activeringskaarten bulksgewijs bewerken door een kaartbes
 1. Klikken **Bewerken**.
 
    De verzamelpagina voor de verzameling van bulkactiveringskaarten wordt weergegeven als u de kaarten samen met de vooraf geconfigureerde voorinstellingen voor elke beschikbare landinstelling weergeeft.
+U kunt de verschillende typen uitvoervoorinstellingen samen met hun pictogrammen weergeven, zoals AEM Site, PDF, Native PDF, HTML5, Aangepast en JSON-uitvoer.
+
+   >[!NOTE]
+   >
+   > De kleine ![](images/global-preset-icon.svg) geeft een voorinstelling voor het mapprofielniveau aan.
+
 
 1. Gebruik de schuifregelaar om de gewenste uitvoervoorinstelling in of uit te schakelen die u wilt activeren of deactiveren.
 
-1. Als u een kaart uit de inzameling wilt verwijderen, dan breid de kaart uit en kies **Selecteren voor verwijderen** optie.
+1. Als u een kaart uit de inzameling wilt verwijderen, dan breid de kaart uit en kies **Selecteren voor verwijderen** -optie.
 
 1. Klikken **Verwijderen**.
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    De geselecteerde kaart wordt verwijderd uit de bulkactiveringskaartverzameling.
 

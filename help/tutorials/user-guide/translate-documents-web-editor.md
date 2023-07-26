@@ -2,9 +2,9 @@
 title: Documenten vertalen vanuit de webeditor
 description: Leer hoe te om documenten van de Redacteur van het Web te vertalen
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 4d37242019ac2db734f7054324b074c0e8bc60bd
+source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    - **Titel**: Titel van het bronbestand
    - **Bestandsnaam**: Naam van het bronbestand
    - **Bestandstype**: Type bronbestand. De beschikbare opties zijn Kaart, Onderwerp, en Beeld.
-   - **Referentietype**: Directe of indirecte verwijzingen
+   - **Referentietype**: directe of indirecte verwijzingen
    - **Versie**: Versienummer van het bronbestand
    - **Versielabel**: Label voor de geselecteerde versie van het bronbestand
    - **Doelversie**: Versienummer van het doelbestand
    - **Documentstatus**: Status van het bronbestand. De beschikbare opties zijn Concept, In-Review en Reviewed.
    - **Doeltaal**: De taal waarnaar u het bronbestand wilt vertalen
-   - **Vertaalstatus**: De beschikbare opties zijn: Onsynchroon, Kopie ontbreekt, Bezig en Gesynchroniseerd.
+   - **Vertaalstatus**: De beschikbare opties zijn: Niet gesynchroniseerd, Kopie ontbreekt, Bezig en Gesynchroniseerd.
    - **Doellabel**: Label voor de geselecteerde versie van het doelbestand
 1. Klikken **Verzenden voor vertaling** in de rechterbovenhoek.
 
@@ -81,20 +81,19 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    Naast een nieuw vertaalproject kunt u ook uit de volgende opties kiezen:
 
    - U kunt ervoor kiezen **Een structuur maken** alleen voor het vertaalproject.
-   - U kunt ervoor kiezen **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF (XML Localization Interchange File Format). XLIFF is een open op XML-gebaseerde indeling die wordt gebruikt om de gegevensoverdracht tussen verschillende gereedschappen die in het vertaalproces van de inhoud worden gebruikt, te standaardiseren.
-In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XLIFF-indeling, die aan vertalers kan worden geleverd. Met de XLIFF-indeling kunt u segmenten die u al tijdens de vertaalfase hebt vertaald, opnieuw gebruiken.\
-      Nadat de inhoud XLIFF wordt vertaald, kan het in AEMGidsen worden ingevoerd die tot een vertaalde versie van het originele DITA- project leiden.
+   - U kunt ervoor kiezen **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF (XML Localization Interchange File Format). XLIFF is een open op XML-gebaseerde indeling die wordt gebruikt om de gegevensoverdracht tussen verschillende gereedschappen die in het vertaalproces van de inhoud worden gebruikt, te standaardiseren. AEM Hulplijnen ondersteunen XLIFF versie 1.2. In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XLIFF-indeling, die aan vertalers kan worden geleverd. Met de XLIFF-indeling kunt u segmenten die u al tijdens de vertaalfase hebt vertaald, opnieuw gebruiken.\
+     Nadat de inhoud XLIFF wordt vertaald, kan het in AEMGidsen worden ingevoerd die tot een vertaalde versie van het originele DITA- project leiden.
 
-      >[!NOTE]
-      >
-      > XLIFF-export werkt alleen met de configuratie voor menselijke vertaling.
+     >[!NOTE]
+     >
+     > XLIFF-export werkt alleen met de configuratie voor menselijke vertaling.
 
    - U kunt **Een nieuw meertalig vertaalproject maken** Dit omvat vertaaltaken voor alle talen die u hebt geselecteerd voor vertaling. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
    - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer Toevoegen aan **Bestaand vertaalproject** in de projectlijst en kies een project in de lijst Bestaand vertaalproject. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
-      >[!NOTE]
-      >
-      > Als uw bestaande project een bereikproject is, wordt de naam &#39;\(Scoping\)&#39; toegevoegd.
+     >[!NOTE]
+     >
+     > Als uw bestaande project een bereikproject is, wordt de naam &#39;\(Scoping\)&#39; toegevoegd.
 
    - Als u het werkingsgebied voor een te vertalen project moet creëren, kunt u selecteren **Een nieuw vertaal-project met bereik maken**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
 1. In de **Projecttitel** voert u een titel in voor het project.
@@ -149,11 +148,11 @@ AEM Gidsen verstrekt de eigenschap om de verschillen tussen de geselecteerde ver
 
 ![](images/translation-version-diff.png){width="800" align="left"}
 
-Selecteer **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) voor een onderwerp om de verschillen tussen de laatste vertaalde versie en de huidige versie van het geselecteerde dossier te zien.
+Selecteer de **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) voor een onderwerp om de verschillen tussen de laatste vertaalde versie en de huidige versie van het geselecteerde dossier te zien.
 
 >[!NOTE]
 >
-> **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) wordt alleen weergegeven voor DITA-bestanden die de vertaalstatus hebben als **Niet gesynchroniseerd**.
+> **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) wordt alleen weergegeven voor DITA-bestanden met de vertaalstatus **Niet gesynchroniseerd**.
 
 De **Verschil in versie** wordt weergegeven. Het toont de **Laatst vertaalde versie** en de **Geselecteerde versie** nummer links. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
 
@@ -166,7 +165,7 @@ Als u wijzigingen aanbrengt in sommige elementen, zijn deze elementen niet meer 
 Voer de volgende stappen uit om de status Buiten-synchroniseren te negeren:
 
 1. Selecteer de elementen waarvan u de status wilt wijzigen die niet meer gesynchroniseerd zijn.
-1. Selecteer **Sync markeren** knop \(![](images/translation-mark-in-sync-icon.svg)\) bovenaan. De **Sync markeren** wordt weergegeven.
+1. Selecteer de **Sync markeren** knop \(![](images/translation-mark-in-sync-icon.svg)\) bovenaan. De **Sync markeren** wordt weergegeven.
 
    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 

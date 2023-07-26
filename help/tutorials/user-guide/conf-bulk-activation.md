@@ -2,9 +2,9 @@
 title: Bulkactivering van gepubliceerde inhoud
 description: Meer informatie over het bulksgewijs activeren van gepubliceerde inhoud
 exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: c4f383984501525527136773ce7ef556170e8ad3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,10 @@ In een echt woordscenario, zouden uw auteurs toegang op de auteursinstantie van 
 
 Met de functie AEM bulkactivering van hulplijnen kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
 
-- Voeg één of meerdere kaarten \(aan een kaartinzameling \) aan één enkele activeringstaak toe
+- Voeg een of meerdere toewijzingen \(aan een kaartverzameling\) toe aan één activeringstaak
 
-- Selecteer een van de meerdere uitvoervoorinstellingen die u wilt publiceren
+- Selecteer een of meerdere uitvoervoorinstellingen die u wilt publiceren. U kunt AEM voorinstellingen voor Site, PDF, Native PDF, HTML5, Aangepast en JSON-uitvoer toevoegen.
+
 
 - Landinstellingen definiëren waarin de uitvoer moet worden geactiveerd
 

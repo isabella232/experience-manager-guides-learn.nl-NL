@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
+source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3071'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor meer informatie bij het produceren van een PDF die de methode DITA-OT gebru
 
 Met deze methode kunt u een PDF-uitvoer genereren op basis van niet alleen de DITA-inhoud, maar ook FrameMaker-documenten (.book en .fm) die beschikbaar zijn in uw AEM opslagplaats. De PDF kan worden gemaakt door een uitvoervoorinstelling te configureren en te publiceren met behulp van FrameMaker Publishing Server (FMPS). U kunt het uiterlijk van uw uitvoer voor PDF en andere indelingen ontwerpen en configureren en deze opslaan in een instellingsbestand (.sts). Dit instellingsbestand wordt vervolgens door FMPS gebruikt om uitvoer te genereren voor een DITA-kaart of .book-bestand. Als u een uitvoervoorinstelling wilt maken of bewerken, raadpleegt u de  *Uitvoervoorinstellingen* in de [as a Cloud Service gebruikershandleiding voor AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Voor meer informatie over het configureren van FMPS raadpleegt u [Uitvoer genereren op basis van FrameMaker documenten](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Zie voor meer informatie over het configureren van FMPS [Uitvoer genereren op basis van FrameMaker-documenten](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **Native PDF-publicatie**
 
@@ -36,7 +36,7 @@ Voor meer informatie over het publiceren van Native PDF raadpleegt u [Native PDF
 
 Bij het ontwerpen van inhoud wordt het van essentieel belang dat de inhoud is geoptimaliseerd voor weergave, bewerking en afdrukken. Met standaarden zoals W3C CSS3 voor inhoudsopmaak en CSS-normen voor gepagineerde media voor eigenschappen van paginadefinities, zoals grootte, marges, afdrukstand, pagina-einden, kop- en voetteksten en paginanummering, kunt u de weergave en lay-out voor uw PDF-document instellen, zodat deze consistent en bruikbaar zijn. De publicatiefunctie Native PDF gebruikt deze standaarden om een PDF te genereren.
 
-Met de native publicatie van PDF kunt u vooraf gedefinieerde sjablonen gebruiken om consistentie in de indeling en structuur van de inhoud te garanderen, stijlpagina&#39;s toepassen om de vormgeving van de uitvoer te wijzigen, PDF optimaliseren, drukkermarkeringen instellen, ondersteuning voor schermlezers toestaan, PDF-conformiteit instellen, lettertypen insluiten en nog veel meer.
+Met de native publicatie van PDF kunt u vooraf gedefinieerde sjablonen gebruiken om consistentie in de indeling en structuur van de inhoud te garanderen, stijlpagina&#39;s toepassen om de vormgeving van de uitvoer te wijzigen, PDF te optimaliseren, drukkermarkeringen in te stellen, ondersteuning voor schermlezers mogelijk te maken, PDF-conformiteit in te stellen, lettertypen in te sluiten en nog veel meer.
 
 Het genereren van een PDF met behulp van Native PDF-publicaties heeft twee aspecten:
 
@@ -50,7 +50,7 @@ Zie voor meer informatie [Een PDF-uitvoer genereren](#generate-pdf-output).
 
 De eerste stap bij het genereren van een PDF-uitvoer bestaat uit het maken van een voorinstelling voor PDF-uitvoer. Dit is een verzameling publicatie-eigenschappen die aan een kaart zijn toegewezen. U kunt een uitvoervoorinstelling maken voor elke kaart die is geopend in het deelvenster Kaartweergave, of een bestaande voorinstelling configureren om snel een PDF voor dezelfde kaart te genereren.
 
-Vanuit de voorinstelling PDF-uitvoer kunt u een sjabloon selecteren, voorwaarden toepassen, beperkingen instellen om te bepalen hoe een gebruiker met de PDF werkt, geavanceerde instellingen configureren, zoals compressie, conformiteit en meer.
+Vanuit de voorinstelling voor PDF-uitvoer kunt u een sjabloon selecteren, voorwaarden toepassen, beperkingen instellen om te bepalen hoe een gebruiker met de PDF werkt, geavanceerde instellingen configureren, zoals compressie, conformiteit en meer.
 
 Een voorinstelling voor PDF-uitvoer maken of configureren:
 
@@ -72,9 +72,9 @@ Gebruik deze optie om basisuitvoerinstellingen op te geven, zoals een uitvoerpad
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **Uitvoerpad** | Het pad binnen de AEM opslagplaats waar de PDF-uitvoer wordt opgeslagen. Zorg ervoor dat het uitvoerpad zich niet in de projectmap bevindt. Als deze optie leeg wordt gelaten, wordt de uitvoer gegenereerd op de standaarduitvoerlocatie voor de DITA-kaart.<br>U kunt ook de volgende variabelen buiten het vak gebruiken om het uitvoerpad te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om deze optie te definiëren. <br> `${map_filename}`: Gebruikt de naam van de DITA kaartdossiers om de bestemmingspad tot stand te brengen. <br> `${map_title}`: Gebruikt de DITA kaarttitel om de bestemmingsweg tot stand te brengen. <br>`${preset_name}`: Gebruikt de naam van de uitvoervoorinstelling om het doelpad te maken. <br> `${language_code}`: Gebruikt de taalcode waar het kaartdossier wordt gevestigd om de bestemmingspad tot stand te brengen. <br> `${map_parentpath}`: Gebruikt het volledige pad van het kaartbestand om het doelpad te maken.  <br>`${path_after_langfolder}`: Gebruikt het pad van het kaartbestand na de taalmap om het doelpad te maken. |
+| **Uitvoerpad** | Het pad binnen de AEM opslagplaats waar de PDF-uitvoer wordt opgeslagen. Zorg ervoor dat het uitvoerpad zich niet in de projectmap bevindt. Als deze optie leeg wordt gelaten, wordt de uitvoer gegenereerd op de standaarduitvoerlocatie voor de DITA-kaart.<br>U kunt ook de volgende variabelen buiten het vak gebruiken om het uitvoerpad te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om deze optie te definiëren. <br> `${map_filename}`: Hiermee gebruikt u de naam van de DITA-toewijzingsbestanden om het doelpad te maken. <br> `${map_title}`: Hiermee gebruikt u de titel van de DITA-kaart om het doelpad te maken. <br>`${preset_name}`: Hiermee wordt de naam van de uitvoervoorinstelling gebruikt om het doelpad te maken. <br> `${language_code}`: Hiermee wordt de taalcode gebruikt waar het kaartbestand zich bevindt om het doelpad te maken. <br> `${map_parentpath}`: gebruikt het volledige pad van het kaartbestand om het doelpad te maken.  <br>`${path_after_langfolder}`: gebruikt het pad van het kaartbestand na de taalmap om het doelpad te maken. |
 | **PDF-bestand** | Geef een bestandsnaam op om de PDF op te slaan. Standaard wordt in de bestandsnaam PDF de naam van de DITA-kaart en de naam van de voorinstelling toegevoegd. ditamap is bijvoorbeeld &#39;TestMap&#39; en de naam van de voorinstelling is &#39;preset1&#39;. De standaardnaam van de pdf is &#39;TestMap_preset1.pdf&#39;. <br>U kunt ook de volgende variabelen gebruiken om het PDF-bestand te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om deze optie te definiëren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
-| **Voorwaarden toepassen met** | Voor geconditionaliseerde inhoud kiest u uit de onderstaande opties om op basis van deze voorwaarden een PDF-uitvoer te genereren: <br><ul> <li> **Geen toegepast** Selecteer deze optie als u geen voorwaarde wilt toepassen op de kaart en broninhoud. <br><li> **Ditaval-bestand** Selecteer een DITAVAL-bestand om geconditioneerde inhoud te genereren. Klik op Voorinstelling voorwaarde om dit te selecteren en zoek het bestand. <br> <li> **Voorinstelling voorwaarde** Selecteer een voorinstelling voor een voorwaarde in het keuzemenu om een voorwaarde toe te passen tijdens het publiceren van de uitvoer. Deze optie is zichtbaar als u een voorwaarde voor het DITA kaartdossier hebt toegevoegd. De voorwaardelijke instellingen zijn beschikbaar op het tabblad Voorinstellingen voorwaarde van de DITA-kaartconsole. Zie voor meer informatie over voorinstellingen voor voorwaarden [Voorinstellingen voor voorwaarden gebruiken](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
+| **Voorwaarden toepassen met** | Voor geconditionaliseerde inhoud kiest u uit de onderstaande opties om op basis van deze voorwaarden een PDF-uitvoer te genereren: <br><ul> <li> **Geen toegepast** Selecteer deze optie als u geen voorwaarde wilt toepassen op de kaart en broninhoud. <br><li> **Ditaval File** Selecteer een DITAVAL-bestand om geconditioneerde inhoud te genereren. Klik op Voorinstelling voorwaarde om dit te selecteren en zoek het bestand. <br> <li> **Voorinstelling voorwaarde** Selecteer een voorinstelling voor een voorwaarde in het keuzemenu om een voorwaarde toe te passen tijdens het publiceren van de uitvoer. Deze optie is zichtbaar als u een voorwaarde voor het DITA kaartdossier hebt toegevoegd. De voorwaardelijke instellingen zijn beschikbaar op het tabblad Voorinstellingen voorwaarde van de DITA-kaartconsole. Zie voor meer informatie over voorinstellingen voor voorwaarden [Voorinstellingen voor voorwaarden gebruiken](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Basislijn gebruiken** | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren. Zie [Werken met basislijn](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) voor meer informatie . |
 | **PDF maken met wijzigingsbalk tussen gepubliceerde versies** | Gebruik de volgende opties om een PDF te maken die de verschillen in inhoud tussen twee versies weergeeft met wijzigingsbalken:   <br><ul><li> **Basislijn van de vorige versie** Kies de basislijnversie die u met de huidige versie of een andere basislijn wilt vergelijken. Er wordt een wijzigingsbalk weergegeven in de PDF om de gewijzigde inhoud aan te geven. Een wijzigingsbalk is een verticale lijn die nieuwe of herziene inhoud visueel identificeert. De wijzigingsbalk verschijnt links van de inhoud die is ingevoegd, gewijzigd of verwijderd. <br> **Opmerking**: Als u **Basislijn gebruiken** en kies een basislijn om te publiceren, zal de vergelijking tussen de twee geselecteerde basislijnversies worden gedaan. Als u bijvoorbeeld basislijnversie 1.3 kiest onder **Basislijn gebruiken** en versie 1.1 onder **Basislijn van de vorige versie**, zal de vergelijking tussen basislijnversie 1.1 en basislijnversie 1.3 worden gedaan. <br><li> **Toegevoegde tekst tonen** Selecteer deze optie om de ingevoegde tekst in groene kleur en onderstreept weer te geven. Deze optie is standaard ingeschakeld. <br> <li> **Verwijderde tekst tonen** Selecteer deze optie om de verwijderde tekst rood weer te geven en doorhalen. Deze optie is standaard ingeschakeld. <br>**Opmerking** U kunt de opmaak van de wijzigingsbalk, ingevoegde inhoud of verwijderde inhoud ook aanpassen met de stijlpagina.<br></ul> |
 | **Workflow na generatie** | Selecteer deze optie om een vervolgkeuzelijst weer te geven met alle workflows die in AEM zijn geconfigureerd. U kunt de workflow selecteren die u wilt uitvoeren nadat de workflow voor het genereren van PDF is voltooid. |
@@ -91,10 +91,10 @@ Deze metagegevens worden toegewezen aan de metagegevens op het tabblad Beschrijv
 
 <img src="assets/pdf-metadata.png" alt="tabblad Metagegevens" width="600">
 
-Uit de uitvoervoorinstellingen **PDF selecteren** > **Metagegevens** om opties voor metagegevens toe te voegen en aan te passen.
+Uit de uitvoervoorinstellingen **PDF selecteren** > **Metagegevens** als u opties voor metagegevens wilt toevoegen en aanpassen.
 * **XMP bestand opgeven**
 
-  Metagegevensvelden kunnen rechtstreeks worden gevuld door importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) bestand. U kunt hier een voorbeeld XMP bestand downloaden.
+  Metagegevensvelden kunnen rechtstreeks worden gevuld door te importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) bestand. U kunt hier een voorbeeld XMP bestand downloaden.
 
 [Downloaden](assets/SampleXMP.xmp)
 
@@ -112,6 +112,17 @@ Uit de uitvoervoorinstellingen **PDF selecteren** > **Metagegevens** om opties v
    1. Voer de waarde voor de metagegevens in en klik op het pictogram &#39;+&#39;.
 De metagegevens worden toegevoegd aan de lijst met metagegevens voor de PDF.
 
+U kunt ook variabelen gebruiken om de waarden van metagegevens te definiëren.  U kunt de metagegevens die voor de DITA-kaart of het bladwijzerbestand zijn gedefinieerd, als variabelen gebruiken. De metagegevens vindt u onder de `/jcr:content/metadata` knooppunt van de DITA-kaart of het bladwijzerbestand.
+Wanneer u een variabele gebruikt, wordt de waarde ervan gekozen uit de eigenschappen van metagegevens.
+
+Als u een variabele wilt gebruiken, moet u deze definiëren in het dialoogvenster `${<variable>}` gebruiken.
+
+Een van de metagegevenseigenschappen die bijvoorbeeld zijn gedefinieerd in de map /`jcr:content/metadata` node is
+`dc:title`. U kunt `${dc:title}`en wordt de titelwaarde gebruikt in de uiteindelijke uitvoer.
+
+U kunt een enkele of een combinatie van variabelen gebruiken om de metagegevens te definiëren. Bijvoorbeeld, `${dc:title} ${dc:docstate}`.
+
+U kunt ook de combinatie van een variabele en een tekenreeks gebruiken.  Bijvoorbeeld, `View ${dc:title} in ${dc:language}`.
 
 
 **Layout**
@@ -131,7 +142,7 @@ Protect uw PDF door beperkingen toe te voegen om het bestand te openen en te lez
 | Instelling | Beschrijving |
 | --- | --- |
 | **Wachtwoord instellen om het document te openen** | Selecteer deze optie om een beveiligd wachtwoord toe te voegen om uw PDF-bestand weer te geven. Geef een wachtwoord op in het dialoogvenster **Gebruikerswachtwoord** veld. Gebruikers kunnen de PDF alleen openen door het wachtwoord in te voeren dat in dit veld is opgegeven. |
-| **Documentbeperkingen instellen** | Selecteer deze optie om de interactie tussen gebruikers en uw PDF te beperken. Geef een wachtwoord op in het dialoogvenster **Wachtwoord eigenaar** -veld voor de onderstaande beperkingsinstellingen.  <br><ul><li> **Afdrukken** Selecteer deze optie als de gebruiker de PDF mag afdrukken. <br> <li> **Afdrukken van conceptkwaliteit** Schakel deze optie in om de gebruiker toe te staan de PDF in een lagere resolutie af te drukken.  <br> <li> **Inhoud kopiëren** Selecteer deze optie om toe te staan dat een gebruiker inhoud uit de PDF kopieert.   <br> <li> **Annotaties** Selecteer deze optie om een gebruiker toe te staan een opmerking of opmerking toe te voegen in de PDF.  <br> <li> **Inhoudswijzigingen** Schakel deze optie in als u wilt dat een gebruiker de inhoud van de PDF kan wijzigen.  <br> <li> **Inhoud kopiëren voor toegankelijkheid** Schakel deze optie in om schermlezers de mogelijkheid te bieden inhoud te lezen en te navigeren in PDF.  <br>  **Documentverzameling** Selecteer deze optie om gebruikers toe te staan pagina&#39;s in te voegen in de PDF.  <br> **Opmerking**: Gebruikers moeten het wachtwoord voor de eigenaar invoeren om beperkingen te wijzigen via Bestand > Eigenschappen in Adobe Acrobat. |
+| **Documentbeperkingen instellen** | Selecteer deze optie om de interactie tussen gebruikers en uw PDF te beperken. Geef een wachtwoord op in het dialoogvenster **Wachtwoord eigenaar** -veld voor de onderstaande beperkingsinstellingen.  <br><ul><li> **Afdrukken** Selecteer deze optie als de gebruiker de PDF mag afdrukken. <br> <li> **Afdrukken van conceptkwaliteit** Schakel deze optie in om de gebruiker toe te staan de PDF in een lagere resolutie af te drukken.  <br> <li> **Inhoud kopiëren** Selecteer deze optie om toe te staan dat een gebruiker inhoud uit de PDF kopieert.   <br> <li> **Annotaties** Selecteer deze optie om een gebruiker toe te staan een opmerking of opmerking toe te voegen in de PDF.  <br> <li> **Inhoudswijzigingen** Schakel deze optie in als u wilt dat een gebruiker de inhoud van de PDF kan wijzigen.  <br> <li> **Inhoud kopiëren voor toegankelijkheid** Schakel deze optie in om schermlezers de mogelijkheid te bieden inhoud te lezen en te navigeren in PDF.  <br>  **Documentverzameling** Selecteer deze optie om gebruikers toe te staan pagina&#39;s in te voegen in de PDF.  <br> **Opmerking**: De gebruikers moeten het wachtwoord van de eigenaar invoeren om beperkingen te kunnen wijzigen via Bestand > Eigenschappen in Adobe Acrobat. |
 
 **Geavanceerd**
 
@@ -145,8 +156,8 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | **Automatische woordafbreking gebruiken** | Als automatische woordafbreking is ingeschakeld, worden woorden aan het einde van regels op grammaticaal correcte plaatsen afgebroken met een afbreekstreepje. |
 | **JavaScript inschakelen** | Schakel deze optie in als u een JavaScript-code hebt waarmee u de inhoud dynamisch wilt transformeren voordat u een PDF genereert. |
 | **Multimediabestanden insluiten** | Selecteer deze optie als u alle audio, video en interactieve inhoud van de PDF wilt opnemen. |
-| **Volledige compressie gebruiken om de grootte van de PDF te optimaliseren** | Selecteer deze optie als u een grote PDF wilt comprimeren of verkleinen. Houd er rekening mee dat het comprimeren van de PDF de bestandskwaliteit kan verminderen. |
-| **Afbeeldingscompressie gebruiken om de PDF-grootte te optimaliseren** | Selecteer deze optie als u de gebruikte afbeeldingen in uw PDF wilt comprimeren of verkleinen. Houd er rekening mee dat het comprimeren van een afbeelding de afbeeldingskwaliteit kan verminderen. |
+| **Volledige compressie gebruiken om de PDF te optimaliseren** | Selecteer deze optie als u een grote PDF wilt comprimeren of verkleinen. Houd er rekening mee dat het comprimeren van de PDF de bestandskwaliteit kan verminderen. |
+| **Afbeeldingscompressie gebruiken om de PDF te optimaliseren** | Selecteer deze optie als u de gebruikte afbeeldingen in uw PDF wilt comprimeren of verkleinen. Houd er rekening mee dat het comprimeren van een afbeelding de afbeeldingskwaliteit kan verminderen. |
 | **Aangepaste resolutie gebruiken (pixels per inch)** | Dit is de resolutie van de paginaweergave bij pixels per inch. Voer in het veld een voorkeurswaarde in die wordt weergegeven wanneer deze optie wordt geselecteerd. De standaardwaarde is 96 pixels per inch. Stel een hogere waarde in om meer inhoud in een inch te passen en andersom als u een lagere waarde instelt. |
 | **Watermerk tonen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. Anders worden de vergelijkingen genegeerd. |
 | **MathML-vergelijkingen inschakelen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. De vergelijkingen worden anders standaard genegeerd. |
@@ -164,7 +175,7 @@ Als u de uitvoervoorinstelling hebt geconfigureerd, kunt u uitvoer genereren van
 
 1. In de **Uitvoer** tabblad, klikt u op **Voorinstellingen** om het deelvenster Voorinstelling weer te geven.
 Als u een uitvoervoorinstelling wilt maken of configureren, raadpleegt u [Een voorinstelling voor PDF-uitvoer maken](#create-output-preset).
-1. Klik op de knop **Alles opslaan** ![alles opslaan](assets/SaveFloppy_icon.svg) in de linkerbovenhoek van de standaardwerkbalk in de uitvoerweergave.
+1. Als u uw instellingen wilt opslaan, klikt u op de knop **Alles opslaan** ![alles opslaan](assets/SaveFloppy_icon.svg) in de linkerbovenhoek van de standaardwerkbalk in de uitvoerweergave.
 1. Klik op de knop **Voorinstelling genereren** ![voorinstelling genereren](assets/generate-output.svg) op de bovenste balk.
 In het deelvenster Voorinstellingen uitvoer kunt u een voortgangsbalk weergeven naast de geselecteerde uitvoervoorinstelling.
 1. Als de uitvoergeneratie is voltooid, klikt u op  **Uitvoer weergeven** ![uitvoer weergeven](assets/view-output.svg) op de bovenste balk om de uitvoer weer te geven.\
@@ -187,5 +198,5 @@ Als u **Tijdelijke bestanden downloaden** in de Geavanceerde instellingen kunt u
 
 ### Taalvariabelen gebruiken
 
-AEM Hulplijnen bieden ook ondersteuning voor taalvariabelen. Selecteren **Taalvariabelen** <img src="./assets/language-variables.svg" width="25">  in het linkerpaneel om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen. Zie voor meer informatie [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md).
+AEM de Gidsen verleent ook de steun voor taalvariabelen. Selecteren **Taalvariabelen** <img src="./assets/language-variables.svg" width="25">  in het linkerpaneel om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen. Zie voor meer informatie [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md).
 

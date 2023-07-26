@@ -4,9 +4,9 @@ description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulpl
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
 workflow-type: tm+mt
-source-wordcount: '5885'
+source-wordcount: '5952'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen {#id1645H6010Q5}
 
-Met de insteekmodule Zuurstof voor Adobe Experience Manager-hulplijnen \(later Oxygen-insteekmodule voor AEM hulplijnen genoemd in de handleiding\) kunt u de Oxygen XML-auteur verbinden met de Adobe Experience Manager \(AEM\)-opslagplaats voor het ontwerpen en beheren van inhoud. U kunt de insteekmodule gebruiken om bestanden te zoeken en te openen; bestanden voor uitchecken en inchecken; mappen en bestanden uploaden in AEM opslagplaats. Met het deelvenster AEM hulplijnen in de bureaubladtoepassing kunt u de gewenste mappen \(van AEM opslagplaats\) markeren naar de lijst met favoriete mappen, zodat u ze snel kunt openen. Bovendien kunt u een pakket installeren in AEM webinterface en uw DITA-bestanden rechtstreeks vanuit de AEM webinterface openen in Oxygen XML Author.
+Met de insteekmodule Zuurstof voor Adobe Experience Manager-hulplijnen \(later Oxygen-insteekmodule voor AEM hulplijnen genoemd in de handleiding\) kunt u de Oxygen XML-auteur verbinden met de Adobe Experience Manager \(AEM\)-opslagplaats voor het ontwerpen en beheren van inhoud. U kunt de plug-in gebruiken om bestanden te zoeken, te openen, te checken en in te checken; mappen en bestanden te uploaden in AEM opslagplaats. Met het deelvenster AEM hulplijnen in de bureaubladtoepassing kunt u de gewenste mappen \(van AEM opslagplaats\) markeren naar de lijst met favoriete mappen, zodat u ze snel kunt openen. Bovendien kunt u een pakket installeren in AEM webinterface en uw DITA-bestanden rechtstreeks vanuit de AEM webinterface openen in Oxygen XML Author.
 
 ## Downloaden en installeren {#id1826M0L0PUI}
 
@@ -28,13 +28,13 @@ Wanneer u het installatieprogramma hebt, installeert u het op de lokale computer
 
 ### Technische voorschriften
 
-- Oxygen XML Author versie 24.1
+- Oxygen XML Author versie 25.1
 
-- Adobe Experience Manager Guides versie 3.4 of hoger
+- Adobe Experience Manager Guides versie 4.3 of hoger
 
-- Adobe Experience Manager versie 6.5 met Service Pack 10, 11, 12 en 13
+- Adobe Experience Manager versie 6.5 met Service Pack 14, 15, 16 en 17
 
-- Besturingssysteem ondersteund door Oxygen XML Author versie 24.1
+- Besturingssysteem ondersteund door Oxygen XML Author versie 25.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -51,7 +51,7 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    Het welkomstscherm van de installatiewizard wordt weergegeven.
 
-1. Klikken **Volgende** en blader naar de locatie waar het EXE-bestand van de Oxygen XML-auteur beschikbaar is.
+1. Klikken **Volgende** en blader aan plaats waar het.exe dossier van de Auteur van Zuurstof XML beschikbaar is.
 
 1. Selecteer het bestand en klik op **Openen**.
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    Het deelvenster AEM Hulplijnen wordt weergegeven in de Oxygen XML-auteur.
 
-   ![](images/oxygen-aem-connector.png)
+   ![AEM](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    Het deelvenster AEM Hulplijnen wordt weergegeven in de Oxygen XML-auteur.
 
-   ![](images/oxygen-aem-connector-mac.png)
+   ![AEM Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
@@ -116,24 +116,24 @@ Als AEM beheerder voert u de volgende stappen uit om het pakket te installeren:
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentatie.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Zie voor meer informatie over het werken met de Package Manager [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentatie.
 
-   ![](images/package-manager.png)
+   ![Pakketbeheer](images/package-manager.png) {width="650" align="left"}
 
 1. Als u het Zuurstofpakket wilt uploaden, klikt u op **Pakket uploaden**.
 1. Navigeer in het dialoogvenster Pakket uploaden naar het Oxygen-pakketbestand dat u in Stap 1 hebt gedownload en klik op OK.
 
    Het pakket wordt geüpload naar uw AEM-instantie.
 
-1. Als u het installatieproces wilt starten, klikt u op **Installeren**.
+1. Klik op **Installeren**.
 
-   ![](images/oxygen-package.png)
+   ![Zuurstofpakket](images/oxygen-package.png){width="650" align="left"}
 
 1. Klik in het dialoogvenster Pakket installeren op **Installeren**.
 1. Nadat de installatie is voltooid, klikt u op de knop Home in de linkerbovenhoek van de CRX Package Manager.
 1. Selecteer een DITA-bestand in de map met middelen.
 
-   **Bewerken in zuurstof** is beschikbaar in de werkbalk. Voor meer informatie over het gebruik van deze optie raadpleegt u [Open DITA-onderwerp in Oxygen XML Author vanuit AEM webinterface](#id182CE0I905Z).
+   **Bewerken in zuurstof** is beschikbaar in de werkbalk. Zie voor meer informatie over het gebruik van deze optie [Open DITA-onderwerp in Oxygen XML Author vanuit AEM webinterface](#id182CE0I905Z).
 
    >[!NOTE]
    >
@@ -146,7 +146,7 @@ Nadat u de plug-in hebt gedownload en geïnstalleerd, moet u de volgende instell
 
 - **Instellingen voor webverificatie**: Instellingen voor SSO-verificatie in de plug-in voor AEM hulplijnen.
 - **Algemene instellingen**: Verbindingsinstellingen voor de plug-in, zoals URL van AEM server, aanmeldingsgegevens enzovoort.
-- **Voorkeur voor kenmerkaanpassing profileren**: Deze configuratie wordt vereist voor de profilerende attributenregelingen voor de documentatiereeksen.
+- **Voorkeur voor kenmerkaanpassing profileren**: Deze configuratie is vereist voor de kenmerkenschema&#39;s voor profilering voor de documentatiesets.
 
 ### Instellingen voor webverificatie
 
@@ -158,7 +158,7 @@ Werk de opgegeven bestanden bij om de instellingen voor webverificatie in de ins
 >
 >Maak een back-up van het bestand voordat u het bijwerkt.
 
-**Voor Mac en Zuurstof 24.1**
+**Voor Mac en Zuurstof 25.1**
 
 Voeg de volgende regels toe in env.sh
 
@@ -184,7 +184,7 @@ Voeg de volgende regels toe aan de functie oxydator.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Voor Windows en Zuurstof 24.1**
+**Voor Windows en Zuurstof 25.1**
 
 De volgende regels toevoegen in env.bat
 
@@ -208,7 +208,7 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
 
 1. Klik in het deelvenster Hulplijnen AEM op het pictogram Instellingen en selecteer vervolgens **Instellingen**.
 
-   ![](images/settings.png)
+   ![Verbindingsinstellingen ](images/settings.png){width="800" align="left"}
 
 1. Geef de volgende details op:
    - **Server-URL**: URL van de AEM server, bijvoorbeeld:
@@ -225,15 +225,15 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
 
    - **Verificatie:** Kiezen uit **Standaard \(gebruikersnaam/wachtwoord\)** of **Webverificatie**. Als u **Basis** verificatie die u moet invoeren **Gebruikersnaam** en **Wachtwoord** in het dialoogvenster Voorkeuren.
 
-     Als u de Authentificatie van het Web selecteert, dan wordt u getoond het AEM Login scherm. Voer uw aanmeldingsgegevens in en klik op de knop **Aanmelden** knop. Wanneer de aanmelding is voltooid, wordt het aanmeldingsscherm AEM en geeft het deelvenster AEM de bestandslijst van de AEM server weer.
+     Als u Webverificatie selecteert, wordt het aanmeldingsscherm van de AEM weergegeven. Voer uw aanmeldingsgegevens in en klik op de knop **Aanmelden** knop. Wanneer de aanmelding is voltooid, wordt het aanmeldingsscherm AEM en geeft het deelvenster AEM de bestandslijst van de AEM server weer.
 
-   - **Time-out verbinding**: Geef in seconden op hoe lang de client moet wachten op een reactie van de AEM server. Als er binnen de opgegeven tijd geen reactie van de server wordt ontvangen, wordt het verzoek beëindigd. De standaardwaarde is 20 seconden.
+   - **Time-out verbinding**: Geef in seconden tijd op waarop de client wacht op een reactie van de AEM server. Als er binnen de opgegeven tijd geen reactie van de server wordt ontvangen, wordt het verzoek beëindigd. De standaardwaarde is 20 seconden.
 
    - **Lokale map**: Locatie op uw lokale computer waar de bestanden van AEM opslagplaats worden opgeslagen na uitchecken. Als u een locatie opgeeft die niet op het station aanwezig is, maakt de plug-in die locatie.
    - **Bestand openen bij uitchecken**: Als deze optie is geselecteerd, worden de bestanden bij het uitchecken geopend.
-   - **Bestand sluiten bij inchecken**: Als deze optie is geselecteerd, worden de bestanden tijdens het inchecken gesloten. Voordat u het bestand sluit, wordt een pop-up weergegeven waarin u de versieopmerkingen kunt opgeven.
+   - **Bestand sluiten bij aanmelden**: Als deze optie is geselecteerd, worden de bestanden tijdens het inchecken gesloten. Voordat u het bestand sluit, wordt een pop-up weergegeven waarin u de versieopmerkingen kunt opgeven.
    - **Dialoogvenster Inchecken weergeven bij het sluiten van een bestand**: Als deze optie is geselecteerd, wordt een pop-up weergegeven bij het sluiten van een bestand. In het pop-upvenster kunt u het bestand inchecken of sluiten zonder het in te checken.
-   - **Bestand automatisch uitchecken wanneer geopend**: Als deze optie is ingeschakeld, wordt het bestand automatisch uitgecheckt en geopend voor bewerking door erop te dubbelklikken. Als het bestand al is uitgecheckt, wordt het gewoon geopend voor bewerking. Als deze optie niet is geselecteerd, wordt het openen van een bestand waarvoor u geen vergrendeling hebt, geopend in de alleen-lezen modus.
+   - **Bestand automatisch uitchecken wanneer geopend**: Als deze optie is geselecteerd, wordt het bestand automatisch uitgecheckt en wordt het geopend voor bewerking. Als het bestand al is uitgecheckt, wordt het gewoon geopend voor bewerking. Als deze optie niet is geselecteerd, wordt het openen van een bestand waarvoor u geen vergrendeling hebt, geopend in de alleen-lezen modus.
 1. Klikken **OK**.
 
 ### Voorkeur voor kenmerkaanpassing profileren {#id1827K0D0OHT}
@@ -245,19 +245,18 @@ Voer de volgende stappen uit om het profileren attributen te vormen:
 1. Klik in Oxygen XML-auteur op **Opties** \> **Voorkeuren**.
 1. In de **Koppeling naar documenttype** tab, selecteert u **DITA** en klik vervolgens op **Uitbreiden**.
 
-   ![](images/document_type_association.png)
+   ![documenttype koppelen](images/document_type_association.png){width="650" align="left"}
 
 1. In de **Classpath** selecteert u com.adobe.o2.connector in het dialoogvenster **Loader van bovenliggende klasse gebruiken vanuit insteekmodule met id** vervolgkeuzelijst.
 
-   ![](images/dita-extension.png)
+   ![Tabblad Klassepad](images/dita-extension.png){width="650" align="left"}
 
 1. In de **Extensies** wijzigt u de volgende wijzigingen:
-1. 
    - Klikken **Kies** naast de **Auteur Extension State Listener** krachtens **Afzonderlijke extensies** en selecteer CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
-- Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteer CustomValueEditor - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
+   - Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteer CustomValueEditor - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
 Het volgende schermschot toont gevormd **Extensie** tab voor DITA-onderwerpen:
 
-  ![](images/dita-topic-extension-tab.png)
+     ![Gevormde uitbreiding voor onderwerpen DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
 
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
@@ -280,19 +279,19 @@ Voer de volgende stappen uit om de DITA kaartuitbreiding te vormen:
 
   Het volgende schermschot toont gevormd **Extensie** tab:
 
-  ![](images/dita-map-extension-tab.png)
+  ![Gevormde uitbreiding voor kaart DITA](images/dita-map-extension-tab.png){width="650" align="left"}
 
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
-## Werken met de insteekmodule Zuurstof voor AEM hulplijnen {#id1826JG00WY4}
+## Werken met zuurstofinsteekmodule voor AEM hulplijnen {#id1826JG00WY4}
 
 ### Deelvenster Hulplijnen AEM
 
 In het volgende scherm ziet u het deelvenster Hulplijnen AEM.
 
-![](images/connector-panel.png)
+![connectorpaneel](images/connector-panel.png){width="550" align="left"}
 
-**A**\) Hiermee geeft u de zoekbalk weer.
+**A**\) Geeft de zoekbalk weer.
 
 **B**\) Toont de map Favorieten. Standaard is deze leeg. U kunt mappen uit de AEM opslagplaats toevoegen als favoriet. De favoriete mappen worden dan hier weergegeven.
 
@@ -301,7 +300,7 @@ In het volgende scherm ziet u het deelvenster Hulplijnen AEM.
 **D**\) Het pictogram Instellingen \(versnelling\) met de volgende opties:
 
 - **Verbinden**: Selecteer deze optie als u verbinding wilt maken met de AEM server. De optie is uitgeschakeld wanneer de XML-auteur van Zuurstof is verbonden met de AEM.
-- **Vernieuwen**: Selecteer deze optie om de nieuwste status van de bestanden en map op te halen uit de AEM opslagplaats.
+- **Vernieuwen**: Selecteer deze optie om de meest recente status van de bestanden en map op te halen uit de AEM opslagplaats.
 
   >[!NOTE]
   >
@@ -315,23 +314,23 @@ In het volgende scherm ziet u het deelvenster Hulplijnen AEM.
 De functies van de insteekmodule Zuurstof voor AEM hulplijnen zijn beschikbaar wanneer u met de rechtermuisknop op een map of bestand in de AEM klikt. De functies die beschikbaar zijn voor de mappen verschillen van die voor de bestanden. Hier volgt een volledige lijst met functies in het contextmenu Zuurstofinsteekmodule voor AEM hulplijnen:
 
 - **Openen**: Hiermee opent u het geselecteerde bestand of breidt u de geselecteerde map uit.
-- **Openen in**: U kunt het geselecteerde bestand openen in AEM webeditor of kaartdashboard van hulplijnen of in de Kaarteditor. Voor meer informatie over deze opties raadpleegt u [Bestand openen in AEM editor voor hulplijnen](#id195GH0V30KX).
+- **Openen in**: U kunt het geselecteerde bestand openen in AEM webeditor of kaartdashboard van hulplijnen of in de Kaarteditor. Zie voor meer informatie over deze opties [Bestand openen in AEM editor voor hulplijnen](#id195GH0V30KX).
 - **Uitchecken**: Hiermee wordt een bestand uitgecheckt uit AEM opslagplaats. Zie voor meer informatie [Bestanden uitchecken](#id195HC020TS4).
-- **Uitchecken met afhankelijke personen**: Hiermee wordt een bestand met de directe referenties uitgecheckt. Zie voor meer informatie [Bestanden uitchecken](#id195HC020TS4).
-- **Uitchecken met alleen-lezen afhankelijke personen**: Controleert het geselecteerde bestand samen met de afhankelijke personen. U kunt geen wijzigingen aanbrengen in de afhankelijke bestanden. Zie voor meer informatie [Bestanden uitchecken](#id195HC020TS4).
+- **Uitchecken met afhankelijke personen**: Controleert een bestand met de directe referenties. Zie voor meer informatie [Bestanden uitchecken](#id195HC020TS4).
+- **Uitchecken met alleen-lezen afhankelijke personen**: Controleert het geselecteerde bestand samen met de afhankelijke componenten. U kunt de afhankelijke bestanden niet wijzigen. Zie voor meer informatie [Bestanden uitchecken](#id195HC020TS4).
 - **Uitchecken annuleren**: Hiermee annuleert u het uitgecheckte bestand, sluit u het bestand uit de editor en keert u de wijzigingen terug naar de laatste versie van het bestand dat op de server is opgeslagen.
-- **Vernieuwen**: In het geval van een dossier, haalt het recentste exemplaar van het dossier van de AEM bewaarplaats. Voor een map worden de mapstructuur en de status van het bestand opgehaald. Dit betekent dat er een bestand is toegevoegd en dat het vervolgens wordt weergegeven in de weergave AEM. Als een bestand is uitgecheckt op AEM server, wordt het bestand ook weergegeven als uitgecheckt bij Vernieuwen in Zuurstofauteur. De bestandenlijst in de *Bestanden uitgecheckt in AEM hulplijnen* Weergeven.
+- **Vernieuwen**: In het geval van een bestand haalt u de meest recente kopie van het bestand op van de AEM opslagplaats. Voor een map worden de mapstructuur en de status van het bestand opgehaald. Dit betekent dat er een bestand is toegevoegd en dat het vervolgens wordt weergegeven in de weergave AEM. Als een bestand is uitgecheckt op AEM server, wordt het bestand ook weergegeven als uitgecheckt bij Vernieuwen in Zuurstofauteur. De bestandenlijst in de *Bestanden uitgecheckt in AEM hulplijnen* Weergeven.
 - **Uitgecheckte bestanden vernieuwen**: Hiermee vernieuwt u de lijst met uitgecheckte bestanden in het dialoogvenster *Bestanden uitgecheckt in AEM hulplijnen* Weergeven. Als een bestand is uitgecheckt op AEM server, wordt bij het uitvoeren van een vernieuwen de lijst met uitgecheckte bestanden in het dialoogvenster *Bestanden uitgecheckt in AEM hulplijnen* Weergeven. Als er echter een nieuw bestand is toegevoegd of de status van een bestand is gewijzigd, wordt dit niet bijgewerkt in de boomstructuurweergave AEM hulplijnen. Als u de status van bestanden op AEM wilt bijwerken, moet u een vernieuwen uitvoeren.
-- **Inchecken**: Hiermee checkt u een bestand in dat u hebt uitgecheckt. Zie voor meer informatie [Een bestand inchecken](#id182CF0J0FHS).
+- **Inchecken**: Controleert een bestand dat u hebt uitgecheckt. Zie voor meer informatie [Een bestand inchecken](#id182CF0J0FHS).
 - **Inchecken met afhankelijke personen**: Als u bestanden met afhankelijke personen hebt uitgecheckt, controleert deze optie het hoofdbestand samen met de afhankelijke personen. Zie voor meer informatie [Een bestand inchecken](#id182CF0J0FHS).
 - **Map maken**: Maakt een map in de AEM opslagplaats. Deze optie is alleen beschikbaar op mapniveau.
-- **Bestand\(en\) uploaden**: Hiermee uploadt u een of meer bestanden. Zie voor meer informatie [Bestanden en mappen uploaden](#id195HC03F03J).
+- **Bestand\(en\) uploaden**: uploadt een of meer bestanden. Zie voor meer informatie [Bestanden en mappen uploaden](#id195HC03F03J).
 - **Uploaden met afhankelijke personen**: Hiermee uploadt u DITA-bestanden \(XML, DITA, Boekenkaart of DITA-kaart\) met de afhankelijke personen. Zie voor meer informatie [Bestanden en mappen uploaden](#id195HC03F03J).
-- **Map uploaden**: Uploadt een map naar de AEM-opslagplaats. Zie voor meer informatie [Bestanden en mappen uploaden](#id195HC03F03J).
-- **Toevoegen aan Favorieten**: Hiermee wordt een map toegevoegd aan de *Favorieten* in het deelvenster Hulplijnen AEM. U wordt aangeraden hier uw werkmap toe te voegen, zodat bestanden en de status van het bestand gemakkelijker kunnen worden gesynchroniseerd vanaf AEM.
+- **Map uploaden**: Hiermee wordt een map geüpload naar de AEM. Zie voor meer informatie [Bestanden en mappen uploaden](#id195HC03F03J).
+- **Toevoegen aan Favorieten**: Voegt een map toe aan de *Favorieten* in het deelvenster Hulplijnen AEM. U wordt aangeraden hier uw werkmap toe te voegen, zodat bestanden en de status van het bestand gemakkelijker kunnen worden gesynchroniseerd vanaf AEM.
 - **Verwijderen uit Favorieten**: Hiermee wordt een map verwijderd uit *Favorieten*. Zie voor meer informatie [Favorieten toevoegen of verwijderen](#id195HC04405P).
-- **Metagegevens weergeven**: Toont de meta-gegevens zoals Klasse DITA, de Titel van het document, Type, UUID, en andere informatie verbonden aan een dossier. Zie voor meer informatie [De metagegevens van een bestand weergeven](#id195GHN0H05C).
-- **Versies weergeven**: Toont de versiegeschiedenis van een dossier. Zie voor meer informatie [De versiehistorie van een bestand weergeven](#id195GI000D5Q).
+- **Metagegevens weergeven**: Hiermee worden de metagegevens weergegeven, zoals DITA-klasse, Titel, Type, UUID en andere informatie die aan een bestand is gekoppeld. Zie voor meer informatie [De metagegevens van een bestand weergeven](#id195GHN0H05C).
+- **Versies weergeven**: geeft de versiegeschiedenis van een bestand weer. Zie voor meer informatie [De versiehistorie van een bestand weergeven](#id195GI000D5Q).
 
 ### Een bestand openen in Oxygen XML Author {#id195GHJ0A0UB}
 
@@ -343,12 +342,12 @@ Nadat u verbinding hebt gemaakt met de AEM opslagplaats, kunt u bestanden openen
 
    Het bestand wordt geopend in de Editor van de Oxygen XML-auteur.
 
-   ![](images/guid-in-file-tab.png)
+   ![Hulplijn op tabblad Bestand](images/guid-in-file-tab.png) {width="800" align="left"}
 
    Wanneer u de muisaanwijzer boven het tabblad van een bestand plaatst, wordt het serverpad en de bijbehorende UUID weergegeven. In de bovenstaande schermafbeelding wordt de UUID van het document gemarkeerd.
 
 
-Als u de optie **Bestand automatisch uitchecken wanneer geopend** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het openen van een bestand automatisch uitgecheckt en kan het worden bewerkt. Als u een bestand wilt openen, dubbelklikt u op een bestandsnaam of klikt u met de rechtermuisknop op de bestandsnaam en kiest u **Openen** in het contextmenu. Als deze optie niet is geselecteerd, wordt het bestand geopend in de modus Alleen-lezen.
+Als u **Bestand automatisch uitchecken wanneer geopend** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het openen van een bestand automatisch uitgecheckt en kan het worden bewerkt. Als u een bestand wilt openen, dubbelklikt u op een bestandsnaam of klikt u met de rechtermuisknop op de bestandsnaam en kiest u **Openen** in het contextmenu. Als deze optie niet is geselecteerd, wordt het bestand geopend in de modus Alleen-lezen.
 
 >[!NOTE]
 >
@@ -362,11 +361,11 @@ Als u de editors wilt gebruiken beschikbaar in AEM Hulplijnen, kunt u dit doen d
 
 1. Selecteren **Openen in** in het contextmenu en kies een van de volgende opties:
 
-   - **Web Topic Editor**: Als het bestand dat u opent een .xml- of .dita-bestand is, kunt u het openen voor bewerking in de webeditor. Kies de optie **Web Topic Editor** om het geselecteerde bestand te openen en te bewerken in de webeditor.
+   - **Web Topic Editor**: Als het bestand dat u opent, een .xml- of een .dita-bestand is, kunt u het openen voor bewerking in de webeditor. Kies de optie **Web Topic Editor** om het geselecteerde bestand te openen en te bewerken in de webeditor.
 
-   - **Kaartdashboard**: U kunt verkiezen om een.ditamap- dossier in het kaartdashboard uit te geven waar u diverse verrichtingen op het kaartdossier kunt uitvoeren. Deze bewerkingen zijn afhankelijk van de rol/groep waartoe u behoort.
+   - **Kaartdashboard**: U kunt ervoor kiezen om een .ditamap-bestand te bewerken in het kaartdashboard, waarin u verschillende bewerkingen kunt uitvoeren op het kaartbestand. Deze bewerkingen zijn afhankelijk van de rol/groep waartoe u behoort.
 
-   - **Web DITA Map Editor**: Als u het .ditamap- dossier voor het uitgeven in de Redacteur van de Kaart wilt openen, dan kies deze optie. Gebruikend de optie van de Redacteur van de Kaart DITA, kunt u onderwerpen toevoegen of verwijderen, relatietabellen toevoegen, en andere verrichtingen op uw kaart uitvoeren.
+   - **Web DITA Map Editor**: Als u het .ditamap-bestand wilt openen voor bewerking in de Kaarteditor, kiest u deze optie. Gebruikend de optie van de Redacteur van de Kaart DITA, kunt u onderwerpen toevoegen of verwijderen, relatietabellen toevoegen, en andere verrichtingen op uw kaart uitvoeren.
 
 
 ### Bestanden uitchecken {#id195HC020TS4}
@@ -376,16 +375,16 @@ Wanneer u een bestand uitcheckt, wordt het lokaal op uw systeem opgeslagen en ve
 1. Klik met de rechtermuisknop op een bestand in het deelvenster Hulplijnen AEM.
 1. Selecteer een van de volgende opties:
    - **Uitchecken:** Hiermee wordt een bestand uit AEM opslagplaats uitgecheckt en beschikbaar gesteld voor bewerking.
-   - **Uitchecken met afhankelijke personen**: Hiermee wordt een bestand met de directe referenties uitgecheckt. Met deze optie kunt u de bovenliggende en onderliggende pagina&#39;s wijzigen. Met de insteekmodule Zuurstof voor AEM hulplijnen kunt u één niveau afhankelijke personen uitchecken. Bijvoorbeeld, de Verwijzingen van de Kaart A Onderwerp A en Onderwerp A verwijzingen Onderwerp B. Het uitchecken van Kaart A zal Onderwerp A ongeacht zijn niveau in de hiërarchie van TOC uitchecken. Nochtans, zal het geen Onderwerp B controleren omdat het niet direct van Kaart A verbonden is.
-   - **Uitchecken met alleen-lezen afhankelijke personen**: Hiermee wordt een bestand uitgecheckt en worden de afhankelijkheden van het bestand als alleen-lezen kopieën naar uw lokale computer gedownload. U kunt geen wijzigingen aanbrengen in de afhankelijke bestanden.
+   - **Uitchecken met afhankelijke personen**: Controleert een bestand met de directe referenties. Met deze optie kunt u de bovenliggende en onderliggende pagina&#39;s wijzigen. Met de insteekmodule Zuurstof voor AEM hulplijnen kunt u één niveau afhankelijke personen uitchecken. Bijvoorbeeld, de Verwijzingen van de Kaart A Onderwerp A en Onderwerp A verwijst naar Onderwerp B. Het uitchecken van Kaart A zal Onderwerp A ongeacht zijn niveau in de hiërarchie van TOC uitchecken. Nochtans, zal het geen Onderwerp B controleren omdat het niet direct van Kaart A verbonden is.
+   - **Uitchecken met alleen-lezen afhankelijke personen**: Hiermee wordt een bestand uitgecheckt en worden de afhankelijkheden van het bestand als alleen-lezen kopieën naar uw lokale computer gedownload. U kunt de afhankelijke bestanden niet wijzigen.
 
-Als u de optie **Bestanden openen bij uitchecken** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het uitchecken automatisch geopend voor bewerking.
+Als u **Bestanden openen bij uitchecken** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het uitchecken automatisch geopend voor bewerking.
 
-Als u de optie **Bestand automatisch uitchecken wanneer geopend** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het openen automatisch uitgecheckt en beschikbaar gesteld voor bewerken. Als u een bestand wilt openen, dubbelklikt u op een bestandsnaam of klikt u met de rechtermuisknop op de bestandsnaam en kiest u **Openen** in het contextmenu.
+Als u **Bestand automatisch uitchecken wanneer geopend** optie \(in het dialoogvenster Voorkeuren\), wordt het bestand bij het openen automatisch uitgecheckt en beschikbaar gesteld voor bewerken. Als u een bestand wilt openen, dubbelklikt u op een bestandsnaam of klikt u met de rechtermuisknop op de bestandsnaam en kiest u **Openen** in het contextmenu.
 
 Wanneer een bestand is uitgecheckt, verandert het pictogram van het bestand om de vergrendelde status weer te geven.
 
-![](images/check-out-file.png)
+![Een bestand uitchecken](images/check-out-file.png){width="650" align="left"}
 
 In de bovenstaande schermafbeelding wordt een bestand dat door een andere gebruiker is uitgecheckt, weergegeven met een zwart gekleurd vergrendelingspictogram \(A\). Het bestand dat door de huidige gebruiker is uitgecheckt, wordt weergegeven met een groene kleurvergrendeling \(B\).
 
@@ -401,28 +400,32 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
 
 1. Klik met de rechtermuisknop op een uitgecheckt bestand en kies een van de volgende twee opties:
 
-   - **Inchecken**: Controleert het geselecteerde bestand van uw lokale systeem naar AEM opslagplaats.
+   - **Inchecken**: Het geselecteerde bestand wordt vanaf uw lokale systeem ingecheckt in AEM opslagplaats.
    - **Inchecken met afhankelijke personen:** Als u een bestand samen met de afhankelijke bestanden hebt uitgecheckt, kunt u met deze optie alle afhankelijke bestanden in één bewerking inchecken. Als u deze optie selecteert, wordt het dialoogvenster Inchecken weergegeven met alle afhankelijke bestanden. Klik op OK om alle bestanden tegelijk in te checken.
 
    Als u afhankelijke bestanden niet hebt uitgecheckt en deze optie kiest, worden alleen de afhankelijke bestanden die u \(afzonderlijk\) hebt uitgecheckt, ingecheckt. Er wordt een lijst weergegeven met bestanden die niet kunnen worden ingecheckt:
 
-   ![](images/check-in-error.png)
+   ![fouten controleren](images/check-in-error.png){width="800" align="left"}
 
    Het wordt sterk aanbevolen om een uitgecheckt bestand niet te verplaatsen. Als een uitgecheckt bestand echter naar een andere locatie wordt verplaatst, moet u het uitchecken van dat bestand annuleren. Als u updates wilt uitvoeren op dat bestand, checkt u het bestand opnieuw uit, brengt u wijzigingen aan en checkt u het opnieuw in. Als u een bestand probeert in te checken dat van de oorspronkelijke locatie is verplaatst, wordt er een fout weergegeven.
 
-   Als een afhankelijk bestand is uitgecheckt in AEM, wordt het afhankelijke bestand niet weergegeven in het dialoogvenster Inchecken met afhankelijke personen. Als u een lijst wilt met afhankelijke bestanden die zijn uitgecheckt in AEM, moet u een map vernieuwen.
+   Als een afhankelijk bestand is uitgecheckt in AEM, wordt het afhankelijke bestand niet weergegeven in het dialoogvenster Inchecken met afhankelijke personen. Voor een lijst met afhankelijke bestanden die zijn uitgecheckt in AEM, moet u een map vernieuwen.
 
-   En als u een afhankelijk bestand hebt ingecheckt via AEM, wordt de bestandslijst pas vernieuwd in de Zuurstofauteur als u een map uitvoert voor het vernieuwen en het vernieuwen van uitgecheckte bestanden. Als u een inchecken met afhankelijke bestanden uitvoert en sommige bestanden zijn AEM ingecheckt, wordt een foutmelding weergegeven met de bestanden die niet konden worden ingecheckt.
+   En als u een afhankelijk bestand hebt ingecheckt via AEM, wordt de bestandslijst pas vernieuwd in de Zuurstofauteur als u een map uitvoert die is uitgecheckte bestanden vernieuwen en vernieuwen. Als u een inchecken met afhankelijke bestanden uitvoert en sommige bestanden zijn AEM ingecheckt, wordt een foutmelding weergegeven met de bestanden die niet konden worden ingecheckt.
 
-1. \(Optioneel\) Voeg in het dialoogvenster Inchecken een opmerking toe in **Opmerkingen bij versie** tekstvak.
+1. \(Optioneel\) In het dialoogvenster **Inchecken** of de **Inchecken met afhankelijke personen** een opmerking toevoegen in **Opmerkingen bij versie** tekstvak.
 
    >[!NOTE]
    >
    >Deze opmerking wordt weergegeven in de AEM versiegeschiedenis van het bestand.
-1. Label(s) toevoegen in het dialoogvenster **Label** tekstvak. Voer een label in en druk op Enter. Bijvoorbeeld: *2307 Release*.
-Als uw beheerder een lijst met labels vooraf heeft gedefinieerd en deze in het dialoogvenster `label.json` en worden deze labels weergegeven als een vervolgkeuzelijst. U kunt een of meer labels kiezen in het vervolgkeuzemenu.
-   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
-U kunt veelvoudige etiketten (die door komma&#39;s worden gescheiden) aan de zelfde versie van een onderwerp toevoegen.  Bijvoorbeeld: *Adobe*, *AEM*,*Hulplijnen*
+
+1. Label(s) toevoegen in het dialoogvenster **Label** tekstvak in het dialoogvenster **Inchecken** of de **Inchecken met afhankelijke personen** dialoog. Voer een label in en druk op Enter. Bijvoorbeeld: *2307 Release*.
+
+   Als uw beheerder een lijst met labels vooraf heeft gedefinieerd en deze in het dialoogvenster `label.json` en worden deze labels weergegeven als een vervolgkeuzelijst. U kunt een of meer labels kiezen in de vervolgkeuzelijst.
+
+   ![Het dialoogvenster Inchecken](images/checkin-dropdown-labels.png){width="550" align="left"}
+
+   U kunt veelvoudige etiketten (die door komma&#39;s worden gescheiden) aan de zelfde versie van een onderwerp toevoegen.  Bijvoorbeeld: *Adobe*, *AEM*,*Hulplijnen*
 Nochtans, kunt u niet het zelfde etiket aan de verschillende versies van een onderwerp toevoegen. Als u een label toevoegt dat u al aan een eerdere versie hebt toegevoegd, wordt het toegevoegd aan de meest recente versie en verwijderd uit de vorige versie.
 
    >[!NOTE]
@@ -438,13 +441,13 @@ Nochtans, kunt u niet het zelfde etiket aan de verschillende versies van een ond
 
 ### Bestanden uitgecheckt in AEM weergave Hulplijnen
 
-Wanneer u in meerdere mappen werkt, is het niet eenvoudig om te bepalen hoeveel bestanden in één weergave zijn uitgecheckt. AEM Hulplijnen bieden uitgecheckte bestanden in AEM weergave Hulplijnen die één volledige momentopname geven van momenteel uitgecheckte bestanden. Met deze weergave kunt u gemakkelijk achterhalen welke bestanden door u in AEM opslagplaats zijn gecontroleerd met behulp van AEM hulplijnen. Voer de volgende stappen uit om deze weergave te openen en ermee te werken:
+Wanneer u in meerdere mappen werkt, is het niet eenvoudig om te bepalen hoeveel bestanden in één weergave zijn uitgecheckt. AEM Hulplijnen bieden uitgecheckte bestanden in AEM weergave Hulplijnen die één volledige momentopname geven van momenteel uitgecheckte bestanden. Met deze weergave kunt u gemakkelijk achterhalen welke bestanden door u in AEM opslagplaats zijn gecontroleerd met behulp van AEM hulplijnen. Voer de volgende stappen uit om toegang te krijgen tot en te werken met deze weergave:
 
 1. Klikken **Venster** \> **Weergave tonen** \> **Bestanden uitgecheckt in AEM hulplijnen**.
 
    De uitgecheckte bestanden in AEM weergave Hulplijnen worden weergegeven.
 
-   ![](images/files-checkedout-view.png)
+   ![uitgecheckte bestanden](images/files-checkedout-view.png){width="550" align="left"}
 
 1. Klik met de rechtermuisknop op een bestand in deze weergave voor de volgende opties:
 
@@ -471,9 +474,9 @@ Voer de volgende stappen uit om bestanden of mappen te uploaden:
 
 1. Klik met de rechtermuisknop op een map in het deelvenster Hulplijnen AEM.
 1. Selecteer een van de volgende opties:
-   - **Bestand\(en\) uploaden**: Selecteer deze optie om een of meerdere bestanden te uploaden naar de geselecteerde map in de AEM opslagplaats. Selecteer in het dialoogvenster Bestanden selecteren om bestanden te uploaden de bestanden en klik op **Openen**.
-   - **Uploaden met afhankelijke personen**: Selecteer deze optie om een DITA-bestand met de afhankelijke componenten te uploaden. Selecteer in het dialoogvenster Selecteer het bestand dat u wilt uploaden de bestanden en klik op **Openen**.
-   - **Map uploaden**: Selecteer deze optie als u een map in de AEM-opslagplaats wilt uploaden. Selecteer de map in het dialoogvenster Kiezen en klik op **Kies**.
+   - **Bestand\(en\) uploaden**: Selecteer deze optie om een of meerdere bestanden te uploaden naar de geselecteerde map in de AEM. Selecteer in het dialoogvenster Bestanden selecteren om bestanden te uploaden de bestanden en klik op **Openen**.
+   - **Uploaden met afhankelijke personen**: Selecteer deze optie om een DITA-bestand met de afhankelijke componenten te uploaden. Selecteer in het dialoogvenster Bestand selecteren om te uploaden de bestanden en klik op **Openen**.
+   - **Map uploaden**: Selecteer deze optie als u een map in de AEM wilt uploaden. Selecteer de map in het dialoogvenster Kies en klik op **Kies**.
 
 **Aanvullende opmerkingen over het werken met UUID-bestanden**:
 
@@ -500,7 +503,7 @@ Voer de volgende stappen uit om een map toe te voegen aan of te verwijderen uit 
 
 - Klik met de rechtermuisknop op een map en selecteer **Toevoegen aan Favorieten**. U kunt een map toevoegen aan Favorieten als deze zich niet in Favorieten bevindt.
 - U kunt een map op de volgende manieren uit Favorieten verwijderen:
-   - Klik met de rechtermuisknop op een map in het dialoogvenster **Favorieten** map en selecteer **Verwijderen uit Favorieten**.
+   - Klik met de rechtermuisknop op een map in de **Favorieten** map en selecteer **Verwijderen uit Favorieten**.
    - Klik met de rechtermuisknop op een map in de AEM opslagplaats onder **DAM** map die al als favoriet is toegevoegd en selecteer **Verwijderen uit Favorieten**.
 
 ### De versiehistorie van een bestand weergeven {#id195GI000D5Q}
@@ -513,7 +516,7 @@ Voer de volgende stappen uit om de versiegeschiedenis van een bestand weer te ge
 
    De versiegeschiedenis van het bestand wordt weergegeven in het dialoogvenster Versies.
 
-   ![](images/version-history.png)
+   ![Versiehistorie](images/version-history.png){width="550" align="left"}
 
 
 ### De metagegevens van een bestand weergeven {#id195GHN0H05C}
@@ -526,7 +529,7 @@ Voer de volgende stappen uit om de metagegevens van een bestand weer te geven:
 
    De metagegevens van het bestand, zoals de klasse DITA, de documentstatus, de wijzigingsdatum, de grootte, de titel en UUID, worden weergegeven in het dialoogvenster Metagegevens.
 
-   ![](images/metadata.png)
+   ![Metagegevens weergeven](images/metadata.png){width="550" align="left"}
 
 
 ## Een onderwerp zoeken in de AEM {#id1826J20405Z}
@@ -541,7 +544,7 @@ Voer de volgende stappen uit om onderwerpen te zoeken:
 
    Het resultaat wordt op het tabblad Zoekresultaten weergegeven als een lijst met het bestandspad. Als er geen overeenkomend resultaat voor uw zoekopdracht is gevonden, worden geen resultaten gevonden in &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> bericht wordt weergegeven.
 
-   ![](images/search.png)
+   ![Zoekresultaten](images/search.png){width="550" align="left"}
 
 1. \(Optioneel\) Dubbelklik op een bestand in het zoekresultaat om het te openen in Oxygen XML Author.
 1. Voer een van de volgende handelingen uit om terug te gaan naar de AEM Repository-weergave:
@@ -554,7 +557,7 @@ U kunt uw onderwerp DITA in de Auteur van XML van Zuurstof van de AEM Webinterfa
 
 >[!NOTE]
 >
->De **Bewerken in zuurstof** Deze optie is toegankelijk vanaf verschillende plaatsen in AEM: wanneer een onderwerp wordt geselecteerd, wanneer een onderwerp, of van Onderwerpen en het lusje van Rapporten van DITA kaartconsole wordt voorvertoond. Als u meerdere onderwerpen selecteert, is de optie niet zichtbaar in de werkbalk.
+>De **Bewerken in zuurstof** optie is toegankelijk van diverse plaatsen in AEM: wanneer een onderwerp wordt geselecteerd, wanneer een onderwerp, of van Onderwerpen en het lusje van Rapporten van DITA kaartconsole wordt voorvertoond. Als u meerdere onderwerpen selecteert, is de optie niet zichtbaar in de werkbalk.
 
 **Een DITA-onderwerp openen**
 
@@ -566,7 +569,7 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
    >
    >Als het onderwerp niet is uitgecheckt, wordt het eerst uitgecheckt en vervolgens in de bewerkingsmodus geopend in Zuurstof.
 
-1. Oxygeen XML-auteur selecteren *&lt;version>* in de **Toepassing starten** berichtvenster. U kunt **Mijn keuze voor AEM koppelingen onthouden** om uw voorkeur op te slaan.
+1. Oxygeen XML-auteur selecteren *&lt;version>* in de **Toepassing starten** berichtvenster. U kunt **Mijn keuze voor AEM koppelingen onthouden** opslaan van uw voorkeur.
 
 **Een DITA-onderwerp bewerken**
 
@@ -579,11 +582,11 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
    >
    >Als het onderwerp niet is uitgecheckt, wordt het eerst uitgecheckt en vervolgens in de bewerkingsmodus geopend in Zuurstof.
 
-1. Oxygeen XML-auteur selecteren *&lt;version>* in de **Toepassing starten** berichtvenster. U kunt **Mijn keuze voor AEM koppelingen onthouden** om uw voorkeur op te slaan.
-1. Bewerk het onderwerp in de Oxygen XML-auteur.
-1. Inchecken van het onderwerp van de insteekmodule Zuurstof voor AEM hulplijnen.
+1. Oxygeen XML-auteur selecteren *&lt;version>* in de **Toepassing starten** berichtvenster. U kunt **Mijn keuze voor AEM koppelingen onthouden** opslaan van uw voorkeur.
+1. Bewerk het onderwerp in Oxygen XML Author.
+1. Controleer het onderwerp van de insteekmodule Zuurstof voor AEM hulplijnen.
 
-   Voor meer informatie over het inchecken van een onderwerp met de Zuurstofinsteekmodule voor AEM hulplijnen raadpleegt u [Een bestand inchecken](#id182CF0J0FHS).
+   Voor meer informatie over het inchecken van een onderwerp met de Zuurstofinsteekmodule voor AEM gidsen, zie [Een bestand inchecken](#id182CF0J0FHS).
 
    >[!NOTE]
    >
@@ -592,7 +595,7 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
 
 ## Werken met kenmerkprofielen {#id1827JA002YK}
 
-Met AEM hulplijnen kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met behulp van de relevante DITA-kenmerken. U kunt voorwaardelijke kenmerken definiëren op algemeen niveau of mapniveau. De globaal gedefinieerde voorwaarden zijn zichtbaar in alle projecten en mapniveauvoorwaarden zijn alleen zichtbaar in projecten die binnen de opgegeven map zijn gemaakt. Inhoudsauteurs kunnen deze voorwaardelijke kenmerken gebruiken om de inhoud in hun DITA-onderwerpen of -kaarten te conditionaliseren die ze maken of gebruiken. Ga voor meer informatie over het maken van voorwaardelijke kenmerken in AEM met de AEM hulplijnen naar *Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren.
+Met AEM hulplijnen kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met behulp van de relevante DITA-kenmerken. U kunt voorwaardelijke kenmerken definiëren op algemeen niveau of mapniveau. De globaal gedefinieerde voorwaarden zijn zichtbaar in alle projecten en mapniveauvoorwaarden zijn alleen zichtbaar in projecten die binnen de opgegeven map zijn gemaakt. Inhoudsauteurs kunnen deze voorwaardelijke kenmerken gebruiken om de inhoud in hun DITA-onderwerpen of -kaarten te conditionaliseren die ze maken of gebruiken. Voor meer informatie over het maken van voorwaardelijke kenmerken in AEM met behulp van de AEM hulplijnen raadpleegt u *Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren.
 
 >[!NOTE]
 >
@@ -604,13 +607,13 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken toe te voegen aan uw i
 1. Selecteer het gedeelte van de inhoud waarop u de voorwaardelijke kenmerken wilt toepassen.
 1. Dubbelklik op het voorwaardelijke kenmerk in het deelvenster Kenmerken van de Oxygen XML-auteur.
 
-   ![](images/attribute-panel.png)
+   ![deelvenster Kenmerken](images/attribute-panel.png){width="300" align="left"}
 
 1. In de **Beschikbaar** in het dialoogvenster Kenmerk bewerken selecteert u het kenmerk\(en\) en klikt u op **Toevoegen**.
 
    Het volgende scherm toont `audience` kenmerken.
 
-   ![](images/edit-attributes.png)
+   ![Dialoogvenster Kenmerken bewerken](images/edit-attributes.png){width="550" align="left"}
 
 1. Klikken **OK**.
 
@@ -653,7 +656,7 @@ Oplossing 3:
 
 **Probleem** - Wanneer u een DITA-OT-transformatie uitvoert op bestanden die door de insteekmodule worden verwerkt, mislukt de transformatie met de volgende fout:
 
-![](images/proxy-server-path-error-new.png)
+![Transformatiefout DITA-OT](images/proxy-server-path-error-new.png){width="800" align="left"}
 
 **Oplossing** - Dit probleem is opgelost door een proxyserver toe te voegen tussen DITA-OT en de insteekmodule. Deze proxyserver verwerkt en deelt alle bestanden die door DITA-OT zijn aangevraagd voor transformaties. De standaardpoort waarop deze server is geconfigureerd is: `5972`. Als u deze poort voor een andere server gebruikt, kunt u een andere poort voor de proxyserver opgeven.
 
@@ -668,46 +671,66 @@ Voer de volgende stappen uit om de standaardpoort van de proxyserver te wijzigen
 
 ### AEM deelvenster Hulplijnen bladert niet naar de geopende bestandslocatie
 
-Probleem: Wanneer u een bestand opent voor bewerking in de Oxygen XML-auteur van AEM server, wordt het bestand geopend voor bewerking in de Oxygen XML-auteur. AEM deelvenster Hulplijnen geeft echter niet de locatie van het bestand in de navigatiestructuur weer.
+Uitgave: wanneer u een bestand opent voor bewerking in de Oxygen XML-auteur van AEM server, wordt het bestand geopend voor bewerking in de Oxygen XML-auteur. In AEM deelvenster Hulplijnen wordt echter niet de locatie van het bestand in de boomstructuur weergegeven.
 
-Oplossing: Dit probleem is waargenomen in scenario&#39;s waarin het bestandspad tweemaal /content/dam bevat. Standaard worden alle elementen in AEM opgeslagen in de map /content/dam. Als u een mapstructuur uploadt of maakt die ook /content/dam bevat, wordt dit probleem waargenomen. U kunt alle normale bewerkingen op dergelijke bestanden uitvoeren, maar de locatie in de navigatiestructuur wordt niet standaard weergegeven. Als u dit bestand in de navigatiestructuur wilt openen, moet u handmatig naar de locatie van het bestand bladeren. Merk op dat in de navigatieboom de dubbele /content/dam weg door /content/assets wordt vervangen.
+Oplossing: dit probleem is waargenomen in scenario&#39;s waarin het bestandspad tweemaal /content/dam bevat. Standaard worden alle elementen in AEM opgeslagen in de map /content/dam. Als u een mapstructuur uploadt of maakt die ook /content/dam bevat, wordt dit probleem waargenomen. U kunt alle normale bewerkingen op dergelijke bestanden uitvoeren, maar de locatie in de navigatiestructuur wordt niet standaard weergegeven. Als u dit bestand in de navigatiestructuur wilt openen, moet u handmatig naar de locatie van het bestand bladeren. Merk op dat in de navigatieboom de dubbele /content/dam weg door /content/assets wordt vervangen.
 
 ### Logboek configureren
 
 Probleem: Standaard genereert de insteekmodule Zuurstof voor AEM hulplijnen geen logbestanden, waardoor het lastig is om fouten in een foutscenario op te sporen.
 
-Oplossing: Voer de volgende stappen uit om de functie voor het genereren van logbestanden in de insteekmodule in te schakelen:
+Oplossing: voer de volgende stappen uit om registreerapparaten voor Sygen en JxBrowser op te zetten:
 
-1. Blader naar de installatielocatie van de Oxygen XML-auteur.
+1. Oxygen XML-auteur sluiten
 
-1. Open het bestand oxyAuthor19.1.vmoptions in een teksteditor.
+1. Een bestand met de naam `logback.xml` met de volgende inhoud:
 
-   >[!NOTE]
-   >
-   >Het versienummer van het bestand kan afwijken, afhankelijk van het versienummer van de toepassing die op het systeem is geïnstalleerd.
-
-1. Voeg de volgende regel toe aan het bestand:
-
-   ```java
-   -Djava.util.logging.config.file=./log.properties
+   ```xml
+   <configuration>
+       <appender name="R2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+           <file>${user.home}/Desktop/oxygenLog/oxygen.log</file>
+           <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+               <fileNamePattern>${user.home}/Desktop/oxygenLog/oxygen%i.log.gz</fileNamePattern>
+               <minIndex>1</minIndex>
+               <maxIndex>20</maxIndex>
+           </rollingPolicy>
+           <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+               <maxFileSize>100MB</maxFileSize>
+           </triggeringPolicy>
+           <encoder>
+               <pattern>%r %marker %p [ %t ] %c - %m%n</pattern>
+           </encoder>
+       </appender> 
+   
+       <root level="debug">
+           <appender-ref ref="R2" />
+       </root>
+   </configuration>   
    ```
 
-1. Sla het bestand op en sluit het.
+1. Sla het bestand op in het dialoogvenster `Oxygen Author 25` directory. (Het pad zou bijvoorbeeld als volgt zijn: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
 
-1. Maak op dezelfde locatie een bestand met de naam log.properties met de volgende inhoud:
+1. Sluit het bestand. Hiermee worden Xygen-logs ingeschakeld, die beschikbaar zijn op het pad: `${user.home}/Desktop/oxygenLog/oxygen.log`
+1. Open de `oxygenAuthor.bat` in een teksteditor.
+1. Aan JxBrowser gerelateerde logbestanden instellen door de parameter toe te voegen
+   `-Denable.aem.jx.log=true`. Hierdoor zijn aan JxBrowser gerelateerde logbestanden mogelijk, die u kunt weergeven op het pad: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+
+
+
 
    ```java
-   handlers=java.util.logging.FileHandler
-   java.util.logging.FileHandler.level = DEBUG
-   java.util.logging.FileHandler.limit = 1048576
-   java.util.logging.FileHandler.count = 5
-   java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-   java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-   java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+   SET OXYGEN_JAVA=java.exe
+   if exist "%JAVA_HOME%\bin\java.exe" set OXYGEN_JAVA="%JAVA_HOME%\bin\java.exe"
+   if exist "%~dp0\jre\bin\java.exe" SET OXYGEN_JAVA="%~dp0\jre\bin\java.exe"
+   rem Set environment variables
+   call "%~dp0\env.bat"
+   %OXYGEN_JAVA% -XX:-OmitStackTraceInFastThrow -XX:SoftRefLRUPolicyMSPerMB=10 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true 
+   -Denable.aem.jx.log=true -Dsun.java2d.noddraw=true -Dsun.awt.nopixfmt=true -Dsun.java2d.dpiaware=true -Dsun.io.useCanonCaches=true -Dsun.io.useCanonPrefixCache=true 
+   -Dsun.awt.keepWorkingSetOnMinimize=true -Dcom.oxygenxml.app.descriptor=ro.sync.exml.AuthorFrameDescriptor
+    -Dcom.oxygenxml.ApplicationDataFolder="%APPDATA%" -cp %CP% ro.sync.exml.Oxygen %*
    ```
 
-1. Sla het bestand op en sluit het.
-1. Start Oxygen XML Author.
+
+Met de vorige stappen worden de logbestanden ingeschakeld en kunt u deze gebruiken om fouten op te sporen.
 
 
-Met de insteekmodule wordt nu een logbestand gemaakt in de homemap van de gebruiker met de bestandsnaam aem-pluginX.log \(*waarbij X het rotatienummer aangeeft*\).

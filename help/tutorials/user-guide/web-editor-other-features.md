@@ -1,8 +1,8 @@
 ---
 title: Andere functies in de webeditor
-description: Leer hoe te Andere eigenschappen in de Redacteur van het Web
+description: Meer informatie over andere functies in de webeditor
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -41,12 +41,12 @@ De verschillende opties in het contextmenu worden hieronder uitgelegd:
 
 - **Opslaan**: Als u een bestand wilt opslaan zonder een nieuwe versie te maken, selecteert u **Opslaan**. Wanneer u een nieuw onderwerp creeert, wordt een versie-minder werkend exemplaar van het onderwerp gecreeerd in DAM. Wanneer u uw document opslaat, wordt de werkkopie van uw document bijgewerkt in DAM. Het doen van eenvoudig sparen op deze versie leidt niet tot een nieuwe versie van een onderwerp. Als uw onderwerp onder overzicht is, geeft het bewaren van een onderwerp uw recensenten geen toegang tot uw veranderde onderwerpinhoud.
 
-- **Alles opslaan**: Als er veelvoudige documenten zijn die in de Redacteur van het Web worden geopend, dan krijgt u ook een optie om **Alles opslaan** geopende documenten.
+- **Alles opslaan**: Als er meerdere documenten zijn geopend in de webeditor, krijgt u ook een optie om **Alles opslaan** geopende documenten.
 
 
 ***Opslaan als nieuwe versie***
 
-Als u een nieuwe versie van het bestand wilt maken, selecteert u **Opslaan als nieuwe versie**. Voor meer informatie over **Opslaan** en **Opslaan als nieuwe versie**, zie [De functies van de webeditor kennen](web-editor-features.md#).
+Selecteer **Opslaan als nieuwe versie**. Voor meer informatie over **Opslaan** en **Opslaan als nieuwe versie**, zie [De functies van de webeditor kennen](web-editor-features.md#).
 
 ***Kopiëren***: U kunt uit de volgende opties kiezen:
 
@@ -56,9 +56,9 @@ Als u een nieuwe versie van het bestand wilt maken, selecteert u **Opslaan als n
 
 ***Zoeken in***: U kunt uit de volgende opties kiezen:
 
-- **Kaart**: Als u een grote kaart DITA hebt geopend en de nauwkeurige plaats van een dossier in de kaart wilt vinden, dan selecteren **Zoeken in \> Kaart**. Wanneer u de optie Zoeken op kaart selecteert, wordt het bestand \(vanwaar de optie wordt aangeroepen\) in de kaarthiërarchie geplaatst en gemarkeerd. Om deze eigenschap te kunnen gebruiken, moet u het kaartdossier in de Redacteur van het Web openen. Als de Kaartweergave verborgen is, wordt bij het aanroepen van deze functie de Kaartweergave weergegeven en wordt het bestand gemarkeerd in de kaarthiërarchie.
+- **Kaart**: Als u een grote DITA-kaart hebt geopend en u de exacte locatie van een bestand op de kaart wilt zoeken, selecteert u **Zoeken in \> Kaart**. Wanneer u de optie Zoeken op kaart selecteert, wordt het bestand \(vanwaar de optie wordt aangeroepen\) in de kaarthiërarchie geplaatst en gemarkeerd. Om deze eigenschap te kunnen gebruiken, moet u het kaartdossier in de Redacteur van het Web openen. Als de Kaartweergave verborgen is, wordt bij het aanroepen van deze functie de Kaartweergave weergegeven en wordt het bestand gemarkeerd in de kaarthiërarchie.
 
-- **Bewaarplaats**: Net als bij Zoeken op kaart is het **Zoeken in \> Repository** geeft de locatie van het bestand in de opslagplaats \(of DAM\) weer. De Weergave opslagplaats wordt geopend en het geselecteerde bestand wordt gemarkeerd in de opslagplaats. Als het bestand zich in een map bevindt, wordt die map uitgevouwen om de locatie van het geselecteerde bestand in de opslagplaats weer te geven.
+- **Bewaarplaats**: Vergelijkbaar met Zoeken op kaart, de optie **Zoeken in \> Repository** geeft de locatie van het bestand in de opslagplaats \(of DAM\) weer. De Weergave opslagplaats wordt geopend en het geselecteerde bestand wordt gemarkeerd in de opslagplaats. Als het bestand zich in een map bevindt, wordt die map uitgevouwen om de locatie van het geselecteerde bestand in de opslagplaats weer te geven.
 
 
 ***Toevoegen aan***: U kunt uit de volgende opties kiezen:
@@ -67,7 +67,7 @@ Als u een nieuwe versie van het bestand wilt maken, selecteert u **Opslaan als n
 
 
 
-- **Herbruikbare inhoud**: Selecteer **Toevoegen aan \> Herbruikbare inhoud**. Zie voor meer informatie de **Herbruikbare inhoud** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
+- **Herbruikbare inhoud**: Als u het geselecteerde bestand naar de lijst met herbruikbare inhoud wilt kopiëren, selecteert u **Toevoegen aan \> Herbruikbare inhoud**. Zie voor meer informatie de **Herbruikbare inhoud** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
@@ -78,9 +78,9 @@ Als u de pagina met AEM eigenschappen van het geselecteerde bestand wilt weergev
 
 ***Splitsen***: U kunt uit de volgende opties kiezen:
 
-**Omhoog, Omlaag, Links of Rechts**
+**Up, Down, Left of Right**
 
-Door gebrek, staat de Redacteur van het Web u toe om één onderwerp tegelijkertijd te bekijken. Er kunnen gevallen zijn waarin u twee of meer onderwerpen tegelijk wilt zien. Door het scherm van de editor te splitsen, kunt u meerdere onderwerpen tegelijk bekijken. Bijvoorbeeld, als u twee onderwerpen hebt - A en B geopend in de redacteur. Klikken met rechtermuisknop op onderwerp B en kiezen **\> Omhoog splitsen** verdeelt het editorvenster in twee delen. Onderwerp B wordt getoond in de hogere helft en Onderwerp A wordt getoond in de bodemhelft. U kunt het scherm ook horizontaal splitsen door **Splitsen \> Links** of **Splitsen \> Rechts**. De volgende schermafbeelding van de webeditor toont onderwerpen die horizontaal en verticaal zijn gesplitst. In elke splitsing kunt u een andere weergave gebruiken. In de volgende schermafbeelding bevindt scherm 1 zich bijvoorbeeld in de modus Bronweergave, heeft scherm 2 twee documenten geopend in de modus Auteur en is scherm 3 in de modus Voorvertoning. U kunt uw documenten van het ene scherm naar het andere verplaatsen door de bestandtab te slepen en neer te zetten op het scherm waar u deze wilt plaatsen. U kunt de tabvolgorde van bestanden ook wijzigen door ze naar wens te slepen en te verplaatsen.
+Door gebrek, staat de Redacteur van het Web u toe om één onderwerp tegelijkertijd te bekijken. Er kunnen zich gevallen voordoen waarin u twee of meer onderwerpen tegelijk wilt bekijken. Door het scherm van de editor te splitsen, kunt u meerdere onderwerpen tegelijk bekijken. Bijvoorbeeld, als u twee onderwerpen hebt - A en B geopend in de redacteur. Klikken met rechtermuisknop op onderwerp B en kiezen **\> Omhoog splitsen** verdeelt het editorvenster in twee delen. Onderwerp B wordt getoond in de hogere helft en Onderwerp A wordt getoond in de bodemhelft. U kunt het scherm ook horizontaal splitsen door **Splitsen \> Links** of **Splitsen \> Rechts**. De volgende schermafbeelding van de webeditor toont onderwerpen die horizontaal en verticaal zijn gesplitst. In elke splitsing kunt u een andere weergave gebruiken. In de volgende schermafbeelding bevindt scherm 1 zich bijvoorbeeld in de modus Bronweergave, heeft scherm 2 twee documenten geopend in de modus Auteur en is scherm 3 in de modus Voorvertoning. U kunt uw documenten van het ene scherm naar het andere verplaatsen door de bestandtab te slepen en neer te zetten op het scherm waar u deze wilt plaatsen. U kunt de tabvolgorde van bestanden ook wijzigen door ze naar wens te slepen en te verplaatsen.
 
 ![](images/split-editor.png){width="800" align="left"}
 
@@ -92,7 +92,7 @@ Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden ge
 
 **Sluiten**, **Overige sluiten**, of **Alles sluiten**
 
-Als u het bestand wilt sluiten waarvan u het contextmenu hebt aangeroepen, selecteert u **Sluiten \> Sluiten**. Gebruiken **\> Overige sluiten** om alle andere geopende bestanden te sluiten, behalve het momenteel actieve bestand. Als u alle geopende bestanden wilt sluiten, selecteert u de optie **\> Alles sluiten** in het contextmenu of u kunt er ook voor kiezen om de webeditor te sluiten. Als er niet-opgeslagen bestanden in uw sessie staan, wordt u gevraagd deze bestanden op te slaan.
+Als u het bestand wilt sluiten waarvan u het contextmenu hebt aangeroepen, selecteert u **Sluiten \> Sluiten**. Gebruiken **\> Overige sluiten** om alle andere geopende bestanden te sluiten, behalve het momenteel actieve bestand. Als u alle geopende bestanden wilt sluiten, selecteert u de **\> Alles sluiten** in het contextmenu of u kunt er ook voor kiezen om de webeditor te sluiten. Als er niet-opgeslagen bestanden in uw sessie staan, wordt u gevraagd deze bestanden op te slaan.
 
 **Bestanden sluiten en scenario&#39;s opslaan**
 
@@ -105,27 +105,27 @@ De herinneringen zijn gebaseerd op de volgende configuraties die door uw beheerd
 
 Uw ervaring met het opslaan van bestanden is afhankelijk van de volgende drie scenario&#39;s, waar u zich bevindt:
 
-- Er zijn geen wijzigingen aangebracht in de inhoud.
+- Geen wijzigingen aangebracht in de inhoud.
 - De inhoud is bewerkt en de wijzigingen zijn opgeslagen.
 - De inhoud is bewerkt, maar de wijzigingen zijn niet opgeslagen.
 
 Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of niet-opgeslagen wijzigingen zijn, ziet u mogelijk de volgende opties:
 
-- **Ontgrendelen en sluiten**: Het bestand wordt vergrendeld en het bestand wordt gesloten.
+- **Ontgrendelen en sluiten**: De vergrendeling van het bestand wordt ongedaan gemaakt en het bestand wordt gesloten.
 
-   ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **Opslaan als nieuwe versie**: Hiermee slaat u de wijzigingen op die u in de inhoud hebt aangebracht en maakt u een nieuwe versie van het bestand. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het opslaan van een nieuwe versie raadpleegt u [Opslaan als nieuwe versie](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **Het bestand ontgrendelen**: Als u een bestand ontgrendelt, wordt de vergrendeling van het bestand opgeheven en worden de wijzigingen opgeslagen in de huidige versie van het bestand.
 
->[!NOTE]
->
-> Als u de optie uitschakelt om het bestand te ontgrendelen, kunt u ook het bestand sluiten zonder de wijzigingen op te slaan.
+  >[!NOTE]
+  >
+  > Als u de optie uitschakelt om het bestand te ontgrendelen, kunt u ook het bestand sluiten zonder de wijzigingen op te slaan.
 
-Een van de aanwijzingen wordt bijvoorbeeld weergegeven in de volgende schermafbeelding:
+  Een van de aanwijzingen wordt bijvoorbeeld weergegeven in de volgende schermafbeelding:
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **Visuele aanwijzingen voor verbroken verwijzingen**
 
@@ -149,15 +149,15 @@ Een van de aanwijzingen wordt bijvoorbeeld weergegeven in de volgende schermafbe
 
 **Ondersteuning voor opmaakdocumenten**
 
-- In de webeditor kunt u Markeringen gebruiken voor documenten \(.md\) en voor uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur. Zie voor meer informatie [De documenten van de Prijsverhoging van de auteur van het Web van de Redacteur](web-editor-markdown-topic.md#).
+- In de webeditor kunt u Markeringen gebruiken voor documenten \(.md\) en voor uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur. Zie voor meer informatie [De documenten van de Prijsverhoging van de auteur van het Web](web-editor-markdown-topic.md#).
 
 **Steun voor DITA verklarende woordenlijstterm onderwerp**
 
-- De Redacteur van het Web steunt verklarende woordenlijst DITA die u kunt opnemen door toe te voegen `term` of `abbreviated-form` elementen.
+- De Redacteur van het Web steunt verklarende woordenlijst DITA die u door kunt opnemen toevoegen `term` of `abbreviated-form` elementen.
 
 **MathML-vergelijkingen invoegen**
 
-- AEM Gidsen geeft u een uit-van-de-doos steun voor het opnemen van vergelijkingen MathML door integratie met [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing. Als u een MathML-vergelijking wilt invoegen, klikt u op de knop **Element invoegen** pictogram en type mathml. Wanneer u een mathml-element in de lijst selecteert, wordt het dialoogvenster MathML invoegen weergegeven:
+- AEM Gidsen geeft u een uit-van-de-doos steun voor het opnemen van vergelijkingen MathML door integratie met [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing. Als u een MathML-vergelijking wilt invoegen, klikt u op de **Element invoegen** pictogram en type mathml. Wanneer u een mathml-element in de lijst selecteert, wordt het dialoogvenster MathML invoegen weergegeven:
 
 ![](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -171,7 +171,7 @@ U kunt op elk gewenst moment een vergelijking bijwerken door met de rechtermuisk
 
 - Voetnoot in uw inhoud invoegen met de opdracht `fn` element. In de ontwerpmodus wordt de voetnootwaarde inline weergegeven met de inhoud. Wanneer u echter van de modus Voorvertoning overschakelt of uw document publiceert, wordt de voetnoot aan het einde van het onderwerp weergegeven.
 
-**De naam van een element wijzigen of een element vervangen**
+**Een element hernoemen of vervangen**
 
 - De redacteur van het Web toont de broodkruimel van het element bij de bovenkant van het onderwerp. Als u een element wilt omwisselen of vervangen door een ander element, kunt u dit doen via het contextmenu van de broodkruimel. U kunt bijvoorbeeld wisselen `p` element met `note` of een ander geldig element in de context.
 

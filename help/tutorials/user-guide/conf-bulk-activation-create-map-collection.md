@@ -2,9 +2,9 @@
 title: Een verzameling bulkactiveringskaarten maken
 description: Leer hoe u een verzameling bulkactiveringskaarten maakt
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -48,25 +48,29 @@ Voer de volgende stappen uit om een bulkactiveringskaartverzameling te maken:
 
 Op het tabblad Kaarten en Voorinstellingen vindt u informatie in de volgende kolommen:
 
-- **Kaart**: Toont de titel van het DITA kaartdossier.
-- **Pad toewijzen**: Toont de volledige weg van het DITA kaartdossier.
+- **Kaart**: geeft de titel van het DITA-kaartbestand weer.
+- **Pad toewijzen**: geeft het volledige pad van het DITA-kaartbestand weer.
 
 - **UUID**: Hiermee wordt de unieke id weergegeven die aan het bestand is gekoppeld.
 
-- **Taal**: Toont de taalcode van de kaart DITA.
-- **Voorinstelling**: Hiermee wordt het type uitvoervoorinstelling weergegeven dat op het kaartbestand is geconfigureerd.
-- **Gewijzigd**: Geeft aan of de DITA-kaart wordt bijgewerkt na de laatste publicatie. Op basis van deze informatie kunt u beslissen of u de uitvoer voor deze DITA-kaart wilt activeren.
-- **Gegenereerd**: Hiermee geeft u de datum en tijd weer van de laatste gegenereerde uitvoer.
+- **Taal**: Geeft de taalcode van de DITA-kaart weer.
+- **Voorinstelling**: Hiermee geeft u de titel weer van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Het pictogram wordt ook weergegeven op basis van het type uitvoervoorinstelling.
+
+  >[!NOTE]
+  >
+  > De kleine ![](images/global-preset-icon.svg) geeft een voorinstelling voor het mapprofielniveau aan.
+- **gewijzigd**: Geeft aan of de DITA-kaart wordt bijgewerkt na de laatste publicatie. Op basis van deze informatie kunt u beslissen of u de uitvoer voor deze DITA-kaart wilt activeren.
+- **Gegenereerd**: Geeft de datum en tijd weer van de laatst gegenereerde uitvoer.
 - **Gepubliceerd**: Geeft de datum en tijd weer van de laatst gepubliceerde uitvoer \(of geactiveerd\). Als u op de koppeling klikt, wordt op de pagina Activeringsresultaten informatie weergegeven over het hoofdpad waar de inhoud is geactiveerd.
 
 
 De volgende filteropties zijn beschikbaar in het linkerdeelvenster:
 
-- **Gewijzigd**: U kunt Ja of Nee selecteren. Als u ja selecteert, slechts worden de gewijzigde kaarten DITA getoond. Een gewijzigde kaart is een kaart die is gegenereerd sinds deze voor het laatst is gepubliceerd.
+- **gewijzigd**: U kunt Ja of Nee selecteren. Als u ja selecteert, slechts worden de gewijzigde kaarten DITA getoond. Een gewijzigde kaart is een kaart die is gegenereerd sinds deze voor het laatst is gepubliceerd.
 - **Voorinstelling**: Selecteer een voorinstelling waarvoor u de kaartbestanden wilt uitfilteren. Als u bijvoorbeeld *Site AEM* voorinstelling, worden alleen de kaarten weergegeven die de *Site AEM* uitvoervoorinstelling geconfigureerd op deze apparaten.
-- **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal tonen op het Kaarten en stelt lusje vooraf in.
+- **Taal**: U kunt alle beschikbare taalcodes selecteren en alleen de geselecteerde taal weergeven op het tabblad Kaarten en Voorinstellingen.
 
 - **Filter:** In de laatste spoorstaaf worden de volgende filters getoond:
-- **Kaarten en voorinstellingen** tabel: De tabbladen Kaarten en Voorinstellingen hebben de volgende kolommen:
+- **Kaarten en voorinstellingen** tabel: de tabbladen Kaarten en Voorinstellingen hebben de volgende kolommen:
 
 **Bovenliggend onderwerp:**[ Bulkactivering van gepubliceerde inhoud](conf-bulk-activation.md)

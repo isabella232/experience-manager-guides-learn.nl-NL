@@ -2,9 +2,9 @@
 title: Onderwerpen bekijken
 description: Leer hoe u onderwerpen kunt beoordelen
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
 
 
-
    Het volgende scherm verschijnt wanneer een kaart DITA wordt gebruikt om het overzichtswerkschema in werking te stellen:
 
    ![](images/multiple-topics-review.png){width="800" align="left"}
@@ -44,16 +43,21 @@ Voer de volgende stappen uit om een onderwerp te herzien:
    - **A**: De naam van de revisietaak.
    - **B**: Klik op het pictogram Onderwerpweergave om het deelvenster Onderwerpen weer te geven of te verbergen.
 
-   - **C**: De getallen gemarkeerd door ***F*** U kunt filteren door hier de gewenste filteroptie te kiezen. U kunt opmerkingen filteren op type, status, revisor of versie. Als u bijvoorbeeld wilt zien hoeveel doorhalingsopmerkingen zijn gemaakt in elk van de onderwerponderwerpen, klikt u op het filterpictogram en kiest u **Type revisie** \> **Verwijderen**.
+   - **C**: U kunt naar het vereiste onderwerp zoeken door een deel van de tekst van de titel of het bestandspad in te voeren in de zoekbalk.
 
-      >[!NOTE]
-      >
-      > Bij het toepassen van de filters worden alleen de opmerkingen weergegeven die overeenkomen met de geselecteerde filters. Het aantal gefilterde opmerkingen wordt links in het deelvenster Onderwerpen weergegeven.
+     Selecteren  ![](images/view-options.svg) in de zoekbalk om alle onderwerpen of onderwerpen met opmerkingen weer te geven. Standaard kunt u alle onderwerpen in de overzichtstaak weergeven.
 
-   - **D**: Een onderwerp dat voor overzicht aan de huidige recensent wordt toegewezen wordt getoond in zwart en klikbaar. Wanneer de recensent op een onderwerpverbinding klikt die het onderwerp aan de bovenkant van het scherm wordt gebracht.
-   - **E**: Een onderwerp dat niet beschikbaar is voor overzicht wordt grijs weergegeven. Het onderwerp wordt getoond op read-only wijze en u wordt niet toegestaan om het even welke overzichtscommentaren over dergelijke onderwerpen toe te voegen.
 
-   - **F**: Aantal ontvangen opmerkingen over een onderwerp. Dit getal verandert op basis van het filter dat u toepast.
+   - **D**: De getallen gemarkeerd door ***F*** U kunt filteren door hier de gewenste filteroptie te kiezen. U kunt opmerkingen filteren op type, status, revisor of versie. Als u bijvoorbeeld wilt zien hoeveel doorhalingsopmerkingen zijn gemaakt in elk van de onderwerponderwerpen, klikt u op het filterpictogram en kiest u **Type revisie** \> **Verwijderen**.
+
+     >[!NOTE]
+     >
+     > Bij het toepassen van de filters worden alleen de opmerkingen weergegeven die overeenkomen met de geselecteerde filters. Het aantal gefilterde opmerkingen wordt links in het deelvenster Onderwerpen weergegeven.
+
+   - **E**: Een onderwerp dat voor overzicht aan de huidige recensent wordt toegewezen wordt getoond in zwart en klikbaar. Wanneer de recensent op een onderwerpverbinding klikt die het onderwerp aan de bovenkant van het scherm wordt gebracht.
+   - **F**: Een onderwerp dat niet beschikbaar is voor revisie wordt grijs weergegeven. Het onderwerp wordt getoond op read-only wijze en u wordt niet toegestaan om het even welke overzichtscommentaren over dergelijke onderwerpen toe te voegen.
+
+   - **G**: Aantal ontvangen opmerkingen over een onderwerp. Dit getal verandert op basis van het filter dat u toepast.
 
    Alle onderwerpen in de kaart worden getoond als één enkel samengesteld document. De onderwerpen die de controleur mag beoordelen, worden normaal weergegeven. De onderwerpen die de revisie niet mag reviseren, worden niet weergegeven.
 
@@ -93,22 +97,22 @@ Wanneer u één onderwerp bekijkt, krijgt u een extra optie om terug naar de doc
 
 - **Markeren** \(![](images/review-highlight-icon.svg)\): Als u een gemarkeerde opmerking wilt toevoegen, selecteert u de tekst en klikt u op het pictogram Markeren. U kunt ook op het pictogram Hooglicht klikken en de gewenste tekst selecteren:
 
-   ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650" align="left"}
 
-   Er verschijnt een pop-up in het venster Opmerkingen waarin u uw opmerking voor de gemarkeerde inhoud kunt toevoegen.
+  Er verschijnt een pop-up in het venster Opmerkingen waarin u uw opmerking voor de gemarkeerde inhoud kunt toevoegen.
 
-- **Doorhalen** \(![](images/review-text-strike-through-icon.svg)\): Als u wilt voorstellen de inhoud te verwijderen, kunt u dit doen door de inhoud te selecteren en op het pictogram Doorhalen te klikken. Of selecteer de gewenste tekst en klik op de toets Verwijderen:
+- **Doorhalen** \(![](images/review-text-strike-through-icon.svg)\): Als u wilt voorstellen de inhoud te verwijderen, selecteert u de inhoud en klikt u op het pictogram Doorhalen. Of selecteer de gewenste tekst en klik op de toets Verwijderen:
 
-   Er verschijnt een pop-up in het venster Opmerkingen waarin u uw opmerking voor de verwijderde inhoud kunt toevoegen.
+  Er verschijnt een pop-up in het venster Opmerkingen waarin u uw opmerking voor de verwijderde inhoud kunt toevoegen.
 
 - **Tekst invoegen** \(![](images/review-insert-text-icon.svg)\): Als u tekst wilt invoegen, klikt u op het pictogram Tekst invoegen en plaatst u de cursor op de plaats waar u de tekst wilt invoegen en typt u de informatie. Of plaats de cursor op de plaats waar u tekst wilt invoegen en begin te typen. De toegevoegde informatie wordt weergegeven in een groen gekleurd lettertype:
 
-- **Opmerking toevoegen**\(![](images/review-comment-icon.svg)\): Als u een notitietype voor opmerkingen wilt toevoegen, klikt u op het pictogram Opmerking toevoegen en voert u de opmerking in het pop-upvenster in.
+- **Opmerking toevoegen**\(![](images/review-comment-icon.svg)\): Als u een notitietype opmerking wilt toevoegen, klikt u op het pictogram Opmerking toevoegen en voert u de opmerking in het pop-upvenster in.
 
 
 **Contextafhankelijke werkbalk**
 
-U kunt tekst ook snel markeren of doorhalen met de contextafhankelijke werkbalk. Voer de volgende stappen uit om opmerkingen toe te voegen met de contextafhankelijke werkbalk:
+U kunt tekst ook snel markeren of doorhalen met de contextuele werkbalk. Voer de volgende stappen uit om opmerkingen toe te voegen met de contextafhankelijke werkbalk:
 
 1. Selecteer de tekst die u wilt markeren of doorhalen. De contextafhankelijke werkbalk wordt weergegeven.
 
@@ -128,13 +132,13 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 - U kunt uw eigen opmerking bewerken door op de tekst met opmerkingen in het venster Opmerkingen te klikken en vervolgens **Bewerken** in het menu Opties.
 - U kunt uw eigen opmerkingen verwijderen door op de opmerking te klikken in het venster Opmerkingen en vervolgens de **Verwijderen** in het menu Opties.
 
-   ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300" align="left"}
 
-   >[!NOTE]
-   >
-   > Het menu Opties wordt alleen weergegeven wanneer u de muisaanwijzer op uw eigen opmerkingen plaatst. Deze wordt niet weergegeven voor de opmerkingen van andere revisoren.
+  >[!NOTE]
+  >
+  > Het menu Opties wordt alleen weergegeven wanneer u de muisaanwijzer op uw eigen opmerkingen plaatst. Deze wordt niet weergegeven voor de opmerkingen van andere revisoren.
 
-- Alle deelnemende gebruikers kunnen reageren op opmerkingen die door andere gebruikers zijn ingediend. Klik op een opmerking **Reageren** en druk op Enter om een reactie te verzenden.
+- Alle deelnemende gebruikers kunnen reageren op opmerkingen die door andere gebruikers zijn ingediend. Klik op een opmerking **Antwoord** en druk op Enter om een reactie te verzenden.
 
 **Voorvertoningsmodus**
 
@@ -175,7 +179,7 @@ Voer de volgende stappen uit om bijlage aan uw commentaar toe te voegen:
 
 **Aanvullende opmerkingen over het werken met bijlagen:**
 
-- Standaard worden slechts twee bestanden weergegeven die zijn gekoppeld aan een opmerking. Als er meer bestanden zijn, **Bijlage weergeven** rechts ziet u het aantal bijlagen \(meer dan twee\) dat aan de opmerking is gekoppeld. U kunt op het nummer klikken om alle bijlagen weer te geven. Als u bijvoorbeeld vier bijlagen met een opmerking hebt, ziet u +2 op de knop.
+- Standaard worden slechts twee bestanden weergegeven die zijn gekoppeld aan een opmerking. Als er meer bestanden zijn, **Bijlage weergeven** rechts ziet u het aantal bijlagen \(meer dan twee\) dat aan de opmerking is gekoppeld. Klik op het nummer om alle bijlagen weer te geven. Als u bijvoorbeeld vier bijlagen met een opmerking hebt, ziet u +2 op de knop.
 
 ![](images/review-view-attachment.png){width="550" align="left"}
 
@@ -187,9 +191,9 @@ De andere revisoren of auteurs krijgen alleen de optie voor downloadbijlagen.
 
 ![](images/other-reviewer-download.png){width="550" align="left"}
 
-- U kunt alle bijlagen die aan een opmerking zijn gekoppeld, downloaden van het menu **Bijlagen weergeven** . Selecteer de bijlagen en klik op de knop **Downloaden** op het niveau van de opmerking.
+- U kunt alle bijlagen die aan een opmerking zijn gekoppeld, downloaden van het menu **Bijlagen weergeven** in. Selecteer de bijlagen en klik op de knop **Downloaden** op het niveau van de opmerking.
 
-- U kunt ook de bijlagen die aan een opmerking zijn gekoppeld, verwijderen uit het dialoogvenster **Bijlagen weergeven** . Selecteer de bijlagen en klik op de knop **Verwijderen** pictogram.
+- U kunt ook de bijlagen die aan een opmerking zijn gekoppeld, verwijderen uit het dialoogvenster **Bijlagen weergeven** in. Selecteer de bijlagen en klik op de knop **Verwijderen** pictogram.
 
 ![](images/attach-files-comments-panel.png){width="550" align="left"}
 
@@ -198,14 +202,14 @@ De andere revisoren of auteurs krijgen alleen de optie voor downloadbijlagen.
 
 : Standaard **Alle voorwaarden markeren** is ingeschakeld, worden alle voorwaarden geselecteerd, wordt de volledige inhoud weergegeven en wordt de geconditioneerde inhoud weergegeven als gemarkeerd in de revisie- en voorvertoningsmodus.
 
-: U kunt **Alle voorwaarden markeren** en ziet alle inhoud in het onderwerp als normale tekst zonder hooglichten.
+: U kunt deze uitschakelen **Alle voorwaarden markeren** en ziet alle inhoud in het onderwerp als normale tekst zonder hooglichten.
 
 ![](images/review-conditions-panel.png){width="350" align="left"}
 
 U kunt een bepaalde voorwaarde verbergen of weergeven.
 
 - Als u een voorwaarde verbergt, wordt de inhoud met die voorwaarde niet gemarkeerd in de revisiemodus.
-- Als u een voorwaardelijk geconditioneerde inhoud weergeeft, wordt deze gemarkeerd in de beoordelingsmodus. In de volgende schermafbeelding gebruikt bijvoorbeeld alleen de inhoud twee voorwaarden - `win` en `mac` wordt gemarkeerd.
+- Als u een voorwaardelijk geconditioneerde inhoud weergeeft, wordt deze gemarkeerd in de revisiemodus. In de volgende schermafbeelding gebruikt bijvoorbeeld alleen de inhoud twee voorwaarden - `win` en `mac` wordt gemarkeerd.
 
 
 ![](images/review-condition-normal-mode.png){width="650" align="left"}
@@ -220,17 +224,17 @@ In de voorvertoningsmodus is dit de niet-geconditioneerde inhoud en de geconditi
 
 - Klikken op pictogram Verouderde opmerking \()![](images/outdated-comment-icon.svg)\) geeft de verschillen tussen de meest recente versie en de versie met opmerkingen van het document weer. De versienummers \(van de versies die worden vergeleken\) worden boven aan de documenten weergegeven.
 
-   ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800" align="left"}
 
-   >[!NOTE]
-   >
-   > Wanneer u de muisaanwijzer op het pictogram Verouderde opmerking plaatst, wordt het versienummer weergegeven van het onderwerp waarop de opmerking is toegevoegd. Als bijvoorbeeld een opmerking is gegeven op versie 1.0, wordt hetzelfde weergegeven.
+  >[!NOTE]
+  >
+  > Wanneer u de muisaanwijzer op het pictogram Verouderde opmerking plaatst, wordt het versienummer weergegeven van het onderwerp waarop de opmerking is toegevoegd. Als bijvoorbeeld een opmerking is gegeven op versie 1.0, wordt hetzelfde weergegeven.
 
 - Als u op een verouderde opmerking klikt, wordt de versie van die opmerking in het linkerdeelvenster geopend. De vorige versie wordt weergegeven in het linkerdeelvenster en de huidige versie wordt weergegeven in het rechterdeelvenster. Alle opmerkingen over de verouderde versie worden links geïmporteerd. U kunt de vorige versie vergelijken met de huidige versie.
 
-**Opmerkingen filteren** - U kunt opmerkingen in een document filteren om specifieke opmerkingen naar wens weer te geven. Als u opmerkingen wilt filteren, klikt u op de knop **Filter** pictogram \(![](images/filter-search-icon.svg)\) die wordt weergegeven in het menu rechts van het tekstvak Zoeken in opmerkingen in het venster Opmerkingen.
+**Opmerkingen filteren** - U kunt opmerkingen in een document filteren om specifieke opmerkingen naar wens weer te geven. Als u opmerkingen wilt filteren, klikt u op de **Filter** pictogram \(![](images/filter-search-icon.svg)\) die wordt weergegeven in het menu rechts van het tekstvak Zoeken in opmerkingen in het venster Opmerkingen.
 
-Selecteer een of meer van de volgende filteropties in het menu **Filtertype** en klik op **Toepassen**.
+Selecteer een of meer van de volgende filteropties in het menu **Filtertype** dialoogvenster en klik op **Toepassen**.
 
 - **Type revisie** - Filter op basis van het type opmerking: Markeren, Verwijderen, Invoegen of Opmerking.
 - **Status controleren** - Filter op basis van de status van de opmerking, zoals Geaccepteerd, Afgewezen of Geen.
@@ -238,9 +242,9 @@ Selecteer een of meer van de volgende filteropties in het menu **Filtertype** en
 
 - **Versies** - Filter op basis van de ontvangen opmerkingen over een bepaalde versie van het onderwerp.
 
-   Als u de filters gebruikt, worden de opmerkingen in het rechtervenster gefilterd op basis van de selectie en wordt het aantal opmerkingen in het linkervenster dienovereenkomstig bijgewerkt.
+  Als u de filters gebruikt, worden de opmerkingen in het rechtervenster gefilterd op basis van de selectie en wordt het aantal opmerkingen in het linkervenster dienovereenkomstig bijgewerkt.
 
 
-Als u het filter wilt verwijderen en alle opmerkingen wilt weergeven, deselecteert u alle filters in het dialoogvenster **Filtertype** en klik op **Toepassen**.
+Als u het filter wilt verwijderen en alle opmerkingen wilt weergeven, deselecteert u alle filters in het dialoogvenster **Filtertype** dialoogvenster en klik op **Toepassen**.
 
 **Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)

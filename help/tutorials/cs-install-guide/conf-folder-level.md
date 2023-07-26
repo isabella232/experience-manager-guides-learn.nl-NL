@@ -1,7 +1,7 @@
 ---
 title: Profielen op algemeen niveau of mapniveau configureren
 description: Leer hoe u algemene profielen of mapprofielen configureert
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
 workflow-type: tm+mt
 source-wordcount: '3962'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Ook, kunt u de omslag-specifieke configuraties aan een afdeling of productbeheer
 
 Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen configureren onder de volgende tabbladen:
 
-![](assets/folder-profile-tabs.png)
+![](assets/folder-profile-tabs.png){width="800" align="left"}
 
 - **Algemeen**: Het algemene tabblad is alleen beschikbaar wanneer u instellingen op mapniveau \(of project/product\) configureert. U kunt instellingen configureren, zoals de mappaden waarop de instellingen van toepassing zijn en gebruikers die beheerdersrechten hebben om configuraties te maken of bij te werken.
 
-- **Voorwaardelijke kenmerken**: Op dit tabblad kunt u voorwaardelijke kenmerken op algemeen of mapniveau configureren. Een voorwaardelijk kenmerk is een combinatie van de naam en de waarde van het kenmerk en u kunt er ook een label voor definiëren. U kunt de standaard attributen DITA of uw eigen douanekenmerken gebruiken. De voorwaardelijke attributen die u op het globale niveau bepaalt worden ter beschikking gesteld aan alle gebruikers over projecten. Als u voorwaardelijke kenmerken op mapniveau hebt gedefinieerd, worden deze samengevoegd met de algemeen gedefinieerde voorwaardelijke kenmerken.
+- **Voorwaardelijke kenmerken**: Gebruik dit tabblad om voorwaardelijke kenmerken op algemeen of mapniveau te configureren. Een voorwaardelijk kenmerk is een combinatie van de naam en de waarde van het kenmerk en u kunt er ook een label voor definiëren. U kunt de standaard attributen DITA of uw eigen douanekenmerken gebruiken. De voorwaardelijke attributen die u op het globale niveau bepaalt worden ter beschikking gesteld aan alle gebruikers over projecten. Als u voorwaardelijke kenmerken op mapniveau hebt gedefinieerd, worden deze samengevoegd met de algemeen gedefinieerde voorwaardelijke kenmerken.
 
-- **Ontwerpsjabloon**: Op dit tabblad kunt u de sjablonen configureren die uw auteurs zullen gebruiken om DITA-inhoud te maken. De volgende onderwerpmalplaatjes zijn beschikbaar uit-van-de-doos:
+- **Ontwerpsjabloon**: Gebruik dit tabblad om de sjablonen te configureren die uw auteurs zullen gebruiken om DITA-inhoud te maken. De volgende onderwerpmalplaatjes zijn beschikbaar uit-van-de-doos:
 
    - Verklarende woordenlijst
 
@@ -45,7 +45,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
   >[!NOTE]
   >
-  > U kunt om het even welke bestaande malplaatjes als basis gebruiken om nieuwe malplaatjes tot stand te brengen. De lege DITA-sjabloon bevat geen structuur of elementen zoals de andere sjablonen. U kunt om het even welke malplaatjes OOTB DITA als basis gebruiken, wijzigingen aanbrengen aan het, en het bewaren met een verschillende naam. Nadat u de vereiste wijzigingen hebt aangebracht, voegt u de bijgewerkte sjabloon toe aan de configuratie van de algemene ontwerpsjablonen of de ontwerpsjablonen op mapniveau en wordt deze vervolgens beschikbaar voor ontwerpen.
+  > U kunt alle bestaande sjablonen als basis gebruiken om nieuwe sjablonen te maken. De lege DITA-sjabloon bevat geen structuur of elementen zoals de andere sjablonen. U kunt om het even welke malplaatjes OOTB DITA als basis gebruiken, wijzigingen aanbrengen aan het, en het bewaren met een verschillende naam. Nadat u de vereiste wijzigingen hebt aangebracht, voegt u de bijgewerkte sjabloon toe aan de configuratie van de algemene ontwerpsjablonen of de ontwerpsjablonen op mapniveau en wordt deze vervolgens beschikbaar voor ontwerpen.
 
   Samen met onderwerpmalplaatjes, kunt u de kaartmalplaatjes ook bepalen die aan auteurs ter beschikking zullen worden gesteld. De volgende kaartsjablonen zijn beschikbaar buiten de box:
 
@@ -53,7 +53,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
    - Bladwijzer
 
-- **Uitvoervoorinstelling**: Net als voor ontwerpsjablonen zijn er vijf vooraf geconfigureerde uitvoervoorinstellingen:
+- **Uitvoervoorinstelling**: Net als bij ontwerpsjablonen zijn er vijf vooraf geconfigureerde uitvoervoorinstellingen:
 
    - Site AEM
 
@@ -61,7 +61,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
    - HTML5
 
-   - ePub
+   - EPUB
 
    - Aangepast
 
@@ -93,7 +93,7 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
    Voor het eerst wordt op de pagina Mapprofielen alleen de algemene profieltegel weergegeven.
 
-   ![](assets/folder-profile-global.png)
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Klik op de knop **Globaal profiel** tegel.
 
@@ -103,7 +103,7 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
 1. Om te vormen **Voorinstellingen uitvoer**, zie [Uitvoervoorinstellingen configureren](#id18AGD0IH0Y4).
 
-1. Om de Configuratie van de Redacteur van XML te vormen, zie [Vorm en pas de Redacteur van het Web van XML aan](#id2065G300O5Z).
+1. Zie voor informatie over het configureren van XML Editor [De XML-webeditor configureren en aanpassen](#id2065G300O5Z).
 
 1. Nadat u alle vereiste updates hebt uitgevoerd, slaat u het bestand op en sluit u het **Globaal profiel**.
 
@@ -122,7 +122,7 @@ Voer de volgende stappen uit om een profiel op mapniveau te configureren:
 
 1. Klikken **Maken**.
 
-   ![](assets/create-folder-profile.png)
+   ![](assets/create-folder-profile.png){width="300" align="left"}
 
 1. Voer de volgende gegevens in het dialoogvenster **Mapprofiel maken** dialoogvenster:
    - Naam van het mapprofiel.
@@ -152,7 +152,7 @@ Voer de volgende stappen uit om een profiel op mapniveau te configureren:
    >
    > Controleer of aan de map die u hier kiest, geen ander mapprofiel is gekoppeld.
 
-1. Als u een gebruiker wilt toevoegen, selecteert u een gebruiker in het menu **Admin-gebruikers** vervolgkeuzelijst en klik op **Toevoegen**.
+1. Om een gebruiker toe te voegen, selecteer een gebruiker van **Admin-gebruikers** vervolgkeuzelijst en klikken **Toevoegen**.
 
    >[!NOTE]
    >
@@ -199,7 +199,7 @@ Voer de volgende stappen uit om standaard door DITA ondersteunde voorwaardelijke
 
 1. Als u meer waarden voor hetzelfde kenmerk wilt toevoegen, klikt u op de knop **+** en voert u de extra waarde en het label in.
 
-1. Als u meer kenmerken wilt toevoegen, klikt u op **Toevoegen**.
+1. Klik op **Toevoegen**.
 
 1. Klikken **Opslaan**.
 
@@ -227,11 +227,11 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 
 ## Ontwerpsjablonen configureren {#id1889D0IL0Y4}
 
-AEM Hulplijnen worden geleverd met 7 ontwerpsjablonen buiten de box en 2 DITA-kaartsjablonen. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie. U gebruikt het lusje van het Malplaatje van de Authoring in de configuratie van de Profielen van de Omslag om onderwerp of kaartmalplaatjes van globale of omslag-vlakke profielen toe te voegen of te verwijderen.
+AEM Hulplijnen worden geleverd met 7 ontwerpsjablonen buiten de box en 2 DITA-kaartsjablonen. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie. U gebruikt het tabblad Ontwerpsjabloon in de configuratie Mapprofielen om onderwerp- of kaartsjablonen toe te voegen aan of te verwijderen uit algemene profielen of uit mapprofielen.
 
 Zelfs alvorens het onderwerp of de kaartmalplaatjes op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douane auteursmalplaatjes op te slaan. Om een douaneplaats te vormen om auteursmalplaatjes op te slaan, zie [Aangepast pad voor DITA-sjabloonmap configureren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Voer de volgende stappen uit om het onderwerp of kaartmalplaatjes in een omslagprofiel toe te voegen:
+Voer de volgende stappen uit om het onderwerp of de kaartmalplaatjes in een omslagprofiel toe te voegen:
 
 1. Meld u aan bij Adobe Experience Manager als beheerder of als de gebruiker beheerdersrechten heeft voor een profiel op mapniveau.
 
@@ -289,7 +289,7 @@ Als u de sjablonen op een mapniveau-profiel hebt geconfigureerd, worden de gecon
 
 ## Aangepaste ontwerpsjabloon maken {#id1917D0EG0HJ}
 
-Met AEM hulplijnen kunt u eenvoudig ontwerpsjablonen maken. Als systeembeheerder, kunt u de Redacteur van het Web gebruiken om auteursmalplaatjes van kras tot stand te brengen. Vervolgens kunt u de nieuwe sjabloon in het algemene profiel toevoegen of aan een specifieke map toewijzen met behulp van het mapspecifieke profiel.
+Met AEM hulplijnen kunt u eenvoudig ontwerpsjablonen maken. Als systeembeheerder, kunt u de Redacteur van het Web gebruiken om auteursmalplaatjes van kras tot stand te brengen. Vervolgens kunt u de nieuwe sjabloon toevoegen aan het algemene profiel of deze toewijzen aan een specifieke map met behulp van het mapspecifieke profiel.
 
 Voer de volgende stappen uit om een aangepaste ontwerpsjabloon te maken:
 
@@ -323,12 +323,12 @@ Voer de volgende stappen uit om een aangepaste ontwerpsjabloon te maken:
 
    Het bericht Gemaakt onderwerp wordt weergegeven.
 
-   U kunt verkiezen om het malplaatje voor het uitgeven in de Redacteur van het Web te openen, of het malplaatjedossier in de plaats van de malplaatjeopslag op te slaan. Zodra het malplaatje wordt gecreeerd, kunt u de Redacteur van het Web gebruiken om het malplaatje volgens uw auteursbehoeften aan te passen. Als een sjabloon eenmaal is ingesteld, moet u deze koppelen aan een algemeen profiel of aan een profiel op mapniveau.
+   U kunt verkiezen om het malplaatje voor het uitgeven in de Redacteur van het Web te openen, of het malplaatjedossier in de plaats van de malplaatjeopslag op te slaan. Zodra het malplaatje wordt gecreeerd, kunt u de Redacteur van het Web gebruiken om het malplaatje volgens uw auteursbehoeften aan te passen. Als een sjabloon eenmaal is ingesteld, moet u deze koppelen aan een algemeen profiel of aan een mapprofiel.
 
 
 ## Uitvoervoorinstellingen configureren {#id18AGD0IH0Y4}
 
-In een typisch ondernemingsopstelling, zouden de verschillende outputmalplaatjes voor verschillende producten of gebruikersgidsen kunnen worden gebruikt. Ook kunnen er enkele algemene productieprocessen zijn die door alle uitgevers moeten worden gebruikt en een reeks specifieke productieprocessen voor een specifieke groep uitgevers of projecten.
+In een typisch ondernemingsopstelling, zouden de verschillende outputmalplaatjes voor verschillende producten of gebruikersgidsen kunnen worden gebruikt. Ook kunnen er enkele gangbare productieproductieprocessen zijn die door alle uitgevers moeten worden gebruikt en een reeks specifieke productieprocessen voor een specifieke groep uitgevers of projecten.
 
 Met AEM hulplijnen kan de beheerder uitvoervoorinstellingen maken met specifieke instellingen die vervolgens door alle of een specifieke set uitgevers kunnen worden gebruikt om uitvoer te genereren. De beheerder kan bijvoorbeeld één uitvoervoorinstelling maken om een gebruikershandleiding te genereren die voor alle uitgevers hetzelfde is. Een andere manier om de programmeergebruikershandleidingen te maken die specifiek zijn voor een aantal uitgevers. Beide voorinstellingen kunnen worden geconfigureerd voor het gebruik van verschillende uitvoersjablonen. In dit voorbeeld kan de algemene publicatievoorinstelling voor het genereren van de gebruikershandleiding op algemeen niveau worden geconfigureerd. En de uitvoervoorinstelling voor het genereren van de gebruikershandleiding voor programmering kan op mapniveau worden geconfigureerd.
 
@@ -356,12 +356,12 @@ Voer de volgende stappen uit om algemene of mapspecifieke uitvoervoorinstellinge
 
 1. Voer een van de volgende handelingen uit om een uitvoervoorinstelling te maken of te bewerken:
 
-   - Klikken **Maken** om een nieuwe voorinstelling voor de uitvoer helemaal zelf te maken.
+   - Klikken **Maken** om een nieuwe voorinstelling voor de uitvoer te maken.
    - Klik op Dupliceren om een kopie van de geselecteerde uitvoervoorinstelling te maken. U kunt wijzigingen aanbrengen in de gedupliceerde voorinstelling en deze opslaan.
 
    - Klikken **Bewerken** om de configuratie van de geselecteerde voorinstelling te openen en te bewerken.
 
-     Voor informatie over instellingen van uitvoervoorinstellingen raadpleegt u *Uitvoervoorinstellingen* in de as a Cloud Service handleiding Adobe Experience Manager-hulplijnen gebruiken.
+     Zie voor informatie over instellingen van uitvoervoorinstellingen *Uitvoervoorinstellingen* in de as a Cloud Service handleiding Adobe Experience Manager-hulplijnen gebruiken.
 
 1. Klikken **Opslaan** om de voorinstellingen op te slaan.
 
@@ -370,7 +370,7 @@ Alle DITA-kaarten die u daarna maakt of uploadt, hebben de nieuwe of bijgewerkte
 
 ## Vooraf ingestelde wijzigingen toepassen {#id18AGD0K0OHS}
 
-Een nieuwe uitvoervoorinstelling die op algemeen niveau wordt gemaakt, wordt beschikbaar gesteld voor alle nieuwe DITA-kaarten die u in de toekomst maakt. Als er een nieuwe uitvoervoorinstelling wordt gemaakt op mapniveau, wordt die voorinstelling beschikbaar gesteld voor alle mappen die worden gemaakt in de geconfigureerde map. Standaard wordt een nieuwe voorinstelling voor uitvoer niet beschikbaar gemaakt voor bestaande DITA-kaarten.
+Een nieuwe uitvoervoorinstelling die op algemeen niveau wordt gemaakt, wordt beschikbaar gesteld voor alle nieuwe DITA-kaarten die u in de toekomst maakt. Als er een nieuwe uitvoervoorinstelling wordt gemaakt op mapniveau, wordt die voorinstelling beschikbaar gemaakt voor alle mappen die worden gemaakt in de geconfigureerde map. Standaard wordt een nieuwe voorinstelling voor uitvoer niet beschikbaar gemaakt voor bestaande DITA-kaarten.
 
 Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe uitvoervoorinstelling beschikbaar wilt maken voor bestaande DITA-kaarten, voert u de volgende stappen uit:
 
@@ -396,14 +396,14 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 1. In het dialoogvenster Wijzigingen voorinstelling toepassen kunt u kiezen uit:
 
-   - **De optie Bestaande voorinstelling overschrijven selecteren**: Als u deze optie selecteert, worden de instellingen in alle bestaande DITA-kaarten waar de voorinstelling wordt gebruikt, overschreven door updates die u hebt gemaakt in de bestaande uitvoervoorinstellingen. Dit leidt echter tot het verlies van bestaande voorwaardelijke voorinstellingen en basislijngegevens die bij de kaart horen.
+   - **De optie Bestaande voorinstelling overschrijven selecteren**: Als u deze optie selecteert, worden de instellingen in alle bestaande DITA-kaarten waarin de voorinstelling wordt gebruikt, overschreven door updates die u hebt gemaakt in de bestaande uitvoervoorinstellingen. Dit leidt echter tot het verlies van bestaande voorwaardelijke voorinstellingen en basislijngegevens die bij de kaart horen.
 
    - **De optie Bestaande voorinstelling overschrijven niet selecteren**: Als u deze optie niet selecteert, hebben updates die u hebt gemaakt in de bestaande uitvoervoorinstellingen geen invloed op de bestaande DITA-kaarten. Alleen de zojuist toegevoegde voorinstellingen worden toegevoegd aan de bestaande DITA-kaarten. De nieuwe DITA-kaart krijgt beide functies: de bijgewerkte uitvoervoorinstellingen en de nieuw toegevoegde voorinstellingen.
 
 1. Klikken **OK** om wijzigingen toe te passen uit de geselecteerde uitvoervoorinstellingen op alle bestaande DITA-kaarten.
 
 
-## Vorm en pas de Redacteur van het Web van XML aan {#id2065G300O5Z}
+## De XML-webeditor configureren en aanpassen {#id2065G300O5Z}
 
 Door gebrek, komt de Redacteur van het Web van XML met veel eigenschappen om uw auteurs te helpen DITA documenten tot stand brengen. Als u in een restrictieve omgeving werkt, kunt u kiezen welke functies aan uw auteurs worden blootgesteld. Het lusje van de Configuratie van de Redacteur van XML staat u toe om de eigenschappen gemakkelijk te controleren en ook het blik-en-gevoel van uw Redacteur van het Web te veranderen. Als beheerder, kunt u de volgende componenten van de Redacteur van het Web aanpassen:
 
@@ -441,9 +441,9 @@ snippetID : Een unieke id voor het fragment. Dit kan een alfanumerieke waarde he
 
 name : Een beschrijvende naam om het fragment te identificeren. Deze naam wordt weergegeven in het paneel Fragmenten.
 
-beschrijving: Voeg een beschrijvende informatie voor het fragment toe.
+beschrijving: voeg een beschrijvende informatie voor het fragment toe.
 
-value : Geef de XML-code van het fragment op.
+value : geef de XML-code van het fragment op.
 
 >[!NOTE]
 >
@@ -453,7 +453,7 @@ value : Geef de XML-code van het fragment op.
 
 Auteurs kunnen standaard zelf labels maken en deze koppelen aan hun onderwerpbestanden. Nochtans, kan dit tot vele variaties van het zelfde etiket leiden, bijvoorbeeld zou &quot;Versie 1.0&quot;, &quot;Versie-1.0&quot;, &quot;versie 1&quot;etiketten voor het identificeren van het zelfde stadium van een onderwerp kunnen hebben. Om dergelijke inconsistente etikettering in het systeem te voorkomen, kunt u een vooraf gedefinieerde lijst met labels maken waaruit auteurs kunnen kiezen. Dankzij consistente labels kunt u bestanden beter beheren in uw systeem.
 
-Met behulp van de configuratie van het versielabel kunt u een lijst met geldige labels voor uw organisatie uploaden. Download het bestand default label.json en wijzig het bestand zoals hieronder wordt weergegeven:
+Met de configuratie van het versielabel kunt u een lijst met geldige labels voor uw organisatie uploaden. Download het standaard label.json-bestand en wijzig het bestand zoals hieronder wordt weergegeven:
 
 ```
 {
@@ -474,5 +474,5 @@ In het bovenstaande voorbeeld is &quot;label1&quot; de id voor de labelvolgorde 
 
 **Rootmap**
 
-Als uw auteurs met een specifieke wortelkaart werken, dan kunt u doorbladeren aan en die rootmap hier selecteren. U kunt de routekaart alleen definiëren voor een profiel op mapniveau.
+Als uw auteurs met een specifieke wortelkaart werken, dan kunt u doorbladeren aan en die rootmap hier selecteren. U kunt de routekaart alleen definiëren voor een mapprofiel.
 
