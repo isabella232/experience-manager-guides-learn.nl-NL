@@ -2,9 +2,9 @@
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: bb7e9ae6f02021354285aa4ca6b435bbea2e4cc0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3270'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 0%
 > Volg de upgrade-instructies voor de versie met licentie van uw product.
 
 U kunt uw huidige versie van AEM gidsen aan versie 4.3.0 bevorderen
+
 - Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.0.
-- Als u versie 4.1, 4.1.x of 4.2 gebruikt, moet u een upgrade naar versie 4.2.1 uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
+- Als u versie 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.2 of 4.2.x uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
 - Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgrade AEM hulplijnen in de productspecifieke installatiehandleiding.
@@ -503,12 +504,19 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
    |---|---|---|
    | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Waarde: 200000 <br> Standaardwaarde: 100000 |
 
-1. Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Voer de volgende API&#39;s uit om naverwerking uit te voeren op alle bestanden:
 
-1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+   | Eindpunt | /bin/guides/reports/upgrade |
+   |---|---|
+   | Type aanvraag | **POST**  Dit manuscript is een verzoek van de POST vandaar zou via agenten zoals Postman moeten worden uitgevoerd. |
+   | Verwachte reactie | De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden.<br> URL voorbeeld: `http://<server:port>/bin/guides/reports/upgrade` |
 
-1. Wanneer de taak is voltooid, reageert de vorige GET-aanvraag met succes. Als de taak om een of andere reden mislukt, kan de fout worden gezien in de serverlogboeken.
+   | Eindpunt | /bin/guides/reports/upgrade |
+   |---|---|
+   | Type aanvraag | **GET** |
+   | Param | jobId: geef de taak-id door die is ontvangen van de vorige postaanvraag. |
+   | Verwachte reactie | - Zodra de taak is voltooid, reageert de GET-aanvraag met succes. <br> - Als er fouten optreden, deelt u de foutlogboeken samen met de API-uitvoer met het succesteam van de klant.  <br>URL voorbeeld: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. Terugkeren naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u dit in stap 1 hebt gewijzigd.
 
