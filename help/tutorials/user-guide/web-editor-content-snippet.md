@@ -1,9 +1,9 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Leer hoe u een inhoudsfragment uit uw gegevensbron kunt invoegen
-source-git-commit: 0f1c9d545dfc6dc53742c6f8d89cd48d33de2681
+source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,18 @@ Selecteer een gegevensbron om de generators van het inhoudsfragment en de onderw
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
+*Lijst met verbonden gegevensbronnen.*
 
 ### Tegelweergave   ![](images/data-sources-tile-view-icon.svg)
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
+*De verbonden gegevensbronnen weergeven als tegels.*
+
 U kunt de gegevens van gegevensbronnen op twee manieren gebruiken:
 - Een inhoudsfragment invoegen
 - Een onderwerp maken
+
 
 
 ## Een inhoudsfragment uit uw gegevensbron invoegen
@@ -53,6 +57,7 @@ Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruik
 1. Selecteer een gegevensbron om de inhoudsfragmentgenerators te bekijken beschikbaar voor de geselecteerde gegevensbron.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+   *In het deelvenster Gegevensbronnen worden de beschikbare generatoren voor inhoudsfragmenten weergegeven.*
 
 1. Selecteren **Toevoegen** om een nieuwe inhoudsfragmentgenerator toe te voegen. De **Generator voor inhoudsfragmenten toevoegen** wordt geopend.
 
@@ -75,6 +80,8 @@ Bijvoorbeeld:
 
    1. De bronweergave toont de gegevens in de DITA-bronweergave.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      *Voeg een inhoudsfragmentgenerator toe. Gegevens weergeven in bron- of voorvertoningsmodus.*
+
 1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en klik dan **ADD**.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
 
    >[!NOTE]
@@ -102,6 +109,7 @@ U kunt ook de opdracht **Zoekfragment invoegen** ![](images/data-source-icon.svg
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
 
+*Een gegevensfragment bewerken en invoegen.*
 
 ## Creeer een onderwerp gebruikend de onderwerpgenerator
 
@@ -118,6 +126,9 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 1. Selecteer een gegevensbron om de generators van het inhoudsfragment en de onderwerpgenerators te bekijken beschikbaar voor de geselecteerde gegevensbron.
 
    ![](images/data-sources.png){width="300" align="left"}
+
+   *Voeg een onderwerpgenerator voor een verbonden gegevensbron toe.*
+
 1. Selecteren **Toevoegen** ![](images/Add_icon.svg) en selecteert u **Topgenerator** van dropdown om een nieuwe onderwerpgenerator toe te voegen. De **Onderwerpgenerator toevoegen** wordt geopend.
 
 
@@ -128,13 +139,14 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
 
+   *Voeg de Vraag van Gegevens, het kaartmalplaatje van Gegevens, en de details van de wortelknoop voor de onderwerpgenerator toe en geef het een unieke naam in het paneel van de Configuratie van de Ophalen.*
 
    1. Voer de query in het dialoogvenster **Gegevensquery** tekstvak.
    1. Selecteer in het menu van het palet **Gegevenstoewijzingssjabloon** vervolgkeuzelijst.
 
-   >[!NOTE]
-   >
-   > Als uw beheerder aangepaste malplaatjes heeft gevormd, dan wordt u ook getoond die malplaatjes in de drop-down lijst (die op de configuraties van de malplaatjeweg door uw beheerder wordt gebaseerd). U kunt bijvoorbeeld een onderwerpsjabloon maken met een geordende lijst, tabellen, alinea&#39;s of andere DITA-elementen.
+      >[!NOTE]
+      >
+      > Als uw beheerder aangepaste malplaatjes heeft gevormd, dan wordt u ook getoond die malplaatjes in de drop-down lijst (die op de configuraties van de malplaatjeweg door uw beheerder wordt gebaseerd). U kunt bijvoorbeeld een onderwerpsjabloon maken met een geordende lijst, tabellen, alinea&#39;s of andere DITA-elementen.
 
    1. Voer de **Basisknooppunt**. Dit is de knoop waarbij u tot uw gegevens wilt toegang hebben. De onderwerpgenerator leidt dan tot elk onderwerp op het niveau dat in de wortelknoop wordt bepaald. U kunt bijvoorbeeld &quot;issues&quot; toevoegen als het hoofdknooppunt in Jira. Zo, als een vraag 13 kwesties terugkeert, zult u 13 onderwerpen, één onderwerp voor elke kwestie krijgen.
 
@@ -148,6 +160,8 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
    **Uitvoerconfiguratie**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+
+   *Voer in het deelvenster Uitvoerconfiguratie de details in van de naamgevingsconventie voor Uitvoer en Onderwerp. Genereer een DITA-kaart en noem deze.*
 
    1. Voer de **Uitvoerpad** details waar u uw onderwerpen wilt bewaren.
    1. In de **Naamgevingsconventie voor onderwerpen** kunt u een waarde of een variabele met snelheidstags invoeren. De nieuwe onderwerpen volgen de conventie. U kunt bijvoorbeeld het dialoogvenster `$key` om onderwerpen te maken op basis van Jira-sleutels.
@@ -166,7 +180,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
-
+   *Voeg de eigenschappen van meta-gegevens in het paneel van Meta-gegevens toe om tot de onderwerpen over te gaan.*
 
 1. Voer de naam van de generator in en klik op **Opslaan** om de queryresultaten op te slaan. Een nieuwe onderwerpgenerator wordt toegevoegd aan de lijst.
 
@@ -175,6 +189,8 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
+
+   *Produceer nieuwe onderwerpen van een bestaande onderwerpgenerator.*
 
    >[!NOTE]
    >
@@ -192,6 +208,8 @@ Klik met de rechtermuisknop op een onderwerpgenerator om de **Opties**. Met de o
   >Als uw onderwerp reeds bestaat, kunt u of de gegevens in het onderwerp overschrijven of het opslaan als nieuwe versie.
 
   ![](images/generate-topic-options.png)
+
+  *Genereer een onderwerp en sla dit op als een nieuwe versie of overschrijf het bestand als het al bestaat.*
 
 - **Bewerken**: Gebruik deze optie om de onderwerpgenerator te veranderen en te bewaren.
 - **Verwijderen**: Gebruik deze optie om de geselecteerde onderwerpgenerator te schrappen.

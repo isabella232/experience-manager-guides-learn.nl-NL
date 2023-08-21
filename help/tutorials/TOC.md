@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 4%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 4%
          + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
       + [Publicatietaken beheren met het dashboard Publiceren](./user-guide/generate-output-publish-dashboard.md)
       + [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
+      + [Publiceren naar een inhoudsfragment](./user-guide/publish-content-fragment.md)
       + Bulkactivering van inhoud {#bulk-activation}
          + [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
          + [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 4%
                + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
                + [Aangepaste stijlen gebruiken in voetnoten](./native-pdf/footnote-number-style.md)
             + [JVM-vlaggen configureren voor Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+         + [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./install-guide/conf-content-fragment-mapping.md)
       + Werken met aangepaste workflows {#custom-workflow}
          + [Workflows configureren en aanpassen](./install-guide/customize-workflows.md)
       + Werken met vertaalconfiguraties {#translate-config}

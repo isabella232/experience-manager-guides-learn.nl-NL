@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
+source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
 workflow-type: tm+mt
-source-wordcount: '3672'
+source-wordcount: '3934'
 ht-degree: 0%
 
 ---
@@ -107,25 +107,36 @@ Voer de volgende stappen uit om een stijlpagina te maken:
 
 ### Een nieuwe stijl maken {#create-style}
 
-Standaard bevatten de CSS-bestanden stijlen voor kop, alinea, teken, hyperlink, afbeelding, tabel, div, pagina en andere stijlen. U kunt de standaardopmaak overschrijven of een nieuwe stijl maken.
+Standaard bevatten de CSS-bestanden die bij de sjabloon horen stijlen voor kop, alinea, teken, hyperlink, afbeelding, tabel, div, pagina en andere stijlen. U kunt de standaardopmaak overschrijven of een nieuwe stijl maken.
 
-Gewoonlijk maakt u een nieuwe stijl wanneer u een aangepaste stijl voor een DITA-element wilt koppelen. Om dergelijke douanestijlen te werken, moet u ervoor zorgen dat u de de klassennaam van de stijl met het outputklassenattribuut van het element associeert DITA.
+
+U kunt een nieuwe stijl tot stand brengen om het in de paginalay-out van het malplaatje te gebruiken of een douanestijl voor om het even welk element toepassen DITA. Als u deze aangepaste stijlen op het DITA-element wilt toepassen, moet u ervoor zorgen dat de klassenaam van de stijl gelijk is aan de naam van het DITA-element of aan de naam van `outputclass` kenmerk.  Bijvoorbeeld: `<div>` in DITA wordt beheerst door de `.div {}` in CSS of `outputclass` kenmerk. Indien van toepassing `<div outputclass="my-div">` in DITA wordt het geleid door de `.div {}` of `.my-div {}` in de CSS.
+
 
 
 Voer de volgende stappen uit om een nieuwe stijl te maken:
-1. Klik met de rechtermuisknop op een stijl en kies Nieuwe stijl in het contextmenu.
+1. Vouw de linkerzijbalk uit en dubbelklik op de sjabloon waarin u de stijl wilt maken.
+1. Breid uit **Stijlvoorstellingen** sectie. Het opent de **Stijlen** dat alle opmaakopties bevat.
+1. Selecteer + pictogram om een nieuwe stijl toe te voegen.
 
-   Hiermee opent u het dialoogvenster Stijl toevoegen.
+   **Stijl toevoegen** wordt geopend.
 
-   <img src="assets/add-style.png" alt="Nieuwe stijl toevoegen" width="300"/>
-1. In de **Tag** , kiest u een label waarvoor u een nieuwe stijl wilt maken.
-1. Geef een **Klasse** naam.
 
-   Deze klassenaam moet aan het outputklassenattribuut van de markering in uw broninhoud worden geassocieerd.
-1. Selecteer een **Pseudo-klasse** voor verbeterde opmaak van het element.
+   <img src="assets/add-style.png" alt="Nieuwe stijl toevoegen" width="500"/>
+
+1. Geef een **Klasse** naam. Als u een stijl wilt toepassen op het DITA-element, moet u ervoor zorgen dat de klassenaam van de stijl gelijk is aan de naam van het DITA-element of aan de naam van `outputclass` kenmerk.
+1. In de **Tag** (optioneel), kiest u een tag waarvoor u een nieuwe stijl wilt maken.
+
+
+1. Selecteer een **Pseudo-klasse** om een element op te maken. Met een pseudoklasse kunt u een speciale status van het element definiëren. Gebruik bijvoorbeeld de pseudo-klasse om een element op te maken wanneer u de muisaanwijzer op het element plaatst of wanneer u de focus op het element plaatst. U kunt ook meerdere pseudoklassen selecteren. U kunt bijvoorbeeld pseudo-klasse gebruiken `a::visited {color: blue;}` om de bezochte koppelingen op te maken.
+
+1. Voeg de kiezer voor de nieuwe stijl toe. De **Kiezer** in het veld kunt u naast de combinatie Klasse, Tag en Pseudo-klasse ook aangepaste kiezers toevoegen. U kunt bijvoorbeeld `table a.link` stijl voor alle hyperlinks in een tabel.
+
+   Voor meer informatie over CSS-tags raadpleegt u [Verwijs naar de grammatica van de CSS stijl](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Klikken **Gereed**.
 
-   Er wordt een nieuwe stijl gemaakt en toegevoegd onder de basisstijl.
+   Er wordt een nieuwe stijl gemaakt en toegevoegd aan de lijst met stijlen.
 
 ### Een vooraf gedefinieerde of nieuwe stijl aanpassen {#customize-style}
 
@@ -143,17 +154,26 @@ Voer de volgende stappen uit om een stijl aan te passen:
 
    Hiermee wordt het stijlblad geopend voor bewerking en wordt de lijst met stijlen weergegeven in het deelvenster Stijlen.
 
-   <img src="assets/customize-style.png" alt="Stijl aanpassen" width="450">
+   <img src="assets/customize-style.png" alt="Stijl aanpassen" width="800">
 
-1. Als u een stijl wilt aanpassen, dubbelklikt u op een stijl of klikt u op het pictogram > vóór een stijl om de stijl weer te geven en aan te passen met de Stijleditor.
+1. Als u een stijl wilt aanpassen, selecteert u de stijl die u wilt weergeven en past u deze aan met de Stijleditor.
 
-Ga voor meer informatie over het werken met de meest gebruikte stijlen naar [Werken met algemene inhoudsstijlen](stylesheet.md).
+
+### Eigenschappen van stijlen
+
+In het middelste deelvenster kunt u de eigenschappen bewerken, maar het kan lastig zijn om een opname te krijgen van alle waarden.  De **Eigenschappen** geeft een snelle weergave van alle kenmerken en waarden van de stijl.
+
+In het middelste deelvenster kunt u de veelgebruikte eigenschappen bewerken, maar niet alle eigenschappen die CSS ondersteunt. In de **Eigenschappen** kunt u alle eigenschappen bewerken die CSS ondersteunt en er een voorvertoning van weergeven. U hoeft niet over te schakelen naar de bronweergave om eigenschappen te bewerken.
+
+
+Meer informatie over het gebruik van de stijleditor voor [Werken met algemene inhoudsstijlen](stylesheet.md).
 
 ## Werken met bronnen {#work-with-resources}
 
 Dit is een container voor alle elementen die worden gebruikt om een sjabloon te ontwerpen. U kunt de map beschouwen als een map die elementen bevat zoals achtergrondafbeeldingen, aangepaste lettertypen, logo&#39;s en meer. Telkens wanneer u middelen in uw malplaatje toevoegt, wordt het geupload of controleert in de activaomslag. Vervolgens kunt u deze elementen gebruiken om uw PDF-sjablonen aan te passen of te ontwerpen.
 
 Voer de volgende stappen uit om een elementbestand toe te voegen aan de map Resources:
+
 1. Houd de cursor boven het tabblad Bronnen, klik op het pictogram Opties ... en kies Importeren.
 
    Hiermee wordt het dialoogvenster Elementen uploaden geopend.
