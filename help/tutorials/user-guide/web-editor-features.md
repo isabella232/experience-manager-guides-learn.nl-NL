@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Leer hoe u de functies van de webeditor kent
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
+source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -681,25 +681,20 @@ Als u een bestand aan uw favoriete verzameling wilt toevoegen, gebruikt u een va
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- Klik met de rechtermuisknop op het tabblad van een bestand in de editor om het contextmenu te openen. Kies **Toevoegen aan** > **Favorieten** om het bestand toe te voegen aan uw lijst met favorieten.
+- Klik met de rechtermuisknop op het tabblad van een bestand in de editor om het contextmenu te openen. Kies **Toevoegen aan Favorieten \>** om het bestand toe te voegen aan uw lijst met favorieten.
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
->[!NOTE]
->
-> - Als u een item uit de lijst Favorieten wilt verwijderen, selecteert u het pictogram Opties naast het item in een verzameling Favorieten en kiest u **Verwijderen uit Favorieten**.
-> - Als u het bestand wilt bekijken zonder het te openen, selecteert u een bestand en selecteert u vervolgens **Voorvertoning** in het menu Opties.
 
-
-
-**Menu Opties voor de verzameling Favroties**\
+** Het menu Opties voor de verzameling van Favroties**\
 U kunt ook veel handelingen uitvoeren met het menu Opties dat beschikbaar is voor een verzameling Favorieten:
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Naam wijzigen**: Wijzig de naam van de geselecteerde verzameling.
-- **Verwijderen**: Verwijder de geselecteerde verzameling.
+- **Verwijderen**: Verwijder het geselecteerde bestand.
 - **Vernieuwen**: Haal een nieuwe lijst met bestanden en mappen op uit de opslagplaats.
 - **Weergeven in interface Elementen**: De inhoud van het bestand of de map weergeven in de interface Middelen.
+
 
 >[!NOTE]
 >
@@ -815,7 +810,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
   > - Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
   > - Wanneer u een bestand incheckt dat niet-opgeslagen wijzigingen bevat, wordt u gevraagd de wijzigingen op te slaan. Als u uw wijzigingen niet opslaat, wordt alleen het bestand gecontroleerd.
 
-- **Voorvertoning**: U kunt een snelle voorvertoning van het bestand (.dita, .xml, audio, video of afbeelding) weergeven zonder het te openen. U kunt het formaat van het voorvertoningsvenster wijzigen. Als de inhoud een `<xref>` of `<conref>`kunt u deze selecteren en openen op een nieuw tabblad. De titel van het bestand wordt weergegeven in het venster. Als er geen titel aanwezig is, wordt de bestandsnaam weergegeven. Als u het dialoogvenster **Voorvertoning** kunt u het sluitingspictogram selecteren of ergens buiten het deelvenster klikken.
+- **Voorvertoning**: Bekijk een snelle voorvertoning van het bestand (.dita/.xml\) zonder het te openen.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1016,7 +1011,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties:
   > - Als een bestand is vergrendeld of uitgecheckt door een gebruiker en u de muisaanwijzer boven het vergrendelingspictogram houdt, wordt de gebruiker \(naam\) weergegeven die het bestand heeft vergrendeld.
   > - Wanneer u een bestand incheckt, wordt u gevraagd de wijzigingen op te slaan. Als u uw wijzigingen niet opslaat, wordt alleen het bestand gecontroleerd.
 
-- **Voorvertoning**: U kunt een snelle voorvertoning van het bestand (.dita, .xml, audio, video of afbeelding) weergeven zonder het te openen. U kunt het formaat van het voorvertoningsvenster wijzigen. Als de inhoud een `<xref>` of `<conref>`kunt u deze selecteren en openen op een nieuw tabblad.  De titel van het bestand wordt weergegeven in het venster. Als er geen titel aanwezig is, wordt de bestandsnaam weergegeven. Als u het dialoogvenster **Voorvertoning** kunt u het sluitingspictogram selecteren of ergens buiten het deelvenster klikken.
+- **Voorvertoning**: U kunt een snelle voorvertoning van het bestand \(.dita/.xml\) weergeven zonder het bestand te openen.
 - **Kopiëren**: U kunt uit de volgende opties kiezen:
    - **UUID kopiëren**: Kopieer de UUID van het geselecteerde bestand naar het klembord.
    - **Pad kopiëren**: Kopieer het volledige pad van het geselecteerde bestand naar het klembord.
@@ -1139,12 +1134,9 @@ Gebruik een van de volgende methoden om inhoud in te voegen uit het deelvenster 
 
   >[!NOTE]
   >
-  > Selecteer een bestand en selecteer vervolgens **Voorvertoning** van de **Opties** om een voorvertoning van het bestand weer te geven zonder het te openen. U kunt ook een voorvertoning weergeven van de verwijzingen die in een onderwerp aanwezig zijn. De referentie-id wordt weergegeven in het venster.
-  >
-  > De **Voorvertoning** Deze optie is ook beschikbaar in het dialoogvenster **Opties** menu van een element, dat u een snel voorbeeld van het element geeft alvorens het op te nemen.
+  > Opmerking: De **Voorvertoning** Deze optie is ook beschikbaar in het contextmenu, waarin u een snel voorbeeld van het element kunt zien voordat u het invoegt.
 
 - Sleep het herbruikbare inhoudsitem van het deelvenster naar de gewenste locatie in het document.
-
 
 
 **Verklarende woordenlijst** -  ![](images/glossary.svg)
@@ -1280,138 +1272,86 @@ In het volgende voorbeeld ziet u hoe u het onderwerpschema in AEM hulplijnen kun
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**De hiërarchische definities van onderwerpdefinities en opsommingen verwerken**
+   **De hiërarchische definities van onderwerpdefinities en opsommingen verwerken**
 
-Naast het verwerken van de opsommingen en de onderwerpdefinities in dezelfde kaart, biedt AEM hulplijnen ook de functie om opsommingen en onderwerpdefinities in twee aparte kaarten te definiëren. U kunt één of meerdere onderwerpdefinities in een kaart en de opsommingsdefinities in een andere kaart bepalen en dan de kaartverwijzing toevoegen. Met de volgende XML-code worden bijvoorbeeld onderwerpdefinities en opsommingsdefinities in twee aparte mappen gemaakt.
+   Naast het verwerken van de opsommingen en de onderwerpdefinities in dezelfde kaart, biedt AEM hulplijnen ook de functie om opsommingen en onderwerpdefinities in twee aparte kaarten te definiëren. U kunt de onderwerpdefinitie in een kaart en de opsommingsdefinities in een andere kaart bepalen en dan de kaartverwijzing toevoegen. Met de volgende XML-code worden bijvoorbeeld onderwerpdefinities en opsommingsdefinities in twee aparte mappen gemaakt.
 
-De onderwerpdefinities worden gedefinieerd in `subject_scheme_map_1.ditamap`
-
-
-```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-
-    <title>subject_scheme_map_1</title> 
-    
-    <subjectdef keys="os" navtitle="Operating system">
-        <subjectdef keys="linux" navtitle="Linux">
-        <subjectdef keys="redhat" navtitle="RedHat Linux">
-        </subjectdef>
-        <subjectdef keys="suse" navtitle="SuSE Linux">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="windows" navtitle="Windows">
-        </subjectdef>
-        <subjectdef keys="zos" navtitle="z/OS">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="deliveryTargetValues">
-        <subjectdef keys="print">
-        </subjectdef>
-        <subjectdef keys="online">
-        </subjectdef>
-    </subjectdef>
-    <subjectdef keys="mobile" navtitle="Mobile">
-        <subjectdef keys="android" navtitle="Android">
-        </subjectdef>
-        <subjectdef keys="ios" navtitle="iOS">
-    </subjectdef>
-    </subjectdef>
-    <subjectdef keys="cloud" navtitle="Cloud">
-        <subjectdef keys="aws" navtitle="Amazon Web Services">
-        </subjectdef>
-        <subjectdef keys="azure" navtitle="Microsoft Azure">
-        </subjectdef>
-        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
-        </subjectdef>
-    </subjectdef>
-    </subjectScheme>
-```
-
-De opsommingsdefinitie is aanwezig in subject_scheme_map_2.ditamap.
-
-```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-        <title>subject_scheme_map_2</title> 
-        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-        </mapref> 
-        <enumerationdef>
-        <attributedef name="platform">
-        </attributedef>
-        <subjectdef keyref="mobile">
-        </subjectdef>
-        <subjectdef keyref="cloud">
-        </subjectdef>
-        </enumerationdef>
-        </subjectScheme>
-```
-
-Hier worden onderwerpdefinities gedefinieerd in `subject_scheme_map_1.ditamap`  terwijl de opsomming def aanwezig is in `subject_scheme_map_2.ditamap`. De verwijzing naar `subject_scheme_map_1.ditamap` wordt ook toegevoegd in `subject_scheme_map_2.ditamap`.
-
->[!NOTE]
->
-> Als de `subject_scheme_map_1.ditamap` en `subject_scheme_map_2.ditamap` er wordt met elkaar gerefereerd en daarom worden de betrokken regelingen opgelost .
-
-De verwijzingen naar onderwerpopsommingen worden in de volgende volgorde van prioriteit opgelost:
-
-1. Zelfde kaart
-1. Toegewezen kaart
+   De onderwerpdefinities worden gedefinieerd in `subject_scheme_map_1.ditamap`
 
 
-De verwijzingen worden niet opgelost als de opsomming niet in de zelfde kaart en de referenced kaart wordt gevonden.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
+
+   De opsommingsdefinitie is aanwezig in subject_scheme_map_2.ditamap
+
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
+
+   Hier worden onderwerpdefinities gedefinieerd in `subject_scheme_map_1.ditamap`  terwijl de opsomming def aanwezig is in `subject_scheme_map_2.ditamap`. De verwijzing naar `subject_scheme_map_1.ditamap` wordt ook toegevoegd in `subject_scheme_map_2.ditamap`.
+
+   >[!NOTE]
+   >
+   > Als de `subject_scheme_map_1.ditamap` en `subject_scheme_map_2.ditamap` er wordt met elkaar gerefereerd en daarom worden de betrokken regelingen opgelost .
+
+   De verwijzingen naar onderwerpopsommingen worden in de volgende volgorde van prioriteit opgelost:
+
+   1. Zelfde kaart
+   1. Toegewezen kaart
 
 
+   De verwijzingen worden niet opgelost als de opsomming niet in de zelfde kaart en de referenced kaart wordt gevonden.
 
+   **Vervolgkeuzelijst Kenmerken**
 
-**De waarden beperken tot een specifiek element**
+   U kunt de waarde van het onderwerpschema ook wijzigen met het vervolgkeuzemenu Kenmerk in het deelvenster Eigenschappen van inhoud in de weergave Auteur. Als u de waarde wilt wijzigen, selecteert u een waarde in het vervolgkeuzemenu Kenmerk.
 
-U kunt de voorwaarden tot sommige elementen binnen een onderwerp ook beperken. Gebruik de `<elementdef>` -tag om het element en de `<attributedef>` -tag om de voorwaarde te definiëren die op het element kan worden toegepast.  Als u de opdracht `<elementdef>` -tag, kunt u de voorwaarden toepassen op alle elementen.
-Gebruik bijvoorbeeld de volgende opsomming om de `@platform` aan de `<shortdesc>` element.  De andere voorwaarden zijn zichtbaar voor alle elementen.
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-```XML
-<enumerationdef>
-    <elementdef name="shortdesc">
-    </elementdef>
-    <attributedef name="platform">
-    </attributedef>
-    <subjectdef keyref="deliveryTargetValues">
-    </subjectdef>
-    <subjectdef keyref="os">
-    </subjectdef>
-  </enumerationdef>
-```
+   U kunt ook waarden voor een kenmerk toepassen door meerdere waarden in het vervolgkeuzemenu te selecteren.
 
-</details>
+   **Bronweergave**
 
+   U kunt de waarden van drop-down van de attributen in de Bronmening ook veranderen. De Bronweergave voorkomt ook dat u een onjuiste waarde toevoegt.
 
-**Vervolgkeuzelijst Kenmerken**
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-U kunt de waarde van het onderwerpschema ook wijzigen met het vervolgkeuzemenu Kenmerk in het deelvenster Eigenschappen van inhoud in de weergave Auteur. Als u de waarde wilt wijzigen, selecteert u een waarde in het vervolgkeuzemenu Kenmerk.
+   **Het onderwerpschema weergeven en toepassen vanuit het deelvenster Voorwaarden**
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+   U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
 
-U kunt ook waarden voor een kenmerk toepassen door meerdere waarden in het vervolgkeuzemenu te selecteren.
+   Als u het onderwerpschema wilt weergeven in het deelvenster Voorwaarden, moet uw systeembeheerder de optie selecteren **Onderwerpregeling tonen in het deelvenster Voorwaarden** onder het tabblad Voorwaarde in Editor-instellingen. Zie voor meer informatie [Tabblad Voorwaarde](#id21BMNE0602V).
 
-**Bronweergave**
+   In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
 
-U kunt de waarden van drop-down van de attributen in de Bronmening ook veranderen. De Bronweergave voorkomt ook dat u een onjuiste waarde toevoegt.
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
-
-**Het onderwerpschema weergeven en toepassen vanuit het deelvenster Voorwaarden**
-
-U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
-
-Als u het onderwerpschema wilt weergeven in het deelvenster Voorwaarden, moet uw systeembeheerder de optie selecteren **Onderwerpregeling tonen in het deelvenster Voorwaarden** onder het tabblad Voorwaarde in Editor-instellingen. Zie voor meer informatie [Tabblad Voorwaarde](#id21BMNE0602V).
-
-In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
-
-U kunt voorwaarden aan uw inhoud toevoegen door de gewenste voorwaarde naar de inhoud te slepen. De voorwaardelijke inhoud wordt gemarkeerd met de kleur die voor de voorwaarde is gedefinieerd.
+   U kunt voorwaarden aan uw inhoud toevoegen door de gewenste voorwaarde naar de inhoud te slepen. De voorwaardelijke inhoud wordt gemarkeerd met de kleur die voor de voorwaarde is gedefinieerd.
 
 **Fragmenten** -  ![](images/insert-snippet-icon.svg)
 

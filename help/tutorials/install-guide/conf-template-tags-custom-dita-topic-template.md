@@ -2,7 +2,7 @@
 title: Aangepaste DITA-onderwerpsjabloon configureren
 description: Leer hoe te om het onderwerpmalplaatje van douaneDITA te vormen
 exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
+source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -45,7 +45,9 @@ AEM de Gidsen staat u toe om een omslag te vormen om uw aangepaste kaart DITA en
 
 `/content/dam/dita-templates/`
 
-Om onderwerp en kaartmalplaatjedossiers te beheren, zijn er specifieke omslagen om het onderwerp en kaartmalplaatjes op te slaan. Door gebrek, worden alle onderwerpmalplaatjes opgeslagen onder `/content/dam/dita-templates/topics` map. Alle kaartsjablonen worden onder de `/content/dam/dita-templates/maps` map.
+Om onderwerp en kaartmalplaatjedossiers te beheren, zijn er specifieke omslagen om het onderwerp en kaartmalplaatjes op te slaan. Door gebrek, worden alle onderwerpmalplaatjes opgeslagen onder `/content/dam/dita-templates/topics`
+
+map. Alle kaartsjablonen worden onder de `/content/dam/dita-templates/maps` map.
 
 Als beheerder, kunt u verkiezen om douanekaart of onderwerpmalplaatjes in de standaardomslag tot stand te brengen of uw eigen omslag tot stand te brengen om douanesjablonen op te slaan. Als u de standaardmap wilt gebruiken, kunt u dit proces overslaan.
 

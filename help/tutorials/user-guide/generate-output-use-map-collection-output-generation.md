@@ -2,9 +2,9 @@
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -79,13 +79,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
      >  
      > Nieuwe voorinstellingen worden standaard uitgeschakeld.
 
-1. U kunt de voorinstellingen voor een DITA-kaart op de volgende manieren inschakelen:
-
-   - Een afzonderlijke voorinstelling inschakelen.
-   - Inschakelen **Alle voorinstellingen** voor een DITA-kaart om alle voorinstellingen in één keer te selecteren. Deze optie is standaard uitgeschakeld.
-   - Inschakelen **Voorinstellingen voor mapprofielen** voor een DITA-kaart om alle voorinstellingen voor het mapprofiel te selecteren. Deze optie is standaard uitgeschakeld.
-     ![een kaartverzameling bewerken op cloudservices](images/edit-map-collection-cs.png){width="800" align="left"}
-
+   - U kunt **Alle voorinstellingen voor mapprofielen in-/uitschakelen** voor een kaart DITA om alle omslagprofielen voor het in één keer te selecteren.
 
 
 1. Voer een van de volgende handelingen uit:
