@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Leer hoe u de functies van de webeditor kent
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ U ziet verschillende opties in het menu Opties, afhankelijk van het feit of u ee
 
 De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
-- **Bewerken**: Open het bestand voor bewerking. In het geval van een .ditamap/.bookmap-bestand, wordt het geopend in het dialoogvenster [Geavanceerde kaarteditor](map-editor-advanced-map-editor.md#) voor bewerken.
+- **Bewerken**: Open het bestand voor bewerking. In het geval van een .ditamap/.bookmap-bestand, wordt het geopend in [Geavanceerde kaarteditor](map-editor-advanced-map-editor.md#) voor bewerken.
 
 - **Dupliceren**: Gebruik deze optie om een kopie of kopie van het geselecteerde bestand te maken. U kunt de naam van het gedupliceerde bestand ook wijzigen in de vraag Elementen dupliceren. Standaard wordt het bestand gemaakt met het achtervoegsel \(zoals bestandsnaam\_1.extension\). De titel van het bestand blijft dezelfde als het bronbestand en het nieuwe bestand begint met versie 1.0. Alle verwijzingen, markeringen, en meta-gegevens worden gekopieerd terwijl de basislijnen niet in het dubbele dossier worden gekopieerd.
 - **Uitchecken**: Vergrendel het geselecteerde bestand om het te bewerken. Voor een vergrendeld bestand verandert deze optie in **Inchecken**.
