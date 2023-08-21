@@ -2,9 +2,9 @@
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
+source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
 1. Klik in de interface Middelen op **Verzamelingen toewijzen**.
 
-   Als de koppeling Verzamelingen toewijzen niet beschikbaar is, selecteert u de optie **Navigatie** en klik op **Verzamelingen toewijzen**.
+   Als de koppeling Verzamelingen toewijzen niet beschikbaar is, selecteert u de optie **Navigatie** in de linkerspoorstaaf en klik dan **Verzamelingen toewijzen**.
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
@@ -52,15 +52,15 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
 - **Filter:** In de laatste spoorstaaf worden de volgende filters getoond:
-   - **Gewijzigd**: U kunt Ja of Nee selecteren. Als u ja selecteert, slechts zullen de gewijzigde kaarten DITA in de Kaarten en de Vooraf ingestelde lijst worden getoond.
+   - **gewijzigd**: U kunt Ja of Nee selecteren. Als u ja selecteert, slechts zullen de gewijzigde kaarten DITA in de Kaarten en de Vooraf ingestelde lijst worden getoond.
    - **Voorinstelling**: Selecteer een voorinstelling waarvoor u de kaartbestanden wilt uitfilteren. Als u bijvoorbeeld *Site AEM* voorinstelling, worden alleen de kaarten weergegeven die de *Site AEM* uitvoervoorinstelling geconfigureerd op deze apparaten.
-   - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal in de Kaarten en Vooraf ingestelde lijst tonen.
-- **Kaarten en voorinstellingen** tabel: In de tabel Kaarten en voorinstellingen vindt u informatie in de volgende kolommen:
-   - **Kaart**: Toont de titel van het DITA kaartdossier.
-   - **Taal**: Toont de taal van de kaart DITA.
-   - **Voorinstelling**: Hiermee wordt het type uitvoervoorinstelling weergegeven dat op het kaartbestand is geconfigureerd.
-   - **Gewijzigd**: Geeft aan of de DITA-kaart wordt bijgewerkt na de laatste publicatie. Gebaseerd op deze informatie, kunt u besluiten als u de output voor deze kaart wilt opnieuw publiceren DITA of niet.
-   - **Laatst gegenereerd**: Hiermee geeft u de datum en tijd weer van de laatste gegenereerde uitvoer.
+   - **Taal**: U kunt alle beschikbare taalcodes selecteren en alleen de geselecteerde taal in de tabel Kaarten en Voorinstellingen weergeven.
+- **Kaarten en voorinstellingen** tabel: de tabel Kaarten en voorinstellingen bevat informatie in de volgende kolommen:
+   - **Kaart**: geeft de titel van het DITA-kaartbestand weer.
+   - **Taal**: Geeft de taal van de DITA-kaart weer.
+   - **Voorinstelling**: Hiermee geeft u het type uitvoervoorinstelling weer dat op het kaartbestand is geconfigureerd.
+   - **gewijzigd**: Geeft aan of de DITA-kaart wordt bijgewerkt na de laatste publicatie. Gebaseerd op deze informatie, kunt u besluiten als u de output voor deze kaart wilt opnieuw publiceren DITA of niet.
+   - **Laatst gegenereerd**: Geeft de datum en tijd weer van de laatst gegenereerde uitvoer.
 
 ## Vorm en produceer de output gebruikend een Inzameling van de Kaart
 
@@ -79,7 +79,13 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
      >  
      > Nieuwe voorinstellingen worden standaard uitgeschakeld.
 
-   - U kunt **Alle voorinstellingen voor mapprofielen in-/uitschakelen** voor een kaart DITA om alle omslagprofielen voor het in één keer te selecteren.
+1. U kunt de voorinstellingen voor een DITA-kaart op de volgende manieren inschakelen:
+
+   - Een afzonderlijke voorinstelling inschakelen.
+   - Inschakelen **Alle voorinstellingen** voor een DITA-kaart om alle voorinstellingen in één keer te selecteren. Deze optie is standaard uitgeschakeld.
+   - Inschakelen **Voorinstellingen voor mapprofielen** voor een DITA-kaart om alle voorinstellingen voor het mapprofiel te selecteren. Deze optie is standaard uitgeschakeld.
+     ![een kaartverzameling bewerken op cloudservices](images/edit-map-collection-cs.png){width="800" align="left"}
+
 
 
 1. Voer een van de volgende handelingen uit:
@@ -88,7 +94,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
    - Om output van alle kaarten DITA met hun gevormde voorinstellingen te produceren, klik **Alles genereren**.
    >[!IMPORTANT]
    >
-   > Als een proces voor het genereren van uitvoer voor een voorinstelling of een DITA-kaart zich in de wachtrij of in uitvoering bevindt, kunt u geen andere taak voor het genereren van uitvoer voor dezelfde voorinstelling of dezelfde kaart starten.
+   > Als een proces voor het genereren van uitvoer voor een voorinstelling of een DITA-kaart zich in de wachtrij of in uitvoering bevindt, kunt u geen andere uitvoergeneratietaak voor dezelfde voorinstelling of dezelfde kaart starten.
 
 
 ## Schrap een inzameling van de Kaart of een kaart DITA van de Inzameling van de Kaart
@@ -101,7 +107,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
 
 ## Annuleer een taak van de outputgeneratie van een Inzameling van de Kaart
 
-Gelijkaardig aan de manier om een taak van de outputgeneratie van te annuleren [DITA-kaartconsole](generate-output-for-a-dita-map.md#id2061H100T5Z) of de [Dashboard publiceren](generate-output-publish-dashboard.md#), kunt u een taak van de outputgeneratie van een Inzameling van de Kaart annuleren. Open het lusje van Output van een Inzameling van de Kaart, ga naar de publicatietaak die u wilt annuleren, en klik **Deze taak annuleren** pictogram om de publicatietaak te annuleren.
+Gelijkaardig aan de manier om een taak van de outputgeneratie van te annuleren [DITA-kaartconsole](generate-output-for-a-dita-map.md#id2061H100T5Z) of de [Dashboard publiceren](generate-output-publish-dashboard.md#), kunt u een taak van de outputgeneratie van een Inzameling van de Kaart annuleren. Open het lusje van Output van een Inzameling van de Kaart, en ga naar de publicatietaak die u wilt annuleren, en klik **Deze taak annuleren** pictogram om de publicatietaak te annuleren.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
