@@ -2,7 +2,7 @@
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. Ga een Titel voor uw kaartinzameling in.
+1. Voer een titel in voor uw kaartverzameling.
 1. Klikken **Maken**.
 
    Een bericht van het Succes wordt getoond bij verwezenlijking van de kaartinzameling.

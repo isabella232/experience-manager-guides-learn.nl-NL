@@ -2,7 +2,7 @@
 title: Kaarten maken op basis van aangepaste sjablonen
 description: Leer hoe u kaarten maakt op basis van aangepaste sjablonen
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een kaartsjabloon te maken:
 
 1. In de **UI Middelen** Navigeer naar de map dita-templates.
 1. Klikken **maps** om deze te openen.
-1. Klikken **\> DITA-sjabloon maken.**
+1. Klikken **Maken** > **DITA-sjabloon.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
