@@ -4,9 +4,9 @@ description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulpl
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Met de insteekmodule Zuurstof voor Adobe Experience Manager-hulplijnen \(later O
 
 ## Downloaden en installeren {#id1826M0L0PUI}
 
-De insteekmodule Oxygen voor AEM hulplijnen wordt beschikbaar gesteld via de portal voor softwaredistributie van Adobe. Zoek naar &quot;zuurstof&quot; op het tabblad Experience Manager en download het installatieprogramma van de insteekmodule van uw [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+De insteekmodule Zuurstof voor AEM hulplijnen wordt beschikbaar gesteld via de portal voor softwaredistributie van Adobe. Zoek naar &quot;zuurstof&quot; op het tabblad Experience Manager en download het installatieprogramma van de insteekmodule van uw [Distributieportaal voor software voor Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Nadat u de plug-in hebt gedownload en geïnstalleerd, moet u de volgende instell
 
 - **Instellingen voor webverificatie**: Instellingen voor SSO-verificatie in de plug-in voor AEM hulplijnen.
 - **Algemene instellingen**: Verbindingsinstellingen voor de plug-in, zoals URL van AEM server, aanmeldingsgegevens enzovoort.
-- **Voorkeur voor kenmerkaanpassing profileren**: Deze configuratie is vereist voor de kenmerkenschema&#39;s voor profilering voor de documentatiesets.
+- **Voorkeur voor het profileren van kenmerkaanpassingen en bestandsnamen in kruisverwijzingen**: Deze configuratie is vereist voor de kenmerkenschema&#39;s voor profilering voor de documentatiesets.
 
 ### Instellingen voor webverificatie
 
@@ -236,11 +236,11 @@ Voer de volgende stappen uit om de verbindingsinstellingen te configureren in de
    - **Bestand automatisch uitchecken wanneer geopend**: Als deze optie is geselecteerd, wordt het bestand automatisch uitgecheckt en wordt het geopend voor bewerking. Als het bestand al is uitgecheckt, wordt het gewoon geopend voor bewerking. Als deze optie niet is geselecteerd, wordt het openen van een bestand waarvoor u geen vergrendeling hebt, geopend in de alleen-lezen modus.
 1. Klikken **OK**.
 
-### Voorkeur voor kenmerkaanpassing profileren {#id1827K0D0OHT}
+### Voorkeur voor het profileren van kenmerkaanpassingen en bestandsnamen in kruisverwijzingen {#id1827K0D0OHT}
 
-U moet de voorkeur in de Auteur van XML van Oxygen vormen om het profilerende attribuut te gebruiken verbonden aan de onderwerpen DITA in de AEM bewaarplaats.
+U moet de voorkeur in de Auteur van XML van Oxygen vormen om het profilerende attribuut te gebruiken verbonden aan de onderwerpen DITA in de AEM bewaarplaats. U moet ook de voorkeur aan vertoningsbestandsnamen in plaats van GUIDs in de verwijzingen vormen.
 
-Voer de volgende stappen uit om het profileren attributen te vormen:
+Voer de volgende stappen uit om profielkenmerken en kruisverwijzingen te configureren:
 
 1. Klik in Oxygen XML-auteur op **Opties** \> **Voorkeuren**.
 1. In de **Koppeling naar documenttype** tab, selecteert u **DITA** en klik vervolgens op **Uitbreiden**.
@@ -257,6 +257,11 @@ Voer de volgende stappen uit om het profileren attributen te vormen:
 Het volgende schermschot toont gevormd **Extensie** tab voor DITA-onderwerpen:
 
      ![Gevormde uitbreiding voor onderwerpen DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - Klikken **Kies** naast de **Extensiebundel** en selecteer LinkResolverExtensionBundle - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
+
+     ![Gevormde uitbreiding voor onderwerpen DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
@@ -496,6 +501,7 @@ Bij het verplaatsen of kopiëren van inhoud van uw lokale systeem naar AEM opsla
 
 - Wanneer u inhoud uitcheckt vanuit AEM opslagplaats en wijzigingen aanbrengt in uw lokale systeem, moet u ervoor zorgen dat de bestandsnaam niet wordt gewijzigd op het moment dat het bestand wordt geüpload.
 
+- Als u een verwijzing invoegt in DITA Maps Manager, wordt de titel van het bestand weergegeven en niet de UUID. Als de titel niet aanwezig is, dan toont het filename.
 
 ### Favorieten toevoegen of verwijderen {#id195HC04405P}
 
@@ -671,7 +677,7 @@ Voer de volgende stappen uit om de standaardpoort van de proxyserver te wijzigen
 
 ### AEM deelvenster Hulplijnen bladert niet naar de geopende bestandslocatie
 
-Uitgave: wanneer u een bestand opent voor bewerking in de Oxygen XML-auteur van AEM server, wordt het bestand geopend voor bewerking in de Oxygen XML-auteur. In AEM deelvenster Hulplijnen wordt echter niet de locatie van het bestand in de boomstructuur weergegeven.
+Uitgave: wanneer u een bestand opent voor bewerking in de Oxygen XML-auteur van AEM server, wordt het bestand geopend voor bewerking in de Oxygen XML-auteur. AEM deelvenster Hulplijnen geeft echter niet de locatie van het bestand in de navigatiestructuur weer.
 
 Oplossing: dit probleem is waargenomen in scenario&#39;s waarin het bestandspad tweemaal /content/dam bevat. Standaard worden alle elementen in AEM opgeslagen in de map /content/dam. Als u een mapstructuur uploadt of maakt die ook /content/dam bevat, wordt dit probleem waargenomen. U kunt alle normale bewerkingen op dergelijke bestanden uitvoeren, maar de locatie in de navigatiestructuur wordt niet standaard weergegeven. Als u dit bestand in de navigatiestructuur wilt openen, moet u handmatig naar de locatie van het bestand bladeren. Merk op dat in de navigatieboom de dubbele /content/dam weg door /content/assets wordt vervangen.
 

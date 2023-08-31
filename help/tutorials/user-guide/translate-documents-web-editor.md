@@ -2,9 +2,9 @@
 title: Documenten vertalen vanuit de webeditor
 description: Leer hoe te om documenten van de Redacteur van het Web te vertalen
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
+source-git-commit: 15ba984275155489d7ac3878d4b1307a6cd076c6
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,9 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    **Laatste versie gebruiken als ingeschakeld**: Kies of u de versie van de onderwerpen wilt filteren op basis van de aanmaakdatum en -tijd. Wanneer u een datum en tijd selecteert, wordt alleen de meest recente versie van de bestanden weergegeven die op of voor de geselecteerde datum en tijd zijn gemaakt.
 
 1. Klikken **Toepassen**. Een lijst met details van onderwerpen en bijbehorende activa wordt getoond.
-1. Selecteer de onderwerpen die u voor vertaling wilt verzenden.
+1. Selecteer de onderwerpen die u voor vertaling wilt verzenden. U kunt de onderwerp het filtreren opties voor de volgende kolommen ook gebruiken:
 
-   U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken:
-
-   - **Titel**: Titel van het bronbestand
+   - **Titel**: Titel van het bronbestand.  Houd de cursor boven de titel van het bronbestand om de titel van het doelbestand of het vertaalde bestand weer te geven.
    - **Bestandsnaam**: Naam van het bronbestand
    - **Bestandstype**: Type bronbestand. De beschikbare opties zijn Kaart, Onderwerp, en Beeld.
    - **Referentietype**: directe of indirecte verwijzingen

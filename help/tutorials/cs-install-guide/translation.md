@@ -1,7 +1,7 @@
 ---
 title: Inhoud vertalen
 description: Leer hoe u inhoud kunt vertalen
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -13,20 +13,20 @@ ht-degree: 0%
 
 Automatiseer de vertaling van pagina-inhoud, elementen en door de gebruiker gegenereerde inhoud om meertalige websites te maken en te onderhouden. Om vertaalworkflows te automatiseren, integreert u de leveranciers van vertaaldiensten met AEM en creeert projecten voor het vertalen van inhoud in veelvoudige talen. AEM ondersteunt workflows voor het vertalen van mensen en machines.
 
-- Menselijke vertaling: Inhoud wordt naar uw vertaalbureau verzonden en door professionele vertalers vertaald. Wanneer de vertaalde inhoud is voltooid, wordt deze geretourneerd en in AEM geïmporteerd. Wanneer uw vertaalprovider is geïntegreerd met AEM, wordt inhoud automatisch uitgewisseld tussen AEM en de vertaalprovider
+- Menselijke vertaling: de inhoud wordt naar uw vertaalbureau verzonden en door professionele vertalers vertaald. Wanneer de vertaalde inhoud is voltooid, wordt deze geretourneerd en in AEM geïmporteerd. Wanneer uw vertaalprovider is geïntegreerd met AEM, wordt inhoud automatisch uitgewisseld tussen AEM en de vertaalprovider
 
-- Machinevertaling: De vertaalservice zet uw inhoud direct om
+- Machinevertaling: de vertaalservice zet uw inhoud direct om
 
 
 Voor het vertalen van inhoud worden de volgende stappen uitgevoerd:
 
 1. AEM verbinden met uw [vertaalserviceprovider](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en configuraties voor vertaalintegratie maken.
 
-1. Koppel de pagina&#39;s van uw master taal aan de vertaalservice en frameworkconfiguraties.
+1. Koppel de pagina&#39;s van uw taalmaster aan de vertaalservice en frameworkconfiguraties.
 
-1. Identificeer het type van [te vertalen inhoud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Het type van [te vertalen inhoud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
-1. [De inhoud voorbereiden voor vertaling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) door de master taal te ontwerpen en de basispagina&#39;s van taalkopieën te maken.
+1. [De inhoud voorbereiden voor vertaling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) door het taalstramien te ontwerpen en de basispagina&#39;s van taalkopieën te maken.
 
 1. Maken [vertaalprojecten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) de te vertalen inhoud te verzamelen en het vertaalproces voor te bereiden.
 
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om het tabblad Vertaling op het dashboard voor de D
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | Booleaanse waarde \( true/ false\).<br> **Standaardwaarde**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Boolean \( true/ false\).<br> **Standaardwaarde**: `true` |
 
    >[!NOTE]
    >
@@ -63,11 +63,11 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleaans: <br> - Als u menselijke vertaling gebruikt, dan *Uitschakelen* \( `false`\) de **Workflow voor op componenten gebaseerde omzetting** optie. <br> - Als u automatische vertaling gebruikt, *\( inschakelen `true`\)* de **Workflow voor op componenten gebaseerde omzetting** optie. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleaans: <br> - Als u menselijke vertaling gebruikt, dan *Uitschakelen* \( `false`\) de **Workflow voor op componenten gebaseerde omzetting** -optie. <br> - Als u automatische vertaling gebruikt, *\( inschakelen `true`\)* de **Workflow voor op componenten gebaseerde omzetting** -optie. |
 
 >[!NOTE]
 >
-> Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar hebt gevormd zoals die in wordt beschreven *[Het framework voor vertaalintegratie configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* in AEM documentatie.
+> Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar hebt gevormd zoals die in wordt beschreven *[Het Kader voor de Integratie van de Vertaling vormen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* onderwerp in AEM documentatie.
 
 >[!IMPORTANT]
 >
@@ -81,5 +81,5 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleaans: <br> - Als u de naverwerkingsbewerking niet wilt uitvoeren op de tijdelijke bestanden, *Uitschakelen* \( false\) de **Na het proces gemaakte taalkopieën** optie.<br> - Als u de naverwerkingsbewerking wilt uitvoeren op de tijdelijke bestanden, *Inschakelen* \( true\) de **Na het proces gemaakte taalkopieën** optie.<br> **Standaardwaarde**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleaans: <br> - Als u de naverwerkingsbewerking niet wilt uitvoeren op de tijdelijke bestanden, *Uitschakelen* \( false\) de **Na het proces gemaakte taalkopieën** -optie.<br> - Als u de naverwerkingsbewerking wilt uitvoeren op de tijdelijke bestanden, *Inschakelen* \( true\) de **Na het proces gemaakte taalkopieën** -optie.<br> **Standaardwaarde**: false |
 

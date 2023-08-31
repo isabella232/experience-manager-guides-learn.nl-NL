@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release van september 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van september 2023 as a Cloud Service
-source-git-commit: c01c3500b55f3579633ad1a954f9010783365add
+source-git-commit: 9d59fbbc88c3effe0b1c8438d9f3af55ffb8da27
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -12,22 +12,21 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies in versie september 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023.7.0.md).
+Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023.9.0.md).
 
-## Verbind met een gegevensbron en neem gegevens in uw onderwerpen op
+## Verbind met een gegevensbron en neem de onderwerpen op
 
-Nu kunt u snel verbinding maken met uw gegevensbronnen met behulp van kant-en-klare connectors van AEM hulplijnen. Wanneer u verbinding maakt met een gegevensbron, kunt u uw informatie synchroon houden met de bron. Updates van de gegevens worden dan automatisch weerspiegeld, waardoor AEM hulplijnen een echte inhoudshub worden. Met deze functie bespaart u tijd en moeite om de gegevens handmatig toe te voegen of te kopiëren.
+AEM de Gidsen verstrekt uit-van-de-doosschakelaars die u met uw gegevensbronnen helpen verbinden, die tot AEMGidsen een ware inhoudshub maken. Dit geeft u het voordeel om u tijd en inspanning te besparen die anders aan handgegevenstoevoeging of replicatie zouden worden besteed.
 
-AEM de Gidsen staan uw beheerder toe om de uit-van-de-doosschakelaars voor JIRA en SQL (MySQL, PostgreSQL, SQL Server, SQLite) gegevensbestanden te vormen. Zij kunnen andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden.
-Zodra toegevoegd, kunt u de gevormde schakelaars bekijken die onder het paneel van Gegevensbronnen in de Redacteur van het Web worden vermeld.
+Samen met de bestaande uit-van-de-doos schakelaars zoals JIRA en SQL (MySQL, PostgreSQL, SQL Server, SQLite), kan uw beheerder schakelaars voor MariaDB, H2DB, de Uitwisseling van Adobe, en de gegevensbestanden van de Elasticsearch ook vormen. Zij kunnen andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden.
+
+U kunt de gevormde schakelaars onder bekijken **Gegevensbronnen** in de webeditor.
 
 <img src="assets/data-sources.png" alt="Lijst met gegevensbronnen in het deelvenster" width="300">
 
-*Bekijk de aangesloten gegevensbronnen.*
+*Bekijk de verbonden gegevensbronnen.*
 
-Maak een inhoudsfragment om de gegevens van een verbonden gegevensbron op te halen. U kunt de gegevens in uw onderwerpen dan opnemen en het uitgeven. Nadat u een inhoudsfragmentgenerator hebt gemaakt, kunt u deze opnieuw gebruiken om de gegevens in te voegen in een onderwerp.
-
-Nu kunt u een onderwerp van een verbonden gegevensbron ook tot stand brengen. Een onderwerp kan gegevens in diverse formaten, zoals lijsten, lijsten, en paragrafen bevatten. Het staat u ook toe om een kaart DITA voor alle onderwerpen tot stand te brengen. U kunt meta-gegevens aan het onderwerp associëren wanneer het trekken uit een gegevensbron.
+U kunt nu ook een onderwerp van een verbonden gegevensbron tot stand brengen. Een onderwerp kan gegevens in diverse formaten, zoals lijsten, lijsten, en paragrafen bevatten. Het staat u ook toe om een kaart DITA voor alle onderwerpen tot stand te brengen. U kunt meta-gegevens aan het onderwerp associëren wanneer het trekken uit een gegevensbron.
 
 Voor meer informatie, bekijkt u [Gegevens uit uw gegevensbron gebruiken](../user-guide/web-editor-content-snippet.md).
 
@@ -40,6 +39,7 @@ In AEM hulplijnen kunt u citaten toevoegen of citaten importeren en deze op de i
 Na het opnemen van uw citaten aan uw onderwerpen, kunt u voorproef hen in de Redacteur van het Web. U kunt inhoud met citaten ook publiceren gebruikend Eigen PDF.
 
 ![In een deelvenster weergegeven uitnodigingen](assets/citation-panel.png){width="300" align="left"}
+
 *De lijst met citaten weergeven in het deelvenster Cites.*
 
 Voor meer informatie, bekijkt u [Citaten in uw inhoud toevoegen en beheren](../user-guide/web-editor-apply-citations.md).
@@ -54,7 +54,10 @@ Nu AEM Gidsen een manier biedt om een onderwerp of de elementen binnen een onder
 Maak een hoofdletter van AEM hulplijnen en inhoudsfragmenten en gebruik inhoudsfragmenten op een AEM site. U kunt de details ook extraheren via API&#39;s die worden ondersteund door inhoudsfragmenten.
 
 ![optie voor het publiceren van een inhoudsfragment](assets/content-fragment-publish.png){width="550" align="left"}
+
 *Een onderwerp naar een inhoudsfragment publiceren.*
+
+Voor meer informatie, bekijkt u [Publiceren naar een inhoudsfragment](../user-guide//publish-content-fragment.md).
 
 ## Verbeteringen voor revisie
 
@@ -66,6 +69,7 @@ Het uitvoeren van revisies is een essentieel onderdeel van AEM hulplijnen. Hierm
 U kunt nu naar een onderwerp zoeken door een deel van de tekst van de titel of het bestandspad in te voeren in de zoekbalk van de onderwerpenweergave van het revisiepaneel. U kunt ook alle onderwerpen of onderwerpen met opmerkingen weergeven. Standaard kunt u alle onderwerpen in de overzichtstaak weergeven. Voor meer informatie, bekijkt u [Onderwerpen bekijken](../user-guide/review-topics.md).
 
 ![Zoeken in een deelvenster met revisieonderwerpen](assets/review-search-topic.png){width="800" align="left"}
+
 *Een revisieonderwerp zoeken in het deelvenster Review.*
 
 
@@ -78,7 +82,7 @@ Maak aangepaste pakketten boven op AEM hulplijnen voor uitbreidbaarheid met AEM 
 
 ## Native PDF-verbeteringen
 
-De volgende Native PDF-verbeteringen zijn doorgevoerd in de release 4.3.0 om van AEM hulplijnen een robuuster product te maken:
+De volgende Native PDF-verbeteringen zijn doorgevoerd in de release van september 2023 om van AEM hulplijnen een robuuster product te maken:
 
 
 
@@ -101,15 +105,23 @@ Voor meer informatie, bekijkt u [Paginavolgorde](../native-pdf/components-pdf-te
 
 ### Pagina&#39;s samenvoegen
 
-In een native PDF-uitvoer beginnen standaard alle secties op een nieuwe pagina. Nu kunt u een sectie samenvoegen tot de vorige of volgende pagina. Hierdoor wordt de sectie gepubliceerd in overeenstemming met de geselecteerde pagina in de PDF-uitvoer en is er geen pagina-einde tussen de pagina&#39;s.
+In een native PDF-uitvoer beginnen standaard alle secties op een nieuwe pagina. Nu kunt u een sectie samenvoegen tot de vorige of volgende pagina. Hiermee wordt de sectie gepubliceerd in overeenstemming met de geselecteerde pagina in de PDF-uitvoer en is er geen pagina-einde tussen.
 
-Voor meer details bekijkt u de beschrijving van de functie Pagina&#39;s samenvoegen in [Paginavolgorde](../native-pdf/components-pdf-template.md#page-order) sectie.
+Voor meer informatie bekijkt u de **Pagina&#39;s samenvoegen** functiebeschrijving in [Paginavolgorde](../native-pdf/components-pdf-template.md#page-order) sectie.
+
+### Een hoofdstuk vanaf de huidige pagina starten
+
+U kunt de basisconfiguratiemontages voor de aanvang van een hoofdstuk van oneven of even pagina, de structuur van TOC, plaatsen en het formaat van de leaderlijn voor de ingangen van TOC bepalen.
+
+Nu kunt u ook een hoofdstuk starten vanaf de huidige pagina. Als u dit wilt doen, worden alle hoofdstukken zonder pagina-einden verder gepubliceerd. Als een hoofdstuk bijvoorbeeld halverwege pagina 15 eindigt, begint het volgende hoofdstuk ook op de 15e pagina zelf.
+
+Voor meer informatie bekijkt u de **Algemeen** tabbeschrijving in  [Geavanceerde PDF-instellingen](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Statische pagina&#39;s
 
 U kunt ook aangepaste paginalay-outs maken en deze als statische pagina&#39;s publiceren in de PDF-uitvoer. Zo kunt u statische inhoud toevoegen, zoals notities of lege pagina&#39;s.
 
-Voor meer informatie bekijkt u de beschrijving van de functie Statische pagina&#39;s in [Paginavolgorde](../native-pdf/components-pdf-template.md#page-order) sectie.
+Voor meer informatie bekijkt u de **Statische pagina&#39;s** functiebeschrijving in [Paginavolgorde](../native-pdf/components-pdf-template.md#page-order) sectie.
 
 
 ### Variabelen in kruisverwijzingen
@@ -135,16 +147,29 @@ U kunt nu aangepaste kiezers gebruiken om complexe stijlen toe te voegen. Met he
 
 ![stijlen toevoegen in de native PDF-sjablonen](assets/add-styles-native-pdf.png){width="300" align="left"}
 
+*Voeg de details voor de nieuwe stijl toe.*
+
 #### Stijleigenschappen aanpassen
 
 AEM hulplijnen introduceert u nu een nieuw deelvenster met eigenschappen onder de voorvertoningssectie voor stijlen. U kunt de eigenschappen van de stijlen efficiënter en sneller bewerken in het deelvenster Eigenschappen.
 
 
+## Ondersteuning van meerdere onderwerpdefinities in één opsommingsdefinitie
+
+U kunt nu een of meer onderwerpdefinities definiëren in een kaart en de opsommingsdefinities in een andere kaart en vervolgens de kaartverwijzing toevoegen. De verwijzingen naar onderwerpopsommingen worden opgelost in dezelfde kaart of in de kaart waarnaar wordt verwezen.
+
+U kunt nu ook voorwaarden definiëren en deze toepassen op bepaalde specifieke elementen in een onderwerp.  De voorwaarden zijn alleen zichtbaar voor die specifieke elementen en niet voor alle andere elementen.
+
+Voor meer details over de behandeling van hiërarchische definities van onderwerpdefinities en opsommingen, bekijk de de eigenschapbeschrijving van de Onderwerpregeling in [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+
+
+
+
 
 ## Alle voorinstellingen in een kaartverzameling selecteren
 
-U kunt niet alleen een individuele voorinstelling selecteren, maar u kunt ook alle voorinstellingen voor een DITA-kaart in één keer inschakelen.
-![een kaartverzameling bewerken](assets/edit-map-collection.png){width="800" align="left"}\
+U kunt niet alleen een individuele voorinstelling en alle voorinstellingen van het mapprofiel inschakelen, maar ook alle voorinstellingen voor een DITA-kaart in één keer.
+![een kaartverzameling bewerken](assets/edit-map-collection-cs.png){width="800" align="left"}\
 *Selecteer alle voorinstellingen in een kaartverzameling.*
 
 Voor meer informatie, bekijkt u [Kaartverzameling gebruiken voor het genereren van uitvoer](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -164,3 +189,19 @@ In het dialoogvenster Bladeren kunt u de bronmappen selecteren die u wilt verpla
 Voor meer informatie, bekijkt u [Bestanden bulksgewijs verplaatsen](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
+## Verbeterde voorvertoning via het contextmenu
+
+Gebruik het contextmenu om snel een voorvertoning van het bestand weer te geven (.dita, .xml, audio, video of afbeelding) zonder het te openen. U kunt nu het formaat van het voorvertoningsvenster wijzigen. Als de inhoud een referentiekoppeling bevat, kunt u het venster selecteren en openen op een nieuw tabblad.
+
+![Voorvertoningsvenster ](assets/quick-preview_cs.png){width="800" align="left"}
+
+*Geef een voorvertoning van het bestand weer in het deelvenster.*
+
+Zie voor meer informatie over het contextmenu de **Opties voor een bestand** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+
+
+## Variabelen voor huidige datum en tijd gebruiken in de opties Doelpad, Sitenaam of Bestandsnaam
+
+Tijdens het genereren van uitvoer in AEM Site of PDF kunt u variabelen gebruiken voor het instellen van de **Doelpad**, **Sitenaam**, of **Bestandsnaam** opties. U kunt nu ook de opdracht `${system_date}`en `${system_time}` variabelen. Met deze variabelen kunt u de huidige datum en tijd aan deze opties toevoegen.
+
+Leer hoe u [variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](../user-guide/generate-output-use-variables.md).

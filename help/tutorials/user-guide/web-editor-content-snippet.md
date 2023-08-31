@@ -1,9 +1,9 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Leer hoe u een inhoudsfragment uit uw gegevensbron kunt invoegen
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **gegevensbron** is een systeem waarin u de gegevens voor uw organisatie opsla
 
 ## Deelvenster Gegevensbronnen
 
-Selecteren **Gegevensbronnen** ![](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen. Voor meer informatie, bekijkt u [Een gegevensbronaansluiting configureren](../install-guide/conf-data-source-connector.md).
+Selecteren **Gegevensbronnen** ![](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
+
+Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
+
+<details>
+<summary> Cloud Services </summary>
+
+Leer hoe u [configureren van gegevensbronaansluiting](../cs-install-guide/conf-data-source-connector.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
+</details>
+
+<details>    
+<summary>  Software op locatie </summary>
+
+Leer hoe u [configureren van gegevensbronaansluiting](../install-guide/conf-data-source-connector.md)  in de on-premise gids van de Installatie en van de Configuratie.
+</details>
+
 
 >[!NOTE]
 >

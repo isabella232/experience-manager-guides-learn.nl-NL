@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
+source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Deze metagegevens worden toegewezen aan de metagegevens op het tabblad Beschrijv
 Uit de uitvoervoorinstellingen **PDF selecteren** > **Metagegevens** als u opties voor metagegevens wilt toevoegen en aanpassen.
 * **XMP bestand opgeven**
 
-  Metagegevensvelden kunnen rechtstreeks worden gevuld door te importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) bestand. U kunt hier een voorbeeld XMP bestand downloaden.
+  Metagegevensvelden kunnen rechtstreeks worden gevuld door te importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform)-bestand. U kunt hier een voorbeeld XMP bestand downloaden.
 
 [Downloaden](assets/SampleXMP.xmp)
 
@@ -159,7 +159,7 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | **Volledige compressie gebruiken om de PDF te optimaliseren** | Selecteer deze optie als u een grote PDF wilt comprimeren of verkleinen. Houd er rekening mee dat het comprimeren van de PDF de bestandskwaliteit kan verminderen. |
 | **Afbeeldingscompressie gebruiken om de PDF te optimaliseren** | Selecteer deze optie als u de gebruikte afbeeldingen in uw PDF wilt comprimeren of verkleinen. Houd er rekening mee dat het comprimeren van een afbeelding de afbeeldingskwaliteit kan verminderen. |
 | **Aangepaste resolutie gebruiken (pixels per inch)** | Dit is de resolutie van de paginaweergave bij pixels per inch. Voer in het veld een voorkeurswaarde in die wordt weergegeven wanneer deze optie wordt geselecteerd. De standaardwaarde is 96 pixels per inch. Stel een hogere waarde in om meer inhoud in een inch te passen en andersom als u een lagere waarde instelt. |
-| **Watermerk tonen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. Anders worden de vergelijkingen genegeerd. |
+| **Watermerk tonen** | Selecteer deze optie als u een watermerk in de uitvoer wilt plaatsen. U kunt een nieuwe tekstreeks in het tekstvak invoeren met de tekenbehuizing zoals u wilt. |
 | **MathML-vergelijkingen inschakelen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. De vergelijkingen worden anders standaard genegeerd. |
 | **PDF-conformiteit** | Dit is de standaard waarmee u de PDF wilt opslaan om ervoor te zorgen dat deze compatibel is. Selecteer een optie in het vervolgkeuzemenu om een keuze te maken in de lijst met beschikbare PDF-standaarden. Zie voor meer informatie over de ondersteunde standaarden [PDF-standaarden](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Tijdelijke bestanden downloaden** | Selecteer deze optie als u de tussentijdse HTML-bestanden wilt downloaden die tijdens het genereren van de native PDF-uitvoer zijn gemaakt. U kunt de tijdelijke bestanden later downloaden nadat u de uitvoer hebt gegenereerd. |

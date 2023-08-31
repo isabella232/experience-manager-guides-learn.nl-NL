@@ -1,9 +1,9 @@
 ---
 title: Een gegevensbronaansluiting configureren
 description: Leer hoe te om een gegevensbronschakelaar te vormen
-source-git-commit: 760d765a364a49aaff8787eea4f067b3f0e25103
+source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Een gegevensbronaansluiting configureren
 
-AEM de Gidsen verstrekt uit-van-de-doos schakelaars voor JIRA en SQL (MySQL, PostgreSQL, SQL Server, SQLite) gegevensbestanden. U kunt andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden. De volgende configuratie helpt u om de diverse gegevensbronnen gemakkelijk toe te voegen. Zodra toegevoegd, kunt u de gegevensbronnen in de Redacteur van het Web bekijken.
+AEM de Gidsen verstrekt uit-van-de-doos schakelaars voor de gegevensbestanden van JIRA, SQL (MySQL, PostgreSQL, SQL van Microsoft SQL, SQLite, MariaDB, H2DB), van de Handel van Adobe, en van de Elasticsearch. U kunt andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden. De volgende configuratie helpt u om de diverse gegevensbronnen gemakkelijk toe te voegen. Zodra toegevoegd, kunt u de gegevensbronnen in de Redacteur van het Web bekijken.
 
 Voer de volgende stappen uit om een gegevensbronschakelaar te vormen en dan het van de Redacteur van het Web te gebruiken:
 
 ## Een connector configureren
 
-U kunt een out-of-the-box schakelaar vormen door een JSON dossier te uploaden. U kunt de volgende dossiers van de steekproefopstelling aan opstellingsschakelaars voor Jira en SQL (MySQL, PostgreSQL, SQL Server, SQLite) gegevensbestanden gebruiken.
+U kunt een out-of-the-box schakelaar vormen door een JSON dossier te uploaden. U kunt de volgende dossiers van de steekproefopstelling aan opstellingsschakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch gebruiken.
 
 Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met gebruikersnaam en wachtwoord:
 
@@ -27,7 +27,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met gebruiker
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met token:
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met het token
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -119,7 +119,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van PostgreSQL:
 
 Bijvoorbeeld, sparen als `postgres.json`.
 
-Een voorbeeld van een installatiebestand voor de basisverificatie van MS SQL Server:
+Een voorbeeld van een installatiebestand voor de basisverificatie van Microsoft SQL Server:
 
 ```
 {
@@ -160,6 +160,104 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van SQLite:
 ```
 
 Bijvoorbeeld, sparen als `sqqlite.json`.
+
+
+
+Een voorbeeldinstellingsbestand voor H2DB:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+	"configName": "H2DBConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.h2.Driver",
+			"connectionString": "jdbc:h2:file:D:/h2db/db"
+		}
+	}
+}
+```
+
+Bijvoorbeeld, sparen als `sqqlite.json`.
+
+
+
+Een voorbeeldinstellingsbestand voor de basisverificatie van MariaDb:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+	"configName": "SampleMariaDbConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.mariadb.jdbc.Driver",
+			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+		}
+	}
+}
+```
+
+Bijvoorbeeld, sparen als `mariadb.json`.
+
+
+Een voorbeeld van een instellingenbestand voor de basisverificatie van de Elasticsearch:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+	"configName": "SampleES",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",    	
+			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+	}
+}
+```
+
+Bijvoorbeeld, sparen als `ES.json`.
+
+De vraag voor Elastic Onderzoek zou de index en de vraag moeten omvatten:
+
+```
+{
+"index": "kibana_sample_data_ecommerce",
+"queryString":{
+    "query": {
+        "match_all": {}
+    }
+}
+}
+```
+
+
+
+Een voorbeeldinstellingenbestand voor AdobeCommerce NoAuth:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+	"configName": "SampleCommerce",
+	"templateFolders": ["/content/dam/dita-templates/konnect"],
+	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+   "configData": {
+   			"url": "http://host/graphql"   
+		}
+	}
+}
+```
+
+Bijvoorbeeld, sparen als `commerce.json`.
 
 ### Een verbindingsconfiguratie aanpassen
 

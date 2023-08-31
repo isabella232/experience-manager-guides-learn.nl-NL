@@ -1,7 +1,7 @@
 ---
 title: De publicatiefunctie Native PDF aanpassen en configureren
 description: Leer hoe u de verschillende onderdelen van de functie Native PDF aanpast en configureert.
-source-git-commit: 1757b29820cb45970657b46b54ae99d6099fbc84
+source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -30,3 +30,4 @@ Raadpleeg de volgende secties voor meer informatie:
    * [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](../native-pdf/add-custom-bookmark.md)
    * [JavaScript gebruiken om met inhoud of stijl te werken](../native-pdf/use-javascript-content-style.md)
    * [Aangepaste stijlen gebruiken in voetnoten](../native-pdf/footnote-number-style.md)
+

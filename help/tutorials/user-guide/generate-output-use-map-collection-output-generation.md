@@ -2,9 +2,9 @@
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
+source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. Voer een titel in voor uw kaartverzameling.
+1. Ga een Titel voor uw kaartinzameling in.
 1. Klikken **Maken**.
 
    Een bericht van het Succes wordt getoond bij verwezenlijking van de kaartinzameling.
@@ -79,7 +79,13 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
      >  
      > Nieuwe voorinstellingen worden standaard uitgeschakeld.
 
-   - U kunt **Alle voorinstellingen voor mapprofielen in-/uitschakelen** voor een kaart DITA om alle omslagprofielen voor het in één keer te selecteren.
+1. U kunt de voorinstellingen voor een DITA-kaart op de volgende manieren inschakelen:
+
+   - Een afzonderlijke voorinstelling inschakelen.
+   - Inschakelen **Alle voorinstellingen** voor een DITA-kaart om alle voorinstellingen in één keer te selecteren. Deze optie is standaard uitgeschakeld.
+   - Inschakelen **Voorinstellingen voor mapprofielen** voor een DITA-kaart om alle voorinstellingen voor het mapprofiel te selecteren. Deze optie is standaard uitgeschakeld.
+     ![een kaartverzameling bewerken op cloudservices](images/edit-map-collection-cs.png){width="800" align="left"}
+
 
 
 1. Voer een van de volgende handelingen uit:

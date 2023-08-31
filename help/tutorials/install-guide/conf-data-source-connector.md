@@ -1,7 +1,7 @@
 ---
 title: Een gegevensbronaansluiting configureren
 description: Leer hoe te om een gegevensbronschakelaar te vormen
-source-git-commit: f13b052b1cba88d946bdc498bc40d7a211ed3830
+source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met gebruiker
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met token:
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met het token
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"

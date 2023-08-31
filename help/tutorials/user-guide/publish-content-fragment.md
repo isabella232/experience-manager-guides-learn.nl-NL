@@ -1,9 +1,9 @@
 ---
 title: Een onderwerp naar een inhoudsfragment publiceren
 description: Leer hoe u een onderwerp naar een inhoudsfragment publiceert.
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,22 @@ Voeg bijvoorbeeld `/conf/we-retail` in de cloudconfiguratie. Deze configuratie v
    * **Model**: Selecteer het inhoudsfragmentmodel dat u wilt gebruiken om het inhoudsfragment te maken. De modellen worden gekozen uit de map die u hebt geconfigureerd in de cloudservices.
    * **Toewijzing**: Selecteer een toewijzing in de keuzelijst. De toewijzingen worden gekozen uit de *contentFragmentMapping.json* bestand.
 
-     >[!NOTE]
-     >
-     >Uw beheerder kan de toewijzingen toevoegen in de *contentFragmentMapping.json* bestand.  Meer informatie over hoe [een toewijzing maken tussen een onderwerp en een inhoudsfragment](../install-guide/conf-content-fragment-mapping.md) in *Installatie- en configuratiehandleiding op locatie*.
 
 
+     Gebaseerd op uw opstelling kan uw beheerder de afbeeldingen in toevoegen *contentFragmentMapping.json* bestand.
+
+     <details>
+        <summary>Cloud Services</summary>
+
+     Meer informatie over hoe [een toewijzing maken tussen een onderwerp en een inhoudsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
+     </details>
+
+     <details>
+        <summary> Software op locatie</summary>
+
+     Meer informatie over hoe [een toewijzing maken tussen een onderwerp en een inhoudsfragment](../install-guide/conf-content-fragment-mapping.md) in de on-premise gids van de Installatie en van de Configuratie.
+
+     </details>
    * Selecteer de **Overschrijven** Schakel het selectievakje in als het inhoudsfragment al bestaat en u het wilt overschrijven. AEM hulplijnen geeft een fout weer als u het selectievakje niet inschakelt en het inhoudsfragment al bestaat.
 1. Klikken **Maken** om het inhoudsfragment te publiceren.
 1. U kunt de inhoudsfragmenten voor een onderwerp bekijken onder de **Fragmenten** in de **Bestandseigenschappen**.

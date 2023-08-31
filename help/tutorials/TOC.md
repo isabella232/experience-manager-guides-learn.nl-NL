@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
+source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1479'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 4%
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          + Versies van 2023 {#2023-releases}
+            + Release september {#2309-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.9.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
             + Release juli {#2307-release}
                + [Wat is er nieuw](./release-info/whats-new-2023.7.0.md)
                + [Release-opmerkingen](./release-info/release-notes-2023.7.0.md)
@@ -155,7 +158,7 @@ ht-degree: 4%
       + [Kaartverzameling gebruiken voor het genereren van uitvoer](./user-guide/generate-output-use-map-collection-output-generation.md)
       + Native PDF-publicatiefunctie gebruiken {#web-editor}
          + [PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
-         + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
+      + [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
       + [Publicatietaken beheren met het dashboard Publiceren](./user-guide/generate-output-publish-dashboard.md)
       + [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
       + [Publiceren naar een inhoudsfragment](./user-guide/publish-content-fragment.md)
@@ -258,7 +261,7 @@ ht-degree: 4%
                + [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](./native-pdf/add-custom-bookmark.md)
                + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
                + [Aangepaste stijlen gebruiken in voetnoten](./native-pdf/footnote-number-style.md)
-            + [JVM-vlaggen configureren voor Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+         + [JVM-vlaggen configureren voor Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
          + [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./install-guide/conf-content-fragment-mapping.md)
       + Werken met aangepaste workflows {#custom-workflow}
          + [Workflows configureren en aanpassen](./install-guide/customize-workflows.md)
@@ -324,6 +327,8 @@ ht-degree: 4%
       + Werken met instellingen voor het genereren van uitvoer {#output-gen-config-cs}
          + [Instellingen voor uitvoergeneratie configureren](./cs-install-guide/conf-output-generation.md)
          + [Systeemeigen PDF-publicatie](./cs-install-guide/native-pdf-publishing.md)
+         + [Knooppuntproces configureren voor publiceren in eigen PDF](./native-pdf/configure-node-options.md)
+         + [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       + Werken met aangepaste workflows {#custom-workflow-cs}
          + [Workflows configureren en aanpassen](./cs-install-guide/customize-workflows.md)
       + Werken met vertaalconfiguraties {#translate-config-cs}
