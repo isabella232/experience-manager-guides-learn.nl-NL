@@ -1,9 +1,9 @@
 ---
 title: Native PDF | Steun voor taalvariabelen
 description: Taalvariabelen gebruiken in de PDF-uitvoer en -uitvoersjablonen
-source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
+source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ U kunt het label bijvoorbeeld op de volgende manieren presenteren `Note` in de P
 
 - Duits: Hinweis
 
-<img src="./assets/language-variable-output.png" width="550">
+<img alt= "uitvoer naar het document dat taalvariabelen bevat" src="./assets/language-variable-output.png" width="550">
+
+*Een voorbeeldnotitie in de Engelse, Franse en Duitse taal.*
 
 >[!NOTE]
 >
@@ -33,20 +35,20 @@ U kunt het label bijvoorbeeld op de volgende manieren presenteren `Note` in de P
 >
 > Als u de waarde niet in de taal van UI hebt bepaald, zoekt het Engels (`en_us`), of anders kiest het Engels (`en`) en geeft hetzelfde weer in de uitvoer van PDF.
 
-### Typen taalvariabelen
+## Typen taalvariabelen
 
-AEM hulplijnen ondersteunen twee typen variabelen: Toepassings- en gebruikersvariabelen.
+AEM hulplijnen ondersteunen twee typen variabelen: toepassings- en gebruikersvariabelen.
 
-#### Toepassingsvariabelen
+### Toepassingsvariabelen
 
-AEM de Gidsen verstrekt een reeks vooraf bepaalde of uit-van-de-doos toepassingsvariabelen. U kunt deze vooraf gedefinieerde variabelen gebruiken om informatie toe te voegen over een document dat specifiek is voor AEM hulplijnen. De `chapter-number` Als de variabele in een pagina is opgenomen, wordt het hoofdstuknummer weergegeven waartoe de pagina behoort. De `author-label` met deze variabele wordt de naam van de auteur van het document weergegeven.
+AEM de Gidsen verstrekt een reeks vooraf bepaalde of uit-van-de-doos toepassingsvariabelen. U kunt deze vooraf gedefinieerde variabelen gebruiken om informatie toe te voegen over een document dat specifiek is voor AEM hulplijnen. Bijvoorbeeld de `chapter-number` Als de variabele in een pagina is opgenomen, wordt het hoofdstuknummer weergegeven waartoe de pagina behoort. De `author-label` met deze variabele wordt de naam van de auteur van het document weergegeven.
 
 >[!NOTE]
 >
 > U kunt de waarde van een toepassingsvariabele overschrijven.
 
 
-#### Gebruikersvariabelen
+### Gebruikersvariabelen
 
 U kunt ook nieuwe taalvariabelen maken. U kunt bijvoorbeeld een gebruikersvariabele Publisher maken voor het label van de uitgever voor het document.
 
@@ -54,9 +56,11 @@ U kunt ook nieuwe taalvariabelen maken. U kunt bijvoorbeeld een gebruikersvariab
 >
 >  U moet over beheerdersrechten beschikken om gebruikersvariabelen te maken en de toepassingsvariabelen te bewerken.
 
-<img src="./assets/add-language-variables.png" width="550">
+<img alt="venster Taalvariabelen" src="./assets/add-language-variables.png" width="550">
 
-### Een nieuwe taalvariabele toevoegen
+*Voeg de taalvariabelen voor een geselecteerde taal toe en bekijk deze.*
+
+## Een nieuwe taalvariabele toevoegen
 
 1. Ga in de webeditor naar het tabblad Uitvoer.
 1. Selecteren **Taalvariabelen** <img src="./assets/language-variables.svg" width="25"> in het linkerdeelvenster.
@@ -65,7 +69,7 @@ U kunt ook nieuwe taalvariabelen maken. U kunt bijvoorbeeld een gebruikersvariab
 
    >[!NOTE]
    >
-   > Als u de gewenste talen niet bekijkt, schakelt u de gewenste taal in via **Instellingen taalvariabele**. Instellingen selecteren <img src="./assets/settings-icon.svg" width="25">  om de **Instellingen taalvariabelen** .
+   > Als u de gewenste talen niet bekijkt, schakelt u de gewenste taal in via **Instellingen taalvariabele**. Instellingen selecteren <img src="./assets/settings-icon.svg" width="25">  om de **Instellingen taalvariabelen** in.
 
 1. Voer de naam van de variabele in het dialoogvenster **Naam** en de waarde ervan in het dialoogvenster **Waarde** kolom.
 
@@ -77,15 +81,56 @@ U kunt ook nieuwe taalvariabelen maken. U kunt bijvoorbeeld een gebruikersvariab
 
 >[!NOTE]
 >
-> Als u deze optie niet selecteert **Taalvariabele toevoegen**, wordt de variabele niet gemaakt en toegevoegd aan de lijst
+> Als u **Taalvariabele toevoegen**, wordt de variabele niet gemaakt en toegevoegd aan de lijst
+
+## Taalvariabelen exporteren en importeren
+
+De Gidsen van de Experience Manager verleent de steun om de taalvariabelen in de geselecteerde taal uit te voeren en in te voeren. U kunt gemakkelijk alle taalvariabelen samen met de bepaalde waarden uitvoeren. Dit omvat zowel toepassings- als gebruikersvariabelen. Gebruik het geëxporteerde bestand om de gewenste wijzigingen in de waarden aan te brengen of om de waarden te lokaliseren naar andere talen.
+
+U kunt ook het XML-bestand importeren dat de taalvariabelen bevat. De Gidsen van de Experience Manager voeren slechts de taalvariabelen in die reeds, met inbegrip van zowel toepassing als gebruikersvariabelen worden bepaald. Er worden geen variabelen geïmporteerd die nog niet zijn gedefinieerd.
+
+### Taalvariabelen exporteren
+
+Als u de taalvariabelen voor een taal wilt exporteren, selecteert u de taal in het vervolgkeuzemenu en selecteert u **Exporteren** <img src="./assets/language-variable-export-icon.svg" alt="exportpictogram" width="25">.
+Er wordt een XML-bestand met de indeling gemaakt `language_variable_<ln>` waar `<ln>` Dit is de code van de geselecteerde taal. Bijvoorbeeld: `language_variable_en.xml` voor het Engels en `language_variable_fr.xml` voor Frans.
+
+>[!NOTE]
+> 
+>Als u wijzigingen in de taalvariabelen hebt die niet zijn opgeslagen, kunt u deze niet exporteren. Sla de wijzigingen op om de ingeschakelde **Exporteren** <img src="./assets/language-variable-export-icon.svg" alt="importpictogram" width="25"> pictogram.
+
+### Taalvariabelen importeren
+
+De taalvariabelen importeren:
+
+1. Selecteer een taal in het vervolgkeuzemenu en selecteer **Importeren** <img src="./assets/language-variable-import-icon.svg" width="25">.
+2. Blader en selecteer de XML die de taalvariabelen bevat. Bijvoorbeeld language_variable_en.xml.
+U kunt XML-bestanden in de volgende indeling importeren:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>    
+<variable id="note-important">Important: </variable>    
+<variable id="note-caution">Avertir: </variable>    
+<variable id="image-with-text">Text and image &lt;img src=&quot;/content/dam/assets/images/image_with_text.png&quot; /&gt; </variable> 
+</variables> 
+```
+
+De variabelen met dezelfde id worden geïmporteerd wanneer u het bestand importeert. De waarden voor de variabelen in de geselecteerde taal worden bijgewerkt met die in het XML-bestand.  Er wordt een bericht weergegeven over het aantal bijgewerkte variabelen.
+
+>[!NOTE]
+> 
+><ul><li>Als het dossier geen dossier van XML is, of als het dossier een onjuist formaat bevat dat niet met de taalvariabelen in kaart brengt, bekijkt u een fout dat er een kwestie met het dossier van XML is. 
+&gt;<li>Als het bestand geen variabelen met dezelfde id bevat, wordt u gewaarschuwd dat er geen overeenkomstige taalvariabele in het geïmporteerde bestand wordt gevonden.
 
 ### Opties voor een taalvariabele
 
 Houd de muisaanwijzer boven de variabele om de **Opties** menu.
 
-<img width="550" src="./assets/language-variable-user-options.png">
+<img width="550" alt="optiemenu voor taalvariabelen" src="./assets/language-variable-user-options.png">
 
-U kunt zowel toepassings- als gebruikersvariabelen voorvertonen. Selecteer **Voorvertoning** van de **Opties** menu van de geselecteerde variabele.
+*Gebruik de **Opties**om een taalvariabele te verwijderen, voor te vertonen of te dupliceren.*
+
+U kunt zowel toepassings- als gebruikersvariabelen voorvertonen. Als u wilt zien hoe de waarde van de variabele in de uitvoer wordt weergegeven, selecteert u **Voorvertoning** van de **Opties** menu van de geselecteerde variabele.
 U kunt ook **Verwijderen** of **Dupliceren** de gebruikersvariabelen. Als u een variabele uit één taal verwijdert, wordt deze automatisch uit alle talen verwijderd.
 
 ### Toepassingsvariabelen bewerken of herstellen
@@ -96,10 +141,12 @@ U kunt ook de waarden voor een toepassingsvariabele bewerken. Later kunt u de oo
 
 Voeg taalvariabelen toe aan gelokaliseerde documenten. U kunt deze taalvariabelen invoegen in de paginalay-out die op verschillende pagina&#39;s in uw gelokaliseerde documenten wordt weergegeven. U kunt bijvoorbeeld de taalvariabele voor de `author-name` die wordt weergegeven in het koptekstgebied van de paginalay-out (of in een ander deel, zoals de voettekst of tekst).
 
-<img src="./assets/language-variable-page-layout.png" width="550">
 
-In de volgende screenshot ziet u de auteur en de merknaam die zijn gelokaliseerd in de PDF-uitvoer die voor de Franse taal is gegenereerd.
 
+<img alt="paginalay-out van een pdf" src="./assets/language-variable-page-layout.png" width="550">
+
+
+*De auteur en de merknaam die zijn gelokaliseerd in de PDF-uitvoer die is gegenereerd voor de Franse taal.*
 
 Om een taalvariabele zoals uw in te voegen `copyright-label` Voer in het koptekstgebied de volgende stappen uit:
 
@@ -118,15 +165,17 @@ Om een taalvariabele zoals uw in te voegen `copyright-label` Voer in het kopteks
    > U kunt ook de zoektekenreeks in het tekstvak invoeren. De namen van variabelen die de opgegeven tekenreeks bevatten, worden gefilterd en in de lijst weergegeven.
    > De geselecteerde taalvariabele wordt ingevoegd in het koptekstgebied.
 
-In de volgende schermafbeelding wordt de waarde voor de `copyright-label` toegevoegd in het koptekstgebied.
 
-<img src="./assets/language-variable-header.png" width="550">
+
+<img alt="variabele invoegen in koptekstgebied" src="./assets/language-variable-header.png" width="550">
+
+*De `copyright-label` toegevoegd in het koptekstgebied.*
 
 ### Inhoudsstijl toepassen op taalvariabelen
 
 Naast de waarde die u toewijst aan een taalvariabele, kunt u ook HTML-tags gebruiken om de waarde van de variabele in een specifieke opmaak weer te geven. U kunt bijvoorbeeld de waarde van de optie `publisher-label` vetgedrukt.
 
-- U kunt de stijlen van de waarden ook opmaken met <span> tag. Met de taalvariabele voor het paginanummer kunt u bijvoorbeeld het paginanummer in Romeinse getalnotatie in het Engels weergeven en de notatie voor andere talen opgeven.
+- U kunt de stijlen van de waarden ook opmaken met <span> -tag. Met de taalvariabele voor het paginanummer kunt u bijvoorbeeld het paginanummer in Romeinse getalnotatie in het Engels weergeven en de notatie voor andere talen opgeven.
 
   Waarde voor Engels:
   `<span data-field="page-number" data-format="upper-roman">1</span>`
@@ -166,13 +215,17 @@ h1:before {
 
 In de volgende schermafbeeldingen worden de tekenreeksen weergegeven die zijn gelokaliseerd in Duitse en Japanse PDF-uitvoer.
 
-<img src="./assets/localize-chapter-german.png" width="550">
+<img alt=" japanse uitvoer met taalvariabele" src="./assets/localize-chapter-german.png" width="550">
 
-<img src="./assets/localize-chapter-japanese.png" width="550">
+
+
+<img alt="Duitse uitvoer met taalvariabele" src="./assets/localize-chapter-japanese.png" width="550">
+
+
 
 ### De voorvoegsels opmaken
 
-Met CSS-stijlen kunt u ook de voorvoegsels opmaken. U kunt bijvoorbeeld het label opmaken `Note` in rode kleur in de PDF-uitvoer van verschillende talen.
+Met CSS-stijlen kunt u ook de voorvoegsels opmaken. U kunt bijvoorbeeld het label opmaken `Note` in rode kleur in de PDF-uitvoer van verschillende talen worden weergegeven.
 
 ```
 .note .prefix-content 

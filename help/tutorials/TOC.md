@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
+source-git-commit: 0a1e03989ff75146c88eb10569e57954bdedbee5
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1569'
 ht-degree: 4%
 
 ---
@@ -336,6 +336,22 @@ ht-degree: 4%
       + Werken met AEM Assets-zoekopdracht {#aem-asset-search-cs}
          + [Zoeken naar gebruikersinterface van AEM Assets configureren](./cs-install-guide/conf-dita-search.md)
       + [Bijlage](./cs-install-guide/appendix.md)
++ API-naslag {#api-reference}
+   + [Inleiding](./api-reference/introduction.md)
+   + [REST API&#39;s voor uitvoerbeheer](./api-reference/output-management.md)
+   + [REST API voor werken met DITA-kaarten](./api-reference/dita-map-management.md)
+   + [REST API om een gegevensbronschakelaar te registreren](./api-reference/data-source-connector.md)
+   + [REST API voor werken met voorwaardelijke kenmerken](./api-reference/conditional-attribute.md)
+   + [REST API&#39;s voor conversieworkflow](./api-reference/convert-to-dita.md)
+   + [REST API voor het maken en activeren van pakketten](./api-reference/create-activate-package.md)
+   + [Op Java gebaseerde API om met uitvoergeneratie te werken](./api-reference/generate-output.md)
+   + [API&#39;s die zijn gebaseerd op Java om te werken met DITA-kaarten](./api-reference/dita-map-management-java.md)
+   + [Java-API&#39;s voor conversieworkflow](./api-reference/convert-to-dita-java.md)
+   + [API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels](./api-reference/create-baseline-label-java.md)
+   + [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
+   + [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
+   + [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
+   + [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
 + Kennisbank {#knowledge-base}
    + Expertsessie {#expert-session}
       + [Overzicht van de sessie met experts](./knowledge-base/expert-sessions/expert-session.md)

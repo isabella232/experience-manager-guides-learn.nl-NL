@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Het geselecteerde bestand wordt geïmporteerd en vermeld in de map Bronnen.
 
 ## Geavanceerde PDF-instellingen {#advanced-pdf-settings}
 
-Met de sectie Instellingen kunt u de geavanceerde instellingen voor de paginalay-out configureren, de PDF- of even pagina starten, de kruisverwijzingen opmaken en drukkermarkeringen inschakelen in de uiteindelijke PDF die met de sjabloon wordt gegenereerd.
+Met de sectie Instellingen kunt u de geavanceerde instellingen voor de paginalay-out configureren, de PDF of even pagina starten, de kruisverwijzingen opmaken en drukkermarkeringen inschakelen in de uiteindelijke PDF die de sjabloon gebruikt.
 
 Om te vormen, klik **Instellingen** in de **Sjablonen** voor het weergeven van de volgende opties:
 
@@ -226,7 +226,14 @@ Voor het toepassen van de inhoudsopgavestructuur en de vormkopniveaus raadpleegt
   >
   >Als u een CSS-ontwikkelaar bent, kunt u de leaderindeling ook rechtstreeks in het CSS-bestand definiëren.
 
-* **Vervolgmarkering tabel gebruiken**: Selecteer deze optie als u markeertekens wilt definiëren voor lange tabellen die zich over meerdere pagina&#39;s uitstrekken. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **Vervolgmarkering tabel gebruiken**: Selecteer deze optie als u markeertekens wilt definiëren voor lange tabellen die zich over meerdere pagina&#39;s uitstrekken.
+U kunt de tekst definiëren die voor en na het einde moet worden weergegeven. Een tabel wordt bijvoorbeeld afgebroken op pagina 5 en u definieert `<Continued on page %page-num%>` for **Tekst voor einde**.  Onder aan pagina 5 wordt &quot;Vervolg op pagina 6&quot; weergegeven.
+
+  Taalvariabelen gebruiken om de tekst voor en na het einde van de vervolgmarkering te definiëren. Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF. U kunt bijvoorbeeld publiceren `Continued on page %page-num%` als tekst in het Engels en `Fortsetzung auf Seite %page-num%` Duits.
+
+  Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van de optie voor meer informatie over de optie.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Pagina-indelingen {#page-layouts}
 
@@ -357,11 +364,11 @@ Configureer de afdrukproductie-instellingen om drukkermarkeringen toe te wijzen,
 
 ### Kruisverwijzingen {#cross-references}
 
-Met het tabblad Kruisverwijzing definieert u hoe de kruisverwijzingen worden gepubliceerd in de PDF. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer.
+Gebruik de **Kruisverwijzing** om te definiëren hoe de kruisverwijzingen worden gepubliceerd in de PDF. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer.
 
 U kunt ook variabelen gebruiken om een kruisverwijzing te definiëren.  Wanneer u een variabele gebruikt, wordt de waarde ervan gekozen uit de eigenschappen. U kunt een kruisverwijzing definiëren met behulp van één variabele of een combinatie van variabelen. U kunt ook een combinatie van een tekenreeks en een variabele gebruiken.
 
-U kunt bijvoorbeeld Details weergeven gebruiken op {chapter}. Als de naam van het Hoofdstuk &quot;Algemene montages is,&quot;is de verwijzing in de output &quot;zie details op Algemene montages.&quot;
+U kunt bijvoorbeeld `View details on {chapter}`. Als de naam van het Hoofdstuk &quot;Algemene montages is,&quot;is de verwijzing in de output &quot;zie details op Algemene montages.&quot;
 
 AEM de Gidsen verstrekt de volgende uit-van-de-doos variabelen:
 
@@ -372,7 +379,7 @@ AEM de Gidsen verstrekt de volgende uit-van-de-doos variabelen:
 * {bookmarkText}: hiermee maakt u een kruisverwijzing naar de tekst met bladwijzer. Zie stop_words bijvoorbeeld op pagina 5.
 * {captionText}: Hiermee maakt u een kruisverwijzing naar het bijschrift van de figuur of tabel in het onderwerp. Zie bijvoorbeeld Airflow op pagina 2.
 * {figure}: Voegt een kruisverwijzing toe aan het figuurnummer. Kies deze optie om het figuurnummer te kiezen uit de stijlen voor automatische nummering die u voor figuren hebt gedefinieerd.  U kunt bijvoorbeeld &quot;Zie {figure} op pagina {page}&quot;. De kruisverwijzing in de uitvoer bevat het automatisch gegenereerde figuurnummer en het bijbehorende paginanummer &quot;Zie Figuur 1 op pagina 5&quot;.
-* {table}: Voegt een kruisverwijzing toe aan het tabelnummer. Hiermee selecteert u het tabelnummer op basis van de stijlen voor automatische nummering die u voor het bijschrift hebt gedefinieerd. U kunt bijvoorbeeld &quot;Zie {table} op pagina {page}&quot;. De kruisverwijzing in de uitvoer bevat het automatisch gegenereerde tabelnummer en het bijbehorende paginanummer, &quot;Zie Tabel 1 op pagina 5&quot;.
+* {table}: Voegt een kruisverwijzing toe aan het tabelnummer. Hiermee selecteert u het tabelnummer op basis van de stijlen voor automatische nummering die u voor het bijschrift hebt gedefinieerd. U kunt bijvoorbeeld &quot;Zie {table} op pagina {page}&quot;. De kruisverwijzing in de uitvoer bevat het automatisch gegenereerde tabelnummer en het bijbehorende paginanummer &quot;Zie Tabel 1 op pagina 5&quot;.
 
 
 
@@ -381,8 +388,25 @@ AEM de Gidsen verstrekt de volgende uit-van-de-doos variabelen:
   >U kunt automatische nummerstijlen maken voor bijschrift- en figuurcodes.
 
 
+#### Taalvariabelen in kruisverwijzingen
+
+U kunt ook taalvariabelen gebruiken om gelokaliseerde kruisverwijzingen te definiëren. Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF.
+
+U kunt bijvoorbeeld een taalvariabele &quot;reference-label&quot; toevoegen en de waarden in het Engels en het Duits definiëren.
+
+* Engels - &quot;View on page {page}&quot;
+* Duits - &quot;Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+Wanneer u `${lng:<variable name>}` in de sectie Alinea bevatten de kruisverwijzingen in de alinea&#39;s van de uitvoer de gelokaliseerde tekst en het paginanummer.\
+In de volgende schermafbeeldingen ziet u bijvoorbeeld de kruisverwijzingen &quot;Weergeven op pagina 1&quot; in het Engels en &quot;Einzelheiten finden Sie auf der Seite 1&quot; in het Duits.
 
+<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea" width ="800">
+
+*Een kruisverwijzing in een alinea die wordt gepubliceerd in de Engelse taal.*
+
+<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea" width ="800">
+
+*Een kruisverwijzing in een alinea die in het Duits wordt gepubliceerd.*
 
 <!--For more information, see *Format cross-references*.-->
