@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de release van Adobe Experience Manager Guides 4.3.0
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.0-versies van Adobe Experience Manager-hulplijnen
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 4%
@@ -40,10 +40,10 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 ### Adobe Experience Manager
 
 **4.3.0 Niet-UUID**
-Versie 6.5 Service Pack 17, 16, 15 of 14
+Versie 6.5 Service Pack 18, 17, 16, 15 of 14
 
 **4.3.0 UUID**
-Versie 6.5 Service Pack 17, 16, 15 of 14
+Versie 6.5 Service Pack 18, 17, 16, 15 of 14
 
 Zie voor meer informatie de *Technische voorschriften* in de handleiding Adobe Experience Manager-hulplijnen installeren en configureren.
 
@@ -122,7 +122,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ## Bekend probleem
 
-Adobe heeft het volgende bekende probleem voor AEM versie 4.3.0 van de Gidsen geïdentificeerd:
+Adobe heeft het volgende bekende probleem voor AEM versie 4.3.0 van de gidsen geïdentificeerd:
 
 - De algemene pagina-indeling die in de sjabloon Standaard is gedefinieerd, wordt niet als standaardsjabloon toegepast.
 
