@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 0a1e03989ff75146c88eb10569e57954bdedbee5
+source-git-commit: 8ee493dbcdf68b83a55a65945febfa52c56ef09e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1577'
 ht-degree: 4%
 
 ---
@@ -362,6 +362,7 @@ ht-degree: 4%
       + [Rapporten in AEM](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
       + [Inhoud en Sjabloon instellen](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
       + [Native PDF-publicatie leren, deel 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+      + [Native PDF-publicaties leren - Hands op lab - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
    + Artikelen {#kb-articles}
       + Authoring {#authoring}
          + Rapporten {#reports}
