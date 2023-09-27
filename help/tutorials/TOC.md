@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 8ee493dbcdf68b83a55a65945febfa52c56ef09e
+source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1597'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 4%
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          + Versies van 2023 {#2023-releases}
+            + Release oktober {#2310-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.10.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.10.0.md)
             + Release september {#2309-release}
                + [Wat is er nieuw](./release-info/whats-new-2023.9.0.md)
                + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
@@ -241,6 +244,7 @@ ht-degree: 4%
          + [Een gegevensbronaansluiting configureren](./install-guide/conf-data-source-connector.md)
          + [De Geavanceerde Kaarteditor instellen als standaard](./install-guide/conf-map-editor.md)
          + [@navtitle-kenmerk standaard opnemen](./install-guide/auto-add-navtitle.md)
+         + [De optie configureren om te bewerken in zuurstof](./cs-install-guide/conf-edit-in-oxygen.md)
       + Werken met algemene profielen en mapprofielen {#global-folder-profiles}
          + [Profielen op algemeen niveau of mapniveau configureren](./install-guide/conf-folder-level.md)
       + Versies configureren {#version-mgt}
@@ -318,6 +322,7 @@ ht-degree: 4%
          + [Eén onderwerp PDF genereren](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [Vertaal in de Redacteur van het Web vormen](./cs-install-guide/conf-translation-web-editor.md)
          + [Een gegevensbronaansluiting configureren](./cs-install-guide/conf-data-source-connector.md)
+         + [Vorm een gegevensbronschakelaar gebruikend hulpmiddelen](./cs-install-guide/conf-data-source-connector-tools.md)
          + [De Geavanceerde Kaarteditor instellen als standaard](./cs-install-guide/conf-map-editor.md)
          + [@navtitle-kenmerk standaard opnemen](./cs-install-guide/auto-add-navtitle.md)
       + Werken met algemene profielen en mapprofielen {#global-folder-profiles-cs}

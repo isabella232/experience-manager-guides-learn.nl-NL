@@ -1,10 +1,10 @@
 ---
 title: Een voorvertoning van een onderwerp weergeven
-description: Leer hoe u een onderwerp kunt voorvertonen
+description: Leer hoe u een voorvertoning van een onderwerp kunt weergeven in AEM hulplijnen. In de voorvertoningsmodus vindt u informatie over de functies die beschikbaar zijn. Vertakking, herstel en volgende versies in AEM hulplijnen.
 exl-id: fb8eb87b-2a98-4540-9329-08a759145497
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Als uw onderwerp voorwaardelijke inhoud heeft, dan zult u het A/B pictogram op d
 
 **Bewerken**
 
-- Open het onderwerp voor het uitgeven in de Redacteur van het Web. De **Bewerken** Deze optie is niet beschikbaar als uw beheerder de optie **Bewerken uitschakelen zonder afhandeling** optie. Als deze optie is ingeschakeld, ziet u de **Bewerken** optie alleen na het uitchecken van een onderwerpbestand.
+- Open het onderwerp voor het uitgeven in de Redacteur van het Web. De **Bewerken** Deze optie is niet beschikbaar als uw beheerder de optie **Bewerken uitschakelen zonder afhandeling** -optie. Als deze optie is ingeschakeld, ziet u de **Bewerken** optie slechts na het controleren van een onderwerpdossier.
 
 **Belangrijkste resolutie**
 
@@ -74,11 +74,11 @@ Als uw onderwerp voorwaardelijke inhoud heeft, dan zult u het A/B pictogram op d
 
 - Open de XML-broncode van een bestand. U kunt de onderliggende XML-code van een kaart, onderwerp of DITAVAL-bestand weergeven door het bestand te openen in de modus Voorbeeld en op het pictogram Bron te klikken. In het pop-upvenster XML-bron wordt de XML-broncode weergegeven. U kunt een specifieke code selecteren in het bestand of op `Ctrl`+`a` om de volledige inhoud te selecteren.
 
-   >[!NOTE]
-   >
-   > Als u de broncodeweergave van een DITA-toewijzingsbestand wilt ophalen, selecteert u het bestand in de interface Middelen en klikt u op Bron.
+  >[!NOTE]
+  >
+  > Als u de broncodeweergave van een DITA-toewijzingsbestand wilt ophalen, selecteert u het bestand in de interface Middelen en klikt u op Bron.
 
-   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **UUID-koppeling delen**
 
@@ -116,7 +116,7 @@ Bestand uitgecheckt in de lijstweergave:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Als de kolom Uitgecheckt niet zichtbaar is, selecteert u **Instellingen weergeven** krachtens **Lijstweergave** en selecteert u de **Uitgecheckt** in de **Kolommen configureren** .
+Als de kolom Uitgecheckt niet zichtbaar is, selecteert u **Instellingen weergeven** krachtens **Lijstweergave** en selecteert u de **Uitgecheckt** in de **Kolommen configureren** in.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -128,9 +128,9 @@ Als de kolom Uitgecheckt niet zichtbaar is, selecteert u **Instellingen weergeve
 
 - Als uw onderwerp sommige veranderingen heeft ondergaan, kunt u gemakkelijk de veranderingen ontdekken die in verschillende versies van dat onderwerp worden aangebracht. Om veranderingen in verschillende versies van een onderwerp te weten te komen:
 
-   >[!IMPORTANT]
-   >
-   > De methode die in de volgende procedure wordt beschreven is slechts van toepassing op DITA- dossiers. Voor niet-DITA-bestanden gebruikt u de tijdlijnweergave om versies te maken of een bestaande versie van een bestand te herstellen.
+  >[!IMPORTANT]
+  >
+  > De methode die in de volgende procedure wordt beschreven is slechts van toepassing op DITA- dossiers. Voor niet-DITA-bestanden gebruikt u de tijdlijnweergave om versies te maken of een bestaande versie van een bestand te herstellen.
 
    1. Open het onderwerp in de modus Voorbeeld.
 
@@ -157,19 +157,19 @@ Als de kolom Uitgecheckt niet zichtbaar is, selecteert u **Instellingen weergeve
    - Volgende versies maken in een nieuwe vertakking
    - Terugkeren naar een specifieke versie van een onderwerp
 
-   In de volgende afbeelding ziet u het typische vertakkings- en volgende versiesysteem:
+  In de volgende afbeelding ziet u het typische vertakkings- en volgende versiesysteem:
 
-   ![](images/branching_illustration.png){width="550" align="center"}
+  ![](images/branching_illustration.png){width="550" align="center"}
 
-   Voor elk nieuw onderwerp wordt de eerste versie genummerd als 1.0. Daarna, wordt elke nieuwe versie van het onderwerp bewaard met een stijgende aantal zoals 1.1, 1.2, etc. Zodra u een tak van een onderwerp creeert, wordt een nieuwe tak gecreeerd die het versieaantal nemen van waar de tak wordt gecreeerd en .0 aan het eind van de versie toevoegt. Zoals in de illustratie wordt gezien, wordt een nieuwe tak gecreeerd van versie 1.1 van een onderwerp. De nieuwe tak is versioned als 1.1.0. Daarna, telkens als u een nieuwe versie van het onderwerp in deze tak opslaat, krijgt het een stijgende versieaantal zoals 1.1.1, 1.1.2, etc.
+  Voor elk nieuw onderwerp wordt de eerste versie genummerd als 1.0. Daarna, wordt elke nieuwe versie van het onderwerp bewaard met een stijgende aantal zoals 1.1, 1.2, etc. Zodra u een tak van een onderwerp creeert, wordt een nieuwe tak gecreeerd die het versieaantal nemen van waar de tak wordt gecreeerd en .0 aan het eind van de versie toevoegt. Zoals in de illustratie wordt gezien, wordt een nieuwe tak gecreeerd van versie 1.1 van een onderwerp. De nieuwe tak is versioned als 1.1.0. Daarna, telkens als u een nieuwe versie van het onderwerp in deze tak opslaat, krijgt het een stijgende versieaantal zoals 1.1.1, 1.1.2, etc.
 
-   Net als vertakking kunt u ook de huidige of werkversie terugzetten naar elke versie in de opslagplaats. Om aan een versie terug te keren, selecteer eenvoudig de gewenste versie van het onderwerp en klik **Deze versie herstellen** in de **Versiehistorie** deelvenster.
+  Net als vertakking kunt u ook de huidige of werkversie terugzetten naar elke versie in de opslagplaats. Om aan een versie terug te keren, selecteer eenvoudig de gewenste versie van het onderwerp en klik **Deze versie herstellen** in de **Versiehistorie** deelvenster.
 
-   Voer de volgende stappen uit om een tak tot stand te brengen, aan een versie terug te keren, en verdere versies van een onderwerp te handhaven:
+  Voer de volgende stappen uit om een tak tot stand te brengen, aan een versie terug te keren, en verdere versies van een onderwerp te handhaven:
 
-   >[!IMPORTANT]
-   >
-   > De methode die in de volgende procedure wordt beschreven is slechts van toepassing op DITA- dossiers. Voor niet-DITA-bestanden gebruikt u de tijdlijnweergave om versies te maken of een bestaande versie van een bestand te herstellen.
+  >[!IMPORTANT]
+  >
+  > De methode die in de volgende procedure wordt beschreven is slechts van toepassing op DITA- dossiers. Voor niet-DITA-bestanden gebruikt u de tijdlijnweergave om versies te maken of een bestaande versie van een bestand te herstellen.
 
    1. Heb toegang tot het onderwerp in Activa UI.
 
@@ -197,20 +197,23 @@ Als de kolom Uitgecheckt niet zichtbaar is, selecteert u **Instellingen weergeve
 
       Er verschijnt een bericht waarin u wordt gevraagd het maken van een nieuwe vertakking te bevestigen.
 
-   1. *\(Optioneel\)* In de berichtvraag, krijgt u een optie om te selecteren **De huidige werkkopie opslaan als een nieuwe versie**. De volgende twee acties zijn mogelijk op basis van de selectie van deze optie:
+   1. *\(Optioneel\)* In de berichtvraag, krijgt u een optie om **De huidige werkkopie opslaan als een nieuwe versie**. De volgende twee acties zijn mogelijk op basis van de selectie van deze optie:
 
       - Als u deze optie selecteert, wordt een vertakking gemaakt van versie 1.1. En, wordt een nieuwe versie van het onderwerp ook gecreeerd van het huidige werkende exemplaar van het onderwerp en bewaard als volgende versie - 1.4.
 
-         ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
 
-         Versie 1.2 wordt uw huidige het werk exemplaar van het onderwerp. Elke versie die na deze bewerking wordt opgeslagen, wordt onder de nieuwe vertakking 1.1 gemaakt. Bijvoorbeeld, zal de verdere versie van een nieuw onderwerp in deze tak als 1.2.0 worden bewaard.
+        Versie 1.2 wordt uw huidige het werk exemplaar van het onderwerp. Elke versie die na deze bewerking wordt opgeslagen, wordt onder de nieuwe vertakking 1.1 gemaakt. Bijvoorbeeld, zal de verdere versie van een nieuw onderwerp in deze tak als 1.2.0 worden bewaard.
 
-         ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300" align="left"}
 
       - Als u deze optie niet selecteert, dan wordt geen nieuwe versie van het huidige werkende exemplaar van het onderwerp gecreeerd. Een nieuwe tak wordt gecreeerd van versie 1.2 van het onderwerp. Om het even welke verdere versie van het onderwerp wordt bewaard onder 1.2 tak als 1.2.0, 1.2.1, etc.
 
-         ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+
    1. Klikken **OK**.
-   Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Zie voor meer informatie over dit rapport [Rapport voor versiehistorie van teruggedraaide bestanden](reports-reverted-file-version-history.md#).
+
+
+  Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Zie voor meer informatie over dit rapport [Rapport voor versiehistorie van teruggedraaide bestanden](reports-reverted-file-version-history.md#).
 
 **Bovenliggend onderwerp:**[ Onderwerpen maken en voorvertonen](create-preview-topics.md)

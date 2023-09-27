@@ -1,10 +1,10 @@
 ---
 title: Uitvoervoorinstellingen maken vanuit de webeditor
-description: Leer hoe u uitvoervoorinstellingen maakt in de webeditor
+description: Uitvoervoorinstellingen maken in de webeditor. Leer hoe u een uitvoervoorinstelling in AEM hulplijnen kunt bewerken, hernoemen, dupliceren en verwijderen.
 exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
 1. Als u het kaartbestand exclusief wilt vergrendelen, selecteert u het kaartbestand en klikt u op **Uitchecken**.
 
-1. Selecteer **Onderwerpen bewerken** in het menu Handeling van het kaartbestand.
+1. Selecteer de **Onderwerpen bewerken** in het menu Handeling van het kaartbestand.
 
    Het kaartdossier wordt geopend voor het uitgeven in de Redacteur van het Web.
 
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
       > Vernieuw elke vervolgkeuzelijst om de verdere classificatie in de volgende vervolgkeuzelijst te verkrijgen.
 
    1. Van de **Artikelen** selecteert u de onderwerpen waarvoor u de uitvoer wilt genereren.
-1. Selecteer **Voorinstelling genereren** bovenaan om de uitvoer te genereren.
+1. Selecteer de **Voorinstelling genereren** bovenaan om de uitvoer te genereren.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 

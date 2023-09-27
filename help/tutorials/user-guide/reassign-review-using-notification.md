@@ -1,10 +1,10 @@
 ---
 title: Revisietaak opnieuw toewijzen met behulp van melding
-description: Leer hoe u een revisietaak opnieuw kunt toewijzen met behulp van een melding
+description: Wijs een overzichtstaak opnieuw toe met behulp van meldingen in AEM hulplijnen. Zorg dat u weet hoe u een revisortaak opnieuw kunt toewijzen vanuit het inbox-bericht.
 exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ U kunt een overzichtstaak opnieuw toewijzen die aan u is toegewezen, aan een and
 
 Hertoewijzen kan alleen worden uitgevoerd voor revisietaken en niet voor eigenaarstaken.
 
-1. **Revisortaak**: Elke taak die aan een revisor is toegewezen voor een revisie.
-1. **Taak eigenaar**: Een taak die alleen voor de eigenaar wordt gemaakt. Wanneer u een revisietaak maakt en toewijst aan een revisor, ontvangt de eigenaar ook een eigenaartaak met de naam Sluiten &lt; taaknaam revisie\> \(bijvoorbeeld taak voor dichte revisie1\), maar deze eigenaarstaak kan aan niemand opnieuw worden toegewezen.
+1. **Revisortaak**: Elke taak die aan een controleur wordt toegewezen voor een revisie.
+1. **Eigenaarstaken**: Een taak die alleen voor de eigenaar wordt gemaakt. Wanneer u een revisietaak maakt en toewijst aan een revisor, ontvangt de eigenaar ook een eigenaartaak met de naam Sluiten &lt; taaknaam revisie\> \(bijvoorbeeld taak voor dichte revisie1\), maar deze eigenaarstaak kan aan niemand opnieuw worden toegewezen.
 
 Voer de volgende stappen uit om een overzichtstaak vanuit het Inbox-bericht opnieuw toe te wijzen:
 
 1. Selecteer het bericht voor de controletaak in het Postvak IN.
 1. Selecteren **Opnieuw toewijzen** bovenaan.
-1. Selecteer de gebruikersnaam waaraan u de taak opnieuw wilt toewijzen.
+1. Selecteer de gebruikersnaam aan wie u de taak opnieuw wilt toewijzen.
 
    >[!IMPORTANT]
    >

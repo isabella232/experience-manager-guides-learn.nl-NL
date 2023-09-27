@@ -1,10 +1,10 @@
 ---
 title: PDF
-description: Leer hoe u PDF kunt gebruiken
+description: Produceer en vorm PDF output voor de documenten van de FrameMaker in AEM Gidsen.
 exl-id: ece004ed-5233-460b-889d-94e693ceed93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ De volgende opties zijn beschikbaar voor de Uitvoer van PDF:
 
 >[!NOTE]
 >
-> Om output vooraf instelt voor PDF te openen, klik op een FrameMaker \ (`.fm` of `.book`\), klikt u vervolgens op Voorinstellingen uitvoer en klikt u op de optie Uitvoer PDF.
+> Als u uitvoervoorinstellingen voor PDF wilt openen, klikt u op een FrameMaker \(`.fm` of `.book`\), klikt u vervolgens op Voorinstellingen uitvoer en klikt u op de optie Uitvoer PDF.
 
 | PDF-opties | Beschrijving |
 |-----------|-----------|
@@ -30,7 +30,7 @@ De volgende opties zijn beschikbaar voor de Uitvoer van PDF:
 | **Weergave-instellingen** |
 | Document op pagina openen | Geef het paginanummer op dat moet worden weergegeven bij het openen van de PDF. |
 | Beginzoomniveau | Kies het zoomniveau van het document. |
-| Registratieteken | Als u een document wilt afdrukken met snijtekens en registratietekens, kiest u een optie in de vervolgkeuzelijst Registratietekens. |
+| Registratieteken | Als u een document met snijtekens en registratietekens wilt afdrukken, kiest u een optie in de vervolgkeuzelijst Registratietekens. |
 | Paginabreedte en paginahoogte | Geef de breedte en hoogte van de pagina op. |
 | Paginabereik | Kies of u alle pagina&#39;s in het boek of een paginabereik wilt publiceren. Als u Bereik kiest, dan moet u van en aan paginabereik specificeren. |
 | CMYK converteren naar RGB | Selecteer deze optie om CMYK-kleuren om te zetten in RGB in de gegenereerde PDF. |
@@ -38,4 +38,4 @@ De volgende opties zijn beschikbaar voor de Uitvoer van PDF:
 | Doelpad | Het pad in uw AEM opslagplaats waar de PDF-uitvoer wordt opgeslagen. |
 | Workflow na generatie uitvoeren | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 
-**Bovenliggend onderwerp:**[ Produceer output van documenten FrameMaker](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ Uitvoer van FrameMaker-documenten genereren](fm-output-generatation.md)

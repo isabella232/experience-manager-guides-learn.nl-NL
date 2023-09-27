@@ -1,10 +1,10 @@
 ---
 title: Basisprobleemoplossing
-description: Leer hoe u basisproblemen kunt oplossen
+description: Los problemen op met het basisoplossen van problemen in AEM hulplijnen. Leer om, het logboekdossier in een tekstredacteur te bekijken te kopiëren en te controleren en JSP compilatiefouten op te lossen.
 exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bek
    ![](images/log-file.png){width="800" align="left"}
 
 1. Pas de volgende filters toe om de tekst in het logbestand te markeren:
-   - Dodelijk: Hiermee worden de fatale fouten in het logbestand met roze kleur gemarkeerd.
-   - Fout: Hiermee worden de fouten in het logbestand met oranje kleur gemarkeerd.
-   - Waarschuwing: Hiermee worden de waarschuwingen in het logbestand gemarkeerd met paarse kleur.
-   - Info: Hiermee markeert u de informatieberichten in het logbestand met een blauwe kleur.
-   - Uitzondering: Hiermee worden de uitzonderingen in het logbestand gemarkeerd met een gele kleur.
+   - Onherstelbaar: hiermee worden de fatale fouten in het logbestand met roze kleur gemarkeerd.
+   - Fout: markeert de fouten in het logbestand met oranje kleur.
+   - Waarschuwing: hiermee worden de waarschuwingen in het logbestand gemarkeerd met paarse kleur.
+   - Info: hiermee worden de informatieberichten in het logbestand gemarkeerd met een blauwe kleur.
+   - Uitzondering: markeert de uitzonderingen in het logbestand met een gele kleur.
 1. Met de navigatieknoppen Omhoog en Omlaag kunt u naar de gemarkeerde tekst in het logbestand gaan.
 
    U kunt ook door het logbestand bladeren en de berichten controleren.
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om het logboekdossier van de outputgeneratie in een
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *Aan hulplijnen gerelateerde fout AEM*: Het andere type fout dat u in het logbestand kunt identificeren, is gerelateerd aan het proces van AEM hulplijnen zelf. In dit geval wordt het DITA-toewijzingsbestand geparseerd, maar mislukt het genereren van de uitvoer door een interne fout in AEM hulplijnen. Voor dergelijke fouten moet u hulp vragen bij het team voor technische ondersteuning.
+   - *Aan hulplijnen gerelateerde fout AEM*: Het andere type fout dat u in het logbestand kunt identificeren, is gerelateerd aan AEM proces Hulplijnen zelf. In dit geval wordt het DITA-toewijzingsbestand geparseerd, maar mislukt het genereren van de uitvoer door een interne fout in AEM hulplijnen. Voor dergelijke fouten moet u hulp vragen bij het team voor technische ondersteuning.
 
    In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD SUCCESSFUL` bericht, gevolgd door een andere technische fout.
 

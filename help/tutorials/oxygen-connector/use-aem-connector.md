@@ -4,9 +4,9 @@ description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulpl
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
+source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
 workflow-type: tm+mt
-source-wordcount: '6038'
+source-wordcount: '6120'
 ht-degree: 0%
 
 ---
@@ -377,7 +377,12 @@ Als u de editors wilt gebruiken beschikbaar in AEM Hulplijnen, kunt u dit doen d
 
 Wanneer u een bestand uitcheckt, wordt het lokaal op uw systeem opgeslagen en vergrendeld voor bewerking in de AEM opslagplaats. Voer de volgende stappen uit om een bestand uit te checken:
 
-1. Klik met de rechtermuisknop op een bestand in het deelvenster Hulplijnen AEM.
+1. U kunt uw bestanden op een van de volgende manieren uitchecken:
+   - Klik met de rechtermuisknop op een bestand in het deelvenster Hulplijnen AEM.
+   - Klik met de rechtermuisknop op het tabblad Kaart in het deelvenster DITA Maps Manager.
+   - Klik met de rechtermuisknop op een bestand in het deelvenster DITA Maps Manager.
+   - Klik met de rechtermuisknop op het tabblad Bestanden wanneer u een kaart of onderwerp opent in de Editor.
+
 1. Selecteer een van de volgende opties:
    - **Uitchecken:** Hiermee wordt een bestand uit AEM opslagplaats uitgecheckt en beschikbaar gesteld voor bewerking.
    - **Uitchecken met afhankelijke personen**: Controleert een bestand met de directe referenties. Met deze optie kunt u de bovenliggende en onderliggende pagina&#39;s wijzigen. Met de insteekmodule Zuurstof voor AEM hulplijnen kunt u één niveau afhankelijke personen uitchecken. Bijvoorbeeld, de Verwijzingen van de Kaart A Onderwerp A en Onderwerp A verwijst naar Onderwerp B. Het uitchecken van Kaart A zal Onderwerp A ongeacht zijn niveau in de hiërarchie van TOC uitchecken. Nochtans, zal het geen Onderwerp B controleren omdat het niet direct van Kaart A verbonden is.
@@ -403,7 +408,13 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
 
 1. Sla het bestand op door op **Bestand** \> **Opslaan**.
 
-1. Klik met de rechtermuisknop op een uitgecheckt bestand en kies een van de volgende twee opties:
+1. Klik met de rechtermuisknop op een uitgecheckt bestand of kaart op een van de volgende locaties:
+   - Deelvenster Hulplijnen AEM
+   - Het deelvenster DITA Maps Manager
+   - Het dossierlusje wanneer u een kaart of een onderwerp in de Redacteur opent.
+   - Het tabblad Kaart in het deelvenster DITA Maps Manager.
+
+1. Kies uit de volgende twee opties:
 
    - **Inchecken**: Het geselecteerde bestand wordt vanaf uw lokale systeem ingecheckt in AEM opslagplaats.
    - **Inchecken met afhankelijke personen:** Als u een bestand samen met de afhankelijke bestanden hebt uitgecheckt, kunt u met deze optie alle afhankelijke bestanden in één bewerking inchecken. Als u deze optie selecteert, wordt het dialoogvenster Inchecken weergegeven met alle afhankelijke bestanden. Klik op OK om alle bestanden tegelijk in te checken.

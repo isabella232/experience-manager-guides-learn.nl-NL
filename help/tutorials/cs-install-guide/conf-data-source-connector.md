@@ -1,7 +1,7 @@
 ---
 title: Een gegevensbronaansluiting configureren
 description: Leer hoe te om een gegevensbronschakelaar te vormen
-source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
+source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -274,7 +274,7 @@ Andere gebieden worden aangepast gebaseerd op de config klasse die wordt geselec
 
 Upload het bestand naar een locatie in AEM Assets.
 
-Bijvoorbeeld,  `/var/dxml/konnect/jira.json`
+Bijvoorbeeld,  `/content/dam/jira.json`
 
 ## Configuratie maken met REST API
 

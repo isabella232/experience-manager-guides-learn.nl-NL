@@ -1,10 +1,10 @@
 ---
 title: DITA-kaartrapport van het kaartdashboard
-description: Leer hoe te om het kaartrapport DITA van het kaartdashboard te bepalen
+description: Genereer DITA-kaartrapporten van het kaartdashboard in AEM hulplijnen. Leer hoe te om CSV van een DITA kaartrapport te produceren.
 exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -29,21 +29,21 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
    - **Overzicht van onderwerpen:**
 
-      Hiermee geeft u de algemene samenvatting van het geselecteerde kaartbestand weer. Door het Overzicht te bekijken, kunt u snel het totale aantal onderwerpen in de kaart, ontbrekende onderwerpen, aantal onderwerpen kennen die elementen missen, de staat van onderwerpen - in Ontwerp, in Overzicht, of Gereviseerde staat hebben.
+     Hiermee geeft u de algemene samenvatting van het geselecteerde kaartbestand weer. Door het Overzicht te bekijken, kunt u snel het totale aantal onderwerpen in de kaart, ontbrekende onderwerpen, aantal onderwerpen kennen die elementen missen, de staat van onderwerpen - in Ontwerp, in Overzicht, of Gereviseerde staat hebben.
 
    - **Details:**
 
-      Wanneer u op een onderwerp klikt, wordt een gedetailleerd rapport van het geselecteerde onderwerp getoond.
+     Wanneer u op een onderwerp klikt, wordt een gedetailleerd rapport van het geselecteerde onderwerp getoond.
 
-      ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-      Items gemarkeerd onder **A**, **B**, **C** en **D** worden hieronder beschreven:
+     Items gemarkeerd onder **A**, **B**, **C** en **D** worden hieronder beschreven:
 
       - **Onderwerp**: De titel van het onderwerp dat in de kaart DITA wordt gespecificeerd. Als u de muisaanwijzer op de titel van het onderwerp plaatst, wordt het volledige pad van het onderwerp weergegeven. Als het onderwerp problemen bevat, zoals ontbrekende verwijzingen of afbeeldingen, wordt een rode stip vóór de titel van het onderwerp weergegeven.
 
       - **Bestandsnaam**: Naam van het bestand.
 
-      - **UUID**: De universeel unieke id \(UUID\) van het bestand.
+      - **UUID**: De algemeen unieke id \(UUID\) van het bestand.
 
       - **Auteur**: Gebruiker die het laatst aan dit onderwerp heeft gewerkt.
 
@@ -51,9 +51,10 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
       - **Ontbrekende onderwerpen \(B\)**: Als er onderwerpen met gebroken verwijzingen zijn, dan zijn die onderwerpen vermeld onder de Ontbrekende lijst van Onderwerpen.
 
-      - **Ontbrekende elementen**: Hier wordt het aantal ontbrekende afbeeldingen of verbroken kruisverwijzingen vermeld, indien van toepassing.
+      - **Ontbrekende elementen**: geeft het aantal ontbrekende afbeeldingen of verbroken kruisverwijzingen weer, indien aanwezig.
 
       - **Openen in Editor \(D\)**: Als u op dit pictogram klikt, wordt het onderwerp in de webeditor geopend.
+
 
    Items gemarkeerd onder **E** worden hieronder beschreven:
 
@@ -63,11 +64,9 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
    - **Kruisverwijzing**: Het pad van de inhoud waarnaar wordt verwezen, wordt samen met de bijbehorende UUID weergegeven. Als u op de titel van de genoemde inhoud klikt, wordt het overeenkomstige onderwerp geopend in de modus Voorbeeld. Verbroken kruisverwijzingen worden weergegeven in rode kleuren.
 
-   - **Controleren**: Toont het statuut van de overzichtstaak van het onderwerp. U kunt de status \(open of close\), de vervaldatum en de toegewezen persoon voor het onderwerp in kwestie zien. Als u de onderwerpverbinding klikt, opent het het onderwerp op overzichtswijze.
+   - **Controleren**: Toont de status van de overzichtstaak van het onderwerp. U kunt de status \(open of close\), de vervaldatum en de toegewezen persoon voor het onderwerp in kwestie zien. Als u de onderwerpverbinding klikt, opent het het onderwerp op overzichtswijze.
 
    - **Gebruikt in**: Toont een lijst van andere onderwerpen of kaarten waar het onderwerp wordt gebruikt. De UUID van al dergelijke onderwerpen en kaarten is ook vermeld.
-
-
 
 Naast het rapport voor elk individueel onderwerp, hebben de beheerders ook toegang tot informatie zoals het publiceren geschiedenis van een kaart DITA. Voor meer informatie over de geschiedenis van geproduceerde output, zie [De status van de uitvoergeneratietaak weergeven](generate-output-for-a-dita-map.md#viewing_output_history).
 
@@ -86,7 +85,7 @@ Voer de volgende stappen uit om CSV van een DITA kaartrapport te produceren:
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   U kunt CSV van het geproduceerde rapport van AEM bericht Inbox ook downloaden.
+   U kunt CSV van het geproduceerde rapport ook downloaden later van het AEM bericht Inbox.
 
    Klik het geproduceerde rapport in Inbox om het rapport te downloaden.
 

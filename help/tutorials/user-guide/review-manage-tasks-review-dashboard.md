@@ -1,17 +1,17 @@
 ---
 title: Revisietaken beheren met het dashboard Revisie
-description: Leer hoe u revisietaken beheert met het revisiedashboard
+description: Revisietaken beheren vanuit het dashboard Revisie in AEM hulplijnen. Leer de handelingen uitvoeren onder de taak, inhoud, tabblad revisoren en controleer de status van een revisietaak.
 exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
 
 # Revisietaken beheren met het dashboard Revisie {#id2056B0Y70X4}
 
-De werkstroom voor revisiebeheer kan verschillende taken bevatten. U kunt bijvoorbeeld revisoren toevoegen voor een bepaald onderwerp of de deadline voor een revisie verlengen. U kunt de revisietaak ook als voltooid markeren als u denkt dat alle belanghebbenden hun feedback hebben gegeven. Deze taken kunnen worden beheerd met behulp van het revisiedashboard.
+De werkstroom voor revisiebeheer kan verschillende taken bevatten. U kunt bijvoorbeeld revisoren toevoegen voor een bepaald onderwerp of de deadline voor een revisie verlengen. U kunt de revisietaak ook als volledig markeren als u denkt dat alle belanghebbenden hun feedback hebben gegeven. Deze taken kunnen worden beheerd met het dashboard Revisie.
 
 Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van het revisiedashboard:
 
@@ -55,15 +55,15 @@ U kunt de volgende handelingen uitvoeren onder de **Taak** tab:
 - De titel van de taak in het dialoogvenster **Titel** veld.
 - Standaardtoewijzingen toevoegen in het dialoogvenster **Toewijzen aan** vervolgkeuzelijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt desgewenst meer revisoren verwijderen of selectief toevoegen aan specifieke onderwerpen in het menu [Het tabblad Revisoren](#reviewer-tab-id199RF0N0MUI).
 - Werk de beschrijving van de taak bij in het dialoogvenster **Beschrijving** veld.
-- De **Vervaldatum**. U kunt de deadline voor het voltooien van de taak voorbereiden of uitstellen.
+- Wijzig de **Vervaldatum**. U kunt de deadline voor het voltooien van de taak voorbereiden of uitstellen.
 - Selecteer de optie om gebruikers te beperken tot het bekijken van alleen die onderwerpen die aan hen zijn toegewezen.
 - Klikken **Bijwerken** om de gewijzigde details bij te werken.
 - Klikken **Voltooid** de beoordelingstaak vóór de vervaldag als voltooid te markeren. Wanneer de taak van een individueel onderwerp als Voltooid wordt duidelijk, wordt de overzicht van het geselecteerde onderwerp gesloten. Nochtans, in het geval van onderwerpen die voor overzicht door een kaart DITA worden gedeeld, zal het merken van de DITA kaarttaak als Voltooid de overzicht van alle onderwerpen binnen de kaart sluiten die voor overzicht werden gedeeld.
 - Klikken **Dupliceren** om een kopie van de revisietaak te maken. Het maken van een dubbele revisietaak lijkt op het maken van een nieuwe revisietaak. Zodra u de gedupliceerde taakwerkstroom start, wordt de pagina Revisietaak maken weergegeven. U moet de nieuwe taakdetails verstrekken zoals die in worden verklaard [Onderwerpen ter controle verzenden](review-send-topics-for-review.md#).
 
-   Als u een overzichtstaak hebt geselecteerd die van een kaart DITA wordt gecreeerd, dan wordt u getoond de onderwerpen die een deel van de kaart zijn. U kunt dan de onderwerpen kiezen die u in de nieuwe overzichtstaak wilt omvatten.
+  Als u een overzichtstaak hebt geselecteerd die van een kaart DITA wordt gecreeerd, dan wordt u getoond de onderwerpen die een deel van de kaart zijn. U kunt dan de onderwerpen kiezen die u in de nieuwe overzichtstaak wilt omvatten.
 
-   In het geval van overzichtstaak die van één of veelvoudige onderwerpenoverzicht wordt gedupliceerd, dan slechts worden die onderwerpen getoond in de lijst van de overzichtstaak. U kunt deze onderwerpen ter controle delen met een andere set revisoren.
+  Als de overzichtstaak van één of veelvoudige onderwerpenoverzicht wordt gedupliceerd, dan slechts worden die onderwerpen getoond in de lijst van de overzichtstaak. U kunt deze onderwerpen ter controle delen met een andere set revisoren.
 
 - Klikken **Sluiten** om naar de pagina Inbox te gaan.
 
@@ -77,13 +77,13 @@ U kunt de volgende handelingen uitvoeren onder de **Inhoud** tab:
 
 - Klikken **Bijwerken** om de bijgewerkte versie van het onderwerp met de controleurs te delen. De controleurs krijgen een e-mailbericht met de mededeling dat de nieuwere versie van het onderwerp ter controle is verzonden. De volgende keer dat een controleur het onderwerp opent, zien zij de bijgewerkte versie van het onderwerp.
 
-   >[!NOTE]
-   >
-   > In het geval van een bijgewerkte versie van een onderwerp, worden de oude commentaren behouden ook in de nieuwere versie. Revisoren kunnen ook de verschillen tussen de twee versies zien.
+  >[!NOTE]
+  >
+  > In het geval van een bijgewerkte versie van een onderwerp, worden de oude commentaren behouden ook in de nieuwere versie. Revisoren kunnen ook de verschillen tussen de twee versies zien.
 
 - Klikken **Voltooid** de beoordelingstaak vóór de vervaldag als voltooid te markeren. Wanneer de taak van een individueel onderwerp als Voltooid wordt duidelijk, wordt de overzicht van het geselecteerde onderwerp gesloten. Nochtans, in het geval van onderwerpen die voor overzicht door een kaart DITA worden gedeeld, zal het merken van de DITA kaarttaak als Voltooid de overzicht van alle onderwerpen binnen de kaart sluiten die voor overzicht werden gedeeld.
 
-- Klikken **Dupliceren** om een nieuwe overzichtstaak tot stand te brengen die de huidige taak als basis gebruikt.
+- Klikken **Dupliceren** om een nieuwe overzichtstaak te creëren die de huidige taak als basis gebruikt.
 
 
 ## Het tabblad Revisoren {#reviewer-tab-id199RF0N0MUI}
@@ -93,11 +93,11 @@ U kunt de volgende handelingen uitvoeren onder de **Inhoud** tab:
 U kunt de volgende handelingen uitvoeren onder de **Revisoren** tab:
 
 - **Alles selecteren**: Hiermee selecteert u alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
-- **Selectie wissen**: Deselecteert de onderwerpen die in de onderwerpenlijst worden geselecteerd.
+- **Selectie wissen**: Hiermee wordt de selectie van de geselecteerde onderwerpen in de lijst met onderwerpen opgeheven.
 
-   >[!NOTE]
-   >
-   > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
+  >[!NOTE]
+  >
+  > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
 
 - **Toevoegen**: Hiermee geeft u het dialoogvenster Revisoren toevoegen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
 - **Verwijderen**: Hiermee geeft u het dialoogvenster Revisoren verwijderen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
@@ -115,7 +115,7 @@ Het statusrapport voor de controletaak bevat de volgende details:
 
 - Naam of namen van de controleur aan wie de revisietaak is toegewezen.
 - De kolom Status geeft de revisiestatus aan. De status kan een van de volgende zijn:
-   - **Niet gestart**: De revisor heeft de revisiekoppeling nog niet geopend.
+   - **Niet gestart**: De revisor heeft de revisie-koppeling nog niet geopend.
    - **In uitvoering**: De controleur heeft de revisiekoppeling geopend en is bezig het onderwerp te evalueren.
    - **Voltooid**: De controleur heeft de revisie voltooid door de aan hem toegewezen controletaak te voltooien. De controletaak bevindt zich in het AEM-vak voor elke controleur.
 - Wanneer een recensent een overzichtsverbinding opent en aan een bepaald onderwerp navigeert dat het onderwerp aan de Onderwerpen Gereviseerde lijst wordt toegevoegd. Op deze manier kunnen auteurs bepalen of de revisoren hun respectievelijke secties al dan niet hebben geopend. Eventuele opmerkingen worden tussen haakjes weergegeven.

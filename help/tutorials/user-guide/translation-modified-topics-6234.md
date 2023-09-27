@@ -1,10 +1,10 @@
 ---
 title: Gewijzigde onderwerpen vertalen
-description: Leer hoe te om gewijzigde onderwerpen te vertalen
+description: Leer hoe u een gewijzigd onderwerp opnieuw vertaalt in AEM hulplijnen.
 exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
 1. Klik het controlevakje om de onderwerpen te selecteren die u voor re-vertaling wilt verzenden.
 
-   Wanneer u een datum selecteert die niet meer gesynchroniseerd is, worden de **Taalkopieën maken/bijwerken** verschijnt in het venster Verwijzingen en in het dialoogvenster **Synchronisatiestatus Buiten bereik sluiten** knop boven de **Filter** pictogram.
+   Wanneer u een datum selecteert die niet meer gesynchroniseerd is, worden de **Taalkopieën maken/bijwerken** verschijnt in het venster Verwijzingen en in het dialoogvenster **Synchronisatiestatus Buiten-de sluiten** knop boven de knop **Filter** pictogram.
 
    U kunt de **Synchronisatie negeren** knoop om de Verouderd status voor de onderwerpen in de kaart met voeten te treden DITA. Bijvoorbeeld, als u sommige veranderingen in de Engelse versie van het onderwerp aanbracht die geen vertaling vereist, kunt u deze knoop gebruiken en de status van Verouderd voor het geselecteerde onderwerp veranderen.
 
    >[!NOTE]
    >
-   > Als u op de knop **Synchronisatiestatus Buiten bereik sluiten** knoop, plaatst het de onderwerpstatus aan Up voor de geselecteerde onderwerpen van Verouderd.
+   > Als u op de knop **Synchronisatiestatus Buiten-de sluiten** knoop, plaatst het de onderwerpstatus aan Up voor de geselecteerde onderwerpen van Verouderd.
 
 1. Klikken **Taalkopieën bijwerken** en configureert u de vertaaltaak.
 
@@ -68,6 +68,7 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
    - Klikken **Vertaling accepteren** als u van mening bent dat de veranderingen correct zijn vertaald. Er wordt een bevestigingsbericht weergegeven.
 
    - Klikken **Vertaling negeren** als u van mening bent dat het werk opnieuw moet worden gedaan. Er wordt een afwijzingsbericht weergegeven.
+
    >[!NOTE]
    >
    > Het is belangrijk het vertaalde element te accepteren of af te wijzen, anders blijft het bestand op de tijdelijke locatie en wordt het niet naar DAM gekopieerd.

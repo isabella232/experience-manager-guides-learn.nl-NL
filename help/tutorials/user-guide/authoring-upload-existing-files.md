@@ -1,10 +1,10 @@
 ---
 title: Bestanden uploaden
-description: Leer hoe u bestanden kunt uploaden
+description: Leer hoe u uw bestanden uploadt naar de AEM opslagplaats en fouten verwerkt. De middelen van de console van kennis gebruikersinterface, AEM Desktop app, activa bulkingestor, en gebruiken FrameMaker voor bulkupload.
 exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ U kunt inhoud op uw bureaublad selecteren en in de AEM gebruikersinterface \(web
 
 Gebruik AEM bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Zie voor meer informatie [Bureaubladapp AEM](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
-## Vlek van activa
+## Bulkingestor
 
-Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Zie voor meer informatie [Vlek van activa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Zie voor meer informatie [Bulkingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
-## Gebruik FrameMaker voor bulkupload
+## FrameMaker gebruiken voor bulkupload
 
-Adobe FrameMaker komt met een krachtige AEM schakelaar die u toestaat om uw bestaande DITA en andere documenten gemakkelijk te uploaden FrameMaker \ (`.book` en `.fm`\) in AEM. U kunt verschillende functies voor het uploaden van bestanden gebruiken, zoals het uploaden van één bestand, het uploaden van een volledige map met of zonder afhankelijkheden \(zoals inhoudsverwijzingen, kruisverwijzingen en afbeeldingen\).
+Adobe FrameMaker wordt geleverd met een krachtige AEM-aansluiting waarmee u uw bestaande DITA en andere FrameMaker documenten \() eenvoudig kunt uploaden`.book` en `.fm`\) in AEM. U kunt verschillende functies voor het uploaden van bestanden gebruiken, zoals het uploaden van één bestand, het uploaden van een volledige map met of zonder afhankelijkheden \(zoals inhoudsverwijzingen, kruisverwijzingen en afbeeldingen\).
 
-Voor meer details over het gebruiken van bulkupload eigenschap in FrameMaker, zie de sectie *Een CRX-map maken en bestanden uploaden* in de Gids van de Gebruiker FrameMaker.
+Zie de sectie voor meer informatie over het gebruik van de functie voor bulkupload in FrameMaker *Een CRX-map maken en bestanden uploaden* in FrameMaker gebruikershandleiding.
 
 ## Foutafhandeling tijdens het uploaden van inhoud {#id201MI0I04Y4}
 

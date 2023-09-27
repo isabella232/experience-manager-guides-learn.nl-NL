@@ -1,10 +1,10 @@
 ---
 title: Werken met zuurstof
-description: Leer hoe u met zuurstof werkt
+description: Meer informatie over de ondersteuning van de Oxygen XML Editor voor het ontwerpen en publiceren van inhoud in AEM hulplijnen.
 exl-id: 9fc690a6-fee3-4315-ad86-256cedb7b7d6
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---

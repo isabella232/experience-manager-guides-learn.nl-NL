@@ -1,10 +1,10 @@
 ---
 title: Slimme tags toepassen
-description: Leer hoe u slimme tags kunt toepassen
+description: Leer hoe u slimme tags kunt toevoegen in AEM hulplijnen. Gebruik het gereedschap XML-trefwoord extraheren om relevante trefwoorden te extraheren.
 exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 > De functie voor slimme tags is niet beschikbaar in het vak en vereist een aangepaste implementatie waarvoor u de systeembeheerder moet raadplegen.
 
-AEM Hulplijnen worden geleverd met de functie voor het toevoegen van slimme tags. U kunt het gereedschap XML-trefwoord extraheren gebruiken om slimme tags te extraheren. Dit hulpmiddel gebruikt kunstmatige intelligentie om de inhoud te begrijpen en relevante sleutelwoorden te verstrekken. U kunt slimme tags gebruiken om de optimalisatie van uw zoekmachine te verbeteren \(SEO\) en om de gebruikers te helpen uw gerelateerde inhoud te zoeken.
+AEM Hulplijnen worden geleverd met de functie voor het toevoegen van slimme tags. Met het gereedschap XML-trefwoord extraheren kunt u slimme tags extraheren. Dit hulpmiddel gebruikt kunstmatige intelligentie om de inhoud te begrijpen en relevante sleutelwoorden te verstrekken. U kunt slimme tags gebruiken om de optimalisatie van uw zoekmachine te verbeteren \(SEO\) en om de gebruikers te helpen uw gerelateerde inhoud te zoeken.
 
 Voer de volgende stappen uit om slimme tags te maken:
 

@@ -1,10 +1,10 @@
 ---
 title: Onderwerpen bewerken in de webeditor
-description: Leer hoe te om onderwerpen in de Redacteur van het Web uit te geven
+description: Leer onderwerpen te bewerken in de webeditor. U kent verschillende bewerkingsfuncties om uw onderwerpbestanden in AEM hulplijnen te wijzigen.
 exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,14 @@ De Redacteur van het Web komt met een waaier van het uitgeven eigenschappen die 
    >
    > U kunt ook kiezen welk pictogram in de werkbalk moet worden weergegeven door het dialoogvenster `ui_config.json` bestand bevindt zich op - `/etc/designs/fmdita/clientlibs/xmleditor/`. Neem voor meer informatie over het aanpassen van functies contact op met de systeembeheerder.
 
-1. Als u klaar bent met het bewerken van het document, klikt u op **Opslaan**.
+1. Nadat u het document hebt bewerkt, klikt u op **Opslaan**.
 
    >[!NOTE]
    >
    > Als u geen wijzigingen wilt doorvoeren in AEM opslagplaats, klikt u op **Sluiten** en klik vervolgens op **Sluiten zonder opslaan** in het dialoogvenster Niet-opgeslagen wijzigingen.
 
-   **Browser vernieuwen tijdens het bewerken van de bestanden**
-AEM de Gidsen verleent de steun om browser te verfrissen terwijl u uw inhoud in de Redacteur van het Web uitgeeft. Met deze functie kunt u doorgaan met het bewerken van inhoud voor het geval u tijdens het werken een toepassingsfout tegenkomt. Als u de browser vernieuwt terwijl een of meer bestanden met niet-opgeslagen wijzigingen worden geopend voor bewerking, wordt u gewaarschuwd dat de niet-opgeslagen wijzigingen verloren kunnen gaan. U kunt de vernieuwingsbewerking annuleren en uw bestanden opslaan om de wijzigingen te behouden.
+   **Browser vernieuwen tijdens bewerken van bestanden**
+AEM hulplijnen bieden ondersteuning voor het vernieuwen van de browser terwijl u de inhoud bewerkt in de webeditor. Met deze functie kunt u doorgaan met het bewerken van inhoud voor het geval u tijdens het werken een toepassingsfout tegenkomt. Als u de browser vernieuwt terwijl een of meer bestanden met niet-opgeslagen wijzigingen worden geopend voor bewerking, wordt u gewaarschuwd dat de niet-opgeslagen wijzigingen verloren kunnen gaan. U kunt de vernieuwingsbewerking annuleren en uw bestanden opslaan om de wijzigingen te behouden.
 
    Zelfs bij het verfrissen van browser, worden de meningen van de linkerzijde en het juiste paneel behouden in de Redacteur van het Web. Het actieve onderwerp in het deelvenster Opslagplaats wordt bijvoorbeeld opnieuw geopend. Het kaartvenster blijft samen met de eerder geopende kaart behouden.
 

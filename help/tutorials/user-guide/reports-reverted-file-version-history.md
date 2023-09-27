@@ -1,10 +1,10 @@
 ---
 title: Rapport voor versiehistorie van teruggedraaide bestanden
-description: Ervaar hoe u het versierapport voor omgekeerde bestanden kunt weergeven
+description: Versiehistorierapporten van teruggedraaide bestanden weergeven in AEM hulplijnen. Leer hoe te om versielogboeken van de Middelen UI, onderwerpvoorproef, en AEM tot selectie toegang te hebben.
 exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Met AEM hulplijnen kunt u een versiehistorierapport genereren voor een afzonderl
 
 U kunt dit rapport openen op de volgende plaatsen:
 
-- **UI Middelen**: door een bestand te selecteren en het dialoogvenster **Versiehistorie** van de linkerspoorstaaf. De **Versiehistorie** bevat de **Versielogbestanden herstellen** onder aan het deelvenster. Wanneer u op deze koppeling klikt, wordt de geschiedenis van de omgezette versies van het geselecteerde bestand weergegeven.
+- **UI Middelen**: door een bestand te selecteren en het dialoogvenster **Versiehistorie** van de linkerspoorstaaf. De **Versiehistorie** bevat de **Versielogbestanden herstellen** onderaan in het deelvenster. Wanneer u op deze koppeling klikt, wordt de geschiedenis van de omgezette versies van het geselecteerde bestand weergegeven.
 
-   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Voorvertoning onderwerp**: wanneer u een voorvertoning van een onderwerp weergeeft, kunt u ook de **Versiehistorie** van de linkerspoorstaaf. Er verschijnt een deelvenster dat lijkt op de interface Middelen vanwaar u op de knop **Versielogbestanden herstellen** koppeling gebruiken om de omgekeerde versiegeschiedenis van het actieve document te openen.
+- **Voorvertoning onderwerp**: wanneer u een voorvertoning van een onderwerp weergeeft, kunt u ook de knop **Versiehistorie** van de linkerspoorstaaf. Er verschijnt een deelvenster dat lijkt op de interface Middelen vanwaar u op de knop **Versielogbestanden herstellen** koppeling gebruiken om de omgekeerde versiegeschiedenis van het actieve document te openen.
 
-- **Sectie AEM**: u kunt tot dit rapport van AEM sectie van Hulpmiddelen ook toegang hebben. De volgende procedure verklaart hoe u tot de omgekeerde versiegeschiedenis van de sectie van Hulpmiddelen van de AEM kunt toegang hebben.
+- **Sectie AEM**: u kunt dit rapport ook openen vanuit de sectie AEM Tools. De volgende procedure verklaart hoe u tot de omgekeerde versiegeschiedenis van de sectie van Hulpmiddelen van de AEM kunt toegang hebben.
 
 
 Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis toegang te hebben:
@@ -44,15 +44,15 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
    - **Bestandsnaam**: De titel van het onderwerp. Als u op de titelkoppeling van het onderwerp klikt, wordt de voorvertoning van het onderwerp geopend.
 
-   - **Tijdstempel**: De datum en de tijd toen het onderwerp aan een vroegere versie werd teruggekeerd.
+   - **Tijdstempel**: De datum en tijd waarop het onderwerp werd teruggezet naar een eerdere versie.
 
    - **Gebruiker**: Naam van de gebruiker die naar een eerdere versie is teruggekeerd.
 
-   - **Vorige versie**: Het oorspronkelijke versienummer van het bestand waar het is teruggezet.
+   - **Vorige versie**: Het oorspronkelijke versienummer van het bestand waar het is teruggedraaid.
 
    - **Terugkeren naar**: De versie waarnaar het bestand is teruggezet.
 
-   - **Opmerking**: Opmerkingen van de gebruiker die het bestand heeft teruggezet.
+   - **Opmerking**: Een opmerking van de gebruiker die het bestand heeft teruggezet.
 
 
 **Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)

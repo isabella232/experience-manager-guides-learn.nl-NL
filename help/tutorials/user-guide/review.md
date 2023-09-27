@@ -1,10 +1,10 @@
 ---
 title: Onderwerpen of kaarten controleren
-description: Leer hoe u onderwerpen of kaarten kunt controleren
+description: U kunt onderwerpen of kaarten op efficiënte wijze controleren in AEM hulplijnen voor een vloeiende inhoudsevaluatie. De functies voor auteurs en revisoren in AEM hulplijnen kennen.
 exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Bijna alle technische documenten moeten meerdere herzieningsronden doorlopen. In
 Enkele belangrijkste functies van AEM hulplijnen voor de *initiators \(of auteurs\)* zijn:
 
 - Maak een DITA-project voor de revisiewerkstroom.
-- Verzend een of meer onderwerpen ter controle in één overzichtstaak.
+- Verzend een of meer onderwerpen voor revisie in één revisietaak.
 
 - Verzend een onderwerp voor overzicht in veelvoudige overzichtstaken.
 
@@ -24,7 +24,7 @@ Enkele belangrijkste functies van AEM hulplijnen voor de *initiators \(of auteur
 
 - Deel een bijgewerkte versie van het onderwerp voor overzicht van het Dashboard van het Overzicht.
 
-- Heb toegang tot commentaren die op verschillende versies van onderwerp worden gedeeld.
+- De commentaren van de toegang die op verschillende versies van onderwerp worden gedeeld.
 
 - Groep en filtercommentaren die op versie van onderwerp worden gebaseerd.
 
@@ -36,7 +36,7 @@ Enkele belangrijkste functies van AEM hulplijnen voor de *initiators \(of auteur
 Functies die beschikbaar zijn voor de *revisoren*:
 
 - Krijg één samengestelde mening van de onderwerpen die voor overzicht worden gedeeld.
-- Schakel tussen samengestelde weergave en de afzonderlijke onderwerpweergave.
+- Schakel tussen samengestelde weergave en individuele onderwerpweergave.
 - Gebruik de gereedschappen voor opmerkingen, zoals het invoegen, verwijderen, markeren en notities en opmerkingen, om feedback te geven.
 - Voeg een of meerdere bestanden toe aan een revisieopmerking.
 - Download bijlagen van een opmerking.
@@ -45,7 +45,7 @@ Functies die beschikbaar zijn voor de *revisoren*:
 - Ontvang een bericht wanneer een taak aan hen voor overzicht wordt toegewezen.
 - Zie verschillen tussen oudere en nieuwere versie van onderwerp die voor overzicht wordt gedeeld.
 - Zie opmerkingen van andere revisoren of reacties op opmerkingen van auteurs in real-time.
-- Heb toegang tot commentaren die op oudere versie van onderwerp worden gegeven.
+- De commentaren van de toegang die op oudere versie van onderwerp worden gegeven.
 
 >[!NOTE]
 >

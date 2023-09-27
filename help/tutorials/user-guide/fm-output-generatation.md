@@ -1,28 +1,28 @@
 ---
-title: Produceer output van documenten FrameMaker
-description: Leer hoe te om output van documenten te produceren FrameMaker
+title: Uitvoer van FrameMaker-documenten genereren
+description: Leer hoe u uitvoer van FrameMaker-documenten kunt genereren in AEM hulplijnen om deze te publiceren in de indeling PDF, HTML5 en EPUB.
 exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Produceer output van documenten FrameMaker {#id1645H8040HD}
+# Uitvoer van FrameMaker-documenten genereren {#id1645H8040HD}
 
-Beginnend met AEM Gidsen 1.1, kunt u documenten ook publiceren FrameMaker \ (`.book` en `.fm`\) beschikbaar in uw AEM opslagplaats. Als een boekdossier een combinatie documenten DITA en FrameMaker bevat, staat AEM Gidsen u toe om dergelijke documenten eveneens te publiceren. De documenten FrameMaker kunnen in de volgende formaten worden gepubliceerd:
+Vanaf AEM hulplijnen 1.1 kunt u ook FrameMaker documenten \() publiceren`.book` en `.fm`\) beschikbaar in uw AEM opslagplaats. Als een boekbestand een combinatie van DITA- en FrameMaker-documenten bevat, kunt u AEM hulplijnen gebruiken om dergelijke documenten ook te publiceren. Documenten voor FrameMakers kunnen in de volgende indelingen worden gepubliceerd:
 
 - PDF
 
 - HTML5
 
-- ePub
+- EPUB
 
 
-Als auteur klikt u gewoon op een paar koppelingen en wordt de uitvoer gegenereerd. U kunt output voor een volledig boekdossier produceren of u kunt individuele dossiers selectief publiceren FrameMaker. Alvorens de output te produceren, kunt u veranderingen in uw dossiers ook aanbrengen FrameMaker. Wanneer u een .fm- of een .book-bestand selecteert in AEM opslagplaats, krijgt u de **Openen in FrameMaker** op de werkbalk. Het klikken op deze knoop opent omhoog het geselecteerde dossier in FrameMaker.
+Als auteur klikt u gewoon op een paar koppelingen en wordt de uitvoer gegenereerd. U kunt uitvoer voor een volledig boekbestand genereren of afzonderlijke bestanden voor FrameMakers selectief publiceren. Voordat u de uitvoer genereert, kunt u ook wijzigingen aanbrengen in de FrameMaker. Wanneer u een .fm- of een .book-bestand selecteert in AEM opslagplaats, krijgt u de **Openen in FrameMaker** op de werkbalk. Als u op deze knop klikt, wordt het geselecteerde bestand in de FrameMaker geopend.
 
-De informatie in de volgende secties is voor uitgevers die de werkschema&#39;s van de outputgeneratie zullen gebruiken om documenten te publiceren FrameMaker:
+De informatie in de volgende secties is voor uitgevers die de werkschema&#39;s van de outputgeneratie zullen gebruiken om de documenten van de FrameMaker te publiceren:
 
 - [Uitvoervoorinstellingen](fm-output-understand-presets.md#)
 

@@ -1,10 +1,10 @@
 ---
 title: Werken met de webeditor
-description: Leer hoe te met de Redacteur van het Web te werken
+description: Gestructureerde documenten maken en bewerken met de webeditor. Leer hoe u met de webeditor werkt volgens de DITA-standaarden in AEM hulplijnen.
 exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Ook, is de Redacteur van het Web DITA-bewust en het steunt DITA 1.3, 1.2 normen,
 
 - **[Weergaven van de webeditor](web-editor-views.md)**
 
-- **[De documenten van de Prijsverhoging van de auteur van het Web van de Redacteur](web-editor-markdown-topic.md)**
+- **[De documenten van de Prijsverhoging van de auteur van het Web](web-editor-markdown-topic.md)**
 
 - **[Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren](web-editor-manage-output-presets.md)**
 

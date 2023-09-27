@@ -1,10 +1,10 @@
 ---
 title: Native PDF | Productie van PDF
-description: PDF-uitvoer genereren in as a Cloud Service Adobe Experience Manager-hulplijnen
+description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorinstelling voor PDF-uitvoer kunt maken en genereren, tijdelijke bestanden kunt downloaden nadat u de uitvoer van eigen PDF hebt gegenereerd en taalvariabelen in AEM hulplijnen kunt gebruiken.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3229'
 ht-degree: 0%
 
 ---

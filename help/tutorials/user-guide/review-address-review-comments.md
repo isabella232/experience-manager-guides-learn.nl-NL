@@ -1,10 +1,10 @@
 ---
 title: Opmerkingen voor revisie van adres
-description: Leer hoe u revisieopmerkingen kunt adresseren
+description: Leer hoe u revisieopmerkingen als auteur kunt behandelen in AEM hulplijnen. Ontdek hoe een auteur opmerkingen in een document kan bewerken, filteren, accepteren of afwijzen.
 exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 
 - **B:**  Selecteren **Details bekijken** ![](images/active-review-info-icon.svg) in de **Opmerkingen** voor meer informatie over de revisietaak:
 
-   - **Naam**: Naam van de toetsingstaak .
+   - **Naam**: Naam van de toetsingstaak.
    - **Revisieversie**: Hiermee geeft u de versie weer die is gekoppeld aan de geselecteerde revisietaak. Zo kunt u de versie bijhouden die u hebt gedeeld voor revisie
    - **Status**: Huidige status van de revisietaak.
 
@@ -40,9 +40,9 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
   >
   > Als de wortelkaart van uw overzichtstaak van de auteurswortelkaart verschillend is, toont het de informatie over het om erop te wijzen dat de creatie en de kaart van de overzichtswortel niet aanpassen.
 
-- **C**: Als u uw onderwerp na het in werking stellen van het overzicht hebt bijgewerkt, dan keert het klikken op Terugkeren Onderwerp aan het pictogram van de Versie van het Overzicht uw het werk exemplaar terug naar de versie die voor overzicht werd gedeeld terug. Hierdoor kunt u de revisie-feedback rechtstreeks opnemen in de versie die ter controle is gedeeld. Na het opnemen van terugkoppelt, kunt u veranderingen in de omgekeerde versie bewaren of een nieuwe revisie van uw onderwerp tot stand brengen. Als u verkiest om een nieuwe revisie van uw onderwerp tot stand te brengen, dan wordt een nieuwe tak gecreeerd van de onderwerpversie die voor overzicht werd gedeeld. Als u bijvoorbeeld de versie hebt gedeeld `1.2` van een onderwerp voor overzicht terwijl de huidige auteursversie is `1.3`, kunt u dit pictogram gebruiken om terug te gaan naar de versie `1.2` voor het opnemen van opmerkingen bij de beoordeling. Als u een nieuwe revisie maakt nadat u wijzigingen in de versie hebt aangebracht `1.2`, dan een nieuwe vertakking met versie `1.2.0` wordt gecreeerd voor het onderwerp.
+- **C**: Als u het onderwerp hebt bijgewerkt nadat u de revisie hebt gestart en op het pictogram Onderwerp terugzetten in revisieversie hebt geklikt, wordt de werkkopie teruggezet naar de versie die voor revisie is gedeeld. Hierdoor kunt u de revisie-feedback rechtstreeks opnemen in de versie die ter controle is gedeeld. Na het opnemen van terugkoppelt, kunt u veranderingen in de omgekeerde versie bewaren of een nieuwe revisie van uw onderwerp tot stand brengen. Als u verkiest om een nieuwe revisie van uw onderwerp tot stand te brengen, dan wordt een nieuwe tak gecreeerd van de onderwerpversie die voor overzicht werd gedeeld. Als u bijvoorbeeld de versie hebt gedeeld `1.2` van een onderwerp voor overzicht terwijl de huidige auteursversie is `1.3`, kunt u dit pictogram gebruiken om terug te gaan naar de versie `1.2` voor het opnemen van opmerkingen bij de beoordeling. Als u een nieuwe revisie maakt nadat u wijzigingen in de versie hebt aangebracht `1.2`, dan een nieuwe vertakking met versie `1.2.0` wordt gecreeerd voor het onderwerp.
 
-  Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Om dit te doen, gebruik [Samenvoegen](web-editor-features.md#id205DF04E0HS) eigenschap om alle updates te krijgen die nadat het onderwerp voor overzicht werd gedeeld worden gemaakt.
+  Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Gebruik hiervoor de opdracht [Samenvoegen](web-editor-features.md#id205DF04E0HS) om alle updates te krijgen die nadat het onderwerp voor overzicht werd gedeeld worden gemaakt.
 
 - **D**: Open de weergave Naast elkaar om de versie met opmerkingen van het onderwerp weer te geven. Zoals in het bovenstaande schermafbeelding te zien is, is de meest linkse sectie de nieuwste versie van het onderwerp waarin u wijzigingen kunt aanbrengen. De volgende sectie is de gecommenteerde versie van het onderwerp. Aangezien u tussen commentaren in het onderwerp navigeert, verandert de zijmening en toont die versie van het onderwerp waarop de commentaar werd gemaakt. Elke opmerking in het opmerkingenvenster is gekoppeld aan de corresponderende tekst in deze sectie. Hiermee kunt u de tekst met opmerkingen herkennen. De opmerkingen worden weergegeven in de volgorde van de tekst met opmerkingen in het document.
 
@@ -50,7 +50,7 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 
 - E: Importeer de ingevoegde en verwijderde \(of Doorhalen\) opmerkingen rechtstreeks in het onderwerp. Nadat u op het pictogram Importeren hebt geklikt, worden alle tekstinvoegingen en verwijderingen weergegeven in de werkkopie van het onderwerp. Er zijn nu twee manieren om opmerkingen te accepteren of te verwerpen.
 
-  Als u de voorgestelde wijziging één voor één wilt opnemen, klikt u gewoon met de rechtermuisknop op de opmerking in de inhoud en selecteert u Wijziging accepteren of Wijziging negeren. Afhankelijk van uw selectie wordt de opmerking geaccepteerd of afgewezen. In het geval van een geaccepteerde opmerking wordt de inhoud toegevoegd aan de inhoud. en in geval van afwijzing, wordt het uit de inhoud verwijderd. De status van de opmerking wordt ook gewijzigd in het deelvenster Revisie.
+  Als u de voorgestelde wijziging één voor één wilt opnemen, klikt u gewoon met de rechtermuisknop op de opmerking in de inhoud en selecteert u Wijziging accepteren of Wijziging negeren. Afhankelijk van uw selectie wordt de opmerking geaccepteerd of afgewezen. In het geval van een geaccepteerde opmerking wordt de inhoud toegevoegd aan de inhoud en in het geval van afwijzing wordt deze uit de inhoud verwijderd. De status van de opmerking wordt ook gewijzigd in het deelvenster Revisie.
 
   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 

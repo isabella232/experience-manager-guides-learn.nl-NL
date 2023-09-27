@@ -1,10 +1,10 @@
 ---
 title: Basislijnen maken en beheren vanuit de webeditor
-description: Leer hoe te om basislijnen van de Redacteur van het Web tot stand te brengen en te beheren
+description: Maak en beheer basislijnen in de webeditor in AEM hulplijnen. Leer hoe u basislijnen maakt op basis van labels en filters toepast op de basislijnen.
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
+source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -78,21 +78,28 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
 
 - U kunt zoeken naar een bestaande basislijn met het tekstvak in het deelvenster Basislijn. Gebruik de **Filter toepassen** om alle basislijnen weer te geven of de basislijnen weer te geven met de aanmaakstatus Voltooid, Bezig of Mislukt.
 - Gebruik de **Vernieuwen** in het deelvenster Basislijn om opnieuw te controleren op alle basislijnen en een nieuwe lijst met basislijnen weer te geven voor de DITA-kaart die wordt geopend in de Kaartweergave.
-- U kunt de inhoud van een bestaande basislijn weergeven of bewerken door te dubbelklikken op de basislijn in de lijst in het deelvenster Basislijn. In het basislijnbewerkingsvenster in het midden worden het DITA-kaartbestand, de inhoud of onderwerpen van de kaart en de inhoud waarnaar wordt verwezen, weergegeven.
+- U kunt de inhoud van een bestaande statische basislijn weergeven of bewerken door te dubbelklikken op de basislijn in de lijst in het deelvenster Basislijn. In het basislijnbewerkingsvenster in het midden worden het DITA-kaartbestand, de inhoud of onderwerpen van de kaart en de inhoud waarnaar wordt verwezen, weergegeven.
 
 
-![](images/baseline-options.png){width="550" align="left"}
+  ![opties van een basislijn](images/baseline-options.png){width="800" align="left"}
 
 U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opties:
 
-- **Bewerken**, **Dupliceren,** of **Verwijderen** een bestaande basislijn.
-- Bestaande labels toevoegen, verwijderen of wijzigen in het menu **Labels beheren** -optie. Als uw beheerder vooraf bepaalde etiketten heeft gevormd, dan wordt u getoond die etiketten in Add drop-down lijst van het Etiket. Zie voor meer informatie over het toevoegen van labels [Labels gebruiken](web-editor-use-label.md#).
+- **Bewerken**, **Dupliceren,** **Naam wijzigen**, of **Verwijderen** een bestaande basislijn.
+
+  >[!NOTE]
+  >
+  >Bewerking voor statische basislijnen wordt alleen aanbevolen voor een klein aantal wijzigingen in de verwijzing. Bewerkingen bewerken wordt niet aangeraden om de versie van de hoofd-DITA-kaart te wijzigen, omdat alle referenties opnieuw moeten worden berekend. Dit kan een fout van de basislijnupdate voor grote kaarten DITA veroorzaken. Voor de grotere DITA kaarten, kunt u een nieuwe basislijn tot stand brengen of de eigenschappen van de basislijn uitgeven.
+  >
+  >Met de bewerking Bewerken in het geval van een dynamische basislijn kunt u de eigenschappen van de basislijn bewerken terwijl de referenties voor dynamische basislijnen bij uitvoering worden gegenereerd met de labels.
+
+- Bestaande labels toevoegen, verwijderen of wijzigen in het menu **Labels beheren** optie voor statische basislijnen. Als uw beheerder vooraf bepaalde etiketten heeft gevormd, dan wordt u getoond die etiketten in Add drop-down lijst van het Etiket. Zie voor meer informatie over het toevoegen van labels [Labels gebruiken](web-editor-use-label.md#).
 
   >[!NOTE]
   >
   > Het proces om etiketten toe te voegen of te verwijderen gebeurt asynchroon, zodat kunt u aan andere dossiers in de Redacteur van het Web blijven werken. Nadat het label is toegevoegd of verwijderd, wordt een pop-upbericht weergegeven met de bevestiging dat het label is toegevoegd of verwijderd. U ontvangt ook een melding in het Postvak IN.
 
-- **Eigenschappen bewerken** van een bestaande basislijn die u hebt ingesteld tijdens het maken van de basislijn.
+- **Eigenschappen bewerken** van een bestaande statische basislijn die u hebt ingesteld tijdens het maken van de basislijn.
 - De momentopname van een basislijn in een Csv- dossier met uitvoeren **Basislijn exporteren** -optie.
 
 **Basislijnfilters**

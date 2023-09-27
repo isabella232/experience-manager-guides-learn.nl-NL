@@ -1,10 +1,10 @@
 ---
 title: Een DITA-project maken
-description: Leer hoe u een DITA-project maakt
+description: Creeer een project DITA gebruikend een malplaatje in AEM Gidsen. Leer hoe u een DITA-project kunt gebruiken om de revisies te starten.
 exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt teamleden aan een project toevoegen die dan diverse rollen - Auteurs, Rec
 
 Zodra u uw project DITA hebt gecreeerd, kunt u uw overzicht van de Redacteur van het Web of de Hulp UI van Activa in werking stellen. Zie voor meer informatie [Onderwerpen ter controle verzenden](review-send-topics-for-review.md#).
 
-En als een auteur een revisiewerkstroom start, krijgen de geselecteerde leden van het project een e-mailmelding. Voor het configureren van e-mailmeldingen raadpleegt u *E-mailsjablonen aanpassen* in Installeer en configureer as a Cloud Service Adobe Experience Manager-hulplijnen.
+En als een auteur een revisiewerkstroom start, krijgen de geselecteerde leden van het project een e-mailmelding. Voor het configureren van e-mailmeldingen raadpleegt u *E-mailsjablonen aanpassen* in Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
 
 Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
@@ -48,6 +48,7 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
    - U kunt desgewenst een miniatuur kiezen voor het project.
 
    - Door gebrek, wordt u gemaakt de eigenaar van het project. Meer gebruikers toevoegen aan dit project:
+
    1. Voer een gebruiker in of kies een gebruiker in het menu **Gebruiker** vervolgkeuzelijst.
 
    1. Kies een gebruikerstype - Auteurs, Revisoren of Uitgevers.
@@ -60,12 +61,11 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
       >[!NOTE]
       >
-      >Als u AEM versie 3.5 van Gidsen gebruikt of vroeger, wordt u getoond een optie om een DITA kaartdossier te selecteren om zeer belangrijke verwijzingen voor onderwerphet uitgeven, voorproef en overzichtswerkschema&#39;s op te lossen. In 3.6 en recentere versies, kunt u de wortelkaart door de Redacteur van het Web plaatsen. Zie voor meer informatie de [Gebruikersvoorkeuren](web-editor-features.md#id2087G0P40SB) in de webeditor. Een andere manier om de wortelkaart te plaatsen is door het bij de globale of omslag-vlakke profielen te vormen. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de Installatie- en configuratiehandleiding.
+      >Als u AEM versie 3.5 van Gidsen gebruikt of vroeger, wordt u getoond een optie om een DITA kaartdossier te selecteren om zeer belangrijke verwijzingen voor onderwerphet uitgeven, voorproef en overzichtswerkschema&#39;s op te lossen. In 3.6 en recentere versies, kunt u de wortelkaart door de Redacteur van het Web plaatsen. Zie de klasse [Gebruikersvoorkeuren](web-editor-features.md#id2087G0P40SB) in de webeditor. Een andere manier om de wortelkaart te plaatsen is door het bij de globale of omslag-vlakke profielen te vormen. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de Installatie- en configuratiehandleiding.
+
    Informatie in de **Geavanceerd** tab:
 
    - Voer een naam in voor het project. Deze naam wordt gebruikt om URL voor dit project tot stand te brengen.
-
-
 
 1. Klikken **Maken**.
 

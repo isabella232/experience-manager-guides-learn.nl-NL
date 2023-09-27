@@ -1,10 +1,10 @@
 ---
 title: Uitvoer activeren
-description: Leer hoe u uitvoer activeert
+description: De uitvoer van DITA-kaarten in AEM hulplijnen activeren. Leer hoe u uw inhoud activeert op het publicatieexemplaar.
 exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,8 @@ Nadat u een kaartverzameling hebt gemaakt voor bulkactivering, bestaat de volgen
 1. Voer een van de volgende handelingen uit:
 
    - Als u de uitvoer van geselecteerde kaarten wilt activeren, selecteert u de kaartbestanden en klikt u op **Snel publiceren**.
-   - Om output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer de controledoos naast de Kaart \ (kolom \), en klik dan **Snel publiceren.**
-
-      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   - Als u de uitvoer van alle DITA-kaarten met de geconfigureerde voorinstellingen wilt activeren, schakelt u het selectievakje naast Kaart \(kolom\) in en klikt u op **Snel publiceren.**
+     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt de kolom Published bijgewerkt met de huidige datum en tijd.

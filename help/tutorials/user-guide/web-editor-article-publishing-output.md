@@ -1,10 +1,10 @@
 ---
 title: Uitvoer genereren vanuit het deelvenster Opslagplaats
-description: Leer hoe u uitvoer kunt genereren via het deelvenster Opslagplaats
+description: Genereer uitvoer vanuit het deelvenster Opslagruimte of het deelvenster Kaartweergave in AEM hulplijnen. Leer om een onderwerp te publiceren over één of meerdere kaarten DITA wordt gebruikt of output voor veelvoudige onderwerpen te produceren die.
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ U kunt de uitvoervoorinstellingen die voor uw DITA-kaart zijn gemaakt, ook gebru
 
 - Gebruik de **Snel genereren** in het deelvenster Opslagplaats of Kaartweergave om uitvoer te genereren voor het geselecteerde ene onderwerp of de volledige DITA-kaart.
 
-   >[!NOTE]
-   >
-   > U hebt ook toegang tot de **Snel genereren** in het deelvenster Favorieten of Zoeken.
+  >[!NOTE]
+  >
+  > U hebt ook toegang tot de **Snel genereren** in het deelvenster Favorieten of in het deelvenster Zoeken.
 
 - Gebruik de **Uitvoer genereren** in het deelvenster Kaartweergave om de uitvoer voor de geselecteerde meerdere onderwerpen te genereren.
 
@@ -42,11 +42,11 @@ Voer de volgende stappen uit om output voor één of meerdere onderwerpen in uw 
 1. De status van het productieproces van de uitvoer wordt weergegeven.
 
    - **Onderwerpen**: Maakt een lijst van de geselecteerde onderwerpen waarvoor de output wordt geproduceerd.
-   - **Voorinstelling**: Toont de output vooraf instelt die de geselecteerde onderwerpen bevatten.
+   - **Voorinstelling**: Geeft de uitvoervoorinstellingen weer die de geselecteerde onderwerpen bevatten.
    - **Kaart**: Maakt een lijst van de kaarten DITA die het geselecteerde onderwerp bevatten.
-   - **Status**: Toont het publiceren status van elk onderwerp.
+   - **Status**: Geeft de publicatiestatus van elk onderwerp weer.
 Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
-      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Produceer output voor een kaart DITA van de Redacteur van het Web
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om output voor de volledige kaart te produceren DIT
 
    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
-1. Selecteer de uitvoervoorinstellingen van uw DITA-kaart die u wilt gebruiken voor publicatie en klik op **Genereren.**
+1. Selecteer de uitvoervoorinstellingen van de DITA-kaart die u wilt publiceren en klik op **Genereren.**
 
 1. De status van het productieproces van de uitvoer wordt weergegeven. Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
 

@@ -1,10 +1,10 @@
 ---
 title: Werken met de basiskaarteditor
-description: Leer hoe u met de Basic Map Editor kunt werken
+description: Leer hoe u met de BasisKaarteditor in AEM Hulplijnen werkt. Ken de eigenschappen van de basiskaartredacteur op kaartniveau en onderwerpniveau. Creeer en geef relatietabellen in een kaart DITA uit.
 exl-id: 85194806-db3f-442b-a551-540d148d26ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
 
    >[!NOTE]
    >
-   > Als u een nieuw onderwerp op een bestaand onderwerp in de kaart laat vallen, krijgt u een bericht over het vervangen van het onderwerp. Klik ja als u het onderwerp wilt vervangen, Nr klikken als u niet het onderwerp wilt vervangen. U kunt CTRL+Z en CTRL+Y gebruiken om wijzigingen in de kaart ongedaan te maken of opnieuw uit te voeren.
+   > Als u een nieuw onderwerp op een bestaand onderwerp in de kaart laat vallen, krijgt u een bericht over het vervangen van het onderwerp. Klik ja als u het onderwerp wilt vervangen, Nr klikken als u niet het onderwerp wilt vervangen. Met CTRL+Z en CTRL+Y kunt u elke wijziging in de kaart ongedaan maken of opnieuw uitvoeren.
 
 1. Klikken **Opslaan**.
 
@@ -78,7 +78,7 @@ Voer de trefwoorden in waarnaar u wilt zoeken. Deze trefwoorden komen overeen me
 
 **B: Groep**
 
-Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie [topgroep](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie in OASIS DITA Language Specification.
+Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie [onderwerpgroep](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie in OASIS DITA Language Specification.
 
 **C: Verwijderen**
 
@@ -102,7 +102,7 @@ In de **Standaardmodus** Als u op een onderwerpkoppeling klikt, wordt de voorver
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
-**G: Eigenschappen van kaart**
+**G: eigenschappen van toewijzing**
 
 Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Als u een kenmerk wilt toevoegen, klikt u op de knop **Toevoegen** in de linkerbenedenhoek van het dialoogvenster om het dialoogvenster **Kenmerk** vervolgkeuzelijst. Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
 
@@ -114,7 +114,7 @@ Wanneer u de muiswijzer over een onderwerp of een sub-kaartdossier in de Basis R
 
 ![](images/ditamap-actions.png){width="650" align="left"}
 
-**A: Naar links of rechts verplaatsen**
+**A: Naar links verplaatsen of naar rechts verplaatsen**
 
 Klik op de pictogrammen voor pijl-links of pijl-rechts om het onderwerp naar links of rechts te verplaatsen. Als u een onderwerp op een dergelijke manier verplaatst, wordt dit een onderliggend onderwerp \(nesten\) of wordt \(nesten verwijderen\) verwijderd ten opzichte van het onderwerp erboven.
 
@@ -143,7 +143,7 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
 
 1. Klik op de kaart DITA om het in DITA kaartconsole te openen.
 
-1. Selecteer **Onderwerpen** om een lijst van onderwerpen te zien beschikbaar in de kaart DITA.
+1. Selecteer de **Onderwerpen** om een lijst van onderwerpen te zien beschikbaar in de kaart DITA.
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
 
    ![](images/create-reltable.png){width="550" align="left"}
 
-1. Als u een koptekst wilt toevoegen aan uw relatietabel, klikt u op **Relheader toevoegen**.
+1. Om een kopbal aan uw relatietabel toe te voegen, klik **Relheader toevoegen**.
 
 1. Als u een kolom wilt toevoegen aan uw relatietabel, klikt u op **Een kolom toevoegen**.
 
@@ -178,7 +178,7 @@ U kunt de volgende acties van de redacteur van de relatietabel ook uitvoeren:
 
 **Rijen of kolommen verwijderen**
 
-Als u een kolom uit de tabel wilt verwijderen, schakelt u het selectievakje in de kolomkop in en klikt u op Verwijderen. Als u een rij uit tabel wilt verwijderen, schakelt u het selectievakje in de eerste kolom van de desbetreffende rij in en klikt u op Verwijderen.
+Als u een kolom uit uw lijst wilt schrappen, selecteer checkbox in de kolomkopbal en klik Schrapping. Als u een rij uit lijst wilt verwijderen, checkbox in de eerste kolom van de respectieve rij en klik Schrapping.
 
 **Een onderwerp verwijderen**
 

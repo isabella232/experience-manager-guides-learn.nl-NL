@@ -2,9 +2,9 @@
 title: Cloud Publishing Microservice-architectuur en -prestaties
 description: Begrijp hoe de nieuwe microservice schaalbare publicatie op AEMaaCS mogelijk maakt.
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ In dit artikel wordt uitgelegd wat de architectuur en prestatienummers zijn van 
 
 >[!NOTE]
 >
-> Op microservice gebaseerde publicaties in AEM hulplijnen ondersteunen PDF (zowel op basis van Native als DITA-OT), HTML5 en AANGEPASTE typen uitvoervoorinstellingen.
+> Op microservices gebaseerde publicaties in AEM hulplijnen ondersteunen de typen PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM van voorinstellingen voor uitvoer.
 
 ## Problemen met bestaande publicatieworkflows in de cloud
 
@@ -27,7 +27,7 @@ Deze beperking van bronnen was de belangrijkste motivatie om een speciale servic
 
 ## Inleiding tot de nieuwe architectuur
 
-De service gebruikt Adobe edge-cloudoplossingen zoals App Builder, IO Event, IMS om een serverloos aanbod te maken. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industriestandaarden zoals Kubernetes en docker.
+De service maakt gebruik van de meest geavanceerde cloudoplossingen van de Adobe, zoals App Builder, IO Event en IMS. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industriestandaarden zoals Kubernetes en docker.
 
 Elk verzoek aan de nieuwe het publiceren microservice wordt uitgevoerd in een geïsoleerde docker container die slechts één het publiceren verzoek tegelijkertijd in werking stelt. Er worden automatisch meerdere nieuwe containers gemaakt voor het geval nieuwe publicatieverzoeken worden ontvangen. Deze enige container per verzoekconfiguratie staat microservice toe om de beste prestaties aan de klanten te leveren zonder enige veiligheidsrisico&#39;s te introduceren. Deze containers worden verwijderd zodra de publicatie is voltooid, waardoor ongebruikte bronnen vrijkomen.
 

@@ -1,10 +1,10 @@
 ---
 title: Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren
-description: Leer hoe u voorinstellingen voor de uitvoer van Global- en Mapprofielen beheert
+description: Leer hoe u voorinstellingen voor algemene profielen en mapprofielen als gebruikers met beheerdersrechten maakt, bewerkt, hernoemt, dupliceert en verwijdert in AEM hulplijnen.
 exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Als beheerder kunt u met AEM hulplijnen uitvoervoorinstellingen voor de algemene
 Voer de volgende stappen uit om een uitvoervoorinstelling voor de algemene profielen en mapprofielen te maken:
 
 1. Selecteer de DITA-kaart waarvoor u een uitvoervoorinstelling wilt maken.
-1. Selecteer **Onderwerpen bewerken** van de **Opties** menu van het kaartbestand. Het kaartdossier wordt geopend voor het uitgeven in de Redacteur van het Web.
+1. Selecteer de **Onderwerpen bewerken** van de **Opties** menu van het kaartbestand. Het kaartdossier wordt geopend voor het uitgeven in de Redacteur van het Web.
 1. In de **Uitvoer** selecteert u het plus-pictogram (+) om een uitvoervoorinstelling voor uw DITA-kaart te maken.
 
    ![](images/add-global-output-preset.png){width="350" align="left"}
@@ -26,8 +26,8 @@ Voer de volgende stappen uit om een uitvoervoorinstelling voor de algemene profi
 1. Voer de volgende gegevens in het dialoogvenster **Voorinstelling toevoegen** dialoogvenster:
    - Type
    - Naam
-   - Doel \(voor voorinstelling van Knowledgebase\)
-1. Selecteer **Toevoegen aan mapprofiel** Schakel het selectievakje in om een uitvoervoorinstelling voor het gerelateerde mapprofiel te maken en klik vervolgens op **Toevoegen**. De voorinstelling wordt gemaakt en wordt onder de **Uitvoer** tabblad van alle gerelateerde kaarten. \( ![](images/global-preset-icon.svg)\) geeft een voorinstelling voor een mapprofielniveau aan.
+   - Doel \(voor voorinstelling voor kennisdatabase\)
+1. Selecteer de **Toevoegen aan mapprofiel** Schakel het selectievakje in om een uitvoervoorinstelling voor het gerelateerde mapprofiel te maken en klik vervolgens op **Toevoegen**. De voorinstelling wordt gemaakt en wordt weergegeven onder de **Uitvoer** tabblad van alle gerelateerde kaarten. \( ![](images/global-preset-icon.svg)\) geeft een voorinstelling voor een mapprofielniveau aan.
 1. Voer de configuratiedetails in.
 
    >[!NOTE]

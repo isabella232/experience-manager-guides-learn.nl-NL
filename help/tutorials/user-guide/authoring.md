@@ -1,10 +1,10 @@
 ---
 title: Inhoud beheren
-description: Leer hoe u inhoud beheert
+description: Inhoud beheren en uw rollen en machtigingen in AEM hulplijnen identificeren. Leer de belangrijkste concepten van inhoudsbeheer en het werken met globale of omslag-vlakke profielen.
 exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Enkele belangrijke concepten van inhoudsbeheer in AEM zijn:
 
 **Beheer van bedrijfsmiddelen**
 
-AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over middelenbeheer raadpleegt u [Elementen beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Zie voor meer informatie over middelenbeheer [Elementen beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Koppelingsbeheer**
 
@@ -97,4 +97,4 @@ Met AEM hulplijnen kunt u ontwerpsjablonen \(onderwerp of kaart\), uitvoersjablo
 
 Ook, kunt u de omslag-specifieke configuraties aan een afdeling of productbeheerders delegeren om het beleid te decentraliseren.
 
-Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Profielen op algemeen niveau of mapniveau configureren* in Installeer en configureer as a Cloud Service Adobe Experience Manager-hulplijnen.
+Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Profielen op algemeen niveau of mapniveau configureren* in Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.

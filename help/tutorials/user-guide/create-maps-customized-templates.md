@@ -1,10 +1,10 @@
 ---
 title: Kaarten maken op basis van aangepaste sjablonen
-description: Leer hoe u kaarten maakt op basis van aangepaste sjablonen
+description: Leer om een aanpassingsmalplaatje tot stand te brengen, hen te gebruiken om nieuwe kaartdossiers tot stand te brengen, en de bepaalde titel over te gaan aan een kaart DITA in AEM Gidsen.
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---

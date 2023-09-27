@@ -1,10 +1,10 @@
 ---
 title: Sneltoetsen in de webeditor
-description: Leer hoe u sneltoetsen kunt gebruiken in de webeditor
+description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM hulplijnen.
 exl-id: e8be4c83-a236-43c1-b778-c3da92537174
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---

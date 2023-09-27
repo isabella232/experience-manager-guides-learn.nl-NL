@@ -1,10 +1,10 @@
 ---
 title: Onderwerpen maken
-description: Leer hoe u onderwerpen kunt maken
+description: Leer om types van onderwerpen te creëren DITA gebruikend douanesjablonen in de Webredacteur van AEM Gidsen.
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
 1. In Elementen UI, navigeer aan de plaats waar u het onderwerp wilt tot stand brengen.
 
-1. Als u een nieuw onderwerp wilt maken, klikt u op **Maken** \> **DITA-onderwerp**.
+1. Als u een nieuw onderwerp wilt maken, klikt u **Maken** \> **DITA-onderwerp**.
 
 1. Selecteer op de pagina Vervagen het type DITA-document dat u wilt maken en klik op **Volgende**.
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
    Als uw beheerder automatische bestandsnaam heeft geconfigureerd op basis van de UUID-instelling, ziet u geen optie om de bestandsnaam op te geven. Er wordt automatisch een op UUID gebaseerde bestandsnaam toegewezen aan het bestand.
 
-   Als de optie voor het benoemen van bestanden beschikbaar is, wordt ook de naam automatisch voorgesteld op basis van de optie **Titel** van uw document. Als u de documentnaam handmatig wilt opgeven, moet u ervoor zorgen dat de optie **Naam** bevat geen spaties, apostrof of accolades en eindigt met .xml of .dita. Standaard vervangt AEM hulplijnen alle speciale tekens door afbreekstreepjes. Raadpleeg de sectie Bestandsnamen in de handleiding met aanbevolen procedures voor tips en trucs voor het benoemen van DITA-bestanden.
+   Als de optie voor het benoemen van bestanden beschikbaar is, wordt ook de naam automatisch voorgesteld op basis van de optie **Titel** van uw document. Als u de documentnaam handmatig wilt opgeven, moet u ervoor zorgen dat de **Naam** bevat geen spaties, apostrof of accolades en eindigt met .xml of .dita. Standaard vervangt AEM hulplijnen alle speciale tekens door koppeltekens. Raadpleeg de sectie Bestandsnamen in de handleiding met aanbevolen procedures voor tips en trucs voor het benoemen van DITA-bestanden.
 
 1. Klikken **Maken**. Het bericht Gemaakt onderwerp wordt weergegeven.
 

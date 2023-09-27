@@ -1,10 +1,10 @@
 ---
 title: Een kaart maken
-description: Leer hoe u een kaart maakt
+description: Maak een kaart met Kaarteditor in AEM hulplijnen. Zoek de stappen om een kaartdossier tot stand te brengen dat op een kaartmalplaatje wordt gebaseerd.
 exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---

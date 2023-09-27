@@ -1,15 +1,15 @@
 ---
 title: Documenten met opmaak auteur
-description: Meer informatie over het maken van opmaakdocumenten
+description: Markeringsdocumenten van auteurs uit de webeditor. Leer hoe u een onderwerp over markeringen maakt, ontwerpt en er een voorvertoning van weergeeft in AEM hulplijnen.
 exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# De documenten van de Prijsverhoging van de auteur van het Web van de Redacteur {#id223MIE0B079}
+# De documenten van de Prijsverhoging van de auteur van het Web {#id223MIE0B079}
 
 Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen aan gewone tekstdocumenten. AEM Gidsen verstrekt de eigenschap om een onderwerp van de Prijsverhoging \ (.md \) van de Redacteur van het Web tot stand te brengen, te schrijven en voor te proef. U kunt de bestaande documenten van de Prijsverhoging ook uploaden en hen uitgeven in de Redacteur van het Web.
 
@@ -23,11 +23,11 @@ Voer de volgende stappen uit om een onderwerp van de Prijsverhoging van de Redac
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
-   1. Selecteren **Maken** in het menu Opties van de geselecteerde map en selecteer **Onderwerp Markering** in de vervolgkeuzelijst.
+   1. Selecteren **Maken** in het menu Opties van de geselecteerde map en selecteer vervolgens **Onderwerp Markering** in de vervolgkeuzelijst.
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
-1. Ga de naam en de weg van het onderwerp van de Prijsverhoging in in **Nieuw Onderwerp Markering maken** .
+1. Ga de naam en de weg van het onderwerp van de Prijsverhoging in in **Nieuw Onderwerp Markering maken** in.
 
 ![](images/create-markdown-dialog.png){width="350" align="left"}
 

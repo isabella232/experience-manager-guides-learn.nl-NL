@@ -1,10 +1,10 @@
 ---
 title: DITA kaartrapport van de Redacteur van het Web
-description: Leer hoe te om het kaartrapport DITA van de Redacteur van het Web te schrijven
+description: Genereer DITA-kaartrapporten vanuit de webeditor in AEM hulplijnen. Leer hoe te om CSV voor een onderwerpenlijst, multimedia, meta-gegevens, en gebroken verbindingsrapporten te produceren.
 exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 AEM de Gidsen komen met een eigenschap in de Redacteur van het Web die u toelaat om de algemene integriteit van uw verwijzingen te controleren en rapporten voor hen te produceren.
 
-U kunt de onderwerpenlijst bekijken, de meta-gegevens van alle verwijzingen beheren, en de lijst van verschillende media voor de huidige kaart van de **Rapporten** in de webeditor.
+U kunt de onderwerpenlijst bekijken, de meta-gegevens van alle verwijzingen beheren, en de lijst van verschillende media voor de huidige kaart van **Rapporten** in de webeditor.
 
 ## Een CSV genereren vanuit de onderwerpenlijstweergave
 
@@ -39,7 +39,6 @@ U kunt een rapport van de onderwerpen tot stand brengen door de volgende stappen
    - **Documentstatus** De huidige status van het onderwerp.
    - **Auteur** De gebruiker die het laatst aan het onderwerp werkte.
    - **Bovenliggende kaart** De lijst van alle kaarten waar het onderwerp direct van verwijzingen wordt voorzien.
-
    >[!NOTE]
    >
    > Klikken **Vernieuwen** om een nieuwe lijst van onderwerpen te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke verwijzing binnen uw onderwerpdossier wordt bijgewerkt.
@@ -61,21 +60,21 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
    ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. Van de **Filters** kunt u uw onderwerpen filteren op basis van de **Documentstatus** \(de huidige status van uw onderwerpen. Als uw onderwerpen bijvoorbeeld de status Bewerken, In revisie of Reviewed hebben, worden deze weergegeven\). **Verwijzingen** \(direct of indirect\), **Bestandstype** \(Kaart, Onderwerp, en Beeld \) van de verwijzing.
-1. U kunt er ook voor kiezen om alleen de **Bestanden zonder tags** of kies ook specifieke tags in het menu **Tags** om de bijbehorende bestanden weer te geven.
+1. U kunt er ook voor kiezen alleen de **Bestanden zonder tags** of kies ook specifieke tags in het menu **Tags** om de bijbehorende bestanden weer te geven.
    1. U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken om de volgende kolommen in de lijst met metagegevens weer te geven:
       - **Titel** \(standaard geselecteerd\) De titel van het bestand waarnaar wordt verwezen, wordt opgegeven in de DITA-kaart. U kunt op het bestand klikken om het te bewerken. U kunt ook op een audio- of videobestand klikken en dit afspelen in de webeditor. U kunt het volume of de weergave van de video wijzigen. In het snelmenu hebt u ook de mogelijkheid om de afspeelsnelheid te downloaden, te wijzigen of de afbeelding in beeld te bekijken.
 
-         >[!NOTE]
-         >
-         > Er verschijnt ook een pictogram voor uitchecken naast de titel van een uitgecheckt bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
+        >[!NOTE]
+        >
+        > Er verschijnt ook een uitcheckpictogram naast de titel van een uitgecheckt bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
 
       - **Bestandsnaam** De naam van het bestand.
       - **Bestandslocatie** Het volledige pad van het bestand.
       - **Tags** \(standaard ingeschakeld\) Labels die op het bestand zijn toegepast.
 
-         >[!NOTE]
-         >
-         > Standaard kunt u twee tags voor een bestand weergeven. Als u meer tags wilt weergeven, klikt u op **Meer weergeven**. Klikken **Minder tonen** om de lijst opnieuw in te schakelen.
+        >[!NOTE]
+        >
+        > Standaard kunt u twee tags voor een bestand weergeven. Als u meer tags wilt weergeven, klikt u op **Meer weergeven**. Klikken **Minder tonen** om de lijst opnieuw in te schakelen.
 
       - **Referentietype** Het soort referentie - direct of indirect
       - **Documentstatus** \(standaard geselecteerd\) De huidige status van het referentiebestand.
@@ -89,7 +88,7 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
 
    >[!NOTE]
    >
-   > U kunt geen uitgecheckte bestanden selecteren. Er verschijnt ook een pictogram voor uitchecken naast de titel van een uitgecheckt bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
+   > U kunt geen uitgecheckte bestanden selecteren. Er verschijnt ook een uitcheckpictogram naast de titel van een uitgecheckt bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
 
 1. Selecteren **Beheren** vanaf de bovenkant.
 
@@ -102,7 +101,7 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
    > De gemeenschappelijke markeringen die op alle geselecteerde onderwerpen worden toegepast worden vermeld.
 
 1. Selecteer een nieuwe documentstatus als u de documentstatus van alle geselecteerde verwijzingen wilt wijzigen. Het dopdown toont de gemeenschappelijke mogelijke staat voor alle geselecteerde onderwerpen. Als de huidige status van uw onderwerpen bijvoorbeeld In-Review is, kunt u de status Concept, Goedgekeurd of Herzien weergeven.
-1. Klikken **Bijwerken** om de metagegevens bij te werken. Er wordt een bevestigingsbericht weergegeven voor de metagegevens, ongeacht of deze zijn bijgewerkt of dat updates zijn mislukt. U klikt ook op **Rapport downloaden** om de CSV-metagegevens te downloaden vanuit het bevestigingsvenster. Dit CSV bevat de details van de updatestatus voor de geselecteerde verwijzingen.
+1. Klikken **Bijwerken** de metagegevens bijwerken. Er wordt een bevestigingsbericht weergegeven voor de metagegevens, ongeacht of deze zijn bijgewerkt of dat de updates zijn mislukt. U klikt ook op **Rapport downloaden** om de CSV-metagegevens te downloaden vanuit het bevestigingsvenster. Dit CSV bevat de details van de updatestatus voor de geselecteerde verwijzingen.
 
 ## Een multimediapport genereren
 
@@ -115,17 +114,17 @@ De **Multimedia** biedt gedetailleerde informatie over de multimedia die in uw k
 
    - Wanneer u bestelt op **Multimedia** De naam****van de multimedia wordt weergegeven in de eerste kolom en de namen van alle verwijzingen waarin ze zijn gebruikt, worden weergegeven in een andere kolom op dezelfde rij. De volgende schermafbeelding toont bijvoorbeeld de multimedia WarmCoolForC.gif in de eerste kolom en drie verwijzingen waarin deze wordt gebruikt, worden weergegeven in de derde kolom op dezelfde rij.
 
-      ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Als u bestelt op **Gebruikt in** in de kolom, kunt u de omgezette weergave bekijken waarin de namen van de verwijzingen waarin multimedia is gebruikt, worden weergegeven in de eerste kolom, terwijl de multimedianamen in een andere kolom op afzonderlijke rijen worden weergegeven. In de volgende screenshot ziet u bijvoorbeeld de namen van drie verwijzingen \(De temperatuur van de licentie aanpassen, het display van de temperatuur van de licentie wijzigen en het gebied van de bemanning wijzigen\) in de eerste kolom en de multimedia WarmCoolForC.gif wordt weergegeven in de derde kolom op drie aparte rijen.
 
-      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. U kunt uw multimedia filteren op basis van de **Multimediatype**, en **Referentietype**. De lijst met multimediabestanden wordt weergegeven op basis van uw selectie in de vervolgkeuzelijst. U kunt er bijvoorbeeld voor kiezen om alleen de audioreferenties in uw DITA-kaart weer te geven en een bestand toont alleen de audioreferenties die in de kaart worden gebruikt.
 
    >[!NOTE]
    >
-   > Afhankelijk van het type multimedia dat wordt gebruikt in de kaart, worden de afbeelding, video en audio weergegeven in het dialoogvenster **Multimediatype** en Direct of indirect worden vermeld in de **Referentietype** vervolgkeuzelijst.
+   > Afhankelijk van het type multimedia dat wordt gebruikt in de kaart, worden de afbeelding, video en audio weergegeven in het dialoogvenster **Multimediatype** en Direct of indirect worden vermeld in het dialoogvenster **Referentietype** vervolgkeuzelijst.
 
 1. U kunt ook de volgende filteropties gebruiken om de volgende kolommen in de lijst weer te geven:
 
@@ -135,7 +134,6 @@ De **Multimedia** biedt gedetailleerde informatie over de multimedia die in uw k
    - **Multimediatype** \(standaard geselecteerd\) Type multimedia. De beschikbare opties zijn Audio, Video of Afbeelding.
    - **Gebruikt in** \(standaard geselecteerd\) De referenties waarin de multimedia is gebruikt. U kunt op de verwijzing klikken om deze te bewerken.
    - **Referentietype** \(standaard geselecteerd\) Het type verwijzing - direct of indirect.
-
    >[!NOTE]
    >
    > Klikken **Vernieuwen** om een nieuwe lijst met multimedia te verkrijgen en elke wijziging in het kaartbestand weer te geven of als er multimedia in de DITA-kaart is bijgewerkt.
@@ -150,7 +148,7 @@ De **Multimedia** biedt gedetailleerde informatie over de multimedia die in uw k
 ## De verbroken koppelingen weergeven en herstellen{#report-broken-links}
 
 De **Verbroken koppelingen** is een nuttig rapport dat u de details van de gebroken verbindingen in uw huidige kaart verstrekt. U kunt de verbroken koppelingen weergeven, bijvoorbeeld voor DITA-onderwerpen, verwijzingen naar multimediabestanden, verwijzingen naar inhoudssleutels enzovoort. Je hebt ook de mogelijkheid om ze hier zelf op te lossen.
-Het rapport bevat gedetailleerde informatie, zoals het verbroken koppelingstype, de bestanden waarin de verwijzing wordt gebruikt en het type bestanden waarin deze is gebruikt.
+Het rapport bevat gedetailleerde informatie, zoals de verbroken koppeling, het type koppeling, de bestanden waarin de verwijzing wordt gebruikt en het type bestanden waarin deze is gebruikt.
 U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen uit te voeren:
 1. In de **Bewaarplaats** opent u het DITA-kaartbestand in de Kaartweergave.
 1. Klik op de knop **Beheren** tab.
@@ -160,11 +158,11 @@ U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen
    - Wanneer u bestelt met **Verbroken koppeling**, worden de paden van de verbroken koppelingen weergegeven in de eerste kolom en worden de namen van alle verwijzingen waarin ze zijn gebruikt, weergegeven in een andere kolom op aparte rijen. Als dezelfde verbroken koppeling in meerdere bestanden wordt gebruikt, worden deze op één rij weergegeven en worden ze als gegroepeerde of subrijen weergegeven. In de volgende screenshot ziet u bijvoorbeeld drie verbroken koppelingen in de eerste kolom en de referentie waarin deze worden gebruikt. `TestMap.ditamap` wordt weergegeven in de derde kolom op drie aparte rijen.
    ![](images/broken-link-report.png){width="800" align="left"}
 
-   - Als u bestelt met **Gebruikt in** in de kolom, kunt u de omgezette weergave bekijken waarin de namen van de verwijzingen waarin de verbroken koppelingen zijn gebruikt, in de eerste kolom worden weergegeven, terwijl de verbroken koppelingen in een andere kolom op dezelfde rij staan. In de volgende schermafbeelding ziet u bijvoorbeeld de verwijzing (waarin de verbroken koppeling wordt gebruikt) `TestMap.ditamap` in de eerste kolom en de verbroken koppelingen worden weergegeven in de derde kolom op dezelfde rij.
+   - Als u bestelt met **Gebruikt in** in de kolom, kunt u de omgezette weergave bekijken waarin de namen van de verwijzingen waarin de verbroken koppelingen zijn gebruikt, in de eerste kolom worden weergegeven, terwijl de verbroken koppelingen in een andere kolom op dezelfde rij staan. De volgende schermafbeelding toont bijvoorbeeld de verwijzing (waarin de verbroken koppeling wordt gebruikt) `TestMap.ditamap` in de eerste kolom en de verbroken koppelingen worden weergegeven in de derde kolom op dezelfde rij.
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. U kunt verbroken koppelingen filteren op basis van de **Bestandstype** en **Koppelingstype**. De lijst met verbroken koppelingen wordt weergegeven op basis van uw selectie in de vervolgkeuzelijst. U kunt er bijvoorbeeld voor kiezen alleen de inhoudsverwijzingen in uw DITA-kaart weer te geven en een bestand toont alleen de inhoudsverwijzingen die erin worden gebruikt.
 
-   Afhankelijk van het type verwijzingen dat in uw kaart wordt gebruikt, worden de bestandsverwijzing, de belangrijkste verwijzing, de Content Reference, de Content Key Reference, de Afbeeldingsreferentie en de Multimedia File Reference weergegeven in het dialoogvenster **Koppelingstype** vervolgkeuzelijst, en **DITA-onderwerp** of **DITA-kaart** worden vermeld in **Bestandstype** vervolgkeuzelijst.
+   Afhankelijk van het type verwijzingen dat in uw kaart wordt gebruikt, worden de bestandsverwijzing, de belangrijkste verwijzing, de Content Reference, de Content Key Reference, de Afbeeldingsreferentie en de Multimedia File Reference weergegeven in het dialoogvenster **Koppelingstype** vervolgkeuzelijst en **DITA-onderwerp** of **DITA-kaart** worden vermeld in **Bestandstype** vervolgkeuzelijst.
 1. U kunt ook de volgende filteropties gebruiken om de volgende kolommen in de lijst weer te geven:
 
    - **Verbroken koppeling** (standaard geselecteerd) Het pad van de verbroken koppeling wordt opgegeven in de DITA-kaart.
@@ -187,7 +185,7 @@ Klikken **Vernieuwen** om een nieuwe lijst met verbroken koppelingen op te halen
    >
    > Wanneer u een verbroken koppeling corrigeert terwijl u de opdracht Verbroken koppelingen hebt gekregen, wordt de koppeling hersteld in alle bestanden waar deze wordt gebruikt (die in één rij zijn gegroepeerd).
 
-1. U moet de vereiste referentiedetails in bijwerken **Koppeling bijwerken** . De in **Koppeling bijwerken** is afhankelijk van het type verwijzing.\
+1. U moet de vereiste referentiedetails in bijwerken **Koppeling bijwerken** in. De in **Koppeling bijwerken** is afhankelijk van het type verwijzing.\
    Als u een koppeling hebt hersteld, wordt deze niet weergegeven onder de lijst met verbroken koppelingen. In plaats daarvan kunt u deze weergeven onder Onderwerplijst of Metagegevens.
 
 1. Klikken **CSV downloaden** om de huidige momentopname van de gebroken verbindingen in de kaart te downloaden DITA. CSV bevat de geselecteerde kolommen en de verbroken verbindingen die in de Gebroken mening van Verbindingen worden gefiltreerd. U kunt dit CSV-bestand vervolgens openen en weergeven in elke CSV-editor.

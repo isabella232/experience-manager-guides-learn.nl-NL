@@ -1,10 +1,10 @@
 ---
 title: Documentstatus
-description: Leren hoe u de documentstatus kunt bepalen
+description: Leer de typen documentstatussen in AEM hulplijnen. Weet hoe u de documentstatus kunt wijzigen of weergeven en de documentstatus in DDLC kunt gebruiken.
 exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Voor een document kunnen alle documentstatussen zijn gedefinieerd in het profiel
 - In-Review - Geeft aan dat een revisiewerkstroom is gestart voor het document.
 - Gereviseerd - Geeft aan dat het document is gereviseerd door de bedoelde gebruikers.
 
-Deze statussen worden handmatig of automatisch ingesteld op basis van de profielinstellingen van de documentstatussen. Bijvoorbeeld, als het profiel van de Staat van het Document met beginstaat als Ontwerp wordt gevormd, en de staat In-Overzicht wordt bepaald voor documenten onder overzicht. Wanneer u vervolgens een document maakt, wordt de documentstatus ingesteld op *Concept*. Als u een revisietaak start, wordt de status van het document gewijzigd in In-Review.
+Deze statussen worden handmatig of automatisch ingesteld volgens de profielinstellingen van de documentstatussen. Bijvoorbeeld, als het profiel van de Staat van het Document met beginstaat als Ontwerp wordt gevormd, en de staat In-Overzicht wordt bepaald voor documenten onder overzicht. Wanneer u vervolgens een document maakt, wordt de documentstatus ingesteld op *Concept*. Als u een revisietaak start, wordt de status van het document gewijzigd in In-Review.
 
-U kunt de documentstatus voor een of meerdere documenten ook handmatig wijzigen. Als u echter de documentstatus voor meerdere documenten wilt wijzigen, wordt de toegestane status bepaald door de algemene staten die zijn toegestaan voor de geselecteerde documenten. Stel bijvoorbeeld dat u de documentstatussen in dezelfde volgorde hebt gedefinieerd als Concept, In-Review, Reviewed en Ready to Publish. In document 1.dita wordt de status ingesteld op *Concept* en in document two.dita, wordt de staat geplaatst aan Gecontroleerd. Wanneer u zowel—one.dita als two.dita selecteert, dan zal de toegestane documentstaat zijn *Klaar voor publicatie*. Aangezien two.dita binnen is *Bekeken* staat, is de volgende mogelijke staat voor two.dita slechts *Klaar voor publicatie*, die wordt weergegeven wanneer beide documenten zijn geselecteerd.
+U kunt de documentstatus voor een of meerdere documenten ook handmatig wijzigen. Als u echter de documentstatus voor meerdere documenten wilt wijzigen, wordt de toegestane status bepaald door de algemene staten die zijn toegestaan voor de geselecteerde documenten. Stel dat u de documentstatussen hebt gedefinieerd als Concept, In-Review, Reviewed en Ready to Publish, in dezelfde volgorde. In document 1.dita wordt de status ingesteld op *Concept* en in document two.dita, wordt de staat geplaatst aan Gecontroleerd. Wanneer u zowel—one.dita als two.dita selecteert, dan zal de toegestane documentstaat zijn *Klaar voor publicatie*. Als in two.dita *Bekeken* staat, is de volgende mogelijke staat voor two.dita slechts *Klaar voor publicatie*, die wordt weergegeven wanneer beide documenten zijn geselecteerd.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Documentstatussen spelen een belangrijke rol bij het beheer van de levenscyclus 
 
 AEM hulplijnen bieden een workflow voor documentgoedkeuring waarmee u de levenscyclus van het ontwikkelingsproces van uw document kunt bepalen. Als een document gereed is om te publiceren of de voorlaatste status heeft bereikt, kunt u het markeren als goedgekeurd. Nadat een document is goedgekeurd, wordt door AEM hulplijnen een nieuwe versie van het document gemaakt en wordt het alleen-lezen. Vervolgens kunt u het document verplaatsen voor publicatie of een basislijn maken voor verdere verwerking.
 
-Een auteur moet een nieuwe versie starten om een nieuwe versie te starten van de documenten die zijn gemarkeerd als goedgekeurd. Als u een nieuwe versie start, verandert de documentstatus in *Concept* opnieuw. Door de documentstatus te wijzigen in *Concept*, wordt het document opnieuw bewerkbaar gemaakt en kunt u aan de volgende versie blijven werken.
+Een auteur moet een nieuwe versie starten om een nieuwe versie te starten van de documenten die zijn gemarkeerd als goedgekeurd. Als u een nieuwe versie start, wordt de documentstatus gewijzigd in *Concept* opnieuw. Door de documentstatus te wijzigen in *Concept*, wordt het document opnieuw bewerkbaar gemaakt en kunt u aan de volgende versie blijven werken.
 
 Voer de volgende stappen uit om de functie voor documentgoedkeuring te gebruiken:
 

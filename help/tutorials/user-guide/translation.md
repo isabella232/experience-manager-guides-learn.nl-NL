@@ -1,10 +1,10 @@
 ---
 title: Leer hoe u inhoud kunt vertalen
-description: Leer hoe u inhoud kunt vertalen
+description: Vertaal uw inhoud in meerdere talen in AEM hulplijnen. Leer meer over de workflows voor het vertalen van mensen en machines.
 exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ AEM Hulplijnen worden geleverd met krachtige functies waarmee u uw inhoud in mee
 
 - **Menselijke vertaling** - Elementen worden naar uw vertaalbureau verzonden en door professionele vertalers vertaald. Na voltooiing worden de vertaalde elementen geretourneerd en vervolgens weer in AEM geïmporteerd.
 
-- **Machinevertaling** - Dit is de standaardservice in AEM waarin de inhoud direct wordt vertaald met de automatische vertaling in realtime. AEM biedt de mogelijkheid verbinding te maken met Microsoft Translator.
+- **Machinevertaling** - Dit is de standaardservice in AEM waarin de inhoud direct wordt vertaald met de automatische vertaling in real-time. AEM biedt de mogelijkheid verbinding te maken met Microsoft Translator.
 
-   >[!NOTE]
-   >
-   > Microsoft Translator is alleen beschikbaar als proefversie.
+  >[!NOTE]
+  >
+  > Microsoft Translator is alleen beschikbaar als proefversie.
 
 
 - **[Aanbevolen procedures voor het vertalen van inhoud](translation-first-time.md)**

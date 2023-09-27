@@ -1,9 +1,9 @@
 ---
 title: Citaten in uw inhoud toevoegen en beheren
-description: Leer hoe u verwijzingen implementeert door verwijzingen toe te voegen en toe te passen op uw inhoud.
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: Verwijzingen toevoegen en beheren in AEM hulplijnen. Leer hoe u inhoud met citaten toepast, importeert, filtert, zoekt, wijzigt, aanhalingsstijl, bewerkt, voorvertoning, invoegt, verwijdert en genereert.
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---

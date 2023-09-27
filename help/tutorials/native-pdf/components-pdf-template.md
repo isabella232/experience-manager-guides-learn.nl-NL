@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4376'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ In het middelste deelvenster kunt u de eigenschappen bewerken, maar het kan last
 In het middelste deelvenster kunt u de veelgebruikte eigenschappen bewerken, maar niet alle eigenschappen die CSS ondersteunt. In de **Eigenschappen** kunt u alle eigenschappen bewerken die CSS ondersteunt en er een voorvertoning van weergeven. U hoeft niet over te schakelen naar de bronweergave om eigenschappen te bewerken.
 
 
-Meer informatie over het gebruik van de stijleditor voor [Werken met algemene inhoudsstijlen](stylesheet.md).
+Meer informatie over het gebruik van de stijleditor voor [werken met algemene inhoudsstijlen](stylesheet.md).
 
 ## Werken met bronnen {#work-with-resources}
 
@@ -219,6 +219,7 @@ Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van
 
   Hier kunt u opmerken dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, aangezien het geneste of onderliggende onderwerpen heeft. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
 
+* **Hoofdstuknummer niet tonen in de inhoudsopgave** : Selecteer deze optie om de hoofdstuknamen weer te geven zonder de hoofdstuknummers in de inhoudsopgave.   Standaard worden de hoofdstuknummers weergegeven in de inhoudsopgave van de uitvoer van de PDF.
 * **Leader-indeling**: Gebruik de vervolgkeuzelijst om lijnen met stippen, ononderbroken lijnen of opvultekens te selecteren om kopniveaus te verbinden met de corresponderende paginanummers.
 Voor het toepassen van de inhoudsopgavestructuur en de vormkopniveaus raadpleegt u [Een hoofdstuk-inhoudsopgave toevoegen](design-page-layout.md#add-chapter-toc).
 
@@ -232,8 +233,14 @@ U kunt de tekst definiëren die voor en na het einde moet worden weergegeven. Ee
   Taalvariabelen gebruiken om de tekst voor en na het einde van de vervolgmarkering te definiëren. Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF. U kunt bijvoorbeeld publiceren `Continued on page %page-num%` als tekst in het Engels en `Fortsetzung auf Seite %page-num%` Duits.
 
   Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van de optie voor meer informatie over de optie.
+* **De verklarende woordenlijsttermijnen van de verbinding aan de verklarende woordenlijstpagina**: Selecteer deze optie om de termen in de woordenlijst als hyperlinks in de inhoud weer te geven en deze te koppelen aan de termen op de woordenlijstpagina. Hierdoor kunnen lezers snel de definitie bekijken van een term die is gedefinieerd in de woordenlijst.
 
-<!--For more information on using table continuation markers, see Use table continuation markers.-->
+  Als u de termen in de woordenlijst wilt omzetten in hyperlinks, moet u:
+   * Inschakelen **Verklarende woordenlijst** in de **Paginavolgorde** voor een DITA-kaart.
+   * Voeg de Verklarende woordenlijst in de Achterpagina&#39;s van de Matter voor een kaart van het Boek toe.
+
+  Als u de pagina Woordenlijst niet inschakelt, worden de termen in de woordenlijst in de inhoud niet geconverteerd naar hyperlinks in de uitvoer van de PDF.
+  <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Pagina-indelingen {#page-layouts}
 
@@ -256,7 +263,13 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
 * **Lijst met figuren en tabellen**: U kunt ook de paginalay-out voor figuren en tabellen opgeven. De geselecteerde lay-out wordt toegepast op alle figuren en tabellen.
 
-* **Index en verklarende woordenlijst**: Als u een indeling van de pagina Index hebt ontworpen, wijst u deze toe aan de optie Index. Als u een pagina-indeling van de Verklarende woordenlijst hebt, wijst u deze aan de optie Woordenlijst toe.
+* **Index**: Als u een indeling van de indexpagina hebt ontworpen, wijst u deze toe aan de optie Index. Met behulp van de opmaakmodellen kunt u verschillende indexelementen opmaken in de PDF-uitvoer. Indexstijlen gebruiken `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` en `.idx-child` om de stijlen voor de elementen van de index aan te passen.
+
+* **Verklarende woordenlijst**: Als u een paginalay-out Woordenlijst hebt, wijst u deze toe aan de optie Woordenlijst.  De termen in de woordenlijst van de uitvoer van de PDF worden altijd in alfabetische volgorde gesorteerd.
+
+  Met behulp van de opmaakmodellen kunt u verschillende woordenboekelementen opmaken in de PDF-uitvoer. De verklarende woordenlijststijlen gebruiken `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, en `.glo-term` om de stijlen voor de elementen van de verklarende woordenlijst aan te passen.
+
+  Meer informatie over het gebruik van de stijleditor voor [werken met algemene inhoudsstijlen](stylesheet.md).
 
 * **Voorste basispagina&#39;s en basispagina&#39;s op achtergrond**: Deze paginalay-outs definiëren de opmaak voor de voor- en achterpagina&#39;s in uw boek. Als u de lay-out van de voormaterie hebt ontworpen, kaart het aan **Voorste basispagina&#39;s** -optie. Wanneer u de lay-out van de voormaterie van dropdown selecteert, wordt de voorproeflay-out toegepast op alle onderwerpen in de voorkwestie.
 
@@ -290,7 +303,7 @@ U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken 
 
   Als u geen bepaalde sectie in de uitvoer van PDF wilt tonen, kunt u dat verbergen door de schakeloptie uit te schakelen.
 
-  U kunt ook de volgorde definiëren waarin deze verschillende secties worden gegenereerd in uw PDF. Als u de standaardvolgorde van deze secties wilt wijzigen, selecteert u de stippelbalken om de secties naar de gewenste locatie te slepen.
+  U kunt ook de volgorde definiëren waarin deze verschillende secties in uw PDF worden gegenereerd. Als u de standaardvolgorde van deze secties wilt wijzigen, selecteert u de stippelbalken om de secties naar de gewenste locatie te slepen.
 
   >[!NOTE]
   >
@@ -298,7 +311,7 @@ U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken 
 
 
 .
-**Hoofdstuk en onderwerpen** layout is altijd ingeschakeld en **Verklarende woordenlijst** layout is standaard altijd uitgeschakeld. U kunt ze niet in- en uitschakelen.
+**Hoofdstuk en onderwerpen** layout is altijd standaard ingeschakeld. U kunt niet schakelen.
 
 **Pagina&#39;s samenvoegen**
 

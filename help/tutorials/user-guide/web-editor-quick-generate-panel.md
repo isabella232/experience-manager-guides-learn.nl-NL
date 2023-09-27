@@ -1,10 +1,10 @@
 ---
 title: Deelvenster Snel genereren gebruiken
-description: Leer hoe u het deelvenster Snel genereren gebruikt
+description: Gebruik het deelvenster Snel genereren in AEM hulplijnen. Leer hoe u uitvoer kunt genereren en weergeven via het deelvenster Snel genereren.
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ AEM hulplijnen biedt een **Snel genereren** in de webeditor is geïntegreerd. In
 Voer de volgende stappen uit om de uitvoer te genereren op basis van de **Snel genereren** paneel:
 
 1. Open uw kaart DITA in de Mening van de Kaart. Het pictogram Snel genereren wordt weergegeven. Het wordt weergegeven in **Auteur** en **Beheren** tabs.
-1. Klik op de knop **Snel genereren** pictogram \( ![](images/quick-generate-icon.svg)\) om de **Snel genereren** deelvenster. In de **Snel genereren** kunt u de lijst zien met alle uitvoervoorinstellingen die voor uw DITA-kaart zijn gemaakt.
+1. Klik op de knop **Snel genereren** pictogram \( ![](images/quick-generate-icon.svg)\) om het dialoogvenster **Snel genereren** deelvenster. In de **Snel genereren** kunt u de lijst zien met alle uitvoervoorinstellingen die voor uw DITA-kaart zijn gemaakt.
 1. Selecteer een of meer voorinstellingen waarvoor u de uitvoer wilt genereren.
 1. Klikken **Genereren** om de uitvoer voor de geselecteerde voorinstellingen te genereren. Er wordt een succesbericht weergegeven bij het genereren van de uitvoer. Er wordt een foutbericht weergegeven als het genereren mislukt. U kunt het foutenlogboek ook bekijken om de details van de fout te zien die in het generatieproces voorkwam.
 1. Klikken **Uitvoer weergeven** \( ![](images/view-output-icon.svg)\) van een specifieke voorinstelling om de uitvoer weer te geven die voor de voorinstelling is gegenereerd.

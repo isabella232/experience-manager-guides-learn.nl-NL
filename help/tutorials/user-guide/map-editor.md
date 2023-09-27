@@ -1,10 +1,10 @@
 ---
 title: Werken met de Kaarteditor
-description: Leer hoe u met de Kaarteditor kunt werken
+description: Werken met de Kaarteditor in AEM hulplijnen. Leer een kaartbestand maken en bewerken in AEM kaarteditor.
 exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
-source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dit onderwerp begeleidt u door het proces om een kaart te creëren DITA en dan d
 
 >[!TIP]
 >
-> Zie de *Kaarteditor* in de gids met aanbevolen werkwijzen voor aanbevolen werkwijzen bij het werken met de Kaarteditor.
+> Zie de *Kaarteditor* in de gids met aanbevolen werkwijzen voor tips en trucs bij het werken met de Kaarteditor.
 
 - **[Een kaart maken](map-editor-create-map.md)**
 

@@ -1,12 +1,12 @@
 ---
 title: Aanvullende speciale tekens op de werkbalk van de webeditor configureren
-description: Hoe te om extra speciale karakters in de toolbar van de Redacteur van het Web te vormen
+description: Leer hoe u extra speciale tekens configureert in de webeditor van AEM hulplijnen.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Deze lijst met tekens kan hier worden geconfigureerd. Voer de volgende stappen u
 
 + Meld u aan bij AEM en open de modus CRXDE Lite.
 
-+ Maak het bestand symbols.json op de volgende locatie: &#39;/apps/fmdita/xmleditor/&#39; (u kunt de standaardinstelling kopiëren via de locatie &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;)
++ Maak het bestand symbols.json op de volgende locatie: &#39;/apps/fmdita/xmleditor/&#39; (u kunt de standaardinstelling kopiëren vanuit de locatie &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;).
 
 + Voeg de speciale tekendefinitie in het bestand symbols.json toe als:
 
@@ -45,11 +45,11 @@ Deze lijst met tekens kan hier worden geconfigureerd. Voer de volgende stappen u
 
 De structuur van het bestand symbols.json wordt hieronder uitgelegd:
 
-+ &quot;label&quot;: &quot;Logische symbolen&quot;: Hiermee geeft u de categorie voor de speciale tekens op. In het fragment wordt een categorie met de naam &quot;Logisch symbool&quot; gedefinieerd.
++ &quot;label&quot;: &quot;Logical Symbols&quot;: hiermee wordt de categorie voor de speciale tekens aangegeven. In het fragment wordt een categorie met de naam &quot;Logisch symbool&quot; gedefinieerd.
 
-+ &quot;objecten&quot;: Hiermee definieert u de verzameling speciale tekens in de categorie.
++ &quot;items&quot;: hiermee wordt de verzameling speciale tekens in de categorie gedefinieerd.
 
-+ &quot;naam&quot;: &quot;≥&quot;, &quot;titel&quot;: &quot;Groter dan of gelijk aan&quot;: Dit is de definitie van het speciale teken. Het begint met het label &#39;name&#39;, dat niet mag worden gewijzigd. De naam wordt gevolgd door het speciale teken. De titel is de naam of titel van het speciale teken dat als knopinfo voor dat speciale teken wordt weergegeven.
++ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Groter dan of gelijk aan&quot;: Dit is de definitie van het speciale teken. Het begint met het label &#39;name&#39;, dat niet mag worden gewijzigd. De naam wordt gevolgd door het speciale teken. De titel is de naam of titel van het speciale teken dat als knopinfo voor dat speciale teken wordt weergegeven.
 
 U kunt meerdere definities definiëren voor speciale tekens in een categorie.
 
@@ -62,4 +62,3 @@ Hiermee wordt een andere categorie toegevoegd in het dialoogvenster Speciale tek
 >[!MORELIKETHIS]
 >
 >+ [Installatie- en configuratiehandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
-

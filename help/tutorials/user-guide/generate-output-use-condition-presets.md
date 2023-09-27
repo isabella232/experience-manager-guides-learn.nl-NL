@@ -1,10 +1,10 @@
 ---
 title: Voorinstellingen voor voorwaarden gebruiken
-description: Leer hoe u voorinstellingen voor voorwaarden kunt gebruiken
+description: Zorg dat u weet hoe voorinstellingen voor voorwaarden in AEM hulplijnen worden gebruikt. Leer voorinstellingen voor voorwaarden in AEM maken, bewerken, kopiëren en verwijderen.
 exl-id: cd8f8196-ba03-4a4b-9ce8-2651de4e5cc2
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U kunt wijzigingen aanbrengen in een bestaande voorinstelling voor voorwaarden o
 
 1. Klikken **Voorinstellingen voorwaarde** in de DITA kaartconsole.
 1. Klikken **Bewerken** knop.
-1. Breng de vereiste wijzigingen aan voor alle kenmerken in de voorinstelling voor voorwaarden.
+1. Breng de vereiste wijzigingen aan voor alle kenmerken in de voorinstelling voor de voorwaarde.
 1. Klikken **Opslaan**.
 
 ## Een kopie maken van een voorinstelling voor voorwaarden
@@ -64,7 +64,7 @@ U kunt een kopie van een voorinstelling voor voorwaarden maken en deze vervolgen
 
 ## Voorinstelling voorwaarde verwijderen
 
-U kunt een of meer voorinstellingen voor voorwaarden verwijderen uit het dialoogvenster **Voorinstelling voorwaarde** tabblad van de DITA-kaartconsole. Voer de volgende stappen uit om voorinstellingen voor voorwaarden te verwijderen:
+U kunt een of meer voorinstellingen voor voorwaarden verwijderen uit het dialoogvenster **Voorinstelling voorwaarde** van de DITA kaartconsole. Voer de volgende stappen uit om voorinstellingen voor voorwaarden te verwijderen:
 
 1. Klikken **Voorinstellingen voorwaarde** in de DITA kaartconsole.
 1. Selecteer de voorinstelling voor voorwaarden die u wilt verwijderen.

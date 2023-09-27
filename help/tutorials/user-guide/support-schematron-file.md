@@ -1,10 +1,10 @@
 ---
 title: Ondersteuning voor Schematron-bestanden
-description: Leer hoe u uw onderwerpen kunt valideren met Designer
+description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, de verklaringen van het gebruiksRapporten om regels te controleren, regex uitdrukkingen te gebruiken, en abstracte patronen in de dossiers van Schematron van AEM Gidsen te bepalen.
 exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Na het invoeren van de dossiers van het Schema, kunt u hen in de Redacteur van h
 Wanneer u een onderwerp in de Redacteur van het Web opent, verschijnt een paneel van de Bevestiging van het Schema in het recht. Voer de volgende stappen uit om een onderwerp of een kaart met een dossier toe te voegen en te bevestigen Schematron:
 ![](images/schematron-validate.png){width="300" align="left"}
 
-1. Klik op het pictogram Schematron () om het deelvenster Schematron te openen.
+1. Klik op het pictogram Schematron () om het deelvenster Schema te openen.
 1. Gebruik Schematron-bestand toevoegen om Schematron-bestanden toe te voegen.
 1. Als het Schematron-bestand geen fouten bevat, wordt het toegevoegd en weergegeven in het deelvenster Validatie. Er wordt een foutbericht weergegeven voor het Schematron-bestand dat fouten bevat.
    >[!NOTE]
@@ -55,7 +55,7 @@ Wanneer u een onderwerp in de Redacteur van het Web opent, verschijnt een paneel
 
 De steun van het Schematron in de Redacteur van het Web helpt u in het bevestigen van de dossiers tegen een reeks regels en het handhaven van consistentie en correctheid over de onderwerpen.
 
-## Instructies gebruiken om te controleren op regels{#schematron-assert-report}
+## Instructies voor bevestigen en rapporteren gebruiken om op regels te controleren{#schematron-assert-report}
 
 AEM Hulplijnen ondersteunen ook de verklaringen van Schematron en rapporteren deze. Deze verklaringen helpen u uw onderwerpen DITA bevestigen.
 

@@ -1,10 +1,10 @@
 ---
 title: Publicatietaken beheren met het dashboard Publiceren
-description: Leer hoe u publicatietaken beheert met het dashboard Publiceren
+description: Publicatietaken beheren met het publicatiedashboard in AEM hulplijnen. Zorg dat u weet hoe u toegang krijgt tot het publicatiedashboard en annuleer een publicatietaak.
 exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Het linkerdeelvenster van het publicatiedashboard biedt de volgende filteropties
 
 - **Uitvoervoorinstelling** - Selecteer een of meer uitvoervoorinstellingen waarvoor u de momenteel actieve publicatietaken wilt weergeven. In de volgende schermafbeelding worden de publicatietaken gefilterd om alleen die taken weer te geven die gebruikmaken van de voorinstelling AEM Site-uitvoer:
 
-   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Geactiveerd door** - Selecteer een gebruikersnaam in de lijst om de publicatietaken weer te geven die door de geselecteerde gebruiker zijn gestart.
 
@@ -80,7 +80,7 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish 
 
 1. Klikken **Ja** op de bevestigingsberichtvraag van de Annulering.
 
-   De opdracht Annuleren wordt geaccepteerd en annuleren wordt geprobeerd zolang de taak actief blijft. Zodra de taak met succes wordt geëindigd, wordt het verwijderd uit de momenteel actieve takenlijst. De status van de taak wordt ook bijgewerkt in de DITA kaartconsole zoals Geannuleerd. In de volgende screenshot *HTML5* taak wordt geannuleerd vanaf het publicatiedashboard en de status ervan wordt ook gewijzigd in de DITA-kaartconsole.
+   De opdracht Annuleren wordt geaccepteerd en de annulering wordt geprobeerd zolang de taak actief blijft. Zodra de taak met succes wordt geëindigd, wordt het verwijderd uit de momenteel actieve takenlijst. De status van de taak wordt ook bijgewerkt in de DITA kaartconsole zoals Geannuleerd. In de volgende screenshot *HTML 5* taak wordt geannuleerd vanaf het publicatiedashboard en de status ervan wordt ook gewijzigd in de DITA-kaartconsole.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 

@@ -1,20 +1,20 @@
 ---
 title: De webeditor starten
-description: Leer hoe te om de Redacteur van het Web te lanceren
+description: Leer hoe u de webeditor start via de navigatiepagina AEM AEM Assets, UI en DITA-kaartconsole in AEM hulplijnen.
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # De webeditor starten {#id2056B0140HS}
 
-U kunt de Redacteur van het Web van de volgende plaatsen lanceren:
+U kunt de Web Editor starten op de volgende locaties:
 
 - [Navigatiepagina AEM](#id2056BG00RZJ)
-- [AEM Assets-gebruikersinterface](#id2056BG0307U)
+- [AEM ASSETS UI](#id2056BG0307U)
 - [DITA-kaartconsole](#id2056BG090BF)
 
 De volgende secties behandelen de details van hoe u tot de Redacteur van het Web van diverse plaatsen toegang hebt en kunt lanceren.
@@ -37,22 +37,22 @@ Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanc
 
 
 
-   <details>
+  <details>
 
-   <summary> Cloud Services </summary>
+  <summary> Cloud Services </summary>
 
-   Als u Cloud Services gebruikt, klikt u op de knop **Sluiten** om terug te gaan naar de AEM navigatiepagina.
-   </details>
+  Als u Cloud Servicen gebruikt, klikt u op de knop **Sluiten** om terug te gaan naar de AEM navigatiepagina.
+  </details>
 
-   <details>
+  <details>
 
-   <summary> Software op locatie</summary>
+  <summary> Software op locatie</summary>
 
-   Als u AEM de Software van de Gidsen op-gebouw (4.2.1 en later) gebruikt, klik **Sluiten** aan de rechterkant om terug te gaan naar het huidige bestandspad in de interface Middelen.
+  Als u AEM de Software van de Gidsen op-gebouw (4.2.1 en later) gebruikt, klik **Sluiten** aan de rechterkant om terug te gaan naar het huidige bestandspad in de interface Middelen.
 
-   </details>
+  </details>
 
-## AEM Assets-gebruikersinterface {#id2056BG0307U}
+## AEM ASSETS UI {#id2056BG0307U}
 
 Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface van AEM Assets. U kunt één of meerdere onderwerpen selecteren en hen direct in de Redacteur van het Web openen. Om een onderwerp in de Redacteur van het Web te openen, volg deze stappen:
 
@@ -74,7 +74,7 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
 
    >[!IMPORTANT]
    >
-   > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet zien.
+   > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** selecteert, moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet zien.
 
 1. Sluit de wijze van de activaselectie en klik het onderwerp dat u wilt uitgeven.
 
@@ -119,7 +119,7 @@ Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
 
    >[!IMPORTANT]
    >
-   > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
+   > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** selecteert, moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)

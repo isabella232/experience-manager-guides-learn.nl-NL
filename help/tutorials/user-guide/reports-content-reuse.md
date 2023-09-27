@@ -1,10 +1,10 @@
 ---
 title: Rapport voor hergebruik van inhoud
-description: Rapport voor hergebruik van inhoud leren gebruiken
+description: Leer hoe u het rapport voor hergebruik van inhoud bekijkt in AEM hulplijnen. Genereer het rapport om het percentage voor hergebruik van de inhoud te zoeken.
 exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -37,23 +37,23 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
    - **Rapportoverzicht:**
 
-      Hiermee geeft u het gemiddelde hergebruik van inhoud weer, dat wordt berekend als Instanties voor hergebruik van inhoud/Totaal aantal onderwerpen. Dit rapport houdt rekening met alle verwijzingen naar directe inhoud op het eerste niveau en onderwerpverwijzingen voor berekening. De Instanties voor hergebruik van inhoud wordt berekend als de som van waarden in het veld Aantal keren opnieuw gebruikt. Het onderwerp dat het meest wordt hergebruikt is ook vermeld in de Samenvatting van het Rapport. Het klikken op de verbinding van het onderwerp in het Meest gebruikte Onderwerp opent de voorproef van het onderwerp.
+     Hiermee geeft u het gemiddelde hergebruik van inhoud weer, dat wordt berekend als Instanties voor hergebruik van inhoud/Totaal aantal onderwerpen. Dit rapport houdt rekening met alle verwijzingen naar directe inhoud op het eerste niveau en onderwerpverwijzingen voor berekening. De Instanties voor hergebruik van inhoud wordt berekend als de som van waarden in het veld Aantal keren opnieuw gebruikt. Het onderwerp dat het meest wordt hergebruikt is ook vermeld in de Samenvatting van het Rapport. Het klikken op de verbinding van het onderwerp in het Meest gebruikte Onderwerp opent de voorproef van het onderwerp.
 
    - **Details:**
 
-      De sectie Details bevat de volgende kolommen:
+     De sectie Details bevat de volgende kolommen:
 
       - **Titel**: De titel van het onderwerp. Als u op de titelkoppeling van het onderwerp klikt, wordt de voorvertoning van het onderwerp geopend.
 
-      - **UUID**: De universeel unieke id \(UUID\) van het bestand.
+      - **UUID**: De algemeen unieke id \(UUID\) van het bestand.
 
       - **Grootte**: Bestandsgrootte in bytes.
 
       - **Status**: De huidige status van het document - Concept, In-Review of Reviewed.
 
-      - **Aantal opnieuw gebruikte tijden**: Aantal tijden het overeenkomstige onderwerp is opnieuw gebruikt. Dit is berekend als de som van de vermeldingen in de kolommen waarnaar wordt verwezen min 1.
+      - **Aantal opnieuw gebruikte tijden**: Aantal keren dat het overeenkomstige onderwerp opnieuw is gebruikt. Dit is berekend als de som van de vermeldingen in de kolommen waarnaar wordt verwezen min 1.
 
-      - **Verwezen door**: De onderwerpen waarin het overeenkomstige onderwerp is van verwijzingen voorzien. Hier worden alleen de directe verwijzingen \(first level\) in overweging genomen. Meerdere onderwerpen worden gescheiden door komma&#39;s. UUID van het referenced dossier wordt ook vermeld tussen haakjes.Het klikken op de de titelverbinding van het onderwerp opent de onderwerpvoorproef.
+      - **Verwezen door**: De onderwerpen waarin naar het overeenkomstige onderwerp is verwezen. Hier worden alleen de directe verwijzingen \(first level\) in overweging genomen. Meerdere onderwerpen worden gescheiden door komma&#39;s. UUID van het referenced dossier wordt ook vermeld tussen haakjes.Het klikken op de de titelverbinding van het onderwerp opent de onderwerpvoorproef.
 
 
 >[!NOTE]

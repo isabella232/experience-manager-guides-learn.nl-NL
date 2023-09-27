@@ -1,10 +1,10 @@
 ---
 title: Geef de metagegevens door aan de uitvoer met DITA-OT
-description: Leer hoe u de metagegevens aan de uitvoer kunt doorgeven met DITA-OT
+description: Leer hoe u de metagegevens aan de uitvoer kunt doorgeven met DITA-OT-publicaties in AEM hulplijnen.
 exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---

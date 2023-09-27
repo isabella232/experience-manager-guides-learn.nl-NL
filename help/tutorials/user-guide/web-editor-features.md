@@ -1,10 +1,10 @@
 ---
 title: De functies van de webeditor kennen
-description: Leer hoe u de functies van de webeditor kent
+description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '16066'
 ht-degree: 0%
 
 ---
@@ -741,9 +741,7 @@ De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergege
 
 **Menu Opties**
 
-Naast het openen van bestanden vanuit het linkerdeelvenster kunt u ook een groot aantal handelingen uitvoeren met de opdracht
-
-Het menu Opties is beschikbaar in de weergave Opslagplaats. U ziet verschillende opties, afhankelijk van of u een omslag, een onderwerpdossier, of een media dossier kiest.
+Naast het openen van bestanden vanuit het linkerdeelvenster kunt u ook een groot aantal handelingen uitvoeren via het menu Opties in de Weergave opslagplaats. U ziet verschillende opties, afhankelijk van of u een omslag, een onderwerpdossier, of een media dossier kiest.
 
 **Opties voor een map**
 
@@ -801,7 +799,7 @@ U ziet verschillende opties in het menu Opties, afhankelijk van het feit of u ee
 - Eigenschappen
 - Weergeven in interface Elementen
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![optiemenu van een bestand in de dataweergave](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
@@ -896,7 +894,18 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
 - **Kaartdashboard openen**: Als het geselecteerde bestand een DITA-kaart is, wordt met deze optie het kaartdashboard geopend.
 
+- **Bewerken in zuurstof**: Selecteer deze optie om het geselecteerde bestand te bewerken in de insteekmodule Zuurstofaansluiting. Het bestand wordt geopend voor bewerking.
+
+  >[!NOTE]
+  >
+  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer informatie bekijkt u de [De optie configureren om te bewerken in zuurstof](../cs-install-guide/conf-edit-in-oxygen.md) in de installatie- en configuratiehandleiding.
+
+
 - **Weergeven in interface Elementen**: Gebruik deze optie om een voorbeeld van een .dita/.xml-bestand in de interface Elementen weer te geven. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
+
+- **Downloaden als PDF**: Gebruik de optie om de uitvoer van de PDF te genereren en te downloaden.
+
+- **Publiceren als**: Gebruik de optie om een onderwerp of de elementen binnen een onderwerp naar een inhoudsfragment te publiceren.
 
 - **Snel genereren**: Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -995,9 +1004,25 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 - **Kaartdashboard openen**: Open het kaartdashboard.
 
 - **Weergeven in interface Elementen**: Gebruik deze optie om een voorvertoning van het kaartbestand weer te geven in de interface Middelen. In deze weergave worden alle onderwerpbestanden in de kaart weergegeven in één weergave voor elke pagina.
+- **Kaart downloaden**: Selecteer deze optie om het dialoogvenster **Kaart downloaden** in.
+In de **Kaart downloaden** kunt u de volgende opties kiezen:
+   - **Basislijn gebruiken**: Selecteer deze optie om een lijst met basislijnen op te halen die voor de DITA-kaart zijn gemaakt. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer informatie over het werken met Baselines, bekijkt [Werken met basislijn](./generate-output-use-baseline-for-publishing.md).
+   - **Bestandshiërarchie afvlakken**: Selecteer deze optie als u alle onderwerpen en mediabestanden waarnaar wordt verwezen, in één map wilt opslaan.
 
-- **Snel genereren**: Genereer de uitvoer voor het geselecteerde kaartbestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
+  U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval worden de laatste voortgezette versies van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
+
+  Nadat u op de knop **Downloaden** knop, wordt de aanvraag voor het downloaden van de kaart in de wachtrij geplaatst. U ontvangt een melding die klaar is voor downloaden op de kaart als de kaart kan worden gedownload. Als het downloaden mislukt, ontvangt u een melding dat het downloaden van de kaart is mislukt
+
+  U hebt toegang tot de downloadkoppeling via het AEM-meldingsvak. Selecteer het gegenereerde kaartbericht in het Postvak In als u de kaart in de ZIP-indeling wilt downloaden.
+
+  >[!NOTE]
+  >
+  >  Standaard blijven de gedownloade kaarten vijf dagen in het AEM-vak.
+
+- **Uitvoer genereren**: Genereer de uitvoer voor het geselecteerde kaartbestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
 - **Sluiten**: Sluit het kaartbestand.
+
+
 
 De volgende het schermopname toont het menu van Opties voor een dossier in de Mening van de Kaart DITA:
 

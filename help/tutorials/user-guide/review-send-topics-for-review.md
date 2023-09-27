@@ -1,10 +1,10 @@
 ---
 title: Onderwerpen ter controle verzenden
-description: Leer hoe u onderwerpen ter controle kunt verzenden
+description: Leer hoe u een revisietaak maakt en onderwerpen ter controle verzendt in AEM hulplijnen. Verzend één of meerdere onderwerpen in een kaart DITA voor overzicht.
 exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt een revisietaak maken op basis van:
 - **UI Middelen**: Staat u toe om één of veelvoudige onderwerpen en kaart DITA voor overzicht te verzenden. Het delen van documenten voor overzicht van de werkstroom van Activa UI wordt behandeld onder dit onderwerp.
 
 
-Via de interface Middelen zijn er twee manieren waarop een auteur/uitgever een controletaak kan maken:
+Via de interface Middelen kunt u op twee manieren een revisietaak maken:
 
 - Een of meer onderwerpen ter controle verzenden
 - Meerdere onderwerpen vanuit een DITA-kaart verzenden voor revisie
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    Deze beschrijving wordt gebruikt als de hoofdtekst van de e-mailmelding die aan de controleurs wordt verzonden.
 
-1. Selecteer **Vervaldatum** en tijd om de termijn voor de herziening te markeren.
+1. Selecteer de **Vervaldatum** en tijd om de termijn voor de herziening te markeren.
 
    >[!NOTE]
    >
@@ -81,9 +81,9 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
    >
    > De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
 
-1. Aangezien u verschillende revisoren kunt toewijzen aan verschillende onderwerpen, **Toestaan dat toewijzen onderwerpen controleren** Hiermee bepaalt u of revisoren alle onderwerpen in een controletaak kunnen reviseren of alleen de onderwerpen die aan de revisie zijn toegewezen.
+1. Aangezien u verschillende revisoren kunt toewijzen aan verschillende onderwerpen, **Toestaan dat toewijzen onderwerpen controleren** Met deze optie bepaalt u of revisoren alle onderwerpen in een controletaak kunnen reviseren of alleen de onderwerpen die aan de revisie zijn toegewezen.
 
-   Selecteer **Toestaan dat toewijzen onderwerpen controleren**.
+   Als u wilt dat alle revisoren een onderwerp in de overzichtstaak kunnen bekijken, selecteert u **Toestaan dat toewijzen onderwerpen controleren**.
 
    Als u deze optie niet selecteert, worden revisoren toegevoegd aan het dialoogvenster **Toewijzen aan** het gebied zal toegang hebben om slechts die onderwerpen te herzien die aan hen worden toegewezen.
 
@@ -117,18 +117,18 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 1. Op de pagina Revisors kunt u revisoren toevoegen of verwijderen. De volgende bewerkingen zijn beschikbaar op de pagina Revisors:
 
    - **Alles selecteren**: Hiermee selecteert u alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
-   - **Selectie wissen**: Deselecteert de onderwerpen die in de onderwerpenlijst worden geselecteerd.
+   - **Selectie wissen**: Hiermee wordt de selectie van de geselecteerde onderwerpen in de lijst met onderwerpen opgeheven.
 
-      >[!NOTE]
-      >
-      > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
+     >[!NOTE]
+     >
+     > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
 
    - **Toevoegen**: Hiermee geeft u het dialoogvenster Revisoren toevoegen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
    - **Verwijderen**: Hiermee geeft u het dialoogvenster Revisoren verwijderen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
 
-      >[!NOTE]
-      >
-      > U kunt een revisie ook verwijderen uit een onderwerp door op het kruisje te klikken in het vak van de revisor.
+     >[!NOTE]
+     >
+     > U kunt een revisie ook verwijderen uit een onderwerp door op het kruisje te klikken in het vak van de revisor.
 
    - **Opnieuw toewijzen**: Hiermee geeft u het dialoogvenster Revisoren opnieuw toewijzen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
    - **Exporteren**: Hiermee kunt u de gegevens van de revisietaak exporteren in een CSV-bestand. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
@@ -158,7 +158,7 @@ U kunt dezelfde DITA-kaart delen voor revisie in meerdere revisietaken. Bijvoorb
 >
 > Als een onderwerp van een kaartdossier in veelvoudige overzichtstaken is gedeeld, zou hun status in-Overzicht tonen tot alle overzichtstaken zijn voltooid.
 
-Voer de volgende stappen uit om een of meerdere onderwerpen samen met het kaartbestand ter controle te verzenden:
+Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt verzenden, voert u de volgende stappen uit:
 
 >[!IMPORTANT]
 >
@@ -192,15 +192,15 @@ Voer de volgende stappen uit om een of meerdere onderwerpen samen met het kaartb
 
    Deze beschrijving wordt gebruikt als de hoofdtekst van de e-mailmelding die aan de controleurs wordt verzonden.
 
-1. Selecteer **Vervaldatum** en tijd om de termijn voor de herziening te markeren.
+1. Selecteer de **Vervaldatum** en tijd om de termijn voor de herziening te markeren.
 
    >[!NOTE]
    >
    > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De aanvrager kan de deadline van de revisietaak verlengen vanaf de [Revisiedashboard](review-manage-tasks-review-dashboard.md#).
 
-1. Aangezien u verschillende revisoren kunt toewijzen aan verschillende onderwerpen, **Toestaan dat toewijzen onderwerpen controleren** Hiermee bepaalt u of revisoren alle onderwerpen in een controletaak kunnen reviseren of alleen de onderwerpen die aan de revisie zijn toegewezen.
+1. Aangezien u verschillende revisoren kunt toewijzen aan verschillende onderwerpen, **Toestaan dat toewijzen onderwerpen controleren** Met deze optie bepaalt u of revisoren alle onderwerpen in een controletaak kunnen reviseren of alleen de onderwerpen die aan de revisie zijn toegewezen.
 
-   Selecteer **Toestaan dat toewijzen onderwerpen controleren**.
+   Als u wilt dat alle revisoren een onderwerp in de overzichtstaak kunnen bekijken, selecteert u **Toestaan dat toewijzen onderwerpen controleren**.
 
    Als u deze optie niet selecteert, worden revisoren toegevoegd aan het dialoogvenster **Toewijzen aan** het gebied zal toegang hebben om slechts die onderwerpen te herzien die aan hen worden toegewezen.
 
@@ -233,18 +233,17 @@ Voer de volgende stappen uit om een of meerdere onderwerpen samen met het kaartb
 1. Op de pagina Revisors kunt u revisoren toevoegen of verwijderen. De volgende bewerkingen zijn beschikbaar op de pagina Revisors:
 
    - **Alles selecteren**: Hiermee selecteert u alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
-   - **Selectie wissen**: Deselecteert de onderwerpen die in de onderwerpenlijst worden geselecteerd.
+   - **Selectie wissen**: Hiermee wordt de selectie van de geselecteerde onderwerpen in de lijst met onderwerpen opgeheven.
 
-      >[!NOTE]
-      >
-      > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
+     >[!NOTE]
+     >
+     > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
 
    - **Toevoegen**: Hiermee geeft u het dialoogvenster Revisoren toevoegen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
    - **Verwijderen**: Hiermee geeft u het dialoogvenster Revisoren verwijderen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
    - **Opnieuw toewijzen**: Hiermee geeft u het dialoogvenster Revisoren opnieuw toewijzen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
    - **Exporteren**: Hiermee kunt u de gegevens van de revisietaak exporteren in een CSV-bestand. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
    - **Revisoren bewerken**: Klik op de knop ![](images/edit_pencil_icon.svg)in de onderwerpenlijst wordt het dialoogvenster Revisoren bewerken weergegeven. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
-
    >[!IMPORTANT]
    >
    > U moet ten minste één controleur toewijzen om de revisietaak te maken.

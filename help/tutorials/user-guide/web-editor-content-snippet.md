@@ -1,9 +1,9 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
-description: Leer hoe u een inhoudsfragment uit uw gegevensbron kunt invoegen
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: Gebruik gegevens uit uw gegevensbron in AEM hulplijnen. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
+source-git-commit: 0293dc6e375d6a80bf35694a8e9784f0bb6d0384
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 <details>
 <summary> Cloud Services </summary>
 
-Leer hoe u [configureren van gegevensbronaansluiting](../cs-install-guide/conf-data-source-connector.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
+
+- Leer hoe u de release van oktober 2023 of hoger gebruikt [vorm een gegevensbronschakelaar gebruikend de hulpmiddelen](../cs-install-guide/conf-data-source-connector-tools.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
+
+- Leer hoe u de release van juli 2023 of september 2023 gebruikt [configureren van gegevensbronaansluiting](../cs-install-guide/conf-data-source-connector.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >[!NOTE]
    >  
    > Als uw beheerder aangepaste sjablonen heeft geconfigureerd, worden deze sjablonen ook weergegeven in de vervolgkeuzelijst (op basis van de sjabloonpadconfiguraties die de beheerder heeft uitgevoerd).
+   >   
+   >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Meer informatie over hoe [Snelheidsgereedschappen gebruiken](#use-velocity-tools).
 
 1. Klikken **Ophalen** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien.
 
@@ -215,21 +221,58 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
 Klik met de rechtermuisknop op een onderwerpgenerator om de **Opties**. Met de opties kunt u de volgende bewerkingen uitvoeren:
 
-- **Voorvertoning**: Gebruik deze optie om een venster te openen en een klein deel van de weergave van de gegevens in de uitvoer weer te geven.
-- **Inhoud genereren**: Deze optie produceert de onderwerpen voor de geselecteerde onderwerpgenerator. U kunt deze optie ook gebruiken om de bestaande onderwerpen bij te werken. Het verbindt met de gegevensbron en haalt de bijgewerkte gegevens.
-
+- **Genereren**: Deze optie produceert de onderwerpen voor de geselecteerde onderwerpgenerator. U kunt deze optie ook gebruiken om de bestaande onderwerpen bij te werken. Het verbindt met de gegevensbron en haalt de bijgewerkte gegevens. Tijdens het genereren van de inhoud is deze optie uitgeschakeld en kunt u een lader weergeven.
   >[!NOTE]
   >
   >Als uw onderwerp reeds bestaat, kunt u of de gegevens in het onderwerp overschrijven of het opslaan als nieuwe versie.
 
   ![](images/generate-topic-options.png)
 
-  *Genereer een onderwerp en sla dit op als een nieuwe versie of overschrijf het bestand als het al bestaat.*
+  *Genereer een onderwerp en sla het op als een nieuwe versie of overschrijf het bestand als het al bestaat.*
+- **Logboek weergeven**: Selecteer deze optie om het logbestand voor het genereren van inhoud weer te geven. Het logbestand wordt op een nieuw tabblad geopend. U kunt de fouten, waarschuwingen, informatieberichten, en uitzonderingen in het logboekdossier bekijken. Deze optie wordt toegelaten als u de inhoud voor de geselecteerde onderwerpgenerator hebt geproduceerd.
 
-- **Bewerken**: Gebruik deze optie om de onderwerpgenerator te veranderen en te bewaren.
-- **Verwijderen**: Gebruik deze optie om de geselecteerde onderwerpgenerator te schrappen.
+- **Voorvertoning**: Gebruik deze optie om een venster te openen en een klein deel van de weergave van de gegevens in de uitvoer weer te geven.
+
+
+
+- **Bewerken**: Gebruik deze optie om de onderwerpgenerator te veranderen en te bewaren. Deze optie is uitgeschakeld wanneer u de inhoud genereert.
+- **Verwijderen**: Gebruik deze optie om de geselecteerde onderwerpgenerator te schrappen. Deze optie is uitgeschakeld wanneer u de inhoud genereert.
 - **Dupliceren**: Met deze optie maakt u een kopie of kopie van de geselecteerde onderwerpgenerator. Het duplicaat wordt gemaakt met een achtervoegsel (zoals `topic-sample_1`) standaard.
 
+
+
+## De hulpmiddelen van de Snelheid van het gebruik in de gegevensbronmalplaatjes {#use-velocity-tools}
+
+Experience Manager sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Meer informatie over het gebruik van de [Snelheidsgereedschappen](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
+
+Voer de volgende stappen uit om een hulpmiddel van de Snelheid in een malplaatje te gebruiken:
+1. Bewerk een snelheidssjabloon in de webeditor.
+1. Een gereedschap en de functie ervan toevoegen in het dialoogvenster `<tool.function>` gebruiken. Bijvoorbeeld:
+   - Als u een willekeurig getal wilt genereren met het gereedschap Wiskunde, gebruikt u `$mathTool.random`.
+   - Als u de som getallen wilt genereren met het gereedschap Wiskunde, gebruikt u `$mathTool.add(num1, num2)`.
+1. Gebruik de sjabloon om een inhoudsfragment of onderwerp te maken.
+1. Nadat u het malplaatje op de gegevens toepast, kunt u de gegevens in de voorproef of de DITA bronmening bekijken.
+
+
+
+
+U kunt de volgende hulpmiddelen binnen de malplaatjes van de Snelheid gebruiken om diverse functies op de gegevens toe te passen u van de schakelaar haalt: -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 

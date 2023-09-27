@@ -1,13 +1,13 @@
 ---
 title: DITAVAL-editor gebruiken
-description: Meer informatie over het gebruik van de DITAVAL-editor
-source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
+description: Leer hoe u DITAVAL-bestanden maakt en bewerkt met de DIVATAL Editor in AEM hulplijnen. Weet hoe de DITAVAL-editor DITAVAL-bestanden ondersteunt in auteur- en bronweergaven.
+exl-id: 53dc9a61-aa07-4fb0-a442-ac845433c8f5
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
-
 
 # DITAVAL-editor {#ditaval-editor}
 
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te maken:
 
 1. Klikken **Maken** \> **DITA-onderwerp**.
 
-1. Selecteer op de pagina Vervagen de Sjabloon voor DITAVAL-bestanden en klik op **Volgende**.
+1. Selecteer op de pagina Vervagen de sjabloon DITAVAL-bestand en klik op **Volgende**.
 
 1. Geef op de pagina Eigenschappen de instelling **Titel** en **Naam** voor het DITAVAL-bestand.
 
@@ -48,11 +48,11 @@ Voer de volgende stappen uit om een DITAVAL-bestand te bewerken:
 
    Met de DITAVAL-editor kunt u de volgende taken uitvoeren:
 
-   A: In-/uitschakelen van deelvenster Links in-/uitschakelen van de weergave van het linkerdeelvenster. Als u het DITAVAL-bestand hebt geopend via de DITA-kaart, worden de kaart en de opslagplaats weergegeven in dit deelvenster. Voor meer informatie over het openen van een bestand via de DITA-kaart raadpleegt u [Onderwerpen bewerken via de DITA-kaart](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   A: Linkerdeelvenster in-/uitschakelen Schakelt de weergave van het linkerdeelvenster in. Als u het DITAVAL-bestand hebt geopend via de DITA-kaart, worden de kaart en de opslagplaats weergegeven in dit deelvenster. Zie voor meer informatie over het openen van een bestand via de DITA-kaart [Onderwerpen bewerken via de DITA-kaart](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
    B: Met Opslaan slaat u de wijzigingen op die u in het bestand hebt aangebracht. Alle wijzigingen worden opgeslagen in de huidige versie van het bestand.
 
-   C: Voeg Bezit toe voeg één enkel bezit in uw DITAVAL dossier toe.
+   C: Voeg bezit toe voeg één enkel bezit in uw DITAVAL dossier toe.
 
    ![](images/ditaval-editor-props.png)
 
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te bewerken:
 
    De tweede drop-down lijst toont de waarden die voor de geselecteerde attributen worden gevormd. Dan, toont de volgende drop-down lijst de acties die u op de geselecteerde attributen kunt vormen. De toegestane waarden in de vervolgkeuzelijst Handeling zijn - `include`, `exclude`, `passthrough`, en `flag`. Zie de definitie van [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA-documentatie
 
-   D: Voeg met één klik alle eigenschappen toe Als u alle voorwaardelijke eigenschappen of kenmerken wilt toevoegen die in uw systeem zijn gedefinieerd, gebruikt u de functie Alle eigenschappen toevoegen.
+   D: Voeg alle eigenschappen toe Als u met één klik alle voorwaardelijke eigenschappen of kenmerken wilt toevoegen die in uw systeem zijn gedefinieerd, gebruikt u de functie Alle eigenschappen toevoegen.
 
    >[!NOTE]
    >
@@ -72,14 +72,14 @@ Voer de volgende stappen uit om een DITAVAL-bestand te bewerken:
 
    >[!NOTE]
    >
-   > Als u het bestand sluit zonder op te slaan, gaan de wijzigingen verloren. Als u geen wijzigingen wilt doorvoeren in AEM opslagplaats, klikt u op **Sluiten** en klik vervolgens op **Sluiten zonder opslaan** in de **Niet-opgeslagen wijzigingen** .
+   > Als u het bestand sluit zonder op te slaan, gaan de wijzigingen verloren. Als u geen wijzigingen wilt doorvoeren in AEM opslagplaats, klikt u op **Sluiten** en klik vervolgens op **Sluiten zonder opslaan** in de **Niet-opgeslagen wijzigingen** in.
 
 
 ## Weergaven DITAVAL-editor
 
 AEM DITAVAL-editor van hulplijnen ondersteunt het weergeven van DITAVAL-bestanden in twee verschillende modi of weergaven:
 
-**Auteur**: Dit is een typisch wat u ziet is wat u \ (WYSISYG \) mening van de redacteur van DITAVAL krijgt. U kunt eigenschappen toevoegen of verwijderen met behulp van de eenvoudige gebruikersinterface, die de eigenschappen, waarden en handelingen in de vervolgkeuzelijst weergeeft. In de weergave Auteur kunt u een afzonderlijke eigenschap invoegen en alle eigenschappen met één klik invoegen.
+**Auteur**: Dit is een typisch voorbeeld van de WYSISYG-weergave van de DITAVAL-editor. U kunt eigenschappen toevoegen of verwijderen met behulp van de eenvoudige gebruikersinterface, die de eigenschappen, waarden en handelingen in de vervolgkeuzelijst weergeeft. In de weergave Auteur kunt u een afzonderlijke eigenschap invoegen en alle eigenschappen met één klik invoegen.
 
 U kunt ook de versie van het DITAVAL-bestand vinden waaraan u momenteel werkt door de aanwijzer op de bestandsnaam te plaatsen.
 
@@ -88,4 +88,3 @@ U kunt ook de versie van het DITAVAL-bestand vinden waaraan u momenteel werkt do
 Om de Slimme Catalogus aan te halen, plaats de curseur aan het eind van om het even welke bezitsdefinitie en ga &quot;&lt;&quot; in. De redacteur zal een lijst van alle geldige elementen van XML tonen die u bij die plaats kunt opnemen.
 
 ![](images/ditaval-source-view.png)
-

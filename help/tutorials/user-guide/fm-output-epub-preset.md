@@ -1,23 +1,23 @@
 ---
-title: ePub
-description: Leer hoe u EPUB maakt
+title: EPUB
+description: Produceer en vorm EPUB output voor de documenten van de FrameMaker in AEM Gidsen.
 exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
-# ePub {#id205BB0V0PQZ}
+# EPUB {#id205BB0V0PQZ}
 
 De volgende opties zijn beschikbaar voor de uitvoer van EPUBS:
 
 >[!NOTE]
 >
-> Om outputvoorinstellingen voor EPUB te openen, klik op een FrameMaker \ (`.fm` of `.book`\), klikt u vervolgens op Voorinstellingen uitvoer en klikt u op de optie EPUB.
+> Als u uitvoervoorinstellingen voor EPUB wilt openen, klikt u op een FrameMaker \(`.fm` of `.book`\), klikt u vervolgens op Voorinstellingen uitvoer en klikt u op de optie EPUB.
 
-| ePub, optie | Beschrijving |
+| EPUB, optie | Beschrijving |
 |-----------|-----------|
 | Uitvoertype | Het type uitvoer dat u wilt genereren. Kies de optie EPUB om uitvoer van EPUBS te genereren. |
 | Naam instellen | Geef een beschrijvende naam voor de uitvoerinstellingen voor EPUB die u maakt. U kunt bijvoorbeeld *Uitvoer van interne klanten* of *eindgebruikeruitvoer*. |
@@ -25,4 +25,4 @@ De volgende opties zijn beschikbaar voor de uitvoer van EPUBS:
 | Doelpad | Het pad in uw AEM opslagplaats waar de uitvoer van het EPUB wordt opgeslagen. |
 | Workflow na generatie uitvoeren | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 
-**Bovenliggend onderwerp:**[ Produceer output van documenten FrameMaker](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ Uitvoer van FrameMaker-documenten genereren](fm-output-generatation.md)

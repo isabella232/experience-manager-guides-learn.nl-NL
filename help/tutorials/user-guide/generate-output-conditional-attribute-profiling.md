@@ -1,17 +1,17 @@
 ---
-title: Voorwaardelijke kenmerkprofilering
-description: Meer informatie over voorwaardelijke kenmerkprofilering
+title: Voorwaardelijke kenmerkprofielen
+description: Leer hoe u voorwaardelijke kenmerken maakt in AEM hulplijnen. Gebruik voorwaardelijke kenmerken in de map en algemene profielen om de inhoud te conditionaliseren.
 exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
-# Voorwaardelijke kenmerkprofilering {#id1843I0HN0Y4}
+# Voorwaardelijke kenmerkprofielen {#id1843I0HN0Y4}
 
-Op bedrijfsniveau is het uiterst belangrijk om ervoor te zorgen dat u een standaardcoderingssysteem hebt. Tags of voorwaardelijke kenmerken kunnen worden gekoppeld aan digitale elementen in de repository, wat helpt bij het publiceren van uitvoer op basis van de gekozen voorwaarden. U kunt bijvoorbeeld een voorwaardelijk kenmerk maken voor Windows- en Mac-inhoud. Dan, voegt u deze attributen aan de relevante inhoud in uw onderwerpen toe. Op het moment van het publiceren van inhoud kunt u kiezen of u alleen Windows- of Mac-inhoud wilt publiceren.
+Op bedrijfsniveau is het uiterst belangrijk om ervoor te zorgen dat u een standaardcoderingssysteem hebt. Tags of voorwaardelijke kenmerken kunnen worden gekoppeld aan digitale elementen in de opslagplaats, wat helpt bij het publiceren van de uitvoer op basis van de gekozen voorwaarden. U kunt bijvoorbeeld een voorwaardelijk kenmerk maken voor Windows- en Mac-inhoud. Dan, voegt u deze attributen aan de relevante inhoud in uw onderwerpen toe. Op het moment van het publiceren van inhoud kunt u kiezen of u alleen Windows- of Mac-inhoud wilt publiceren.
 
 Met AEM hulplijnen kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met behulp van de relevante DITA-kenmerken. U kunt voorwaardelijke kenmerken definiëren op algemeen niveau of mapniveau. De globaal gedefinieerde voorwaarden zijn zichtbaar in alle projecten en mapspecifieke voorwaarden zijn alleen zichtbaar in projecten die in de opgegeven map zijn gemaakt. Inhoudsauteurs kunnen deze voorwaardelijke kenmerken gebruiken om de inhoud in hun DITA-onderwerpen of -kaarten te conditionaliseren die ze maken of gebruiken. Deze voorwaarden kunnen vervolgens door de uitgever worden gebruikt om voorwaardelijke voorinstellingen te maken. Met behulp van de voorwaardelijke voorinstellingen kan de uitgever bepalen welke voorwaarde moet worden opgenomen in en uitgesloten van de gepubliceerde uitvoer.
 
@@ -47,9 +47,9 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken te definiëren:
 
 1. Als u meer waarden voor hetzelfde kenmerk wilt toevoegen, klikt u op de knop **+** en voert u een extra waarde en label in.
 
-1. Als u meer kenmerken wilt toevoegen, klikt u op **Toevoegen**.
+1. Klik op **Toevoegen**.
 
-1. Klikken **Opslaan** om de wijzigingen op te slaan.
+1. Klikken **Opslaan** om de wijzigingen op te slaan
 
 
 De `platform` wordt opgeslagen in het systeem. Wanneer een auteur besluit de `platform` attributen in een DITA onderwerp in een omslag, zullen zij de waarden in het lusje van Eigenschappen in de Redacteur van het Web zien.

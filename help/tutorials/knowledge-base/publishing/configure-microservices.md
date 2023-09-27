@@ -2,9 +2,9 @@
 title: Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen
 description: Leer hoe u nieuwe op microservice gebaseerde publicaties voor AEM hulplijnen kunt configureren.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Voor elke publicatieaanvraag AEM as a Cloud Service hulplijnen wordt een aparte 
 
 >[!NOTE]
 >
-> Op microservice gebaseerde publicaties in AEM hulplijnen ondersteunen PDF (zowel op basis van Native als DITA-OT), HTML5 en AANGEPASTE typen uitvoervoorinstellingen.
+> Op microservices gebaseerde publicaties in AEM hulplijnen ondersteunen de typen PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM van voorinstellingen voor uitvoer.
 
-Aangezien de nieuwe service voor publicatie in de cloud wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten de onderstaande stappen volgen om hun omgevingen te integreren met veilige, op token gebaseerde verificatieworkflows en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
+Aangezien de nieuwe service voor publicatie in de cloud wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten onderstaande stappen volgen om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
 
 ## IMS-configuraties maken in Adobe Developer Console
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 
    <img src="assets/download-json.png" alt="download json" width="500">
 
-U hebt nu de JWT-verificatiedetails geconfigureerd en ook de persoonlijke sleutel en de servicedetails JSON gedownload. Houd deze twee bestanden bij de hand, aangezien deze bestanden in de volgende sectie zijn vereist.
+U hebt nu de JWT-verificatiegegevens geconfigureerd en ook de persoonlijke sleutel en de servicedetails JSON gedownload. Houd deze twee bestanden bij de hand, aangezien deze bestanden in de volgende sectie zijn vereist.
 
 ### IMS-configuratie toevoegen aan de omgeving
 
@@ -80,7 +80,7 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 
 Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met AEM Gidsen te verbinden gebruikend OSGi:
 
-1. Voeg de onderstaande twee bestanden toe in uw Git-projectcode voor cloudbeheer (zie voor de bestandsinhoud) [Aanhangsel](#appendix)).
+1. Voeg de onderstaande twee bestanden toe in uw Git-projectcode voor cloudbeheer (zie voor de bestandsinhoud) [Bijlage](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
@@ -95,12 +95,12 @@ Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublica
 1. Kan één sleutel worden gebruikt op veelvoudige wolkenmilieu&#39;s?
    * Ja, u kunt één privé sleutel produceren en het voor alle milieu&#39;s gebruiken, maar u moet milieuvariabelen voor alle milieu&#39;s vormen en de zelfde sleutel gebruiken.
 1. Als de configuraties OSGi om microservice te gebruiken worden toegelaten, zal het het publiceren proces op lokale AEM server met de zelfde codebase werken?
-   * Nee, als de markering `dxml.use.publish.microservice` is ingesteld op `true` dan zoekt het altijd microservice configuraties. Set `dxml.use.publish.microservice` tot `false` zodat de uitgever op uw lokale computer kan werken.
+   * Neen, indien de markering `dxml.use.publish.microservice` is ingesteld op `true` dan zoekt het altijd microservice configuraties. Set `dxml.use.publish.microservice` tot `false` zodat de uitgever op uw lokale computer kan werken.
 1. Hoeveel geheugen wordt toegewezen aan het proces DITA wanneer het gebruiken van op microservice-gebaseerde het publiceren? Wordt dit aangestuurd via parameters van het DITA-profiel?
    * Bij publicatie op basis van microservices wordt geheugentoewijzing niet aangestuurd door parameters van het type DITA-profiel. Het totale beschikbare geheugen op de de dienstcontainer is 8 GB, waarvan 6 GB aan het DITA-OT proces wordt toegewezen.
 
 
-## Aanhangsel {#appendix}
+## Bijlage {#appendix}
 
 **Bestand**:
 `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`

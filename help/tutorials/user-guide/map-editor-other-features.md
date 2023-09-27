@@ -1,10 +1,10 @@
 ---
 title: Andere functies in de kaarteditors
-description: Meer informatie over andere functies in kaarteditors
+description: Ontdek enkele veelvoorkomende functies in de Basic- en Advanced Map Editors. Leer hoe u belangrijke verwijzingen in de Kaart-editor kunt oplossen.
 exl-id: ed6f42f6-b95e-4c4d-a648-6f29641a3488
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Enkele veelvoorkomende functies in de Basic- en Advanced Map Editors zijn:
 
 ## Belangrijke verwijzingen oplossen {#id176GD01H05Z}
 
-Een verwijzing naar een DITA-inhoudssleutel, of `conkeyref` is een mechanisme om een deel van inhoud van één onderwerp in een andere op te nemen. Dit mechanisme gebruikt sleutel om van de inhoud de plaats te bepalen om te hergebruiken eerder dan het directe inhoud verwijzende mechanisme. Voor meer informatie over direct en indirect verwijzen in DITA, zie *DITA-adressering* in OASIS DITA Language Specification.
+Een DITA-inhoudsreferentie, of `conkeyref` is een mechanisme om een deel van inhoud van één onderwerp in een andere op te nemen. Dit mechanisme gebruikt sleutel om van de inhoud de plaats te bepalen om te hergebruiken eerder dan het directe inhoud verwijzende mechanisme. Voor meer informatie over direct en indirect verwijzen in DITA, zie *DITA-adressering* in OASIS DITA Language Specification.
 
 Als het onderwerp DITA bijbehorende zeer belangrijke verwijzingen heeft, dan moeten zij worden opgelost alvorens, een onderwerp te previewing uit te geven of te herzien.
 

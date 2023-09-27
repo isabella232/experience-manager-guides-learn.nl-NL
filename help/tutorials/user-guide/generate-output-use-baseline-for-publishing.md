@@ -1,10 +1,10 @@
 ---
 title: Werken met basislijn
-description: Leer hoe u met de basislijn werkt
+description: Het gebruik van basislijnen in AEM hulplijnen kennen. Leer hoe u vertaalde basislijnen maakt, weergeeft, bewerkt, dupliceert, verwijdert, toevoegt en exporteert.
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---

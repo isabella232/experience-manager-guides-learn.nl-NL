@@ -1,17 +1,17 @@
 ---
 title: Bestanden downloaden
-description: Leer hoe u bestanden kunt downloaden
+description: Leer hoe u bestanden downloadt van de DITA-kaartconsole in AEM hulplijnen en een DITA-kaartbestand exporteert in AEM opslagplaats.
 exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # Bestanden downloaden {#id216MC0H0BE8}
 
-U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor AEM en andere worden ondersteund door AEM hulplijnen. Voor downloadinformatie over native AEM middelen raadpleegt u [Middelen downloaden van Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in AEM documentatie. In de volgende sectie wordt het mechanisme uitgelegd voor het downloaden van bestanden via DITA-kaartconsole in AEM hulplijnen.
+U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor AEM en andere worden ondersteund door AEM hulplijnen. Voor downloadinformatie over native AEM middelen raadpleegt u [Middelen downloaden van Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in AEM documentatie. In de volgende sectie wordt het mechanisme uitgelegd voor het downloaden van bestanden via de DITA-kaartconsole in AEM hulplijnen.
 
 ## Een DITA-toewijzingsbestand exporteren
 
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 1. Klik op de kaart DITA om het in DITA kaartconsole te openen.
 
-1. Selecteer **Onderwerpen** om een lijst van onderwerpen te zien beschikbaar in de kaart DITA.
+1. Selecteer de **Onderwerpen** om een lijst van onderwerpen te zien beschikbaar in de kaart DITA.
 
 1. Klik in de hoofdwerkbalk op **Kaart downloaden**.
 
@@ -33,9 +33,8 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 1. Klikken **Downloaden**. In het dialoogvenster Kaart downloaden kunt u de volgende opties kiezen:
 
-   - **Basislijn gebruiken**: Selecteer deze optie om een lijst met basislijnen op te halen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer informatie over het werken met Baselines raadpleegt u [Werken met basislijn](generate-output-use-baseline-for-publishing.md#).
-   - **Bestandshiërarchie afvlakken**: Selecteer deze optie als u alle onderwerpen en mediabestanden waarnaar wordt verwezen in één map wilt opslaan.
-
+   - **Basislijn gebruiken**: Selecteer deze optie om een lijst met basislijnen op te halen die voor de DITA-kaart zijn gemaakt. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Zie voor meer informatie over het werken met Baselines [Werken met basislijn](generate-output-use-baseline-for-publishing.md#).
+   - **Bestandshiërarchie afvlakken**: Selecteer deze optie als u alle onderwerpen en mediabestanden waarnaar wordt verwezen, in één map wilt opslaan.
    >[!NOTE]
    >
    > U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval wordt de laatste voortgezette versie van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
@@ -47,6 +46,7 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
    - Klikken **Downloaden** om het kaartbestand in .zip-indeling te downloaden.
 
    - Klikken **Later downloaden** om het kaartbestand later te downloaden. De downloadkoppeling is toegankelijk via het AEM-meldingsvak. Klik op het gegenereerde kaartbericht in het Postvak In om de kaart in de ZIP-indeling te downloaden.
+
    >[!NOTE]
    >
    > Standaard blijven de gedownloade kaarten vijf dagen in het AEM-vak.

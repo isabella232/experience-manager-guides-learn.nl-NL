@@ -1,10 +1,10 @@
 ---
 title: Uitvoervoorinstellingen
-description: Leer hoe u de uitvoervoorinstellingen begrijpt
+description: Begrijp de outputvoorinstellingen in AEM Gidsen. Maak uitvoervoorinstellingen in de webeditor en het kaartdashboard voor AEM site-, PDF-, HTML,5-, EPUB-, aangepaste en JSON-indelingen.
 exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,8 @@ In de volgende secties worden de opties beschreven die beschikbaar zijn voor de 
 
 U kunt op twee manieren voorinstellingen maken:
 
-- **Van de Redacteur van het Web**: U kunt AEM Site, PDF, HTML, Kennisbank, HTML5, Aangepast en JSON-uitvoervoorinstelling maken en de respectievelijke uitvoerbestanden genereren.
-- **Van het kaartdashboard**: U kunt AEM Site, PDF, HTML5, EPUB en aangepaste uitvoervoorinstelling maken en de respectievelijke uitvoerbestanden genereren.
+- **Van de Redacteur van het Web**: U kunt AEM voorinstelling voor Site, PDF, HTML, Kennisbank, HTML5, Aangepast en JSON-uitvoer maken en de respectievelijke uitvoer genereren.
+- **Van het kaartdashboard**: U kunt AEM voorinstelling voor Site, PDF, HTML,5, EPUB en aangepaste uitvoer maken en de respectievelijke uitvoer genereren.
 
 In de volgende secties worden de opties beschreven die beschikbaar zijn voor de ondersteunde uitvoerindelingen.
 
@@ -28,7 +28,7 @@ In de volgende secties worden de opties beschreven die beschikbaar zijn voor de 
 
 - **[HTML5](generate-output-html5.md)**
 
-- **[ePub](generate-output-epub.md)**
+- **[EPUB](generate-output-epub.md)**
 
 - **[Aangepast](generate-output-custom.md)**
 

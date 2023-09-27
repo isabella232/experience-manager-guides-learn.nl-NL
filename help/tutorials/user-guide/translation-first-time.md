@@ -1,10 +1,10 @@
 ---
 title: Aanbevolen procedures voor het vertalen van inhoud
-description: Meer informatie over tips en trucs voor het vertalen van inhoud
+description: U kent de beste werkwijzen voor het vertalen van inhoud in AEM. Leer hoe u de vertaalservice configureert, een nieuw vertaalproject maakt en de vertaaltaak start.
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Houd rekening met het volgende punt voor het vertalen van inhoud:
 - De map- en bestandsnamen moeten voldoen aan de naamgevingsstandaarden voor bestanden, zoals: er mogen geen spaties, apostrof, accolades, gelijktekens, speciale of niet-ASCII-tekens voorkomen.
 
 - Als u inhoud in verschillende talen vertaalt, moet u omslagen tot stand brengen die aan elke taal beantwoorden. Elk van deze taalomslagen zal de inhoud bevatten die aan die taal beantwoordt. U kunt bijvoorbeeld mappen maken met de taalaanduiding, net als `de` voor het Duits, `fr` voor Frans enzovoort. U kunt ook mappen maken met de taal en regio-aanduidingen, zoals `fr-FR` voor Frans zoals gebruikt in Frankrijk of `fr-CA` voor Frans zoals gebruikt in Canada.
-- In de doeltaal moeten ook de werkelijke landinstellingen worden geselecteerd volgens de doeltaalmappen op hun exemplaar.
+- In de doeltaal moeten ook de werkelijke landinstellingen worden geselecteerd op basis van de doeltaalmappen op hun exemplaar.
 - De cloudconfiguratie moet dezelfde zijn als die van de bronmap en er mag slechts één cloudconfiguratie in één map zijn. U kunt veelvoudige omslagen onder /conf tot stand brengen, als u veelvoudige vertaalschakelaars wilt gebruiken.
 - Een map mag niet meer dan 1000 bestanden bevatten.
 - Zorg ervoor dat de gebruiker die belast is met het initiëren van het vertaalproces, beschikt over de machtigingen Lezen, Wijzigen, Maken en Verwijderen voor de bronmappen en de doeltaalmappen.
@@ -37,9 +37,9 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
 1. Selecteer in de interface Elementen de brontaalmap.
 
-1. Open de mapeigenschappen en ga naar **Cloud Services** tab.
+1. Open de mapeigenschappen en ga naar **Cloud Servicen** tab.
 
-1. In de **Cloud Services** , configureert u de vertaalservice die u wilt gebruiken.
+1. In de **Cloud Servicen** , configureert u de vertaalservice die u wilt gebruiken.
 
    U kunt op computer gebaseerde of menselijke vertaling configureren.
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
    >[!NOTE]
    >
-   > Zie [Het framework voor vertaalintegratie configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentatie voor meer informatie over de integratie met de vertaaldiensten van derden.
+   > Zie [Het Kader voor de Integratie van de Vertaling vormen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentatie voor meer informatie over de integratie met de vertaaldiensten van derden.
 
 1. Klikken **Opslaan en sluiten** om de bijgewerkte eigenschappen van de map op te slaan.
 
@@ -84,9 +84,9 @@ Voer de volgende stappen uit om een vertaalproject te maken:
    >
    > Nadat u het vereiste filter hebt toegepast, klikt u op **Gereed** in het deelvenster Filter om onderwerpen te filteren op basis van uw selectie.
 
-   - **Vertaalstatus**: Kies om onderwerpen te filteren op basis van hun vertaalstatus. De beschikbare opties zijn: Onsynchroon, Kopie ontbreekt, Bezig en Gesynchroniseerd.
+   - **Vertaalstatus**: Kies of u onderwerpen wilt filteren op basis van hun vertaalstatus. De beschikbare opties zijn: Niet gesynchroniseerd, Kopie ontbreekt, Bezig en Gesynchroniseerd.
    - **Zoeken**: Voer een of meerdere termen in om in de onderwerptitels te zoeken.
-   - **Brontype**: Kies om onderwerpen te filteren op basis van hun bestandstypen. De beschikbare opties zijn: All, DITA, DITA Map, Resource.
+   - **Brontype**: Kies of u onderwerpen wilt filteren op basis van de bestandstypen. De beschikbare opties zijn: All, DITA, DITA Map, Resource.
    - **Bronversie gewijzigd na**: Kies of u een onderwerp wilt filteren op basis van de wijzigingsdatum en -tijd. Alle onderwerpen die na de gespecificeerde datum en de tijd worden gewijzigd worden getoond in de lijst.
    - **Basislijn**: Klik op Basislijn gebruiken en kies een basislijn die op de kaart is gemaakt. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. U kunt de gewenste bestanden vanaf de basislijn kiezen en doorgaan met het vertaalproces. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer informatie over het exporteren van de vertaalde basislijn raadpleegt u [Vertaalde basislijn exporteren](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 1. Klikken **Taalkopieën maken/bijwerken** onder aan het deelvenster Filter.
@@ -99,7 +99,7 @@ Voer de volgende stappen uit om een vertaalproject te maken:
 
 1. In de **Projecttitel** voert u een titel in voor het project.
 
-1. Selecteer **Inclusief DITA-kaart** optie om de kaart voor vertaling te verzenden.
+1. Selecteer de **Inclusief DITA-kaart** optie om de kaart voor vertaling te verzenden.
 1. Klikken **Start** om een nieuw vertaalproject op te zetten.
 
    Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaal een gebied kopieert dat beschikbaar is in het vertaalproject, kunt u dan doorgaan en de vertaaltaak starten.
@@ -110,7 +110,7 @@ Voer de volgende stappen uit om een vertaalproject te maken:
 Het tabblad Vertaling bevat de volgende secties:
 
 - **Samenvatting**: Toont het aantal van verwijzingen voorzien onderwerpen en brontaal samen met zijn code.
-- **Details**: Toont de onderwerptitel, het type van onderwerp, taalcode van het onderwerp, brontaal, versie van het brononderwerp, etiket dat aan het onderwerp wordt toegevoegd, en vertaalstatus.
+- **Details**: Toont de onderwerptitel, het type van onderwerp, taalcode van het onderwerp, brontaal, de versie van het brononderwerp, etiket dat aan het onderwerp wordt toegevoegd, en vertaalstatus.
 
 
 

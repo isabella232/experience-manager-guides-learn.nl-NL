@@ -1,10 +1,10 @@
 ---
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
-description: Leer hoe te om de Inzameling van de Kaart voor outputgeneratie te gebruiken
+description: Leer om een kaartinzameling tot stand te brengen en te schrappen en een kaart toe te voegen of te schrappen DITA. Vorm, produceer en annuleer een taak van de outputgeneratie van een kaartinzameling in AEM Gidsen.
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---

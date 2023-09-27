@@ -1,10 +1,10 @@
 ---
 title: Rapporten
-description: Meer informatie over rapporten
+description: Leer hoe u DITA-kaartrapporten maakt in AEM hulplijnen.
 exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ In een organisatorische opstelling, wilt u de algemene volledigheid van uw techn
 
 U kunt DITA-kaartrapporten op twee manieren maken:
 
-- **Van de Redacteur van het Web**: Staat u toe om de onderwerpenlijst en het meta-gegevensrapport voor de huidige kaart DITA van de Redacteur van het Web te produceren. U kunt de onderwerpen sorteren of hen filtreren die op uw selectie worden gebaseerd. U hebt ook de eigenschap om de meta-gegevens van de geselecteerde onderwerpen bulksgewijs bij te werken.
+- **Van de Redacteur van het Web**: Staat u toe om de onderwerpenlijst en het meta-gegevensrapport voor de huidige kaart DITA van de Redacteur van het Web te produceren. U kunt de onderwerpen sorteren of hen filtreren die op uw selectie worden gebaseerd. U kunt ook de metagegevens van de geselecteerde onderwerpen bulksgewijs bijwerken.
 - **Van het kaartdashboard**: Staat u toe om het DITA kaartrapport te produceren en de gedetailleerde informatie zowel op kaart-niveau als onderwerp-niveau te verstrekken.
 
 - **[DITA kaartrapport van de Redacteur van het Web](reports-web-editor.md)**
@@ -24,6 +24,6 @@ U kunt DITA-kaartrapporten op twee manieren maken:
 
 - **[Rapport voor hergebruik van inhoud](reports-content-reuse.md)**
 
-- **[Conversiestatus-rapport](reports-convertion-status.md)**
+- **[Conversiestatus rapport](reports-convertion-status.md)**
 
 - **[Rapport voor versiehistorie van teruggedraaide bestanden](reports-reverted-file-version-history.md)**

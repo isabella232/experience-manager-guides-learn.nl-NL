@@ -1,10 +1,10 @@
 ---
 title: Labels gebruiken
-description: Leer hoe u labels kunt gebruiken
+description: Ontdek het gebruik van labels voor verschillende versies van een bestand in AEM hulplijnen. Leer hoe te om een etiket aan een versie van een onderwerp toe te voegen of te schrappen.
 exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Met AEM hulplijnen kunt u labels toevoegen aan verschillende versies van een bes
 
 Als u bijvoorbeeld *versie 1.0* van een onderwerp in *versie 1.0* en *versie 1.1* van hetzelfde onderwerp in *versie 2.0* kunt u toevoegen *versie 1.0* op het etiket *versie 1.0* en *versie 2.0* op het etiket *versie 1.1*.
 
-Nadat u de labels hebt toegevoegd, kunt u een basislijn maken en opgeven welke versie van het onderwerp moet worden opgenomen voor publicatie met die basislijn. Als u wilt zien welke versie in een basislijn moet worden opgenomen of uitgesloten, gebruikt u de optie Versiegeschiedenis.
+Nadat u de labels hebt toegevoegd, kunt u een basislijn maken en opgeven welke versie van het onderwerp moet worden opgenomen voor publicatie met die basislijn. Als u wilt zien welke versie in een basislijn moet worden opgenomen of uitgesloten, gebruikt u de optie Versiehistorie.
 
 ## Een label toevoegen
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om een etiket aan uw onderwerp toe te voegen:
 
 >[!NOTE]
 >
-> Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van labels met behulp van basislijn raadpleegt u [Labels toevoegen aan een basislijn](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
+> Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Zie voor meer informatie over het toevoegen van labels met gebruik van basislijn [Labels toevoegen aan een basislijn](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
 
 ## Een label verwijderen
 

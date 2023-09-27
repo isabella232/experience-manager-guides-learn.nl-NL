@@ -1,9 +1,9 @@
 ---
 title: Een onderwerp naar een inhoudsfragment publiceren
-description: Leer hoe u een onderwerp naar een inhoudsfragment publiceert.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+description: Publiceer een onderwerp of de elementen binnen een onderwerp aan een inhoudsfragment in AEM Gidsen.  Leer hoe u de inhoudsfragmenten die aanwezig zijn voor een onderwerp kunt weergeven en deze opnieuw kunt publiceren.
+source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
