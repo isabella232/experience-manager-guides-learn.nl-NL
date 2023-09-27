@@ -1,7 +1,7 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Gebruik gegevens uit uw gegevensbron in AEM hulplijnen. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
-source-git-commit: 0293dc6e375d6a80bf35694a8e9784f0bb6d0384
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
 source-wordcount: '2028'
 ht-degree: 0%

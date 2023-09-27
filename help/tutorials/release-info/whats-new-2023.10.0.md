@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release oktober 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van oktober 2023 as a Cloud Service.
-source-git-commit: 18adbd41370d32b183cc4828d1d79b7183453f5e
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de p
 
 Experience Manager Guides biedt nu een **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt de schakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch gemakkelijk tot stand brengen.
 
-U kunt ook gemakkelijk een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen. Leer hoe u [vorm een gegevensbronschakelaar gebruikend de hulpmiddelen](../install-guide/conf-data-source-connector.md).
+U kunt ook gemakkelijk een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen. Leer hoe u [vorm een gegevensbronschakelaar gebruikend de hulpmiddelen](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![gegevensbronconnectors die worden vermeld in het deelvenster Gegevensbronnen](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -33,7 +33,7 @@ U kunt nu ook het logbestand voor het genereren van inhoud weergeven. Met dit lo
 
 U kunt nu de gereedschappen Snelheid gebruiken in de sjablonen voor hulplijnen voor Experience Managers. Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. U kunt de sjablonen gebruiken tijdens het maken van een inhoudsfragment of onderwerp. Met deze functie bespaart u tijd en moeite om handmatig dezelfde functie toe te passen op elke gegevensset.  Het zorgt ook voor nauwkeurige resultaten.
 U kunt bijvoorbeeld het gereedschap $mathTool gebruiken om wiskundige functies uit te voeren.
-Meer informatie over hoe [De hulpmiddelen van de gebruikssnelheid in de gegevensbronmalplaatjes](../user-guide/web-editor-content-snippet.md##use-velocity-tools).
+Meer informatie over hoe [De hulpmiddelen van de gebruikssnelheid in de gegevensbronmalplaatjes](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## Native PDF-verbeteringen
