@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release oktober 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van oktober 2023 as a Cloud Service.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ Dit artikel behandelt de nieuwe en verbeterde functies in versie oktober 2023 va
 Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023.10.0.md).
 
 
-## Vorm een gegevensbronschakelaar gebruikend de hulpmiddelen
+## Vorm een gegevensbronschakelaar van het gebruikersinterface
 
 Experience Manager Guides biedt nu een **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt de schakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch gemakkelijk tot stand brengen.
 
-U kunt ook gemakkelijk een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen. Leer hoe u [vorm een gegevensbronschakelaar gebruikend de hulpmiddelen](../cs-install-guide/conf-data-source-connector-tools.md).
+U kunt ook gemakkelijk een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen. Leer hoe u [vormt gemakkelijk een gegevensbronschakelaar van het gebruikersinterface](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![gegevensbronconnectors die worden vermeld in het deelvenster Gegevensbronnen](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Raadpleeg voor meer informatie de **Kaartweergave** functiebeschrijving in het g
 Met de hulplijnen voor Experience Managers kunt u nu een bestand selecteren in de webeditor en het bestand vervolgens bewerken in de insteekmodule voor de zuurstofaansluiting. Deze optie wordt niet ingeschakeld als onderdeel van de out-of-the-box ondersteuning.
 
 Raadpleeg voor meer informatie de **Opties voor een bestand** functiebeschrijving in het gedeelte [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
-

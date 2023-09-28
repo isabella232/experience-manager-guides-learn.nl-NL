@@ -1,10 +1,11 @@
 ---
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release oktober 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides van oktober 2023
-source-git-commit: 4ce9024579aeaa97e6e35ac777ee3c14f0061aa6
+exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 2%
+source-wordcount: '1017'
+ht-degree: 1%
 
 ---
 
@@ -159,8 +160,9 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 - Er worden nieuwe vertaalprojecten gemaakt in plaats van nieuwe banen toe te voegen aan de geselecteerde bestaande vertaalprojecten.  (10214)
 
+## Bekend probleem
 
+Adobe heeft de volgende bekende kwestie voor de release van oktober 2023 geïdentificeerd.
 
-
-
+- Opnieuw publiceren van inhoudsfragment mislukt.
 

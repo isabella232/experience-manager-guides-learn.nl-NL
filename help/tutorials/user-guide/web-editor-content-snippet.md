@@ -1,13 +1,13 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Gebruik gegevens uit uw gegevensbron in AEM hulplijnen. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
-
 
 # Gegevens uit uw gegevensbron gebruiken
 
@@ -23,7 +23,7 @@ Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 <summary> Cloud Services </summary>
 
 
-- Leer hoe u de release van oktober 2023 of hoger gebruikt [vorm een gegevensbronschakelaar gebruikend de hulpmiddelen](../cs-install-guide/conf-data-source-connector-tools.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
+- Leer hoe u de release van oktober 2023 of hoger gebruikt [vormt een gegevensbronschakelaar van het gebruikersinterface](../cs-install-guide/conf-data-source-connector-tools.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
 
 - Leer hoe u de release van juli 2023 of september 2023 gebruikt [configureren van gegevensbronaansluiting](../cs-install-guide/conf-data-source-connector.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
 
@@ -273,6 +273,3 @@ U kunt de volgende hulpmiddelen binnen de malplaatjes van de Snelheid gebruiken 
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-

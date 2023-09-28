@@ -1,15 +1,17 @@
 ---
 title: Vorm een gegevensbronschakelaar gebruikend hulpmiddelen
 description: Leer hoe te om een gegevensbronschakelaar te vormen gebruikend de hulpmiddelen.
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# Vorm een gegevensbronschakelaar gebruikend de hulpmiddelen
+
+# Vorm een gegevensbronschakelaar van het gebruikersinterface
 
 De Gidsen van de Experience Manager komt met **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstellingsschakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch.
 
@@ -74,7 +76,3 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 
 
 Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder **Deelvenster Gegevensbronnen** in de webeditor. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer informatie, bekijkt u [Een inhoudsfragment uit uw gegevensbron invoegen](../user-guide/web-editor-content-snippet.md).
-
-
-
-
