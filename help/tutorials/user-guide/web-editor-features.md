@@ -1,10 +1,10 @@
 ---
 title: De functies van de webeditor kennen
 description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
 - **Lijst met kenmerken**: Net als in de lijst met elementen kunt u de lijst met kenmerken en hun weergavenamen instellen die in de lijst met kenmerken van een element moet worden weergegeven. In het volgende schermschot, slechts zijn 3 attributen gevormd om in de de attributenlijst van een element te worden getoond:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-Met dit het plaatsen, wanneer u probeert om een attribuut aan een element toe te voegen, ziet u slechts de lijst van attributen die in de lijst worden gevormd.
+  Met dit het plaatsen, wanneer u probeert om een attribuut aan een element toe te voegen, ziet u slechts de lijst van attributen die in de lijst worden gevormd.
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **Profiel publiceren**: Dit bevat de publicatieprofielen die kunnen worden gebruikt om de basisuitvoer van de kennis te publiceren. U kunt een nieuw profiel maken voor een geselecteerd type consument. Bijvoorbeeld Salesforce.
+
+   - **Vereisten voor het maken van een Salesforce-publicatieprofiel**
+
+      - Maak een verbonden app voor Salesforce. Zie voor meer informatie [OAuth-instellingen inschakelen voor API-integratie](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - Zorg tijdens het configureren van de verbonden app voor het volgende:
+
+         - Geef de callback op.
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - Selecteer de volgende OAuth-bereiken:
+            - Volledige toegang (volledig)
+            - Selecteer Gebruikersgegevens beheren via API&#39;s (api)
+
+  Als de app eenmaal is geconfigureerd, biedt Salesforce een **Consumentencode** en **Consumentengeheim**.
+
+  Deze kunnen worden gebruikt om het Salesforce-publicatieprofiel te maken.
+  ![profielen in editorinstellingen](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- Als u een publicatieprofiel wilt maken, kunt u een kennisbasis zoals Salesforce selecteren in het menu **Servertype** vervolgkeuzelijst. Voer een profielnaam in. In de **Site-URL** Voer de consumentensite in die u wilt gebruiken voor het publiceren van de uitvoer en voeg vervolgens de **Consumentencode** en **Consumentengeheim** verstrekt door de consumentensite zoals Salesforce. Meld u vervolgens aan bij het nieuwe profiel.
+
+  >[!NOTE]
+  >
+  >Om een volmacht voor Salesforce in de Gidsen van de Experience Manager te vormen, gebruik Apache de Configuratie van de Volmacht van HTTP Componenten in AEM. Leer hoe u [vorm volmacht voor de Controle van de Verbinding AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  Nadat u zich hebt aangemeld, kunt u het publicatieprofiel selecteren in de uitvoervoorinstellingen van een DITA-kaart en de uitvoer voor geselecteerde artikelen genereren. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](../install-guide/configure-article-based-publishing.md) in de Installatie- en configuratiehandleiding.
+
+- **Validatie**: Dit lusje bevat opties om de Bevestigingen van het Schema in de redacteur van het Web te vormen. U kunt de volgende functies inschakelen:
+
+   - **Validatiecontrole uitvoeren voordat het bestand wordt opgeslagen**: Selecteer deze optie om Schematron-validaties uit te voeren met behulp van de geselecteerde Schematron-bestanden voordat u een opslagbewerking uitvoert. U kunt een Schematron-bestand toevoegen door op het pictogram + te klikken. De geselecteerde Schematron-bestanden worden weergegeven.
+
+     >[!NOTE]
+     >Het geselecteerde schemabestand of de geselecteerde schemabestanden blijven aanwezig voor het geselecteerde mapprofiel.
+
+     ![Validatie in editorinstellingen](./images/editor-setting-validation.png){width="300" align="left"}
+Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt die is gedefinieerd in de geselecteerde Schema-bestanden. Als u deze optie niet selecteert, wordt het bestand niet gevalideerd voordat de wijzigingen worden opgeslagen.
+
+   - **Laat alle gebruikers schemabestanden toevoegen in het validatievenster**: Selecteer deze optie als u wilt dat gebruikers een willekeurig schemabestand kunnen toevoegen in het deelvenster Validatie van de webeditor. Dit staat de gebruikers toe om dossiers Schematron toe te voegen en dan de onderwerpen tegen het dossier van Schematron te bevestigen. Als deze optie niet is geselecteerd, **Schematron-bestand toevoegen** is niet beschikbaar voor de gebruikers in het dialoogvenster **Deelvenster Validatie** van de webeditor.
+
 
 - **Weergavekenmerken**: Net als in de lijst Kenmerken kunt u de lijst met kenmerken instellen die in de lijst met kenmerken van een element moet worden weergegeven. Standaard vier **Weergavekenmerken** — het publiek, het platform, het product, en de steunen zijn gevormd om in de attributenlijst van een element worden getoond. U kunt ook een weergavekenmerk toevoegen met de opdracht **Toevoegen** bovenaan. U kunt ook alle weergavekenmerken verwijderen met de opdracht **Verwijderen** pictogram.
 
-De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
+  De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **Vertaling**: Dit tabblad bevat de optie om de bronlabels aan de doelversie door te geven.
 

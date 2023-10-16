@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 4%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 4%
       + On-prem/Managed Services {#on-prem-release-notes}
          + 4.3.0 Release {#43-release}
             + Wat is er nieuw {#43-whats-new}
+               + [4.3.1 Nieuwe functies](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0 Nieuwe functies](./release-info/whats-new-4.3-release.md)
             + Opmerkingen bij de release {#43-release-notes}
+               + [4.3.1 Opmerkingen bij de release](./release-info/release-notes-4.3.1.md)
                + [4.3.0 Opmerkingen bij de release](./release-info/release-notes-4.3.md)
          + 4.2 Release {#42-release}
             + Wat is er nieuw {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 4%
          + [Vorm het aantal LimitReads voor een vraag](./install-guide/conf-query-limitreads.md)
          + [Pakketten installeren voor publiceren op basis van artikel](./install-guide/configure-article-based-publishing.md)
          + [Een gegevensbronaansluiting configureren](./install-guide/conf-data-source-connector.md)
+         + [Vorm een gegevensbronschakelaar van het gebruikersinterface](./install-guide/conf-data-source-connector-tools.md)
          + [De Geavanceerde Kaarteditor instellen als standaard](./install-guide/conf-map-editor.md)
          + [@navtitle-kenmerk standaard opnemen](./install-guide/auto-add-navtitle.md)
          + [De optie configureren om te bewerken in zuurstof](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 4%
          + [Eén onderwerp PDF genereren](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [Vertaal in de Redacteur van het Web vormen](./cs-install-guide/conf-translation-web-editor.md)
          + [Een gegevensbronaansluiting configureren](./cs-install-guide/conf-data-source-connector.md)
-         + [Vorm een gegevensbronschakelaar gebruikend hulpmiddelen](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [Vorm een gegevensbronschakelaar van het gebruikersinterface](./cs-install-guide/conf-data-source-connector-tools.md)
          + [De Geavanceerde Kaarteditor instellen als standaard](./cs-install-guide/conf-map-editor.md)
          + [@navtitle-kenmerk standaard opnemen](./cs-install-guide/auto-add-navtitle.md)
       + Werken met algemene profielen en mapprofielen {#global-folder-profiles-cs}

@@ -1,10 +1,10 @@
 ---
 title: Sneltoetsen in de webeditor
 description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM hulplijnen.
-exl-id: e8be4c83-a236-43c1-b778-c3da92537174
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,27 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 >
 > De lettertoetsen in de sneltoets zijn niet hoofdlettergevoelig.
 
-| Bewerking in webeditor | Sneltoets |
-|-----------------------|-----------------|
-| Vette opmaak toepassen op geselecteerde tekst | ***Ctrl***+***B*** |
-| Cursieve opmaak toepassen op geselecteerde tekst | ***Ctrl***+***I*** |
-| Onderstrepingsopmaak toepassen op geselecteerde tekst | ***Ctrl***+***U*** |
-| Document opslaan in auteur- of bronweergave | ***Ctrl***+**Shift**+***S*** |
-| Alle geopende documenten opslaan in de auteur- of bronweergave | **Ctrl**+**S** |
-| Dialoogvenster Invoegelement tonen | ***Alt***+***Enter*** |
-| Dialoogvenster Element invoegen weergeven om het element in te voegen vóór het geselecteerde element | ***Alt***+***Shift***+***Enter*** |
-| Verplaats een element uit een genest element en ga naar het bovenliggende element in de linkerrichting, anders ga naar het vorige element op hetzelfde niveau | ***Alt***+**Links *Pijl* |
-| Verplaats een element uit een genest element en ga naar het bovenliggende element in de rechterrichting. Anders gaat u naar het volgende element op hetzelfde niveau | ***Alt***+*Pijl-rechts* |
-| XML automatisch laten inspringen in bronweergave | *Ctrl*+***Alt***+***L*** |
-| Het huidige element splitsen | **Enter** |
-| Geselecteerde tekst kopiëren | ***Ctrl***+**C** |
-| Plakken | ***Ctrl***+**V** |
-| Dialoogvenster Afdrukken openen | ***Ctrl***+**P** |
-| Laatste handeling ongedaan maken | ***Ctrl***+**Z** |
-| Laatste handeling opnieuw | ***Ctrl***+**Y** |
+## Sneltoetsen voor Windows en macOS
 
-**Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+| Bewerking in webeditor | Windows | macOS |
+|-----------------------|-----------------|-----------------|
+| Vette opmaak toepassen op geselecteerde tekst | ***Ctrl***+***B*** | ***Opdracht***+***B*** |
+| Cursieve opmaak toepassen op geselecteerde tekst | ***Ctrl***+***I*** | ***Opdracht***+***I*** |
+| Onderstrepingsopmaak toepassen op geselecteerde tekst | ***Ctrl***+***U*** | ***Opdracht***+***U*** |
+| Document opslaan in auteur- of bronweergave | ***Ctrl***+**Shift**+***S*** | ***Opdracht***+**Shift**+***S*** |
+| Alle geopende documenten opslaan in de auteur- of bronweergave | ***Ctrl***+***S*** | ***Opdracht***+***S*** |
+| Dialoogvenster Invoegelement tonen | ***Alt***+***Enter*** | ***Optie***+***Enter*** |
+| Dialoogvenster Element invoegen weergeven om het element in te voegen vóór het geselecteerde element | ***Alt***+***Shift***+***Enter*** | ***Optie***+***Shift***+***Enter*** |
+| De cursor één woord naar links verplaatsen. | ***Ctrl***+***Pijl-links*** | ***Optie***+***Pijl-links*** |
+| De cursor één woord naar rechts verplaatsen. | ***Ctrl***+***Pijl-rechts*** | ***Optie***+***Pijl-rechts*** |
+| De cursor naar het begin van de huidige regel verplaatsen. | ***Home*** | ***Opdracht***+***Pijl-links*** |
+| De cursor naar het einde van de huidige regel verplaatsen. | **Einde** | ***Opdracht***+***Pijl-rechts*** |
+| XML automatisch laten inspringen in bronweergave | ***Ctrl***+***Alt***+***L*** | ***Opdracht***+***Optie***+***L*** |
+| Het huidige element splitsen | ***Enter*** | ***Retourneren*** |
+| Geselecteerde tekst kopiëren | ***Ctrl***+**C** | ***Opdracht***+**C** |
+| Plakken | ***Ctrl***+**V** | ***Opdracht***+**V** |
+| Dialoogvenster Afdrukken openen | ***Ctrl***+**P** | ***Opdracht***+**P** |
+| Laatste handeling ongedaan maken | ***Ctrl***+**Z** | ***Opdracht***+**Z** |
+| Laatste handeling opnieuw | ***Ctrl***+**Y** | ***Opdracht***+**Y** |
+
+**Bovenliggend onderwerp:** [Werken met de webeditor](web-editor.md)
