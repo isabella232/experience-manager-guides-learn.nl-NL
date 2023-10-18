@@ -1,13 +1,13 @@
 ---
 title: Inleiding
 description: Inleiding tot de API-naslaggids voor AEM
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
+source-git-commit: 112085153aaf246289bd8f91657c95e986df482e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # Inleiding {#id1761C0007W7}
 
@@ -175,7 +175,7 @@ Voer de volgende stappen uit om de dienst API JARs van de openbare Maven bewaarp
    <repository>
       <id>fmdita-public</id>
       <name>fmdita-public</name>
-      <url>https://repo.xmldocumentation.com/repository/fmdita-public</url>
+      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
    </repository>
    ```
 
@@ -228,4 +228,3 @@ Hier volgt een lijst met andere nuttige bronnen van AEM hulplijnen, die beschikb
 - Installatie- en configuratiehandleiding
 - Handleiding voor snel starten
 - [Help-archiveringspagina](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(toegang tot oudere releasedocumentatie\)
-
