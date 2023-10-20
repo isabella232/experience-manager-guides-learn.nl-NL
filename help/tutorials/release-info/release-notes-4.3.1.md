@@ -1,41 +1,41 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de Adobe Experience Manager Guides 4.3.1 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.1-versies van Adobe Experience Manager-hulplijnen
-source-git-commit: a8f36d020422d9d83ca47e2246dc42278f2c7963
+source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 4%
 
 ---
 
 # 4.3.1 Vrijgave van Adobe Experience Manager-hulplijnen (oktober 2023)
 
-In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.3.1 van de Adobe Experience Manager-hulplijnen (later genoemd als *Hulplijnen AEM*).
+In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.3.1 van de Adobe Experience Manager-hulplijnen (later genoemd als *Hulplijnen Experience Manager*).
 
 Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functies in 4.3.1-release van Adobe Experience Manager-hulplijnen](./whats-new-4.3.1-release.md).
 
-## Upgrade naar versie 4.3.1 van AEM hulplijnen
+## Upgrade naar versie 4.3.1 van de Experience Manager-hulplijnen
 
 
-U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.3.1. Voordat u verdergaat met de upgrade naar versie 4.3.1 van AEM hulplijnen, moet u rekening houden met de volgende punten: u kunt de huidige versie van AEM hulplijnen upgraden naar versie 4.3.1
+U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 4.3.1. Voordat u verdergaat met de upgrade naar versie 4.3.1 van de Experience Manager-hulplijnen, moet u rekening houden met de volgende punten: u kunt de huidige versie van de Experience Manager-hulplijnen bijwerken naar versie 4.3.1
 
-- Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.
-- Als u versie 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.2 of 4.2.x uitvoeren voordat u een upgrade naar versie 4.3.1 uitvoert.
+
+- Als u versie 4.3.0, 4.2 of 4.2.1 gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.
+- Als u versie 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.3.0, 4.2 of 4.2.x uitvoeren voordat u een upgrade naar versie 4.3.1 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.1 uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgrade AEM hulplijnen in de productspecifieke installatiehandleiding.
-
+- Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgradehulplijnen voor Experience Managers in de productspecifieke installatiehandleiding.
 
 
 >[!NOTE]
 >
->U moet AEM de dienstpak installeren alvorens AEM versie van Gidsen te bevorderen.
+>U moet AEM de dienstpak installeren alvorens de versie van de Gidsen van de Experience Manager te bevorderen.
 
 Zie voor meer informatie [Upgradeinstructies](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.3.1.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van Experience Manager Guides 4.3.1.
 
 ### Adobe Experience Manager
 
@@ -71,7 +71,7 @@ Zie voor meer informatie de *Technische voorschriften* in de handleiding Adobe E
 
 | Naam van componentenpakket | Versie van componenten | Sjabloonversie |
 |---|---|---|
-| Inhoudspakket voor componenten van hulplijnen AEM voor Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager Guides Components Content Package for Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Opgeloste problemen
 

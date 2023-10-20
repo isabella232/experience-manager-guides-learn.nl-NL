@@ -1,22 +1,22 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.3.1
 description: Meer informatie over de nieuwe en verbeterde functies in de 4.3.1-releases van Adobe Experience Manager Guides
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Nieuwe functies in versie 4.3.1 van Adobe Experience Manager-hulplijnen (oktober 2023)
 
-Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.3.1 van de Gidsen van Adobe Experience Manager (later genoemd *Hulplijnen AEM*).
+Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.3.1 van de Gidsen van Adobe Experience Manager (later genoemd *Hulplijnen Experience Manager*).
 
 Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](./release-notes-4.3.1.md).
 
 ## Verbind met een gegevensbron en neem de onderwerpen op
 
-De Gidsen van de Experience Manager verstrekt uit-van-de-doosschakelaars die u met uw gegevensbronnen helpen verbinden, die tot AEMGidsen een ware inhoudshub maken. Dit geeft u het voordeel om u tijd en inspanning te besparen die anders aan handgegevenstoevoeging of replicatie zouden worden besteed.
+De Gidsen van de Experience Manager verstrekt uit-van-de-doosschakelaars die u met uw gegevensbronnen helpen verbinden, die tot de Gidsen van de Experience Manager een ware inhoudshub maken. Dit geeft u het voordeel om u tijd en inspanning te besparen die anders aan handgegevenstoevoeging of replicatie zouden worden besteed.
 
 Samen met de bestaande uit-van-de-doos schakelaars zoals JIRA en SQL (MySQL, PostgreSQL, SQL Server, SQLite), kan uw beheerder schakelaars voor MariaDB, H2DB, de Uitwisseling van Adobe, en de gegevensbestanden van de Elasticsearch ook vormen. Zij kunnen andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden.
 
