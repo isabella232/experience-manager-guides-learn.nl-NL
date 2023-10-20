@@ -2,7 +2,7 @@
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
 exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 9a4f230d6724bcb5d8fc7036048ca13fd7bc52bc
+source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
 workflow-type: tm+mt
 source-wordcount: '4349'
 ht-degree: 0%
@@ -526,7 +526,7 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 
 ## Upgrade naar versie 4.3.1 {#upgrade-version-4-3-1}
 
-De upgrade naar versie 4.3.1 is afhankelijk van de huidige versie van Hulplijnen voor Experience Managers. Als u versie 4.3, 4.2 of 4.2.1 gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.
+De upgrade naar versie 4.3.1 is afhankelijk van de huidige versie van Hulplijnen voor Experience Managers. Als u versie 4.3.0, 4.2 of 4.2.1 gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.
 
 >[!NOTE]
 >
