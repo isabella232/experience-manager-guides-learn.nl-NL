@@ -1,7 +1,7 @@
 ---
 title: Native PDF-publicatiefunctie | Streepjescode toevoegen
 description: Leer hoe u streepjescodes kunt toevoegen.
-source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Voeg een element van middelidentiteitskaart aan de kaart DITA toe. De bron-id fu
 
 U kunt de bron-id ook bewerken in de ontwerpmodus.
 
-<img src="./assets/barcode-map.png" alt="Voorbeeld van uitvoer met streepjescode" width="700" border="2px solid gray">
+<img src="./assets/barcode-map.png" alt="Voorbeeld van uitvoer met streepjescode" width="700" border="2px solid blue">
 
 
 ### Een tijdelijke aanduiding voor streepjescodes toevoegen aan de sjabloonkoptekst
@@ -75,7 +75,7 @@ Nadat u de vorige stappen hebt uitgevoerd, kunt u de PDF-uitvoer genereren met e
 
 In de volgende schermafbeelding wordt een voorbeeldstreepjescode weergegeven in een PDF-uitvoer.
 
-<kbd><img src="./assets/barcode-output-sample.png" alt="Voorbeeld van uitvoer met streepjescode" width="700"></kbd>
+<img src="./assets/barcode-output-sample.png" alt="Voorbeeld van uitvoer met streepjescode" width="700">
 
 
 ## Typen streepjescodes {#barcode-types}
