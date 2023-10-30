@@ -1,7 +1,7 @@
 ---
 title: Native PDF-publicatiefunctie | Streepjescode toevoegen
 description: Leer hoe u streepjescodes kunt toevoegen.
-source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
+source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -14,11 +14,11 @@ Streepjescodes zijn handig om informatie op te nemen die eenvoudig door machines
 
 Deze zelfstudie helpt u streepjescodes toe te voegen vóór elke pagina in de uitvoer van de PDF.
 
-## Stappen om een streepjescode te genereren
+## Stappen voor het genereren van een streepjescode
 
 Voer de volgende stappen uit om een streepjescode te genereren:
 
-### Voeg een middelidentiteitskaart aan de kaart DITA toe
+### Een bron-id toevoegen aan de DITA-kaart
 
 Voeg een element van middelidentiteitskaart aan de kaart DITA toe. De bron-id fungeert als de belangrijkste invoer voor het genereren van de streepjescode.
 
@@ -38,12 +38,12 @@ Voeg een element van middelidentiteitskaart aan de kaart DITA toe. De bron-id fu
 
 U kunt de bron-id ook bewerken in de ontwerpmodus.
 
-<img src="./assets/barcode-map.png" alt="Voorbeeld van uitvoer met streepjescode" width="700">
+<img src="./assets/barcode-map.png" alt="Voorbeeld van uitvoer met streepjescode" width="700" border="2px solid gray">
 
 
 ### Een tijdelijke aanduiding voor streepjescodes toevoegen aan de sjabloonkoptekst
 
-De `Common.plt` in het **Basis** sjabloon om een streepjescode toe te voegen na de projecttitel.
+Wijzig de `Common.plt` in het **Basis** sjabloon om een streepjescode toe te voegen na de projecttitel.
 
 ```html
 ...
@@ -58,7 +58,7 @@ De `Common.plt` in het **Basis** sjabloon om een streepjescode toe te voegen na 
 
 ### De CSS van de sjabloon bijwerken om een streepjescodewaarde te renderen
 
-De `content.css` bestand om een streepjescode te renderen tijdens het genereren van de PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Zie voor meer informatie [Typen streepjescodes](#barcode-types).
+Wijzig de `content.css` bestand om een streepjescode te renderen tijdens het genereren van de PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Zie voor meer informatie [Typen streepjescodes](#barcode-types).
 
 
 
@@ -75,37 +75,37 @@ Nadat u de vorige stappen hebt uitgevoerd, kunt u de PDF-uitvoer genereren met e
 
 In de volgende schermafbeelding wordt een voorbeeldstreepjescode weergegeven in een PDF-uitvoer.
 
-<img src="./assets/barcode-output-sample.png" alt="Voorbeeld van uitvoer met streepjescode" width="700">
+<kbd><img src="./assets/barcode-output-sample.png" alt="Voorbeeld van uitvoer met streepjescode" width="700"></kbd>
 
 
 ## Typen streepjescodes {#barcode-types}
 
 | Type | CSS-kenmerk | Extra kenmerken |
 | ------------------------------- | ----------------------- | -------------------------- |
-| QR-code | qrcode |  |
-| PDF417 | pdf417 |  |
-| DataMatrix | data-matrix |  |
-| Aztec-code | aztec-code |  |
-| Rastermatrix | raster-matrix |  |
-| Maxicode | maxicodemodus-4 |  |
-| Micro QR | microqr |  |
-| Code One | code-on |  |
-| Codablock F | codablockf |  |
-| GS1 Databar Limited | beperkt tot databases |  |
-| GS1-database Omnidirectioneel | Omnidirectioneel gegevensbestand |  |
-| EAN-13 | ean-13 |  |
-| GS1-128 (EAN-128) | code128 | -ro-streepjescode-codering: g1; |
-| ITF-14 | itf14 |  |
-| UPC-A | upc-a |  |
-| Code 128 | code128 |  |
-| Interleaved 2 of 5 | code2of5 interleaved |  |
-| POSTNET | postnet |  |
-| Nederlandse postcode | kixcode |  |
-| Korea Post | korea-post |  |
-| Deutsche Post Leitcode | dp-leitcode |  |
-| Australia Post | auspost |  |
-| Logmars | logmars |  |
-| Farmacode | farmacode |  |
-| USPS OneCode (Intelligent Mail) | usps-onecode |  |
+| QR-code | qrcode |                            |
+| PDF417 | pdf417 |                            |
+| DataMatrix | data-matrix |                            |
+| Aztec-code | aztec code |                            |
+| Rastermatrix | raster-matrix |                            |
+| Maxicode | maxicodemodus-4 |                            |
+| Micro QR | microqr |                            |
+| Code One | code-on |                            |
+| Codablock F | codablockf |                            |
+| GS1 Databar Limited | beperkt tot databases |                            |
+| GS1-database Omnidirectioneel | Omnidirectioneel gegevensbestand |                            |
+| EAN-13 | ean-13 |                            |
+| GS1-128 (EAN-128) | code128 | -ro-streepjescode-codering: gs1; |
+| ITF-14 | itf14 |                            |
+| UPC-A | upc-a |                            |
+| Code 128 | code128 |                            |
+| Interleaved 2 of 5 | code2of5 interleaved |                            |
+| POSTNET | postnet |                            |
+| Nederlandse postcode | kix |                            |
+| Korea Post | korea-post |                            |
+| Deutsche Post Leitcode | dp-leitcode |                            |
+| Australia Post | auspost |                            |
+| Logmars | logmars |                            |
+| Farmacode | farmacode |                            |
+| USPS OneCode (intelligente post) | usps-onecode |                            |
 
 
