@@ -2,7 +2,7 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 0%
@@ -414,11 +414,11 @@ U kunt bijvoorbeeld een taalvariabele &quot;reference-label&quot; toevoegen en d
 Wanneer u `${lng:<variable name>}` in de sectie Alinea bevatten de kruisverwijzingen in de alinea&#39;s van de uitvoer de gelokaliseerde tekst en het paginanummer.\
 In de volgende schermafbeeldingen ziet u bijvoorbeeld de kruisverwijzingen &quot;Weergeven op pagina 1&quot; in het Engels en &quot;Einzelheiten finden Sie auf der Seite 1&quot; in het Duits.
 
-<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px solid blue">
 
 *Een kruisverwijzing in een alinea die wordt gepubliceerd in de Engelse taal.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px solid blue">
 
 *Een kruisverwijzing in een alinea die in het Duits wordt gepubliceerd.*
 
