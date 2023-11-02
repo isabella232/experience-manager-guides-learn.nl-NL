@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '4859'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ U kunt de tekst definiëren die voor en na het einde moet worden weergegeven. Ee
 * **De verklarende woordenlijsttermijnen van de verbinding aan de verklarende woordenlijstpagina**: Selecteer deze optie om de termen in de woordenlijst als hyperlinks in de inhoud weer te geven en deze te koppelen aan de termen op de woordenlijstpagina. Hierdoor kunnen lezers snel de definitie bekijken van een term die is gedefinieerd in de woordenlijst.
 
   Als u de termen in de woordenlijst wilt omzetten in hyperlinks, moet u:
-   * Inschakelen **Verklarende woordenlijst** in de **Paginavolgorde** voor een DITA-kaart.
+   * Inschakelen **Verklarende woordenlijst** in de **Volgorde pagina-indeling** voor een DITA-kaart.
    * Voeg de Verklarende woordenlijst in de Achterpagina&#39;s van de Matter voor een kaart van het Boek toe.
 
   Als u de pagina Woordenlijst niet inschakelt, worden de termen in de woordenlijst in de inhoud niet geconverteerd naar hyperlinks in de uitvoer van de PDF.
@@ -265,7 +265,11 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
 * **Index**: Als u een indeling van de indexpagina hebt ontworpen, wijst u deze toe aan de optie Index. Met behulp van de opmaakmodellen kunt u verschillende indexelementen opmaken in de PDF-uitvoer. Indexstijlen gebruiken `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` en `.idx-child` om de stijlen voor de elementen van de index aan te passen.
 
-* **Verklarende woordenlijst**: Als u een paginalay-out Woordenlijst hebt, wijst u deze toe aan de optie Woordenlijst.  De termen in de woordenlijst van de uitvoer van de PDF worden altijd in alfabetische volgorde gesorteerd.
+* **Verklarende woordenlijst**: Als u een paginalay-out Woordenlijst hebt, wijst u deze toe aan de optie Woordenlijst.
+
+  De termen in de woordenlijst van de uitvoer van de PDF worden altijd in alfabetische volgorde gesorteerd.
+
+  U kunt ook de tag toevoegen `sort-as` om een sorteersleutel voor de verklarende woordenlijsttermijnen te bepalen. De Gidsen van de Experience Manager gebruikt dan de soortsleutel om de verklarende woordenlijsttermijnen in plaats van de verklarende woordenlijsttermijnen te sorteren. Als u de sorteersleutel niet hebt gedefinieerd, worden de termen in de woordenlijst gebruikt om te sorteren. U kunt bijvoorbeeld de tag toevoegen `sort-as` aan de `glossterm` en stel de waarde in op `A` voor de term &quot;USB&quot; (bijvoorbeeld `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Op dezelfde manier kunt u `sort-as` -tag en de waarde ervan instellen op `B` voor de term &quot;Pen Drive&quot;. Wanneer u deze verklarende woordenlijsttermijnen sorteert, de soortsleutel `A` voor de verklarende woordenlijst verschijnt de term &quot;USB&quot; vóór de soortsleutel `B` voor de verklarende woordenlijst &quot;Pengas&quot;. In de uitvoer van de PDF komt &#39;USB&#39; dus voor &#39;Pen Drive&#39; op de woordenlijstpagina.
 
   Met behulp van de opmaakmodellen kunt u verschillende woordenboekelementen opmaken in de PDF-uitvoer. De verklarende woordenlijststijlen gebruiken `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, en `.glo-term` om de stijlen voor de elementen van de verklarende woordenlijst aan te passen.
 
@@ -285,7 +289,7 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
 Zie voor meer informatie over paginalay-outs [Een pagina-indeling ontwerpen](design-page-layout.md).
 
-### Paginavolgorde {#page-order}
+### Volgorde pagina-indeling {#page-order}
 
 U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken waarin zij in uw definitieve output van de PDF zouden moeten verschijnen:
 
@@ -299,7 +303,7 @@ U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken 
 * Verklarende woordenlijst
 * Visum
 
-  <img src="assets/page-order-advance-settings.png" alt="Paginavolgorde" width="550">
+  <img src="assets/page-order-advance-settings.png" alt="Paginalay-outvolgorde" width="550">
 
   Als u geen bepaalde sectie in de uitvoer van PDF wilt tonen, kunt u dat verbergen door de schakeloptie uit te schakelen.
 
@@ -350,6 +354,43 @@ U kunt ook de volgende handelingen uitvoeren:
 * U kunt ook meerdere keren een aangepaste indeling toevoegen en bestellen. Hierdoor kunt u de statische inhoud op de juiste wijze publiceren.
 
   U kunt bijvoorbeeld een aangepaste indeling gebruiken om meerdere keren een statische waarschuwing te publiceren in de uitvoer van PDF.
+
+
+
+### Paginaorganisatie
+
+De pagina&#39;s in een PDF-document worden doorgaans gepubliceerd op basis van de inhoud die is geordend in de DITA-kaart of het bladwijzerbestand. U kunt echter ook de volgorde van pagina&#39;s in het PDF-document wijzigen. U kunt bijvoorbeeld een document met meerdere pagina&#39;s afdrukken als een boekje. Wanneer u de vellen sorteert, vouwt en niet, is het resultaat één boek met de juiste paginavolgorde.  Je kan het gepubliceerde boek dan lezen als een boek.
+
+<img src="assets/template-page-organization.png" alt="Paginaorganisatie" width="550">
+
+
+De volgende instellingen zijn beschikbaar onder **Paginaorganisatie** sectie:
+
+#### Paginavolgorde
+
+Selecteer een paginavolgorde die de volgorde bepaalt van de pagina&#39;s in uw PDF-document. U kunt de volgende opties kiezen in het vervolgkeuzemenu:
+
+* **Standaard**: De standaardvolgorde van de pagina&#39;s volgens het bronbestand.
+* **Oneven pagina&#39;s eerst**: Alle oneven pagina&#39;s worden vóór alle even pagina&#39;s geplaatst.
+* **Even pagina&#39;s eerst**: Alle even pagina&#39;s worden vóór alle oneven pagina&#39;s geplaatst.
+* **Omkeren**: De paginavolgorde wordt omgekeerd.
+* **Boek**: Alle pagina&#39;s worden geordend als in een boekje.
+* **Van rechts naar links**: Alle pagina&#39;s staan in boekvolgorde van rechts naar links.
+* **Aangepast**: Definieer een aangepaste volgorde van pagina&#39;s in plaats van een vooraf gedefinieerde volgorde.
+   * &quot;a..b&quot; — Alle opeenvolgende pagina&#39;s van a tot en met b.
+   * &quot;a,b,c&quot; — Nieuwe paginavolgorde a, b, c.
+   * &quot;a*b&quot; — De pagina a wordt telkens herhaald.
+   * &quot;-a&quot; — Negatieve paginanummers worden vanaf de laatste pagina teruggeteld en kunnen met andere aangepaste bestellingen worden gecombineerd.
+   * &quot;X&quot; — Alle pagina&#39;s van het document. Hetzelfde resultaat als &quot;1..-1&quot;.
+
+U kunt bijvoorbeeld een aangepaste volgorde geven zoals &quot;2,3,5*2,7.10,-1,-2.
+De gegeven paginaorde resulteert in een PDF die de volgende paginaaantallen van het originele document heeft, veronderstellend dat het 25 pagina&#39;s totaal heeft: 2, 3, 5, 5,7, 8, 9, 10, 25, 24.
+
+#### Meer dan één pagina per vel configureren
+
+Kies deze optie als u meerdere pagina&#39;s op één vel papier wilt publiceren.  Selecteer vervolgens het aantal rijen en kolommen en publiceer de pagina&#39;s als een raster op één blad. U kunt de pagina&#39;s bijvoorbeeld publiceren als een raster van 2 rijen en 4 kolommen.
+
+Definieer de grootte van het doelblad en de afdrukstand waarin u het blad wilt publiceren. U kunt ook de marge- en opvullingseigenschappen van het blad opgeven.
 
 
 

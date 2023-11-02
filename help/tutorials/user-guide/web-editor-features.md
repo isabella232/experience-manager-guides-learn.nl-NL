@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '16500'
+source-wordcount: '17079'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,12 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
 - **Apparaatthema gebruiken**: Schakel dit selectievakje in als u wilt dat AEM hulplijnen automatisch schakelen tussen lichte en donkere thema&#39;s op basis van het thema van uw apparaat.
+
+- **Bestanden weergeven op**: Selecteer de standaardmanier om de bestanden weer te geven in de webeditor. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van het dialoogvenster **Auteur** weergeven.
+  >[!NOTE]
+  >
+  > Standaard worden de bestanden op titel weergegeven in de webeditor.
+
 - **Thema**: U kunt kiezen uit de thema&#39;s Licht, Lichter, Donker of Donkerst voor de editor. Bij het lichtste thema gebruiken de werkbalken en deelvensters een lichtere grijze achtergrond. In het geval van Licht-thema gebruiken de werkbalken en deelvensters lichtgrijze achtergrondkleur. In het geval van het donkerste thema gebruiken de werkbalken en deelvensters een donkerdere achtergrond voor zwarte kleuren. In het geval van Donker thema gebruiken de werkbalken en deelvensters een achtergrond met zwarte kleuren. In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte kleur.
 
 - **Mapprofielen**: Het profiel Map bestuurt diverse configuraties met betrekking tot voorwaardelijke kenmerken, ontwerpsjablonen, uitvoervoorinstellingen en de configuraties van de webeditor. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
@@ -713,6 +719,10 @@ In het linkerdeelvenster hebt u toegang tot de volgende functies:
 **Favorieten** -  ![](images/favorite-collections.svg)
 
 Als u werkt aan een set bestanden of mappen, kunt u deze toevoegen aan uw favoriete lijst en ze snel openen. De lijst Favorieten bevat de lijst met documenten die u hebt toegevoegd en andere openbaar toegankelijke lijsten met favoriete documenten van de andere gebruikers.
+Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
 
 Als u een favoriete lijst of verzameling wilt maken, klikt u op het pictogram + naast het deelvenster Favorieten om het logboek New Collection Media weer te geven:
 
@@ -753,7 +763,12 @@ U kunt ook veel handelingen uitvoeren met het menu Opties dat beschikbaar is voo
 
 **Weergave opslagplaats** - ![](images/Repository_icon.svg)
 
-Wanneer u op het pictogram Weergave opslagplaats klikt, wordt een lijst met bestanden en mappen beschikbaar in DAM.
+Wanneer u op het pictogram Weergave opslagplaats klikt, wordt een lijst met bestanden en mappen beschikbaar in DAM. Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en de bestandsnaam als knopinfo weergeven.
+
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
+
 
 Er worden 75 bestanden tegelijk geladen. Elke keer dat u klikt **Meer laden**... 75 bestanden worden geladen en de knop wordt niet meer weergegeven wanneer alle bestanden zijn weergegeven. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
@@ -1013,7 +1028,15 @@ Voer een **Titel** voor de map, die automatisch wordt omgezet in de mapnaam. Het
 
 **Kaartweergave** -  ![](images/map-view-icon.svg)
 
-Wanneer u op het pictogram Kaartweergave klikt, wordt een lijst met onderwerpen in het kaartbestand weergegeven. Als u geen kaartbestand hebt geopend, wordt de Kaartweergave leeg weergegeven. Als u dubbelklikt op een kaartbestand, wordt het kaartbestand in deze weergave geopend. U kunt op om het even welk dossier binnen de kaart tweemaal klikken om het in de Redacteur van het Web te openen. Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de hoofdwerkbalk. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven. Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen en het uitgeven van een onderwerp door kaart DITA, zie [Onderwerpen bewerken via de DITA-kaart](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Wanneer u op het pictogram Kaartweergave klikt, wordt een lijst met onderwerpen in het kaartbestand weergegeven. Als u geen kaartbestand hebt geopend, wordt de Kaartweergave leeg weergegeven. Als u dubbelklikt op een kaartbestand, wordt het kaartbestand in deze weergave geopend. U kunt op om het even welk dossier binnen de kaart tweemaal klikken om het in de Redacteur van het Web te openen.
+
+Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+>Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
+
+
+Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de hoofdwerkbalk. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven. Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen en het uitgeven van een onderwerp door kaart DITA, zie [Onderwerpen bewerken via de DITA-kaart](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestand:
 
@@ -1177,6 +1200,11 @@ U kunt zoeken naar een tekenreeks in het element als deze wordt weergegeven in h
 Een van de belangrijkste functies van DITA is de mogelijkheid om inhoud opnieuw te gebruiken. In het deelvenster Herbruikbare inhoud kunt u uw DITA-bestanden opslaan vanwaar u doorgaans herbruikbare inhoud invoegt. Nadat de DITA-bestanden zijn toegevoegd, blijven deze in het deelvenster Herbruikbare inhoud van alle sessies staan. Dit betekent dat u uw DITA dossiers niet moet opnieuw toevoegen om tot hen later toegang te hebben.
 
 U kunt herbruikbare inhoud eenvoudig van het deelvenster naar het huidige onderwerp slepen en deze inhoud snel en eenvoudig invoegen. U kunt ook een voorvertoning van de inhoud weergeven voordat u deze in het document invoegt.
+
+Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
 
 Als u een DITA-bestand wilt toevoegen aan het deelvenster Herbruikbare inhoud, gebruikt u een van de volgende methoden:
 
@@ -1527,6 +1555,12 @@ Het deelvenster Sjablonen is alleen beschikbaar voor beheerders. Met dit deelven
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
+Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sjabloon plaatst, kunt u de bestandstitel en de bestandsnaam als knopinfo weergeven.
+
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
+
 Als u een sjabloon wilt maken, klikt u op het pictogram + naast Sjablonen en kiest u een sjabloon die u wilt maken. Als u **Onderwerpsjabloon** verschijnt het dialoogvenster Nieuw onderwerpsjabloon maken:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
@@ -1544,7 +1578,12 @@ Met het menu Opties van een bestaande sjabloon kunt u ervoor kiezen **Bewerken**
 **Controleren** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Gidsen verstrekt de eigenschap om alle overzichtstaken in uw projecten te tonen. U kunt alle revisieprojecten en de actieve revisietaken in de revisieprojecten weergeven, waarvan u deel uitmaakt in het dialoogvenster **Controleren** deelvenster.  Vervolgens kunt u de revisietaken openen om de opmerkingen van de verschillende revisoren weer te geven.
-De revisietaken worden weergegeven in het deelvenster. Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur van het Web.
+De revisietaken worden weergegeven in het deelvenster. Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
+
+Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur van het Web.
 
 
 Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actieve revisietaken die aanwezig zijn in uw projecten:
@@ -1581,6 +1620,11 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 Onder in het linkerdeelvenster vindt u het pictogram Zoeken en vervangen. Met het deelvenster Zoeken en vervangen kunt u zoeken naar tekst in bestanden in een kaart of een map in uw opslagplaats en deze vervangen. U kunt in alle onderwerpen van een kaart evenals onderwerpen vinden en vervangen aanwezig in submaps binnen de kaart.
 
 ![](images/map-find-replace.png){width="800" align="left"}
+
+Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
 
 Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
@@ -1665,7 +1709,14 @@ U kunt ook de opdracht **Zoeken op kaart** van de **Opties** menu van een kaart 
 
 ## Inhoudsbewerkingsgebied {#id2051EB000UI}
 
-In het inhoudsbewerkingsgebied wordt de inhoud van het onderwerp of de kaart weergegeven. U kunt alle inhoud in dit gebied bewerken. Het geeft een WYSIWYG-weergave van de inhoud die u bewerkt. U kunt veelvoudige onderwerpen hebben die tezelfdertijd worden geopend, die in hun respectieve lusjes worden getoond. Onder het lusje van het dossier, hebt u de broodkruimel van het element bij huidige curseurplaats. In de rechterbovenhoek van het inhoudsbewerkingsgebied wordt het versienummer van het huidige onderwerp weergegeven.
+In het inhoudsbewerkingsgebied wordt de inhoud van het onderwerp of de kaart weergegeven. U kunt alle inhoud in dit gebied bewerken. Het geeft een WYSIWYG-weergave van de inhoud die u bewerkt. U kunt veelvoudige onderwerpen hebben die tezelfdertijd worden geopend, die in hun respectieve lusjes worden getoond.
+
+Standaard kunt u de bestandstitels op de tabbladen weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
+
+Onder het lusje van het dossier, hebt u de broodkruimel van het element bij huidige curseurplaats. In de rechterbovenhoek van het inhoudsbewerkingsgebied wordt het versienummer van het huidige onderwerp weergegeven.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
@@ -1720,7 +1771,10 @@ In het gedeelte Verwijzingen hebt u toegang tot de volgende functies:
 - **Gebruikt in**: In verwijzingen worden de documenten weergegeven waarnaar het huidige bestand wordt verwezen of gebruikt.
 - **Uitgaande koppelingen:** De uitgaande Verbindingen maken een lijst van de documenten waarnaar in het huidige document wordt verwezen.
 
-Houd de muisaanwijzer boven de verwijzing van het bestand en open het bestandspad en de UUID van het bestand in de knopinfo.
+Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+>[!NOTE]
+>
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
 
 **Opmerking:** Alle Gebruikte binnen en Uitgaande verwijzingen zijn hyperlinked aan de documenten. U kunt de gekoppelde documenten gemakkelijk openen en bewerken.
 

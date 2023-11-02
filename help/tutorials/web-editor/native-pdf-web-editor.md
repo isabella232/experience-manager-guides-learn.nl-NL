@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorinstelling voor PDF-uitvoer kunt maken en genereren, tijdelijke bestanden kunt downloaden nadat u de uitvoer van eigen PDF hebt gegenereerd en taalvariabelen in AEM hulplijnen kunt gebruiken.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Hiermee kunt u paginalay-outs instellen en paginaweergaveopties opgeven voor PDF
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **PDF-sjabloon** | PDF-sjablonen bieden een duidelijke structuur voor het definiëren van paginalay-outs, het opmaken van inhoud en het toepassen van verschillende instellingen op de PDF-uitvoer. Selecteer een sjabloon in de vervolgkeuzelijst PDF-sjabloon om uw voorkeursjabloon te kiezen. |
+| **PDF-sjabloon** | PDF-sjablonen bieden een duidelijke structuur voor het definiëren van paginalay-outs, het opmaken van inhoud en het toepassen van verschillende instellingen op de PDF-uitvoer. Selecteer een sjabloon in de vervolgkeuzelijst PDF-sjabloon om uw voorkeursjabloon te kiezen. <br> U kunt ook **Door sjabloon bladeren** <img src="./assets/browse-templates-icon.svg"  alt= "bladersjablonen, pictogram" width="25">  om een sjabloon te kiezen. In de **PDF-sjabloon selecteren** kunt u ook een voorvertoning van de miniatuur weergeven en de titel en beschrijving van de geselecteerde sjabloon bekijken. |
 | **Paginaweergave** | Gebruik de paginaweergave voor de paginaweergave waarin wordt getoond hoe de PDF wordt weergegeven wanneer deze wordt geopend. Selecteer een optie in het keuzemenu Paginaweergave om een voorkeursweergave te kiezen. <br><ul><li> **Standaard**  Hiermee wordt de standaardinstelling van de PDF-viewer op de computer van de gebruiker weergegeven.  <br> <li> **Weergave één pagina** Hiermee geeft u één pagina tegelijk weer.   <br> <li> **Bladeren op één pagina** Hiermee geeft u één pagina weer in een doorlopende verticale kolom.  <br> <li> **Weergave van twee pagina&#39;s** Hiermee geeft u de spread van twee pagina&#39;s naast elkaar weer. .<br> <li> **Bladeren op twee pagina&#39;s** Hiermee geeft u de spread van twee pagina&#39;s naast elkaar weer terwijl u doorlopend schuift. </ul> |
 | **Zoomen** | Selecteer deze optie om het formaat te wijzigen van de paginaweergave waarin wordt getoond hoe de PDF wordt weergegeven wanneer deze wordt geopend.  <br><ul><li> **Standaard** Wordt weergegeven volgens de standaardinstelling van de PDF-viewer op de computer van de gebruiker    <br> <li> **100%** Hiermee geeft u de pagina op ware grootte weer.     <br> <li> **Pagina passend maken** Hiermee past u de breedte en hoogte van de pagina aan in het documentvenster. .<br> <li> **Paginabreedte passend maken** Hiermee zorgt u dat de breedte van de pagina de breedte van het documentvenster vult.  <br> <li> **Paginahoogte passend maken** Hiermee stelt u de hoogte van de pagina in op de hoogte van het documentvenster. </ul> |
 

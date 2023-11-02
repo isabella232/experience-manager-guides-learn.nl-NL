@@ -1,13 +1,13 @@
 ---
 title: Instellingen voor uitvoergeneratie configureren
 description: Leer hoe u instellingen voor uitvoergeneratie configureert
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 0%
 
 ---
-
 
 # Instellingen voor uitvoergeneratie configureren {#id181AI0B0E30}
 
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om het tabblad Basislijn op het dashboard voor de D
 >
 > Deze configuratie is standaard ingeschakeld en het tabblad Basislijn is niet beschikbaar op het kaartdashboard.
 
-## Overvloeien publiceren configureren binnen een bestaande AEM-site {#id1691I0V0MGR}
+## Overvloeien publiceren binnen een bestaande AEM site configureren {#id1691I0V0MGR}
 
 Als u een AEM site hebt die DITA-inhoud bevat, kunt u de AEM Site-uitvoer zo configureren dat DITA-inhoud wordt gepubliceerd naar een vooraf gedefinieerde locatie binnen uw site. In de volgende schermafbeelding van een AEM sitepagina worden bijvoorbeeld de `ditacontent` knooppunt is gereserveerd voor opslag van DITA-inhoud:
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om de sjablooneigenschappen van uw bestaande site t
 
    >[!NOTE]
    >
-   > Breng geen aanpassingen aan in de standaardconfiguratiebestanden die beschikbaar zijn in het dialoogvenster `libs` knooppunt. U moet een bedekking maken van de `libs` knooppunt in `apps` de vereiste bestanden in de `apps` alleen knooppunt.
+   > Breng geen aanpassingen aan in de standaardconfiguratiebestanden in het dialoogvenster `libs` knooppunt. U moet een bedekking maken van de `libs` knooppunt in de `apps` de vereiste bestanden in de `apps` alleen knooppunt.
 
 1. Voeg de volgende eigenschappen toe:
 
@@ -61,16 +61,14 @@ Voer de volgende stappen uit om de sjablooneigenschappen van uw bestaande site t
 
 De volgende keer dat u DITA-inhoud publiceert met behulp van de sjabloonconfiguraties van uw site, wordt de inhoud gepubliceerd in de knooppunten die zijn opgegeven in het dialoogvenster `topicContentNode` en `topicHeadNode` eigenschappen.
 
-## Uitvoer AEM site aanpassen {#id166TG0B30WR}
+## Uitvoer van AEM site aanpassen {#id166TG0B30WR}
 
 De AEM hulplijnen ondersteunen het maken van uitvoerbestanden in de volgende indelingen:
 
 - Site AEM
-
 - PDF
-
 - HTML5
-- ePub
+- EPUB
 - Aangepaste uitvoer via DITA-OT
 
 Voor de AEM Site-uitvoer kunt u verschillende ontwerpsjablonen met verschillende uitvoertaken toewijzen. Deze ontwerpsjablonen kunnen de DITA-inhoud in verschillende lay-outs renderen. U kunt bijvoorbeeld verschillende ontwerpsjablonen opgeven voor een intern en extern publiek.
@@ -80,6 +78,7 @@ U kunt ook aangepaste DITA Open Toolkit \(DITA-OT\)-plug-ins gebruiken met de AE
 >[!TIP]
 >
 > Zie de *AEM publiceren* in de handleiding met aanbevolen procedures voor aanbevolen procedures bij het maken van AEM site-uitvoer.
+
 
 ### Ontwerpsjabloon aanpassen voor het genereren van uitvoer {#customize_xml-add-on}
 
@@ -99,7 +98,7 @@ Voer de volgende stappen uit om uw eigen ontwerpmalplaatje te specificeren voor 
 
    /apps/fmdita/config/templates
 
-1. U moet ook de sjablonen downloaden en kopiëren waarnaar wordt verwezen vanuit het standaardsjabloonknooppunt. De sjablonen waarnaar wordt verwezen, worden onder geplaatst:
+1. U moet ook de sjablonen downloaden en kopiëren waarnaar wordt verwezen vanuit het standaardsjabloonknooppunt. De sjablonen waarnaar wordt verwezen worden onder:
 
    /libs/fmdita/templates/default/cqtemplates
 
@@ -140,7 +139,7 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booleaanse waarde \(true/false\). Als u uitvoer wilt genereren met de paginatitel, stelt u deze eigenschap in op true. Standaard wordt de bestandsnaam gebruikt.<br> **Standaardwaarde**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolean \(true/false\). Als u uitvoer wilt genereren met de paginatitel, stelt u deze eigenschap in op true. Standaard wordt de bestandsnaam gebruikt.<br> **Standaardwaarde**: false |
 
 ### Vorm filename het ontsmetten regels voor het creëren van onderwerpen en het publiceren AEM de output van de Plaats {#id2164D0KD0XA}
 
@@ -164,8 +163,8 @@ U kunt ook andere eigenschappen configureren, zoals kleine letters gebruiken in 
 
 | Eigenschappensleutel | Waarde van eigenschap |
 |------------|--------------|
-| `nodename.uselower` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: true |
-| `nodename.separator` | Willekeurig teken. <br> **Standaardwaarde**: \_ *\(onderstrepingsteken\)* |
+| `nodename.uselower` | Boolean \(true/false\).<br> **Standaardwaarde**: true |
+| `nodename.separator` | Elk teken. <br> **Standaardwaarde**: \_ *\(onderstrepingsteken\)* |
 | `nodename.maxlength` | Waarde van geheel getal.<br> **Standaardwaarde**: 50 |
 
 ### Samenvoegen van AEM siteknooppuntstructuur configureren
@@ -184,7 +183,7 @@ Voer de volgende stappen uit om de structuur van AEM siteknooppunt af te vlakken
 
 1. Identificeer het element\(en\) waarop u de nodestructuur wilt afvlakken:
 
-1. Bedekking van de `libs` knooppunt in `apps` en open het bestand elementmapping.xml.
+1. Bedekking van de `libs` knooppunt in de `apps` en open het bestand elementmapping.xml.
 
 1. Voeg de `<flatten>true</flatten>` eigenschap in de definitie van het element waarbij u de nodestructuur wilt afvlakken. Als u bijvoorbeeld de nodestructuur in het deelvenster `p` -element, voegt u vervolgens het afgevlakte kenmerk toe aan de definitie van `p` element zoals hieronder getoond:
 
@@ -209,7 +208,7 @@ Voer de volgende stappen uit om de structuur van AEM siteknooppunt af te vlakken
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|------------|--------------|
-   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `false` |
+   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | Boolean \(true/false\).<br> **Standaardwaarde**: `false` |
 
 
 Wanneer u nu de AEM Site-uitvoer genereert, worden de knooppunten in de `p` element wordt afgevlakt en opgeslagen binnen het `p` element zelf. U kunt de nieuwe afvlakkingseigenschappen voor de `p` -element in CRXDE.
@@ -230,7 +229,7 @@ Om het onderzoek toe te laten, zou u de afvlakking van AEM de knoopstructuur van
 
 VOORZIENING:
 
-U kunt maximaal 1 MB samengevoegde inhoud zoeken. In de vorige schermafbeelding kunt u bijvoorbeeld zoeken of de inhoud onder &lt;p> tag is &lt;= 1Mb.
+U kunt zoeken naar maximaal 1 MB samengevoegde inhoud. In de vorige schermafbeelding kunt u bijvoorbeeld zoeken of de inhoud onder &lt;p> tag is &lt;= 1Mb.
 
 >[!NOTE]
 >
@@ -255,11 +254,17 @@ Voer de volgende stappen uit om te stoppen met het maken van een versie voor de 
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | Boolean \(true/false\).<br> **Standaardwaarde**: `true` |
 
    >[!NOTE]
    >
    > Als deze optie is geselecteerd, kunnen gebruikers elke pagina\(s\) rechtstreeks verwijderen zonder daarvoor een versie te maken. Als de optie niet is geselecteerd, wordt een versie gemaakt voordat de pagina\(s\) worden verwijderd.
+
+### Aangepaste rewriter instellen met hulplijnen voor Experience Managers {#custom-rewriter}
+
+Experience Manager Guides heeft een aangepaste sling [**herschrijfster**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module voor het afhandelen van de koppelingen die worden gegenereerd in het geval van cross-maps (koppelingen tussen de onderwerpen van twee verschillende kaarten). Deze rewriter-configuratie wordt geïnstalleerd op het volgende pad: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+
+Als u een andere aangepaste schrijver voor de spelling in uw codebase hebt, gebruikt u een `'order'` waarde groter dan 50, aangezien de Experience Manager Gidsen herschrijver gebruikt `'order'` 50  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer informatie, bekijkt u [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
 ## Metagegevens gebruiken bij het publiceren van uitvoer via DITA-OT {#id191LF0U0TY4}
@@ -285,7 +290,7 @@ Voer de volgende stappen uit om de vereiste metagegevens in het systeem toe te v
 
    De pagina Metadata Schema Forms wordt weergegeven.
 
-1. Selecteer **default** in de lijst.
+1. Selecteer de **default** in de lijst.
 
    >[!NOTE]
    >
@@ -295,7 +300,7 @@ Voer de volgende stappen uit om de vereiste metagegevens in het systeem toe te v
 
 1. Voeg de aangepaste metagegevens toe die u in de gepubliceerde uitvoer wilt gebruiken. We voegen bijvoorbeeld metagegevens voor het publiek toe door de volgende stappen uit te voeren:
 
-   1. Van de **Formulier samenstellen** lijst met componenten, slepen en neerzetten **Tekst met één regel** op het formulier.
+   1. Van de **Formulier maken** lijst met componenten, slepen en neerzetten **Tekst met één regel** op het formulier.
 
    2. Selecteer het nieuwe veld om het dialoogvenster **Instellingen** van het veld.
 
@@ -388,8 +393,8 @@ Voor het valideren van de metagegevenswaarden die aan de DITA-OT worden doorgege
   ```
 
 
-- isArray: Een Booleaans kenmerk dat definieert of de metagegevens een meerwaarde \(Array\) zijn of niet. De waarden worden gescheiden door een puntkomma.
-- Pad-id: Absoluut pad naar het bestand dat is opgeslagen onder de tijdelijke map.
+- isArray: een Booleaans kenmerk dat definieert of de metagegevens een meerwaarde \(Array\) zijn of niet. De waarden worden gescheiden door een puntkomma.
+- Pad-id: absoluut pad naar het bestand dat is opgeslagen in de tijdelijke map.
 
 >[!NOTE]
 >
@@ -401,7 +406,7 @@ DITA-elementen in de AEM-hulplijnen worden toegewezen aan de corresponderende AE
 
 >[!NOTE]
 >
-> Breng geen aanpassingen aan in de standaardconfiguratiebestanden die beschikbaar zijn in het dialoogvenster ``libs`` knooppunt. U moet een bedekking maken van de ``libs`` knooppunt in ``apps`` de vereiste bestanden in de ``apps`` alleen knooppunt.
+> Breng geen aanpassingen aan in de standaardconfiguratiebestanden in het dialoogvenster ``libs`` knooppunt. U moet een bedekking maken van de ``libs`` knooppunt in de ``apps`` de vereiste bestanden in de ``apps`` alleen knooppunt.
 
 U kunt de vooraf bepaalde elementen gebruiken DITA, of u kunt elementen DITA aan uw douane AEM componenten in kaart brengen. Als u uw aangepaste AEM wilt gebruiken, moet u de structuur van de component `elementmapping.xml` bestand.
 
@@ -457,11 +462,11 @@ Een overzicht op hoog niveau van de `elementmapping.xml` de structuur wordt hier
 
    - SAMENGESTELD: element naar component *toewijzing gaat verder voor onderliggende elementen* ook.
 
-   - STANDALON: onderliggende elementen van het huidige element zijn *niet verder toegewezen*.
+   - STANDALONE: onderliggende elementen van het huidige element zijn *niet verder toegewezen*.
 
    In het bovenstaande voorbeeld, als `<title>` element heeft onderliggende elementen, deze worden niet toegewezen aan een andere component. De component voor `<title>` element is verantwoordelijk voor het renderen van alle onderliggende elementen in het `<title>` element.
 
-1. Als er meerdere componenten zijn toegewezen aan één DITA-element, wordt de beste overeenkomst voor het element geselecteerd. Om de beste overeenkomende component te selecteren, wordt het domein en de structurele specialisatie van elementen DITA overwogen.
+1. Als er meerdere componenten zijn toegewezen aan één DITA-element, wordt de beste overeenkomst voor het element geselecteerd. Om de beste overeenkomende component te selecteren, worden het domein en de structurele specialisatie van elementen DITA overwogen.
 
    Als er elementen DITA met domeinspecialisatie zijn en een component voor domeinspecialisatie in kaart wordt gebracht, dan wordt die component hoge prioriteit gegeven.
 
@@ -547,18 +552,18 @@ De volgende lijst beschrijft de elementen in het DITA elementenschema:
 | Element | Beschrijving |
 |-------|-----------|
 | `<ditaelement>` | The top-level node for each mapping element. |
-| `<class>` | Het klassenattribuut van het doelDITA element waarvoor u de component schrijft.<br> Bijvoorbeeld, is de klassenattributen voor het onderwerp DITA: <br> `- topic/topic` |
+| `<class>` | Het klassenkenmerk van het doel-DITA-element waarvoor u de component schrijft.<br> Bijvoorbeeld, is de klassenattributen voor het onderwerp DITA: <br> `- topic/topic` |
 | `<componentpath>` | Het CRXDE-pad van de toegewezen AEM. |
-| `<type>` | Mogelijke waarden:<br> -   **SAMENSTELLING**: Ook onderliggende elementen verwerken <br> -   **STANDALONE**: Skips-verwerking van onderliggende elementen |
-| `<attributeprop>` | Wordt gebruikt voor het toewijzen van geserialiseerde DITA-kenmerken en -waarden aan AEM knooppunten als eigenschap. Als u bijvoorbeeld `<note type="Caution">` element en de component die voor dit element is toegewezen, heeft `<attributeprop>attr_t</ attributeprop>`, dan wordt de attributen en de waarde van de knoop in series vervaardigd aan `attr_t` eigenschap of the corresponding AEM node \( `attr_t->type="caution"`\). |
+| `<type>` | Mogelijke waarden:<br> -   **SAMENSTELLING**: Verwerk onderliggende elementen ook <br> -   **STANDALONE**: slaat de verwerking van onderliggende elementen over |
+| `<attributeprop>` | Gebruikt voor afbeelding in series vervaardigde attributen DITA en waarden aan AEM knopen als bezit. Als u bijvoorbeeld `<note type="Caution">` element en de component die voor dit element is toegewezen, heeft `<attributeprop>attr_t</ attributeprop>`, dan wordt de attributen en de waarde van de knoop in series vervaardigd aan `attr_t` eigenschap of the corresponding AEM node \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Sla de `getTextContent()` uitvoer naar eigenschap gedefinieerd door `propname_t.` <br> **Opmerking:** Dit is een geoptimaliseerde eigenschap. |
 | `<xmlprop>propname_x </xmlprop>` | Met serienummering gecodeerde XML van dit knooppunt opslaan naar een eigenschap gedefinieerd door `propname_x.<br> `**Opmerking:** Dit is een geoptimaliseerde eigenschap. |
 | `<xpath>` | Als het element van XPath in de elementenafbeelding wordt verstrekt, dan samen met elementnaam en klasse zou de voorwaarde van XPath ook voor de componentenafbeelding moeten worden voldaan om te worden gebruikt. |
-| `<target>` | Plaats voor het element DITA in de crx bewaarplaats op gespecificeerde plaats.<br> Mogelijke waarden: <br> - **kop**: Onder het knooppunt head <br> - **text**: Onder het alineaknooppunt |
+| `<target>` | Plaats voor het element DITA in de crx bewaarplaats op gespecificeerde plaats.<br> Mogelijke waarden: <br> - **kop**: Onder het head-knooppunt <br> - **text**: Onder het alineaknooppunt |
 | `<wrapelement>` | Het HTML-element waarin de inhoud moet worden verpakt. |
 | `<wrapclass>` | De elementwaarde voor de eigenschap `wrapclass.` |
 | `<attributemap>` | Containerknooppunt met een of meer `<attribute>` knooppunten. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Wijst de attributen DITA aan AEM eigenschappen toe: <br> -   **`from`**: DITA-kenmerknaam <br> -   **`to`**: Naam AEM componenteigenschap <br> -   **`ispath`**: Als het kenmerk een padwaarde \(bijvoorbeeld: *image*\) <br> -   **`rel`**: Als het pad de bron of het doel is <br> **Opmerking:** Indien `attrname` begint met `%`, dan kaart `attrname minus '%'` om &#39; `propname`&quot;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Wijst de attributen DITA aan AEM eigenschappen toe: <br> -   **`from`**: DITA-kenmerknaam <br> -   **`to`**: naam AEM componenteigenschap <br> -   **`ispath`**: Als het kenmerk een padwaarde \(bijvoorbeeld: *image*\) <br> -   **`rel`**: Als het pad de bron of het doel is <br> **Opmerking:** Indien `attrname` begint met `%`, dan kaart `attrname minus '%'` om &#39; `propname`&quot;. |
 
 **Aanvullende opmerkingen**
 
@@ -566,7 +571,7 @@ De volgende lijst beschrijft de elementen in het DITA elementenschema:
 
 - In de `elementmapping.xml` Er zijn veel toewijzingsitems die verwijzen naar de component fmdita/components/dita/wrapper. Wrapper is een generische component die relatief eenvoudige constructies DITA gebruikend eigenschappen op hun plaatsknoop teruggeeft om relevante HTML te produceren. Het gebruikt de `wrapelement` eigenschap om omsluitende tags te genereren en de onderliggende rendering te delegeren aan de corresponderende componenten. Dit is handig wanneer u alleen een containercomponent wilt. In plaats van een nieuwe component te maken die een specifieke containertag weergeeft als `div` of `p`, kunt u de component Wrapper gebruiken met de component `wrapelement` en `wrapclass` eigenschappen om hetzelfde effect te bereiken.
 
-- Het wordt niet aanbevolen grote hoeveelheden tekst op te slaan in JCR-eigenschappen van String. De geoptimaliseerde berekening van het eigenschapstype bij het genereren van de uitvoer zorgt ervoor dat grote tekstinhoud niet wordt opgeslagen als tekenreekstype. In plaats daarvan, wanneer de inhoud groter dan een bepaalde drempel moet worden bewaard, wordt het type van het bezit veranderd in binair. Door gebrek, wordt deze drempel gevormd aan 512 bytes, maar kan in de Manager \ van de Configuratie worden veranderd \ (*com.adobe.fmdita.config.ConfigManager*\) door de **Opslaan als binaire drempelwaarde** instellen.
+- Het wordt niet aanbevolen grote hoeveelheden tekst op te slaan in JCR-eigenschappen van String. De geoptimaliseerde berekening van het eigenschapstype bij het genereren van de uitvoer zorgt ervoor dat grote tekstinhoud niet wordt opgeslagen als tekenreekstype. In plaats daarvan, wanneer de inhoud groter dan een bepaalde drempel moet worden bewaard, wordt het type van het bezit veranderd in binair. Door gebrek, wordt deze drempel gevormd aan 512 bytes, maar kan in de Manager van de Configuratie \ (*com.adobe.fmdita.config.ConfigManager*\) door de **Opslaan als binaire drempelwaarde** instellen.
 
 - Als u van plan bent om sommige \(en niet alle \) van de elementtoewijzingen met voeten te treden, moet u niet het volledige herhalen `elementmapping.xml` bestand. U moet een nieuw XML-toewijzingsbestand maken en alleen de elementen definiëren die u overschrijft.
 
@@ -656,5 +661,4 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 >[!TIP]
 >
-> Zie de *Uitvoerhistorie* in de handleiding met aanbevolen procedures voor het werken met de uitvoergeschiedenis.
-
+> Zie de *Uitvoerhistorie* in de handleiding met aanbevolen procedures voor aanbevolen procedures voor het werken met de uitvoergeschiedenis.

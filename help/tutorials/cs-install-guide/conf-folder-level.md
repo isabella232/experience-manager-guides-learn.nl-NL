@@ -1,13 +1,13 @@
 ---
 title: Profielen op algemeen niveau of mapniveau configureren
 description: Leer hoe u algemene profielen of mapprofielen configureert
-source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
+exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3961'
 ht-degree: 0%
 
 ---
-
 
 # Profielen op algemeen niveau of mapniveau configureren {#id181AH2003PF}
 
@@ -25,7 +25,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
 - **Voorwaardelijke kenmerken**: Gebruik dit tabblad om voorwaardelijke kenmerken op algemeen of mapniveau te configureren. Een voorwaardelijk kenmerk is een combinatie van de naam en de waarde van het kenmerk en u kunt er ook een label voor definiëren. U kunt de standaard attributen DITA of uw eigen douanekenmerken gebruiken. De voorwaardelijke attributen die u op het globale niveau bepaalt worden ter beschikking gesteld aan alle gebruikers over projecten. Als u voorwaardelijke kenmerken op mapniveau hebt gedefinieerd, worden deze samengevoegd met de algemeen gedefinieerde voorwaardelijke kenmerken.
 
-- **Ontwerpsjabloon**: Gebruik dit tabblad om de sjablonen te configureren die uw auteurs zullen gebruiken om DITA-inhoud te maken. De volgende onderwerpmalplaatjes zijn beschikbaar uit-van-de-doos:
+- **Sjablonen**: Gebruik dit tabblad om de sjablonen te configureren die uw auteurs zullen gebruiken om DITA-inhoud te maken of te publiceren. De volgende onderwerpmalplaatjes zijn beschikbaar uit-van-de-doos:
 
    - Verklarende woordenlijst
 
@@ -53,7 +53,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
    - Bladwijzer
 
-- **Uitvoervoorinstelling**: Net als bij ontwerpsjablonen zijn er vijf vooraf geconfigureerde uitvoervoorinstellingen:
+- **Uitvoervoorinstelling**: Net als sjablonen zijn er vijf vooraf geconfigureerde uitvoervoorinstellingen:
 
    - Site AEM
 
@@ -75,9 +75,9 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
    - Versielabels voor XML-inhoud
    - Rootmap \(alleen op mapniveau\)
 
-U kunt beide configureren: algemeen profiel en mapprofiel. In een profiel op mapniveau kunt u de mappen definiëren waarop de instellingen van toepassing zijn. Deze instellingen zijn onder andere de voorwaardelijke kenmerken, ontwerpsjablonen, uitvoervoorinstellingen en de instellingen in de XML-editor. De voorwaardelijke voorinstellingen, ontwerpsjablonen en configuraties van de XML-editor worden vervolgens beschikbaar gesteld aan auteurs die in de geconfigureerde mappen werken. Op dezelfde manier hebben uitgevers toegang tot de geconfigureerde uitvoervoorinstellingen die in de geconfigureerde mappen zijn gedefinieerd.
+U kunt beide configureren: algemeen profiel en mapprofiel. In een profiel op mapniveau kunt u de mappen definiëren waarop de instellingen van toepassing zijn. Deze instellingen zijn onder andere de voorwaardelijke kenmerken, sjablonen, uitvoervoorinstellingen en de instellingen in de XML-editor. De voorwaardelijke voorinstellingen, sjablonen en configuraties van de XML-editor worden vervolgens beschikbaar gesteld aan auteurs die in de geconfigureerde mappen werken. Op dezelfde manier hebben uitgevers toegang tot de geconfigureerde uitvoervoorinstellingen die in de geconfigureerde mappen zijn gedefinieerd.
 
-Een profiel op mapniveau overschrijft de instellingen die in het algemene profiel zijn geconfigureerd. Met andere woorden, als een omslag een omslag-vlakke profiel heeft, dan zal het de auteursmalplaatjes, outputmalplaatjes, en de montages van de Redacteur van XML tonen die in zijn overeenkomstig omslagprofiel worden gevormd. De instellingen die in het algemene profiel zijn geconfigureerd, worden niet weergegeven. Dit geldt echter niet voor de voorwaardelijke kenmerken. In het geval van voorwaardelijke kenmerken worden de voorwaardelijke kenmerken samengevoegd op algemeen niveau en mapniveau.
+Een profiel op mapniveau overschrijft de instellingen die in het algemene profiel zijn geconfigureerd. Met andere woorden, als een omslag een omslag-vlakke profiel heeft, dan zal het de malplaatjes, outputmalplaatjes, en montages van de Redacteur van XML tonen die in zijn overeenkomstig omslagprofiel worden gevormd. De instellingen die in het algemene profiel zijn geconfigureerd, worden niet weergegeven. Dit geldt echter niet voor de voorwaardelijke kenmerken. In het geval van voorwaardelijke kenmerken worden de voorwaardelijke kenmerken samengevoegd op algemeen niveau en mapniveau.
 
 In de volgende secties wordt u door het proces geleid voor het configureren van algemene profiel- en mapprofielen.
 
@@ -99,7 +99,7 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
 1. Om te vormen **Voorwaardelijke kenmerken**, zie [Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren](#id1889D0I305Z).
 
-1. Om te vormen **Ontwerpsjabloon**, zie [Ontwerpsjablonen configureren](#id1889D0IL0Y4).
+1. Om te vormen **Sjablonen**, zie [Ontwerpsjablonen configureren](#id1889D0IL0Y4).
 
 1. Om te vormen **Voorinstellingen uitvoer**, zie [Uitvoervoorinstellingen configureren](#id18AGD0IH0Y4).
 
@@ -144,7 +144,7 @@ Voer de volgende stappen uit om een profiel op mapniveau te configureren:
 
    >[!NOTE]
    >
-   > Gebruikers die u hier toevoegt, hebben de beheerdersrechten om de voorwaardelijke kenmerken, ontwerpsjabloon en uitvoervoorinstellingen die voor dit mapprofiel zijn geconfigureerd, bij te werken.
+   > Gebruikers die u hier toevoegt, hebben de beheerdersrechten om de voorwaardelijke kenmerken, sjablonen en uitvoervoorinstellingen die voor dit mapprofiel zijn geconfigureerd, bij te werken.
 
 1. Als u een map wilt toevoegen, klikt u op het pictogram Bladeren in het mappad, navigeert u naar een map en selecteert u deze. Klik vervolgens op Toevoegen om de map aan dit profiel toe te voegen.
 
@@ -161,11 +161,11 @@ Voer de volgende stappen uit om een profiel op mapniveau te configureren:
 1. Nadat u alle vereiste mappen en gebruikers aan het mappenprofiel hebt toegevoegd, klikt u op **Opslaan**.
 
 
-Nu kunt u de voorwaardelijke kenmerken, ontwerpsjablonen, uitvoervoorinstellingen en de XML-editor configureren.
+Nu kunt u de voorwaardelijke kenmerken, sjablonen, uitvoervoorinstellingen en de XML-editor configureren.
 
 >[!IMPORTANT]
 >
-> Wanneer u een omslagprofiel creeert, door gebrek bevat het geen auteursmalplaatjes. U moet de vereiste ontwerpsjablonen toevoegen aan het mappenprofiel om deze beschikbaar te maken voor uw auteurs.
+> Wanneer u een omslagprofiel creeert, door gebrek bevat het geen malplaatjes. U moet de vereiste sjablonen toevoegen aan het mappenprofiel om deze beschikbaar te maken voor de auteurs.
 
 ## Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren {#id1889D0I305Z}
 
@@ -225,13 +225,13 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 1. Voeg aangepaste kenmerken toe aan het algemene profiel of aan het mapprofiel.
 
 
-## Ontwerpsjablonen configureren {#id1889D0IL0Y4}
+## Sjablonen configureren {#id1889D0IL0Y4}
 
-AEM Hulplijnen worden geleverd met 7 ontwerpsjablonen buiten de box en 2 DITA-kaartsjablonen. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie. U gebruikt het tabblad Ontwerpsjabloon in de configuratie Mapprofielen om onderwerp- of kaartsjablonen toe te voegen aan of te verwijderen uit algemene profielen of uit mapprofielen.
+AEM de Gidsen komen met 7 uit-van-de-doos onderwerpmalplaatjes, 2 DITA kaartmalplaatjes, en 3 malplaatjes van PDF. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs en uitgevers. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie en het publiceren. U gebruikt de **Sjablonen** in de configuratie Mapprofielen om onderwerp-, kaart- of PDF-sjablonen toe te voegen aan of te verwijderen uit algemene profielen of uit profielen op mapniveau.
 
-Zelfs alvorens het onderwerp of de kaartmalplaatjes op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douane auteursmalplaatjes op te slaan. Om een douaneplaats te vormen om auteursmalplaatjes op te slaan, zie [Aangepast pad voor DITA-sjabloonmap configureren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Zelfs alvorens het onderwerp, de kaart, of de malplaatjes van PDF op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douanesjablonen op te slaan. Om een douaneplaats te vormen om de malplaatjes op te slaan, zie [Aangepast pad voor DITA-sjabloonmap configureren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Voer de volgende stappen uit om het onderwerp of de kaartmalplaatjes in een omslagprofiel toe te voegen:
+Voer de volgende stappen uit om het onderwerp, de kaart, of de malplaatjes van de PDF in een omslagprofiel toe te voegen:
 
 1. Meld u aan bij Adobe Experience Manager als beheerder of als de gebruiker beheerdersrechten heeft voor een profiel op mapniveau.
 
@@ -243,26 +243,26 @@ Voer de volgende stappen uit om het onderwerp of de kaartmalplaatjes in een omsl
 
    >[!NOTE]
    >
-   > U kunt desgewenst de ontwerpsjabloon configureren in het algemene profiel of in een mapprofiel.
+   > U kunt een sjabloon configureren in het algemene profiel of in een mapprofiel.
 
-1. Klik op de profielpagina op de knop **Ontwerpsjabloon** tab.
+1. Klik op de profielpagina op de knop **Sjablonen** tab.
 1. Klikken **Bewerken**.
 
-   U krijgt de opties om de malplaatjes van het Onderwerp en van de Kaart toe te voegen door van de standaardplaats te zoeken of te doorbladeren voor het.
+   U krijgt de opties om de malplaatjes van het Onderwerp, van de Kaart, en van de PDF toe te voegen door van de standaardplaats te zoeken of te doorbladeren voor het.
 
    >[!NOTE]
    >
-   > Standaard worden alle ontwerpsjablonen opgeslagen in de map /content/dam/dita-templates. De `dita-templates` map bevat `topics` en `maps` subfolders om het onderwerp en kaartmalplaatjes op te slaan. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [Aangepaste ontwerpsjabloon maken](#id1917D0EG0HJ).
+   > Door gebrek, worden alle malplaatjes opgeslagen in /content/dam/dita-templates omslag. De `dita-templates` map bevat `topics`, `maps`, en `PDF` submappen voor het opslaan van het onderwerp, de kaart en de sjablonen PDF. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [Aangepaste ontwerpsjabloon maken](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png)
+   ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Voeg het vereiste onderwerp en kaartmalplaatjes aan uw profiel toe.
+1. Voeg het vereiste onderwerp, de kaart, en de malplaatjes van PDF aan uw profiel toe.
 
    Voer een van de volgende handelingen uit om een sjabloon toe te voegen:
 
    - Kies **Zoeken of typen** en voert u de naam van een sjabloon in of selecteert u deze in de vervolgkeuzelijst. De vervolgkeuzelijst bestaat uit alle standaardsjablonen en alle nieuwe sjablonen die u hebt gemaakt.
 
-     ![](assets/default-template-list.png)
+     ![](assets/default-template-list.png){width="800" align="left"}
 
    - Klikken **Bladeren** en selecteer een sjabloon van DAM.
 
@@ -270,7 +270,7 @@ Voer de volgende stappen uit om het onderwerp of de kaartmalplaatjes in een omsl
 
    De geselecteerde sjablonen worden toegevoegd aan de sjabloonlijst.
 
-   ![](assets/author-templ-added-list.png)
+   ![](assets/author-templ-added-list.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -475,4 +475,3 @@ In het bovenstaande voorbeeld is &quot;label1&quot; de id voor de labelvolgorde 
 **Rootmap**
 
 Als uw auteurs met een specifieke wortelkaart werken, dan kunt u doorbladeren aan en die rootmap hier selecteren. U kunt de routekaart alleen definiëren voor een mapprofiel.
-

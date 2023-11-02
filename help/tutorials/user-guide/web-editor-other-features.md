@@ -1,10 +1,10 @@
 ---
 title: Andere functies in de webeditor
 description: Andere functies van de webeditor in AEM hulplijnen bekijken. Leer hoe u deze functies kunt gebruiken voor verbeterde authoring in AEM hulplijnen.
-exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 **Een element opheffen**
 
-- Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselecteerde tekst en deze samenvoegen met het bovenliggende element. Als u bijvoorbeeld een `p` element binnen een `note` -element, kunt u de omloop van het `p` -element om de tekst direct in het `note` element. De optie Element opheffen is beschikbaar in het contextmenu van de broodkruimel van het onderwerp. Als u een element wilt opheffen, selecteert u het element in de breadcrumb van het onderwerp en klikt u met de rechtermuisknop op het element om het contextmenu te openen. Selecteer vervolgens Element opheffen om het element te verwijderen en de tekst van het element samen te voegen met het bovenliggende element.
+- Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselecteerde tekst en deze samenvoegen met het bovenliggende element. Als u bijvoorbeeld een `p` element binnen een `note` -element, kunt u de omloop van het `p` -element om de tekst direct in het `note` element. De **Element opheffen** Deze optie is beschikbaar in het contextmenu van de breadcrumb van het onderwerp. Als u een element wilt opheffen, klikt u met de rechtermuisknop op het element om het contextmenu te openen en selecteert u vervolgens **Element opheffen** om het element te verwijderen en de tekst van het element met zijn ouderelement samen te voegen.
 
 **Regeleinden en inspringing behouden**
 

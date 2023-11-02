@@ -1,10 +1,10 @@
 ---
 title: Basislijnen maken en beheren vanuit de webeditor
 description: Maak en beheer basislijnen in de webeditor in AEM hulplijnen. Leer hoe u basislijnen maakt op basis van labels en filters toepast op de basislijnen.
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opt
   > Het proces om etiketten toe te voegen of te verwijderen gebeurt asynchroon, zodat kunt u aan andere dossiers in de Redacteur van het Web blijven werken. Nadat het label is toegevoegd of verwijderd, wordt een pop-upbericht weergegeven met de bevestiging dat het label is toegevoegd of verwijderd. U ontvangt ook een melding in het Postvak IN.
 
 - **Eigenschappen bewerken** van een bestaande statische basislijn die u hebt ingesteld tijdens het maken van de basislijn.
-- De momentopname van een basislijn in een Csv- dossier met uitvoeren **Basislijn exporteren** -optie.
+- De opname van een basislijn exporteren in een Microsoft Excel-bestand met de opdracht **Basislijn exporteren** -optie.
 
 **Basislijnfilters**
 

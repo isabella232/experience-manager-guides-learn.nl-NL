@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
+source-git-commit: a9772cdde6161923d28be806407931859d9918d1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1617'
 ht-degree: 4%
 
 ---
@@ -20,27 +20,30 @@ ht-degree: 4%
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          + Versies van 2023 {#2023-releases}
-            + Release oktober {#2310-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.10.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.10.0.md)
-            + Release september {#2309-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.9.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
-            + Release juli {#2307-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.7.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.7.0.md)
-            + Release juni {#2306-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.6.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.6.0.md)
-            + Release april {#2304-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.4.0.md)
-               + [Releaseopmerkingen](./release-info/release-notes-2023.4.0.md)
-            + Release maart {#2303-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.3.0.md)
-               + [Releaseopmerkingen](./release-info/release-notes-2023.3.0.md)
-            + Release februari {#2302-release}
-               + [Wat is er nieuw](./release-info/whats-new-2023.2.0.md)
-               + [Releaseopmerkingen](./release-info/release-notes-2023.2.0.md)
+         + Release november {#2311-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.11.0.md)
+            + [Release-opmerkingen](./release-info/release-notes-2023.11.0.md)
+         + Release oktober {#2310-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.10.0.md)
+            + [Release-opmerkingen](./release-info/release-notes-2023.10.0.md)
+         + Release september {#2309-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.9.0.md)
+            + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
+         + Release juli {#2307-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.7.0.md)
+            + [Release-opmerkingen](./release-info/release-notes-2023.7.0.md)
+         + Release juni {#2306-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.6.0.md)
+            + [Release-opmerkingen](./release-info/release-notes-2023.6.0.md)
+         + Release april {#2304-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.4.0.md)
+            + [Releaseopmerkingen](./release-info/release-notes-2023.4.0.md)
+         + Release maart {#2303-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.3.0.md)
+            + [Releaseopmerkingen](./release-info/release-notes-2023.3.0.md)
+         + Release februari {#2302-release}
+            + [Wat is er nieuw](./release-info/whats-new-2023.2.0.md)
+            + [Releaseopmerkingen](./release-info/release-notes-2023.2.0.md)
          + Versies van 2022 {#2022-releases}
             + [Release-aantekeningen november](./release-info/release-notes-2022.11.0.md)
             + [Release-aantekeningen oktober](./release-info/release-notes-2022.10.0.md)
@@ -267,7 +270,7 @@ ht-degree: 4%
                + [Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud](./native-pdf/custom-style-toc.md)
                + [Een aangepaste bladwijzer toevoegen in PDF-uitvoer](./native-pdf/add-custom-bookmark.md)
                + [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
-               + [Aangepaste stijlen gebruiken in voetnoten](./native-pdf/footnote-number-style.md)
+               + [Stijlen toepassen op voetnoten](./native-pdf/footnote-number-style.md)
          + [JVM-vlaggen configureren voor Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
          + [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./install-guide/conf-content-fragment-mapping.md)
       + Werken met aangepaste workflows {#custom-workflow}

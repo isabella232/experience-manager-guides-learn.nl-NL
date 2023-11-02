@@ -2,9 +2,9 @@
 title: Sneltoetsen in de webeditor
 description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM hulplijnen.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,15 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | De cursor één woord naar rechts verplaatsen. | ***Ctrl***+***Pijl-rechts*** | ***Optie***+***Pijl-rechts*** |
 | De cursor naar het begin van de huidige regel verplaatsen. | ***Home*** | ***Opdracht***+***Pijl-links*** |
 | De cursor naar het einde van de huidige regel verplaatsen. | **Einde** | ***Opdracht***+***Pijl-rechts*** |
+| De cursor naar het begin van het volgende element verplaatsen. | ***Tab*** | ***Tab*** |
+| Plaats het lijstitem op het volgende niveau. | ***Tab*** | ***Tab*** |
+| De cursor naar het einde van het vorige element verplaatsen. | ***Shift***+***Tab*** | ***Shift***+***Tab*** |
+| Het lijstitem uitspringen naar het vorige niveau. | ***Shift***+***Tab*** | ***Shift***+***Tab*** |
 | XML automatisch laten inspringen in bronweergave | ***Ctrl***+***Alt***+***L*** | ***Opdracht***+***Optie***+***L*** |
 | Het huidige element splitsen | ***Enter*** | ***Retourneren*** |
 | Geselecteerde tekst kopiëren | ***Ctrl***+**C** | ***Opdracht***+**C** |
 | Plakken | ***Ctrl***+**V** | ***Opdracht***+**V** |
+| Opmaak plakken en aanpassen | ***Ctrl***+***Shift***+**V** | ***Opdracht***+***Shift***+**V** |
 | Dialoogvenster Afdrukken openen | ***Ctrl***+**P** | ***Opdracht***+**P** |
 | Laatste handeling ongedaan maken | ***Ctrl***+**Z** | ***Opdracht***+**Z** |
 | Laatste handeling opnieuw | ***Ctrl***+**Y** | ***Opdracht***+**Y** |
