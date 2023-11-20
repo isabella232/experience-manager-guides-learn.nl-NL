@@ -1,8 +1,8 @@
 ---
 title: Ondersteuning voor Schematron-bestanden
 description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, de verklaringen van het gebruiksRapporten om regels te controleren, regex uitdrukkingen te gebruiken, en abstracte patronen in de dossiers van Schematron van AEM Gidsen te bepalen.
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## abstracte patronen definiëren{#schematron-abstract-patterns}
 
-AEM Gudies ondersteunt ook abstracte patronen in Schematron. U kunt generische abstracte patronen bepalen hergebruik deze abstracte patronen.  U kunt plaatsaanduidingsparameters maken die het werkelijke patroon opgeven.
+AEM Hulplijnen ondersteunen ook abstracte patronen in Schematron. U kunt generische abstracte patronen bepalen hergebruik deze abstracte patronen.  U kunt plaatsaanduidingsparameters maken die het werkelijke patroon opgeven.
 
 
 Het gebruiken van abstracte patronen kan uw schema van het Schema vereenvoudigen door de duplicatie van regels te verminderen en het gemakkelijker te maken om uw bevestigingslogica te beheren en bij te werken. Het kan uw schema gemakkelijker maken te begrijpen, aangezien u complexe bevestigingslogica in één enkel abstract patroon kunt bepalen dat door het schema opnieuw kan worden gebruikt.
