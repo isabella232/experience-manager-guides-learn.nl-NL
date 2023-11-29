@@ -2,9 +2,9 @@
 title: Native PDF-sjablonen maken en aanpassen
 description: Leer hoe u Native PDF-sjablonen maakt en aanpast.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
+source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,10 @@ Voer de volgende stappen uit om een PDF-sjabloon aan te passen:
      Naast het uiterlijk kunt u ook de rangschikking van pagina-elementen definiëren, zoals de kop-, voettekst- en inhoudsgebieden op een pagina. Zie voor meer informatie over het aanpassen van de pagina-indeling [Paginalay-outs maken en aanpassen](components-pdf-template.md#create-customize-page-layout).
 
    * Stylesheets: Met de instellingen in de sectie Stijlvoorbladen kunt u de vormgeving van de onderdelen van de paginalay-out aanpassen, zoals de inhoudsopgave, index, woordenlijst, citaten en meer. Daarnaast kunt u ook de stijlen voor de DITA-inhoud aanpassen, zoals koppen, alinea&#39;s, lijsten en meer. Zie voor meer informatie over het gebruik van de stijlpagina&#39;s [Stylesheets gebruiken om PDF aan te passen](components-pdf-template.md#stylesheet-customization).
-   * Bronnen: Sla elementbestanden op die u moet aanpassen of PDF-sjablonen moet ontwerpen. Elementen zoals logo&#39;s, aangepaste lettertypen, achtergrondafbeeldingen en meer worden opgeslagen in de Bronnen. Zie voor meer informatie over het gebruik van bronnen [Werken met bronnen](components-pdf-template.md#work-with-resources).
+   * Bronnen: Sla elementbestanden op die u moet aanpassen of PDF-sjablonen moet ontwerpen. Elementen zoals logo&#39;s, aangepaste lettertypen, achtergrondafbeeldingen en meer worden opgeslagen in de Bronnen.
+U kunt ook bronnen gebruiken die zich op een andere locatie in de opslagplaats bevinden. U hoeft geen dubbele bronnen voor elke sjabloon te maken en u kunt deze in een gedeelde map bewaren en ze in alle Native PDF-sjablonen gebruiken.
+
+     Zie voor meer informatie over het gebruik van bronnen [Werken met bronnen](components-pdf-template.md#work-with-resources).
    * Instellingen: configureer de uitvoerinstellingen voor het genereren van een PDF met behulp van de sjabloon. In deze sectie kunt u sjabloontoewijzing definiëren voor verschillende pagina&#39;s in een PDF, hoofdstukstartpagina, afdrukmarkeringen, citaten en meer.
 U kunt ook de volgorde bepalen waarin ze in de uiteindelijke PDF-uitvoer moeten worden weergegeven.
 Zie voor meer informatie over het toepassen van instellingen [Geavanceerde PDF-instellingen](components-pdf-template.md#advanced-pdf-settings).

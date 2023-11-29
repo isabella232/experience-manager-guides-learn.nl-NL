@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '17079'
+source-wordcount: '17231'
 ht-degree: 0%
 
 ---
@@ -302,7 +302,12 @@ Met behulp van het contextmenu van de tabel kunt u:
 - Id&#39;s genereren
 
 
-U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het deelvenster Eigenschappen voor inhoud \(aan de rechterkant\), de eigenschap **Type** wijzigingen in **Meerdere items**. Selecteer in de sectie Andere kenmerken de optie `@valign` kenmerk in de vervolgkeuzelijst met kenmerken. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
+U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het deelvenster Eigenschappen voor inhoud (aan de rechterkant) geeft u de eigenschap **Type** wijzigingen in **Meerdere items**.
+
+1. In de **Attributen** sectie, klikken **+Toevoegen**.
+1. Selecteer de `@valign` kenmerk van de **Kenmerk** vervolgkeuzelijst.
+1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
+1. Klikken **Toevoegen.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -329,7 +334,7 @@ In het veld Bron wordt de UUID van het ingevoegde afbeeldingsbestand weergegeven
 
 U kunt het formaat van een afbeelding wijzigen door de waarde Hoogte of Breedte voor het afbeeldingsbestand op te geven. De hoogte-breedteverhouding van de afbeelding wordt automatisch behouden. Desgewenst kunt u ook de hoogte-breedteverhouding van het afbeeldingsbestand niet behouden door op het vergrendelingspictogram \(van Hoogte-breedteverhouding behouden\) te klikken en de waarden voor Hoogte en Breedte in te voeren.
 
-U kunt de instelling Placement voor de afbeelding ook opgeven als Inline of Onderbreking. Als u ervoor kiest om de plaatsingsoptie Onderbreking te gebruiken, kunt u vervolgens kiezen waar u de afbeelding wilt uitlijnen \(Links, Midden of Rechts\).
+U kunt de instelling Placement voor de afbeelding ook opgeven als Inline of Onderbreking. Als u ervoor kiest om de plaatsingsoptie Onderbreking te gebruiken, kunt u kiezen waar u de afbeelding wilt uitlijnen (Links, Midden of Rechts).
 
 U kunt ook andere eigenschappen voor een afbeeldingsbestand toevoegen door de vereiste eigenschappen te selecteren in het dialoogvenster **Attributen** veld.
 
@@ -778,7 +783,7 @@ U kunt ook op een audio- of videobestand in de webeditor klikken en dit afspelen
 
 
 
-Als u dubbelklikt op een kaartbestand, wordt dit geopend in het dialoogvenster **Kaartweergave**. Zie voor meer informatie de **Kaartweergave** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie. Als u dubbelklikt op een onderwerpbestand, wordt dit geopend in het dialoogvenster [Inhoudsbewerkingsgebied](#id2051EB000UI). Als u een bestand rechtstreeks vanuit de webeditor kunt openen en er kunt navigeren, bespaart u tijd en verhoogt u de productiviteit.
+Selecteer een kaart en druk binnengaan of dubbelklik om het in te openen in **Kaartweergave**. Zie voor meer informatie de **Kaartweergave** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in te openen in [Inhoudsbewerkingsgebied](#id2051EB000UI). Als u een bestand rechtstreeks vanuit de webeditor kunt openen en er kunt navigeren, bespaart u tijd en verhoogt u de productiviteit.
 
 **Filter Zoeken**
 
@@ -1036,7 +1041,14 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 >Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
 
 
-Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de hoofdwerkbalk. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven. Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen en het uitgeven van een onderwerp door kaart DITA, zie [Onderwerpen bewerken via de DITA-kaart](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de hoofdwerkbalk. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven.
+
+Wanneer u zeer belangrijke attributen voor het onderwerp of kaartverwijzingen bepaalt, kunt u de titel, het overeenkomstige pictogram, en de sleutel in het linkerpaneel bekijken. De toets wordt weergegeven als `keys=<key-name>`.
+
+![toetsen in de kaartweergave](images/view-key-title-map-view.png){width="300" align="left"}
+
+Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen en het uitgeven van een onderwerp door kaart DITA, zie [Onderwerpen bewerken via de DITA-kaart](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestand:
 
@@ -1163,7 +1175,7 @@ De omtrekweergave biedt de volgende functies:
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
-- De **Opties** in het menu *Omtrekweergave* Hiermee kunt u algemene bewerkingen uitvoeren, zoals Knippen, Kopiëren, Verwijderen, Id genereren, Element invoegen voor of na het huidige element, Een element hernoemen of vervangen, Een element opheffen en een fragment maken van het geselecteerde element.
+- De **Opties** in het menu *Omtrekweergave* Hiermee kunt u algemene bewerkingen uitvoeren, zoals Knippen, Kopiëren, Verwijderen, Id genereren, Element invoegen voor of na het huidige element, Naam van een element wijzigen of een element vervangen, Een element laten omlopen, een element opheffen en een fragment maken van het geselecteerde element.
 
 >[!NOTE]
 >
@@ -1487,9 +1499,16 @@ Gebruik bijvoorbeeld de volgende opsomming om de `@platform` aan de `<shortdesc>
 
 **Vervolgkeuzelijst Kenmerken**
 
-U kunt de waarde van het onderwerpschema ook wijzigen met het vervolgkeuzemenu Kenmerk in het deelvenster Eigenschappen van inhoud in de weergave Auteur. Als u de waarde wilt wijzigen, selecteert u een waarde in het vervolgkeuzemenu Kenmerk.
+U kunt de waarde van het onderwerpschema ook wijzigen met de optie **Attributen** vervolgkeuzelijst **Eigenschappen van inhoud** in het deelvenster **Auteur** weergeven.
+![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+Voer de volgende stappen uit om de waarde te wijzigen:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+1. Selecteer een kenmerk in het menu **Kenmerk** vervolgkeuzelijst.
+1. Selecteren **Bewerken** ![bewerkingspictogram](images/edit_pencil_icon.svg).
+1. Selecteer de gewenste waarde in het menu **Waarde** vervolgkeuzelijst.
+1. Klikken **Bijwerken**.
+
+
 
 U kunt ook waarden voor een kenmerk toepassen door meerdere waarden in het vervolgkeuzemenu te selecteren.
 
@@ -1732,7 +1751,22 @@ In het rechterdeelvenster hebt u toegang tot de volgende functies:
 
 **Eigenschappen van inhoud** -  ![](images/content-properties-icon.svg)
 
-U kunt de functie Eigenschappen van inhoud openen door op het pictogram Eigenschappen van inhoud in het rechterdeelvenster te klikken. Het deelvenster Eigenschappen voor inhoud bevat informatie over het type element dat momenteel is geselecteerd in het document en de kenmerken ervan. U kunt ook kenmerken toevoegen door het kenmerk te selecteren in de vervolgkeuzelijst en de waarde van een kenmerk op te geven.
+U kunt de functie Eigenschappen van inhoud openen door op het pictogram Eigenschappen van inhoud in het rechterdeelvenster te klikken. Het deelvenster Eigenschappen voor inhoud bevat informatie over het type element dat momenteel is geselecteerd in het document en de kenmerken ervan.
+U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
+
+1. Klikken **+ Toevoegen**.
+
+   ![kenmerken in eigenschappen van inhoud](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
+1. In de **Kenmerk** selecteert u het kenmerk in de vervolgkeuzelijst en geeft u de waarde van een kenmerk op.  Klik vervolgens op **Toevoegen**.
+
+   ![kenmerkpaneel met meerdere kenmerken ](images/attributes-multiple-properties.png){width="300" align="left"}
+
+1. Als u het kenmerk wilt bewerken, plaatst u de muis erboven en selecteert u **Bewerken** ![bewerkingspictogram](images/edit_pencil_icon.svg).
+   ![kenmerken bewerken](images/edit-attributes-content-properties.png){width="300" align="left"}
+
+1. Als u het kenmerk wilt verwijderen, plaatst u de muis erboven en selecteert u **Verwijderen** ![delete-icon](images/Delete_icon.svg).
+
 
 >[!NOTE]
 >
@@ -1740,7 +1774,7 @@ U kunt de functie Eigenschappen van inhoud openen door op het pictogram Eigensch
 
 Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Zie voor meer informatie over het genereren van uitvoer met behulp van voorwaardelijke voorinstellingen [Voorinstellingen voor voorwaarden gebruiken](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **Bestandseigenschappen** -  ![](images/topic-properties-icon.svg)
 
@@ -1750,11 +1784,12 @@ U geeft de eigenschappen van het geselecteerde bestand weer door te klikken op h
 
 In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![bestandseigenschappen](images/file-properties-general.png){width="300" align="left"}
 
 - **Naam**: Hiermee geeft u de bestandsnaam van het geselecteerde onderwerp weer. De bestandsnaam is gekoppeld aan de eigenschappenpagina van het geselecteerde bestand.
 - **ID**: Toont identiteitskaart van het geselecteerde onderwerp.
-- **Metagegevenstags**: Dit zijn de meta-gegevenstags van het onderwerp. Deze worden ingesteld vanuit het tagveld op de eigenschappenpagina.
+- **Tags**: Dit zijn de meta-gegevenstags van het onderwerp. Deze worden ingesteld vanuit het tagveld op de eigenschappenpagina. U kunt deze typen of selecteren in het vervolgkeuzemenu.  De tags worden weergegeven onder de vervolgkeuzelijst. Als u een tag wilt verwijderen, selecteert u het kruispictogram naast de tag.
+- **Meer eigenschappen bewerken**: U kunt meer eigenschappen bewerken via de pagina met bestandseigenschappen.
 - **Taal**: Toont de taal van het onderwerp. Deze wordt ingesteld vanuit het taalveld op de eigenschappenpagina.
 - **Gemaakt op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
 - **Uitgecheckt door**: Toont de gebruiker die het onderwerp heeft uitgecheckt.

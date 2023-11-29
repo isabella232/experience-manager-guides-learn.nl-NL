@@ -1,10 +1,10 @@
 ---
 title: Uitvoervoorinstellingen
 description: Begrijp de outputvoorinstellingen in AEM Gidsen. Maak uitvoervoorinstellingen in de webeditor en het kaartdashboard voor AEM site-, PDF-, HTML,5-, EPUB-, aangepaste en JSON-indelingen.
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,6 @@ In de volgende secties worden de opties beschreven die beschikbaar zijn voor de 
 
 - **[JSON](generate-output-json.md)**
 
+Als beheerder, staat de Gidsen van de Experience Manager u toe om outputvoorinstellingen voor de Globale en Profielen van de Omslag tot stand te brengen en te beheren. Voor meer informatie, bekijkt u [Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren](./web-editor-manage-output-presets.md).
 
 **Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)

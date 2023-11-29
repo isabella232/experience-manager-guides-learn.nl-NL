@@ -2,9 +2,9 @@
 title: Native PDF | Productie van PDF
 description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorinstelling voor PDF-uitvoer kunt maken en genereren, tijdelijke bestanden kunt downloaden nadat u de uitvoer van eigen PDF hebt gegenereerd en taalvariabelen in AEM hulplijnen kunt gebruiken.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
+source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -165,8 +165,9 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | **Aangepaste resolutie gebruiken (pixels per inch)** | Dit is de resolutie van de paginaweergave bij pixels per inch. Voer in het veld een voorkeurswaarde in die wordt weergegeven wanneer deze optie wordt geselecteerd. De standaardwaarde is 96 pixels per inch. Stel een hogere waarde in om meer inhoud in een inch te passen en andersom als u een lagere waarde instelt. |
 | **Watermerk tonen** | Selecteer deze optie als u een watermerk in de uitvoer wilt plaatsen. U kunt een nieuwe tekstreeks in het tekstvak invoeren met de tekenbehuizing zoals u wilt. <br><br>Gebruik statische tekst of taalvariabelen om de gelokaliseerde versie van het watermerk te publiceren.  Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF. U kunt bijvoorbeeld &quot;Publisher&quot; afdrukken als een watermerk in het Engels en &quot;Auteure&quot; in het Frans.  <br> Indeling: `${lng:<variable name>}`. Bijvoorbeeld: `$ {lng:publisher-label}` waar `publisher-label` is een taalvariabele. <br> Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van de optie voor meer informatie over de optie. |
 | **MathML-vergelijkingen inschakelen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. De vergelijkingen worden anders standaard genegeerd. |
-| **PDF-conformiteit** | Dit is de standaard waarmee u de PDF wilt opslaan om ervoor te zorgen dat deze compatibel is. Selecteer een optie in het vervolgkeuzemenu om een keuze te maken in de lijst met beschikbare PDF-standaarden. Zie voor meer informatie over de ondersteunde standaarden [PDF-standaarden](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Tijdelijke bestanden downloaden** | Selecteer deze optie als u de tussentijdse HTML-bestanden wilt downloaden die tijdens het genereren van de native PDF-uitvoer zijn gemaakt. U kunt de tijdelijke bestanden later downloaden nadat u de uitvoer hebt gegenereerd. |
+| **PDF-conformiteit** | Dit is de standaard waarmee u de PDF wilt opslaan om ervoor te zorgen dat deze compatibel is. Selecteer een optie in het vervolgkeuzemenu om een keuze te maken in de lijst met beschikbare PDF-standaarden. Zie voor meer informatie over de ondersteunde standaarden [PDF-standaarden](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Bestandseigenschappen** | Selecteer de eigenschappen die u als metagegevens wilt verwerken. In het vervolgkeuzemenu worden zowel de aangepaste als de standaardeigenschappen weergegeven. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. Zodra reeks, worden deze eigenschappen ook gekopieerd in de onderwerpen binnen de kaart. De geselecteerde eigenschappen van metagegevens worden doorgegeven aan de uitvoer die wordt gegenereerd met Native-PDF. |
 
 ## Een PDF-uitvoer genereren {#generate-pdf-output}
 

@@ -1,10 +1,10 @@
 ---
 title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer om een kaartinzameling tot stand te brengen en te schrappen en een kaart toe te voegen of te schrappen DITA. Vorm, produceer en annuleer een taak van de outputgeneratie van een kaartinzameling in AEM Gidsen.
-exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
    De DITA kaartdossiers worden toegevoegd aan uw Inzameling van de Kaart.
 
-   ![](images/maps_presets_62_63.png){width="800" align="left"}
+   ![kaartverzamelingsdashboard](./images/map-collection-dashboard.png){width="800" align="left"}
 
 De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
@@ -57,8 +57,10 @@ De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
    - **Taal**: U kunt alle beschikbare taalcodes selecteren en alleen de geselecteerde taal in de tabel Kaarten en Voorinstellingen weergeven.
 - **Kaarten en voorinstellingen** tabel: de tabel Kaarten en voorinstellingen bevat informatie in de volgende kolommen:
    - **Kaart**: geeft de titel van het DITA-kaartbestand weer.
+   - **Bestandsnaam**: geeft de bestandsnaam van de DITA-kaart weer.
    - **Taal**: Geeft de taal van de DITA-kaart weer.
    - **Voorinstelling**: Hiermee geeft u het type uitvoervoorinstelling weer dat op het kaartbestand is geconfigureerd.
+   - **Basislijn**: Geeft de basislijn weer die wordt gebruikt door de uitvoervoorinstelling.  Als er geen basislijn wordt gebruikt, wordt er een afbreekstreepje &#39;-&#39; weergegeven
    - **gewijzigd**: Geeft aan of de DITA-kaart wordt bijgewerkt na de laatste publicatie. Gebaseerd op deze informatie, kunt u besluiten als u de output voor deze kaart wilt opnieuw publiceren DITA of niet.
    - **Laatst gegenereerd**: Geeft de datum en tijd weer van de laatst gegenereerde uitvoer.
 
@@ -92,9 +94,36 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
 
    - Als u uitvoer van geselecteerde kaarten wilt genereren, selecteert u de kaartbestanden en klikt u op **Geselecteerde genereren**.
    - Om output van alle kaarten DITA met hun gevormde voorinstellingen te produceren, klik **Alles genereren**.
+
    >[!IMPORTANT]
    >
    > Als een proces voor het genereren van uitvoer voor een voorinstelling of een DITA-kaart zich in de wachtrij of in uitvoering bevindt, kunt u geen andere uitvoergeneratietaak voor dezelfde voorinstelling of dezelfde kaart starten.
+
+## De eigenschappen van metagegevens configureren
+
+In de kaartinzameling, kunt u de meta-gegevenseigenschappen voor de kaarten vormen DITA. Selecteren **Metagegevens configureren**  om de **Metagegevens van element** pagina. Op de **Metagegevens van element** pagina, worden alle kaarten in de verzameling links weergegeven.
+
+![metagegevens configureren](images/map-collection-asset-metadata.png){width="800" align="left"}
+
+Voer de volgende stappen uit om de eigenschappen van metagegevens te configureren:
+
+1. U kunt kiezen voor welke kaarten u de metagegevens wilt bijwerken. Standaard zijn alle aanwezige DITA-kaarten geselecteerd.
+
+1. Zodra u de kaarten DITA selecteert, kunt u eigenschappen zoals meta-gegevens, programma (de)activering, verwijzingen, documentstaat, en meer bekijken.
+
+1. Werk de eigenschappen van de metagegevens bij.
+
+1. Klikken **Opslaan en sluiten** bovenaan om de updates op te slaan.
+1. (Optioneel) Wanneer u de codes bijwerkt, kunt u ook Toevoegen selecteren in het dialoogvenster **Opslaan en sluiten** vervolgkeuzelijst om de nieuwe tags aan de bestaande lijst toe te voegen.
+1. Klikken **Verzenden** van de **Opslaan en sluiten** vervolgkeuzelijst.
+De eigenschappen van metagegevens worden bijgewerkt voor de DITA-kaarten die u bulksgewijs in de kaartverzameling selecteert.
+
+>[!NOTE]
+> 
+>Voor de **Documentstatus** in het vervolgkeuzemenu kunt u alleen de documentstaten selecteren die algemeen zijn toegestaan voor alle geselecteerde DITA-kaarten. Voor meer informatie bekijkt u [**Documentstatus**](./web-editor-document-states.md).
+
+De eigenschappen van de metagegevens zijn synchroon met de bestandseigenschappen. Als u deze eenmaal hebt bijgewerkt, kunt u ze weergeven vanuit het dialoogvenster **Bestandseigenschappen** in de webeditor.
+
 
 
 ## Schrap een inzameling van de Kaart of een kaart DITA van de Inzameling van de Kaart
@@ -102,7 +131,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
 - Om een kaartinzameling te schrappen, selecteer een inzameling in de pagina van de Inzameling van de Kaart, en klik **Verwijderen**.
 - Om een kaart DITA van een kaartinzameling te schrappen, open de Inzameling van de Kaart op Edit wijze, selecteer het DITA kaartdossier, en klik **Verwijderen uit verzameling**.
 
-  Hierdoor worden ook eventuele voorinstellingen of landinstellingen die aan de DITA-kaart zijn gekoppeld, verwijderd uit de Map Collection.
+Hierdoor worden ook eventuele voorinstellingen of landinstellingen die aan de DITA-kaart zijn gekoppeld, verwijderd uit de Map Collection.
 
 
 ## Annuleer een taak van de outputgeneratie van een Inzameling van de Kaart

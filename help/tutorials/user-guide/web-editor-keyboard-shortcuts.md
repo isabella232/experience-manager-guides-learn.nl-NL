@@ -2,9 +2,9 @@
 title: Sneltoetsen in de webeditor
 description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM hulplijnen.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,9 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | Vette opmaak toepassen op geselecteerde tekst | ***Ctrl***+***B*** | ***Opdracht***+***B*** |
 | Cursieve opmaak toepassen op geselecteerde tekst | ***Ctrl***+***I*** | ***Opdracht***+***I*** |
 | Onderstrepingsopmaak toepassen op geselecteerde tekst | ***Ctrl***+***U*** | ***Opdracht***+***U*** |
+| Focus op het linkerdeelvenster | **Ctrl***+**Shift**+***1*** | ***Opdracht***+**Shift**+***1*** |
+| Focus op het rechterdeelvenster | **Ctrl***+**Shift**+***2*** | ***Opdracht***+**Shift**+***2*** |
+| Focus op de huidige editor | **Ctrl***+**Shift**+***0*** | ***Opdracht***+**Shift**+***0*** |
 | Document opslaan in auteur- of bronweergave | ***Ctrl***+**Shift**+***S*** | ***Opdracht***+**Shift**+***S*** |
 | Alle geopende documenten opslaan in de auteur- of bronweergave | ***Ctrl***+***S*** | ***Opdracht***+***S*** |
 | Dialoogvenster Invoegelement tonen | ***Alt***+***Enter*** | ***Optie***+***Enter*** |

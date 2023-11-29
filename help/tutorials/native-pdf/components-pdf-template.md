@@ -2,9 +2,9 @@
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -420,6 +420,10 @@ Configureer de afdrukproductie-instellingen om drukkermarkeringen toe te wijzen,
 
 Gebruik de **Kruisverwijzing** om te definiëren hoe de kruisverwijzingen worden gepubliceerd in de PDF. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer.
 
+>[!NOTE]
+>
+> Als u de koppelingstekst hebt gedefinieerd terwijl u de kruisverwijzing invoegt, heeft deze voorrang op de opmaak voor kruisverwijzingen die is gedefinieerd in de sjabloon Native PDF.
+
 U kunt ook variabelen gebruiken om een kruisverwijzing te definiëren.  Wanneer u een variabele gebruikt, wordt de waarde ervan gekozen uit de eigenschappen. U kunt een kruisverwijzing definiëren met behulp van één variabele of een combinatie van variabelen. U kunt ook een combinatie van een tekenreeks en een variabele gebruiken.
 
 U kunt bijvoorbeeld `View details on {chapter}`. Als de naam van het Hoofdstuk &quot;Algemene montages is,&quot;is de verwijzing in de output &quot;zie details op Algemene montages.&quot;
@@ -441,6 +445,22 @@ AEM de Gidsen verstrekt de volgende uit-van-de-doos variabelen:
   >
   >U kunt automatische nummerstijlen maken voor bijschrift- en figuurcodes.
 
+#### Standaardindeling voor kruisverwijzing
+
+Als u het tekstveld leeg laat en u de koppelingstekst niet hebt gedefinieerd terwijl u een kruisverwijzing invoegt, voegt de Experience Manager Guides de volgende variabelen toe voor de desbetreffende kruisverwijzingen:
+
+* **Titel**: `{title}`
+* **Beschrijving**: `{description}`
+* **Alinea**: `{bookmarkText}`
+* **Bladwijzer**: `{bookmarkText}`
+* **Figuur**: `{captionText}`
+* **Tabel**: `{captionText}`
+
+De prioriteitsvolgorde voor kruisverwijzingen is:
+* Tekst koppelen die is toegevoegd aan de kruisverwijzingen
+* Opmaak voor kruisverwijzingen gedefinieerd in de sjabloon Native PDF
+* Standaardindeling voor kruisverwijzing
+
 
 #### Taalvariabelen in kruisverwijzingen
 
@@ -455,11 +475,12 @@ U kunt bijvoorbeeld een taalvariabele &quot;reference-label&quot; toevoegen en d
 Wanneer u `${lng:<variable name>}` in de sectie Alinea bevatten de kruisverwijzingen in de alinea&#39;s van de uitvoer de gelokaliseerde tekst en het paginanummer.\
 In de volgende schermafbeeldingen ziet u bijvoorbeeld de kruisverwijzingen &quot;Weergeven op pagina 1&quot; in het Engels en &quot;Einzelheiten finden Sie auf der Seite 1&quot; in het Duits.
 
-<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px">
 
 *Een kruisverwijzing in een alinea die wordt gepubliceerd in de Engelse taal.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px">
+
 
 *Een kruisverwijzing in een alinea die in het Duits wordt gepubliceerd.*
 

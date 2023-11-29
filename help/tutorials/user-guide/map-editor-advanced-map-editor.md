@@ -1,10 +1,10 @@
 ---
 title: Werken met de Geavanceerde Kaarteditor
 description: Leer hoe u met de geavanceerde kaarteditor in AEM hulplijnen werkt. Ken de eigenschappen van de geavanceerde Redacteur van de Kaart. Bewerk onderwerpen via een DITA-kaart en gebruik de layoutweergave, de auteurweergave en de voorvertoningsmodus.
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    Het onderwerp wordt toegevoegd in de kaart.
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![add-onderwerp kaarteditor](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Als u volgende onderwerpen of een submap wilt toevoegen, sleept u het onderwerp of de submap naar de gewenste locatie in de kaart en zet u deze neer.
 
@@ -231,7 +231,7 @@ Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwe
 
 - **Overige kenmerken** Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. U kunt ook attributen toewijzen die door uw beheerder onder **Weergavekenmerken** in de editorinstellingen. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave. Dit helpt u om een snelle blik bij alle onderwerpen in een kaart te hebben waarvoor een bepaald attribuut wordt bepaald. Bijvoorbeeld alle onderwerpen waarvoor het platformkenmerk is gedefinieerd als &#39;Android&#39;.
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![layoutweergave](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   Zie voor meer informatie de *Weergavekenmerken* binnen de *Editor-instellingen* functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.

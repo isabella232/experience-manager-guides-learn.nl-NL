@@ -2,9 +2,9 @@
 user-guide-title: Tutorials voor AEM-handleidingen
 user-guide-description: Bekijk onze verzameling tutorials voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Tutorials voor AEM-handleidingen
-source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 4%
 
 ---
@@ -20,30 +20,33 @@ ht-degree: 4%
       + Cloud Services {#cloud-release-notes}
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          + Versies van 2023 {#2023-releases}
-         + Release november {#2311-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.11.0.md)
-            + [Release-opmerkingen](./release-info/release-notes-2023.11.0.md)
-         + Release oktober {#2310-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.10.0.md)
-            + [Release-opmerkingen](./release-info/release-notes-2023.10.0.md)
-         + Release september {#2309-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.9.0.md)
-            + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
-         + Release juli {#2307-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.7.0.md)
-            + [Release-opmerkingen](./release-info/release-notes-2023.7.0.md)
-         + Release juni {#2306-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.6.0.md)
-            + [Release-opmerkingen](./release-info/release-notes-2023.6.0.md)
-         + Release april {#2304-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.4.0.md)
-            + [Releaseopmerkingen](./release-info/release-notes-2023.4.0.md)
-         + Release maart {#2303-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.3.0.md)
-            + [Releaseopmerkingen](./release-info/release-notes-2023.3.0.md)
-         + Release februari {#2302-release}
-            + [Wat is er nieuw](./release-info/whats-new-2023.2.0.md)
-            + [Releaseopmerkingen](./release-info/release-notes-2023.2.0.md)
+            + Release december {#2312-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.12.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.12.0.md)
+            + Release november {#2311-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.11.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.11.0.md)
+            + Release oktober {#2310-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.10.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.10.0.md)
+            + Release september {#2309-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.9.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
+            + Release juli {#2307-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.7.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.7.0.md)
+            + Release juni {#2306-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.6.0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023.6.0.md)
+            + Release april {#2304-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.4.0.md)
+               + [Releaseopmerkingen](./release-info/release-notes-2023.4.0.md)
+            + Release maart {#2303-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.3.0.md)
+               + [Releaseopmerkingen](./release-info/release-notes-2023.3.0.md)
+            + Release februari {#2302-release}
+               + [Wat is er nieuw](./release-info/whats-new-2023.2.0.md)
+               + [Releaseopmerkingen](./release-info/release-notes-2023.2.0.md)
          + Versies van 2022 {#2022-releases}
             + [Release-aantekeningen november](./release-info/release-notes-2022.11.0.md)
             + [Release-aantekeningen oktober](./release-info/release-notes-2022.10.0.md)
@@ -362,7 +365,9 @@ ht-degree: 4%
    + [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
    + [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
    + [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
+   + [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
    + [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
+
 + Kennisbank {#knowledge-base}
    + Expertsessie {#expert-session}
       + [Overzicht van de sessie met experts](./knowledge-base/expert-sessions/expert-session.md)

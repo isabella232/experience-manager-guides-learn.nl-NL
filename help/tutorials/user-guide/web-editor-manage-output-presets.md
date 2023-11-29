@@ -1,10 +1,10 @@
 ---
 title: Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren
 description: Leer hoe u voorinstellingen voor algemene profielen en mapprofielen als gebruikers met beheerdersrechten maakt, bewerkt, hernoemt, dupliceert en verwijdert in AEM hulplijnen.
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om een uitvoervoorinstelling voor de algemene profi
    - Naam
    - Doel \(voor voorinstelling voor kennisdatabase\)
 1. Selecteer de **Toevoegen aan mapprofiel** Schakel het selectievakje in om een uitvoervoorinstelling voor het gerelateerde mapprofiel te maken en klik vervolgens op **Toevoegen**. De voorinstelling wordt gemaakt en wordt weergegeven onder de **Uitvoer** tabblad van alle gerelateerde kaarten. \( ![](images/global-preset-icon.svg)\) geeft een voorinstelling voor een mapprofielniveau aan.
-1. Voer de configuratiedetails in.
+1. Voer de configuratiedetails in. Voor meer informatie over uitvoervoorinstellingen raadpleegt u [Uitvoervoorinstellingen](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

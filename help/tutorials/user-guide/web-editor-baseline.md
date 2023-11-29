@@ -2,9 +2,9 @@
 title: Basislijnen maken en beheren vanuit de webeditor
 description: Maak en beheer basislijnen in de webeditor in AEM hulplijnen. Leer hoe u basislijnen maakt op basis van labels en filters toepast op de basislijnen.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 1. Open het DITA-kaartbestand in de Kaartweergave in het deelvenster Opslagplaats.
 1. Klik op de knop **Beheren** tab. De **Basislijn** geeft de basislijnen van de DITA-kaart weer.
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![Deelvenster Basleine](images/baseline-manage.png){width="800" align="left"}
 
 1. Op de **Basislijn** klikt u op + pictogram rechtsboven. U kunt een basislijn met een specifieke versie van de onderwerpen en van verwijzingen voorzien inhoud tot stand brengen beschikbaar op een specifieke datum en een tijd, of met een etiket dat voor een versie van onderwerpen wordt bepaald.
 1. Voer een naam in voor de basislijn in **Naam basislijn**.
@@ -56,7 +56,7 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 
    Basislijnen op basis van labels worden dynamisch bijgewerkt. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Bijvoorbeeld, als u versie 1.2 van een onderwerp met Versie 1.0 van het Etiket voor de basislijn en recentere bijgewerkte versie 1.5 met Versie 1.0 van het Etiket hebt gebruikt, zal de basislijn dynamisch worden bijgewerkt, en versie 1.5 zal worden gebruikt.
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![Een basislijn maken](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Labels selecteren**: Als voor de onderwerpen labels zijn opgegeven, worden de labels weergegeven in het dialoogvenster **Labels selecteren** vervolgkeuzelijst. U kunt de label\(s\) in de lijst kiezen. De eerst geselecteerde labels krijgen een hogere prioriteit dan de latere labels.
 
@@ -83,7 +83,9 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
 
   ![opties van een basislijn](images/baseline-options.png){width="800" align="left"}
 
-U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opties:
+
+
+  U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opties:
 
 - **Bewerken**, **Dupliceren,** **Naam wijzigen**, of **Verwijderen** een bestaande basislijn.
 
@@ -106,7 +108,7 @@ U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opt
 
 Het pictogram Filters in het dialoogvenster **Basislijnfilters** kunt u filters toepassen op de basislijn die is geopend in het basislijnbewerkingsvenster:
 
-![](images/baseline-filter.png){width="350" align="left"}
+![basislijnfilters](images/baseline-filter.png){width="300" align="left"}
 
 - De bestanden filteren op bestandsnamen of bestandslocatie.
 - Filter de bestanden op basis van de waarden voor verschillende kolommen, zoals Bestandstype, Referentietype, enzovoort.

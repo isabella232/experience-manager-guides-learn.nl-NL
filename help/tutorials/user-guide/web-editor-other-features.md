@@ -2,9 +2,9 @@
 title: Andere functies in de webeditor
 description: Andere functies van de webeditor in AEM hulplijnen bekijken. Leer hoe u deze functies kunt gebruiken voor verbeterde authoring in AEM hulplijnen.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,15 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 - U kunt het dialoogvenster Naam van element wijzigen openen door het menu Opties van een element in het deelvenster Overzicht aan te roepen.
 
+
+
+**Een element laten omlopen**
+
+- Door een element te laten omlopen, kunt u een elementtag toevoegen aan de geselecteerde tekst. U kunt de tekst naar elk onderliggend element laten lopen volgens de DITA-standaarden. Als u bijvoorbeeld tekst onder een `note` -element, kunt u de tekst naar een `p` element.
+
+  De **Onderloopelement** Deze optie is beschikbaar in het contextmenu van de breadcrumb van het onderwerp. Als u een element wilt laten omlopen, klikt u met de rechtermuisknop op het element en opent u het contextmenu. Selecteer het element in het menu **Onderloopelement** in. De tekst wordt weergegeven in het nieuwe element.
+
+  U kunt ook de tekst of het element in de inhoud selecteren en vervolgens de **Onderloopelement**  in het contextmenu.
 
 **Een element opheffen**
 

@@ -1,10 +1,10 @@
 ---
 title: Een verzameling bulkactiveringskaarten maken
 description: Leer hoe u een bulkactiveringskaartverzameling maakt in AEM hulplijnen.
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Op het tabblad Kaarten en Voorinstellingen vindt u informatie in de volgende kol
   > De kleine ![](images/global-preset-icon.svg) geeft een voorinstelling voor het mapprofielniveau aan.
 - **gewijzigd**: Geeft aan of de DITA-kaart wordt bijgewerkt na de laatste publicatie. Op basis van deze informatie kunt u beslissen of u de uitvoer voor deze DITA-kaart wilt activeren.
 - **Gegenereerd**: Geeft de datum en tijd weer van de laatst gegenereerde uitvoer.
-- **Gepubliceerd**: Geeft de datum en tijd weer van de laatst gepubliceerde uitvoer \(of geactiveerd\). Als u op de koppeling klikt, wordt op de pagina Activeringsresultaten informatie weergegeven over het hoofdpad waar de inhoud is geactiveerd.
+- **Gepubliceerd**: Geeft de datum en tijd weer van de laatst gepubliceerde (of geactiveerde) uitvoer. Als u de koppeling selecteert, wordt **Activeringsresultaten** wordt weergegeven, die de logboekbestanden bevat met informatie over het hoofdpad waar de inhoud is geactiveerd.
 
 
 De volgende filteropties zijn beschikbaar in het linkerdeelvenster:

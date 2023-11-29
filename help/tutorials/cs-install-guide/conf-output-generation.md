@@ -2,9 +2,9 @@
 title: Instellingen voor uitvoergeneratie configureren
 description: Leer hoe u instellingen voor uitvoergeneratie configureert
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,23 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolean \(true/false\). Als u uitvoer wilt genereren met de paginatitel, stelt u deze eigenschap in op true. Standaard wordt de bestandsnaam gebruikt.<br> **Standaardwaarde**: false |
+
+### De URL van de AEM Site-uitvoer configureren om de documenttitel te gebruiken
+
+U kunt de documenttitels in URL van de output van de Plaats van de AEM gebruiken. Als de bestandsnaam niet bestaat of niet alle speciale tekens bevat, kunt u het systeem zo configureren dat de speciale tekens worden vervangen door een scheidingsteken in de URL van de AEM Site-uitvoer. U kunt het ook vormen om hen met de naam van het eerste kindonderwerp te vervangen.
+
+
+Voer de volgende stappen uit om de paginanamen te configureren:
+
+1. Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken.
+1. In het configuratiedossier, verstrek de volgende (bezit) details om de paginanamen voor de onderwerpen te vormen.
+
+| PID | Eigenschappensleutel | Waarde van eigenschap |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Boolean (`true/false`). **Standaardwaarde**: `false` |
+
+Als de *@navtitle* in `<topichead>` bevat alle speciale tekens en u stelt de `aemsite.pagetitle` eigenschap op true in, wordt standaard een scheidingsteken gebruikt. Als u de `nodename.systemDefinedPageName` bezit aan waar, toont het de naam van het eerste kindonderwerp.
+
 
 ### Vorm filename het ontsmetten regels voor het creëren van onderwerpen en het publiceren AEM de output van de Plaats {#id2164D0KD0XA}
 
