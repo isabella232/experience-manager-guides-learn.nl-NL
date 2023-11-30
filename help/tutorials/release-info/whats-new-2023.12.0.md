@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release van december 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van december 2023 as a Cloud Service.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ U kunt nu de bestandsnaam van de DITA-kaart bekijken. U kunt ook de basislijnen 
 ![Kaartverzamelingsdashboard](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *De mening, geeft, en produceert output van het dashboard van de kaartinzameling uit.*
+
+Leer hoe u [gebruik de Inzameling van de Kaart voor outputgeneratie](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## De belangrijkste attributen van de mening in de Mening van de Kaart
 

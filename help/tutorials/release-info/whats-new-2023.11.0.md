@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release november 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van november 2023 as a Cloud Service.
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Voor meer informatie bekijkt u de [Geavanceerde PDF-instellingen](../native-pdf/
 ### Verbeterd resourcebeheer voor Native PDF-sjablonen
 
 De Gidsen van de Experience Manager heeft nu het middelbeheer voor de Malplaatjes van de Native PDF verbeterd. U kunt nu bronnen, zoals afbeeldingen, CSS-bestanden en lettertypebestanden, delen en opnieuw gebruiken voor meerdere Native PDF-sjablonen. Met deze verbetering, is het beheren van de middelen voor een grote reeks malplaatjes veel eenvoudiger. U hoeft geen dubbele bronnen voor elke sjabloon te maken en u kunt deze in een gedeelde map bewaren en ze in alle Native PDF-sjablonen gebruiken.
+Voor meer informatie, bekijkt u [PDF-sjabloon](../native-pdf/pdf-template.md).
 
 ## Verbeteringen in de webeditor
 
@@ -64,6 +66,8 @@ U kunt voorwaardenattributen in uw onderwerpen bepalen DITA. Gebruik vervolgens 
 
 ![Voorinstellingen voorwaarde op het tabblad Beheren van de webeditor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+Voor meer informatie, bekijkt u [Voorinstellingen voor voorwaarden gebruiken](../user-guide/generate-output-use-condition-presets.md).
+
 ### Bestandstabbladen herstellen bij vernieuwen van browser
 
 De Gidsen van de Experience Manager herstelt de staat van de geopende dossierlusjes in de Redacteur van het Web wanneer u browser vernieuwt. Voor meer informatie bekijkt u de **Browser vernieuwen tijdens bewerken van bestanden** deel onder [Onderwerpen bewerken in de webeditor](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Voor meer informatie bekijkt u de **Een element opheffen** van de [andere functi
 Met de hulplijnen voor Experience Managers kunt u nu ook sneltoetsen gebruiken om de cursor in de webeditor te verplaatsen. Met de sneltoetsen kunt u snel één woord naar links of rechts verplaatsen. U kunt ook naar het begin of einde van de regel gaan met behulp van de sneltoetsen.
 Nu kunt u ook sneltoetsen gebruiken om de cursor naar het begin van het volgende element of naar het einde van het vorige element te verplaatsen.
 Meer informatie over de [sneltoetsen in de webeditor](../user-guide/web-editor-keyboard-shortcuts.md).
-
