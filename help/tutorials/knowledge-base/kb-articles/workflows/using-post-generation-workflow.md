@@ -2,9 +2,9 @@
 title: Workflow na generatie
 description: Een overzicht van de workflow na de generatie met een voorbeeld
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
+source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt bijvoorbeeld bepaalde eigenschappen instellen voor de uitvoer van de PDF,
 
 Maak een op Java of ECMA gebaseerd workflowproces dat de bewerking uitvoert op de gegenereerde uitvoer. Bijvoorbeeld, kopieert het kopiëren van sommige meta-gegevens van bron aan de geproduceerde inhoud of het manipuleren van meta-gegevens van de geproduceerde output.
 - We nemen bijvoorbeeld een voorbeeld van het maken van een dergelijk proces met behulp van ECMA-script (u kunt het bijgevoegde pakket raadplegen)
-- Raadpleeg de sectie &quot;*Workflow voor het genereren na uitvoer aanpassen*&quot; van [Installatie- en configuratiehandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Raadpleeg de sectie &quot;*Workflow voor het genereren na uitvoer aanpassen*&quot; van [Installatie- en configuratiehandleiding](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### Een workflowmodel maken
