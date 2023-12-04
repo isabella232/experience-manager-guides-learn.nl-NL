@@ -1,8 +1,7 @@
 ---
 title: Uitvoer genereren vanuit het deelvenster Opslagplaats
 description: Genereer uitvoer vanuit het deelvenster Opslagruimte of het deelvenster Kaartweergave in AEM hulplijnen. Leer om een onderwerp te publiceren over één of meerdere kaarten DITA wordt gebruikt of output voor veelvoudige onderwerpen te produceren die.
-exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

@@ -1,13 +1,12 @@
 ---
 title: Gebeurtenishandler voor nabewerking
 description: Meer informatie over de gebeurtenishandler Nabewerking
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
-
 
 # Gebeurtenishandler voor nabewerking {#id175UB30E05Z}
 
@@ -33,4 +32,3 @@ com/adobe/fmdita/postprocess/complete
 ```
 
 **Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. Dit is doorgaans het bestand waarop een bewerking is uitgevoerd.| |`status`|String|De geretourneerde status van de uitgevoerde bewerking. De mogelijke opties zijn: - <br>- SUCCESS: de nabewerking is voltooid. <br>- VOLTOOID MET FOUTEN: de naverwerkingshandeling is voltooid, maar met enkele fouten. <br>- MISLUKT: De nabewerking is mislukt als gevolg van een fatale fout.| |`message`|String|Als de status IS VOLTOOID MET FOUTEN of MISLUKT, bevat deze parameter de details over de fout of de reden van de fout.| |`operation`|String|De naverwerkingstransactie die op het bestand is uitgevoerd. De mogelijke opties zijn:<br>- Toevoeging <br>- Bijwerken <br>- Verwijderen|
-

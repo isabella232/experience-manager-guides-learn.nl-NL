@@ -1,13 +1,12 @@
 ---
 title: Tags voor DITA-bestanden beheren in AEM hulplijnen
 description: Kort artikel voor informatie over het beheren van cq:tags in AEM hulplijnen
-source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
-
 
 # Tags toevoegen, verwijderen en beheren in uw DITA-inhoud
 
@@ -23,7 +22,7 @@ Tags zijn native AEM en uw AEM beheerder kan u helpen bij het maken en configure
 
 ## Tags toevoegen, verwijderen en beheren in uw DITA-inhoud
 
-**Alle tags die zijn gemaakt in AEM cq: Voor uw DITA-inhoud kunt u codes toevoegen, verwijderen en beheren**
+**Alle tags die zijn gemaakt in AEM cq:-tags, kunnen worden toegevoegd, verwijderd en beheerd voor uw DITA-inhoud**
 
 Er zijn verschillende manieren om labels toe te voegen aan uw DITA-inhoud, maar dit artikel is gericht op de gebruikersinterface van de webeditor van AEM hulplijnen.
 
@@ -60,4 +59,3 @@ U kunt ook bestaande tags verwijderen die veel voorkomen in geselecteerde bestan
 
 
 **Contacteer uw respectieve CSM voor andere vragen**
-

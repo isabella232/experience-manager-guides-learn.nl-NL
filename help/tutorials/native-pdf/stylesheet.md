@@ -1,10 +1,9 @@
 ---
 title: Native PDF-publicatiefunctie | Werken met algemene inhoudsstijlen
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
-exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
-source-git-commit: 2fde719ced7d94af382a13e31af1c04591c8a258
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3525'
 ht-degree: 0%
 
 ---
@@ -15,7 +14,7 @@ Een stijlpagina bevat de definities van stijlen voor de elementen die in uw uitv
 
 De stijleneditor is een WYSIWYG-editor die alle complexe aspecten van een CSS-code achter de gebruikersinterface verbergt. Met de stijleditor kunt u de stijlen voor de elementen van uw keuze gemakkelijk en zeer snel aanpassen. De stijlen worden onder de volgende koppen gecategoriseerd:
 
-* Kopstijlen
+* Stijlen kop
 * Alineastijlen
 * Tekenstijlen
 * Hyperlinkstijlen
@@ -36,7 +35,7 @@ In de volgende secties worden de meest gebruikte stijlinstellingen in de vorm va
 
 ## Werken met kopstijlen {#heading-styles}
 
-Met de kopstijlen worden alle basisstijlen ingekapseld voor de koppen die in de inhoud worden gebruikt. OOTB u zult 6 stijlen van de basisrubriek en een kopstijl voor het onderwerp/het hoofdstuk en de titel van het bijlage krijgen. In een gestructureerd document, vertegenwoordigt H1 de titel van het onderwerp of van het hoofdstuk en H2 door H6 worden gebruikt voor subonderwerpen of secties binnen een onderwerp/hoofdstuk. Deze hiërarchie van koppen wordt automatisch toegepast op uw inhoud wanneer de overeenkomstige rubriek wordt gevonden.
+Met de kopstijlen worden alle basisstijlen ingekapseld voor de koppen die in de inhoud worden gebruikt. OOTB u zult 6 stijlen van de basisrubriek en een kopstijl voor het onderwerp/het hoofdstuk en de titelrubriek van het bijlage krijgen. In een gestructureerd document, vertegenwoordigt H1 de titel van het onderwerp of van het hoofdstuk en H2 door H6 worden gebruikt voor subonderwerpen of secties binnen een onderwerp/hoofdstuk. Deze hiërarchie van koppen wordt automatisch toegepast op uw inhoud wanneer de overeenkomstige rubriek wordt gevonden.
 
 >[!NOTE]
 >
@@ -55,12 +54,12 @@ In dit voorbeeld maken we een hoofdstukstijl op het tweede niveau:
    >
    >Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
-1. In de **Stijlen** lijst, vouw de **Kopstijlen**.
-1. Klikken met rechtermuisknop aan op **Kopstijlen** stijl en kies **Nieuwe stijl**.
+1. In de **Stijlen** lijst, vouw de **Stijlen kop**.
+1. Klikken met rechtermuisknop aan op **Stijlen kop** stijl en kies **Nieuwe stijl**.
 1. In de *Stijl toevoegen* het dialoogvenster **Tag** name as `h2` en betreden `chapter` in de **Klasse** naamveld.
 1. Klikken **Gereed**.
 
-Een nieuwe kopstijl genaamd `h2.chapter` wordt gemaakt en toegevoegd onder de lijst Kopstijlen.
+Een nieuwe kopstijl met de naam `h2.chapter` wordt gemaakt en toegevoegd onder de lijst Stijlen koptekst.
 
 Nadat u een stijl hebt gemaakt, kunt u de vereiste eigenschappen van de stijl aanpassen met de stijleditor.
 
@@ -76,54 +75,69 @@ In dit voorbeeld zullen we de koppen van niveau 1 tot niveau 3 aanpassen om auto
    >
    >Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
-1. In de **Stijlen** lijst, vouw de **Kopstijlen**.
+1. In de **Stijlen** lijst, vouw de **Stijlen kop**.
 
-1. Selecteer **h1** in de lijst.
+1. Selecteer de **h1** in de lijst.
 De eigenschappen voor de h1-stijl worden samen met de voorvertoning weergegeven in het deelvenster Eigenschappen.
 
    >[!NOTE]
    >
    >In het deelvenster Voorvertoning krijgt u een real-time weergave van alle stijtupdates die u op elk element toepast.
 
-1. Selecteer **Autonumber** eigenschap.
+1. Selecteer de **Autonumber** eigenschap.
 
    De stijlen die u op de auto-aantallijst kunt toepassen worden getoond onder het bezit Autonumber.
 
 1. Stel de volgende eigenschappen in:
-   * **Stijl**: Maak een keuze uit een groot aantal verschillende, landspecifieke of algemene nummeringsstijlen. U kunt stijlen kiezen zoals Arabisch-Indic, Devanagari, Georgisch, Decimaal, Lower-Alpha en meer. In het huidige voorbeeld selecteert u `upper-alpha`.
+   * **Stijl**: U kunt een keuze maken uit een groot aantal verschillende landspecifieke of algemene nummeringsstijlen. U kunt stijlen kiezen zoals Arabisch-Indic, Devanagari, Georgisch, Decimaal, Lagere Alpha en meer. In het huidige voorbeeld selecteert u `upper-alpha`.
 
-   * **Indeling**: De standaardindeling is ingesteld op `<x>`, waarin `x` Deze waarde wordt vervangen door de nummeringsstijl die u in de eigenschap Stijl hebt geselecteerd. Als u bijvoorbeeld `decimal` (1), dan de waarde van `x` auto-stijgingen voor elke instantie van `h1` stijl en heeft de waarde 2, 3 enzovoort. U kunt ook aangepaste tekst in het veld toevoegen om de kopstijl op te maken. Als u bijvoorbeeld wilt dat alle h1-koppen een voorvoegsel hebben van `Chapter`moet u dit veld instellen als `Chapter <x>`.
+   * **Indeling**: De standaardindeling is ingesteld op `<x>`, waarin `x` Deze waarde wordt vervangen door de nummeringsstijl die u in de eigenschap Stijl hebt geselecteerd. Als u bijvoorbeeld `decimal` (1), dan de waarde van `x` auto-stijgingen voor elke instantie van `h1` stijl en heeft de waarde 2, 3 enzovoort. U kunt ook aangepaste tekst in het veld toevoegen om de kopstijl op te maken. Als u bijvoorbeeld wilt dat alle h1-koppen een voorvoegsel hebben van `Chapter`, moet u dit veld instellen als `Chapter <x>`.
 
    * **Teken invoegen**: Als u een speciaal teken wilt toevoegen aan de indeling, klikt u op Teken invoegen (<img src="./assets/insert-chars.png" width="25">). Selecteer het gewenste teken dat u in de stijlindeling wilt toevoegen en klik op Invoegen. Er zijn verschillende typen speciale tekens die u kunt kiezen in de vervolgkeuzelijst Categorie selecteren. In ons voorbeeld selecteert u het rechter aanwijsteken voor dubbele hoek in de categorie Leestekens.
 
-      <img src="./assets/insert-special-chars.png" width="400">
+     <img src="./assets/insert-special-chars.png" width="400">
 
 
-   * **Nummering beginnen vanaf**: Geef die waarde op als u de nummering vanaf een bepaald nummer wilt laten beginnen. Voor ons voorbeeld, houd de standaardwaarde van 1.
+   * **Nummering beginnen vanaf**: Als u de nummering vanaf een bepaald getal wilt laten beginnen, geeft u die waarde op. Voor ons voorbeeld, houd de standaardwaarde van 1.
 
    * **Inspringen**: Als u de kop wilt laten inspringen, moet u de waarde voor Inspringen instellen. Stel het bijvoorbeeld in op 0 px.
 
-      >[!NOTE]
-      >
-      >U kunt de waarde invoeren in px (pixels), pt (punten), rem, em, % (percentage) of in (inches) eenheden.
+     >[!NOTE]
+     >
+     >U kunt de waarde invoeren in px (pixels), pt (punten), rem, em, % (percentage) of in (inches) eenheden.
 
-   * **Breedte voorvoegsel**: Dit is het gebied dat wordt bezet door het auto-aantalformaat. De stijl wordt automatisch ingesteld op een grootte die gemakkelijk geschikt is voor de geselecteerde stijlindeling. Als u de grootte wilt vergroten, kunt u de standaardwaarde vervangen.
+   * **Voorvoegselbreedte**: Dit is het gebied dat wordt ingenomen door de notatie auto-number. De stijl wordt automatisch ingesteld op een grootte die gemakkelijk geschikt is voor de geselecteerde stijlindeling. Als u de grootte wilt vergroten, kunt u de standaardwaarde vervangen.
 
-      Wanneer u deze waarde handmatig instelt, wijzigt u de andere eigenschappen die van invloed zijn op de breedte. Wijzig bijvoorbeeld de tekengrootte, de opmaak met het voorvoegsel (Hoofdstuk) of een achtervoegsel (:) en stel de maximale waarde in in het dialoogvenster *Nummering beginnen vanaf* en de verschillende fonteigenschappen die de optimale grootte opleveren.
+     Wanneer u deze waarde handmatig instelt, wijzigt u de andere eigenschappen die van invloed zijn op de breedte. Wijzig bijvoorbeeld de tekengrootte, de opmaak met het voorvoegsel (Hoofdstuk) of een achtervoegsel (:) en stel de maximale waarde in in het dialoogvenster *Nummering beginnen vanaf* en de verschillende fonteigenschappen die de optimale grootte opleveren.
 
-      Voor ons voorbeeld, houd de standaardwaarde.
+     Voor ons voorbeeld, houd de standaardwaarde.
 
    * **Tussenruimte**: Geef de horizontale en verticale afstand op. Behoud de standaardwaarden voor ons voorbeeld.
 
-      Met de bovenstaande aanpassingen wordt de stijl aangepast zoals hieronder wordt weergegeven:
+     Met de bovenstaande aanpassingen wordt de stijl aangepast zoals hieronder wordt weergegeven:
 
-      <img src="./assets/h1-style-custmization.png" width="500">
+     <img src="./assets/h1-style-custmization.png" width="500">
 
-   * **Opmaak toepassen op**: Met de eigenschappen onder de categorie Herfst kunt u de nummeringsstijl definiëren. Als u de nummeringsstijl of de inhoud van de kopindeling verder wilt aanpassen, kiest u Nummering of Alinea in dit veld. Als u Nummering kiest, worden wijzigingen in lettertype, rand, layout en andere categorieën alleen toegepast op de nummeringsstijl in de kop. Als u echter Alinea kiest, worden de wijzigingen toegepast op de inhoud van de kop en niet op de nummeringsstijl.
+   * **Opmaak toepassen op**: De eigenschappen onder de categorie Herfstnummer helpen u bij het definiëren van de nummeringsstijl. Als u de nummeringsstijl of de inhoud van de kopindeling verder wilt aanpassen, kiest u Nummering of Alinea in dit veld. Als u Nummering kiest, worden wijzigingen in lettertype, rand, layout en andere categorieën alleen toegepast op de nummeringsstijl in de kop. Als u echter Alinea kiest, worden de wijzigingen toegepast op de inhoud van de kop en niet op de nummeringsstijl.
 
    Gebruik de volgende instellingen om een uitvoer te genereren die in de volgende schermafbeelding wordt getoond:
 
-   |**Stijl kop**|**Eigenschap**|**Waarde**|**Aanvullende opmerkingen**| | :- | :- | :- | :- | |h1|Stijl|Decimaal|Deze eigenschappen vallen onder de categorie Autonumber | ||Indeling|`Capter <x>:`|| ||Breedte voorvoegsel|160 px|| ||Lettertype > Tekstuitlijning|Links|Zorg dat Opmaak toepassen op is ingesteld op Nummering| |h2|Stijl|Decimaal|Deze eigenschappen vallen onder de categorie Autonumber | ||Indeling|`Section <x>:`|| ||Breedte voorvoegsel|125 px|| ||Lettertype > Tekstuitlijning|Links|Zorg dat Opmaak toepassen op is ingesteld op Nummering| |h3|Stijl|Decimaal|Deze eigenschappen vallen onder de categorie Autonumber | ||Niveau invoegen|2|| ||Indeling|`Section <2>.<x>:`|| ||Breedte voorvoegsel|125 px|| ||Lettertype > Tekstuitlijning|Links|Zorg dat Opmaak toepassen op is ingesteld op Nummering| ||
+   | **Stijl kop** | **Eigenschap** | **Waarde** | **Aanvullende opmerkingen** |
+   | :- | :- | :- | :- |
+   | h1 | Stijl | Decimaal | Deze eigenschappen vallen onder de categorie Autonumber |
+   |  | Indeling | `Capter <x>:` |  |
+   |  | Voorvoegselbreedte | 160 px |  |
+   |  | Font > Text Alignment | Links | Zorg ervoor dat Opmaak toepassen op is ingesteld op Nummering |
+   | h2 | Stijl | Decimaal | Deze eigenschappen vallen onder de categorie Autonumber |
+   |  | Indeling | `Section <x>:` |  |
+   |  | Voorvoegselbreedte | 125 px |  |
+   |  | Font > Text Alignment | Links | Zorg ervoor dat Opmaak toepassen op is ingesteld op Nummering |
+   | h3 | Stijl | Decimaal | Deze eigenschappen vallen onder de categorie Autonumber |
+   |  | Niveau invoegen | 2 |  |
+   |  | Indeling | `Section <2>.<x>:` |  |
+   |  | Voorvoegselbreedte | 125 px |  |
+   |  | Font > Text Alignment | Links | Zorg ervoor dat Opmaak toepassen op is ingesteld op Nummering |
+   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -140,6 +154,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 1. Open de vereiste stijlpagina voor bewerking.
 
    >[!NOTE]
+   >
    Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
 1. In de **Stijlen** lijst, vouw de **Alineastijlen**.
@@ -158,7 +173,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
    * **Layout**: Stel de verticale uitlijning van de tekst rond de initiaalstijl in. In ons voorbeeld wordt de verticale uitlijning ingesteld op Onder.
 
-Als de `p` -tag wordt toegewezen aan de `<p>` -element in DITA, hoeft u deze stijl niet expliciet toe te voegen met behulp van het attribuut outputclass. Waar in uw inhoud a `<p>` -element wordt gebruikt, wordt de initiaalstijl er automatisch op toegepast. In de volgende schermafbeelding zijn de titel van het hoofdstuk, de korte beschrijving en de elementen uit de definitielijst niet opgemaakt met de initiaalstijl. Alleen de alineastijl wordt opgemaakt met de initiaalstijl:
+Als de `p` -tag wordt toegewezen aan de `<p>` -element in DITA, hoeft u deze stijl niet expliciet toe te voegen met behulp van het attribuut outputclass. Waar in uw inhoud a `<p>` -element wordt gebruikt, wordt de initiaalstijl automatisch toegepast. In de volgende schermafbeelding zijn de titel van het hoofdstuk, de korte beschrijving en de definitielijst niet opgemaakt met de initiaalstijl. Alleen de alineastijl wordt opgemaakt met de initiaalstijl:
 
 <img src="./assets/char-style-drop-cap.png" width="500">
 
@@ -175,6 +190,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 1. Open de vereiste stijlpagina voor bewerking.
 
    >[!NOTE]
+   >
    Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
 1. In de **Stijlen** lijst, vouw de **Tekenstijlen**.
@@ -191,14 +207,15 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
 1. Selecteren `span.BoldItalic` van de **Tekenstijl** en stel de volgende eigenschappen in:
 
-   * **Lettertype**: Alle eigenschappen met betrekking tot lettertypen kunnen in deze sectie worden aangepast. Standaard worden sommige lettertypen in het product opgenomen. U kunt het gewenste lettertype voor de tekenstijl kiezen. Stel bijvoorbeeld de lettertypefamilie in op *Serif,* en selecteert u *Vet* en *Cursief* in de eigenschap Lettertypestijl. U kunt ook andere lettertype-eigenschappen aanpassen, zoals Dikte lettertypen (zoals vet, lichter), Tekstdecoratie (zoals onderstrepen, onderstrepen), Tekengrootte, Lettertypekleur, Tekstuitlijning, enzovoort.
+   * **Lettertype**: Alle eigenschappen die betrekking hebben op lettertypen kunnen in deze sectie worden aangepast. Standaard zijn er enkele lettertypen die bij het product zijn gebundeld. U kunt het gewenste lettertype voor de tekenstijl kiezen. Stel bijvoorbeeld de lettertypefamilie in op *Serif,* en selecteert u *Vet* en *Cursief* in de eigenschap Font Style. U kunt ook andere lettertype-eigenschappen aanpassen, zoals Dikte lettertypen (zoals vet, lichter), Tekstdecoratie (zoals onderstrepen, onderstrepen), Tekengrootte, Lettertypekleur, Tekstuitlijning, enzovoort.
 
-      >[!NOTE]
-      U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer informatie over het toevoegen van doopvonten en het werken met Middelen, zie [Werken met bronnen](components-pdf-template.md#work-with-resources).
+     >[!NOTE]
+     >
+     U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Zie voor meer informatie over het toevoegen van lettertypen en het werken met bronnen [Werken met bronnen](components-pdf-template.md#work-with-resources).
 
-   * **Layout**: U kunt indelingseigenschappen instellen, zoals Hoogte en Breedte, Marge, Opvulling, Uitlijning en nog veel meer.
+   * **Layout**: U kunt de eigenschappen voor de lay-out instellen, zoals Hoogte en Breedte, Marge, Opvulling, Uitlijning en meer.
 
-   * **Achtergrond**: Met de Achtergrondeigenschappen kunt u de achtergrondkleur van een bepaalde stijl opmaken. U kunt de achtergrondkleur of afbeelding voor elke stijl definiëren.
+   * **Achtergrond**: Met de eigenschappen Achtergrond kunt u de achtergrondkleur van een bepaalde stijl opmaken. U kunt de achtergrondkleur of afbeelding voor elke stijl definiëren.
 
 Nadat u de inline tekenstijl hebt gemaakt, moet u deze toepassen in de inhoud. Ga naar de bronweergave en voeg de `outputclass` kenmerk in de gewenste inhoud:
 
@@ -217,17 +234,18 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 1. Open de vereiste stijlpagina voor bewerking.
 
    >[!NOTE]
+   >
    Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
 1. In de **Stijlen** lijst, vouw de **Lijststijlen**.
 
-1. Selecteer **ol** in de lijst.
+1. Selecteer de **ol** in de lijst.
 
    De eigenschappen voor de oliestijl worden samen met de voorvertoning weergegeven in het deelvenster Eigenschappen.
 
    <img src="./assets/list-style-default.png" width="500">
 
-1. Selecteer **Geavanceerde opmaak** optie.
+1. Selecteer de **Geavanceerde opmaak** -optie.
 
    Er wordt een bevestigingsbericht weergegeven.
 
@@ -237,7 +255,7 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 
    * **Niveau**: Standaard zijn er 6 niveaus genummerde lijsten. Het niveau dat u in deze drop-down controles selecteert de stijlveranderingen op het geselecteerde niveau en alle verdere niveaus. Als u bijvoorbeeld niveau 4 selecteert, worden alle stijlwijzigingen die u toepast, ingesteld op niveaus 4, 5 en 6.
 
-   * **Type lijststijl**: Er zijn een aantal lijstnummeringsstijlen waaruit u kunt kiezen. De lijst bevat landspecifieke en generieke nummeringsstijlen waarmee een genummerde lijst wordt gemaakt. Sommige lijststijltypen zijn Arabisch, Cambodjaans, Devanagari, Ethiopic, Hangul, Hebreeuws, Japans, Koreaans, Eenvoudig Chinees, Urdu en meer.
+   * **Type lijststijl**: Er zijn een aantal lijstnummeringsstijlen waaruit u kunt kiezen. De lijst bevat landspecifieke en generieke nummeringsstijlen die worden gebruikt om een genummerde lijst te maken. Sommige lijststijltypen zijn Arabisch, Cambodjaans, Devanagari, Ethiopic, Hangul, Hebreeuws, Japans, Koreaans, Eenvoudig Chinees, Urdu en meer.
 
    Verder kunt u met de volgende eigenschappen voor Geavanceerde opmaak werken:
 
@@ -245,27 +263,27 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 
    * **Teken invoegen**: Als u een speciaal teken wilt toevoegen in de nummeropmaak, klikt u op Teken invoegen (<img src="./assets/insert-chars.png" width="25">). Selecteer het gewenste teken dat u in de stijlindeling wilt toevoegen en klik op Invoegen. Er zijn verschillende typen speciale tekens die u kunt kiezen in de vervolgkeuzelijst Categorie selecteren.
 
-   * **Niveau invoegen**: U kunt het aantal van om het even welke voorafgaande niveaus in uw aantalformaat omvatten. Als u bijvoorbeeld de getalnotatie van het 5e niveau wilt opnemen in de getalnotatie van het 6e niveau, kiest u 5 in de vervolgkeuzelijst Niveau invoegen. Let op: in de vervolgkeuzelijst Niveau invoegen worden alleen de nummers van de voorafgaande niveaus weergegeven en niet het volgende niveau. Als u bijvoorbeeld op niveau 3 werkt, worden in de lijst Niveau invoegen alleen niveaus 1 en 2 weergegeven.
+   * **Niveau invoegen**: U kunt het nummer van een van de voorgaande niveaus in uw getalnotatie opnemen. Als u bijvoorbeeld de getalnotatie van het 5e niveau wilt opnemen in de getalnotatie van het 6e niveau, kiest u 5 in de vervolgkeuzelijst Niveau invoegen. Let op: in de vervolgkeuzelijst Niveau invoegen worden alleen de nummers van de voorafgaande niveaus weergegeven en niet het volgende niveau. Als u bijvoorbeeld op niveau 3 werkt, worden in de lijst Niveau invoegen alleen niveaus 1 en 2 weergegeven.
 
-      <img src="./assets/list-insert-level.png" width="400">
+     <img src="./assets/list-insert-level.png" width="400">
 
-      U kunt ook de nummeropmaak wijzigen en zo nodig de lijstwaarden weergeven. Als u bijvoorbeeld een geneste nummeringsstijl gebruikt voor niveau 3, kunt u deze opmaken als &quot;`<2>.<x>))`&quot;. Dit toont lijstnummer 2, gevolgd door een punt, gevolgd door lijstnummer 3 en vervolgens twee haakjes, zoals `2.3))`.
+     U kunt ook de nummeropmaak wijzigen en zo nodig de lijstwaarden weergeven. Als u bijvoorbeeld een geneste nummeringsstijl gebruikt voor niveau 3, kunt u deze opmaken als &quot;`<2>.<x>))`&quot;. Dit toont lijstnummer 2, gevolgd door een punt, gevolgd door lijstnummer 3 en vervolgens twee haakjes, zoals `2.3))`.
 
    * **Inspringen**: Als u de lijst wilt laten inspringen, moet u de waarde Inspringen instellen. Wijzigingen in de inspringing kunnen worden gecontroleerd in het deelvenster Voorvertoning en aangepast.
 
-      >[!NOTE]
-      U kunt de waarde invoeren in px (pixels), pt (punten), rem, em, % (percentage) of in (inches) eenheden.
+     >[!NOTE]
+     >
+     U kunt de waarde invoeren in px (pixels), pt (punten), rem, em, % (percentage) of in (inches) eenheden.
 
-   * **Breedte voorvoegsel**: Dit is het gebied dat door het Formaat van het Aantal wordt bezet. Deze wordt automatisch ingesteld op een grootte die gemakkelijk geschikt is voor de geselecteerde indeling. Als u de grootte wilt vergroten, kunt u de standaardwaarde vervangen.
+   * **Voorvoegselbreedte**: Dit is het gebied dat wordt ingenomen door de getalnotatie. Deze wordt automatisch ingesteld op een grootte die gemakkelijk geschikt is voor de geselecteerde indeling. Als u de grootte wilt vergroten, kunt u de standaardwaarde vervangen.
 
-      Wanneer u deze waarde handmatig instelt, wijzigt u de andere eigenschappen die van invloed zijn op de breedte. Wijzig bijvoorbeeld de tekengrootte, de opmaak met voor- of achtervoegsel en de verschillende lettertype-eigenschappen om de optimale grootte te bereiken.
+     Wanneer u deze waarde handmatig instelt, wijzigt u de andere eigenschappen die van invloed zijn op de breedte. Wijzig bijvoorbeeld de tekengrootte, de opmaak met voor- of achtervoegsel en de verschillende lettertype-eigenschappen om de optimale grootte te bereiken.
 
    * **Tussenruimte**: Geef de horizontale afstand tussen de nummeropmaak van de lijst en de inhoud op. De verticale spatiëring bepaalt de tussenruimte tussen de twee lijstitems.
 
-      De volgende schermafbeelding toont de aangepaste geordende lijst voor elk niveau:
+     De volgende schermafbeelding toont de aangepaste geordende lijst voor elk niveau:
 
-      <img src="./assets/list-number-format-final.png" width="500">
-
+     <img src="./assets/list-number-format-final.png" width="500">
 
 ## Werken met tabelstijl {#table-styles}
 
@@ -276,6 +294,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 1. Open de vereiste stijlpagina voor bewerking.
 
    >[!NOTE]
+   >
    Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
 1. In de **Stijlen** lijst, klik met de rechtermuisknop op de **Tabelstijl** en kiest u **Nieuwe stijl**.
@@ -288,23 +307,25 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
 1. Selecteren `table.double-border` van de **Tabelstijlen** en stel de volgende eigenschappen in:
 
-   * **Opmaak toepassen op**: U kunt de opmaak van de stijl toepassen op de hele tabel, op oneven/even rijen of kolommen of op de eerste/laatste rij of kolom.
+   * **Opmaak toepassen op**: U kunt de opmaak van de stijl toepassen op de hele tabel, op oneven/even rijen of op kolommen of op de eerste/laatste rij of kolom.
 
-      >[!NOTE]
-      De volgende instellingen zijn beschikbaar onder de **Algemeen** delen wanneer **Opmaak toepassen op** is ingesteld op **Hele tabel**.
+     >[!NOTE]
+     >
+     De volgende instellingen zijn beschikbaar onder **Algemeen** delen wanneer **Opmaak toepassen op** is ingesteld op **Hele tabel**.
 
-   * **Tekstomloop**: Selecteer hoe u tekst om de tabel heen wilt laten lopen. Dit is handig wanneer de tabel zich in een ander element op blokniveau bevindt en de tabel samen met andere inhoud in het blokelement moet worden gerenderd. De omloopopties zijn *left* of *right* uitgelijnd, of *none*.
+   * **Tekstomloop**: Selecteer hoe u tekst om de tabel heen wilt laten lopen. Dit is handig wanneer de tabel zich in een ander element op blokniveau bevindt en de tabel samen met andere inhoud in het blokelement moet worden gerenderd. De omloopopties zijn *left* of *right* uitgelijnd of *none*.
 
    * **Rand samenvouwen**: Selecteer de vormgeving van de tabelrand. Als u samenvouwen selecteert, wordt er slechts één randlijn tussen de tabelcellen getekend. Voor afzonderlijke stijlen is de rand echter zichtbaar rond elke cel met extra opvulling.
 
-      <img src="./assets/table-style-collapse-separate.png" width="500">
+     <img src="./assets/table-style-collapse-separate.png" width="500">
 
    * **Randafstand**: Deze instelling is alleen beschikbaar als Rand samenvouwen is ingesteld op Afzonderlijk. Met deze instelling kunt u de verticale en horizontale afstand tussen de celranden opgeven.
 
-      <img src="./assets/table-border-spacing.png" width="500">
+     <img src="./assets/table-border-spacing.png" width="500">
 
-      >[!NOTE]
-      De volgende instellingen zijn beschikbaar onder de **Cel** delen wanneer **Opmaak toepassen op** is ingesteld op **Hele tabel**.
+     >[!NOTE]
+     >
+     De volgende instellingen zijn beschikbaar onder **Cel** delen wanneer **Opmaak toepassen op** is ingesteld op **Hele tabel**.
 
    * **Opvulling**: Geef de opvulling tussen tabelcellen op. U kunt verschillende opvullingswaarden opgeven voor de boven-, onder-, linker- en rechterzijde.
 
@@ -329,9 +350,10 @@ In het volgende voorbeeld wordt de titel van een nieuw venster gemaakt (`wintitl
 1. Open de vereiste stijlpagina voor bewerking.
 
    >[!NOTE]
+   >
    Zie [Een vooraf gedefinieerde of nieuwe stijl aanpassen](components-pdf-template.md#customize-style) voor het openen van een opmaakmodel voor aanpassen of bewerken.
 
-1. In de **Stijlen** lijst, uitvouwen **Overige stijlen**.
+1. In de **Stijlen** lijst, uitbreiden **Overige stijlen**.
 
 1. Klik met de rechtermuisknop op de knop **Andere stijl** en kiest u **Nieuwe stijl**.
 

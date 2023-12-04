@@ -1,10 +1,9 @@
 ---
 title: Profielen op algemeen niveau of mapniveau configureren
 description: Leer hoe u algemene profielen of mapprofielen configureert
-exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
-source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3891'
+source-wordcount: '3896'
 ht-degree: 0%
 
 ---
@@ -59,7 +58,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
    - PDF
 
-   - HTML5
+   - HTML 5
 
    - EPUB
 

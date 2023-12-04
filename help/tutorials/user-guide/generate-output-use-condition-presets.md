@@ -1,10 +1,9 @@
 ---
 title: Voorinstellingen voor voorwaarden gebruiken
 description: Zorg dat u weet hoe voorinstellingen voor voorwaarden in AEM hulplijnen worden gebruikt. Leer voorinstellingen voor voorwaarden in AEM maken, bewerken, kopiëren en verwijderen.
-exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -43,7 +42,7 @@ U kunt een voorwaardenvooraf ingesteld van de onderwerpen tot stand brengen door
    >
    > Er wordt een fout weergegeven als het naamveld leeg is of als u een ongeldig teken of een naam invoert die gelijk is aan een bestaande voorinstelling voor voorwaarden. U kunt een koppelteken &#39;-&#39; of onderstrepingsteken &#39;_&#39; gebruiken als scheidingsteken.
 
-1. Selecteer **Maken**.
+1. Selecteren **Maken**.
 De nieuwe voorinstelling voor voorwaarden wordt toegevoegd aan de lijst.
 1. Dubbelklik op een voorinstelling voor voorwaarden om de kenmerken en de handelingen weer te geven.
 De **Attributen** worden alle kenmerken weergegeven die aan verwijzingen in de kaart zijn toegevoegd. In het rechterdeelvenster worden alleen de voorwaarden weergegeven die u hebt toegevoegd aan de voorinstellingen voor voorwaarden.

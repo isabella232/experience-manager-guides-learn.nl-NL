@@ -1,13 +1,12 @@
 ---
 title: Regx configureren voor geldige bestandsnaamtekens
 description: Leer hoe u Regx kunt configureren voor geldige bestandsnaamtekens
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
-
 
 # Regx configureren voor geldige bestandsnaamtekens {#id214BD0550E8}
 
@@ -45,4 +44,3 @@ Voer de volgende stappen uit om regx te configureren voor geldige \(of toegestan
 > Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Zie voor meer informatie [Geldige bestandsnamen voor AEM Site-uitvoer configureren](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Bovenliggend onderwerp:**[ Bestandsnamen configureren](conf-file-names.md)
-

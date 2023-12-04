@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.2.1
 description: Leer de nieuwe en verbeterde functies in 4.2.1-releases van Adobe Experience Manager-hulplijnen
-source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.2.1 van de Gi
 
 Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u de [Opmerkingen bij de release](release-notes-4.2.1.md) artikel.
 
-## Navigeer van de Redacteur van het Web aan de AEM homepage
+## Ga van de Redacteur van het Web aan de AEM homepage
 
 Nu kunt u gemakkelijk van de Redacteur van het Web aan de pagina van de Navigatie van de AEM navigeren.
 
@@ -78,7 +78,7 @@ Zie voor meer informatie [Aangepaste stijlen gebruiken in voetnoten](../native-p
 
 ## Video- of audiobestanden openen en afspelen in de webeditor
 
-AEM Hulplijnen bieden nu de functie om de audio- of videobestanden te openen en af te spelen in de webeditor. U kunt het volume of de weergave van de video wijzigen. In het snelmenu hebt u ook de opties om **Downloaden**, wijzigen **Afspeelsnelheid**, of weergave **Beeld-in-beeld**.
+AEM Hulplijnen bieden nu de functie om de audio- of videobestanden te openen en af te spelen in de webeditor. U kunt het volume of de weergave van de video wijzigen. In het snelmenu kunt u ook de volgende opties instellen: **Downloaden**, wijzigen **Afspeelsnelheid**, of weergave **Foto in beeld**.
 
 <img src="assets/video-web-editor.png" alt="video afspelen" width="600">
 

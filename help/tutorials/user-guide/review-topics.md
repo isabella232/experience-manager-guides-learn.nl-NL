@@ -1,10 +1,9 @@
 ---
 title: Onderwerpen bekijken
 description: Leer hoe u onderwerpen kunt beoordelen en de functies kunt gebruiken als revisor, documentweergave, onderwerpweergave, contextafhankelijke werkbalk, voorvertoningsmodus, bijlagen toevoegen aan opmerkingen en deelvenster Voorwaarden in AEM hulplijnen.
-exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2348'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---

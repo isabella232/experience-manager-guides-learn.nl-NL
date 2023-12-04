@@ -1,15 +1,14 @@
 ---
 title: HTML5 gebruiken
 description: Leer hoe u een HTML5-voorinstelling maakt via het dashboard voor de webeditor en de kaart. Configureer de HTML5-uitvoervoorinstelling in AEM hulplijnen.
-exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
 
-# HTML5 {#id205BE700XO1}
+# HTML 5 {#id205BE700XO1}
 
 De HTML5-uitvoer wordt gegenereerd in een platte maphiërarchie. Dit houdt in dat de mapstructuur die door de inhoud in de opslagplaats wordt gebruikt, niet wordt gerepliceerd in de HTML5-uitvoer. De volledige inhoud wordt gepubliceerd in de uitvoerindeling HTML5 en opgeslagen in één map. De bestandsnamen worden ook vervangen door de UUID&#39;s van de bestanden in de gegenereerde uitvoer. Het enige bestand dat geen op UUID gebaseerde bestandsnaam heeft, is het bestand index.html.
 

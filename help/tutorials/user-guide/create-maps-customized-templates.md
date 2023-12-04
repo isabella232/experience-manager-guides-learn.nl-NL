@@ -1,10 +1,9 @@
 ---
 title: Kaarten maken op basis van aangepaste sjablonen
 description: Leer om een aanpassingsmalplaatje tot stand te brengen, hen te gebruiken om nieuwe kaartdossiers tot stand te brengen, en de bepaalde titel over te gaan aan een kaart DITA in AEM Gidsen.
-exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -93,7 +92,7 @@ Uw beheerder kan ook een map maken en deze zo configureren dat deze de map is wa
 
 Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van douaneDITA te vormen:
 <details>
-    <summary> Cloud Services </summary>
+    <summary> Cloud Servicen </summary>
 
 Leer hoe u [aangepaste DITA-sjabloonmappad configureren](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Installatie- en configuratiehandleiding van Cloud Servicen.
 </details>

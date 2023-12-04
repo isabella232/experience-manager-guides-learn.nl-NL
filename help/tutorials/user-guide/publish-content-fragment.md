@@ -1,13 +1,12 @@
 ---
 title: Een onderwerp naar een inhoudsfragment publiceren
 description: Publiceer een onderwerp of de elementen binnen een onderwerp aan een inhoudsfragment in AEM Gidsen.  Leer hoe u de inhoudsfragmenten die aanwezig zijn voor een onderwerp kunt weergeven en deze opnieuw kunt publiceren.
-source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
-
 
 # Publiceren naar een inhoudsfragment
 
@@ -41,7 +40,7 @@ Voeg bijvoorbeeld `/conf/we-retail` in de cloudconfiguratie. Deze configuratie v
      Gebaseerd op uw opstelling kan uw beheerder de afbeeldingen in toevoegen *contentFragmentMapping.json* bestand.
 
      <details>
-        <summary>Cloud Services</summary>
+        <summary>Cloud Servicen</summary>
 
      Meer informatie over hoe [een toewijzing maken tussen een onderwerp en een inhoudsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.
      </details>
@@ -65,4 +64,3 @@ U kunt het inhoudsfragment ook opnieuw publiceren om het inhoudsfragment bij te 
 
 
 Nadat u de inhoudsfragmenten hebt gepubliceerd, kunt u deze ook op elke AEM site gebruiken.
-

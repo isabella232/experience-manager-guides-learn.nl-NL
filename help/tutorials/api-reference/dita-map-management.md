@@ -1,13 +1,12 @@
 ---
 title: REST API voor werken met DITA-kaarten
 description: Meer informatie over de REST API voor werken met DITA-kaarten
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # REST API voor werken met DITA-kaarten {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ Een methode van de GET die de status van uitvoer voor een kaart DITA met al zijn
 |Naam|Type|Vereist|Beschrijving| |—|—|—|—| |`jobId`|Tekenreeks|Ja|De taak-id die wordt opgehaald wanneer de exporttaak wordt gestart.|
 
 **Responswaarden**: |Element|Beschrijving| |—|—| |`status`|De status van de exporttaak. De mogelijke opties zijn: GESTART, MISLUKT, INPROGRESS, SUCCEED, ONTBREEKT, VERWIJDERD| |`jobId`|De unieke id van de taak. Kan later worden gebruikt om te zoeken naar de status.| |`errorMessage`|The error message of the job in case of a failure \(if the status is FAILED, MISSING or DELETED\).| |`filePath`|Het bestandspad van het ZIP-bestand. Het is alleen aanwezig als de taak is voltooid en de status SUCCEED is. Hiermee kunt u het ZIP-bestand downloaden.|
-

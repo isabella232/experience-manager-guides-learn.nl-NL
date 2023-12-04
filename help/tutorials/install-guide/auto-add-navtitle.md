@@ -1,13 +1,12 @@
 ---
 title: '@navtitle-kenmerk standaard opnemen'
 description: Leer hoe u standaard @navtitle-kenmerk kunt opnemen
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
-
 
 # @navtitle-kenmerk standaard opnemen {#id2115BC0J0XA}
 
@@ -19,7 +18,7 @@ Opnemen `@navtitle` Voer standaard de volgende stappen uit in de eigenschappen v
 
 1. Download het bestand ui\_config.json.
 
-   U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden van het bestand ui\_config.json raadpleegt u [Vorm en pas de Redacteur van het Web van XML aan](conf-folder-level.md#id2065G300O5Z).
+   U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden van het bestand ui\_config.json raadpleegt u [De XML-webeditor configureren en aanpassen](conf-folder-level.md#id2065G300O5Z).
 
 1. Zoeken naar `ditaAttributes` definitie.
 
@@ -44,5 +43,4 @@ Opnemen `@navtitle` Voer standaard de volgende stappen uit in de eigenschappen v
 1. Upload het bestand in het bijbehorende profiel \(Algemeen of Map\).
 
 
-Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart de `@navtitle` kenmerk standaard.
-
+Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart de `@navtitle` standaard is ingesteld.

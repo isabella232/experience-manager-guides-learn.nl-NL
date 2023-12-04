@@ -1,13 +1,12 @@
 ---
 title: Omzetproces, gebeurtenishandler
 description: Meer informatie over de gebeurtenishandler voor het conversieproces
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Omzetproces, gebeurtenishandler {#id175UB30E05Z}
 
@@ -25,4 +24,3 @@ com/adobe/fmdita/conversion/complete
 
 **Parameters**:\
 |Naam|Type|Omschrijving| |—|—|—| |`status`|String|De geretourneerde status van de uitgevoerde bewerking. De mogelijke opties zijn: - SUCCESS: het conversieproces is voltooid. <br> - VOLTOOID MET FOUTEN: het conversieproces is voltooid, maar met enkele fouten. <br>- MISLUKT: het conversieproces is mislukt door een fatale fout.| |`filePath`|Tekenreeks|Absoluut pad van het bronbestand \(om te converteren\) in AEM opslagplaats.| |`outputPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.| |`logPath`|String|Absolute weg van de knoop waar het omzettingslogboek zal worden bewaard.|
-

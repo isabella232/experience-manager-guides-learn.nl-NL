@@ -1,13 +1,12 @@
 ---
 title: REST API om een gegevensbronschakelaar te registreren
 description: Meer informatie over de REST API om een gegevensbronaansluiting te registreren
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # REST API om een gegevensbronschakelaar te registreren {#id236LG0Y0CXA}
 
@@ -24,4 +23,3 @@ Een methode van GET die een gegevensbronschakelaar registreert.
 
 **Voorbeeld**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`
-

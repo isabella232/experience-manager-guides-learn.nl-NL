@@ -1,15 +1,14 @@
 ---
-title: Rapporten in AEM hulplijnen
+title: Rapporten in AEM
 description: Leer welke rapporten in AEM beschikbaar zijn om gebruikers te helpen de kwaliteit van de inhoud te verbeteren.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
-# Rapporten in AEM hulplijnen
+# Rapporten in AEM
 
 In een organisatorische opstelling, wilt u de algemene volledigheid van uw inhoud verifiëren alvorens u de documenten voor consumptie door eind duwt - gebruikers. Een dergelijke behoefte wordt zelfs nog belangrijker in omgevingen met meerdere gebruikers en op grote schaal waar inhoud in verschillende contexten opnieuw kan worden gebruikt. Daarom is het noodzakelijk uw inhoud of document te valideren. In de context van gestructureerde inhoud, zijn er sommige specifieke types van rapporten die algemeen nodig zijn.
 
@@ -34,7 +33,7 @@ In deze sessie hebben we offline rapporten voor gebruikers weergegeven. We hebbe
 - **Datum** - 30 maart 2023
 - **Aantal deelnemers** - 102
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adobe-medewerkers
+- **Publiek** - Klanten, partners en Adoben
 
 
 ## Toetsen
@@ -58,9 +57,8 @@ In deze sessie hebt u kennis genomen van het volgende:
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
-> - Op prem: 4.2 of hoger
-> - Cloud Services: 2302 of hoger
-
+> - On-prem: 4.2 of hoger
+> - Cloud Servicen: 2302 of hoger
 
 
 ## Volgende sessie met experts

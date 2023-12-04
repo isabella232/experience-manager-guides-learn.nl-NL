@@ -1,13 +1,12 @@
 ---
 title: Over deze handleiding
 description: Meer informatie over deze handleiding
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
-
 
 # Over deze handleiding {#id175MC0P0S5Z}
 
@@ -22,11 +21,11 @@ Deze handleiding is bedoeld voor het volgende type publiek:
 - Uitgevers, die de publicatietaak zouden uitvoeren om uitvoer in verschillende indelingen te genereren.
 
 
-## Inhoudsstructuur
+## Inhoudstructuur
 
 De informatie in deze handleiding is als volgt geordend:
 
-- [Over deze handleiding](#id175MC0P0S5Z): Dit onderwerp verstrekt een inleiding aan deze gids, voorgenomen publiek, en hoe de informatie in deze gids wordt georganiseerd.
+- [Over deze handleiding](#id175MC0P0S5Z): Dit onderwerp biedt een inleiding tot deze handleiding, het beoogde publiek en de manier waarop de informatie in deze handleiding is georganiseerd.
 
 - [Downloaden en installeren](download-install.md#): In dit onderwerp wordt beschreven hoe u AEM hulplijnen kunt downloaden, installeren of upgraden.
 
@@ -36,17 +35,17 @@ De informatie in deze handleiding is als volgt geordend:
 
 - [Documentstatussen configureren](customize-doc-state.md#): Dit onderwerp verklaart hoe te om douanestatus voor uw documenten te vormen DITA.
 
-- [Bestaande inhoud migreren](migrate-content.md#): In dit onderwerp wordt beschreven hoe u uw bestaande inhoud in AEM opslagplaats kunt inbouwen.
+- [Bestaande inhoud migreren](migrate-content.md#): In dit onderwerp wordt beschreven hoe u uw bestaande inhoud in AEM opslagplaats aan boord kunt nemen.
 
-- [Bestandsnamen configureren](conf-file-names.md#): Dit onderwerp verklaart hoe te om het plaatsen te vormen om dossiernamen automatisch toe te wijzen en een regex voor geldige dossiernaamkarakters te bepalen.
+- [Bestandsnamen configureren](conf-file-names.md#): In dit onderwerp wordt uitgelegd hoe u instellingen configureert om automatisch bestandsnamen toe te wijzen en een regex voor geldige bestandsnaamtekens te definiëren.
 
 - [Onderwerp- en kaartsjablonen configureren](conf-template-tags.md#): Dit onderwerp beschrijft hoe te om onderwerp en kaartmalplaatjes te vormen om aan uw auteursbehoeften te voldoen. Leer over het etiketteren van systeem in AEM en hoe te om markeringen te vormen om met AEM Gidsen te werken.
 
 - [Webeditor aanpassen](conf-web-editor.md#): Dit onderwerp verklaart de diverse aanpassingen die u in de Redacteur van het Web kunt maken om zijn functionaliteit te verbeteren.
 
-- [@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md#): Dit onderwerp verklaart hoe te om toe te voegen `@navtitle` standaard verwijzen naar een referentiebestand in een kaart.
+- [@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md#): In dit onderwerp wordt uitgelegd hoe u het dialoogvenster `@navtitle` standaard verwijzen naar een referentiebestand in een kaart.
 
-- [Profielen op algemeen niveau of mapniveau configureren](conf-folder-level.md#): In dit onderwerp wordt het maken van mapprofielen en het geven van machtigingen aan specifieke gebruikers uitgelegd.
+- [Profielen op algemeen niveau of mapniveau configureren](conf-folder-level.md#): In dit onderwerp wordt uitgelegd hoe u mapprofielen maakt en machtigingen geeft aan specifieke gebruikers.
 
 - [Versiebeheer](version-management.md#): Dit onderwerp beschrijft hoe te om automatische dossiercontrole voor dossiers te vormen die voor het uitgeven in de Redacteur van het Web worden geopend.
 
@@ -63,12 +62,12 @@ De informatie in deze handleiding is als volgt geordend:
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) is een uitgebreide oplossing voor inhoudsbeheer voor het bouwen van websites, mobiele apps en formulieren. AEM helpt u uw marketinginhoud en -middelen te beheren. AEM is as a Cloud Service beschikbaar. AEM as a Cloud Service helpt u uw klanten van gepersonaliseerde, inhoud-geleide ervaringen te voorzien door de macht van het systeem van het Beheer van de AEM met AEM Digitaal Middelenbeheer te combineren.Enkele belangrijkste middelen die u kunnen helpen om aan AEM as a Cloud Service worden begonnen en worden opgesteld zijn als volgt:
 
-- [Overzicht van Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [as a Cloud Service overzicht Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
 - [Aan de slag met de migratiereis om as a Cloud Service te AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
 - [Aan boord gaan starten naar as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Applicaties voor AEM as a Cloud Service implementeren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
 - [Implementeren naar AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
-- [as a Cloud Service hulplijn voor middelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
+- [As a Cloud Service hulplijn voor middelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
 
 ## Aanvullende bronnen
 
@@ -76,4 +75,3 @@ Hier volgt een lijst met andere nuttige bronnen van AEM hulplijnen, die beschikb
 
 - Handboek
 - API-naslaggids
-

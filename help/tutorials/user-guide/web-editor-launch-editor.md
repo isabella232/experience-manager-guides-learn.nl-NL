@@ -1,10 +1,9 @@
 ---
 title: De webeditor starten
 description: Leer hoe u de webeditor start via de navigatiepagina AEM AEM Assets, UI en DITA-kaartconsole in AEM hulplijnen.
-exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanc
 
   <details>
 
-  <summary> Cloud Services </summary>
+  <summary> Cloud Servicen </summary>
 
   Als u Cloud Servicen gebruikt, klikt u op de knop **Sluiten** om terug te gaan naar de AEM navigatiepagina.
   </details>

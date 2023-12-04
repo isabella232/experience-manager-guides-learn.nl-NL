@@ -1,10 +1,9 @@
 ---
 title: AEM omgeving configureren voor publicatie op eigen PDF
 description: AEM omgeving configureren voor publicatie op eigen PDF
-exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---

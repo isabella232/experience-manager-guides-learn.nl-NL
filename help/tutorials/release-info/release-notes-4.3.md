@@ -1,10 +1,10 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de release van Adobe Experience Manager Guides 4.3.0
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.0-versies van Adobe Experience Manager-hulplijnen
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 4%
+source-wordcount: '1086'
+ht-degree: 0%
 
 ---
 
@@ -61,8 +61,8 @@ Zie voor meer informatie de *Technische voorschriften* in de handleiding Adobe E
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.0 (niet-UUID) | 2.3-regelmatig-5 | 2.3-regelmatig-5 | 1.6 | 1.6 |
-| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
+| 4.3.0 (niet-UUID) | 2.3-regelmatig-5 | 2.3-regelmatig-5 | 1,6 | 1,6 |
+| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
 |  |  |   |
 
 ## Opgeloste problemen
@@ -71,34 +71,34 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Authoring
 
-- Het onderwerpbestand wordt niet ontgrendeld in de webeditor, hoewel de optie Bestand ontgrendelen en de optie Niet opslaan zijn geselecteerd. (12558)
-- Kan een bestand niet uitchecken in de webeditor, ondanks dat u de optie NO hebt gekozen om de wijzigingen vóór het inchecken te verwijderen. (12557)
+- Het onderwerpbestand wordt niet ontgrendeld in de webeditor, hoewel de optie Bestand ontgrendelen en de optie Niet opslaan zijn geselecteerd. (1258)
+- Kan een bestand niet uitchecken in de webeditor, ondanks dat u de optie NO hebt gekozen om de wijzigingen vóór het inchecken te verwijderen. (1257)
 - De knopinfo voor de pictogrammen voor vergrendelen en ontgrendelen van bestanden op de hoofdwerkbalk in de webeditor is niet consistent met de pictogrammen die worden weergegeven in de weergave Opslagplaats.(12555)
 - De optie Uitchecken annuleren en ontgrendelen wordt weergegeven voor een bestand in de webeditor dat nog niet is uitgecheckt in de Kaartweergave. (12556)
 - Kan de PDF-elementen niet selecteren in de bestaande &quot;topicref&quot;-koppelingen. (12477).
 - Bij het samenvoegen en splitsen in de tabellen genereert AEM hulplijnen 4.2 extra tabelcellen. (11793)
-- In de weergave Opslagplaats kunnen de onderwerpen of afbeeldingen na gebruik van de functie Zoeken/Filteren niet meer worden gesleept. (12396)
-- De zoekresultaten worden uitgeschakeld in het deelvenster Zoeken en vervangen nadat een doorzocht bestand is geopend. (12142)
-- De cijfertoets &#39;8&#39; op het zijtoetsenbord werkt niet in de editor voor AEM hulplijnen. (12106)
-- De inline-/weergavekenmerken worden niet weergegeven in de layoutweergave van de webeditor. (12498)
-- De configuratie van de globale profiel-UI komt niet overeen met het mapprofiel. (11970)
-- Inhoudsverwijzingen worden verbroken wanneer DITA-bestanden worden gekopieerd en geplakt. (11959)
-- Kan inhoudsfragment niet bewerken in de kolomweergave met AEM hulplijnen geïnstalleerd. (7342)
-- Inhoud gaat verloren wanneer een onverpakt xref zich onder subelementtags bevindt. (12532)
-- De goedkeuringswerkstroom werkt niet wanneer de documentstatus wordt gewijzigd in &quot;eindstatus&quot; in de bestandseigenschappen van het rechterdeelvenster. (11026)
-- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. (11528)
+- In de weergave Opslagplaats kunnen de onderwerpen of afbeeldingen na gebruik van de functie Zoeken/Filteren niet meer worden gesleept. 12396
+- De zoekresultaten worden uitgeschakeld in het deelvenster Zoeken en vervangen nadat een doorzocht bestand is geopend. 12142
+- De cijfertoets &#39;8&#39; op het zijtoetsenbord werkt niet in de editor voor AEM hulplijnen. 12106
+- De inline-/weergavekenmerken worden niet weergegeven in de layoutweergave van de webeditor. 12498
+- De configuratie van de globale profiel-UI komt niet overeen met het mapprofiel. (1970)
+- Inhoudsverwijzingen worden verbroken wanneer DITA-bestanden worden gekopieerd en geplakt. (1959)
+- Kan inhoudsfragment niet bewerken in de kolomweergave met AEM hulplijnen geïnstalleerd. 7342
+- Inhoud gaat verloren wanneer een onverpakt xref zich onder subelementtags bevindt. 12532
+- De goedkeuringswerkstroom werkt niet wanneer de documentstatus wordt gewijzigd in &quot;eindstatus&quot; in de bestandseigenschappen van het rechterdeelvenster. (1026)
+- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. 11528
 - Keyref wordt niet opgelost in de kaartweergave. (11490)
-- Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. (10868)
-- `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. (9481)
-- Lokale koppelingen naar andere elementen worden niet opgelost in de webeditor. (8790)
+- Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. 10868
+- `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. 9481
+- Lokale koppelingen naar andere elementen worden niet opgelost in de webeditor. 8790
 - De functie Matches() werkt niet in de functie schema. (11224)
 
 
 
 ### Beheer
 
-- Het veld &quot;title&quot; in de metagegevenseigenschappen van de DITA-kaart wordt overschreven door `<title>` -element voor de kaart. (10702)
-- Wanneer u probeert de versie van onderwerpen in de basislijn te openen of bij te werken, wordt de lader &quot;Fetching information from the server&quot; voor onbepaalde tijd uitgevoerd.(12478)
+- Het veld &quot;title&quot; in de metagegevenseigenschappen van de DITA-kaart wordt overschreven door `<title>` -element voor de kaart. 10702
+- Wanneer u probeert de versie van onderwerpen in de basislijn te openen of bij te werken, wordt de lader &quot;Fetching information from the server&quot; voor onbepaalde tijd uitgevoerd.12478
 
 
 ### Controleren
@@ -107,18 +107,18 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Publiceren mislukt bij het wijzigen van de naam van een Native PDF-voorinstelling. (12564)
-- Als u een Native PDF-sjabloon dupliceert, wordt de standaardsjabloonlocatie gebruikt in plaats van de beschikbare aangepaste sjabloonlocatie. (12563)
-- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12407)
-- Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (12113)
+- Publiceren mislukt bij het wijzigen van de naam van een Native PDF-voorinstelling. 12564
+- Als u een Native PDF-sjabloon dupliceert, wordt de standaardsjabloonlocatie gebruikt in plaats van de beschikbare aangepaste sjabloonlocatie. 12563
+- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. 12407
+- Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (1213)
 - Native PDF | Aangepaste kenmerken worden niet doorgegeven aan tijdelijke HTML- of PDF-engine. (DXML-12005)
 - Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
-- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. (10751)
-- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. (10876)
-- Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. (10549)
-- JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. (11564)
-- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. (11524)
+- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. 10751
+- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. 10876
+- Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. 10549
+- JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. 11564
+- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 
 ## Bekend probleem
 

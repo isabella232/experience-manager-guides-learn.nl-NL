@@ -1,10 +1,9 @@
 ---
 title: Schematron-ondersteuning voor webeditor
 description: Werken met Schematron in de webeditor
-exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
-source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ Naast ondersteuning voor DITA-regels ondersteunt de webeditor ook validatie van 
 
 &quot;*Schematron*&quot; verwijst naar een op regels gebaseerde validatietaal die wordt gebruikt om tests voor een XML-bestand te definiëren. U kunt de Schematron dossiers invoeren en hen ook uitgeven in de Redacteur van het Web. Gebruikend een &quot;Schematron&quot;dossier kunt u bepaalde regels bepalen en dan hen voor een DITA onderwerp of een kaart bevestigen. Regels voor schema kunnen de consistentie van de XML-structuur waarborgen door beperkingen op te leggen die als regels worden gedefinieerd. Deze beperkingen zijn ingegeven door KMO&#39;s die de kwaliteit en consistentie van de inhoud bezitten.
 
-    OPMERKING: De redacteur van het Web steunt ISO Schematron.
+    NOTA: De redacteur van het Web steunt het Schematron van ISO.
 
 
 ## Kennis van hoe &quot;Schematron&quot; werkt in de webeditor
@@ -30,7 +29,7 @@ Zie de sectie &quot;Ondersteuning voor Schematron-bestanden&quot; in het dialoog
 
 ### Validatieregels toepassen bij het opslaan van bestanden
 
-Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/bestanden instellen die worden uitgevoerd telkens wanneer een gebruiker de inhoud bijwerkt. Zie de sectie &quot;Validatie&quot; in voor meer informatie [Handboek](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/bestanden instellen die worden uitgevoerd telkens wanneer een gebruiker de inhoud bijwerkt. Zie de sectie Validatie in voor meer informatie [Handboek](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
 ![Regels instellen op basis van instellingen voor webeditors](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
@@ -39,7 +38,7 @@ Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/b
 
 Ja, als auteur/gebruiker tijdens het maken van inhoud kunt u het deelvenster Schema in de webbrowser gebruiken om een schemabestand te uploaden en validaties uit te voeren voor het bestand dat is geopend in de editor.
 
-    Dit werkt alleen als beheerders van mapprofielen alle gebruikers de mogelijkheid bieden om schemabestanden toe te voegen in het deelvenster Validatie. Zie editorinstellingen (hierboven weergegeven schermafbeelding)
+    Dit werkt alleen als beheerders van mapprofielen alle gebruikers de mogelijkheid bieden om schemabestanden toe te voegen in het deelvenster Validatie. Zie editorinstellingen (bovenstaande screenshot)
 
 ![Schematron-bestand kiezen](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Validatie uitvoeren](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -52,49 +51,49 @@ De huidige versie van AEM hulplijnen ondersteunt alleen validatie met alleen op 
 
 ### Monsters en meer hulp bij de schoolregels
 
-#### Gebruiksvoorbeelden
+#### Gebruiksscenario&#39;s
 
 - Controleren of een koppeling extern is en of het bereik &quot;extern&quot; is
 
-   ```
-   <sch:pattern>
-       <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
-           <sch:assert test="@scope = 'external' and @format = 'html'">
-               All external xref links must be with scope='external' and format='html'
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
+          <sch:assert test="@scope = 'external' and @format = 'html'">
+              All external xref links must be with scope='external' and format='html'
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
-- Controleer of er ten minste één &quot;topicref&quot; op een kaart staat of ten minste één &quot;li&quot; onder een &quot;ul&quot;
+- Controleer of er minstens één &quot;topicref&quot; op een kaart staat of minstens één &quot;li&quot; onder een &quot;ul&quot;
 
-   ```
-   <sch:pattern>
-       <sch:rule context="map">
-           <sch:assert test="count(topicref) > 0">
-               There should be atleast one topicref in map
-           </sch:assert>
-       </sch:rule>
-   
-       <sch:rule context="ul">
-           <sch:assert test="count(li) > 1" >
-               A list must have more than one item.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="map">
+          <sch:assert test="count(topicref) > 0">
+              There should be atleast one topicref in map
+          </sch:assert>
+      </sch:rule>
+  
+      <sch:rule context="ul">
+          <sch:assert test="count(li) > 1" >
+              A list must have more than one item.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - Het element &quot;indexterm&quot; moet altijd voorkomen in een &quot;prolog&quot;
 
-   ```
-   <sch:pattern>
-       <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
-           <sch:assert test="ancestor::node()/local-name() = 'prolog'">
-               The indexterm element should be in a prolog.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
+          <sch:assert test="ancestor::node()/local-name() = 'prolog'">
+              The indexterm element should be in a prolog.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 #### Bronnen
 

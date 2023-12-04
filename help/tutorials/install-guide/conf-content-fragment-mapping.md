@@ -1,13 +1,12 @@
 ---
 title: Vorm de op JSON-Gebaseerde afbeelding tussen een onderwerp en een model van het inhoudsfragment.
 description: Leer hoe te om op JSON-Gebaseerde afbeelding tussen een onderwerp en een model van het inhoudsfragment te vormen.
-source-git-commit: 85b2e3a2085579c7a44e31e278ff22e22677b540
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Een koppeling maken tussen een onderwerp en een inhoudsfragment
 

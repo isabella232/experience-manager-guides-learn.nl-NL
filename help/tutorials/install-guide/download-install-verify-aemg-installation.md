@@ -1,13 +1,12 @@
 ---
 title: De installatie van AEM hulplijnen controleren
 description: Leer hoe u de installatie van AEM hulplijnen kunt controleren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # De installatie van AEM hulplijnen controleren {#id213BD030FBE}
 
@@ -33,4 +32,3 @@ Nadat u AEM hulplijnen hebt geïnstalleerd, moet u controleren of de installatie
 > Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md#) voor meer informatie.
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-

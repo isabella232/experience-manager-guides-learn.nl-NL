@@ -1,13 +1,12 @@
 ---
 title: REST API voor werken met voorwaardelijke kenmerken
 description: Meer informatie over de REST API om met voorwaardelijke kenmerken te werken
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
-
 
 # REST API voor werken met voorwaardelijke kenmerken {#id175UB30E05Z}
 
@@ -40,4 +39,3 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **Responswaarden**:\
 Retourneert een HTTP 200 \(Successful\) reactie.
-

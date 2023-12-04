@@ -1,9 +1,9 @@
 ---
 title: Instellingen voor uitvoergeneratie configureren
 description: Leer hoe u instellingen voor uitvoergeneratie configureert
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5761'
+source-wordcount: '5762'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De **Tabblad Basislijn verbergen** optie wordt niet toegelaten door gebrek en u 
 
 1. Zoeken naar en klikken op de knop **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Selecteer **Tabblad Basislijn verbergen** optie.
+1. Selecteer de **Tabblad Basislijn verbergen** -optie.
 
 1. Klikken **Opslaan**.
 
@@ -37,32 +37,32 @@ De **Tabblad Basislijn verbergen** optie wordt niet toegelaten door gebrek en u 
    > Deze configuratie is standaard uitgeschakeld en het tabblad Basislijn is beschikbaar op het kaartdashboard.
 
 
-## FrameMaker het Publiceren Server vormen {#id1678G0Z0TN6}
+## FrameMaker Publishing Server configureren {#id1678G0Z0TN6}
 
-U kunt het Publiceren FrameMaker Server \ (FMPS \) gebruiken om output voor uw inhoud te produceren DITA. Als u FMPS configureert, kunt u uitvoer genereren in meerdere indelingen die worden ondersteund door FMPS.
+U kunt FrameMaker Publishing Server \(FMPS\) gebruiken om uitvoer voor uw DITA-inhoud te genereren. Als u FMPS configureert, kunt u uitvoer genereren in meerdere indelingen die worden ondersteund door FMPS.
 
 >[!NOTE]
 >
-> Als u uitvoer wilt genereren met FMPS, moet u de FMPS-server hebben ingesteld. Voor installatie en configuratiedetails, zie de het Publiceren FrameMaker Gids van de Gebruiker van de Server.
+> Als u uitvoer wilt genereren met FMPS, moet u de FMPS-server hebben ingesteld. Zie de gebruikershandleiding voor de FrameMaker Publishing Server voor installatie- en configuratiegegevens.
 
 Als u AEM hulplijnen wilt configureren voor het gebruik van FMPS, moet u de volgende eigenschappen van de `com.adobe.fmdita.config.ConfigManager` in de webconsole.
 
 >[!NOTE]
 >
-> Ga naar http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr URL om de Console van het Web te openen.
+> http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr URL om de Console van het Web te openen.
 
 | Eigenschap | Beschrijving |
 |--------|-----------|
-| Het Login Domein van de Server van het Publiceren FrameMaker | Specificeer de domeinnaam of de werkgroepnaam waarop de het Publiceren FrameMaker Server wordt ontvangen. Geef op basis van de FMPS-versie de domeinnaam op als:-   **FMPS 2020**: IP-adres: 192.168.1.101 <br>- **FMPS 2019 en eerder**: IP-adres of de domeinnaam |
-| FrameMaker het Publiceren Server URL | Specificeer URL van de het Publiceren FrameMaker Server. Geef op basis van de FMPS-versie de FMPS-URL op als:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 en eerder**: `http://<fmps_ip>:<port>/fmserver/v1/` |
-| FMPS-versie | Specificeer het versieaantal van de het Publiceren FrameMaker Server. Geef de versiegegevens op basis van de FMPS-versie als volgt op: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 en eerder**: 2019 of 2017 |
-| Gebruikersnaam en wachtwoord voor Publishing Server FrameMaker | Specificeer de gebruikersnaam en het wachtwoord om tot de het Publiceren FrameMaker Server toegang te hebben. |
-| FMPS-timeout | \(*Optioneel*\) specificeer de tijd \ (in seconden \) waarvoor AEM Gidsen op een reactie van de het Publiceren FrameMaker Server wachten. Als er geen reactie is ontvangen binnen de opgegeven tijd, wordt de publicatietaak beëindigd door AEM hulplijnen en wordt de taak gemarkeerd als mislukt. <br> Standaardwaarde: 300 seconden \(5 minuten\) |
-| Externe AEM URL | *\(Optioneel\)* AEM URL waar de het Publiceren FrameMaker Server de geproduceerde outputdossiers zal plaatsen. Bijvoorbeeld, `http://<server-name>:<port>/`. |
-| Gebruikersnaam en wachtwoord AEM Admin | *\(Optioneel\)* De gebruikersnaam en het wachtwoord voor een beheerder van uw AEM. Dit zal door het Publiceren FrameMaker Server worden gebruikt om met AEM te communiceren. |
+| Aanmeldingsdomein FrameMaker Publishing Server | Geef de domeinnaam of de naam van de werkgroep op waarop de FrameMaker Publishing Server wordt gehost. Geef op basis van de FMPS-versie de domeinnaam op als:-   **FMPS 2020**: IP-adres als 192.168.1.101 <br>- **FMPS 2019 en eerder**: IP-adres of domeinnaam |
+| FrameMaker Publishing Server-URL | Geef de URL van de FrameMaker Publishing Server op. Geef op basis van de FMPS-versie de FMPS-URL op als:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 en eerder**: `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FMPS-versie | Geef het versienummer van de FrameMaker Publishing Server op. Geef de versiegegevens op basis van de FMPS-versie als volgt op: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 en eerder**: 2019 of 2017 |
+| Gebruikersnaam en wachtwoord voor FrameMaker Publishing Server | Geef de gebruikersnaam en het wachtwoord op voor toegang tot de FrameMaker Publishing Server. |
+| FMPS-timeout | \(*Optioneel*\) Geef de tijd op \(in seconden\) waarop AEM hulplijnen wachten op een reactie van de FrameMaker Publishing Server. Als er geen reactie is ontvangen binnen de opgegeven tijd, wordt de publicatietaak beëindigd door AEM hulplijnen en wordt de taak gemarkeerd als mislukt. <br> Standaardwaarde: 300 seconden \(5 minuten\) |
+| Externe AEM URL | *\(Optioneel\)* De AEM URL waar de FrameMaker Publishing Server de gegenereerde uitvoerbestanden plaatst. Bijvoorbeeld: `http://<server-name>:<port>/`. |
+| Gebruikersnaam en wachtwoord AEM Admin | *\(Optioneel\)* De gebruikersnaam en het wachtwoord voor een beheerder van uw AEM. Dit zal door FrameMaker Publishing Server worden gebruikt om met AEM te communiceren. |
 | Time-out voor FMPS-taakuitvoering | Deze instelling is alleen van toepassing voor FMPS 2020. Geef de tijd op \(in seconden\) waarna FMPS stopt met wachten tot dit proces wordt uitgevoerd. |
 
-## Overvloeien publiceren configureren binnen een bestaande AEM-site {#id1691I0V0MGR}
+## Overvloeien publiceren binnen een bestaande AEM site configureren {#id1691I0V0MGR}
 
 Als u een AEM site hebt die DITA-inhoud bevat, kunt u de AEM Site-uitvoer zo configureren dat DITA-inhoud wordt gepubliceerd naar een vooraf gedefinieerde locatie binnen uw site. In de volgende schermafbeelding van een AEM sitepagina worden bijvoorbeeld de `ditacontent` knooppunt is gereserveerd voor opslag van DITA-inhoud:
 
@@ -87,7 +87,7 @@ Voer de volgende stappen uit om de sjablooneigenschappen van uw bestaande site t
 
    >[!NOTE]
    >
-   > Breng geen aanpassingen aan in de standaardconfiguratiebestanden die beschikbaar zijn in het dialoogvenster `libs` knooppunt. U moet een bedekking maken van de `libs` knooppunt in `apps` de vereiste bestanden in de `apps` alleen knooppunt.
+   > Breng geen aanpassingen aan in de standaardconfiguratiebestanden in het dialoogvenster `libs` knooppunt. U moet een bedekking maken van de `libs` knooppunt in de `apps` de vereiste bestanden in de `apps` alleen knooppunt.
 
 1. Voeg de volgende eigenschappen toe:
 
@@ -114,7 +114,7 @@ Voer de volgende stappen uit om de vereiste knooppunten aan uw bestaande site to
 1. Toevoegen `topicContentNode` en `topicHeadNode` knooppunten met dezelfde naam die u hebt opgegeven in de sjabloonconfiguraties van de site.
 
 
-## Uitvoer AEM site aanpassen {#id166TG0B30WR}
+## Uitvoer van AEM site aanpassen {#id166TG0B30WR}
 
 AEM hulplijnen ondersteunen het maken van uitvoerbestanden in de volgende indelingen:
 
@@ -122,8 +122,8 @@ AEM hulplijnen ondersteunen het maken van uitvoerbestanden in de volgende indeli
 
 - PDF
 
-- HTML5
-- ePub
+- HTML 5
+- EPUB
 - Aangepaste uitvoer via DITA-OT
 
 Voor de AEM Site-uitvoer kunt u verschillende ontwerpsjablonen met verschillende uitvoertaken toewijzen. Deze ontwerpsjablonen kunnen de DITA-inhoud in verschillende lay-outs renderen. U kunt bijvoorbeeld verschillende ontwerpsjablonen opgeven voor een intern en extern publiek.
@@ -205,7 +205,7 @@ Voer de volgende stappen uit om het genereren van URL&#39;s in AEM Site-uitvoer 
 
 1. Zoeken naar en klikken op de knop **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Selecteer **Titel gebruiken voor AEM paginanamen van sites** optie.
+1. Selecteer de **Titel gebruiken voor AEM paginanamen van sites** -optie.
 
    >[!NOTE]
    >
@@ -273,7 +273,7 @@ Voer de volgende stappen uit om de structuur van AEM siteknooppunt af te vlakken
 
 1. Geef het element op waarop u de nodestructuur wilt afvlakken.
 
-   1. Bedekking van de `libs` knooppunt in `apps` en open het bestand elementmapping.xml.
+   1. Bedekking van de `libs` knooppunt in de `apps` en open het bestand elementmapping.xml.
 
    1. Voeg de `<flatten>true</flatten>` eigenschap in de definitie van het element waarbij u de nodestructuur wilt afvlakken. Als u bijvoorbeeld de nodestructuur in het deelvenster `p` -element, voegt u vervolgens het afgevlakte kenmerk toe aan de definitie van `p` element zoals hieronder getoond:
 
@@ -305,14 +305,14 @@ Voer de volgende stappen uit om de structuur van AEM siteknooppunt af te vlakken
 
    1. Zoeken naar en klikken op de knop *com.adobe.dxml.flattening.FlatteningConfigurationService* bundel.
 
-   1. Selecteer **Eigenschap flattening.enabled** optie.
+   1. Selecteer de **Eigenschap flattening.enabled** -optie.
 
    1. Klikken **Opslaan**.
 
 
 >[!IMPORTANT]
 >
-> Als u om het even welke verandering in het elementmapping.xml- dossier hebt aangebracht, zorg ervoor dat u configMgr opent en om het even welke bundel voor veranderingen bewaart om in werking te treden.
+> Als u om het even welke verandering in het elementmapping.xml- dossier hebt aangebracht, zorg ervoor dat u configMgr opent en om het even welke bundel voor veranderingen opslaat om in werking te treden.
 
 Wanneer u nu de AEM Site-uitvoer genereert, worden de knooppunten in de `p` element wordt afgevlakt en opgeslagen binnen het `p` element zelf. U kunt de nieuwe afvlakkingseigenschappen voor de `p` -element in CRXDE.
 
@@ -342,7 +342,7 @@ Voer de volgende stappen uit om te stoppen met het maken van een versie voor de 
 
 1. Zoeken naar en klikken op de knop *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. Selecteren **Geen versie maken voor verwijderde pagina&#39;s** optie.
+1. Selecteren **Geen versie maken voor verwijderde pagina&#39;s** -optie.
 
    >[!NOTE]
    >
@@ -373,7 +373,7 @@ Voer de volgende stappen uit om de vereiste metagegevens in het systeem toe te v
 
    De pagina Metadata Schema Forms wordt weergegeven.
 
-1. Selecteer **default** in de lijst.
+1. Selecteer de **default** in de lijst.
 
    >[!NOTE]
    >
@@ -383,7 +383,7 @@ Voer de volgende stappen uit om de vereiste metagegevens in het systeem toe te v
 
 1. Voeg de aangepaste metagegevens toe die u in de gepubliceerde uitvoer wilt gebruiken. We voegen bijvoorbeeld metagegevens voor het publiek toe door de volgende stappen uit te voeren:
 
-   1. Van de **Formulier samenstellen** lijst met componenten, slepen en neerzetten **Tekst met één regel** op het formulier.
+   1. Van de **Formulier maken** lijst met componenten, slepen en neerzetten **Tekst met één regel** op het formulier.
 
    1. Selecteer het nieuwe veld om het dialoogvenster **Instellingen** van het veld.
 
@@ -404,7 +404,7 @@ Vervolgens moet u de aangepaste metagegevens beschikbaar stellen in de DITA-kaar
 
 1. Meld u aan bij AEM en open de modus CRXDE Lite.
 
-1. Open het bestand metadataList op de volgende locatie:
+1. Open het bestand metadataList dat beschikbaar is op de volgende locatie:
 
    /libs/fmdita/config/metadataList
 
@@ -452,7 +452,7 @@ DITA-elementen in AEM hulplijnen worden toegewezen aan de corresponderende AEM. 
 
 >[!NOTE]
 >
-> Breng geen aanpassingen aan in de standaardconfiguratiebestanden die beschikbaar zijn in het dialoogvenster ``libs`` knooppunt. U moet een bedekking maken van de ``libs`` knooppunt in ``apps`` de vereiste bestanden in de ``apps`` alleen knooppunt.
+> Breng geen aanpassingen aan in de standaardconfiguratiebestanden in het dialoogvenster ``libs`` knooppunt. U moet een bedekking maken van de ``libs`` knooppunt in de ``apps`` de vereiste bestanden in de ``apps`` alleen knooppunt.
 
 U kunt de vooraf bepaalde elementen gebruiken DITA, of u kunt elementen DITA aan uw douane AEM componenten in kaart brengen. Als u uw aangepaste AEM wilt gebruiken, moet u de structuur van de component `elementmapping.xml` bestand.
 
@@ -508,11 +508,11 @@ Een overzicht op hoog niveau van de `elementmapping.xml` de structuur wordt hier
 
    - SAMENGESTELD: element naar component *toewijzing gaat verder voor onderliggende elementen* ook.
 
-   - STANDALON: onderliggende elementen van het huidige element zijn *niet verder toegewezen*.
+   - STANDALONE: onderliggende elementen van het huidige element zijn *niet verder toegewezen*.
 
    In het bovenstaande voorbeeld, als `<title>` element heeft onderliggende elementen, deze worden niet toegewezen aan een andere component. De component voor `<title>` element is verantwoordelijk voor het renderen van alle onderliggende elementen in het `<title>` element.
 
-1. Als er meerdere componenten zijn toegewezen aan één DITA-element, wordt de beste overeenkomst voor het element geselecteerd. Om de beste overeenkomende component te selecteren, wordt het domein en de structurele specialisatie van elementen DITA overwogen.
+1. Als er meerdere componenten zijn toegewezen aan één DITA-element, wordt de beste overeenkomst voor het element geselecteerd. Om de beste overeenkomende component te selecteren, worden het domein en de structurele specialisatie van elementen DITA overwogen.
 
    Als er elementen DITA met domeinspecialisatie zijn en een component voor domeinspecialisatie in kaart wordt gebracht, dan wordt die component hoge prioriteit gegeven.
 
@@ -600,18 +600,18 @@ De volgende lijst beschrijft de elementen in het DITA elementenschema:
 | Element | Beschrijving |
 |-------|-----------|
 | `<ditaelement>` | The top-level node for each mapping element. |
-| `<class>` | Het klassenattribuut van het doelDITA element waarvoor u de component schrijft. <br>Bijvoorbeeld, is de klassenattributen voor het onderwerp DITA: <br>`topic/topic` |
+| `<class>` | Het klassenkenmerk van het doel-DITA-element waarvoor u de component schrijft. <br>Bijvoorbeeld, is de klassenattributen voor het onderwerp DITA: <br>`topic/topic` |
 | `<componentpath>` | Het CRXDE-pad van de toegewezen AEM. |
-| `<type>` | Mogelijke waarden: <br>- **SAMENSTELLING**: Ook onderliggende elementen verwerken <br>- **STANDALONE**: Skips-verwerking van onderliggende elementen |
-| `<attributeprop>` | Wordt gebruikt voor het toewijzen van geserialiseerde DITA-kenmerken en -waarden aan AEM knooppunten als eigenschap. Als u bijvoorbeeld `<note type="Caution">` element en de component die voor dit element is toegewezen, heeft `<attributeprop>attr_t</ attributeprop>`, dan wordt de attributen en de waarde van de knoop in series vervaardigd aan `attr_t` eigenschap of the corresponding AEM node \( `attr_t->type="caution"`\). |
+| `<type>` | Mogelijke waarden: <br>- **SAMENSTELLING**: Verwerk onderliggende elementen ook <br>- **STANDALONE**: slaat de verwerking van onderliggende elementen over |
+| `<attributeprop>` | Gebruikt voor afbeelding in series vervaardigde attributen DITA en waarden aan AEM knopen als bezit. Als u bijvoorbeeld `<note type="Caution">` element en de component die voor dit element is toegewezen, heeft `<attributeprop>attr_t</ attributeprop>`, dan wordt de attributen en de waarde van de knoop in series vervaardigd aan `attr_t` eigenschap of the corresponding AEM node \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Sla de `getTextContent()` uitvoer naar eigenschap gedefinieerd door `propname_t.` **Opmerking:**  Dit is een geoptimaliseerde eigenschap. |
 | `<xmlprop>propname_x </xmlprop>` | Met serienummering gecodeerde XML van dit knooppunt opslaan naar een eigenschap gedefinieerd door `propname_x.` **Opmerking:** Dit is een geoptimaliseerde eigenschap. |
 | `<xpath>` | Als het element van XPath in de elementenafbeelding wordt verstrekt, dan samen met elementnaam en klasse zou de voorwaarde van XPath ook voor de componentenafbeelding moeten worden voldaan om te worden gebruikt. |
-| `<target>` | Plaats voor het element DITA in de crx bewaarplaats op gespecificeerde plaats. <br>Mogelijke waarden:<br>- **kop**: Onder het knooppunt head <br>- **text**: Onder het alineaknooppunt |
+| `<target>` | Plaats voor het element DITA in de crx bewaarplaats op gespecificeerde plaats. <br>Mogelijke waarden:<br>- **kop**: Onder het head-knooppunt <br>- **text**: Onder het alineaknooppunt |
 | `<wrapelement>` | Het HTML-element waarin de inhoud moet worden verpakt. |
 | `<wrapclass>` | De elementwaarde voor de eigenschap `wrapclass.` |
 | `<attributemap>` | Containerknooppunt met een of meer `<attribute>` knooppunten. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Wijst de attributen DITA aan AEM eigenschappen toe:<br>- **`from`**: DITA-kenmerknaam<br>- **`to`**: Naam AEM componenteigenschap <br>- **`ispath`**: Als het kenmerk een padwaarde \(bijvoorbeeld: *image*\)<br>- **`rel`**: Als het pad de bron of het doel is <br>**Opmerking:** Indien `attrname` begint met `%`, dan kaart `attrname minus '%'` om &#39; `propname`&quot;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Wijst de attributen DITA aan AEM eigenschappen toe:<br>- **`from`**: DITA-kenmerknaam<br>- **`to`**: naam AEM componenteigenschap <br>- **`ispath`**: Als het kenmerk een padwaarde \(bijvoorbeeld: *image*\)<br>- **`rel`**: Als het pad de bron of het doel is <br>**Opmerking:** Indien `attrname` begint met `%`, dan kaart `attrname minus '%'` om &#39; `propname`&quot;. |
 
 **Aanvullende opmerkingen**
 
@@ -619,7 +619,7 @@ De volgende lijst beschrijft de elementen in het DITA elementenschema:
 
 - In de `elementmapping.xml` Er zijn veel toewijzingsitems die verwijzen naar de component fmdita/components/dita/wrapper. Wrapper is een generische component die relatief eenvoudige constructies DITA gebruikend eigenschappen op hun plaatsknoop teruggeeft om relevante HTML te produceren. Het gebruikt de `wrapelement` eigenschap om omsluitende tags te genereren en de onderliggende rendering te delegeren aan de corresponderende componenten. Dit is handig wanneer u alleen een containercomponent wilt. In plaats van een nieuwe component te maken die een specifieke containertag weergeeft als `div` of `p`, kunt u de component Wrapper gebruiken met de component `wrapelement` en `wrapclass` eigenschappen om hetzelfde effect te bereiken.
 
-- Het wordt niet aanbevolen grote hoeveelheden tekst op te slaan in JCR-eigenschappen van String. De geoptimaliseerde berekening van het eigenschapstype bij het genereren van de uitvoer zorgt ervoor dat grote tekstinhoud niet wordt opgeslagen als tekenreekstype. In plaats daarvan, wanneer de inhoud groter dan een bepaalde drempel moet worden bewaard, wordt het type van het bezit veranderd in binair. Door gebrek, wordt deze drempel gevormd aan 512 bytes, maar kan in de Manager \ van de Configuratie worden veranderd \ (*com.adobe.fmdita.config.ConfigManager*\) door de **Opslaan als binaire drempelwaarde** instellen.
+- Het wordt niet aanbevolen grote hoeveelheden tekst op te slaan in JCR-eigenschappen van String. De geoptimaliseerde berekening van het eigenschapstype bij het genereren van de uitvoer zorgt ervoor dat grote tekstinhoud niet wordt opgeslagen als tekenreekstype. In plaats daarvan, wanneer de inhoud groter dan een bepaalde drempel moet worden bewaard, wordt het type van het bezit veranderd in binair. Door gebrek, wordt deze drempel gevormd aan 512 bytes, maar kan in de Manager van de Configuratie \ (*com.adobe.fmdita.config.ConfigManager*\) door de **Opslaan als binaire drempelwaarde** instellen.
 
 - Als u van plan bent om sommige \(en niet alle \) van de elementtoewijzingen met voeten te treden, moet u niet het volledige herhalen `elementmapping.xml` bestand. U moet een nieuw XML-toewijzingsbestand maken en alleen de elementen definiëren die u overschrijft.
 
@@ -704,7 +704,7 @@ Voer de volgende stappen uit om een dag en tijd in te stellen voor het wissen va
 
 1. In de **Positie-herstelperiode uitvoergeschiedenis** eigenschap, geeft u het aantal dagen op waarna de uitvoergeschiedenis en de uitvoerlogbestanden worden gewist. De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
 
-1. In de **Opstarttijd uitvoergeschiedenis** eigenschap, geeft u de tijd op waarop het zuiveringsproces wordt gestart. Standaard is dit ingesteld op 0:00 \(of 12:00 middernacht\). Op dit moment wordt het leegmaken uitgevoerd op uitvoerbestanden die zijn gegenereerd vóór het aantal dagen dat is opgegeven in het dialoogvenster **Positie-herstelperiode uitvoergeschiedenis** eigenschap.
+1. In de **Opstarttijd uitvoergeschiedenis** eigenschap, geeft u de tijd op waarop het zuiveringsproces wordt gestart. De standaardwaarde is 0:00 \(of 12:00 middernacht\). Op dit moment wordt het leegmaken uitgevoerd op uitvoerbestanden die zijn gegenereerd vóór het aantal dagen dat is opgegeven in het dialoogvenster **Positie-herstelperiode uitvoergeschiedenis** eigenschap.
 
    >[!NOTE]
    >
@@ -726,4 +726,3 @@ U kunt het maximumaantal geproduceerde output veranderen die in het lusje van Ou
 AEM de Gidsen staat u toe om de grootte van de de generatieprocessen van de outputproductie te vormen die het aantal processen controleert van de outputgeneratie die gelijktijdig lopen. Standaard is de grootte van de procespool ingesteld op het aantal verwerkingskernen dat beschikbaar is in uw systeem plus één. U kunt deze waarde wijzigen in 1 als u opeenvolgende publicaties wilt. In dit geval wordt de eerste publicatietaak uitgevoerd en wordt de volgende publicatietaak opgeslagen in de publicatiereeks.
 
 Als u de grootte van de verwerkingspool van de uitvoergeneratie wilt wijzigen, werkt u de **Grootte generatiepool** in het dialoogvenster `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundel.
-

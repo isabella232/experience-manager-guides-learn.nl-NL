@@ -1,13 +1,12 @@
 ---
 title: Standaardwoordenboek AEM aanpassen
 description: Leer hoe u AEM standaardwoordenboek kunt aanpassen
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # Standaardwoordenboek AEM aanpassen {#id209SD8000WU}
 
@@ -33,4 +32,3 @@ Voer de volgende stappen uit om uw lijst van douanewoorden tot stand te brengen,
 Auteurs moeten hun Web Editor-sessie opnieuw starten om de lijst met aangepaste woorden in AEM woordenboek bij te werken.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

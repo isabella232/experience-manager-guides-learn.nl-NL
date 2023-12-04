@@ -1,10 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Leer de nieuwe en verbeterde functies van de as a Cloud Service Adobe Experience Manager-hulplijnen in juni 2023
-exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ AEM Gidsen staat u toe om de algemene volledigheid van uw technische documenten 
 
 Als u een koppeling hebt hersteld, wordt deze niet weergegeven onder de lijst met verbroken koppelingen.
 
-Zie voor meer informatie [verbroken koppelingen weergeven en herstellen](../user-guide/reports-web-editor.md#report-broken-links).
+Zie voor meer informatie [verbroken koppelingen weergeven en corrigeren](../user-guide/reports-web-editor.md#report-broken-links).
 
 ## Bestanden hernoemen en verplaatsen in de weergave Opslagplaats
 
@@ -77,13 +76,13 @@ In AEM hulplijnen kunt u ook de eigenschappen van de metagegevens van uw element
 Zie voor meer informatie [Velden en metagegevens toevoegen](../native-pdf/design-page-layout.md#add-fields-metadata).
 
 
-## Schematron-verbeteringen
+## Verbeteringen aan schema
 
 ### Gebruik rapportinstructies om te controleren op regels in Schematron
 
 AEM Guides steunt nu ook de verklaringen in het verslag met de Schematron. Een rapportverklaring produceert een bericht wanneer een testverklaring aan waar evalueert. Als u bijvoorbeeld wilt dat de korte beschrijving uit maximaal 150 tekens bestaat, kunt u een rapportinstructie definiëren om de onderwerpen te controleren waarvoor de korte beschrijving uit meer dan 150 tekens bestaat.
 
-Zie voor meer informatie [Instructies gebruiken om te controleren op regels](../user-guide/support-schematron-file.md#schematron-assert-report).
+Zie voor meer informatie [Instructies voor bevestigen en rapporteren gebruiken om op regels te controleren](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Regex-expressies gebruiken
 
@@ -115,11 +114,11 @@ Zie voor meer informatie [Navigatiepagina AEM](../user-guide/web-editor-launch-e
 AEM Hulplijnen beschikken over de krachtige functie om onderwerpschemakaarten te maken. Dit zijn gespecialiseerde DITA-kaarten die worden gebruikt om taxonomische onderwerpen en gecontroleerde waarden te definiëren. AEM Hulplijnen kunt u nu ook de onderwerpdefinitie definiëren in een kaart en de opsommingsdefinities in een andere kaart. Vervolgens kunt u de kaartverwijzing toevoegen en het onderwerpschema gebruiken.
 De verwijzingen naar onderwerpopsommingen worden opgelost in dezelfde kaart of in de kaart waarnaar wordt verwezen.
 
-Zie voor meer informatie over de verwerking van hiërarchische definities van onderwerpdefinities en opsommingen de **Onderwerp** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Zie voor meer informatie over de verwerking van hiërarchische definities van onderwerpdefinities en opsommingen de **Onderwerpregeling** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Ondersteuning voor XLIFF-indeling in vertaling
 
-AEM Hulplijnen bieden ook ondersteuning voor de XLIFF-indeling (XML Localization Interchange File Format) bij het vertalen. U kunt nu ook **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF-indeling.
+AEM Hulplijnen bieden ook ondersteuning voor de XLIFF-indeling (XML Localization Interchange File Format) bij het vertalen. U kunt nu ook kiezen voor **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF-indeling.
 Met deze indeling kunt u de inhoud exporteren naar de industriestandaard XLIFF-indeling en deze indeling vervolgens aan de vertaalbureaus aanbieden. Zie voor meer informatie [Een vertaalproject maken](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
 ![](assets/translation-project-types.png){width="350" align="left"}

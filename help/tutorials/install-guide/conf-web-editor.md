@@ -1,13 +1,12 @@
 ---
 title: Webeditor aanpassen
 description: Leer hoe u de webeditor kunt aanpassen
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
-
 
 # Webeditor aanpassen {#id181AI0003PN}
 
@@ -40,5 +39,3 @@ AEM de Gidsen komt met een krachtige Redacteur van het Web wordt gebundeld die u
 - [Vorm het aantal LimitReads voor een vraag](conf-query-limitreads.md)
 
 - [Pakketten installeren voor publiceren op basis van artikel](configure-article-based-publishing.md)
-
-

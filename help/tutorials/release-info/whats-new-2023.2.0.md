@@ -1,13 +1,12 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release februari 2023
 description: Release van Adobe Experience Manager Guides as a Cloud Service in februari
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
-
 
 # Nieuwe functies in de release van Adobe Experience Manager Guides in februari 2023 as a Cloud Service
 
@@ -55,7 +54,7 @@ AEM gidsen verstrekt nu een betere UX die u helpt de onderwerpen herzien die voo
 * Wanneer u de filters gebruikt, worden de opmerkingen in het rechtervenster gefilterd op basis van de selectie en wordt het aantal opmerkingen in het linkervenster dienovereenkomstig bijgewerkt.
 
 
-   <img alt="controletaak" src="assets/comment-pop-up-panel.png" width="600">
+  <img alt="controletaak" src="assets/comment-pop-up-panel.png" width="600">
 
 
 
@@ -91,7 +90,7 @@ U kunt attributen in uw onderwerpen bepalen DITA en dan de voorwaarde gebruiken 
 
 ## Tekst zoeken en vervangen op kaartniveau
 
-Met AEM hulplijnen kunt u zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. Nu kunt u ook het gezochte woord of de gezochte uitdrukking door een ander woord of een uitdrukking binnen alle dossiers vervangen. U kunt **Alles vervangen** rechts boven in de lijst om alle instanties van de zoekterm in alle bestanden te vervangen.
+Met AEM hulplijnen kunt u zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. Nu kunt u ook het gezochte woord of de gezochte uitdrukking door een ander woord of een uitdrukking binnen alle dossiers vervangen. U kunt **Alles vervangen** aan de rechterkant boven aan de lijst om alle instanties van de gezochte term in alle bestanden te vervangen.
 
 <img src="assets/map-find-replace.png" alt="map zoeken vervangen" width="600">
 
@@ -141,4 +140,3 @@ Nu kunt u de paginamarkering opmaken in de voetnoten. U kunt bijvoorbeeld vierka
 Met AEM hulplijnen kunt u nu snel de gewijzigde onderwerpen in de inhoudsopgave van de PDF-uitvoer identificeren.  Het toont een veranderingsbar op de linkerzijde van de veranderde onderwerpen in TOC. U kunt op het onderwerp in TOC klikken en de gedetailleerde veranderingen bekijken.
 
 <img src="assets/change-marker-toc.png" alt="Markeerteken in inhoudsopgave wijzigen " width="500">
-

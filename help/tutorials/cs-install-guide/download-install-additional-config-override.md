@@ -1,13 +1,12 @@
 ---
 title: Configuratieoverschrijvingen
 description: Leer hoe te om met voeten te treden van de Configuratie
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
-
 
 # Configuratieoverschrijvingen {#id216IFC003XA}
 
@@ -39,4 +38,3 @@ Voor het maken van om het even welke configuratieupdates, zou de volgende generi
 
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-

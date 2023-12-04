@@ -1,13 +1,12 @@
 ---
 title: Werkbalk Aanpassen
 description: Leer hoe u de werkbalk kunt aanpassen
-source-git-commit: 7306c1c3fbf37c049f9de1b2b492bb9b8906b065
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
-
 
 # Werkbalk Aanpassen {#id172FB00L0V6}
 
@@ -31,7 +30,7 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
 1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
 1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
 1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
+1. Selecteer de **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
 1. Klik op de knop **Downloaden** pictogram om het bestand ui\_config.json op uw lokale systeem te downloaden. Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
 1. In de `ui_config.json` , voegt u de definitie van de nieuwe functie toe in de sectie Werkbalken. Sla het bestand op en upload het.
 
@@ -44,16 +43,16 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
    **items**: Geef de definitie van alle groepen op de werkbalk op. Elke groep kan een of meerdere werkbalkpictogrammen bevatten. Als u pictogrammen in een werkbalkgroep wilt definiëren, moet u opnieuw de `type` attribuut binnen `items`en stel de waarde in op `buttonGroup`. Geef een of meer klassenamen op in het dialoogvenster `extraclass` eigenschap. Geef de functienaam op in het dialoogvenster `label` eigenschap. Het volgende fragment uit het `ui_config.json` het bestand bevat de definitie van het hoofdwerkbalkblok, gevolgd door `buttonGroup` definitie:
 
        &quot;
-       &quot;werkbalk&quot;: {
+       &quot;toolbar&quot;: {
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;extractiemateriaal&quot;:
        &quot;werkbalkbewerkingen&quot;,
-       &quot;objecten&quot;: [
+       &quot;items&quot;: [
        {
        &quot;type&quot;: &quot;buttonGroup&quot;,
-       &quot;extractiemateriaal&quot;: &quot;linkerbesturingselementen&quot;,
-       &quot;label&quot;: &quot;Besturingselementen links&quot;,
-       &quot;objecten&quot;: [
+       &quot;extraclass&quot;: &quot;left-controls&quot;;
+       &quot;label&quot;: &quot;Left Controls&quot;,
+       &quot;items&quot;: [
        &quot;
    
    Binnen de `items` verzameling, moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
@@ -74,7 +73,7 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
        &quot;on-click&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
        &quot;
    
-   **tonen of verbergen**: Als u de `show` en geeft u vervolgens de modi op waarin het pictogram wordt weergegeven. Mogelijke waarden zijn: `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\), of `false` \(Verbergen in alle modi\).
+   **tonen of verbergen**: Als u de opdracht `show` en geeft u vervolgens de modi op waarin het pictogram wordt weergegeven. Mogelijke waarden zijn: `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\), of `false` \(in alle modi verbergen\).
 
    In plaats van `show`kunt u ook de `hide` eigenschap. De mogelijke waarden zijn gelijk aan die in `show` eigenschap met het enige verschil dat het pictogram niet wordt weergegeven voor de opgegeven modus.
 
@@ -118,14 +117,14 @@ Voer de volgende stappen uit om ongewenste functies van de werkbalk te verwijder
 1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
 1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
 1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
+1. Selecteer de **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
 1. Klik op de knop **Downloaden** pictogram om het bestand ui\_config.json op uw lokale systeem te downloaden. Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
 
    De `ui_config.json` bestand heeft drie secties:
 
    1. **werkbalken**: Deze sectie bevat de definitie van alle functies die beschikbaar zijn op de werkbalk van de editor, zoals Genummerde lijst invoegen/verwijderen, \(bestand\) Sluiten, Opslaan, Opmerkingen en meer.
 
-   1. **sneltoetsen**: Deze sectie bevat de definitie van toetsenbordkortere weg die aan een bepaalde eigenschap in de redacteur wordt toegewezen.
+   1. **sneltoetsen**: Deze sectie bevat de definitie van sneltoetsen die zijn toegewezen aan een bepaalde functie in de editor.
 
    1. **sjablonen**: Deze sectie bevat de vooraf gedefinieerde structuur van DITA-elementen die u in uw document kunt gebruiken. Standaard bevat de sjabloonsectie sjabloondefinities voor een alinea, eenvoudige tabel, tabel en tekstelementen. U kunt een sjabloondefinitie maken voor elk element door een geldige XML-structuur toe te voegen voor het gewenste element. Als u bijvoorbeeld een `p` element met elke nieuwe `li` in een lijst kunt u de volgende code toevoegen aan het einde van de sjabloonsectie om dit te bereiken:
 
@@ -139,4 +138,3 @@ Voer de volgende stappen uit om ongewenste functies van de werkbalk te verwijder
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

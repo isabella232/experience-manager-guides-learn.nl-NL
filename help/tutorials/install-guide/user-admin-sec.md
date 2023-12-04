@@ -1,13 +1,12 @@
 ---
 title: Beheer en beveiliging van gebruikers
 description: Leer hoe gebruikersbeheer en beveiliging werken
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
-
 
 # Beheer en beveiliging van gebruikers {#id181AED00G5Z}
 
@@ -81,7 +80,7 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - Gebruikers moeten beschikken over de machtigingen voor lezen, maken, verwijderen en wijzigen die beschikbaar zijn in de mappen voor de bron- en doeltaal waaraan zij moeten werken.
 
-- Als u een project creeert, bent u de eigenaar van het project met *Uitgevers* machtigingen. Andere gebruikers in een project kunnen hun teamleden zien, taken creëren, of werkschema&#39;s tot stand brengen, moeten zij gelezen toegang hebben op `/home/users` en `/home/groups` knooppunten. Eén manier om leesrechten toe te staan `/home/users` en `/home/groups` knooppunten is door leestoegang te geven tot de `projects-users` groep.
+- Als u een project creeert, bent u de eigenaar van het project met *Uitgevers* machtigingen. Andere gebruikers in een project kunnen hun teamleden zien, taken creëren, of werkschema&#39;s tot stand brengen, moeten zij gelezen toegang hebben op `/home/users` en `/home/groups` knooppunten. Eén manier om leesrechten toe te staan op `/home/users` en `/home/groups` knooppunten is door leestoegang te geven tot de `projects-users` groep.
 
 - *Revisoren* U kunt tot revisiecommentaren over een onderwerp toegang hebben en toevoegen onder overzicht van de console van het Project of van de verbinding van het inbox bericht. Deze toegang is ook alleen beschikbaar tot de tijd dat de revisietaak is geopend.
 
@@ -93,7 +92,7 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
    - `/content/output/sites` -\> Lezen en schrijven
 
-   U moet expliciete lees- en schrijfmachtigingen aan de uitgever geven als u een andere locatie gebruikt dan de hierboven vermelde standaardpublicatielocaties.
+  U moet expliciete lees- en schrijfmachtigingen aan uw uitgever geven als u een andere locatie gebruikt dan de hierboven vermelde standaardpublicatielocaties.
 
 - Alle gebruikers onder *Auteurs*, *Revisoren*, en *Uitgevers* groepen hebben leestoegang voor alle inhoud in DAM.
 
@@ -106,4 +105,3 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 - Als u een gebruiker rechten wilt geven om een documentstatus te wijzigen, moet u de gebruiker toevoegen in het gedeelte over statusovergang van het documentstatusprofiel.
 
 [1](#fnsrc_1) Indien *Auteurs* en *Uitgevers* worden uitgenodigd voor een evaluatie.[2](#fnsrc_2) Afhankelijk van de rechten die aan de gebruiker zijn verleend in het documentstatusprofiel.
-

@@ -1,10 +1,9 @@
 ---
 title: De functies van de webeditor kennen
 description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---
@@ -911,7 +910,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
   > Als uw beheerder u de toestemmingen op een omslag heeft gegeven, dan slechts **Naam wijzigen** of **Verplaatsen naar** worden weergegeven.
 
   <details>
-    <summary> Cloud Services </summary>
+    <summary> Cloud Servicen </summary>
 
   Als u de naam van een bestand wijzigt of een bestand verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken, omdat elk bestand een unieke UUID heeft.
   </details>

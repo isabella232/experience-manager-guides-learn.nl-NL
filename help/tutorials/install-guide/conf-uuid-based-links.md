@@ -1,13 +1,12 @@
 ---
 title: Weergave van op UUID gebaseerde koppelingen configureren
 description: Leer hoe u weergave van UUID-koppelingen kunt configureren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Weergave van op UUID gebaseerde koppelingen configureren {#id2035G20M0QN}
 
@@ -27,10 +26,9 @@ Voer de volgende stappen uit om de relatieve weg of UUID van de referenced inhou
 
 1. In de *XmlEditorConfig* instellingen, de **UUID&#39;s inschakelen** is standaard ingeschakeld. Dit betekent dat UUID van de inhoud waarnaar wordt verwezen wordt weergegeven in het dialoogvenster **Koppeling** in het deelvenster Eigenschappen.
 
-   Als u het relatieve pad van de gekoppelde inhoud wilt weergeven, schakelt u de optie **UUID&#39;s inschakelen** optie.
+   Als u het relatieve pad van de gekoppelde inhoud wilt weergeven, schakelt u de optie **UUID&#39;s inschakelen** -optie.
 
 1. Klikken **Opslaan**.
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

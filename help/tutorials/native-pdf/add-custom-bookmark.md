@@ -1,8 +1,7 @@
 ---
 title: Native PDF-publicatiefunctie | Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
-exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -11,16 +10,16 @@ ht-degree: 0%
 
 # Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 
-Over het algemeen wordt de inhoudsopgave in een DITA-kaart gerepliceerd als bladwijzers in de uiteindelijke PDF-uitvoer. Deze TOC wordt gecreeerd van de onderwerp of sectietitels in uw kaart DITA. Soms wilt u een aangepaste bladwijzer toevoegen aan een bepaalde inhoud in uw PDF-uitvoer, zodat u gemakkelijk kunt navigeren. Dit kan worden bereikt door een `outputclass` attribuut op het element en het toepassen van het volgende attribuut op het:
+Over het algemeen wordt de inhoudsopgave in een DITA-kaart gerepliceerd als bladwijzers in de uiteindelijke PDF-uitvoer. Deze TOC wordt gecreeerd van de onderwerp of sectietitels in uw kaart DITA. Soms wilt u een aangepaste bladwijzer toevoegen aan een bepaalde inhoud in uw PDF-uitvoer, zodat u gemakkelijk kunt navigeren. Dit kan worden bereikt door een `outputclass` kenmerk op het element en het volgende kenmerk hierop toepassen:
 
 `bookmark-level: 3`
 
-Hier, de `bookmark-level` is een kenmerk en een getal `3` is de waarde die het niveau in de bladwijzerhiërarchie aangeeft waar de bladwijzer wordt toegevoegd. In het volgende voorbeeld, heeft het eerste niveauonderwerp &quot;Contacten&quot;een lijst, &quot;Lijst van het Contact&quot;waarop wij een `outputclass` kenmerk met de waarde van `custom-bookmark`.
+Hier, `bookmark-level` is een kenmerk en een getal `3` is de waarde die het niveau in de bladwijzerhiërarchie aangeeft waar de bladwijzer wordt toegevoegd. In het volgende voorbeeld, heeft het eerste niveauonderwerp &quot;Contacten&quot;een lijst, &quot;Lijst van het Contact&quot;waarop wij een `outputclass` kenmerk met de waarde van `custom-bookmark`.
 
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
-De volgende definitie van de `custom-bookmark` wordt toegevoegd aan het CSS-bestand:
+De volgende definitie van de `custom-bookmark` -klasse wordt toegevoegd aan het CSS-bestand:
 
 ```css
 …
@@ -31,7 +30,7 @@ De volgende definitie van de `custom-bookmark` wordt toegevoegd aan het CSS-best
 …
 ```
 
-In de uitvoer van de PDF, *Lijst met contactpersonen* tabel wordt toegevoegd op het tweede niveau in de bladwijzerlijst PDF, zoals hieronder wordt getoond:
+In de uitvoer van de PDF worden de *Lijst met contactpersonen* tabel wordt toegevoegd op het tweede niveau in de bladwijzerlijst PDF, zoals hieronder wordt getoond:
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
 

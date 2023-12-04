@@ -1,19 +1,18 @@
 ---
 title: XML-editors die zijn gebaseerd op een desktopcomputer integreren
 description: Leer hoe u op bureaublad gebaseerde XML-editors kunt integreren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
-
 # XML-editors die zijn gebaseerd op een desktopcomputer integreren {#id181GB01G0HS}
 
-Er zijn veel XML-editors beschikbaar op de markt en u kunt er al een gebruiken. Adobe FrameMaker is een van de krachtigste XML-editors en wordt geleverd met AEM connector. Gebruikend de AEM schakelaar in FrameMaker, kunt u met de AEM bewaarplaats, controle en controle dossiers gemakkelijk verbinden, en dossiers direct in FrameMaker uitgeven. U kunt AEM Gidsen ook vormen om FrameMaker van de Redacteur van het Web te lanceren. Zodra u het dossier hebt dat in FrameMaker wordt geopend, kunt u het dossier in de AEM bewaarplaats uitgeven en controleren.
+Er zijn veel XML-editors beschikbaar op de markt en u kunt er al een gebruiken. Adobe FrameMaker is een van de krachtigste XML-editors en wordt geleverd met AEM connector. Met de AEM-connector in FrameMaker kunt u eenvoudig verbinding maken met de AEM opslagplaats, bestanden voor uitchecken en inchecken en bestanden rechtstreeks in FrameMaker bewerken. U kunt ook AEM hulplijnen configureren om FrameMaker te starten vanuit de webeditor. Nadat u het bestand in de FrameMaker hebt geopend, kunt u het bestand bewerken en terugcontroleren in de AEM.
 
-## Laat dossier het uitgeven in FrameMaker van de Redacteur van het Web toe
+## Bestandsbewerking in FrameMaker inschakelen vanuit de webeditor
 
 U kunt FrameMaker of een andere redacteur gebruiken DITA om inhoud tot stand te brengen en bij te werken DITA. Nochtans, als uw organisatie FrameMaker als redacteur DITA gebruikt, dan kunt u uw gebruikers een optie geven om documenten DITA direct in FrameMaker van AEM te openen.
 
@@ -31,10 +30,9 @@ Uw gebruikers zien standaard de **Openen in FrameMaker** op de AEM werkbalk. Voe
 
    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
-1. Selecteer **Toon Open in Knoop FrameMaker** optie.
+1. Selecteer de **Openen tonen in knop FrameMaker** -optie.
 
 1. Klikken **Opslaan**.
 
 
-Wanneer u de optie **Toon Open in Knoop FrameMaker** en vervolgens de **Openen in FrameMaker** wordt weergegeven bij het selecteren van een DITA-bestand in de AEM opslagplaats. Wanneer deze optie *niet ingeschakeld* de **Openen in FrameMaker** wordt alleen weergegeven wanneer u een .fm- of een .book-bestand selecteert in de opslagplaats.
-
+Wanneer u de optie **Openen tonen in knop FrameMaker** en vervolgens de **Openen in FrameMaker** wordt weergegeven bij het selecteren van een DITA-bestand in de AEM opslagplaats. Wanneer deze optie *niet ingeschakeld* de **Openen in FrameMaker** wordt alleen weergegeven wanneer u een .fm- of een .book-bestand selecteert in de opslagplaats.

@@ -1,10 +1,9 @@
 ---
 title: Native PDF-publicaties
 description: Leer hoe u PDF kunt publiceren met de native PDF-engine in AEM hulplijnen.
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ In deze sessie leert u hoe u PDF kunt publiceren met de native PDF-engine in AEM
 - **Datum** - 23 februari 2023
 - **Aantal deelnemers** - 135
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adobe-medewerkers
+- **Publiek** - Klanten, partners en Adoben
 
 ## Toetsen
 
@@ -49,8 +48,7 @@ In deze sessie leert u over het volgende:
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
 > - On-prem 4.2 of hoger
-> - Cloud Services 2211 en hoger
-
+> - Cloud Servicen 2211 en hoger
 
 ## Contact opnemen
 

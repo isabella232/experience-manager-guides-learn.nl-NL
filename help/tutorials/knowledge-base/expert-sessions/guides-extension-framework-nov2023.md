@@ -1,9 +1,9 @@
 ---
 title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
 description: Met het extensieframework Hulplijnen kunt u de gewenste secties van de Ui- of Webeditor-revisie aanpassen door JSON, CSS en JavaScript eenvoudig bij te werken.
-source-git-commit: 5ad664296478ed16f6f2d80e79a4812f5ff96f9c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---

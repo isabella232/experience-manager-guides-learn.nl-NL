@@ -1,8 +1,7 @@
 ---
 title: Onderwerpen bewerken in de webeditor
 description: Leer onderwerpen te bewerken in de webeditor. U kent verschillende bewerkingsfuncties om uw onderwerpbestanden in AEM hulplijnen te wijzigen.
-exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%

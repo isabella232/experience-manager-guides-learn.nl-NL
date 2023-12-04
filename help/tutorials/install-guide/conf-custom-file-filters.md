@@ -1,15 +1,14 @@
 ---
-title: Filters configureren voor het dialoogvenster Bladeren van bestanden
+title: Filters configureren voor het dialoogvenster Bladeren
 description: Leer hoe u filters voor bladeren door bestanden kunt configureren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
-
-# Filters configureren voor het dialoogvenster Bladeren van bestanden {#id20CIL7009GN}
+# Filters configureren voor het dialoogvenster Bladeren {#id20CIL7009GN}
 
 Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden gebruiken om elementen in te voegen, zoals een afbeelding, verwijzing of een toetsverwijzing. Het standaarddialoogvenster voor bladeren naar bestanden biedt geen filteroptie. U kunt uw eigen filters toevoegen waarmee u de vereiste bestanden snel en gemakkelijk kunt openen.
 
@@ -65,5 +64,3 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
    Wanneer u het bladerdialoogvenster start, worden de filteropties weergegeven die in het bestand ui\_config.json zijn geconfigureerd.
 
    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
-
-

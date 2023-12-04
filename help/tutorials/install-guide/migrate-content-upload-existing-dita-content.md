@@ -1,13 +1,12 @@
 ---
 title: Bestaande DITA-inhoud uploaden
 description: Leer hoe u bestaande DITA-inhoud kunt uploaden
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # Bestaande DITA-inhoud uploaden {#id176FF000JUI}
 
@@ -25,7 +24,7 @@ Voer de volgende stappen uit om WinSCP te gebruiken om dossiers te uploaden:
 
    Het dialoogvenster Aanmelden wordt weergegeven.
 
-1. Geef in het dialoogvenster Aanmelden een instelling voor Nieuwe site op door WebDAV te kiezen als de **File Protocol** en andere verbindingsgegevens zoals:
+1. Geef in het dialoogvenster Aanmelden een instelling voor Nieuwe site op door WebDAV te kiezen als de **File Protocol** en andere verbindingsdetails verstrekken zoals:
 
    - de URL waar uw AEM server wordt gehost,
 
@@ -40,13 +39,13 @@ Voer de volgende stappen uit om WinSCP te gebruiken om dossiers te uploaden:
 
 ## FrameMaker gebruiken
 
-Adobe FrameMaker wordt geleverd met een krachtige AEM-aansluiting waarmee u uw bestaande DITA en andere FrameMaker-documenten \(.book en .fm\) eenvoudig kunt uploaden naar AEM. U kunt verschillende functies voor het uploaden van bestanden gebruiken, zoals het uploaden van één bestand, het uploaden van een volledige map met of zonder afhankelijkheden \(zoals inhoudsverwijzingen, kruisverwijzingen en afbeeldingen\).
+Adobe FrameMaker wordt geleverd met een krachtige AEM-aansluiting waarmee u uw bestaande DITA en andere FrameMaker documenten \(.book en .fm\) eenvoudig kunt uploaden naar AEM. U kunt verschillende functies voor het uploaden van bestanden gebruiken, zoals het uploaden van één bestand, het uploaden van een volledige map met of zonder afhankelijkheden \(zoals inhoudsverwijzingen, kruisverwijzingen en afbeeldingen\).
 
-Voer de volgende stappen uit om de Schakelaar van de AEM te gebruiken FrameMaker om inhoud te uploaden:
+Voer de volgende stappen uit om de Verbinding van de FrameMaker AEM te gebruiken om inhoud te uploaden:
 
-1. Start FrameMaker.
+1. Start de FrameMaker.
 
-1. Open de **Verbindingsbeheer** .
+1. Open de **Verbindingsbeheer** in.
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
@@ -93,7 +92,7 @@ Voer de volgende stappen uit om bestandsnamen te controleren op basis van een UU
 
 U kunt de volgende methoden gebruiken om uw inhoud te uploaden met UUID:
 
-- Inhoud van uw lokale systeem slepen en neerzetten.
+- Sleep inhoud van uw lokale systeem.
 - Gebruik de **Maken** \> **Bestanden** workflow van AEM middeleninterface.
 - Gebruik een gereedschap zoals WinSCP.
 
@@ -133,9 +132,9 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 Geef de volgende parameters op om een map te maken:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM opslagplaats. Deze gebruiker moet over de rechten voor het maken van mappen beschikken.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet over de rechten voor het maken van mappen beschikken.
 
-- `jcr:primaryType=sling:Folder`: Deze parameter opgeven *ongewijzigd* om een bron van het omslagtype te creëren.
+- `jcr:primaryType=sling:Folder`: Geef deze parameter op *ongewijzigd* om een bron van het omslagtype te creëren.
 
 - `<server folder path>`: Volledig mappad inclusief de naam van de nieuwe map die u wilt maken in de AEM. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`en vervolgens de map `AEM-Guides` wordt gemaakt in het dialoogvenster `projects` map in DAM.
 
@@ -150,11 +149,11 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Geef de volgende parameters op om een bestand te uploaden:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM opslagplaats. Deze gebruiker moet schrijfrechten hebben op de `server folder path`.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de `server folder path`.
 
 - ``local file path``: Voltooi het bestandspad op uw lokale systeem dat u wilt uploaden.
 
-- `<server folder path>`: Voltooi het mappad op de AEM server waar u het bestand wilt uploaden.
+- `<server folder path>`: Volledig mappad op de AEM server waar u het bestand wilt uploaden.
 
 
 **Metagegevens toevoegen**
@@ -167,7 +166,7 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM opslagplaats. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path``.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path``.
 
 - ``-F<attribute name>=<value>``: De `<attribute name>` is de naam van het metagegevenskenmerk, zoals `audience` en de `<value>` kan `internal`. U kunt meerdere naam-waardeparen voor kenmerken opgeven, gescheiden door spatie.
 
@@ -175,4 +174,3 @@ Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 
 
 **Bovenliggend onderwerp:**[ Bestaande inhoud migreren](migrate-content.md)
-

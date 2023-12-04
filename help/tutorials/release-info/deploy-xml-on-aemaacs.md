@@ -1,10 +1,9 @@
 ---
 title: Toevoegen [!DNL AEM Guides] aan uw [!DNL AEM as a Cloud Service] milieu
 description: Meer informatie over toevoegen [!DNL AEM Guides] aan uw [!DNL AEM as a Cloud Service] milieu
-exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Als u [!DNL AEM Guides] as a Cloud Service vóór 29 maart 2022, volg deze plaat
 
 * Als u vers start, kunt u de code vervangen die automatisch wordt gegenereerd door [!UICONTROL Cloud Manager] met de code uit de onderstaande repo die al een XML-insteekmodule heeft: https://github.com/Adobe-TCS/XML-documentation-for-AEMaaCS
 
-* Als u al aanpassingen hebt aangemeld in [!UICONTROL Cloud Manager] git repo, kunt u naar het onderstaande repo verwijzen voor instructies over het toevoegen van een XML-insteekmodule in uw bestaande code: https://github.com/Adobe-TCS/DoX-Installer-for-AEMaaCS
+* Als u al aanpassingen hebt ingecheckt in [!UICONTROL Cloud Manager] git repo, raadpleegt u het onderstaande repo voor instructies over het toevoegen van een XML-plug-in in uw bestaande code: https://github.com/Adobe-TCS/DoX-Installer-for-AEMaaCS
 
 ## Implementatie via Cloud Manager
 

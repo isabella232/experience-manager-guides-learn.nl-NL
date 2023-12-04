@@ -1,13 +1,12 @@
 ---
 title: Downloaden en installeren
 description: Meer informatie over downloaden en installeren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # Downloaden en installeren {#id1645E0O04MK}
 
@@ -27,8 +26,6 @@ Voordat u begint met downloaden en installeren, moet u controleren of uw systeem
 
 - **[Adobe Experience Manager-hulplijnen upgraden](upgrade-xml-documentation.md)**
 
-- **[AEM verwijderen](download-install-unistall-aemg.md)**
+- **[Verwijderen AEM hulplijnen](download-install-unistall-aemg.md)**
 
 - **[Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)**
-
-

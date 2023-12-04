@@ -1,13 +1,12 @@
 ---
 title: Element-id's automatisch genereren
 description: Leer hoe u elementen-id's automatisch kunt genereren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
-
 
 # Element-id&#39;s automatisch genereren {#id20CIL40016I}
 
@@ -43,4 +42,3 @@ Voer de volgende stappen uit om elementen te configureren voor automatisch gegen
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

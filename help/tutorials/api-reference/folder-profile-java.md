@@ -1,13 +1,12 @@
 ---
 title: Java-API om te werken met mapprofielen
 description: Meer informatie over de op Java gebaseerde API om met mapprofielen te werken
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Java-API om te werken met mapprofielen {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - Als de API wordt aangeroepen via een niet-geautoriseerde gebruikerssessie, bijvoorbeeld de gebruiker die geen beheerder is voor het opgegeven mapprofiel.
 
 [1](#fnsrc_1) De `attributeNames`, `values`, en `labels` op dezelfde index in een arraylijst moet overeenkomen met dezelfde vermelding.
-

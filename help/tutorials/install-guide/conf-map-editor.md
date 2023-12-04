@@ -1,13 +1,12 @@
 ---
 title: De Geavanceerde Kaarteditor instellen als standaard
 description: Leer hoe u de Geavanceerde Kaarteditor instelt als standaard
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # De Geavanceerde Kaarteditor instellen als standaard {#id181AI0003PN}
 
@@ -27,8 +26,6 @@ Voer de volgende stappen uit om van de Geavanceerde Redacteur van de Kaart als s
 
 1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. Selecteer **Basiskaarteditor verbergen** optie.
+1. Selecteer de **Basiskaarteditor verbergen** -optie.
 
    Als deze optie is geselecteerd, zien gebruikers nergens in de gebruikersinterface de koppeling Basic Map Editor. Standaard worden kaartbestanden geopend in de Geavanceerde Kaarteditor.
-
-

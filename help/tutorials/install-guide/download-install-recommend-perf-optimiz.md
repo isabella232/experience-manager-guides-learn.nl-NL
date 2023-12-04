@@ -1,13 +1,12 @@
 ---
 title: Recommendations for performance optimization
 description: Meer informatie over de Recommendations voor het optimaliseren van prestaties
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Recommendations for performance optimization {#id213BD0JG0XA}
 
@@ -44,9 +43,9 @@ Deze verandering verhindert /var/dxml knoop in de segmentopslag wordt geïndexee
 ## Java-geheugenoptimalisatie \(verplicht\)
 
 **Wat is de verandering?**
-De JVM-beginparameters moeten zorgvuldig worden ingesteld op basis van de infrastructuur en de schijfgrootte. U wordt aangeraden de ondersteuning van Adobe te raadplegen om hulp te krijgen bij het openen van de ideale configuratie. U kunt echter zelf de volgende configuraties uitproberen:
+De JVM-beginparameters moeten zorgvuldig worden ingesteld op basis van de infrastructuur en de schijfgrootte. U wordt aangeraden Adobe Support te raadplegen om hulp te krijgen bij het openen van de ideale configuratie. U kunt echter zelf de volgende configuraties uitproberen:
 
-- Stel de JVM-heapgrootte in op minimaal 1/4e van het totale beschikbare geheugen. De parameter gebruiken `-Xmx<size>` om de grootte van het heapgeheugen in te stellen. Stel de waarde in voor -`Xms` is gelijk aan `-Xmx`.
+- Stel de JVM-heapgrootte in op minimaal 1/4e van het totale beschikbare geheugen. De parameter gebruiken `-Xmx<size>` om de heapgeheugengrootte in te stellen. Stel de waarde in voor -`Xms` is gelijk aan `-Xmx`.
 
 - Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en stel het pad in voor `-XX:HeapDumpPath=</path/to/folder``>`.
 
@@ -90,7 +89,7 @@ Deze wijziging verbetert de laadtijd van pagina&#39;s op de instantie Auteur, aa
 **Wat is de verandering?**
 Deze wijziging is vereist als u DITA-OT gebruikt om uitvoer te publiceren en er ook een aantal gelijktijdige publicatiethreads is gedefinieerd.
 
-Standaard stelt AEM hulplijnen de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats **Grootte generatiepool** eigenschap onder de configuratie `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` overeenkomstig de aanbevelingen.
+Standaard stelt AEM hulplijnen de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Stel hiertoe de **Grootte generatiepool** eigenschap onder de configuratie `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` overeenkomstig de aanbevelingen.
 
 **Wanneer configureren?**
 Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
@@ -116,13 +115,12 @@ Een hoger aantal **Limiet voor AEM sitepagina&#39;s in heap** Deze eigenschap op
 **Wat is de verandering?**
 Deze wijziging is vereist als u DITA-inhoud bulksgewijs uploadt.
 
-Stel de **Verwerkingsthreads** eigendom onder `com.adobe.fmdita.config.ConfigManager` tot `1`.
+Stel de **Threads na verwerking** eigendom onder `com.adobe.fmdita.config.ConfigManager` tot `1`.
 
 **Wanneer configureren?**
 Dit kan tijdens runtime worden gedaan.
 
 **Resultaat van deze wijziging**
-Deze wijziging verkort de naverwerkingstijd bij het bulkuploaden van DITA-bestanden.
+Deze wijziging verkort de naverwerkingstijd bij bulkupload van DITA-bestanden.
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-

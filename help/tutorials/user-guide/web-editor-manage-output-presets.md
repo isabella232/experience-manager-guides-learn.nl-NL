@@ -1,8 +1,7 @@
 ---
 title: Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren
 description: Leer hoe u voorinstellingen voor algemene profielen en mapprofielen als gebruikers met beheerdersrechten maakt, bewerkt, hernoemt, dupliceert en verwijdert in AEM hulplijnen.
-exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

@@ -1,10 +1,9 @@
 ---
 title: DITA kaartrapport van de Redacteur van het Web
 description: Genereer DITA-kaartrapporten vanuit de webeditor in AEM hulplijnen. Leer hoe te om CSV voor een onderwerpenlijst, multimedia, meta-gegevens, en gebroken verbindingsrapporten te produceren.
-exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2366'
 ht-degree: 0%
 
 ---

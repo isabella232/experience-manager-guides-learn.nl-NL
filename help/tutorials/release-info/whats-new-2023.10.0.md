@@ -1,10 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release oktober 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van oktober 2023 as a Cloud Service.
-exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---

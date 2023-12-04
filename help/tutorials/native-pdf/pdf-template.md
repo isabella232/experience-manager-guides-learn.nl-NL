@@ -1,10 +1,9 @@
 ---
 title: Native PDF-sjablonen maken en aanpassen
 description: Leer hoe u Native PDF-sjablonen maakt en aanpast.
-exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -94,7 +93,7 @@ Leer hoe u [een PDF-uitvoer publiceren](https://experienceleague.adobe.com/docs/
 Gebaseerd op uw opstelling kan uw beheerder de malplaatjes vormen:
 
 <details>
-<summary> Cloud Services </summary>
+<summary> Cloud Servicen </summary>
 
 Voor meer informatie over het instellen van algemene profielen en mapprofielen, kunt u de [Sjablonen configureren](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) in de installatie- en configuratiehandleiding voor Cloud Servicen.
 

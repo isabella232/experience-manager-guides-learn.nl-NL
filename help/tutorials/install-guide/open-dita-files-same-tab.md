@@ -1,13 +1,12 @@
 ---
 title: DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad
 description: Leer hoe u DITA-onderwerp of toewijzingsbestanden op hetzelfde tabblad opent
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad {#id223HI0P202H}
 
@@ -23,7 +22,7 @@ In sommige werkschema&#39;s, wanneer u op een verbinding van een onderwerp of ee
 
 1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. Selecteer **Open DITA Onderwerp/Kaart op Zelfde Lusje** optie.
+1. Selecteer de **Open DITA Onderwerp/Kaart op Zelfde Lusje** -optie.
 
 1. Klikken **Opslaan**.
 
@@ -42,4 +41,3 @@ Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijg
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

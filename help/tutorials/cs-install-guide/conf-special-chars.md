@@ -1,13 +1,12 @@
 ---
 title: Toegestane speciale tekens configureren
 description: Leer hoe u toegestane speciale tekens kunt configureren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
 
 ---
-
 
 # Toegestane speciale tekens configureren {#id20CIL600035}
 
@@ -36,7 +35,7 @@ Voer de volgende stappen uit om de standaardlijst met speciale tekens te oversch
 
 De structuur van de `symbols.json` Het bestand wordt hieronder uitgelegd:
 
-- `"label": "Arrows"`: Hiermee geeft u de categorie voor de speciale tekens op. In het fragment, een categorie met de naam `"Arrows"` is gedefinieerd.
+- `"label": "Arrows"`: Geeft de categorie voor de speciale tekens aan. In het fragment, een categorie met de naam `"Arrows"` is gedefinieerd.
 - `"items"`: Hiermee definieert u de verzameling speciale tekens in de categorie.
 - `"name": "←", "title": "Left Arrow"`: Dit is de definitie van het speciale teken. Het begint met de `"name"` -label, dat niet mag worden gewijzigd. De naam wordt gevolgd door het speciale teken. De `"title"` Dit is de naam of titel van het speciale teken dat als knopinfo voor dat speciale teken wordt weergegeven.
 
@@ -44,4 +43,3 @@ De structuur van de `symbols.json` Het bestand wordt hieronder uitgelegd:
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

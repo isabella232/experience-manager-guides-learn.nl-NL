@@ -1,13 +1,12 @@
 ---
 title: Een gegevensbronaansluiting configureren
 description: Leer hoe te om een gegevensbronschakelaar te vormen
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
 
 ---
-
 
 # Een gegevensbronaansluiting configureren
 
@@ -176,11 +175,10 @@ Andere gebieden worden aangepast gebaseerd op de config klasse die wordt geselec
 
 Upload het bestand naar een locatie in AEM Assets.
 
-Bijvoorbeeld,  `/content/dam/jira.json`
+Bijvoorbeeld:  `/content/dam/jira.json`
 
 ## Configuratie maken met REST API
 
 U kunt de configuratie registreren met REST API. Voor meer informatie bekijkt u de *REST API om een gegevensbronschakelaar te registreren* in de API-naslag voor Adobe Experience Manager-hulplijnen.
 
 Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het paneel van Gegevensbronnen in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer informatie, bekijkt u [Een inhoudsfragment uit uw gegevensbron invoegen](../user-guide/web-editor-content-snippet.md).
-

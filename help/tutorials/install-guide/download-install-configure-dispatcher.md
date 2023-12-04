@@ -1,17 +1,16 @@
 ---
 title: Dispatcher configureren
 description: Leer hoe u Dispatcher configureert
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '302'
 ht-degree: 3%
 
 ---
 
-
 # Dispatcher configureren {#id213BCM0M05U}
 
-Als u een Dispatcher op AEM Author-instantie samen met AEM Gidsen wilt gebruiken, dan moet u de volgende extra configuraties uitvoeren om de opstelling te voltooien:
+Als u een Dispatcher op AEM instantie Auteur samen met AEM Gidsen wilt gebruiken, dan moet u de volgende extra configuraties uitvoeren om de opstelling te voltooien:
 
 >[!NOTE]
 >
@@ -79,4 +78,3 @@ Als u een Dispatcher met AEM hulplijnen gebruikt en uw instantie Auteur een verz
 ```
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-

@@ -1,10 +1,9 @@
 ---
 title: Inhoud vertalen
 description: Leer hoe u uw inhoud in meerdere talen vertaalt.
-exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ In deze sessie leert u meer over het vertaalproces, het integratiemechanisme en 
 - **Datum** - 27 oktober 2022
 - **Aantal deelnemers** - 94
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adobe-medewerkers
+- **Publiek** - Klanten, partners en Adoben
 
 ## Toetsen
 
@@ -48,8 +47,7 @@ In deze sessie leert u over het volgende:
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
 > - On-prem 4.1 of hoger
-> - Cloud Services 2207 of hoger
-
+> - Cloud Servicen 2207 of hoger
 
 ## Contact opnemen
 

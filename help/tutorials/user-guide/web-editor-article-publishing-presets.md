@@ -1,8 +1,7 @@
 ---
 title: Uitvoervoorinstellingen maken vanuit de webeditor
 description: Uitvoervoorinstellingen maken in de webeditor. Leer hoe u een uitvoervoorinstelling in AEM hulplijnen kunt bewerken, hernoemen, dupliceren en verwijderen.
-exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

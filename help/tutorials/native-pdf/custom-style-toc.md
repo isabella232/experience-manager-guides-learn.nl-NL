@@ -1,8 +1,7 @@
 ---
 title: Native PDF-publicatiefunctie | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
-exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -15,7 +14,7 @@ Mogelijk wilt u soms aangepaste opmaak toepassen op de inhoudsopgave-items of ee
 
 Neem een voorbeeld van een nieuw onderwerp dat u voor overzicht wilt verzenden. Voor gemakkelijke identificatie van het bijgewerkte onderwerp, moet u toevoegen `outputclass` aan de `<topicref>` in uw DITA-kaart en definieert vervolgens een aangepaste opmaak voor dezelfde opmaak in de CSS.
 
-In het volgende voorbeeld wordt *Geschiedenis van de vluchten* onderwerp is toegewezen en `outputclass` kenmerk met de waarde van `new-topic`.
+In het volgende voorbeeld wordt *Geschiedenis van vluchten* onderwerp is toegewezen en `outputclass` kenmerk met de waarde van `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
@@ -69,6 +68,6 @@ Tot slot kunt u stijlen op de volledige inhoud binnen het onderwerp ook toepasse
 ...
 ```
 
-Met de bovenstaande opmaakkenmerken wordt links van het dialoogvenster een wijzigingsbalk toegevoegd *Geschiedenis van de vlucht* onderwerp, zoals hieronder getoond:
+Met de bovenstaande opmaakkenmerken wordt links van het dialoogvenster een wijzigingsbalk toegevoegd *Voorgeschiedenis van de vlucht* onderwerp, zoals hieronder getoond:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">

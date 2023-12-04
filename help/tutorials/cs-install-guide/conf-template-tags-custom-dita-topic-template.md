@@ -1,13 +1,12 @@
 ---
 title: Aangepaste DITA-onderwerpsjabloon configureren
 description: Leer hoe te om het onderwerpmalplaatje van douaneDITA te vormen
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste DITA-onderwerpsjabloon configureren {#id16A7G0O02TD}
 
@@ -62,4 +61,3 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Geef een locatie op voor de opslag van aangepaste sjablonen.<br> Als de gespecificeerde plaats in DAM bestaat, dan worden alle standaardkaart en onderwerpmalplaatjes gekopieerd in die omslag. Als de plaats niet bestaat, dan wordt de omslag gecreeerd met alle standaardkaart en onderwerpmalplaatjes. |
 
 **Bovenliggend onderwerp:**[ Onderwerp- en kaartsjablonen configureren](conf-template-tags.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Werkbalk Aanpassen
 description: Leer hoe u de werkbalk kunt aanpassen
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # Werkbalk Aanpassen {#id172FB00L0V6}
 
@@ -48,20 +47,20 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
 
    - **objecten:** Geef de definitie van alle groepen op de werkbalk op. Elke groep kan een of meerdere werkbalkpictogrammen bevatten. Als u pictogrammen in een werkbalkgroep wilt definiëren, moet u opnieuw de `type` attribuut binnen `items`en stel de waarde in op `buttonGroup`. Geef een of meer klassenamen op in het dialoogvenster `extraclass` eigenschap. Geef de functienaam op in het dialoogvenster `label` eigenschap. Het volgende fragment uit het `ui_config.json` het bestand bevat de definitie van het hoofdwerkbalkblok, gevolgd door `buttonGroup` definitie:
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      Binnen de `items` verzameling, moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
+     Binnen de `items` verzameling, moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
 U moet de volgende eigenschappen definiëren om een werkbalkpictogram toe te voegen:
 
    - **type:** Opgeven `button` als de `type` waarde. Deze waarde geeft aan dat u een werkbalkknop toevoegt.
@@ -72,13 +71,13 @@ U moet de volgende eigenschappen definiëren om een werkbalkpictogram toe te voe
 
    - **titel:** Geef de knopinfo voor het pictogram op.
 
-   - **on-click:** Geef de opdrachtnaam op die voor de functie in het JavaScript-bestand is gedefinieerd. Als voor uw opdracht invoerparameters zijn vereist, geeft u de opdrachtnaam op als:
+   - **klikken:** Geef de opdrachtnaam op die voor de functie in het JavaScript-bestand is gedefinieerd. Als voor uw opdracht invoerparameters zijn vereist, geeft u de opdrachtnaam op als:
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
-   - **tonen of verbergen:** Als u de `show` en geeft u vervolgens de modi op waarin het pictogram wordt weergegeven. Mogelijke waarden zijn: `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\), of `false` \(Verbergen in alle modi\).
+   - **tonen of verbergen:** Als u de `show` en geeft u vervolgens de modi op waarin het pictogram wordt weergegeven. Mogelijke waarden zijn: `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\), of `false` \(in alle modi verbergen\).
 
    In plaats van `show`kunt u ook de `hide` eigenschap. De mogelijke waarden zijn gelijk aan die in `show` eigenschap met het enige verschil dat het pictogram niet wordt weergegeven voor de opgegeven modus.
 
@@ -234,4 +233,3 @@ De `ui_config.json` bestand heeft drie secties:
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

@@ -1,17 +1,16 @@
 ---
 title: Documentstatussen configureren
 description: Leer hoe u documentstatussen kunt configureren
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-
 # Documentstatussen configureren {#id181GB0400UI}
 
-AEM de Gidsen laat u de documentstaten voor uw onderwerpen DITA volgens de vereisten van uw organisatie bepalen. U kunt verschillende statussen van het document definiëren, van het begin tot het einde. De eerste status kan bijvoorbeeld Concept zijn en worden verplaatst naar Revisie, Goedgekeurd, Vertaald en tot slot naar Gepubliceerd.
+AEM de Gidsen laat u de documentstaten voor uw onderwerpen DITA volgens de vereisten van uw organisatie bepalen. U kunt verschillende statussen van het document definiëren, van het begin tot het einde. De eerste status kan bijvoorbeeld Concept zijn en naar Revisie, Goedgekeurd, Vertaald en tot slot naar Gepubliceerd worden verplaatst.
 
 Er zijn twee manieren waarin een onderwerp van één staat aan een ander-hand en automatisch kan overgaan. De documentstatussen die in een profiel zijn gedefinieerd, kunnen worden gebruikt voor het handmatig wijzigen van de documentstatus. Dit kan van de pagina van Eigenschappen van een onderwerpdossier worden gedaan. U kunt ook bepalen wie het document van het ene naar het andere frame kan verplaatsen. Een auteur kan bijvoorbeeld een document maken en de standaardstatus van het document kan Concept zijn. Wanneer de auteur het document ter controle verzendt, kan hij de documentstatus wijzigen in In-Review. De controleur kan de documentstatus wijzigen in Goedgekeurd of in Concept op basis van het revisieproces. Als het document is goedgekeurd, kan de uitgever de documentstatus wijzigen in Vertaald of Gepubliceerd, afhankelijk van de workflow.
 
@@ -45,12 +44,13 @@ Voer de volgende stappen uit om documentstatussen te maken met behulp van het ma
    - Geef het pad op waarop u het nieuwe profiel wilt toepassen.
    - Geef de statussen van het document op in het dialoogvenster **Toegestane staten** krachtens **Staten**. De standaarddocumentstatussen zijn Concept, Bewerken, In-Review, Goedgekeurd en Gereed.-
 
-      Klik op de knop **Toevoegen** om een documentstatus toe te voegen.
+     Klik op de knop **Toevoegen** om een documentstatus toe te voegen.
 
       - Klik op het pictogram Verwijderen om een documentstatus te verwijderen.
-      >[!NOTE]
-      >
-      > Verwijder geen documentstatus als de documenten zich nog in die status bevinden. Als u een documentstatus verwijdert, kunt u de documentstatus van dergelijke documenten alleen wijzigen als u tot de *beheerder* gebruikersgroep.
+
+     >[!NOTE]
+     >
+     > Verwijder geen documentstatus als de documenten zich nog in die status bevinden. Als u een documentstatus verwijdert, kunt u de documentstatus van dergelijke documenten alleen wijzigen als u tot de *beheerder* gebruikersgroep.
 
    - Geef de beginstatus van het document op in het dialoogvenster **Beginstatus**.
    - Geef de eindstatus van het document op in het dialoogvenster **Eindstatus**.
@@ -61,11 +61,10 @@ Voer de volgende stappen uit om documentstatussen te maken met behulp van het ma
       - Klik op de knop **Toevoegen** om een frameovergang toe te voegen.
 
       - Klik op het pictogram Verwijderen om een frameovergang te verwijderen.
-      >[!NOTE]
-      >
-      > Een frameovergang niet verwijderen als de documenten zich nog in `From` status. Als u een frameovergang verwijdert, kunt u de documentstatus van dergelijke documenten alleen wijzigen als u tot de *beheerder* gebruikersgroep.
 
-
+     >[!NOTE]
+     >
+     > Een frameovergang niet verwijderen als de documenten zich nog in `From` status. Als u een frameovergang verwijdert, kunt u de documentstatus van dergelijke documenten alleen wijzigen als u tot de *beheerder* gebruikersgroep.
 
 1. Klikken **Gereed**.
 
@@ -88,7 +87,7 @@ Voer de volgende stappen uit om een kopie van een documentstatusprofiel te maken
 
 >[!NOTE]
 >
-> Verwijder geen documentstatus of statusovergang als de documenten zich nog in de status of in een statusovergang bevinden. Als u een staat of een staatsovergang schrapt, zult u niet de documentstaat van dergelijke documenten kunnen veranderen tenzij u tot het behoort *beheerder* gebruikersgroep.
+> Verwijder een documentstatus of statusovergang niet als de documenten zich nog in de status of in een statusovergang bevinden. Als u een staat of een staatsovergang schrapt, zult u niet de documentstaat van dergelijke documenten kunnen veranderen tenzij u tot het behoort *beheerder* gebruikersgroep.
 
 Voer de volgende stappen uit om een documentstatus of statusovergang te verwijderen uit een documentstatusprofiel:
 
@@ -132,15 +131,15 @@ Voer de volgende stappen uit om de documentstatuswijziging te automatiseren:
 
    ![](assets/process-step-workflow.png)
 
-1. Dubbelklik op het proces en open het dialoogvenster **Step Properties** .
+1. Dubbelklik op het proces en open het dialoogvenster **Step Properties** in.
 1. Voer de volgende gegevens in het dialoogvenster **Proces** tabblad van het dialoogvenster en klik op OK:
    - Selecteren **Documentstatus instellen voor elk DAM-element** in de vervolgkeuzelijst Proces.
    - Schakel het selectievakje Handler Advance in.
    - Voer de naam in van de documentstatus in het dialoogvenster **Argumenten** tekstvak.
 
-      >[!NOTE]
-      >
-      > Zorg ervoor dat u de juiste documentstatus invoert in het tekstvak Argument. Als u een verkeerde naam opgeeft, wordt de verkeerde documentstatus ingesteld.
+     >[!NOTE]
+     >
+     > Zorg ervoor dat u de juiste documentstatus invoert in het tekstvak Argument. Als u een verkeerde naam opgeeft, wordt de verkeerde documentstatus ingesteld.
 
 1. Klikken **Opslaan** om de workflow op te slaan.
 
@@ -168,5 +167,3 @@ AEM hulplijnen bieden een workflow voor documentgoedkeuring waarmee u de levensc
       "approvalWorkflow":  true 
    }
    ```
-
-

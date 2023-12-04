@@ -1,13 +1,12 @@
 ---
 title: Bestaande inhoud migreren
 description: Leer hoe u bestaande inhoud kunt migreren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # Bestaande inhoud migreren {#id181AGB000Y4}
 
@@ -20,5 +19,3 @@ Met AEM hulplijnen kunt u diverse gestructureerde en ongestructureerde documente
 - **[Bestaande DITA-inhoud uploaden](migrate-content-upload-existing-dita-content.md)**
 
 - **[Niet-DITA-inhoud migreren](migrate-content-non-dita.md)**
-
-

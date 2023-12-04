@@ -1,10 +1,9 @@
 ---
 title: Native PDF publishing "Hands on lab - BYOS" - Interactief leren
 description: Deze 'Hands-on Lab - BYOS'-sessie biedt een diepgaande verkenning van Native PDF-publicaties. Ontdek verschillende gebruiksgevallen, gebruik de belangrijkste functies en neem rechtstreeks contact op met Adobe-experts om uw specifieke probleeminstructies en -vereisten aan te pakken.
-exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
-source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---

@@ -1,14 +1,14 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.2
 description: Leer de nieuwe en verbeterde functies in 4.2-versies van Adobe Experience Manager Guides
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
 
-# Nieuwe functies in 4.2-release van Adobe Experience Manager-hulplijnen (februari 2023)
+# Nieuwe functies in de release 4.2 van Adobe Experience Manager Guides (februari 2023)
 
 Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.2 van de Gidsen van Adobe Experience Manager (later genoemd *Hulplijnen AEM*).
 
@@ -42,7 +42,7 @@ AEM gidsen verstrekt nu een betere UX die u helpt de onderwerpen herzien die voo
 * Selecteer de routekaart voor de overzichtstaak die wordt gebruikt om alle belangrijkste verwijzingen en verklarende woordenlijsttermijnen op te lossen die in de overzichtsinhoud worden gebruikt.
 * Contextuele werkbalk waarmee u tekst snel kunt markeren of doorhalen.
 * Met het menu Opties kunt u uw eigen opmerkingen bewerken of verwijderen.
-* Voor verouderde commentaren, hebt u toegang tot zij-aan-zij mening die u helpt de vorige versie van het onderwerp met huidige overzichtsversie vergelijken
+* Voor verouderde opmerkingen hebt u toegang tot de weergave Naast elkaar, zodat u de vorige versie van het onderwerp kunt vergelijken met de huidige revisieversie
 * Wanneer u de filters gebruikt, worden de opmerkingen in het rechtervenster gefilterd op basis van de selectie en wordt het aantal opmerkingen in het linkervenster dienovereenkomstig bijgewerkt.
 
 
@@ -97,7 +97,7 @@ AEM hulplijnen bieden u de functie om uitvoervoorinstellingen voor de algemene p
 <img alt="voorinstelling toevoegen" src="assets/add-global-output-preset.png" width="400">
 
 
-Deze algemene voorinstellingen worden weergegeven onder de **Uitvoer** tabblad van alle gerelateerde kaarten. U kunt ze gebruiken om de uitvoer voor alle verwante kaarten te genereren. U kunt de voorinstelling selecteren als de standaardvoorinstelling PDF om de PDF-uitvoer te genereren. U kunt ook **Bewerken**, **Naam wijzigen**, **Dupliceren**, of **Verwijderen** een bestaande uitvoervoorinstelling van de **Opties** -menu.
+Deze algemene voorinstellingen worden weergegeven onder de **Uitvoer** tabblad van alle gerelateerde kaarten. U kunt ze gebruiken om de uitvoer voor alle verwante kaarten te genereren. U kunt de voorinstelling selecteren als de standaardvoorinstelling PDF om de PDF-uitvoer te genereren. U kunt **Bewerken**, **Naam wijzigen**, **Dupliceren**, of **Verwijderen** een bestaande uitvoervoorinstelling van de **Opties** -menu.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Deze algemene voorinstellingen worden weergegeven onder de **Uitvoer** tabblad v
 
 ## Tekst zoeken en vervangen op kaartniveau
 
-U kunt nu zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. U kunt het gezochte woord of de gezochte uitdrukking met een ander woord of een uitdrukking binnen de dossiers ook vervangen. Selecteer **Eén exemplaar vervangen** pictogram om het huidige exemplaar en het **Alles vervangen in bestand** om alle instanties in het geselecteerde bestand te vervangen. U kunt **Alles vervangen** pictogram om alle instanties van de gezochte term in alle bestanden te vervangen.
+U kunt nu zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. U kunt het gezochte woord of de gezochte uitdrukking met een ander woord of een uitdrukking binnen de dossiers ook vervangen. Selecteer de **Eén voorval vervangen** pictogram om het huidige exemplaar en het **Alles vervangen in bestand** om alle instanties in het geselecteerde bestand te vervangen. U kunt **Alles vervangen** pictogram om alle instanties van de gezochte term in alle bestanden te vervangen.
 
 <img src="assets/map-find-replace.png" alt="map zoeken vervangen" width="600">
 
@@ -126,7 +126,7 @@ U kunt onderwerpverwijzingen, onderwerpgroep, zeer belangrijke definities in een
 De layoutweergave bevat ook de **Weergaveopties** om regelnummer weer te geven of te verbergen, het selectievakje weer te geven of te verbergen of de bestandsnaam of titel voor de onderwerpen in een kaart weer te geven.
 U kunt de onderwerpen ook bekijken die op de voorwaardelijke filters worden gebaseerd die op hen worden toegepast.
 
-Naast het organiseren van onderwerpen in het kaartdossier, kunt u verwijzingen ook toevoegen, bewegen, kopiëren, kleven, of schrappen gebruikend **Opties** beschikbaar voor een element in de layoutweergave.
+Naast het organiseren van onderwerpen in het kaartdossier, kunt u verwijzingen ook toevoegen, bewegen, kopiëren, kleven, of schrappen gebruikend **Opties** beschikbaar voor een element in de weergave Indeling.
 
 <img src="assets/layout-inline-attributes.png" alt=" toewijzingskenmerken" width="600">
 
@@ -172,11 +172,11 @@ Terwijl u inhoud maakt en onderhoudt, worden mogelijk veel versies gemaakt voor 
 
 <img src="assets/preview-purge-report.png" alt="Voorvertoning rapport leegmaken" width="500">
 
-AEM Hulplijnen verwijderen niet de eerste versie van het bestand of een versie die in een basislijn is opgenomen, of er is een label op toegepast. Met Leegmaken worden zelfs geen bestanden verwijderd die deel uitmaken van een vertaling- of revisiewerkstroom. U kunt het aantal versies kiezen dat u wilt behouden en ook de bestanden verwijderen die ouder zijn dan het gedefinieerde aantal dagen.
+AEM Hulplijnen verwijderen niet de eerste versie van het bestand of een versie die in een basislijn is opgenomen, of er is een label op toegepast. Met Leegmaken worden zelfs geen bestanden verwijderd die deel uitmaken van een vertaling- of revisiewerkstroom. U kunt het aantal versies kiezen dat u wilt behouden en u kunt ook besluiten om de bestanden te verwijderen die ouder zijn dan het gedefinieerde aantal dagen.
 
 Voordat u de purgeerbewerking start, kunt u een voorvertoning van het rapport bekijken van de versies die worden gewist. Vervolgens kunt u besluiten de leegmaakbewerking te starten of te annuleren.
 
-<img src="assets/download-purge-report.png" alt="PDownload purge-rapport" width="500">
+<img src="assets/download-purge-report.png" alt="PDownload-rapport" width="500">
 
 Zodra de leegmaakbewerking is voltooid, kunt u het rapport leegmaken controleren om de gezuiverde bestanden te zien.
 

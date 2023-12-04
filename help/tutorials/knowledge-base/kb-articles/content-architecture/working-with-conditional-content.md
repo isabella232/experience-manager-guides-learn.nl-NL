@@ -2,10 +2,9 @@
 title: Werken met voorwaardelijke inhoud
 description: Leer hoe u voorwaarden maakt en stel vervolgens voorwaardelijke inhoud genereren in [!DNL AEM Guides]
 role: User
-exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -22,21 +21,21 @@ ht-degree: 0%
 
 **Stap 1**
 
-Bepaal voorwaarden relevant voor de documentatie in [!UICONTROL Folder Profiles]: Zie sectie **Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren** in [Pagina 69 van de gids voor installatie en configuratie](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Bepaal voorwaarden relevant voor de documentatie in [!UICONTROL Folder Profiles]: Zie de sectie **Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren** in [Pagina 69 van de gids voor installatie en configuratie](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![Voorwaarden configureren in mapprofielen](assets/conditions-in-profiles.png)
 
 **Stap 2**
 
-Selecteer **[!UICONTROL Folder Profile]** gedefinieerd in Stap 1 in **Gebruikersvoorkeuren** in XML Editor: Zie sectie **Gebruikersvoorkeuren** in [Pagina 41 van de Gebruikershandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Selecteer de **[!UICONTROL Folder Profile]** gedefinieerd in Stap 1 in **Gebruikersvoorkeuren** in XML Editor: naar sectie verwijzen **Gebruikersvoorkeuren** in [Pagina 41 van de Gebruikershandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Stap 3**
 
-Gebruik de voorwaarden om secties van inhoud te conditionaliseren: Zie sectie **Voorwaarden** in [Pagina 90 van gebruikershandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+De voorwaarden gebruiken om secties van inhoud te conditionaliseren: naar sectie verwijzen **Voorwaarden** in [Pagina 90 van gebruikershandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 ![Voorwaarden gebruiken in de webeditor](assets/conditions-in-web-editor.png)
 
 **Stap 4**
 
-Definieer voorinstellingen voor voorwaarden op kaartniveau om aan te geven welke voorwaarden moeten worden ingeschakeld in de uitvoer: Zie sectie **Voorinstellingen voor voorwaarden gebruiken** in [Pagina 249 van de Handboek](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Voorinstellingen voor voorwaarden definiëren op kaartniveau om te kiezen welke voorwaarden moeten worden ingeschakeld in de uitvoer: zie sectie **Voorinstellingen voor voorwaarden gebruiken** in [Pagina 249 van de Handboek](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)

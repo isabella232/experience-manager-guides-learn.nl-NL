@@ -1,8 +1,7 @@
 ---
 title: Rapport voor versiehistorie van teruggedraaide bestanden
 description: Versiehistorierapporten van teruggedraaide bestanden weergeven in AEM hulplijnen. Leer hoe te om versielogboeken van de Middelen UI, onderwerpvoorproef, en AEM tot selectie toegang te hebben.
-exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

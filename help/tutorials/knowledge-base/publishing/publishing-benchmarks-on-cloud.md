@@ -1,10 +1,9 @@
 ---
 title: Gidsen die Benchmarks op AEMaaCS publiceren
 description: Begrijp systeembeperkingen bij het publiceren op AEM Cloud.
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
-source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 4%
 
 ---
@@ -20,25 +19,25 @@ Zie voor het configureren van de nieuwe publicatieservice voor elke AEM cloudomg
 
 ## Uitvoeromgeving
 
-    AEM: 2023.5.11983.20230511T173830Z
-    Hulplijn toevoegen bij loslaten: 2023,6,0
-    Sjabloon AEM site: OOTB-sjabloon voor hulplijnen AEM
-    DITA-OT-versie: 3.5.4.
-    Type publicatieworkflow: Publicatieworkflow splitsen
+    AEM: 2023.5.1983.20230511T173830Z
+    Handleiding bij loslaten: 2023.6.0
+    Sjabloon site AEM: AEM OOTB-sjabloon voor hulplijnen
+    DITA-OT-versie: 3.5.4
+    Type publicatieworkflow: Gesplitste publicatieworkflow
     Uitvoer ondersteund door microservice: Native PDF, PDF (Dita-OT)
 
 ## Productienummers uitvoer
 
-| Uitvoertype | Kaartgrootte (onderwerpverwijzingen) | Uitvoeringstijd (in seconden) | Microservice publiceren |
+| Uitvoertype | Kaartgrootte (onderwerpverwijzingen) | Uitvoeringstijd (in seconden) | Publishing Microservice |
 |---------------|------------------------------|----------------------------|-----------------------|
 | Site AEM | 3500 | 5220 | Nee |
 | Native PDF | 3500 | 780 | Ja |
 | PDF (DITA-OT) | 11000 | 960 | Ja |
-| HTML5 | 3500 | 240 | Nee |
+| HTML 5 | 3500 | 240 | Nee |
 | Aangepast | 300 | 300 | Nee |
 
 ## Belangrijkste punten om te onthouden
 
-- AEM Site maakt veel cq:paginaknooppunten en voegt deze af door ze tijdens de generatie afzonderlijk weer te geven. Daarom is het aan te raden om grote, meerdere gelijktijdige AEM Sitepublicaties niet uit te voeren, omdat dit het systeem kan overbelasten.
+- AEM Site maakt veel cq:paginaknooppunten en voegt deze af door ze tijdens de generatie afzonderlijk weer te geven. Daarom is het aan te raden om grote, meerdere gelijktijdige AEM Sitepublicaties niet uit te voeren, aangezien dit het systeem kan overbelasten.
 - AEM de tijd van de Plaatsgeneratie hangt van het gebruikte malplaatje af. De uitvoeringstijd kan toenemen als een complexe sjabloon wordt gebruikt.
 - De uitvoeringstijd voor aangepaste publicatie is voor een voorbeelduitvoer. Aangepaste publicatietijd is uitsluitend afhankelijk van de eigen transformatielogica van de klant.

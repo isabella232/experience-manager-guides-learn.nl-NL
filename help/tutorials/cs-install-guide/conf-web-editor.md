@@ -1,13 +1,12 @@
 ---
 title: Webeditor aanpassen
 description: Leer hoe u de webeditor kunt aanpassen
-source-git-commit: 419cb49fb122d8cf05f82ed4588fc28eac1b81bd
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # Webeditor aanpassen {#id181AI0003PN}
 
@@ -18,7 +17,7 @@ AEM de Gidsen komt met een krachtige Redacteur van het Web wordt gebundeld die u
 - [Standaardwoordenboek AEM aanpassen](customize-aem-custom-dictionary.md#)
 - [Element-id&#39;s automatisch genereren](auto-generate-ids.md#)
 - [Toegestane speciale tekens configureren](conf-special-chars.md#)
-- [Filters configureren voor het dialoogvenster Bladeren van bestanden](conf-custom-file-filters.md#)
+- [Filters configureren voor het dialoogvenster Bladeren](conf-custom-file-filters.md#)
 - [Weergave van op UUID gebaseerde koppelingen configureren](conf-uuid-based-links.md#)
 
 - **[Werkbalk Aanpassen](conf-web-editor-customize-toolbar.md)**
@@ -45,7 +44,7 @@ AEM de Gidsen komt met een krachtige Redacteur van het Web wordt gebundeld die u
 
 - **[Tekstfilters configureren](config-text-filters.md)**
 
-- **[Filters configureren voor het dialoogvenster Bladeren van bestanden](conf-custom-file-filters.md)**
+- **[Filters configureren voor het dialoogvenster Bladeren](conf-custom-file-filters.md)**
 
 - **[Pakketten installeren voor publiceren op basis van artikel](configure-article-based-publishing.md)**
 
@@ -56,5 +55,3 @@ AEM de Gidsen komt met een krachtige Redacteur van het Web wordt gebundeld die u
 - **[De Geavanceerde Kaarteditor instellen als standaard](conf-map-editor.md)**
 
 - **[@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md)**
-
-

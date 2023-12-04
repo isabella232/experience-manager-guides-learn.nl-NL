@@ -1,11 +1,10 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
 description: Laatste release van Adobe Experience Manager-hulplijnen
-exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3532'
-ht-degree: 3%
+source-wordcount: '3644'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +28,7 @@ Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Gu
 
 In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.3.
 
-### Adobe Experience Manager
+### ADOBE EXPERIENCE MANAGER
 
 **Niet-UUID**
 Versie 6.5 Service Pack 13, 12, 11 of 10
@@ -40,13 +39,13 @@ Versie 6.5 Service Pack 13, 12, 11 of 10
 Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
 
 
-### FrameMaker en het Publiceren FrameMaker Server
+### FrameMaker en FrameMaker Publishing Server
 
 | Geen | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.3 (niet-UUID) | 2020.2 of hoger* | 2019 | 2020.3 of hoger | 2019.8 (laatste update) |
 | 4.1.3 (UUID) | 2020.2 of hoger* | Niet compatibel | 2020.4 of hoger | Niet compatibel |
-|  |  |  |  |
+| | | | |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
 
@@ -54,16 +53,16 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (niet-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.3 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Opgeloste problemen
 
 De gecorrigeerde bug wordt hieronder weergegeven:
 
-* De webeditor laadt af en toe een lege pagina. (10678)
+* De webeditor laadt regelmatig een lege pagina. 10678
 
 
 ## 4.1.2. | Opmerkingen bij de release
@@ -72,7 +71,7 @@ De gecorrigeerde bug wordt hieronder weergegeven:
 
 In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.2.
 
-### Adobe Experience Manager
+### ADOBE EXPERIENCE MANAGER
 
 **Niet-UUID**
 Versie 6.5 Service Pack 13, 12, 11 of 10
@@ -83,13 +82,13 @@ Versie 6.5 Service Pack 13, 12, 11 of 10
 Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
 
 
-### FrameMaker en het Publiceren FrameMaker Server
+### FrameMaker en FrameMaker Publishing Server
 
 | Geen | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (niet-UUID) | 2020.2 of hoger* | 2019 | 2020.3 of hoger | 2019.8 (laatste update) |
 | 4.1.2 (UUID) | 2020.2 of hoger* | Niet compatibel | 2020.4 of hoger | Niet compatibel |
-|  |  |  |  |
+| | | | |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
 
@@ -97,27 +96,27 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (niet-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.2 (niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Opgeloste problemen
 
 De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
 
-* Bij het selecteren van alle mapprofielen wordt een onzichtbaar mapprofiel (dat onjuist is) weergegeven. (10393)
+* Bij het selecteren van alle mapprofielen wordt een onzichtbaar mapprofiel (dat onjuist is) weergegeven. 10393
 * Bij het maken van de basislijn wordt niet de nieuwste versie gekozen, wanneer de tijdzone van de gebruiker afwijkt van de tijdzone van de server. (10336)
 * Met de sneltoets Ctrl+F wordt de zoekmodus van de browser in de middelenconsole niet geopend nadat AEM hulplijnen 4.1 zijn geïnstalleerd. (10339)
-* Fout bij maken basislijn voor onderwerp met verwijzing naar een map. (10383)
-* Op het tabblad Uitvoervoorinstellingen wordt periodiek een leeg scherm weergegeven en in sommige gevallen worden niet-bewerkbare voorinstellingen weergegeven. (10390)
+* Fout bij maken basislijn voor onderwerp met verwijzing naar een map. 10383
+* Op het tabblad Uitvoervoorinstellingen wordt periodiek een leeg scherm weergegeven en in sommige gevallen worden niet-bewerkbare voorinstellingen weergegeven. 10390
 * Keyspace-beheer leidt tot uitzonderingen en fouten. (10449)
 
 ### Bekende problemen met tijdelijke oplossing
 
 * Basislijn die tijdens het omzetten is geëxporteerd, wordt niet geladen op het tabblad basislijn van de editor.
 
-   **Workaround**: Gebruik het basislijnlusje van het dashboard van de kaart DITA.
+  **Workaround**: Gebruik het basislijntabblad van het DITA-kaartdashboard.
 
 ## 4,1 | Opmerkingen bij de release
 
@@ -127,7 +126,7 @@ In deze releaseopmerkingen worden de instructies voor het bijwerken, de nieuwe f
 
 In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.
 
-### Adobe Experience Manager
+### ADOBE EXPERIENCE MANAGER
 
 **Niet-UUID**
 Versie 6.5 Service Pack 13, 12, 10 of 11
@@ -140,13 +139,13 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 
 
-### FrameMaker en het Publiceren FrameMaker Server
+### FrameMaker en FrameMaker Publishing Server
 
 | Geen | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (Niet-UUID) | 2020.2 of hoger* | 2019 | 2020.3 of hoger | 2019.8 (laatste update) |
 | 4.1 (UUID) | 2020.2 of hoger* | Niet compatibel | 2020.4 of hoger | Niet compatibel |
-|  |  |  |  |
+| | | | |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
 
@@ -154,8 +153,8 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 | Geen | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1 (Niet-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
+| 4.1 (Niet-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
@@ -197,7 +196,7 @@ Nu kunt u een aangepast deelvenster toevoegen in het linkerdeelvenster van de we
 
 * **Mogelijkheid om de documentstatus van onderwerpen in een DITA-kaart te wijzigen**
 
-Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart DITA van DITA ook openen en uitgeven **Meer opties** onder aan het deelvenster Kaartweergave.
+Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart ook openen en uitgeven DITA van het **Meer opties** onder aan het deelvenster Kaartweergave.
 
 ![geselecteerde onderwerpeigenschappen](assets/map-view-properties.png)
 
@@ -212,7 +211,7 @@ De Redacteur van het Web helpt u in het beheren van uw versies. Nu kunt u de ver
 
 De volgende verbeteringen zijn nu beschikbaar met browser verfrist verrichting in de Redacteur van het Web:
 
-* Nu krijgt u de steun om browser te verfrissen terwijl u uw inhoud in de Redacteur van het Web uitgeeft. Als u op het pictogram Vernieuwen klikt terwijl een of meer bestanden met niet-opgeslagen wijzigingen worden geopend voor bewerking, wordt u gevraagd uw bestanden op te slaan of de actie Vernieuwen te annuleren.
+* Nu krijgt u de steun om browser te verfrissen terwijl u uw inhoud in de Redacteur van het Web bewerkt. Als u op het pictogram Vernieuwen klikt terwijl een of meer bestanden met niet-opgeslagen wijzigingen worden geopend voor bewerking, wordt u gevraagd uw bestanden op te slaan of de actie Vernieuwen te annuleren.
 
 * Zelfs bij het vernieuwen van de browser blijven de weergaven van het linkerdeelvenster en het rechterdeelvenster behouden.
 
@@ -248,15 +247,14 @@ Zie voor meer informatie *Bestanden sluiten en scenario&#39;s opslaan* in de han
 ![trefwoord invoegen](assets/insert-keyword.png)
 
 * **Ondersteuning voor opmaakdocumenten**
-Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen aan gewone tekstdocumenten. De Redacteur van het Web staat u toe om de documenten van de Prijsverhoging (.md) samen met uw documenten te gebruiken DITA. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur.  Zie voor meer informatie 
-*De documenten van de Prijsverhoging van de auteur van het Web van de Redacteur* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
+Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen aan gewone tekstdocumenten. De Redacteur van het Web staat u toe om de documenten van de Prijsverhoging (.md) samen met uw documenten te gebruiken DITA. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur.  Zie voor meer informatie *De documenten van de Prijsverhoging van de auteur van het Web* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
 
 ![supportmarkering](assets/create-markdown-dita-topic.png)
 
 * **Mogelijkheid om een standaardweergave voor tags te configureren**
 Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen.  Dit betekent dat u de mening van Markeringen niet moet toelaten om tot het later toegang te hebben. Uw beheerder kan de standaardstaat voor de Mening van Markeringen in de Redacteur van het Web vormen. De standaardwaarde voor de Mening van Markeringen voor de zitting van een nieuwe gebruiker wordt bepaald door het bezit tagsView in het ui_config.json- dossier.
 
-* In de weergavebestanden voor opslagplaatsen worden nu batches geladen. Alle bestanden in de hoofdmap of `/content/dam folder` worden weergegeven. Maar vanaf het volgende niveau of de secundaire map worden 75 bestanden tegelijk geladen. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan het laden van alle bestanden in een map.
+* In de weergavebestanden voor opslagplaatsen worden nu batches geladen. Alle bestanden in de hoofdmap of `/content/dam folder` worden weergegeven. Maar vanaf het volgende niveau of de secundaire map worden 75 bestanden tegelijk geladen. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
 ![meer bestanden laden](assets/load-more-files.png)
 
@@ -276,15 +274,14 @@ U kunt de bestanden doorzoeken op bestandsnamen of op de bestandslocatie. U kunt
 
 De prestaties voor het basisproces voor het maken zijn verder verbeterd. Het proces om basislijnen tot stand te brengen is asynchroon, zodat kunt u andere dossiers in de Redacteur van het Web blijven uitgeven terwijl de basislijn wordt gecreeerd. Zie voor meer informatie *Basislijnen maken en beheren vanuit de webeditor* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
 
-Opmerking: Het tabblad Basislijn op het kaartdashboard is standaard verborgen. Uw beheerder kan het lusje van de Basislijn op het kaartdashboard toelaten.
+Opmerking: het tabblad Basislijn op het kaartdashboard is standaard verborgen. Uw beheerder kan het lusje van de Basislijn op het kaartdashboard toelaten.
 
 * De basislijnparameter in de API&#39;s die u wilt downloaden, gebruikt nu de titel van de basislijn om de versie van de inhoud op te halen.
 
 ### Verbeterd vertaalproces
 
-* **De capaciteit om een scoping vertaalproject tot stand te brengen**
-Als u slechts het werkingsgebied voor een te vertalen project moet creëren, kunt u selecteren 
-**Een nieuw vertaal-project met bereik maken**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
+* **De capaciteit om een scoping vertaalproject te creëren**
+Als u slechts het werkingsgebied voor een te vertalen project moet creëren, kunt u selecteren **Een nieuw vertaal-project met bereik maken**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
 
 ![vertaal project](assets/scoping-translation-project.png)
 
@@ -311,96 +308,96 @@ Voor meer informatie over vertaling raadpleegt u *Documenten vertalen vanuit de 
 
 Wanneer u selecteert om de kaart te downloaden DITA, wordt het verzoek een rij gevormd, en u ontvangt een bericht zodra de kaart klaar is om te downloaden. U kunt ervoor kiezen het kaartbestand direct te downloaden of later te downloaden via de koppeling in het AEM-meldingsvak.
 
-![Map downloaden](assets/download-map-prompt.png)
+![Kaartdownload](assets/download-map-prompt.png)
 
-### Andere functieverbeteringen
+### Andere functies
 
 * AEM Hulplijnen ondersteunen nu Oxygen XML Author versie 24.1.
 * De basislijnparameter in de API&#39;s die u wilt downloaden, gebruikt nu de titel van de basislijn om de versie van de inhoud op te halen.
 
 ### Verouderde functie
 
-AEM Gidsen steunt niet meer de generatie van DITA outputformaat voor documenten FrameMaker. Deze optie DITA is ook verwijderd uit de uitvoervoorinstellingen van het kaartdashboard.
+AEM hulplijnen ondersteunen het genereren van de DITA-uitvoerindeling voor FrameMaker documenten niet meer. Deze optie DITA is ook verwijderd uit de uitvoervoorinstellingen van het kaartdashboard.
 
 ## Opgeloste problemen
 
 De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
 
-* Ontwerpondersteuning is niet beschikbaar als alternatief voor bestandspaden die verwijzen naar publicatie. (8076)
-* Met DITA toevoegen op pakket voorkomt u dat elementen door DAM worden gedupliceerd. (8417)
+* Ontwerpondersteuning is niet beschikbaar als alternatief voor bestandspaden die verwijzen naar publicatie. 8076
+* Met DITA toevoegen op pakket voorkomt u dat elementen door DAM worden gedupliceerd. 8417
 * Nadat een document van Oxygen naar AEM is ingecheckt, wordt Japanse inhoud in het document vervangen door vraagtekens (????). (9124)
 * Uitgecheckte bestanden vernieuwen werkt niet aan registratie met webverificatie in Oxygen. (9179)
 * Het bestand wordt niet uitgecheckt wanneer het wordt geopend in zuurstof. (9192)
-* Nadat een document van Oxygen naar AEM is ingecheckt, wordt Japanse inhoud in het document vervangen door vraagtekens (????). (9276)
-* Webverificatie werkt niet in oxygen. (9296)
-* Herladen mislukt in zuurstof wanneer het bestand of de bestanden al in AEM op dezelfde locatie aanwezig zijn. (9328)
-* Optie is niet beschikbaar als u inhoud tussen AEM en het lokale systeem wilt synchroniseren. (9439)
-* Id wordt niet automatisch gegenereerd voor element dat is toegevoegd met **Herbruikbare inhoud invoegen** dialoogvenster van secundaire werkbalk. (5826)
+* Nadat een document van Oxygen naar AEM is ingecheckt, wordt Japanse inhoud in het document vervangen door vraagtekens (????). 9276
+* Webverificatie werkt niet in oxygen. 9296
+* Herladen mislukt in zuurstof wanneer het bestand of de bestanden al in AEM op dezelfde locatie aanwezig zijn. 9328
+* Optie is niet beschikbaar als u inhoud tussen AEM en het lokale systeem wilt synchroniseren. 9439
+* Id wordt niet automatisch gegenereerd voor element dat is toegevoegd met **Herbruikbare inhoud invoegen** dialoogvenster van secundaire werkbalk. 5826
 * Er wordt geen bevestigingsvenster weergegeven wanneer u via de editor een afbeelding met dezelfde naam als een bestaand bestand uploadt. (6011)
-* Een vaste spatie die niet beschikbaar is in het tekenpalet. (7523)
-* De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. (7913)
+* Een vaste spatie die niet beschikbaar is in het tekenpalet. 7523
+* De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. 7913
 * Versie wordt niet bijgewerkt bij het opslaan van de revisie van een onderwerp op de werkbalk van het kaartvenster. (8228)
-* xref kan zelfs op geldige locaties niet worden ingevoegd. (8354)
-* De bewerking &#39;getversionlabels&#39; heeft beperkingen en levert geen verwachte prestaties. (8513)
-* Problemen treden op met het bevestigingsvenster wanneer een vergrendeld of bewerkt bestand wordt gesloten dat momenteel niet in de editor is geopend. (8692)
-* Er treedt een fout op bij het toevoegen van een gebruiker als beheerder in het mappenprofiel als de gebruiker-id numeriek is. (8908)
-* Het deelvenster Vertaling is zelfs zichtbaar bij het openen van de DITA-kaart in de Kaarteditor. (9053)
+* xref kan zelfs op geldige locaties niet worden ingevoegd. 8354
+* De bewerking &#39;getversionlabels&#39; heeft beperkingen en levert geen verwachte prestaties. 8513
+* Problemen treden op met het bevestigingsvenster wanneer een vergrendeld of bewerkt bestand wordt gesloten dat momenteel niet in de editor is geopend. 8692
+* Er treedt een fout op bij het toevoegen van een gebruiker als beheerder in het mappenprofiel als de gebruiker-id numeriek is. 8908
+* Het deelvenster Vertaling is zelfs zichtbaar bij het openen van de DITA-kaart in de Kaarteditor. 9053
 * Taalcode wordt niet weergegeven met de taal in het deelvenster Vertaling. (9108)
 * De tabbladen Vertaling en Basislijn zijn enige tijd zichtbaar op het dashboard van Kaart. (9146)
-* Wanneer de vertaling is voltooid, wordt een extra versie gemaakt voor het vertaalde element. (9310)
-* De goedgekeurde vertaling integreert niet aan de doeltaal wanneer de doeltaalcode vijf karakters zoals bevat `fr_ca`. (9357)
-* Vertaalde inhoud wordt verbroken wanneer de gemaakte doeltaalcode wordt vermeld als `fr-fr, `, `en-us`. (9527)
-* Bij het laden van een kaart DITA die buiten de taalomslag is, wordt een uitzondering geregistreerd bij het achtereind.(9543)
-* Kan geen DITA-bestand maken met de aangepaste DITA-sjabloon uit de editor. (7262)
-* De DITA-kaart gaat verloren bij het publiceren van een UUID DITA-kaart via FMPS. (7278)
-* AEM hulplijnen kopiëren de niet-unieke eigenschappen van een element niet wanneer een element wordt gekopieerd en geplakt. (8241)
-* De bestandsnaam van de DITA-kaart wordt bij het maken niet omgezet in kleine letters. (8383)
-* De beschrijving van de controletaak wordt niet weergegeven in het e-mailbericht dat wordt verzonden wanneer een nieuwe controletaak wordt toegewezen. (8507)
-* Map-API downloaden | Tijdelijke mappen die niet worden opgeschoond in geval van fouten in het downloadproces. (8523)
-* `columnpreview.jsp` is afhankelijk van SP.  (8543)
-* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het publicatiedashboard.  (8569)
-* Standaardpictogram gekozen bij het produceren van een rapport gebruikend de Generate knoop, zelfs wanneer het pictogrambezit wordt bepaald. (8573)
+* Wanneer de vertaling is voltooid, wordt een extra versie gemaakt voor het vertaalde element. 9310
+* De goedgekeurde vertaling integreert niet aan de doeltaal wanneer de doeltaalcode vijf karakters zoals bevat `fr_ca`. 9357
+* Vertaalde inhoud wordt verbroken wanneer de gemaakte doeltaalcode wordt vermeld als `fr-fr, `, `en-us`. 9527
+* Bij het laden van een kaart DITA die buiten de taalomslag is, wordt een uitzondering geregistreerd bij het achtereind.9543
+* Kan geen DITA-bestand maken met de aangepaste DITA-sjabloon uit de editor. 7262
+* De DITA-kaart gaat verloren bij het publiceren van een UUID DITA-kaart via FMPS. 7278
+* AEM hulplijnen kopiëren de niet-unieke eigenschappen van een element niet wanneer een element wordt gekopieerd en geplakt. 8241
+* De bestandsnaam van de DITA-kaart wordt bij het maken niet omgezet in kleine letters. 8383
+* De beschrijving van de controletaak wordt niet weergegeven in het e-mailbericht dat wordt verzonden wanneer een nieuwe controletaak wordt toegewezen. 8507
+* Map-API downloaden | Tijdelijke mappen die niet worden opgeschoond in geval van fouten in het downloadproces. 8523
+* `columnpreview.jsp` is afhankelijk van SP.  8543
+* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het publicatiedashboard.  8569
+* Standaardpictogram gekozen bij het produceren van een rapport gebruikend de Generate knoop, zelfs wanneer het pictogrambezit wordt bepaald. 8573
 * Problemen treden op tijdens het revisieproces tijdens het upgraden van 3.8.X naar 4.0. (8788)
-* Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. (8793)
+* Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. 8793
 * De boomeinden van de verwijzing na het verwijderen van een onderwerp en het uitvoeren van een bewegingsverrichting. (8804)
 * Aangepaste DTD die door de gebruiker is gedefinieerd, heeft geen voorrang op standaard-DITA DTD die is ingesloten in DITA-OT. (9104)
-* De positie van markering is onjuist in de weergave Naast elkaar. (9305)
-* Met de voetnoot &#39;Bij gebruik naar referentie&#39; wordt niet naar de voetnootsectie in AEM site-uitvoer geschoven. (9061)
-* De volgorde van voetnoten is onjuist in de uitvoer AEM Site. (9327)
-* Nieuw gemaakte DITA-elementen worden altijd uitgecheckt door een andere gebruiker. (9387)
+* De positie van markering is onjuist in de weergave Naast elkaar. 9305
+* Met de voetnoot &#39;Bij gebruik naar referentie&#39; wordt niet naar de voetnootsectie in AEM site-uitvoer geschoven. 9061
+* De volgorde van voetnoten is onjuist in de uitvoer AEM Site. 9327
+* Nieuw gemaakte DITA-elementen worden altijd uitgecheckt door een andere gebruiker. 9387
 * Fout wordt altijd geregistreerd op de verwezenlijking van nieuwe inhoud. (9388)
-* In het derde scherm van het proces voor het maken van revisietaken wordt de lijst met woordenlijsten niet weergegeven. (4558)
-* Onjuiste die verwijzingen UUID wanneer het uploaden van veelvoudige dossiers van Schakelaar FrameMaker/Zuurgen worden toegewezen. (8269)
-* E-mailmelding wordt niet verzonden wanneer een revisietaak opnieuw wordt toegewezen in het Postvak IN. (8376)
-* De tweede beheerdergebruiker kan niet als eerste beheerdergebruiker aan een omslag worden toegevoegd. (8430)
-* **Labels toepassen** op het tabblad Basislijn worden geen labels weergegeven in het vervolgkeuzemenu. (8455)
-* Bij het gebruiken van basislijnpubliceren met beeld als conref in het onderwerp, wordt het beeld niet gepubliceerd in de output. (8564)
-* De functie Uitvoer leegmaken mislukt als er een groot aantal knooppunten in de uitvoergeschiedenis aanwezig zijn. (8568)
-* In het deelvenster Versiehistorie wordt in de huidige sectie een onjuiste tijdstempel weergegeven en deze wordt door informatie gewijzigd. (8765)
-* Basislijn niet bijgewerkt op basis van het gedefinieerde label. (8799)
-* Er treedt een fout op wanneer bestanden waarvan de bovenliggende map speciale tekens in de bestandsnaam bevat, worden geopend in Zuurstof (met de opdracht **Bewerken in zuurstof** ). (8918)
+* In het derde scherm van het proces voor het maken van revisietaken wordt de lijst met woordenlijsten niet weergegeven. 4558
+* Onjuiste UUID-referenties toegewezen bij het uploaden van meerdere bestanden van de FrameMaker/Zuurstofconnector. 8269
+* E-mailmelding wordt niet verzonden wanneer een revisietaak opnieuw wordt toegewezen in het Postvak IN. 8376
+* De tweede beheerdergebruiker kan niet als eerste beheerdergebruiker aan een omslag worden toegevoegd. 8430
+* **Labels toepassen** op het tabblad Basislijn worden geen labels weergegeven in een vervolgkeuzelijst. 8455
+* Bij het gebruiken van basislijnpubliceren met beeld als conref in het onderwerp, wordt het beeld niet gepubliceerd in de output. 8564
+* De functie Uitvoer leegmaken mislukt als er een groot aantal knooppunten in de uitvoergeschiedenis aanwezig zijn. 8568
+* In het deelvenster Versiehistorie wordt in de huidige sectie een onjuiste tijdstempel weergegeven en deze wordt door informatie gewijzigd. 8765
+* Basislijn niet bijgewerkt op basis van het gedefinieerde label. 8799
+* Er treedt een fout op wanneer bestanden waarvan de bovenliggende map speciale tekens in de bestandsnaam bevat, worden geopend in Zuurstof (met de opdracht **Bewerken in zuurstof** ). 8918
 * Uploaden van bestanden van Oxygen naar AEM mislukt. (9157)
 * Kaart downloaden met basislijn werkt niet als de inhoud naar een andere map wordt verplaatst. (9331)
 * Zuurstof controleert een onjuiste versie van een onderwerp nadat een versie in AEM terugkeert. (9411)
-* Als u in het deelvenster Opslagplaats zoekt en in het dialoogvenster Bladeren op onderwerp bladert, wordt het scherm geblokkeerd wanneer de inhoud groot is. (9432)
-* Als de instelling **Nieuwe versie maken voor geüpload bestand** is, wordt een nieuwe versie gecreeerd bij het terugkeren en het bewaren op om het even welk bevroren knoop. (9473)
-* Onjuiste tijdstempelverschillen worden weergegeven in de interface Middelen bij het terugkeren van een bestandsversie. (9480)
-* Bestanden worden automatisch uitgecheckt wanneer u terugkeert naar een versie. (9482)
-* Het vergrendelingspictogram wordt weergegeven in de dataweergave, zelfs als het bestand is ingecheckt in de editor.  (5756)
-* Onbekwaam om voorgrond, achterstandselementen in een boekenkaart toe te voegen gebruikend de mening van de Auteur van de Redacteur van het Web. (7652)
-* De voorvertoningsmodus wordt niet ondersteund `deliveryTarget` voorwaardelijk verwerkingskenmerk in DITA. (7685)
-* Wanneer u een woordenlijst opent in de XML-editor, AEM u een bestand op om het op te slaan, zelfs als het niet is gewijzigd. (8105)
-* Het dialoogvenster Referenties invoegen wordt geopend wanneer u subjectref aan een kaart toevoegt met behulp van de gebruikersinterface. (8212)
-* Deelvenster Inhoud opnieuw gebruiken crasht bij het zoeken naar speciale tekens `[` of `*` .(8279)
-* Bij het ontwerpen van Glossentry, toont de Redacteur van het Web de inhoud als Nota. (8384)
-* De Redacteur van XML verwijdert nieuwe lijn in codeblock. (8522)
-* Het schakelen tussen bron en auteurswijze merkt het onderwerp als vuil en vereist dat de inhoud opnieuw wordt bewaard.(8524)
-* Kan een ontgrendeld onderwerp niet sluiten. (8545)
-* Er bestaat geen optie om het pad Knowledge Base te kiezen in voorinstellingen voor publiceren op basis van artikelen. (8636)
-* Kenmerken ontbreken bij het toevoegen van een hoofdstuk aan een bladwijzer met behulp van slepen en neerzetten in de weergave Favorieten. (8746)
-* Het dialoogvenster Trefwoord invoegen beschikt niet over de zoekmogelijkheden en trefwoorden worden niet in gesorteerde volgorde weergegeven. (9094)
-* Als u een zoekopdracht uitvoert in de XML-editor, wordt de pagina vastgezet. (9452)
-* Sites ontbreken in AEM voorinstellingen onder het tabblad Uitvoer. (9567)
-* SVG-afbeeldingen die niet correct worden weergegeven in de auteurmodi van de XML-editor. (9426)
-* Basislijn wordt niet geëerd tijdens het publiceren via salesforce. (8953)
-* De mogelijkheid om een routekaart te wissen uit de voorkeursinstellingen van de gebruiker is niet aanwezig. (8534)
+* Als u in het deelvenster Opslagplaats zoekt en in het dialoogvenster Bladeren op onderwerp bladert, wordt het scherm geblokkeerd wanneer de inhoud groot is. 9432
+* Als de instelling **Nieuwe versie maken voor geüpload bestand** is, wordt een nieuwe versie gecreeerd bij het terugkeren en het bewaren op om het even welk bevroren knoop. 9473
+* Onjuiste tijdstempelverschillen worden weergegeven in de interface Middelen bij het terugkeren van een bestandsversie. 9480
+* Bestanden worden automatisch uitgecheckt wanneer u terugkeert naar een willekeurige versie. 9482
+* Het vergrendelingspictogram wordt weergegeven in de dataweergave, zelfs als het bestand is ingecheckt in de editor.  5756
+* Onbekwaam om voorgrond, achterstandselementen in een boekenkaart toe te voegen gebruikend de mening van de Auteur van de Redacteur van het Web. 7652
+* De voorvertoningsmodus wordt niet ondersteund `deliveryTarget` voorwaardelijk verwerkingskenmerk in DITA. 7685
+* Wanneer u een woordenlijst opent in de XML-editor, AEM u een bestand op om het op te slaan, zelfs als het niet is gewijzigd. 8105
+* Het dialoogvenster Referenties invoegen wordt geopend wanneer u subjectref aan een kaart toevoegt met behulp van de gebruikersinterface. 8212
+* Deelvenster Inhoud opnieuw gebruiken crasht bij het zoeken naar speciale tekens `[` of `*` .8279
+* Bij het ontwerpen van Glossentry, toont de Redacteur van het Web de inhoud als Nota. 8384
+* De Redacteur van XML verwijdert nieuwe lijn in codeblock. 8522
+* Het schakelen tussen bron en auteurswijze merkt het onderwerp als vuil en vereist dat de inhoud opnieuw wordt bewaard.8524
+* Kan een ontgrendeld onderwerp niet sluiten. 8545
+* Er bestaat geen optie om het pad Knowledge Base te kiezen in voorinstellingen voor publiceren op basis van artikelen. 8636
+* Kenmerken ontbreken bij het toevoegen van een hoofdstuk aan een bladwijzer met behulp van slepen en neerzetten in de weergave Favorieten. 8746
+* Het dialoogvenster Trefwoord invoegen beschikt niet over de zoekmogelijkheden en trefwoorden worden niet in gesorteerde volgorde weergegeven. 9094
+* Als u een zoekopdracht uitvoert in de XML-editor, wordt de pagina vastgezet. 9452
+* Sites ontbreken in AEM voorinstellingen onder het tabblad Uitvoer. 9567
+* SVG-afbeeldingen die niet correct worden weergegeven in de auteurmodi van de XML-editor. 9426
+* Basislijn wordt niet geëerd tijdens het publiceren via salesforce. 8953
+* De mogelijkheid om een routekaart te wissen uit de voorkeursinstellingen van de gebruiker is niet aanwezig. 8534

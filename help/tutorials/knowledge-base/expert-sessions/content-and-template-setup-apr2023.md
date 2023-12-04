@@ -1,9 +1,9 @@
 ---
 title: Inhoud en Sjabloon instellen
 description: Leer hoe u alles in het werk moet stellen om inhoud en sjablonen in AEM hulplijnen in te stellen.
-source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ In deze vergadering hebben we in grote lijnen het volgende besproken:
 - **Datum** - 27 april 2023
 - **Aantal deelnemers** - 70
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adobe-medewerkers
+- **Publiek** - Klanten, partners en Adoben
 
 
 ## Toetsen
@@ -57,9 +57,8 @@ In deze sessie hebt u kennis genomen van het volgende:
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
-> - Op prem: 4.2 of hoger
-> - Cloud Services: 2303 of hoger
-
+> - On-prem: 4.2 of hoger
+> - Cloud Servicen: 2303 of hoger
 
 
 ## Volgende sessie met experts

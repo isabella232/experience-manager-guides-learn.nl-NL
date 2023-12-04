@@ -1,13 +1,12 @@
 ---
 title: Een aangepast deelvenster configureren in het linkerdeelvenster
 description: Leer hoe u een aangepast deelvenster kunt configureren in het linkerdeelvenster
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # Een aangepast deelvenster configureren in het linkerdeelvenster {#id224JI200Y6F}
 
@@ -56,4 +55,3 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 ```
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

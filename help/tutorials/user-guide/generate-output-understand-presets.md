@@ -1,8 +1,7 @@
 ---
 title: Uitvoervoorinstellingen
 description: Begrijp de outputvoorinstellingen in AEM Gidsen. Maak uitvoervoorinstellingen in de webeditor en het kaartdashboard voor AEM site-, PDF-, HTML,5-, EPUB-, aangepaste en JSON-indelingen.
-exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -26,7 +25,7 @@ In de volgende secties worden de opties beschreven die beschikbaar zijn voor de 
 
 - **[PDF](generate-output-pdf.md)**
 
-- **[HTML5](generate-output-html5.md)**
+- **[HTML 5](generate-output-html5.md)**
 
 - **[EPUB](generate-output-epub.md)**
 

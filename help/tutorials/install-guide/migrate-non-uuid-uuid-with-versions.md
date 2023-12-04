@@ -1,15 +1,12 @@
 ---
 title: Niet-UUID-inhoud met versies omzetten in UUID-inhoud
 description: Leer hoe u niet-UUID-inhoud migreert met versies.
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
-
-
-
 
 # Niet-UUID-inhoud migreren met versies
 
@@ -19,7 +16,7 @@ Voer de volgende stappen uit om uw niet-UUID-inhoud met versies te migreren naar
 
 | Huidige versie van AEM (niet-UUID) | Vereiste versie voor migratie naar UUID | Ondersteund upgradepad |
 |---|---|---|
-| 3.8.5 | 4.0 niet-UUID | 4.1 (UUID) installeren en de migratie uitvoeren |
+| 3.8.5. | 4.0 niet-UUID | 4.1 (UUID) installeren en de migratie uitvoeren |
 | 4.0, 4.0.x, 4.1 of 4.1.x | Hetzelfde als huidige niet-UUID | 4.1 (UUID) installeren en de migratie uitvoeren |
 | 4.2 of hoger | NA | Nog niet ondersteund |
 

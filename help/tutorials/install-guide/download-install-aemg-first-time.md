@@ -1,13 +1,12 @@
 ---
 title: Download en installeer AEM voor het eerst
 description: Leer hoe u voor het eerst AEM hulplijnen kunt downloaden en installeren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Download en installeer AEM voor het eerst {#id213BCL00KEV}
 
@@ -17,7 +16,7 @@ Voer de volgende stappen uit om AEM hulplijnen voor het eerst op een computer te
 >
 > Als u Livefyre samen met AEM Gidsen wilt gebruiken, zorg ervoor dat u de versies van de Levensstijl vroeger dan 3.0 installeert alvorens AEM Gidsen te installeren. Als u Livefyre versie 3.0 of hoger gebruikt, is er geen dergelijke beperking.
 
-1. Download AEM gidsen van de Portaal van de Distributie van de Software van Adobe.
+1. Download AEM hulplijnen van de Adobe Software Distribution Portal.
 
 1. Meld u aan bij de AEM en navigeer naar de CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
 
@@ -25,7 +24,7 @@ Voer de volgende stappen uit om AEM hulplijnen voor het eerst op een computer te
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [Werken met pakketten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Zie voor meer informatie over het werken met de Package Manager [Werken met pakketten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -49,4 +48,3 @@ Voer de volgende stappen uit om AEM hulplijnen voor het eerst op een computer te
 > Voer de installatieprocedure op alle instanties van AEM servers in uw opstelling uit.
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-

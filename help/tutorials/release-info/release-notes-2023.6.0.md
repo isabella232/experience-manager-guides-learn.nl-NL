@@ -1,11 +1,10 @@
 ---
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides in juni 2023
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: '1170'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +18,9 @@ Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functi
 
 Voer de volgende stappen uit om de huidige installatie van de AEM hulplijnen te upgraden:
 
-1. Controle uit de Cloud Services Gespitscode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van de Git-code van de Cloud Services naar 2023.6.297.
-3. Leg de wijzigingen vast en voer de pijpleiding Cloud Services uit om te upgraden naar de release van juni 2023 van AEM as a Cloud Service hulplijnen.
+1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
+2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen Git-code naar 2023.6.297.
+3. Leg de wijzigingen vast en voer de pijplijn Cloud Servicen uit om te upgraden naar de release van juni 2023 van AEM as a Cloud Service hulplijnen.
 
 ## Stappen om de trigger van een script via een servlet in te schakelen
 
@@ -88,7 +87,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 1. Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
+1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
 1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -103,7 +102,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.06.0 | Niet compatibel | 2022 of hoger |
+| 2023,06,0 | Niet compatibel | 2022 of hoger |
 | | | |
 
 
@@ -111,7 +110,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023,06,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -121,14 +120,14 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Authoring
 
-- Navtitle wordt verwijderd uit content33 bij het schakelen van de layoutweergave naar de auteur- of bronweergave. (12174)
+- Navtitle wordt verwijderd uit content33 bij het schakelen van de layoutweergave naar de auteur- of bronweergave. 12174
 - Soms treedt een toepassingsfout op bij het klikken op een DITA-kaart. (11842)
 - Webeditor | Vaste spatie wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
-- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. (11528)
+- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. 11528
 - Keyref wordt niet opgelost in de kaartweergave. (11490)
-- Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. (10868)
-- `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. (9481)
-- Lokale koppelingen naar andere elementen worden niet opgelost in de webeditor. (8790)
+- Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. 10868
+- `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. 9481
+- Lokale koppelingen naar andere elementen worden niet opgelost in de webeditor. 8790
 - De functie Matches() werkt niet in de functie schema. (11224)
 
 
@@ -140,18 +139,18 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (12113)
-- Native PDF | Het publiceren van inhoud die een outputklasse met steunen () heeft leidt tot een het publiceren bevriezing. (11936)
-- JSON-uitvoer | Metagegevens met kenmerk eigenschap als `"value in spaces and double quotes"` leidt tot een publicatiefout. (11933)
+- Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (1213)
+- Native PDF | Het publiceren van inhoud die een outputklasse met steunen () heeft leidt tot een het publiceren bevriezing. (1936)
+- JSON-uitvoer | Metagegevens met kenmerk eigenschap als `"value in spaces and double quotes"` leidt tot een publicatiefout. (1933)
 - Webeditor | Uitvoerpad en sjabloon kunnen niet worden geselecteerd in de AEM Voorinstelling. (11530)
 - Native PDF | Aangepaste kenmerken worden niet doorgegeven aan tijdelijke HTML- of PDF-engine. (DXML-12005)
 - Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
-- JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. (11564)
-- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. (11524)
+- JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. 11564
+- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
-- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. (10751)
-- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. (10876)
-- Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. (10549)
+- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. 10751
+- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. 10876
+- Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. 10549
 - Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12296)
 
 

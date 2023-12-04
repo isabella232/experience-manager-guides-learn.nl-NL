@@ -1,8 +1,7 @@
 ---
 title: Aangepaste DITA-toewijzingssjabloon configureren
 description: Leer hoe te om het malplaatje van de kaart van douaneDITA te vormen
-exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
-source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -43,7 +42,7 @@ Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
 
    Het bericht Kaart gemaakt wordt weergegeven.
 
-   U kunt de sjabloon openen om te bewerken in de Kaarteditor of het sjabloonbestand opslaan op de opslaglocatie van de sjabloon. Zodra het malplaatje wordt gecreeerd, kunt u de Redacteur van de Kaart gebruiken om het malplaatje aan uw auteursbehoeften aan te passen. Als een sjabloon eenmaal is ingesteld, moet u deze koppelen aan een algemeen profiel of aan een profiel op mapniveau.
+   U kunt de sjabloon openen om te bewerken in de Kaarteditor of het sjabloonbestand opslaan op de opslaglocatie van de sjabloon. Zodra het malplaatje wordt gecreeerd, kunt u de Redacteur van de Kaart gebruiken om het malplaatje aan uw auteursbehoeften aan te passen. Als een sjabloon eenmaal is ingesteld, moet u deze koppelen aan een algemeen profiel of aan een mapprofiel.
 
 
 De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op de pagina Vervagen. Voor meer informatie over het creëren van een kaart DITA, zie *Adobe Experience Manager-hulplijnen gebruiken*.

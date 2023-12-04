@@ -1,10 +1,9 @@
 ---
 title: Native PDF publiceren - Leren met voorbeelden (deel 1)
 description: Met de Native PDF-publiceerengine kunt u de inhoudslay-out van het document bepalen en de gewenste secties naar wens manipuleren met behulp van eenvoudig bij te werken CSS, HTML en JavaScript.
-exl-id: e6fcb2cb-4dfe-4aa7-8c84-f11759898c41
-source-git-commit: 63c2103c18b2a6da450247b1ee6b676a00d5a510
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---

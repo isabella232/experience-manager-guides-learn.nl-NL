@@ -1,11 +1,10 @@
 ---
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release oktober 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides van oktober 2023
-exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 1%
+source-wordcount: '1045'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +89,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 1. Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
+1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
 1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -105,7 +104,7 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 
 | Hulplijnen AEM als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.10.0 | Niet compatibel | 2022 of hoger |
+| 2023 10,0 | Niet compatibel | 2022 of hoger |
 | | | |
 
 
@@ -113,7 +112,7 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 
 | Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.10.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2.3 | 2.3 |
+| 2023 10,0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -129,28 +128,28 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Authoring
 
-- De uren van de middag worden niet geplaatst in **Datum** voor de vaststelling van basislijnen. (12712)
-- Kan de JSON-code niet plakken in het dialoogvenster `<codeblock>` -element van de webeditor. (12326)
+- De uren van de middag worden niet geplaatst in **Datum** voor de vaststelling van basislijnen. 12712
+- Kan de JSON-code niet plakken in het dialoogvenster `<codeblock>` -element van de webeditor. 12326
 - Niet-opgeslagen versiewijzigingen en de indicatoren daarvoor worden niet weergegeven voor grote bestanden. (11784)
-- Tijdens het bewerken in de Koreaanse taal verandert het eerste teken in de standaardwaarde. (10049)
+- Tijdens het bewerken in de Koreaanse taal verandert het eerste teken in de standaardwaarde. 10049
 
 
 ### Publiceren
 
-- Native PDF | De volgorde van de onderwerpen is niet vast wanneer de PDF-uitvoer wordt gegenereerd. (13157)
+- Native PDF | De volgorde van de onderwerpen is niet vast wanneer de PDF-uitvoer wordt gegenereerd. 13157
 - Native PDF| Geen standaardstijltag beschikbaar voor `<p>`element. (12559)
-- Native PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. (13510)
-- De `DeliveryTarget` attribuut wordt niet verspreid bij het produceren van de output van de Plaats van de AEM.  (13132)
-- De **Publiceren** De workflow blijft vastzitten tijdens het genereren van AEM Site-uitvoer voor inhoud met bepaalde fouten. (12000)
+- Native PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
+- De `DeliveryTarget` attribuut wordt niet verspreid bij het produceren van de output van de Plaats van de AEM.  13132
+- De **Publiceren** De workflow blijft vastzitten tijdens het genereren van AEM Site-uitvoer voor inhoud met bepaalde fouten. 12000
 
 ### Beheer
 
-- Versiehistorie wordt niet weergegeven, zelfs niet als de `dc:format` eigenschap is niet aanwezig voor een element. (10463)
+- Versiehistorie wordt niet weergegeven, zelfs niet als de `dc:format` eigenschap is niet aanwezig voor een element. 10463
 
 
 ### Controleren
 
-- In de revisie over een onderwerp worden onjuiste opmerkingen weergegeven. (13453)
+- In de revisie over een onderwerp worden onjuiste opmerkingen weergegeven. 13453
 
 
 
@@ -158,11 +157,10 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 - De basislijn die uit de **Vertaling** Het dashboard mislukt en wordt niet geopend in de doeltaal. (13466)
 
-- Er worden nieuwe vertaalprojecten gemaakt in plaats van nieuwe banen toe te voegen aan de geselecteerde bestaande vertaalprojecten.  (10214)
+- Er worden nieuwe vertaalprojecten gemaakt in plaats van nieuwe banen toe te voegen aan de geselecteerde bestaande vertaalprojecten.  10214
 
 ## Bekend probleem
 
 Adobe heeft de volgende bekende kwestie voor de release van oktober 2023 geïdentificeerd.
 
 - Opnieuw publiceren van inhoudsfragment mislukt.
-

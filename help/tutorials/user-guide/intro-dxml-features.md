@@ -1,10 +1,9 @@
 ---
 title: Belangrijke functies AEM hulplijnen
 description: Ontdek de belangrijkste functies in AEM, DITA-authoring, contentbeheer, webgebaseerde revisie, vertaling, lokalisatie, meerkanaals publiceren en integratie van FrameMaker.
-exl-id: f456741a-b504-4686-8230-64fac0ad8939
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---

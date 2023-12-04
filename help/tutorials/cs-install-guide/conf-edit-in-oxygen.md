@@ -1,13 +1,12 @@
 ---
 title: De optie configureren om te bewerken in zuurstof
 description: Leer hoe u de optie voor het bewerken van de insteekmodule Zuurstofconnector configureert.
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # De optie configureren om te bewerken in zuurstof
 
@@ -26,4 +25,3 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 > Deze configuratie wordt door gebrek onbruikbaar gemaakt en de optie is niet beschikbaar in de Redacteur van het Web.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

@@ -1,10 +1,9 @@
 ---
 title: Bestanden en mappen beheren
 description: Leer hoe u bestanden en mappen in AEM hulplijnen kunt beheren. Kopieer en plak, sleep en zet bestanden en mappen in bulk en zoek naar DITA-inhoud.
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -135,7 +134,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    >[!TIP]
    >
-   > Selecteer <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
+   > Selecteren <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
 
 
    - **Achtervoegsel toevoegen aan dubbele mappen**: Als u mappen met dezelfde naam verplaatst, moet u deze optie selecteren. In de vorige schermafbeelding bevat de opdracht **Bronpad** bevat de naam van de mappen die u wilt verplaatsen. De omslag genoemd onderwerp bestaat bij twee verschillende plaatsen — test-A en test-B. Wanneer u deze optie selecteert, worden de mappen verplaatst. De eerste verplaatste omslag zal onderwerp worden genoemd terwijl de tweede omslag topic0 zal worden genoemd. Met de verplaatsingsbewerking voegt u een achtervoegsel in de opeenvolgende reeks \(0, 1, 2, enzovoort\) toe aan de mappen met dezelfde naam.
@@ -176,7 +175,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    >[!TIP]
    >
-   > Selecteer <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
+   > Selecteren <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
 
    - **Batchgrootte**: Geef het aantal bestanden op dat u wilt verplaatsen in één batch. De standaardwaarden bij 50 bestanden.
    - **Slaapinterval**: Geef de tijd op in seconden die het proces moet wachten voordat de volgende batch wordt gestart. Tijdens dit slaaptijdinterval corrigeert het systeem de verwijzingen naar en van de verplaatste bestanden. Het standaardslaapinterval is 60 seconden.

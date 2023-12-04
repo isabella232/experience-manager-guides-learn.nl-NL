@@ -1,13 +1,12 @@
 ---
 title: Java-API's voor conversieworkflow
 description: Meer informatie over de op Java gebaseerde API's voor de conversieworkflow
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
-
 
 # Java-API&#39;s voor conversieworkflow {#id175UB30E05Z}
 
@@ -68,4 +67,3 @@ public static void convertWordToDita(Session session,
 **Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`session`|javax.jcr.Session|Een geldige JCR-sessie.| |`inputFile`|Tekenreeks|Absoluut pad van de Word-bronbestanden in AEM opslagplaats.| |`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.| |`style2tagMap`|String|Absoluut pad van het stijltoewijzingsbestand dat wordt gebruikt voor conversie.| |`createRev`|Boolean|Opgeven of een revisie van de bestanden wordt gemaakt \( `true`\) op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
 
 **Uitzondering**: Throws `RepositoryException`.
-

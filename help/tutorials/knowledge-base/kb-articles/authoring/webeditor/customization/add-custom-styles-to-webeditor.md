@@ -1,10 +1,9 @@
 ---
 title: Aangepaste stijlen toevoegen aan webeditor van hulplijnen
 description: Leer hoe u aangepaste stijlen toevoegt om de vormgeving van de gulden-webeditor te wijzigen.
-exl-id: 3a9dd701-9d9d-4d7f-bc0c-855904404fd1
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,7 @@ Laten we dit begrijpen met een voorbeeld waarin we de korte beschrijving en tite
 ## Dit implementeren
 
 
-### De aangepaste CSS toevoegen aan het mapprofiel
+### De aangepaste CSS toevoegen aan het mappenprofiel
 
 Gebruik de mapprofielen om de *css_layout.css* onder het tabblad &quot;XML Editor Configuration&quot; en voegt u de CSS met aangepaste stijlen toe
 

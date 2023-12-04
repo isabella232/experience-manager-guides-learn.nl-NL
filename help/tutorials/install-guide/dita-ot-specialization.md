@@ -1,13 +1,12 @@
 ---
 title: Aangepaste DITA-OT en DITA-specialisatie gebruiken
 description: Leer hoe u aangepaste DITA-OT- en DITA-specialisatie gebruikt
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste DITA-OT en DITA-specialisatie gebruiken {#id181GAJ0005Z}
 
@@ -29,7 +28,7 @@ Er zijn twee manieren om aangepaste insteekmodule DITA-OT te gebruiken voor publ
 
 Standaard wordt bij AEM hulplijnen een vooraf geconfigureerd profiel geleverd met de configuraties van de standaardsjablonen die kunnen worden gebruikt voor het bewerken en publiceren van inhoud. U kunt aangepaste profielen maken met aangepaste sjablonen die u kunt gebruiken tijdens het bewerken van documenten en aangepaste DITA-OT-plug-ins voor het publiceren van inhoud.
 
-Het standaard DITA-OT-pakket beschikbaar bij AEM hulplijnen wordt geleverd met Apache FOP XSL-FO-processor, die geen ondersteuning biedt voor het renderen van MathML-vergelijkingen. Als u MathML vergelijkingen in uw inhoud gebruikt, dan zorg ervoor dat u een MathML het teruggeven motorstop - binnen voor Apache FOP of gebruik een verschillende bewerker XSL-FO hebt geïntegreerd.
+Het standaard DITA-OT-pakket dat beschikbaar is bij AEM hulplijnen wordt geleverd met Apache FOP XSL-FO-processor, die geen ondersteuning biedt voor het renderen van MathML-vergelijkingen. Als u MathML vergelijkingen in uw inhoud gebruikt, dan zorg ervoor dat u een MathML het teruggeven motorstop - binnen voor Apache FOP of gebruik een verschillende bewerker XSL-FO hebt geïntegreerd.
 
 >[!IMPORTANT]
 >
@@ -61,8 +60,7 @@ Voer de volgende stappen uit om aangepaste DITA-OT-plug-in te uploaden naar de A
 
    - Voer de integrator \(om de aangepaste insteekmodule te installeren\) uit op een Mac/Linux-besturingssysteem om problemen met bestandsscheidingstekens te voorkomen - aangezien Windows en Linux-besturingssystemen verschillende bestandscheiders hebben, is de insteekmodule die is geïntegreerd in Mac/Linux OS compatibel met zowel Windows- als Linux-instellingen.
    - Zorg ervoor dat de `DITA-OT.ZIP` Het bestand bevat een map met de naam &quot;DITA-OT&quot; die alle relevante plug-ins en bestanden bevat.
-   - Controleren of `DITA-OT.ZIP` Het bestand dat u maakt, is van mimeType: &quot;nt:file&quot; \(dit komt overeen met het primaire type ZIP-bestand wanneer geüpload naar AEM\). Gebruik een WebDAV-tool of code-implementatie om dit ZIP-bestand te uploaden naar het gewenste pad in AEM. \(Gebruik AEM pakketbeheer niet om dit ZIP-bestand te implementeren, omdat dit ZIP-bestand geen pakket met AEM inhoud is, maar slechts een archiefbestand.\)
-
+   - Controleren of `DITA-OT.ZIP` Het bestand dat u maakt, is van het type mimeType: &quot;nt:file&quot; \(dit komt overeen met het primaire type ZIP-bestand bij het uploaden naar AEM\). Gebruik een WebDAV-tool of code-implementatie om dit ZIP-bestand te uploaden naar het gewenste pad in AEM. \(Gebruik AEM pakketbeheer niet om dit ZIP-bestand te implementeren, omdat dit ZIP-bestand geen pakket met AEM inhoud is, maar slechts een archiefbestand.\)
    >[!NOTE]
    >
    > Het wordt aanbevolen het standaard DITA-OT-pakket niet te overschrijven. U moet uw aangepaste DITA-OT-pakket met uw plug-in uploaden naar een andere locatie onder de `apps` map.
@@ -106,28 +104,28 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
    | **DITA-OT-eigenschappen** |
    | Tijdslimiet DITA-OT | \(*Optioneel*\) Geef de tijd op \(in seconden\) waarop AEM hulplijnen wachten op een reactie van de DITA-OT-plug-in. Als er geen reactie is ontvangen binnen de opgegeven tijd, wordt de publicatietaak beëindigd door AEM hulplijnen en wordt de taak gemarkeerd als mislukt. Ook, worden de mislukkingslogboeken ter beschikking gesteld in het dossier van het outputgeneratie. <br>Standaardwaarde: 300 seconden \(5 minuten\) |
    | DITA-OT PDF-argumenten | Geef de opdrachtregelargumenten op die door de aangepaste DITA-OT-plug-in worden verwerkt voor het genereren van de PDF-uitvoer. Geef voor alle aangepaste DITA-OT-profielen het volgende opdrachtregelargument op:`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT AEM argumenten | \(*Optioneel*\) Geef de aangepaste opdrachtregelargumenten op die door de aangepaste DITA-OT-plug-in worden verwerkt voor het genereren van de uitvoer van de AEM Site. |
+   | DITA-OT AEM Argumenten | \(*Optioneel*\) Geef de aangepaste opdrachtregelargumenten op die door de aangepaste DITA-OT-plug-in worden verwerkt voor het genereren van de uitvoer van de AEM Site. |
    | DITA-OT bibliotheekpaden | \(*Optioneel*\) Geef de extra bibliotheekpaden van de DITA-OT-plug-in op. |
    | DITA-OT XML samenstellen | \(*Optioneel*\) Geef het pad op van het aangepaste Ant-constructiescript dat is gebundeld met de aangepaste DITA-OT-plug-in. Dit pad is relatief ten opzichte van de map DITA-OT op uw bestandssysteem. |
    | DITA-OT map Ant Script | \(Optioneel\) Geef het pad op van de map DITA-OT Ant-script. Dit pad is relatief ten opzichte van de map DITA-OT op uw bestandssysteem. |
    | DITA-OT-omgevingsvariabelen | *\(Optioneel\)* Omgevingsvariabelen opgeven die aan het DITA-OT-proces moeten worden doorgegeven. Standaard voegt AEM hulplijnen vier variabelen toe: `ANT_OPTS`, `ANT_HOME`, `PATH`, en `CLASSPATH`. <br> U kunt alle bestaande systeemomgevingsvariabelen of -eigenschappen opnieuw gebruiken om nieuwe omgevingsvariabelen samen te stellen. Als u bijvoorbeeld `JAVA_HOME` systeemvariabele gedefinieerd in uw systeem en u wilt een nieuwe omgevingsvariabele definiëren met de naam `JAVA_BIN` dat is gemaakt met `JAVA_HOME`. Vervolgens kunt u de definitie van `JAVA_BIN` als:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Opmerking** U kunt ook eigenschappen van het Java-systeem gebruiken om omgevingsvariabelen te maken. Als AEM beginscript bijvoorbeeld een Java-systeemeigenschap definieert `java.io.tmpdir` aan een tijdelijke folder, kunt u dit bezit gebruiken om nieuwe variabele als te bepalen: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Belangrijk** Als u een bestaande systeemvariabele of -eigenschap opnieuw wilt gebruiken, moet deze binnen `${}`. |
    | DITA-OT-uitvoer overschrijven | *\(Optioneel\)* Als deze optie is geselecteerd, kunt u het DITA-OT-pakket opgeven dat beschikbaar is op uw lokale systeem om uitvoer te genereren met behulp van DITA-OT. Deze configuratie wordt geplaatst bij activering van ConfigManager. <br> Als u het pad wilt opgeven van een DITA-OT-pakket dat is opgeslagen op AEM server, schakelt u deze optie uit. |
    | AEM DITA-OT ZIP-pad/lokaal DITA-OT-mappad | Afhankelijk van uw selectie in Overschrijven DITA-OT Output, specificeer de volledige weg waar het douane DITA-OT.zip- dossier wordt opgeslagen. Dit zou het pad in uw AEM opslagplaats of lokaal systeem kunnen zijn. |
-   | DITA-OT plug-inpad | Pad van de aangepaste insteekmodule. Deze plug-in wordt automatisch geïntegreerd met het hoofdpakket DITA-OT. |
+   | DITA-OT plug-inpad | Pad van de aangepaste plug-in. Deze plug-in wordt automatisch geïntegreerd met het hoofdpakket DITA-OT. |
    | Catalogi integreren | \(*Optioneel*\) Pad van de aangepaste DTD- en XSD catalog.xml-bestanden in de AEM-opslagplaats. Dit moet alleen worden opgegeven wanneer de catalogi ontbreken in het DITA-OT-pakket. Deze catalogi worden automatisch als een plug-in geïntegreerd met de hoofdmap DITA-OT. |
    | Catalogus systeem-id toevoegen | \(*Optioneel*\) Selecteer deze optie alleen als er openbare-id-items ontbreken in de catalogus of als de DITA-bestanden alleen de systeem-id&#39;s gebruiken die relatief zijn ten opzichte van het serverpad vanwaar ze worden geüpload. |
    | DITA-OT tijdelijk pad | *\(Optioneel\)* Geef een tijdelijke locatie op waar DITA-bestanden worden gekopieerd voor verwerking. Voordat DITA-OT bestanden verwerkt, worden ze naar deze tijdelijke locatie gekopieerd. Standaard is de locatie voor tijdelijke opslag: <br> **Opmerking** U kunt dit pad definiëren met een bestaande systeemvariabele of -eigenschap. Zie de beschrijving van [DITA-OT-omgevingsvariabelen](#id181NH0YN0AX) eigenschap voor meer informatie. |
 
    >[!NOTE]
    >
-   >  Het installatieprogramma voor AEM hulplijnen maakt twee omgevingsvariabelen waarmee u het pad van de aangepaste DITA-OT-plug-inbestanden kunt opgeven. Deze omgevingsvariabelen zijn: DITAOT\_DIR, die het pad van de map DITA-OT op het bestandssysteem bevat; en DITAMAP\_DIR, die het pad bevat waar de DITA-kaartinhoud wordt geëxtraheerd op het bestandssysteem.
+   >  Het installatieprogramma voor AEM hulplijnen maakt twee omgevingsvariabelen waarmee u het pad van de aangepaste DITA-OT-plug-inbestanden kunt opgeven. Deze omgevingsvariabelen zijn: DITAOT\_DIR, die het pad van de map DITA-OT op het bestandssysteem bevat, en DITAMAP\_DIR, die het pad bevat waar de DITA-kaartinhoud wordt geëxtraheerd op het bestandssysteem.
 
 1. Klikken **Gereed** om het profiel op te slaan.
 
 
 >[!NOTE]
 >
-> U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere instanties van de AEM Guides om tijd te besparen. Zie voor meer informatie [Aanhangsel](appendix.md).
+> U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere instanties van de AEM Guides om tijd te besparen. Zie voor meer informatie [Bijlage](appendix.md).
 
 ## DITA-specialisatie integreren {#id211MB0E00XA}
 
@@ -177,7 +175,7 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
 
 1. In de **Schema** \> **Catalogus** instellingen, geeft u het pad op van de aangepaste DTD en XSD `catalog.xml` in uw AEM opslagplaats.
 
-1. Selecteer **Catalogus systeem-id toevoegen** optie.
+1. Selecteer de **Catalogus systeem-id toevoegen** -optie.
 
    >[!NOTE]
    >
@@ -191,4 +189,3 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
 >[!NOTE]
 >
 > U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere instanties van de AEM Guides om tijd te besparen. Zie voor meer informatie [Bijlage.md](appendix.md).
-

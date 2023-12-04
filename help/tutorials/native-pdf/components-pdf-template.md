@@ -1,10 +1,9 @@
 ---
 title: Native PDF-publicatiefunctie | Componenten van een PDF-sjabloon
 description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
-exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4947'
+source-wordcount: '4975'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,12 @@
 ---
 title: Geldige bestandsnamen voor AEM Site-uitvoer configureren
 description: Leer hoe u geldige bestandsnamen voor AEM Site-uitvoer kunt configureren
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
-
 
 # Geldige bestandsnamen voor AEM Site-uitvoer configureren {#id214GK0X0KXA}
 
@@ -20,4 +19,3 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Voeg tekens toe die u wilt vervangen door een onderstrepingsteken in de namen van de uitvoerbestanden van de AEM. <br> **Standaardwaarde**: ``'<\>\`@$`` |
 
 **Bovenliggend onderwerp:**[ Bestandsnamen configureren](conf-file-names.md)
-

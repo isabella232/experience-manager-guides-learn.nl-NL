@@ -1,17 +1,16 @@
 ---
 title: Versiebeheer
 description: Leer hoe u versies beheert
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
 
-
 # Versiebeheer {#id181GB000XY4}
 
-Versioning is een belangrijk aspect van elk contentbeheersysteem. Hiermee kunt u een momentopname van uw digitale middel op een bepaald tijdstip maken. Met een versie van een digitaal middel op zijn plaats, kunt u de vereiste versie van het middel herstellen en het bijwerken. Doorgaans kunt u voor het maken van een versie van een element het vereiste element uitchecken en inchecken.
+Versioning is een belangrijk aspect van elk contentbeheersysteem. Hiermee kunt u een momentopname van uw digitale middel op een bepaald tijdstip maken. Met een versie van een digitaal middel kunt u de vereiste versie van het middel herstellen en bijwerken. Doorgaans kunt u voor het maken van een versie van een element het vereiste element uitchecken en inchecken.
 
 Als beheerder kunt u regels afdwingen die gebruikers beperken om een bestand te bewerken zonder het uit te checken. Op dezelfde manier kunt u ervoor zorgen dat alle uitgecheckte bestanden worden ingecheckt om gegevensverlies te voorkomen.
 
@@ -31,7 +30,7 @@ Om het **Nieuwe versie maken voor geüploade bestand** voert u de volgende stapp
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `create.ver.new.content` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `create.ver.new.content` | Boolean \(true/false\).<br> **Standaardwaarde**: `true` |
 
 >[!NOTE]
 >
@@ -39,7 +38,7 @@ Om het **Nieuwe versie maken voor geüploade bestand** voert u de volgende stapp
 
 ## Instellingen configureren om het bewerken van uitgecheckte bestanden toe te staan
 
-De redacteur van het Web van Hulplijnen van de AEM staat u toe om onderwerpen te creëren en bij te werken DITA. U kunt de Redacteur van het Web vormen om het uitgeven van slechts die documenten toe te staan die uit de bewaarplaats zijn gecontroleerd. Dit zorgt ervoor dat geen andere schrijver per ongeluk een onderwerp overschrijft dat voor het uitgeven door een andere schrijver wordt geopend. Als een onderwerp eenmaal is geopend voor bewerking, kan een auteur het bestand inchecken op het moment dat het bestand wordt gesloten.
+De redacteur van het Web van Hulplijnen van de AEM staat u toe om onderwerpen te creëren en bij te werken DITA. U kunt de Redacteur van het Web vormen om het uitgeven van slechts die documenten toe te staan die uit de bewaarplaats zijn gecontroleerd. Dit zorgt ervoor dat geen andere schrijver per ongeluk een onderwerp overschrijft dat voor het uitgeven door een andere schrijver wordt geopend. Zodra een onderwerp voor het uitgeven wordt geopend, kan een auteur het dossier op het tijdstip van het sluiten van het dossier inchecken.
 
 Een andere belangrijke regel is ervoor te zorgen dat de dossiers die zijn gecontroleerd terug in het systeem worden gecontroleerd. Zo voorkomt u dat gebruikers per ongeluk de bestanden sluiten zonder ze weer in te checken.
 
@@ -47,13 +46,13 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autocheckout` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autocheckout` | Boolean \(true/false\).<br> **Standaardwaarde**: `false` |
 
 Bovendien kunt u configureren om een waarschuwingsbericht weer te geven wanneer een uitgecheckt bestand wordt gesloten zonder het op te slaan of terug te controleren in de opslagplaats.
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.checkin` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.checkin` | Boolean \(true/false\).<br> **Standaardwaarde**: `false` |
 
 >[!NOTE]
 >
@@ -73,7 +72,7 @@ Voer de volgende stappen uit om gebruikers toe te staan het uploadbestand te ove
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.confi g.ConfigManager` | `overwrite.checkout.onupload` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `false` |
+| `com.adobe.fmdita.confi g.ConfigManager` | `overwrite.checkout.onupload` | Boolean \(true/false\).<br> **Standaardwaarde**: `false` |
 
 >[!NOTE]
 >
@@ -85,7 +84,7 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.preventcheckedoutcontentdeletion` | Booleaanse waarde \(true/false\). <br> **Standaardwaarde**: `true` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.preventcheckedoutcontentdeletion` | Boolean \(true/false\). <br> **Standaardwaarde**: `true` |
 
 ## Verwijderen van bestanden waarnaar wordt verwezen voorkomen
 
@@ -106,20 +105,20 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 Afhankelijk van wie u toegang voor verwijdering wilt geven, geeft u een van de volgende constanten op:
 
-- allow\_unsafe\_delete\_for\_all: Alle gebruikers toestemming geven om bestanden te verwijderen. In dit geval kunt u dergelijke bestanden ook met kracht verwijderen als het bestand\(en\) verwijzingen bevat of door andere bestanden wordt genoemd. Voordat u het bestand verwijdert, verschijnt er een bericht met de referenties waarin u wordt gevraagd of u de verwijderbewerking wilt annuleren, de verwijzingen wilt verwijderen en vervolgens het bestand wilt verwijderen. U kunt ook het bestand of de bestanden zonder geweld verwijderen zonder de referenties te verwijderen.
+- allow\_unsafe\_delete\_for\_all: geef alle gebruikers toestemming om bestanden te verwijderen. In dit geval kunt u dergelijke bestanden ook met kracht verwijderen als het bestand\(en\) verwijzingen bevat of door andere bestanden wordt genoemd. Voordat u het bestand verwijdert, verschijnt er een bericht met de referenties waarin u wordt gevraagd of u de verwijderbewerking wilt annuleren, de verwijzingen wilt verwijderen en vervolgens het bestand wilt verwijderen. U kunt ook het bestand of de bestanden zonder geweld verwijderen zonder de referenties te verwijderen.
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group: Een beheerder of een gebruiker die bij de *delete-assets* groep mag bestanden verwijderen. Als een andere gebruiker bestanden met verwijzingen probeert te verwijderen, is het hem niet toegestaan deze bestanden te verwijderen totdat alle referenties zijn verwijderd. De volgende schermafbeelding wordt weergegeven wanneer een gebruiker die geen machtigingen heeft, bestanden probeert te verwijderen.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group: Beheerder of gebruiker die tot de *delete-assets* groep mag bestanden verwijderen. Als een andere gebruiker bestanden met verwijzingen probeert te verwijderen, is het hem niet toegestaan deze bestanden te verwijderen totdat alle referenties zijn verwijderd. De volgende schermafbeelding wordt weergegeven wanneer een gebruiker die geen machtigingen heeft, bestanden probeert te verwijderen.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
-- block\_unsafe\_delete\_for\_all: Alle gebruikers \(inclusief beheerders\) niet toestaan bestanden te verwijderen totdat de verwijzingen naar en van het bestand\(en\) zijn verwijderd.
+- block\_unsafe\_delete\_for\_all: Sta alle gebruikers \(inclusief beheerders\) niet toe bestanden te verwijderen totdat de verwijzingen naar en van het bestand\(en\) zijn verwijderd.
 
 
 ## Oudere versies van DITA-bestanden wissen
 
-Wanneer u inhoud bijwerkt en nieuwe versies maakt, blijven de vorige versies van DITA-bestanden behouden in de opslagplaats. Veel versies worden gedurende een periode gemaakt voor uw DITA-bestanden en kunnen samen een grote hoeveelheid ruimte innemen in uw opslagplaats. AEM Met hulplijnen kunt u de oudere versies configureren die uit de opslagplaats moeten worden verwijderd.
+Wanneer u inhoud bijwerkt en nieuwe versies maakt, blijven de vorige versies van DITA-bestanden behouden in de opslagplaats. Veel versies worden mogelijk gemaakt voor uw DITA-bestanden over een bepaalde periode en kunnen samen een grote hoeveelheid ruimte innemen in uw opslagplaats. AEM Met hulplijnen kunt u de oudere versies configureren die uit de opslagplaats moeten worden verwijderd.
 
 U hebt toegang tot dit hulpprogramma via de opgegeven URL als u beheerdersrechten hebt:
 
@@ -140,8 +139,8 @@ Voer de volgende stappen uit om de oudere versies leeg te maken:
    ![](assets/preview-purge-report.png)
 
 1. 
-   - **Aantal versies dat moet worden behouden vanaf de nieuwste versie**: Voer het aantal versies in dat u wilt behouden en dat u niet wilt leegmaken. Als we bijvoorbeeld 5 invoeren, blijven de laatste 5 versies behouden en worden de versies vóór die versies gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
-- **Versies behouden die zijn gemaakt binnen tijdspan \(in dagen\)**: Voer de maximumleeftijd van een versie in dagen in. De versies ouder dan het opgegeven aantal dagen zijn gekwalificeerd om te worden gezuiverd als aan andere zuiveringsvoorwaarden wordt voldaan. Als we bijvoorbeeld 100 invoeren, kunnen alle versies die vóór 100 dagen zijn gemaakt, worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
+   - **Aantal versies dat moet worden behouden vanaf de nieuwste versie**: Voer het aantal versies in dat behouden moet blijven en niet moet worden gewist. Als we bijvoorbeeld 5 invoeren, blijven de laatste 5 versies behouden en worden de versies vóór die versies gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
+- **Versies behouden die zijn gemaakt binnen tijdspan \(in dagen\)**: Voer de maximumleeftijd van een versie in dagen in. De versies ouder dan het opgegeven aantal dagen zijn gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan. Als we bijvoorbeeld 100 invoeren, kunnen alle versies die vóór 100 dagen zijn gemaakt, worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
 - **Pad**: Selecteer het pad van het bestand of de map waarvan u de bestanden wilt wissen.
 
   >[!NOTE]
@@ -169,4 +168,3 @@ Voer de volgende stappen uit om de oudere versies leeg te maken:
 >[!NOTE]
 >
 > Het rapport wordt gedownload op de volgende locatie: `/var/dxml/versionpurge`
-

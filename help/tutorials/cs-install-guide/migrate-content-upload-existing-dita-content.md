@@ -1,13 +1,12 @@
 ---
 title: Bestaande DITA-inhoud uploaden
 description: Leer hoe u bestaande DITA-inhoud kunt uploaden
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
-
 
 # Bestaande DITA-inhoud uploaden {#id176FF000JUI}
 
@@ -37,9 +36,9 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 Geef de volgende parameters op om een map te maken:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM opslagplaats. Deze gebruiker moet over de rechten voor het maken van mappen beschikken.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet over de rechten voor het maken van mappen beschikken.
 
-- `jcr:primaryType=sling:Folder`: Deze parameter opgeven *ongewijzigd* om een bron van het omslagtype te creëren.
+- `jcr:primaryType=sling:Folder`: Geef deze parameter op *ongewijzigd* om een bron van het omslagtype te creëren.
 
 - `<server folder path>`: Volledig mappad inclusief de naam van de nieuwe map die u wilt maken in de AEM. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`en vervolgens de map `AEM-Guides` wordt gemaakt in het dialoogvenster `projects` map in DAM.
 
@@ -54,11 +53,11 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Geef de volgende parameters op om een bestand te uploaden:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM opslagplaats. Deze gebruiker moet schrijfrechten hebben op de `server folder path`.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de `server folder path`.
 
 - ``local file path``: Voltooi het bestandspad op uw lokale systeem dat u wilt uploaden.
 
-- `<server folder path>`: Voltooi het mappad op de AEM server waar u het bestand wilt uploaden.
+- `<server folder path>`: Volledig mappad op de AEM server waar u het bestand wilt uploaden.
 
 
 **Metagegevens toevoegen**
@@ -71,7 +70,7 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM opslagplaats. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path``.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path``.
 
 - ``-F<attribute name>=<value>``: De `<attribute name>` is de naam van het metagegevenskenmerk, zoals `audience` en de `<value>` kan `internal`. U kunt meerdere naam-waardeparen voor kenmerken opgeven, gescheiden door spatie.
 
@@ -79,4 +78,3 @@ Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 
 
 **Bovenliggend onderwerp:**[ Bestaande inhoud migreren](migrate-content.md)
-

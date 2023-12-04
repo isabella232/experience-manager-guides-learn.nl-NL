@@ -1,10 +1,9 @@
 ---
 title: Native PDF | Productie van PDF
 description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorinstelling voor PDF-uitvoer kunt maken en genereren, tijdelijke bestanden kunt downloaden nadat u de uitvoer van eigen PDF hebt gegenereerd en taalvariabelen in AEM hulplijnen kunt gebruiken.
-exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---
@@ -120,7 +119,7 @@ Als u een variabele wilt gebruiken, moet u deze definiëren in het dialoogvenste
 Een van de metagegevenseigenschappen die bijvoorbeeld zijn gedefinieerd in de map /`jcr:content/metadata` node is
 `dc:title`. U kunt `${dc:title}`en wordt de titelwaarde gebruikt in de uiteindelijke uitvoer.
 
-U kunt een enkele of een combinatie van variabelen gebruiken om de metagegevens te definiëren. Bijvoorbeeld, `${dc:title} ${dc:docstate}`. U kunt ook de combinatie van een variabele en een tekenreeks gebruiken.  Bijvoorbeeld, `View ${dc:title} in ${dc:language}`.
+U kunt een enkele of een combinatie van variabelen gebruiken om de metagegevens te definiëren. Bijvoorbeeld: `${dc:title} ${dc:docstate}`. U kunt ook de combinatie van een variabele en een tekenreeks gebruiken.  Bijvoorbeeld: `View ${dc:title} in ${dc:language}`.
 
 Taalvariabelen gebruiken om de gelokaliseerde waarde van eigenschappen van metagegevens te definiëren. Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF. U kunt bijvoorbeeld &quot;Auteur&quot; afdrukken als de metagegevenswaarde in het Engels en &quot;Autorin&quot; in het Duits.
 

@@ -1,13 +1,12 @@
 ---
 title: '@navtitle-kenmerk standaard opnemen'
 description: Leer hoe u standaard @navtitle-kenmerk kunt opnemen
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # @navtitle-kenmerk standaard opnemen {#id2115BC0J0XA}
 
@@ -22,9 +21,9 @@ Opnemen `@navtitle` Voer standaard de volgende stappen uit in de eigenschappen v
 1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
 1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
 1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
+1. Selecteer de **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
 1. Klik op de knop **Downloaden** pictogram om het bestand ui\_config.json op uw lokale systeem te downloaden.
-1. U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden van het bestand ui\_config.json raadpleegt u [Vorm en pas de Redacteur van het Web van XML aan](conf-folder-level.md#id2065G300O5Z).
+1. U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden van het bestand ui\_config.json raadpleegt u [De XML-webeditor configureren en aanpassen](conf-folder-level.md#id2065G300O5Z).
 
 1. Zoeken naar `ditaAttributes` definitie.
 
@@ -49,7 +48,6 @@ Opnemen `@navtitle` Voer standaard de volgende stappen uit in de eigenschappen v
 1. Upload het bestand in het bijbehorende profiel \(Algemeen of Map\).
 
 
-Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart de `@navtitle` kenmerk standaard.
+Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart de `@navtitle` standaard is ingesteld.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

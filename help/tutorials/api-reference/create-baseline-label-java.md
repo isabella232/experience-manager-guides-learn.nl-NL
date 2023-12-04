@@ -1,13 +1,12 @@
 ---
 title: API's die zijn gebaseerd op Java om te werken met basislijnen en labels
 description: Meer informatie over de op Java gebaseerde API's om met basislijnen en labels te werken
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels {#id175UB30E05Z}
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **Retourneert**: De kaart met *key:value* paar `path:deletedlabels` voor alle bestanden in de basislijn.
 
 **Uitzondering**: Throws ``RepositoryException`, `VersionException`, `Exception``.
-

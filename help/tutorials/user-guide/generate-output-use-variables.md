@@ -1,8 +1,7 @@
 ---
 title: Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam
 description: Leer hoe u variabelen gebruikt voor het instellen van de opties Pad bestemming, Sitenaam of Bestandsnaam. Weet variabelen die worden ondersteund in AEM hulplijnen.
-exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

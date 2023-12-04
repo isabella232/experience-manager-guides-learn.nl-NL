@@ -1,13 +1,12 @@
 ---
 title: Zoeken naar gebruikersinterface van AEM Assets configureren
 description: Leer hoe u zoekopdrachten voor de gebruikersinterface van AEM Assets kunt configureren
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
-
 
 # Zoeken naar gebruikersinterface van AEM Assets configureren {#id192SC800MY4}
 
@@ -85,7 +84,7 @@ Voer de volgende stappen uit om toegang tot de eigenschap van het Onderzoek te v
 
    ![](assets/authors-group-permission.png)
 
-1. Selecteer **auteurs** groep.
+1. Selecteer de **auteurs** groep.
 
 1. Selecteer in het rechterdeelvenster de optie **Machtigingen** tab.
 
@@ -129,7 +128,7 @@ In het gedeelte Regelset kunt u het volgende opgeven:
 
 Een regel bestaat uit het volgende:
 
-xpath : Dit is de vraag van XPath die de elementen of de attributen van DITA- dossiers terugwint. De standaardconfiguratie voor de elementregel wint allen terug `prolog` elementen. En, wint de standaardconfiguratie voor de attributenregel alle attributen van terug `prolog` elementen. U kunt een vraag van XPath specificeren om de elementen of de attributen in series te vervaardigen die u wilt zoeken.
+xpath : Dit is de XPath-query die de elementen of kenmerken van DITA-bestanden ophaalt. De standaardconfiguratie voor de elementregel wint allen terug `prolog` elementen. En, wint de standaardconfiguratie voor de attributenregel alle attributen van terug `prolog` elementen. U kunt een vraag van XPath specificeren om de elementen of de attributen in series te vervaardigen die u wilt zoeken.
 
     De XPath-query bevat de klassenaam van het documenttype. De klasse ` topic/topic ` wordt gebruikt voor onderwerptype DITA documenten. Als u een regel wilt maken voor andere DITA-documenten, moet u de volgende klassenamen gebruiken:
     
@@ -141,19 +140,19 @@ xpath : Dit is de vraag van XPath die de elementen of de attributen van DITA- do
     |Referentie|- onderwerp/onderwerp/referentie|
     |Kaart|- kaart/kaart|
 
-tekst: Als u naar de tekst binnen het gespecificeerde element wilt zoeken, dan specificeer ja waarde. Als u &#39;nee&#39; opgeeft als waarde, worden alleen de kenmerken in het element geserialiseerd. De kenmerken waarnaar u wilt zoeken, moeten worden opgegeven in de sectie voor kenmerksets.
+text : Als u naar de tekst binnen het opgegeven element wilt zoeken, geeft u de waarde ja op. Als u geen waarde opgeeft, worden alleen de kenmerken in het element geserialiseerd. De kenmerken waarnaar u wilt zoeken, moeten worden opgegeven in de sectie voor kenmerksets.
 
-kenmerkset: Geef de id op van de kenmerkset die u aan deze regel wilt koppelen. De waarde alle-attrs is een speciaal geval om erop te wijzen dat alle attributen voor deze regel in series moeten worden vervaardigd.
+Kenmerken: geef de id op van de kenmerkset die u aan deze regel wilt koppelen. De waarde alle-attrs is een speciaal geval om erop te wijzen dat alle attributen voor deze regel in series moeten worden vervaardigd.
 
 Een kenmerkset bevat een lijst met kenmerken die u wilt zoeken binnen DITA-inhoud. De kenmerkenreeks bevat het volgende:
 
 id: Een unieke id voor de kenmerkset. Deze id wordt opgegeven in de parameter attributeset van een regelset.
 
-attribute : Een lijst met kenmerken die u wilt doorzoeken. Voor elk kenmerk moet u een afzonderlijk item maken in het dialoogvenster `attribute` element.
+kenmerk: een lijst met kenmerken die u wilt doorzoeken. Voor elk kenmerk moet u een afzonderlijk item maken in het dialoogvenster `attribute` element.
 
 Voer de volgende stappen uit om aangepaste DITA-elementen of -kenmerken toe te voegen in het bestand met zoekserienummering:
 
-1. Gebruik Pakketbeheer om het bestand /libs/fmdita/config/serializationconfig.xml te downloaden.
+1. Gebruik Package Manager om het bestand /libs/fmdita/config/serializationconfig.xml te downloaden.
 
 1. Maak een overlayknooppunt van het dialoogvenster `config` in de `apps` knooppunt.
 
@@ -176,14 +175,14 @@ Als u nieuwe bestanden maakt of een bestand bewerkt nadat u het serialisatiebest
 
 Het uitpakken van meta-gegevens uit bestaande DITA- dossiers impliceert twee taken:
 
-1. Het toelaten van de optie van de meta-gegevensextractie in configMgr
+1. De optie voor het extraheren van metagegevens inschakelen in configMgr
 1. De workflow voor het uitnemen van metagegevens uitvoeren
 
 Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de optie voor het uitnemen van metagegevens te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `dita.serialization` | Booleaanse waarde \(true/false\).<br> **Standaardwaarde**: `false` |
+| `com.adobe.fmdita.config.ConfigManager` | `dita.serialization` | Boolean \(true/false\).<br> **Standaardwaarde**: `false` |
 
 Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens uit te voeren:
 
@@ -203,7 +202,7 @@ Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens u
 
 1. Klikken **Start**.
 
-1. Klik in het dialoogvenster Metagegevens extraheren bevestigen op **OK**.
+1. Klik op **OK**.
 
 
 ## Tijdelijke bestanden uitsluiten van zoekresultaten {#id197AHI0035Z}
@@ -233,5 +232,3 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
    | Eigenschapnaam | Type | Waarde |
    |-------------|----|-----|
    | excludePaths | Tekenreeks\[\] | Voeg de volgende waarden toe aan deze eigenschap:<br> `/content/dam/projects/translation\_output` |
-
-

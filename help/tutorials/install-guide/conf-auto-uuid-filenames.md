@@ -1,13 +1,12 @@
 ---
 title: Automatische bestandsnamen configureren op basis van UUID
-description: Leer hoe te om auto-filenames te vormen die op UUID worden gebaseerd
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+description: Leer hoe u automatische bestandsnamen kunt configureren op basis van UUID
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # Automatische bestandsnamen configureren op basis van UUID {#id205QG070D5Z}
 
@@ -25,7 +24,7 @@ Voer de volgende stappen uit om automatisch de op UUID gebaseerde bestandsnaam t
 
 1. Zoeken naar en klikken op de knop *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* bundel.
 
-1. Selecteer **Systeembestandsnamen op basis van UUID gebruiken** optie.
+1. Selecteer de **Systeembestandsnamen op basis van UUID gebruiken** -optie.
 
 1. Klikken **Opslaan**.
 
@@ -35,4 +34,3 @@ Voer de volgende stappen uit om automatisch de op UUID gebaseerde bestandsnaam t
 > Deze optie is standaard uitgeschakeld. Als deze optie is ingeschakeld, zien auteurs niet de optie om de bestandsnaam op te geven tijdens het maken van een nieuw onderwerp- of kaartbestand. Een nieuw onderwerp of kaartdossier kan van de Activa UI en de Redacteur van het Web worden gecreeerd.
 
 **Bovenliggend onderwerp:**[ Bestandsnamen configureren](conf-file-names.md)
-

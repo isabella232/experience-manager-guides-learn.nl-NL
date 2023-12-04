@@ -1,10 +1,9 @@
 ---
 title: Werken met de webeditor
 description: Gestructureerde documenten maken en bewerken met de webeditor. Leer hoe u met de webeditor werkt volgens de DITA-standaarden in AEM hulplijnen.
-exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---

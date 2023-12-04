@@ -1,10 +1,9 @@
 ---
 title: Labels gebruiken
 description: Ontdek het gebruik van labels voor verschillende versies van een bestand in AEM hulplijnen. Leer hoe te om een etiket aan een versie van een onderwerp toe te voegen of te schrappen.
-exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,12 @@
 ---
 title: Vertaal in de Redacteur van het Web vormen
 description: Leer hoe te om de eigenschap van de Vertaling in de Redacteur van het Web te vormen
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Vertaal in de Redacteur van het Web vormen {#id21BONI0J0YR}
 
@@ -43,7 +42,6 @@ Als u de opdracht **Beheren** in de Redacteur van het Web, voer de volgende stap
 
 1. Upload het bijgewerkte bestand ui\_config.json.
 
-De **Beheren** is niet meer beschikbaar.
+Let erop dat de **Beheren** is niet meer beschikbaar.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

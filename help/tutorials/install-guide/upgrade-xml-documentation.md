@@ -1,10 +1,9 @@
 ---
 title: Adobe Experience Manager-hulplijnen upgraden
 description: Meer informatie over het upgraden van Adobe Experience Manager-hulplijnen
-exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4349'
+source-wordcount: '4470'
 ht-degree: 0%
 
 ---
@@ -457,7 +456,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe te
 
 - Een verzoek van een POST uitvoeren op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
+- U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
 - De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -522,7 +521,7 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 1. Terugkeren naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u dit in stap 1 hebt gewijzigd.
 
 
-4.3.1
+4.3.1.
 
 ## Upgrade naar versie 4.3.1 {#upgrade-version-4-3-1}
 

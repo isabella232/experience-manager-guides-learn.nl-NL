@@ -1,10 +1,9 @@
 ---
 title: Uitvoer van FrameMaker-documenten genereren
 description: Leer hoe u uitvoer van FrameMaker-documenten kunt genereren in AEM hulplijnen om deze te publiceren in de indeling PDF, HTML5 en EPUB.
-exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -15,7 +14,7 @@ Vanaf AEM hulplijnen 1.1 kunt u ook FrameMaker documenten \() publiceren`.book` 
 
 - PDF
 
-- HTML5
+- HTML 5
 
 - EPUB
 
@@ -31,4 +30,3 @@ De informatie in de volgende secties is voor uitgevers die de werkschema&#39;s v
 >[!IMPORTANT]
 >
 > De eigenschappen die in dit onderwerp worden beschreven zijn beschikbaar aan gebruikers met Uitgevers of beheerdervoorrechten slechts.
-

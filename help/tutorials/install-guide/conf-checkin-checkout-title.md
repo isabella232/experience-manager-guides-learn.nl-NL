@@ -1,7 +1,7 @@
 ---
 title: Titel configureren voor inchecken en uitchecken van pictogrammen
 description: Leer hoe u de titel voor de pictogrammen Inchecken en Uitchecken configureert
-source-git-commit: bb4b875864b31197437a944ded5862bbf937bc29
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -29,4 +29,3 @@ Met AEM hulplijnen kunt u de titel configureren voor de pictogrammen Inchecken e
    ```
 
 1. Sla het bestand op en upload het.
-

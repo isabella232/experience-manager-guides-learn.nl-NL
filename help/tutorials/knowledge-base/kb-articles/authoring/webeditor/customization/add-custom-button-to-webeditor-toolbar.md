@@ -1,10 +1,9 @@
 ---
 title: Nieuwe aangepaste actieknop toevoegen op de werkbalk Webeditor
 description: Leer hoe u een nieuwe aangepaste knop toevoegt op de werkbalk voor spetters en javascript aanroept om deze aan te passen.
-exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Het toevoegen van een actioneerbare knoop aan webeditor omvat het volgende stapp
 
 ## Implementeren door een voorbeeld te nemen
 
-Laten we dit begrijpen met een voorbeeld waarin een auteur een jira-verwijzing wil toevoegen aan een sectie met een onderwerpenproloog. De proloog sectie met ingebedde jira verwijzing-identiteitskaart kan als hieronder kijken:
+Laten we dit begrijpen met een voorbeeld waarin een auteur een jira-verwijzing wil toevoegen aan een sectie met een onderwerp-proloog. De proloog sectie met ingebedde jira verwijzing-identiteitskaart kan als hieronder kijken:
 
 ![Prologsectie met verwijzing naar JIRA-id](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
@@ -60,11 +59,11 @@ Gebruik de mapprofielen om de *ui_config.json* onder het tabblad &quot;XML Edito
 
 ### De klikgebeurtenis voor de nieuwe knop afhandelen
 
-    OPMERKING: De hieronder vermelde stappen zijn beschikbaar als pakket in dit bericht
+    OPMERKING: de hieronder vermelde stappen zijn beschikbaar als pakket dat in dit bericht is bijgevoegd
 
 
 - Nadat u het mapprofiel hebt opgeslagen, maakt u een &quot;cq:ClientLibraryFolder&quot; onder een projectmap (mogelijk onder */apps*) en voegt eigenschappen toe, zoals in de onderstaande schermafbeelding wordt getoond:
-   ![Instellingen voor clientbibliotheek voor webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![Instellingen voor clientbibliotheek voor webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
@@ -72,7 +71,7 @@ You may use different library of your choice.
 ```
 
 - Maak onder deze clientbibliotheekmap twee bestanden, zoals hieronder wordt vermeld:
-   - *overrides.js*: die de javascript-code heeft voor het afhandelen van de klikgebeurtenis voor &quot;insertJIRARef&quot; (gebruik het bijgevoegde pakket om de inhoud van dit JavaScript op te halen).
+   - *overrides.js*: deze bevat de javascript-code voor het afhandelen van de klikgebeurtenis voor &quot;insertJIRARef&quot; (gebruik het bijgevoegde pakket voor het ophalen van de inhoud van dit JavaScript)
    - *js.txt*: die de eigenschap &quot;overrides.js&quot; bevat om dit javascript in te schakelen
 
 - Sla de wijzigingen op en u bent klaar om deze te testen.
@@ -81,9 +80,9 @@ You may use different library of your choice.
 ### Testen
 
 - Webeditor openen
-- Kies uit gebruikersvoorkeuren het mapprofiel waarin u de aangepaste *ui_config.json*. Als u het aan het Globale profiel toevoegt, dan gebruikt u waarschijnlijk reeds dat.
+- Kies in de gebruikersvoorkeuren het mapprofiel waarin u de aangepaste *ui_config.json*. Als u het aan het Globale profiel toevoegt, dan gebruikt u waarschijnlijk reeds dat.
 - Open een onderwerp, u zult merken dat de toolbar een nieuwe knoop &quot;de Verwijzing van Jira van het Tussenvoegsel&quot;heeft
-- Vervolgens kunt u de sectie Prolog toevoegen zoals hieronder aan het onderwerp wordt gegeven en vervolgens klikken in de knop &quot;Jira-verwijzing invoegen&quot; in het prologelement &quot;change-request-reference&quot;
+- Vervolgens kunt u de sectie prolog toevoegen zoals hieronder aan het onderwerp wordt gegeven en vervolgens klikken in de knop Jira-verwijzing invoegen in het prologelement &quot;change-request-reference&quot;
 
 ```
 <prolog>

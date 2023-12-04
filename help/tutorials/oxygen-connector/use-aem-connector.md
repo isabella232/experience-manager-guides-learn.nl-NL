@@ -3,14 +3,12 @@ title: Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen
 description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulplijnen kunt gebruiken om uw inhoud te maken en te beheren.
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen {#id1645H6010Q5}
 
@@ -467,7 +465,7 @@ Wanneer u in meerdere mappen werkt, is het niet eenvoudig om te bepalen hoeveel 
 
 1. Klik met de rechtermuisknop op een bestand in deze weergave voor de volgende opties:
 
-   - [Open](#id195GH0V30KX)
+   - [Openen](#id195GH0V30KX)
    - [Openen in](#id195GH0V30KX)
    - Uitchecken annuleren
    - [Inchecken](#id182CF0J0FHS)
@@ -749,5 +747,3 @@ Oplossing: voer de volgende stappen uit om registreerapparaten voor Sygen en JxB
 
 
 Met de vorige stappen worden de logbestanden ingeschakeld en kunt u deze gebruiken om fouten op te sporen.
-
-

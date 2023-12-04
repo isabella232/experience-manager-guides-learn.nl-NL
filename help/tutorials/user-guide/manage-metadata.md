@@ -1,8 +1,7 @@
 ---
 title: Metagegevens beheren
 description: Leer metagegevens definiëren en beheren in AEM hulplijnen. Gebruik slimme tags en bulksgewijze tags om gemakkelijk verwante onderwerpen in een DITA-kaart te zoeken.
-exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%

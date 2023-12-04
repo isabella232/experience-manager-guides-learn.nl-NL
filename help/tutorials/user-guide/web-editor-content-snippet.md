@@ -1,10 +1,9 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Gebruik gegevens uit uw gegevensbron in AEM hulplijnen. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2066'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Selecteren **Gegevensbronnen** ![](images/data-source-icon.svg) in het linkerpan
 Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 
 <details>
-<summary> Cloud Services </summary>
+<summary> Cloud Servicen </summary>
 
 
 - Leer hoe u de release van oktober 2023 of hoger gebruikt [vormt een gegevensbronschakelaar van het gebruikersinterface](../cs-install-guide/conf-data-source-connector-tools.md) in de Installatie- en configuratiehandleiding van Cloud Servicen.

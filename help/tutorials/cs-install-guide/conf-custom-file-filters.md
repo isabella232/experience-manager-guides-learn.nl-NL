@@ -1,15 +1,14 @@
 ---
-title: Filters configureren voor het dialoogvenster Bladeren van bestanden
+title: Filters configureren voor het dialoogvenster Bladeren
 description: Leer hoe u filters voor bladeren door bestanden kunt configureren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
-
-# Filters configureren voor het dialoogvenster Bladeren van bestanden {#id20CIL7009GN}
+# Filters configureren voor het dialoogvenster Bladeren {#id20CIL7009GN}
 
 Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden gebruiken om elementen in te voegen, zoals een afbeelding, verwijzing of een toetsverwijzing. Het standaarddialoogvenster voor bladeren naar bestanden biedt geen filteroptie. U kunt uw eigen filters toevoegen waarmee u de vereiste bestanden snel en gemakkelijk kunt openen.
 
@@ -20,7 +19,7 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
 1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
 1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
 1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
+1. Selecteer de **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
 1. Klik op de knop **Downloaden** pictogram om het bestand ui\_config.json op uw lokale systeem te downloaden. Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
 1. In de `ui_config.json` voegt u de definitie toe van de filters die u wilt toevoegen.
 
@@ -47,11 +46,11 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
 
    In het bovenstaande codefragment is het eerste filter voor DITA-bestanden. De filterdefinitie heeft de volgende parameters:
 
-   titel: De weergavenaam van het filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
+   title: De weergavenaam van het filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
 
-   eigenschap: De eigenschap die moet overeenkomen met de metagegevens van het bestand. Als u bijvoorbeeld alleen de bestanden wilt toestaan die de `dita_class` metagegevens in de eigenschap, neemt het eigenschapfilter &quot; `jcr:content/metadata/dita_class`&quot; als waarde.
+   eigenschap: de eigenschap die moet overeenkomen met de metagegevens van het bestand. Als u bijvoorbeeld alleen de bestanden wilt toestaan die de `dita_class` metagegevens in de eigenschap, neemt het eigenschapfilter &quot; `jcr:content/metadata/dita_class`&quot; als waarde.
 
-   operation: Opgeven &quot; `exists`&quot; om overeen te komen met het bestaan van de waarde die is opgegeven in de parameter property.
+   operation : Specify &quot; `exists`&quot; om overeen te komen met het bestaan van de waarde die is opgegeven in de parameter property.
 
    Het tweede filter is voor de Dossiers van het Beeld. De parameters zijn vergelijkbaar met het eerste filter, behalve `value` parameter. De `value` parameter neemt een array van afbeeldingstypen als waarde. Alle bestandstypen die in de parameter value zijn opgegeven, worden doorzocht en weergegeven in het bladerdialoogvenster. Alle andere bestandstypen worden genegeerd.
 
@@ -63,4 +62,3 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

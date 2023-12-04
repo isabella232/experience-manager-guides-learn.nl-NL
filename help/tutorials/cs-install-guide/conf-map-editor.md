@@ -1,13 +1,12 @@
 ---
 title: De Geavanceerde Kaarteditor instellen als standaard
 description: Leer hoe u de Geavanceerde Kaarteditor instelt als standaard
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # De Geavanceerde Kaarteditor instellen als standaard {#id181AI0003PN}
 
@@ -19,11 +18,10 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ``fmdita.hide.oldmapeditor`` | Booleaanse waarde \(true/false\). Als u de Geavanceerde Redacteur van de Kaart door gebrek wilt gebruiken, dan plaats dit bezit aan waar.<br> **Standaardwaarde**: false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ``fmdita.hide.oldmapeditor`` | Boolean \(true/false\). Als u de Geavanceerde Redacteur van de Kaart door gebrek wilt gebruiken, dan plaats dit bezit aan waar.<br> **Standaardwaarde**: false |
 
 >[!NOTE]
 >
 > Wanneer een auteur een kaartbestand maakt en ervoor kiest dit te openen om te bewerken, wordt standaard de Basic Map Editor gestart. Wanneer de optie Bewerken is geselecteerd voor een kaartbestand in de interface Elementen, wordt deze ook geopend in de basiskaarteditor.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

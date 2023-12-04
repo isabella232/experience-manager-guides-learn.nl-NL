@@ -1,13 +1,12 @@
 ---
 title: Eén onderwerp PDF genereren
 description: Leer hoe te om enige onderwerpgeneratie te vormen PDF
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Eén onderwerp PDF genereren {#id22ADC70M0XA}
 
@@ -24,7 +23,7 @@ Om de oude generatie van PDF via DITA-OT van de wijze van de onderwerpvoorproef 
 1. Klik hiertoe bovenaan op de Adobe Experience Manager-koppeling en kies **Gereedschappen**.
 1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
 1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
+1. Selecteer de **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
 1. Klik op de knop **Downloaden** pictogram om het bestand ui\_config.json op uw lokale systeem te downloaden. Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
 1. In de `ui_config.json` bestand, zoek de volgende configuratie:
 
@@ -57,4 +56,3 @@ Om de oude generatie van PDF via DITA-OT van de wijze van de onderwerpvoorproef 
 Na het uitvoeren van de bovengenoemde stappen, als u het zelfde omslagprofiel van de Voorkeur van de Gebruiker in de Redacteur van het Web kiest, zult u dan de optie voor de generatie van PDF op de voorproefwijze van een onderwerp zien.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

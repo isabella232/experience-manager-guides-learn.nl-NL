@@ -1,13 +1,12 @@
 ---
 title: Inhoud vertalen
 description: Leer hoe u inhoud kunt vertalen
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud vertalen {#id181GB0400UI}
 
@@ -82,4 +81,3 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleaans: <br> - Als u de naverwerkingsbewerking niet wilt uitvoeren op de tijdelijke bestanden, *Uitschakelen* \( false\) de **Na het proces gemaakte taalkopieën** -optie.<br> - Als u de naverwerkingsbewerking wilt uitvoeren op de tijdelijke bestanden, *Inschakelen* \( true\) de **Na het proces gemaakte taalkopieën** -optie.<br> **Standaardwaarde**: false |
-

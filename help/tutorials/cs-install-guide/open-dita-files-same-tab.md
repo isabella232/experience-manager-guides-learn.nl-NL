@@ -1,13 +1,12 @@
 ---
 title: DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad
 description: Leer hoe u DITA-onderwerp of toewijzingsbestanden op hetzelfde tabblad opent
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad {#id223HH0301J3}
 
@@ -17,7 +16,7 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Booleaanse waarde \(true/false\). <br> **Standaardwaarde**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Boolean \(true/false\). <br> **Standaardwaarde**: `false` |
 
 Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijgen tot het onderwerp- of kaartbestand:
 
@@ -33,4 +32,3 @@ Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijg
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

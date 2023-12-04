@@ -1,13 +1,12 @@
 ---
 title: Java-API voor het maken en activeren van pakketten
 description: Meer informatie over de Java-API voor het maken en activeren van pakketten
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # Java-API voor het maken en activeren van pakketten {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ De voorbeeld-JSON-query bestaat uit de volgende regels:
 - Alleen de .png-, .jpg- en .gif-afbeeldingen onder /content/dam/nested pad worden in het pakket opgenomen.
 - Alle knooppunten onder /content/output/sites/shiërarchie\_ditamap worden opgenomen in het pakket.
 - De paden in het dialoogvenster `fileReference` eigenschap van knooppunten onder /content/output/sites/shiërarchie\_ditamap wordt opgenomen in het pakket.
-

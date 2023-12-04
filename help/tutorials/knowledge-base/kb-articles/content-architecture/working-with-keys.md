@@ -2,10 +2,9 @@
 title: Werken met toetsen
 description: Hoe te om sleutels tot stand te brengen die over organisatie inhoud moeten worden gebruikt
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 Organisaties dienen toetsen te gebruiken in gevallen waarin ze herbruikbare en gangbare tekst hebben, zoals productnaam of producttoonhoogte, die op veel plaatsen wordt gebruikt maar waarvan het risico groot is dat deze wordt gewijzigd. Met de toetsen voor herbruikbare tekst kunt u een update op meerdere plaatsen uitvoeren door de wijziging op één locatie aan te brengen, bijvoorbeeld in de sleutelwaarde.
 
-## Stap 1: Een algemene kaart maken om uw sleutels op te slaan
+## Stap 1: Maak een algemene kaart voor het opslaan van uw sleutels
 
 Een kaart maken en de [!UICONTROL keyref] -element.
 
@@ -52,12 +51,12 @@ Hier hebt u twee definities gedefinieerd, zoals hierboven is weergegeven, op bas
 </map>
 ```
 
-## Stap 3: Gebruik de toetsen om te verwijzen naar de variabelen die zijn gedefinieerd in de algemene hoofdmap
+## Stap 3: Gebruik de sleutels om naar de variabelen te verwijzen die in de globale belangrijkste kaart worden bepaald
 
 + Bewerk het onderwerp en voeg de hoofdwaarde toe met de opdracht [!UICONTROL keyref].
 + Zoals getoond in het schermafbeelding, zal een klein venster verschijnen van waar de sleutelwoorden kunnen worden gekozen. Dit wordt weergegeven wanneer u het element &quot;trefwoord&quot; toevoegt.
-   ![Element invoegen](assets/insert_element.png)
-   ![Sleutelverwijzing](assets/key_ref.png)
+  ![Element invoegen](assets/insert_element.png)
+  ![Sleutelverwijzing](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

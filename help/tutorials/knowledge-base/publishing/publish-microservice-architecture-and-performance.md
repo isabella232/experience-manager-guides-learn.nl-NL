@@ -1,8 +1,7 @@
 ---
 title: Cloud Publishing Microservice-architectuur en -prestaties
 description: Begrijp hoe de nieuwe microservice schaalbare publicatie op AEMaaCS mogelijk maakt.
-exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%

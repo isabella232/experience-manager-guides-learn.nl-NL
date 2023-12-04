@@ -1,13 +1,12 @@
 ---
 title: REST API's voor uitvoerbeheer
 description: Meer informatie over REST API's voor uitvoerbeheer
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # REST API&#39;s voor uitvoerbeheer {#id175UB30E05Z}
 
@@ -134,4 +133,3 @@ Een POST-methode waarmee een uitvoervoorinstelling wordt verwijderd.
 **Parameters**: |Naam|Type|Vereist|Beschrijving| |—|—|—|—| |`:operation`|String|Ja|Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is `deleteoutput`.<br> **Opmerking:** De waarde is niet hoofdlettergevoelig.| |`sourcePath`|Tekenreeks|Ja|Absoluut pad van het DITA-kaartbestand.| |`outputName`|Tekenreeks|Ja|Naam van de uitvoervoorinstelling die moet worden verwijderd.|
 
 **Responswaarden**: Retourneert een HTTP 200 \(Successful\) reactie.
-

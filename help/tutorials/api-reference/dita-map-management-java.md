@@ -1,13 +1,12 @@
 ---
 title: API's die zijn gebaseerd op Java om te werken met DITA-kaarten
 description: Meer informatie over de op Java gebaseerde API's voor werken met DITA-kaarten
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
-
 
 # API&#39;s die zijn gebaseerd op Java om te werken met DITA-kaarten {#id175UB30E05Z}
 
@@ -154,4 +153,3 @@ public static List
 **Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`rootNode`|javax.jcr.Node|Het basisknooppunt waarvoor alle afhankelijkheden moeten worden opgehaald.|
 
 **Retourneert**: Een knooppuntlijst die alle gebiedsdelen van de wortelknoop bevat.
-

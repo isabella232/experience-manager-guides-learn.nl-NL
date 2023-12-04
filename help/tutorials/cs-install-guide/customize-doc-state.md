@@ -1,17 +1,16 @@
 ---
 title: Documentstatussen configureren
 description: Leer hoe u documentstatussen kunt configureren
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
-
 # Documentstatussen configureren {#id181GB0400UI}
 
-AEM de Gidsen laat u de documentstaten voor uw onderwerpen DITA volgens de vereisten van uw organisatie bepalen. U kunt verschillende statussen van het document definiëren, van het begin tot het einde. De eerste status kan bijvoorbeeld Concept zijn en worden verplaatst naar Revisie, Goedgekeurd, Vertaald en tot slot naar Gepubliceerd.
+AEM de Gidsen laat u de documentstaten voor uw onderwerpen DITA volgens de vereisten van uw organisatie bepalen. U kunt verschillende statussen van het document definiëren, van het begin tot het einde. De eerste status kan bijvoorbeeld Concept zijn en naar Revisie, Goedgekeurd, Vertaald en tot slot naar Gepubliceerd worden verplaatst.
 
 Er zijn twee manieren waarop een onderwerp van één staat aan een andere kan overgaan - handboek en automatisch. De documentstatussen die in een profiel zijn gedefinieerd, kunnen worden gebruikt voor het handmatig wijzigen van de documentstatus. Dit kan van de pagina van Eigenschappen van een onderwerpdossier worden gedaan. U kunt ook bepalen wie het document van het ene naar het andere frame kan verplaatsen. Een auteur kan bijvoorbeeld een document maken en de standaardstatus van het document kan Concept zijn. Wanneer de auteur het document ter controle verzendt, kan hij de documentstatus wijzigen in In-Review. De controleur kan de documentstatus wijzigen in Goedgekeurd of in Concept op basis van het revisieproces. Als het document is goedgekeurd, kan de uitgever de documentstatus wijzigen in Vertaald of Gepubliceerd, afhankelijk van de workflow.
 
@@ -88,7 +87,7 @@ Voer de volgende stappen uit om een kopie van een documentstatusprofiel te maken
 
 >[!NOTE]
 >
-> Verwijder geen documentstatus of statusovergang als de documenten zich nog in de status of in een statusovergang bevinden. Als u een staat of een staatsovergang schrapt, zult u niet de documentstaat van dergelijke documenten kunnen veranderen tenzij u tot het behoort *beheerder* gebruikersgroep.
+> Verwijder een documentstatus of statusovergang niet als de documenten zich nog in de status of in een statusovergang bevinden. Als u een staat of een staatsovergang schrapt, zult u niet de documentstaat van dergelijke documenten kunnen veranderen tenzij u tot het behoort *beheerder* gebruikersgroep.
 
 Voer de volgende stappen uit om een documentstatus of statusovergang te verwijderen uit een documentstatusprofiel:
 
@@ -144,7 +143,7 @@ Als u de documentstatus niet handmatig wilt wijzigen, kunt u een workflow maken 
 
 1. In de **Proces** vervolgkeuzelijst, selecteert u **Documentstatus instellen voor elk DAM-element**.
 
-1. Selecteer **Handler Advance** optie.
+1. Selecteer de **Handler Advance** -optie.
 
    ![](assets/update-workflow-doc-state_cs.png)
 
@@ -166,7 +165,7 @@ AEM hulplijnen bieden een workflow voor documentgoedkeuring waarmee u de levensc
 1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
 1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
 1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
+1. Selecteer de **XML Editor-configuratie** en klik op **Bewerken** pictogram bovenaan
 1. Klik op de knop **Downloaden** pictogram om het bestand ui\_config.json op uw lokale systeem te downloaden. Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
 1. In de `ui_config.json` bestand, schakelt u de functie voor de goedkeuringswerkstroom in door het *functies* hieronder weergegeven:
 
@@ -178,4 +177,3 @@ AEM hulplijnen bieden een workflow voor documentgoedkeuring waarmee u de levensc
    ```
 
 1. Sla het bestand op en upload het.
-

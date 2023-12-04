@@ -1,13 +1,12 @@
 ---
 title: Over deze handleiding
 description: Meer informatie over deze handleiding
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
-
 
 # Over deze handleiding {#id175MC0P0S5Z}
 
@@ -22,11 +21,11 @@ Deze handleiding is bedoeld voor het volgende type publiek:
 - Uitgevers, die de publicatietaak zouden uitvoeren om uitvoer in verschillende indelingen te genereren.
 
 
-## Inhoudsstructuur
+## Inhoudstructuur
 
 De informatie in deze handleiding is als volgt geordend:
 
-- [Over deze handleiding](#id175MC0P0S5Z): Dit onderwerp verstrekt een inleiding aan deze gids, voorgenomen publiek, en hoe de informatie in deze gids wordt georganiseerd.
+- [Over deze handleiding](#id175MC0P0S5Z): Dit onderwerp biedt een inleiding tot deze handleiding, het beoogde publiek en de manier waarop de informatie in deze handleiding is georganiseerd.
 
 - [Downloaden en installeren](download-install.md#): In dit onderwerp wordt beschreven hoe u AEM hulplijnen kunt downloaden, installeren of upgraden.
 
@@ -36,9 +35,9 @@ De informatie in deze handleiding is als volgt geordend:
 
 - [Documentstatussen configureren](customize-doc-state.md#): Dit onderwerp verklaart hoe te om douanestatus voor uw documenten te vormen DITA.
 
-- [Bestaande inhoud migreren](migrate-content.md#): In dit onderwerp wordt beschreven hoe u uw bestaande inhoud in AEM opslagplaats kunt inbouwen.
+- [Bestaande inhoud migreren](migrate-content.md#): In dit onderwerp wordt beschreven hoe u uw bestaande inhoud in AEM opslagplaats aan boord kunt nemen.
 
-- [Bestandsnamen configureren](conf-file-names.md#): Dit onderwerp verklaart hoe te om het plaatsen te vormen om dossiernamen automatisch toe te wijzen en regex voor geldige dossier - naamkarakters te bepalen.
+- [Bestandsnamen configureren](conf-file-names.md#): In dit onderwerp wordt uitgelegd hoe u instellingen configureert om automatisch bestandsnamen toe te wijzen en regex te definiëren voor geldige bestandsnaamtekens.
 
 - [Onderwerp- en kaartsjablonen configureren](conf-template-tags.md#): Dit onderwerp beschrijft hoe te om onderwerp en kaartmalplaatjes te vormen om aan uw auteursbehoeften te voldoen. Leer over het etiketteren van systeem in AEM en hoe te om markeringen te vormen om met AEM Gidsen te werken.
 
@@ -46,9 +45,9 @@ De informatie in deze handleiding is als volgt geordend:
 
 - [De Geavanceerde Kaarteditor instellen als standaard](conf-map-editor.md#id194GHE0I0CW): Dit onderwerp verklaart hoe te om de Geavanceerde Redacteur van de Kaart als standaardredacteur voor kaartdossiers te vormen.
 
-- [@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md#): Dit onderwerp verklaart hoe te om toe te voegen `@navtitle` standaard verwijzen naar een referentiebestand in een kaart.
+- [@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md#): In dit onderwerp wordt uitgelegd hoe u het dialoogvenster `@navtitle` standaard verwijzen naar een referentiebestand in een kaart.
 
-- [Profielen op algemeen niveau of mapniveau configureren](conf-folder-level.md#): In dit onderwerp wordt het maken van mapprofielen en het geven van machtigingen aan specifieke gebruikers uitgelegd.
+- [Profielen op algemeen niveau of mapniveau configureren](conf-folder-level.md#): In dit onderwerp wordt uitgelegd hoe u mapprofielen maakt en machtigingen geeft aan specifieke gebruikers.
 
 - [Versiebeheer](version-management.md#): Dit onderwerp beschrijft hoe te om automatische dossiercontrole voor dossiers te vormen die voor het uitgeven in de Redacteur van het Web worden geopend.
 
@@ -71,4 +70,3 @@ Hier volgt een lijst met andere nuttige bronnen van AEM hulplijnen, die beschikb
 - API-naslaggids
 - Handleiding voor snel starten
 - [Help-archiveringspagina](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(toegang tot oudere releasedocumentatie\)
-

@@ -1,10 +1,9 @@
 ---
 title: Inhoud beheren met behulp van basislijnen
 description: Leer hoe u basislijnen kunt gebruiken om uw inhoud effectief te beheren.
-exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -26,13 +25,13 @@ In deze sessie leert u hoe u basislijnen kunt gebruiken om uw inhoud effectief t
 - **Datum** - 8 december 2022
 - **Aantal deelnemers** - 64
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adobe-medewerkers
+- **Publiek** - Klanten, partners en Adoben
 
 ## Toetsen
 
 In deze sessie leert u over het volgende:
 - Verschillende basislijnbewerkingen in AEM hulplijnen
-- Downloaden, publiceren en vertalen met behulp van een basislijn
+- Downloaden, publiceren en vertalen met een basislijn
 - Aanbevolen procedures voor het gebruik van een basislijn
 - Maak een blik op een nieuwe aanstaande functie, **Dynamische basislijnen maken**
 
@@ -48,8 +47,7 @@ In deze sessie leert u over het volgende:
 >
 >De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
 > - On-prem 4.1 en hoger
-> - Cloud Services 2211 en hoger
-
+> - Cloud Servicen 2211 en hoger
 
 ## Contact opnemen
 

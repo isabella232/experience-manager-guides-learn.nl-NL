@@ -1,13 +1,12 @@
 ---
 title: Dispatcher configureren
 description: Leer hoe u Dispatcher configureert
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 10%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
-
 
 # Dispatcher configureren {#id213BCM0M05U}
 
@@ -21,4 +20,3 @@ Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewe
 > AEM als cloudservice biedt geen ondersteuning voor dispatcher voor bijvoorbeeld auteurs.
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
-

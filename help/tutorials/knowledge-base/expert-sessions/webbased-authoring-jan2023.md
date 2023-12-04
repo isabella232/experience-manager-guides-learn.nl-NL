@@ -1,10 +1,9 @@
 ---
 title: Webinhoud van auteur
 description: Leer hoe u gestructureerde inhoud ontwerpt met de webeditor.
-exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ In deze sessie leert u met de webeditor inhoud maken, publiceren en beheren.
 - **Datum** - 19 januari 2023
 - **Aantal deelnemers** - 89
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adobe-medewerkers
+- **Publiek** - Klanten, partners en Adoben
 
 ## Toetsen
 
@@ -48,8 +47,7 @@ In deze sessie leert u over het volgende:
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
 > - On-prem 4.1.3 of hoger
-> - Cloud Services 2211 en hoger
-
+> - Cloud Servicen 2211 en hoger
 
 ## Contact opnemen
 

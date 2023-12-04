@@ -1,11 +1,10 @@
 ---
 title: Opmerkingen bij de release [!DNL AEM Guides], release februari 2022
 description: Release van februari [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 2%
+source-wordcount: '974'
+ht-degree: 0%
 
 ---
 
@@ -13,28 +12,28 @@ ht-degree: 2%
 
 ## Upgrade naar de release van februari
 
-Upgrade uw huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service (later aangeduid als [!DNL AEM Guides] as a Cloud Service) opstelling door de volgende stappen uit te voeren:
-1. Controle uit de Cloud Services Gespitcode en schakelaar aan de tak die in de Cloud Services wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Services Git-code naar 2022.2.114.
-1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van februari van [!DNL AEM Guides] as a Cloud Service.
+Upgrade uw huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service (later [!DNL AEM Guides] as a Cloud Service) opstelling door de volgende stappen uit te voeren:
+1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
+1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen: ga naar 2022.2.114.
+1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van februari van [!DNL AEM Guides] as a Cloud Service.
 
 ## Compatibiliteitsmatrix
 
 In deze sectie wordt de compatibiliteitsmatrix weergegeven voor de softwaretoepassingen die worden ondersteund door [!DNL AEM Guides] as a Cloud Service release februari 2022.
 
-### FrameMaker en het Publiceren FrameMaker Server
+### FrameMaker en FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Niet compatibel | 2020-update 4 en hoger |
-|  |  |
+| | |
 
 
 ### Zuurstofaansluiting
 
 | [!DNL AEM Guides] Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac |
 | --- | --- | --- |
-| 2022.2.0 | 2.4.0 | 2.4.0 |
+| 2022,2,0 | 2.4.0. | 2.4.0. |
 |  |  |  |
 
 
@@ -76,7 +75,7 @@ Zie voor meer informatie *Bestanden sluiten en scenario&#39;s opslaan* in de geb
 
 Wanneer u selecteert om de kaart te downloaden DITA, wordt het verzoek een rij gevormd, en u ontvangt een bericht zodra de kaart klaar is om te downloaden. U kunt ervoor kiezen het kaartbestand direct te downloaden of later te downloaden via de koppeling in het AEM-meldingsvak.
 
-![Map downloaden](assets/download-map-prompt.png)
+![Kaartdownload](assets/download-map-prompt.png)
 
 ### Controleren
 
@@ -88,34 +87,34 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Op artikel gebaseerde publicatie
 
-* Publiceren op basis van artikelen publiceert geen artikelen op basis van de geselecteerde basislijn. (8771)
+* Publiceren op basis van artikelen publiceert geen artikelen op basis van de geselecteerde basislijn. 8771
 * DITAVAL-bestanden worden niet ondersteund in publicaties op basis van artikelen. (8770)
 * Kan op artikelen gebaseerde publicaties voor het Salesforce-profiel niet uitvoeren als het recordtype FAQ is en de inhoud van het artikelveld Vraag is. (8448)
-* Kan op artikel gebaseerde publicaties voor Salesforce-profiel niet uitvoeren als het recordtype Handmatig is. (8447)
+* Kan op artikel gebaseerde publicaties voor Salesforce-profiel niet uitvoeren als het recordtype Handmatig is. 8447
 
 ### Webeditor
 
-* Het slepen en neerzetten van een voorwaarde werkt niet bij DITA-onderwerpen. (8761)
-* Kenmerken ontbreken bij het toevoegen van een hoofdstuk aan een bladwijzer met behulp van slepen en neerzetten in de weergave Favorieten. (8746)
-* Als u de eigenschappen van een afbeelding (hoogte, breedte) bewerkt, treedt er een toepassingsfout op. (8722)
-* verbroken koppelingen worden niet weergegeven in het deelvenster Overzicht in de bronweergave. (8590)
-* De Redacteur van XML verwijdert nieuwe lijnmarkering in codeblock. (8522)
-* Glossusage wordt getoond als Nota wanneer een ingang van de Verklarende woordenlijst wordt geschreven. (8384)
-* xref kan zelfs op geldige locaties niet worden ingevoegd. (8354)
-* De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. (7913)
-* De lijst met kaartsjablonen in **Maken** option() in het deelvenster Opslagplaats is niet ingesteld op de **Mapprofiel** in Gebruikersvoorkeuren. (5918)
-* Element-id&#39;s worden niet automatisch gegenereerd voor elementen die worden toegevoegd met de functie Inhoud hergebruiken van de hoofdwerkbalk. (5826)
+* Het slepen en neerzetten van een voorwaarde werkt niet bij DITA-onderwerpen. 8761
+* Kenmerken ontbreken bij het toevoegen van een hoofdstuk aan een bladwijzer met behulp van slepen en neerzetten in de weergave Favorieten. 8746
+* Als u de eigenschappen van een afbeelding (hoogte, breedte) bewerkt, treedt er een toepassingsfout op. 8722
+* verbroken koppelingen worden niet weergegeven in het deelvenster Overzicht in de bronweergave. 8590
+* De Redacteur van XML verwijdert nieuwe lijnmarkering in codeblock. 8522
+* Glossusage wordt getoond als Nota wanneer een ingang van de Verklarende woordenlijst wordt geschreven. 8384
+* xref kan zelfs op geldige locaties niet worden ingevoegd. 8354
+* De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. 7913
+* De lijst met kaartsjablonen in **Maken** option() in het deelvenster Opslagplaats is niet ingesteld op de **Mapprofiel** in Gebruikersvoorkeuren. 5918
+* Element-id&#39;s worden niet automatisch gegenereerd voor elementen die worden toegevoegd met de functie Inhoud hergebruiken van de hoofdwerkbalk. 5826
 
 ### UI Middelen
 
-* Beeldbewerking werkt niet zoals verwacht op de cloudserver. (8768)
-* In het deelvenster Versiehistorie wordt in de huidige sectie een onjuiste tijdstempel weergegeven en deze wordt door informatie gewijzigd. (8765)
-* Het uploaden van DITAVAL-bestanden naar de cloudserver mislukt wanneer AEM bureaubladgereedschap wordt gebruikt. (8707)
-* De tweede beheerdergebruiker kan niet als eerste beheerdergebruiker aan een omslag worden toegevoegd. (8430)
-* Niet-unieke eigenschappen van een element worden niet gekopieerd wanneer het element wordt gekopieerd en geplakt. (8241)
+* Beeldbewerking werkt niet zoals verwacht op de cloudserver. 8768
+* In het deelvenster Versiehistorie wordt in de huidige sectie een onjuiste tijdstempel weergegeven en deze wordt door informatie gewijzigd. 8765
+* Het uploaden van DITAVAL-bestanden naar de cloudserver mislukt wanneer AEM bureaubladgereedschap wordt gebruikt. 8707
+* De tweede beheerdergebruiker kan niet als eerste beheerdergebruiker aan een omslag worden toegevoegd. 8430
+* Niet-unieke eigenschappen van een element worden niet gekopieerd wanneer het element wordt gekopieerd en geplakt. 8241
 
 ### Bruikbaarheid
 
-* Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. (8793)
+* Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. 8793
 * In de **Zoeken en vervangen** verschijnt er een ongewenst pictogram op de muisaanwijzer in de resultatensectie. (8775)
-* Het pictogram Aangepast wordt niet gekozen uit de eigenschap en in plaats daarvan wordt het standaardpictogram weergegeven voor de rapporten die worden gegenereerd met de knop Rapport genereren. (8573)
+* Het pictogram Aangepast wordt niet gekozen uit de eigenschap en in plaats daarvan wordt het standaardpictogram weergegeven voor de rapporten die worden gegenereerd met de knop Rapport genereren. 8573

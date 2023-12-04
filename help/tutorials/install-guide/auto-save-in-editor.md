@@ -1,13 +1,12 @@
 ---
 title: Bestanden automatisch opslaan in de webeditor configureren
 description: Leer hoe te om dossier te vormen automatisch sparen in de Redacteur van het Web
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
 
 ---
-
 
 # Bestanden automatisch opslaan in de webeditor configureren {#id199CC0J0M5Z}
 
@@ -25,7 +24,7 @@ De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van co
 
 1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *XmlEditorConfig* instellingen, selecteert u de **Automatisch opslaan** optie.
+1. In de *XmlEditorConfig* instellingen, selecteert u de **Automatisch opslaan** -optie.
 
 1. In de **Interval automatisch opslaan** geeft u het tijdsinterval in seconden op om de functie voor automatisch opslaan te activeren.
 
@@ -33,4 +32,3 @@ De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van co
 
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Tekstfilters configureren
 description: Leer hoe u tekstfilters kunt configureren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
-
 
 # Tekstfilters configureren {#id21BPD0FK0XA}
 
@@ -100,4 +99,3 @@ Voer de volgende stappen uit om de tekstfilters te configureren:
 De geconfigureerde filters zijn beschikbaar in het deelvenster Filters.
 
 **Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
-
