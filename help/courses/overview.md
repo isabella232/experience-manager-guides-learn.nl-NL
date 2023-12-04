@@ -1,15 +1,15 @@
 ---
-title: Videogebaseerde cursussen voor [!DNL Adobe Experience Manager Guides]
+title: Videozelfstudies voor [!DNL Adobe Experience Manager Guides]
 description: Videozelfstudies bekijken over [!DNL Adobe Experience Manager Guides], AEM XML Add-on, AEM XML Plugin, AEM DoX, en AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
 
-# Videocursussen voor [!DNL Adobe Experience Manager Guides] {#overview}
+# Videozelfstudies voor [!DNL Adobe Experience Manager Guides] {#overview}
 
 Bekijk deze ruimte voor videocursussen voor [!DNL Adobe Experience Manager Guides].
 
@@ -21,12 +21,12 @@ Bekijk deze ruimte voor videocursussen voor [!DNL Adobe Experience Manager Guide
 
 * **[[!DNL AEM Guides] Authoring Cursus](course-3/overview.md)**
 
-   *Geavanceerde gebruikershandleiding naar [!DNL AEM Guides] Editor*
+  *Geavanceerde gebruikershandleiding naar [!DNL AEM Guides] Editor*
 
 * **[[!DNL AEM Guides] Aan de slag-cursus](course-1/overview.md)**
 
-   *Leer hoe u inhoud maakt, ordent, ontwerpt en publiceert met [!DNL Adobe Experience Manager Guides].*
+  *Leer hoe u inhoud maakt, ordent, ontwerpt en publiceert met [!DNL Adobe Experience Manager Guides].*
 
 * **[Uitvoergeneratie met [!DNL AEM Guides]](course-2/overview.md)**
 
-   *Leer hoe u uitvoer genereert met [!DNL Adobe Experience Manager Guides]. Meer informatie over de verschillende functies die beschikbaar zijn voor het genereren van uitvoer: rapporten, basislijnen, voorwaarden, probleemoplossing, bulkpublicaties en activering.*
+  *Leer hoe u uitvoer genereert met [!DNL Adobe Experience Manager Guides]. Meer informatie over de verschillende functies die beschikbaar zijn voor het genereren van uitvoer: rapporten, basislijnen, voorwaarden, probleemoplossing, bulkpublicaties en activering.*

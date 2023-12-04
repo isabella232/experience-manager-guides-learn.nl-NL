@@ -1,20 +1,20 @@
 ---
-user-guide-title: Video's van handleidingen voor Adobe Experience Manager
+user-guide-title: Zelfstudies voor Adobe Experience Manager-hulplijnen
 user-guide-description: Een verzameling video's voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Video's van handleidingen voor AEM
-source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 14%
+source-wordcount: '125'
+ht-degree: 9%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides] zelfstudies {#videos}
 
 + [[!DNL AEM Guides] Video&#39;s](overview.md)
 + Aan de slag met [!DNL AEM Guides] {#getting-started}
-   + [Cursusoverzicht](./course-1/overview.md)
+   + [Aan de slag - overzicht](./course-1/overview.md)
    + [De AEM-gebruikersinterface begrijpen](./course-1/understanding-the-aem-user-interface.md)
    + [Inhoud maken en structureren](./course-1/creating-and-structuring-content.md)
    + [Werken met afbeeldingen](./course-1/working-with-images.md)
@@ -25,7 +25,7 @@ ht-degree: 14%
    + [Standaarduitvoer publiceren](./course-1/publishing-default-output.md)
    + [Opnieuw](./course-1/recap.md)
 + Uitvoergeneratie met [!DNL AEM Guides] {#output-generation}
-   + [Overzicht](./course-2/overview.md)
+   + [Overzicht van genereren van uitvoer](./course-2/overview.md)
    + [Werken met het kaartdashboard](./course-2/introduction-to-the-map-dashboard.md)
    + [Werken met rapporten](./course-2/working-with-reports.md)
    + [Maken en publiceren met basislijnen](./course-2/creating-and-publishing-with-baselines.md)
@@ -35,7 +35,7 @@ ht-degree: 14%
    + [Bulkpublicaties](./course-2/bulk-publishing.md)
    + [Opnieuw](./course-2/recap.md)
 + Ontwerpen met [!DNL AEM Guides] Editor {#advanced-user-guide}
-   + [Inleiding/overzicht](./course-3/overview.md)
+   + [Overzicht van ontwerpen](./course-3/overview.md)
    + [Gebruikersvoorkeuren, Editor-instellingen en Editor-werkbalken](./course-3/user-settings-preferences-toolbars.md)
    + [Mapprofielen](./course-3/folder-profiles.md)
    + [Editor-configuratie](./course-3/editor-configuration.md)

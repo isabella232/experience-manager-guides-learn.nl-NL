@@ -2,16 +2,16 @@
 title: Uitvoergeneratie met [!DNL AEM Guides]
 description: Uitvoergeneratie met [!DNL Adobe Experience Manager Guides]
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
-# Overzicht
+# Overzicht van genereren van uitvoer
 
-In deze cursus leert u het volgende te doen:
+In deze set zelfstudies leert u het volgende te doen:
 
 - [Het kaartdashboard begrijpen](./introduction-to-the-map-dashboard.md)
 - [Werken met rapporten](./working-with-reports.md)
