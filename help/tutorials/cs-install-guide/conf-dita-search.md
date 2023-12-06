@@ -1,9 +1,9 @@
 ---
 title: Zoeken naar gebruikersinterface van AEM Assets configureren
 description: Leer hoe u zoekopdrachten voor de gebruikersinterface van AEM Assets kunt configureren
-source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
+source-git-commit: 14b835074e2b1847f07887275d2cbb81ddd7541d
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -130,15 +130,15 @@ Een regel bestaat uit het volgende:
 
 xpath : Dit is de XPath-query die de elementen of kenmerken van DITA-bestanden ophaalt. De standaardconfiguratie voor de elementregel wint allen terug `prolog` elementen. En, wint de standaardconfiguratie voor de attributenregel alle attributen van terug `prolog` elementen. U kunt een vraag van XPath specificeren om de elementen of de attributen in series te vervaardigen die u wilt zoeken.
 
-    De XPath-query bevat de klassenaam van het documenttype. De klasse ` topic/topic ` wordt gebruikt voor onderwerptype DITA documenten. Als u een regel wilt maken voor andere DITA-documenten, moet u de volgende klassenamen gebruiken:
-    
-    |Documenttype|Klassenaam|
-    |—|—|
-    |Onderwerp|- onderwerp/onderwerp|
-    |Taak|- onderwerp/onderwerp/taak|
-    |Concept|- onderwerp/onderwerp/concept|
-    |Referentie|- onderwerp/onderwerp/referentie|
-    |Kaart|- kaart/kaart|
+De XPath-query bevat de klassenaam van het documenttype. De `topic/topic` De klasse wordt gebruikt voor onderwerptype DITA documenten. Als u een regel wilt maken voor andere DITA-documenten, moet u de volgende klassenamen gebruiken:
+
+| Documenttype | Klassenaam |
+|-------------|----------|
+| Onderwerp | - onderwerp/onderwerp |
+| Taak | - onderwerp/onderwerp/taak |
+| Concept | - onderwerp/onderwerp/concept |
+| Referentie | - onderwerp/onderwerpverwijzing/verwijzing |
+| Kaart | - kaart/kaart |
 
 text : Als u naar de tekst binnen het opgegeven element wilt zoeken, geeft u de waarde ja op. Als u geen waarde opgeeft, worden alleen de kenmerken in het element geserialiseerd. De kenmerken waarnaar u wilt zoeken, moeten worden opgegeven in de sectie voor kenmerksets.
 
