@@ -1,11 +1,11 @@
 ---
-user-guide-title: Zelfstudies voor Adobe Experience Manager-hulplijnen
+user-guide-title: Tutorials voor Adobe Experience Manager Guides
 user-guide-description: Een verzameling video's voor Adobe Experience Manager-handleidingen.
 breadcrumb-title: Video's van handleidingen voor AEM
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
