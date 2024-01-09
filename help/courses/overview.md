@@ -2,14 +2,14 @@
 title: Videozelfstudies voor [!DNL Adobe Experience Manager Guides]
 description: Videozelfstudies bekijken over [!DNL Adobe Experience Manager Guides], AEM XML Add-on, AEM XML Plugin, AEM DoX, en AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: 28aa657e4ab0bb1297469ea60f4b4f87ad07c961
+source-git-commit: 0c2a131c2e8125590e4b624d7fe16ebd1fbbce16
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
-# Video&#39;s van handleidingen voor AEM
+# Tutorials voor AEM-handleidingen
 
 Bekijk deze ruimte voor videocursussen voor [!DNL Adobe Experience Manager Guides].
 
